@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 08:48 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 09:19 Uhr._
 
 **Als Nächstes online:** 📱 Story `08-story-rueckblick` am **So 11.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -43,19 +43,19 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | So 11.10. 12:15 | 📱 Story `08-story-rueckblick` | 🟢 freigegeben (geht automatisch online) |  · [Freigabe #15](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/15) |
-| So 11.10. 19:30 | 🎬 Reel `13-reel-verknuepfung` | 🟢 freigegeben (geht automatisch online) | 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. #BEZUG! zwei Tage vor Abgabe – Verknüpfung auf die alte Datei. Vorgezogen vom 16.10. |
+| So 11.10. 19:30 | 🎬 Reel `13-reel-verknuepfung` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. #BEZUG! zwei Tage vor Abgabe – Verknüpfung auf die alte Datei. Vorgezogen vom 16.10. |
 | Mo 12.10. 12:15 | 📱 Story `03-story-quiz` | 🟢 freigegeben (geht automatisch online) |  |
-| Mo 12.10. 19:30 | 🎬 Reel `14-reel-versionen` | 🟢 freigegeben (geht automatisch online) | 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 3: final_final_v3. Vorgezogen vom 18.10. |
+| Mo 12.10. 19:30 | 🎬 Reel `14-reel-versionen` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 15 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 3: final_final_v3. Vorgezogen vom 18.10. |
 | Di 13.10. 12:30 | 🖼️ Karussell `03-gewst-hinzurechnung` | 🟢 freigegeben (geht automatisch online) |  |
 | Di 13.10. 12:35 | 📱 Story `03-story-teaser` | 🟢 freigegeben (geht automatisch online) |  |
-| Di 13.10. 19:30 | 🎬 Reel `15-reel-rechnungsnummern` | 🟢 freigegeben (geht automatisch online) | 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 4: doppelte Rechnungsnummer. Vorgezogen vom 20.10. |
+| Di 13.10. 19:30 | 🎬 Reel `15-reel-rechnungsnummern` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 4: doppelte Rechnungsnummer. Vorgezogen vom 20.10. |
 | Mi 14.10. 12:15 | 📱 Story `09-story-quiz` | 🟢 freigegeben (geht automatisch online) | 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Mi 14.10. 19:30 | 🎬 Reel `07-reel-hinzurechnung` | 🟢 freigegeben (geht automatisch online) | Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot · [Freigabe #14](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/14) |
 | Do 15.10. 12:15 | 📱 Story `09-story-aufloesung` | 🟢 freigegeben (geht automatisch online) | 10.10.: Go von Loris (Rückstellungskarussell). · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Do 15.10. 12:30 | 🖼️ Karussell `09-rueckstellung` | 🟢 freigegeben (geht automatisch online) | 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %) · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Do 15.10. 12:35 | 📱 Story `09-story-teaser` | 🟢 freigegeben (geht automatisch online) | 10.10.: Go von Loris (Rückstellungskarussell). · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Do 15.10. 18:00 | 📱 Story `04-story-frage` | 🟢 freigegeben (geht automatisch online) |  · [Freigabe #44](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/44) |
-| Do 15.10. 19:30 | 🎬 Reel `16-reel-listen` | 🟢 freigegeben (geht automatisch online) | 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch. |
+| Do 15.10. 19:30 | 🎬 Reel `16-reel-listen` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch. |
 | Fr 16.10. 12:15 | 📱 Story `03-story-aufloesung` | 🟢 freigegeben (geht automatisch online) |  |
 | Fr 16.10. 19:30 | 🎬 Reel `04-reel-mein-weg` | 🟢 freigegeben (geht automatisch online) | 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label). |
 | Fr 16.10. 19:35 | 📱 Story `04-story-teaser` | 🟢 freigegeben (geht automatisch online) |  · [Freigabe #44](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/44) |
@@ -79,10 +79,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Fr 09.10. 12:35 · 📱 Story `05-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4004067818916764813) (online 2026-10-09 12:35)
 - Fr 09.10. 12:30 · 🖼️ Karussell `05-latente-steuern` · [ansehen](https://www.instagram.com/p/DeRTLb4EYwd/) (online 2026-10-09 12:31)
 - Do 08.10. 19:35 · 📱 Story `06-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4003554454352185254) (online 2026-10-08 19:35)
+- Do 08.10. 19:30 · 🎬 Reel `06-reel-split` · [ansehen](https://www.instagram.com/reel/DePeYymNG2K/)
 - Mi 07.10. 19:35 · 📱 Story `02-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4002829658245043420) (online 2026-10-07 19:35)
 - Mi 07.10. 19:30 · 🖼️ Karussell `02-excel-fehler` · [ansehen](https://www.instagram.com/p/DeM5u1vGLsR/) (online 2026-10-07 19:32)
 - Mi 07.10. 12:15 · 📱 Story `05-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4002608197877985940) (online 2026-10-07 12:15)
-- Di 06.10. 19:35 · 📱 Story `11-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4002104878277412503) (online 2026-10-06 19:35)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -128,6 +128,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 11.10.2026**
+- 09:19 ✍️ Reels 13–16 auf 12–15 s gekürzt (Pointe in den ersten 5 s) ([`ab29fc7`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/ab29fc72493fa83e4e4f965d6c23cd9d6a1da7a2))
+  - Plan: `06-reel-split` status: manuell → veroeffentlicht; `06-reel-split` online: https://www.instagram.com/reel/DePeYymNG2K/
+- 09:19 ✍️ Tagesbericht: Reel-Länge, Soll-Ist, Skip-Verlauf, Shares-Hinweis, 1620 px ([`9c2a71c`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/9c2a71c0e06cc283c105633c046f8e264d753f5d))
+  - `automatik/berichte`, `automatik/insights_voll.py`, `automatik/tagesbericht.py`
 - 08:48 📈 Statistik 2026-10-11 ([`dd8e4a6`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/dd8e4a65d1436f9e3b0bd75cc599956fe798b940))
   - `automatik/statistik`
 - 07:04 📡 Radar 2026-10-11: 8 Beiträge, 0 DM-Entwürfe ([`ee909ef`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/ee909efeab6ddaf414905244f8d0806eab3e0b05))
