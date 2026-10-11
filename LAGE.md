@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 15:33 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 18:15 Uhr._
 
 **Als Nächstes online:** 🎬 Reel `13-reel-verknuepfung` am **So 11.10. 19:30 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -137,6 +137,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 11.10.2026**
+- 18:15 🤖 Autopilot: Dateien fuer 13-reel-verknuepfung vorbereitet ([`e614761`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/e614761f9a5cb84ed2431b4048bbaf70c2d23795))
+  - `posts/13_2026-10-11_reel_verknuepfung`
+- 18:02 ✍️ Wochenbericht KW 2026-41 ([`36fba34`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/36fba34b680db5d5a8e921a37b9940ec8b256e6b))
+  - `automatik/statistik`
 - 15:33 📈 Statistik 2026-10-11 ([`47f6bbd`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/47f6bbd047525bd94869e79ea3c6a0ef58f1ddd7))
   - `automatik/statistik`
 - 13:25 📡 Radar 2026-10-11: 8 Beiträge, 0 DM-Entwürfe ([`38b03af`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/38b03af8ea3a9247fa4a55c0a401933958834c09))
