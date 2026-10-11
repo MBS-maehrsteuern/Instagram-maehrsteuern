@@ -86,3 +86,7 @@ Der aktuelle Haken bleibt Standard. Die Varianten sind Optionen für die Content
 | 08 Feature-Reel (17.11.) | „Ihr habt abgestimmt – ich baue das Feature“ | „Ihr wolltet es. *Hier ist es.*“ | „Ich habe versucht, *euer Feature* an einem Wochenende zu bauen.“ |
 
 **Storys vor Beiträgen:** Frage-Hooks (Baustein „Frage“) behalten – sie liefern die Antworten, auf die der Beitrag dann eingeht. Am Folgetag die Auflösung mit Teaser-Hook („Warte kurz – gleich kommt die Lösung …“).
+
+## Hook-Kürzel im Plan (ab 11.10.)
+Jeder Feed-Beitrag bekommt in `automatik/plan.json` `"hook": "fall"` (konkreter Fall aus der Steuerabteilung oder Prüfer-/Finanzamt-Perspektive)
+oder `"hook": "zahl"` (These mit Zahl/Frist). Pro Fabrik-Lauf mindestens ein *fall*-Hook. Der Tagesbericht vergleicht beide Gruppen ab n ≥ 3.

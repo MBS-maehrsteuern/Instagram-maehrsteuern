@@ -44,6 +44,33 @@ Stand 03.10.2026. Bewertung und Freigabe durch Loris, Umsetzung durch Claude.
 - **Rechnung:** 3 × 6 = 18 Plätze für 14 Beiträge. Das lässt Puffer für Slots, die bewusst leer bleiben, und für Loris' manuelle Reels.
 - **Engpass ist nicht die Fabrik, sondern die Freigabe.** 14 Freigaben pro Woche heißt 2 pro Tag. Freigabe-Issues deshalb bündeln (ein Issue je Lauf statt je Beitrag), wenn das zu viel wird.
 
+## 🔧 Umsetzung Auswertung 11.10.
+**Erledigt (Claude, 11.10.):** Tagesbericht repariert (Reel-Länge auch für von Hand gepostete Reels, Soll-Ist, Skip-Verlauf, ⚠️ Geteilt > Erreicht,
+Median-Hook, 1620 px) · Reels 13–16 auf 12–15 s gekürzt · Mittags-Feed 12:15, Storys 12:45 · Sprechtexte 18–22 (≤ 15 s, Rechtsstand geprüft;
+Verlustvortrag auf 70 % korrigiert) · `15_plan_2_pro_tag.md` · Tagesbericht-Routine auf 09:15 · Monatsbericht-Routine: neue Commit-Regel + Commit-Erlaubnis.
+
+**Vorschläge zu freigegebenen Beiträgen (nicht umgesetzt – Go im Freigabe-Issue):**
+- **04-story-frage** (Do 15.10. 18:00, Issue #44): offene Frage „Was willst du über mich wissen?“ → Tipp-Version `story_mo_frage_tippen.png`
+  (👏 = mehr über mich · 😮 = mehr Tools) liegt im Ordner. Bei Go nur `bilder` im Plan tauschen.
+- **01-reel-ampel** (Sa 17.10.): 26 s → per Schnitt auf ca. 15 s kürzen (Regel 12–15 s). Bei Go schneide ich es.
+- **04-reel-mein-weg** (Fr 16.10.): 13 s, passt.
+- **22-reel-steuersatz** (So 18.10.): Themen-Dopplung mit dem KSt-Reel vom 10.10. – auf KW 44 schieben? (siehe `15_plan_2_pro_tag.md`).
+
+**Routinen – nur Loris kann klicken (claude.ai/code → Routinen):**
+1. „Instagram Tagesbericht 9 Uhr“: **Quelle/Repo** `maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen (die Routine hat aktuell
+   *keine* Quelle → Push 403 „not in this session's authorized repository set“). **Connectoren:** Google Calendar und GitHub hinzufügen.
+   GitHub → Settings → Applications → Claude → Repository access: Instagram-maehrsteuern (großes I) freigeben.
+2. Prompt der Tagesbericht- und der Fabrik-Routine: nur aus deren eigenem Chat änderbar. Neue Texte: `automatik/routinen/tagesbericht.md`
+   und `automatik/routinen/content_fabrik.md` – die Bitte zum Übernehmen wurde am 11.10. in beide Routine-Chats geschickt; prüfen, ob sie es getan haben.
+3. Berechtigungen: Die Prompts enthalten jetzt die Zeile „ERLAUBNIS: … darf und soll committen und pushen“. Falls der Auto-Modus trotzdem
+   „Unrequested Commit“ meldet: in den Routine-Einstellungen den Berechtigungsmodus auf „Bypass/Auto mit Git erlaubt“ stellen.
+
+**Zeitplan:** Statistik ca. 08:48, Tagesbericht jetzt 09:15 (vorher 08:58, zu knapp). Die zwei Zusatzläufe am 09.10. um 05:54/05:55 Berlin
+(03:54/03:55 UTC) fallen mit der Änderung der Routine um 03:50 UTC zusammen (Prompt-Update + Testauslösung) – kein Doppel-Trigger im Zeitplan.
+
+**Sammel-Freigabe (3.3a, Vorschlag):** ein Freigabe-Issue pro Woche (Mo 19:00) mit allen Entwürfen der Woche, „go 12“ / „go alle“ je Zeile.
+Dafür `automatik/freigabe.py` umbauen – erst nach Loris' Go.
+
 ## ⏸️ Zurückgestellt bis ca. 15 Beiträge
 Vorher fehlen die Daten, um daraus etwas Belastbares abzuleiten.
 - **#4 Rückmeldung an die Content-Fabrik** – 48 h nach jedem Beitrag Speichern/Teilen pro Reichweite bewerten, Ergebnis in `strategie/was_funktioniert.md`, die Fabrik liest es mit

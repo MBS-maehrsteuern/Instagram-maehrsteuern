@@ -7,7 +7,8 @@
       "kalender": true,
       "zeigen_ab_tagen": 1,
       "titel": "🎬 Split-Reel in Edits bauen + auf 19:30 planen (Edits-Test)",
-      "text": "Anleitung: Google Doc „Edits-Anleitung Split-Reel (Do 08.10.)“ im Drive-Ordner „Maehrsteuern audios“. Dateien kamen per Claude-Chat (auch im Repo: posts/02_2026-10-06_excel_fehler/edits_paket/). Bildunterschrift aus der Textdatei kopieren (im Doc sind die Emojis kaputt). Danach Claude Bescheid geben. Der Autopilot postet dieses Reel NICHT."
+      "text": "Anleitung: Google Doc „Edits-Anleitung Split-Reel (Do 08.10.)“ im Drive-Ordner „Maehrsteuern audios“. Dateien kamen per Claude-Chat (auch im Repo: posts/02_2026-10-06_excel_fehler/edits_paket/). Bildunterschrift aus der Textdatei kopieren (im Doc sind die Emojis kaputt). Danach Claude Bescheid geben. Der Autopilot postet dieses Reel NICHT.",
+      "erledigt": true
     },
     {
       "id": "linkedin-18",
@@ -32,6 +33,30 @@
       "zeigen_ab_tagen": 7,
       "titel": "💳 ManyChat-Trial endet Fr 16.10. – entscheiden",
       "text": "Entscheidung Loris: weiter (Kosten?) oder kündigen. Grundlage: ManyChat gesendet/Klicks und Demos aus den Wochenberichten KW 40 + 41.\nOhne Entscheidung läuft die DM-Strecke (TOOL → Demo-Link) evtl. nicht weiter – vor dem 16.10. klären, nichts automatisch buchen."
+    },
+    {
+      "id": "sprachnachrichten-18-22",
+      "wann": "2026-10-14T19:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 3,
+      "titel": "🎙️ 5 Sprechtexte einsprechen (je ≤ 15 s): Steuersatz, Aufbewahrung, Verlustvortrag, E-Rechnung, Zinsschranke",
+      "text": "Texte in posts/sprechtexte.md, Abschnitt „Neue Sprechtexte (11.10.)“. In Drive „Maehrsteuern audios“ ablegen. Ohne Aufnahme bleiben die Reel-Slots So 18.10. bis Do 22.10. 19:30 leer (keine Lücke mehr im Reel-Takt)."
+    },
+    {
+      "id": "manychat-zahlen-29",
+      "wann": "2026-10-12T19:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 1,
+      "titel": "📊 ManyChat-Zahlen im Wochenbericht #29 nachtragen",
+      "text": "Im Issue #29 kommentieren: manychat x/y und „Gesamtstand ManyChat: gesendet X / Klicks Y“. Grundlage für die Entscheidung zum Trial (endet Fr 16.10., Entscheidung Mi 14.10.)."
+    },
+    {
+      "id": "highlight-start",
+      "wann": "2026-10-13T19:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 2,
+      "titel": "📌 Highlight „Start 👋“ in der App anlegen + Bio-Nutzen-Satz eintragen",
+      "text": "Highlight aus den Start-Storys (30.09.) und der Neuvorstellung. Bio-Vorschlag in strategie/02_bio_highlights.md (Nutzen-Satz statt Leitspruch). Die Story zum Bio-Link läuft Di 13.10. 19:35 (Entwurf, Freigabe nötig)."
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+ "ausgabe": "../../posts/04_2026-10-20_reel_mein_weg",
+ "bilder": [
+  {"vorlage": "story", "datei": "story_mo_frage_tippen.png", "typ": "antwort", "kicker": "Kurz antippen",
+   "titel": "Mehr über *mich* oder mehr *Tools*?",
+   "punkte": ["👏 = mehr über mich", "😮 = mehr Tools"],
+   "antwort": "Tipp unten auf ein Emoji – ein Tipp reicht"}
+ ]
+}

@@ -381,13 +381,14 @@
     },
     {
       "id": "03-story-quiz",
-      "zeit": "2026-10-12 12:15",
+      "zeit": "2026-10-12 12:45",
       "typ": "story",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "bilder": [
         "story_mo_quiz.png"
       ],
-      "status": "freigegeben"
+      "status": "freigegeben",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
     },
     {
       "id": "14-reel-versionen",
@@ -404,7 +405,7 @@
     },
     {
       "id": "03-gewst-hinzurechnung",
-      "zeit": "2026-10-13 12:30",
+      "zeit": "2026-10-13 12:15",
       "typ": "karussell",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "bilder": [
@@ -419,17 +420,19 @@
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": false,
-      "hook": "fall"
+      "hook": "fall",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
     },
     {
       "id": "03-story-teaser",
-      "zeit": "2026-10-13 12:35",
+      "zeit": "2026-10-13 12:45",
       "typ": "story",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "bilder": [
         "story_di_teaser.png"
       ],
-      "status": "freigegeben"
+      "status": "freigegeben",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
     },
     {
       "id": "15-reel-rechnungsnummern",
@@ -445,15 +448,26 @@
       "hook": "fall"
     },
     {
+      "id": "23-story-biolink",
+      "zeit": "2026-10-13 19:35",
+      "typ": "story",
+      "ordner": "posts/23_2026-10-13_story_biolink",
+      "bilder": [
+        "story_biolink.png"
+      ],
+      "status": "entwurf",
+      "hinweis": "Auswertung 11.10.: 0 Bio-Link-Klicks. Story erklärt, was hinter dem Link steckt (15-Min-Demo). Ohne Sticker, automatisch postbar."
+    },
+    {
       "id": "09-story-quiz",
-      "zeit": "2026-10-14 12:15",
+      "zeit": "2026-10-14 12:45",
       "typ": "story",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
         "story_mi_quiz.png"
       ],
       "status": "freigegeben",
-      "hinweis": "10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell",
       "issue": 35
     },
     {
@@ -470,20 +484,8 @@
       "hook": "fall"
     },
     {
-      "id": "09-story-aufloesung",
-      "zeit": "2026-10-15 12:15",
-      "typ": "story",
-      "ordner": "posts/09_2026-10-15_rueckstellung",
-      "bilder": [
-        "story_do_aufloesung.png"
-      ],
-      "status": "freigegeben",
-      "issue": 35,
-      "hinweis": "10.10.: Go von Loris (Rückstellungskarussell)."
-    },
-    {
       "id": "09-rueckstellung",
-      "zeit": "2026-10-15 12:30",
+      "zeit": "2026-10-15 12:15",
       "typ": "karussell",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
@@ -497,14 +499,14 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
       "issue": 35,
       "stimme": false,
       "hook": "zahl"
     },
     {
       "id": "09-story-teaser",
-      "zeit": "2026-10-15 12:35",
+      "zeit": "2026-10-15 12:45",
       "typ": "story",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
@@ -512,7 +514,7 @@
       ],
       "status": "freigegeben",
       "issue": 35,
-      "hinweis": "10.10.: Go von Loris (Rückstellungskarussell)."
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
     },
     {
       "id": "04-story-frage",
@@ -539,14 +541,27 @@
       "hook": "fall"
     },
     {
+      "id": "09-story-aufloesung",
+      "zeit": "2026-10-15 19:35",
+      "typ": "story",
+      "ordner": "posts/09_2026-10-15_rueckstellung",
+      "bilder": [
+        "story_do_aufloesung.png"
+      ],
+      "status": "freigegeben",
+      "issue": 35,
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
+    },
+    {
       "id": "03-story-aufloesung",
-      "zeit": "2026-10-16 12:15",
+      "zeit": "2026-10-16 12:45",
       "typ": "story",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "bilder": [
         "story_fr_aufloesung.png"
       ],
-      "status": "freigegeben"
+      "status": "freigegeben",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
     },
     {
       "id": "04-reel-mein-weg",
@@ -597,16 +612,81 @@
       "hinweis": "10.10.: mit dem Ampel-Reel auf Sa 17.10. · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“."
     },
     {
+      "id": "22-reel-steuersatz",
+      "zeit": "2026-10-18 19:30",
+      "typ": "reel",
+      "ordner": "posts/22_2026-10-18_reel_steuersatz",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "wartet_auf_sprachnachricht",
+      "stimme": true,
+      "hook": "zahl",
+      "hinweis": "CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot."
+    },
+    {
+      "id": "18-reel-aufbewahrung",
+      "zeit": "2026-10-19 19:30",
+      "typ": "reel",
+      "ordner": "posts/18_2026-10-19_reel_aufbewahrung",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "wartet_auf_sprachnachricht",
+      "stimme": true,
+      "hook": "zahl",
+      "hinweis": "§ 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot."
+    },
+    {
+      "id": "19-reel-verlustvortrag",
+      "zeit": "2026-10-20 19:30",
+      "typ": "reel",
+      "ordner": "posts/19_2026-10-20_reel_verlustvortrag",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "wartet_auf_sprachnachricht",
+      "stimme": true,
+      "hook": "fall",
+      "hinweis": "Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot."
+    },
+    {
+      "id": "20-reel-erechnung",
+      "zeit": "2026-10-21 19:30",
+      "typ": "reel",
+      "ordner": "posts/20_2026-10-21_reel_erechnung",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "wartet_auf_sprachnachricht",
+      "stimme": true,
+      "hook": "zahl",
+      "hinweis": "Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot."
+    },
+    {
       "id": "10-story-umfrage",
-      "zeit": "2026-10-22 12:15",
+      "zeit": "2026-10-22 12:45",
       "typ": "story",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
         "story_mi_umfrage.png"
       ],
       "status": "freigegeben",
-      "hinweis": "Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
       "issue": 31
+    },
+    {
+      "id": "21-reel-zinsschranke",
+      "zeit": "2026-10-22 19:30",
+      "typ": "reel",
+      "ordner": "posts/21_2026-10-22_reel_zinsschranke",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "wartet_auf_sprachnachricht",
+      "stimme": true,
+      "hook": "zahl",
+      "hinweis": "§ 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot."
     },
     {
       "id": "10-e-rechnung",

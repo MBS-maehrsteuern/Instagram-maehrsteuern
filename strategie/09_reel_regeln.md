@@ -26,6 +26,14 @@ Vorlage zum Kopieren: `vorlagen/system/schnitt/p01_reel_ampel_hook.json` (Render
   Richtwerte: Stimme ca. −18 LUFS, Musik ~0,13, Atmo 0,2–0,3.
 - Aufnahme: Abstand zum Handy-Mikro halten (sonst klingt es kratzig/übersteuert), ruhiger Raum.
 
+## Länge: 12–15 s (Auswertung 11.10.)
+- Ø gesehen nur **20–24 % der Länge**, egal ob 23 s oder 41 s; Skip 62–82 %. Die Zuschauer gehen nach ca. 5–7 s – die Länge
+  ist also nicht das Problem, sondern alles nach dem Einstieg.
+- **Regel ab 11.10.:** Reels **12–15 s**, die **Pointe in den ersten 5 s** (Ergebnis oder Zahl, nicht erst der Weg dorthin),
+  Hook-Text ab 0,3 s und ohne Ton verständlich, höchstens 3 Punkte. Sprechtexte höchstens 35–40 Wörter.
+- Bereits aufgenommene Sprachnachrichten werden nicht verworfen, sondern per Schnitt gekürzt (13–16 am 11.10.: 22–26 s → 13–15 s).
+- Täglich mindestens ein Reel: Der Tag ohne Reel (09.10.) erreichte 66 Konten, der Tag mit zwei Reels (10.10.) 362.
+
 ## Listen-Reels: höchstens 3 Punkte (Entscheidung Loris, 04.10.)
 - Reel „5 Dinge mit Code statt Excel“ (41 s): Einstieg stark (46 % weitergewischt statt 66 %), aber Ø Sehdauer nur 7,6 s = 19 % der Länge – die meisten steigen nach Punkt 5/4 aus.
 - **Regel:** Listen-/Countdown-Reels mit **maximal 3 Punkten**, Ziel **unter 20 s**. Mehr Punkte → als Karussell oder als Serie (Teil 1, 2 …).

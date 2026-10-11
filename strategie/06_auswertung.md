@@ -1,4 +1,4 @@
-# 6 · Auswertung Instagram @maehrsteuern – Stand 30.09.2026
+# 6 · Auswertung Instagram @maehrsteuern – Stand 30.09.2026 (Nachträge bis 11.10.)
 
 Quelle: `automatik/statistik/insights_2026-09-30.json`, automatisch über die Instagram-API abgerufen. Das Konto gibt es seit Mai 2025.
 Den Abruf wiederholt der Autopilot jeden Montag (Workflow *Instagram-Statistik*).
@@ -141,6 +141,45 @@ Tiefpunkt 01–05 Uhr: 10–33 online.
 - **Sehdauer-Anteil:** Beide Stimm-Reels werden im Schnitt nur zu **23 %** gesehen (Monatsbericht 7,0 s von 30 s, 5 Dinge 9,6 s von 41 s). Der Ausstieg kommt nach dem ersten Drittel, unabhängig von der Länge. Ziel ≥ 40 %: Reels kürzer als 20 s oder die Pointe früher bringen.
 - **Story-Fragen:** In 24 h 3 Storys mit 0 Antworten, 25–48 Tipps weiter. Freitext-Antworten sind zu viel Aufwand. Ab 14.10. kommen Ja/Nein-Fragen per Emoji-Schnellreaktion (siehe 09-story-quiz).
 - **Methoden-Check:** Frische Beiträge (< 48 h) werden nicht mehr bewertet. Das ❌ bei „Wer schickt das an wen?“ am 08.10. war ein Messfehler (Karussell 12 h alt).
+
+## 9 · Stand 11.10. (Tagesbericht, 48-h-Regel)
+**Datenlage:** Follower 352 (05.10.) → 361 (11.10.). Reichweite pro Tag: 04.10. 428 · 05.10. 262 · 06.10. 220 · 07.10. 136 · 08.10. 216 ·
+09.10. **66** · 10.10. **362**. Nicht-Follower 90 % (30 Tage). Bio-Link 0 Klicks. Profil: 1 Follow bei 10 Besuchen (Karussells).
+
+- **(a) Reels tragen die Reichweite.** Ohne Reel (09.10.) 66, mit zwei Reels (10.10.) 362 → täglich mindestens ein Reel (`15_plan_2_pro_tag.md`).
+- **(b) Reels verlieren zu früh:** Skip 62–82 %, gesehen nur 20–24 % der Länge, egal ob 23 oder 41 s → Reels 12–15 s, Pointe in den ersten 5 s
+  (`09_reel_regeln.md`). Reels 13–16 am 11.10. per Schnitt gekürzt.
+- **(c) Karussells werden geteilt und gespeichert, erreichen aber wenig** (54–135 Konten). Rolle: Speichern + Weiterleiten, nicht Reichweite.
+- **(d) Mittags-Story mit offener Frage: 0 Antworten** an allen Tagen, Reichweite 7–13 % der Follower → nur noch Tipp-Formate
+  (Ja/Nein per Emoji, Zahl, Quiz, Umfrage).
+- **(e) Kein Beitrag mit klarem TOOL-Aufruf**, Bio-Link 0 → mindestens 1 CTA-Beitrag pro Woche (22-reel-steuersatz So 18.10.), Story zum Bio-Link (Di 13.10.).
+- **(f) 19:30 passt** (88–100 % der Spitzenstunde). Slot-Test 12:15 gegen 19:30 läuft ab 12.10.
+
+### Warum 84 Shares bei 54 Erreichten? (05-latente-steuern)
+- **Messung:** Instagram zählt bei `shares` jedes Senden (DM an mehrere Chats, Gruppen, Story-Weiterleitung, auch mehrfach durch dieselbe Person).
+  `reach` zählt eindeutige Konten. Bei Karussells kommt dazu, dass Weiterleitungen in Gruppen kaum neue Reichweite erzeugen, wenn die
+  Empfänger den Beitrag nicht öffnen. Geteilt > Erreicht ist also möglich, aber kein Qualitätsmaß 1 : 1.
+- **Im Bericht:** Werte über 100 % sind mit ⚠️ markiert und fließen **nicht** in „Wer schickt das an wen?“ ein, bis klar ist, ob das echte
+  Weiterleitungen sind (Gegenprobe: Story-Erwähnungen/DM-Eingänge, nächste Wochen beobachten).
+- **Inhaltlich (Hypothese):** konkreter Fehler mit Frist („ab 2028 falsch“), sofort prüfbar im eigenen Excel, und ein Satz, den man einem
+  Kollegen schickt („Mit welchem Satz rechnet ihr?“). Muster für Karussells: **konkrete Frist + Zahl + Frage an das Team.**
+
+### Hook-Ziel: Median statt Schnitt (Testmonat)
+- Ziel bisher: Ø Überspringrate < 60 %. Erreicht wurde es nie (62–76 %, n = 4). Bei n = 4 zieht ein einzelner Ausreißer (82 %) den Schnitt stark.
+- **Neu ab 11.10.:** **Median** der Überspringrate aller Reels ab 48 h, Ziel **< 65 %** (⚠️ bis 75 %). Begründung: robuster bei kleinem n;
+  65 % liegt zwischen den besten eigenen Reels (62–65 %) und dem Ist-Median (66 %) und ist mit kürzeren Reels erreichbar. Langfristiges Ziel bleibt 60 %.
+- „Ø Sehdauer ÷ Länge“ (Ziel ≥ 40 %) bleibt unverändert. Ist 27 % (n = 3); mit 12–15-s-Reels sollte der Anteil deutlich steigen.
+
+### Skip-Drift
+Frühe Skip-Werte steigen mit wachsender Reichweite (Monatsbericht 60 % bei 14 h → 67 % bei 37 h → 66 % bei 109 h). Die 48-h-Regel bleibt;
+der Tagesbericht zeigt die Skip-Rate je Reel jetzt mit Alter (Verlauf aus den Morgen-Schnappschüssen).
+
+### Was die API nicht liefert (geprüft 11.10.)
+- **Nicht-Follower je Beitrag:** `reach` mit `breakdown=follow_type` gibt es nur fürs Konto; je Beitrag steht `reach_aufgeteilt` immer unter `_fehlt`.
+  Spalte im Testmonat entfernt.
+- **Profilbesuche/Follows je Reel:** `profile_visits`, `profile_activity`, `follows` liefert die API nur für Feed-Beiträge (Karussells), bei Reels `_fehlt`.
+  Im Bericht „n. v.“.
+- **Reel-Länge:** nicht als Metrik; jetzt über die Videodatei im Beitragsordner oder `media_url` (ffprobe, Cache `statistik/laengen.json`).
 
 ## Was die API (noch) nicht liefert
 - **Kommentartexte:** Die Schnittstelle lieferte trotz Kommentaren leere Listen. Vermutlich fehlt die Berechtigung „Kommentare verwalten“ im Zugriffsschlüssel. Das ist für die Auswertung nicht wichtig.

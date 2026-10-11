@@ -15,15 +15,16 @@ Option für mehr Suchtreffer: `Loris | KI für Steuern`.
 ```
 Link: https://app.reclaim.ai/m/maehrsteuern/demo
 
-### Vorschlag 08.10.: Nutzen-Satz statt Leitspruch (noch nicht in der App)
+### Vorschlag 08.10.: Nutzen-Satz statt Leitspruch (noch nicht in der App · Stand 11.10.: weiter offen, 0 Bio-Link-Klicks, 1 Follow bei 10 Besuchen)
 Anlass: 0 von 7 Profilbesuchen wurden zu Follows. Die Bio sagt, *wer* du bist, aber nicht, *was der Besucher davon hat*.
 Die erste Zeile entscheidet, und sie ist heute ein Motto.
 ```
 📊 Steuerrückstellung & Co. ohne Excel-Chaos
 ⚙️ Ich baue Tools, die für deine Steuerabteilung rechnen
 🎓 Diplom-Finanzwirt · KI-Manager (IHK)
-💬 DM „TOOL“ → 15-Min-Demo, kostenlos
+💬 „TOOL“ kommentieren → 15-Min-Demo, kostenlos
 ```
+Neu 11.10.: Aufruf auf „kommentieren“ angeglichen (CTA-Reels sagen „Schreib TOOL in die Kommentare“; ManyChat reagiert auf Kommentar und DM). Highlight „Start 👋“ legt Loris von Hand an (Erinnerung Di 13.10.). Story zum Bio-Link: `23-story-biolink` (Di 13.10. 19:35, Entwurf).
 - Zeile 1 = Nutzen + Suchbegriff („Steuerrückstellung“, „Excel“) für die Instagram-Suche.
 - Zeile 2 = wer profitiert (Steuerabteilung/Kanzlei) und was du tust.
 - Zeile 4 = konkreter Schritt mit Zeitangabe statt „gratis Demo“. Die Dauer an den Reclaim-Termin anpassen.

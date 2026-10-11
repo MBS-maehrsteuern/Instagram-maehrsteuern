@@ -4,7 +4,45 @@ Ablauf: Text grob lesen, dann **locker frei sprechen** (Sprachnachricht vom Hand
 etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertiteln (Regeln: `strategie/09_reel_regeln.md`).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
-## 🎬 Serie „5 Dinge“ (geschrieben 06.10.) – ✓ alles eingesprochen 08.10., geschnitten, täglich 19:30 eingeplant
+## 🎙️ Neue Sprechtexte (11.10.) – je höchstens 15 s (35–40 Wörter)
+Auswertung 11.10.: Reels werden im Schnitt nur zu 20–24 % gesehen, egal ob 23 oder 41 s. Deshalb: **12–15 s, Pointe in den ersten 5 s,
+höchstens 3 Punkte.** Lieber zu langsam sprechen; Claude schneidet Atmer und Pausen raus. Bis **Mi 14.10.** in Drive „Maehrsteuern audios“.
+Rechtsstand geprüft am 11.10.2026. Aussagen mit „bei mir“/„früher“ nur sprechen, wenn sie für dich stimmen.
+
+### So 18.10. · „Der Steuersatz in Excel“ (`22-reel-steuersatz`, CTA-Reel der Woche)
+> Wie oft steht dein Steuersatz in Excel? Ab 2028 sinkt die Körperschaftsteuer jedes Jahr um einen Punkt, bis auf zehn Prozent.
+> Festwerte heißt: Zelle für Zelle ändern – und eine vergisst du. Bei mir: eine Zelle. Schreib TOOL in die Kommentare.
+
+Hook-Text: „30 % an 12 Stellen?“ · Rechtsstand: KSt 15 % bis 2027, dann 14/13/12/11 %, ab 2032 10 % (Investitionssofortprogramm 2025).
+
+### Mo 19.10. · „8 statt 10 Jahre“ (`18-reel-aufbewahrung`)
+> Buchungsbelege zehn Jahre aufbewahren? Seit 2025 nur noch acht. Bücher und Jahresabschlüsse bleiben bei zehn.
+> Aber: Solange das Jahr steuerlich noch offen ist, bleibt der Beleg im Archiv. Speicher dir das, bevor du den Keller ausmistest.
+
+Hook-Text: „10 Jahre? Nicht mehr.“ · Rechtsstand: § 147 Abs. 3 AO, § 257 HGB i. d. F. BEG IV – 8 Jahre für Buchungsbelege, deren Frist am 01.01.2025 noch nicht abgelaufen war; Ablaufhemmung bis zum Ende der Festsetzungsfrist (§ 147 Abs. 3 S. 5 AO).
+
+### Di 20.10. · „Verlustvortrag – und trotzdem Steuer“ (`19-reel-verlustvortrag`)
+> Drei Millionen Verlustvortrag, zwei Millionen Gewinn – und trotzdem Steuer? Ja, Mindestbesteuerung. Die erste Million voll,
+> vom Rest nur siebzig Prozent. Bleiben dreihunderttausend steuerpflichtig – bei der Gewerbesteuer vierhunderttausend. Demo-Zahlen. Speicher dir das.
+
+Hook-Text: „3 Mio. Verlust – trotzdem Steuer?“ · Rechtsstand: § 10d Abs. 2 EStG (über § 8 Abs. 1 KStG) VZ 2024–2027 **70 %** über dem Sockel von 1 Mio. €, ab 2028 wieder 60 %; Gewerbesteuer § 10a GewStG unverändert 60 %. **Korrektur:** Der Entwurf vom 08.10. nannte 60 % für die KSt – das gilt erst wieder ab 2028.
+
+### Mi 21.10. · „PDF ist keine E-Rechnung“ (`20-reel-erechnung`, Begleit-Reel zum Karussell Fr 23.10.)
+> Eine PDF per Mail ist keine E-Rechnung. Empfangen musst du E-Rechnungen schon seit 2025. Ausstellen ab 2027, wenn dein Vorjahresumsatz
+> über 800.000 Euro liegt – ab 2028 alle. Frag heute nach: Kann euer Posteingang das lesen? Speicher dir das.
+
+Hook-Text: „PDF = E-Rechnung? Nein.“ · Rechtsstand: § 14 Abs. 1 UStG, § 27 Abs. 38 UStG (Wachstumschancengesetz); Ausnahmen z. B. Kleinbetragsrechnungen bis 250 €.
+
+### Do 22.10. · „Zinsschranke in zwei Zahlen“ (`21-reel-zinsschranke`)
+> Zinsen voll abziehbar? Nicht immer. Die Zinsschranke deckelt den Nettozinsaufwand bei dreißig Prozent vom steuerlichen EBITDA.
+> Aber unter drei Millionen Euro Nettozinsaufwand greift sie gar nicht. Zwei Zahlen: dreißig Prozent, drei Millionen. Speicher dir das.
+
+Hook-Text: „30 % · 3 Mio.“ · Rechtsstand: § 4h Abs. 1, Abs. 2 Satz 1 Buchst. a EStG (Freigrenze, nicht Freibetrag).
+
+### Sa 24.10. · Thema aus den Kommentaren (`17-reel-kommentare`)
+Text folgt nach der Auswertung der Serien-Kommentare – ebenfalls höchstens 15 s.
+
+## 🎬 Serie „5 Dinge“ (geschrieben 06.10.) – ✓ alles eingesprochen 08.10., geschnitten, täglich 19:30 eingeplant · 11.10. per Schnitt auf 12–15 s gekürzt (13–16)
 Jede Datei einzeln aufnehmen, in Drive „Maehrsteuern audios“ ablegen, Dateiname egal (Claude erkennt den Text).
 Tipps: Handy 30–40 cm seitlich, langsam (lieber zu langsam), Wortenden aussprechen, vor dem ersten Satz einmal
 einatmen. Versprecher? Kurz Pause und den Satz neu – Claude schneidet. Atmer und Pausen nimmt Claude raus.
@@ -47,8 +85,7 @@ Zahlen/„früher“-Aussagen nur sagen, wenn sie für dich stimmen – sonst in
 > Zehntausend Zeilen? Unter einer Sekunde.
 > Das war Nummer fünf – die Serie ist durch. Welche Nummer war für dich die beste?
 
-### Sa 24.10. · Thema aus den Kommentaren  (`17-reel-kommentare`)
-Text folgt, sobald die Kommentare der Serie ausgewertet sind (ca. 20.10.).
+### (siehe oben) Thema aus den Kommentaren (`17-reel-kommentare`)
 
 ## ✓ Di 06.10. · „Nummer 1: Der Monatsbericht“ (eingesprochen + online)
 > Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen Bericht.
