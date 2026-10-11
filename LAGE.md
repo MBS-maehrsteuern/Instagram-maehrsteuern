@@ -332,6 +332,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:05 📡 Radar 2026-10-06: 8 Beiträge, 0 DM-Entwürfe ([`ffe8206`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/ffe8206f9e4374e897b90f4e3832155b384c2bca))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 05.10.2026**
 - 21:39 ✍️ Monatsbericht-Reel auf Mi 07.10. vorgezogen (Follow-up zum 5-Dinge-Reel), Split-Reel auf So 11.10. ([`4f65efd`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/4f65efdd295d4130154d8206b85409f2f38b638f))
   - Plan: `11-reel-monatsbericht` zeit: 2026-10-11 19:30 → 2026-10-07 19:30; `11-story-teaser` zeit: 2026-10-11 19:35 → 2026-10-07 19:35; `06-reel-split` zeit: 2026-10-07 19:30 → 2026-10-11 19:30; `06-story-teaser` zeit: 2026-10-07 19:35 → 2026-10-11 19:35
@@ -419,8 +421,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `LAGE.html`, `automatik/lage_notizen.md`
 - 07:03 📡 Radar 2026-10-05: 8 Beiträge, 0 DM-Entwürfe ([`c7af627`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/c7af627103cd7673c90dbc18c53d97522c1b2062))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 04.10.2026**
 - 21:28 📈 Statistik 2026-10-04 ([`1e9ea9e`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/1e9ea9ea7c92280cb4d24c0b8a6636c28d6fa5fb))
