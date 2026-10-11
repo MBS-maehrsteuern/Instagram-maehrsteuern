@@ -377,10 +377,13 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. #BEZUG! zwei Tage vor Abgabe – Verknüpfung auf die alte Datei. Vorgezogen vom 16.10.",
       "stimme": true,
-      "hook": "fall"
+      "hook": "fall",
+      "media_id": "18132056470604183",
+      "link": "https://www.instagram.com/reel/DeXMtEnDn3I/",
+      "veroeffentlicht_am": "2026-10-11 19:30"
     },
     {
       "id": "03-story-quiz",
