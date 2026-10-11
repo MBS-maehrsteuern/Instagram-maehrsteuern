@@ -6,6 +6,7 @@ für die Einschätzung). Bild per Playwright (global installiert, Chromium aus /
 """
 import json, subprocess, sys, html
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,9 +64,35 @@ vor_bt = {b["id"]: b for b in v.get("beitraege", [])}
 bt = [b for b in d["beitraege"] if b["timestamp"][:10] >= START]
 bt.sort(key=lambda b: b["timestamp"], reverse=True)
 plan_link = {e.get("link"): e for e in plan if e.get("link")}
+BERLIN = ZoneInfo("Europe/Berlin")
+FEED = {"REELS": "reel", "CAROUSEL_ALBUM": "karussell", "IMAGE": "bild"}
+
+def _utc(ts):
+    return datetime.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+
+def _plan_zeit(e):
+    return datetime.strptime(str(e["zeit"])[:16].replace("T", " "), "%Y-%m-%d %H:%M").replace(tzinfo=BERLIN)
+
+def _erste_zeile(e):
+    f = ROOT / e.get("ordner", "") / e.get("text", "")
+    try: return f.read_text().strip().split("\n")[0][:40] if e.get("text") and f.is_file() else ""
+    except OSError: return ""
+
+def plan_eintrag(b):
+    """Plan-Eintrag zu einem Beitrag: per Link, sonst (von Hand gepostet) gleicher Typ ±90 Min. um die Planzeit
+    oder gleiche erste Zeile der Bildunterschrift."""
+    e = plan_link.get(b.get("permalink"))
+    if e: return e
+    typ = "reel" if b.get("media_product_type") == "REELS" else FEED.get(b.get("media_type"))
+    kand = [x for x in plan if x.get("typ") == typ and not x.get("link") and x.get("zeit")]
+    t = _utc(b["timestamp"])
+    nah = [x for x in kand if abs((_plan_zeit(x) - t).total_seconds()) <= 5400]
+    if nah: return min(nah, key=lambda x: abs((_plan_zeit(x) - t).total_seconds()))
+    z1 = (b.get("caption") or "").strip().split("\n")[0][:40]
+    return next((x for x in kand if z1 and _erste_zeile(x) == z1), None)
 
 def name(b):
-    e = plan_link.get(b.get("permalink"))
+    e = plan_eintrag(b)
     if e: return e["id"]
     return (b.get("caption") or "").split("\n")[0][:34]
 
@@ -87,24 +114,47 @@ def nf_anteil(b):
     nf_, f_ = a.get("NON_FOLLOWER", 0), a.get("FOLLOWER", 0)
     return nf_ / (nf_ + f_) if nf_ + f_ else None
 
-def laenge_s(b):
-    """Reel-Länge in s: zuerst 'laenge_s' aus plan.json, sonst ffprobe auf das Video im Beitragsordner."""
-    e = plan_link.get(b.get("permalink"))
-    if not e: return None
-    if e.get("laenge_s"): return float(e["laenge_s"])
-    if not e.get("video"): return None
-    f = ROOT / e["ordner"] / e["video"]
-    if not f.exists(): return None
+LAENGEN = ST / "laengen.json"  # Cache: Reel-Länge je Media-ID (aus Videodatei oder media_url)
+_laengen = json.loads(LAENGEN.read_text()) if LAENGEN.exists() else {}
+
+def _ffprobe(quelle):
     try:
-        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)],
-                             capture_output=True, text=True, timeout=30).stdout.strip()
-        return float(out) if out else None
+        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(quelle)],
+                             capture_output=True, text=True, timeout=60).stdout.strip()
+        return round(float(out), 1) if out else None
     except (OSError, ValueError, subprocess.SubprocessError):
         return None
 
+def laenge_s(b):
+    """Reel-Länge in s: 'laenge_s' im Plan, sonst Video im Beitragsordner (auch von Hand gepostete Reels über
+    plan_eintrag), sonst Cache, sonst ffprobe auf die media_url aus der API (wird in laengen.json gemerkt)."""
+    e = plan_eintrag(b)
+    if e and e.get("laenge_s"): return float(e["laenge_s"])
+    if e and e.get("video") and (ROOT / e["ordner"] / e["video"]).exists():
+        return _ffprobe(ROOT / e["ordner"] / e["video"])
+    if b["id"] in _laengen: return _laengen[b["id"]]
+    if b.get("media_url"):
+        l = _ffprobe(b["media_url"])
+        if l:
+            _laengen[b["id"]] = l
+            LAENGEN.write_text(json.dumps(_laengen, indent=1))
+        return l
+    return None
+
 def ortszeit(ts):
-    t = datetime.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc) + timedelta(hours=2)
+    t = _utc(ts).astimezone(BERLIN)  # Sommer-/Winterzeit richtig (vorher fest +2 h)
     return t.strftime("%a %d.%m. %H:%M").replace("Mon","Mo").replace("Tue","Di").replace("Wed","Mi").replace("Thu","Do").replace("Fri","Fr").replace("Sat","Sa").replace("Sun","So")
+
+# Skip-Verlauf je Reel aus den Morgen-Schnappschüssen (frühe Werte steigen mit der Reichweite – Alter mit anzeigen)
+skip_verlauf = {}
+for f in sorted(OUT.glob("basis_*.json")):
+    try: snap = json.loads(f.read_text())
+    except (OSError, ValueError): continue
+    snap_t = datetime.strptime(snap["abgerufen"], "%Y-%m-%d").replace(hour=7, tzinfo=timezone.utc)
+    for sb in snap.get("beitraege", []):
+        if sb.get("reels_skip_rate") is None: continue
+        h = (snap_t - _utc(sb["timestamp"])).total_seconds() / 3600
+        if h > 0: skip_verlauf.setdefault(sb["id"], []).append((round(h), sb["reels_skip_rate"]))
 
 zeilen = []
 for b in bt:
@@ -115,7 +165,9 @@ for b in bt:
         saved=b.get("saved"), shares=b.get("shares"), profil=b.get("profile_visits"), follows=b.get("follows"),
         sehdauer=(b.get("ig_reels_avg_watch_time") or 0) / 1000 or None, skip=b.get("reels_skip_rate"),
         alter_h=round(alter_h(b["timestamp"]), 1), laenge=laenge_s(b) if typ == "Reel" else None,
-        stimme=(plan_link.get(b.get("permalink")) or {}).get("stimme"), hook=(plan_link.get(b.get("permalink")) or {}).get("hook"),
+        stimme=(plan_eintrag(b) or {}).get("stimme"), hook=(plan_eintrag(b) or {}).get("hook"),
+        teilen_ueber=bool(b.get("shares") and b.get("reach") and b["shares"] > b["reach"]),
+        skip_verlauf=sorted(set(skip_verlauf.get(b["id"], [])))[-3:],
         slot="12:15" if int(ortszeit(b["timestamp"])[-5:-3]) < 15 else "19:30", nf_reach=nf_anteil(b),
         v_views=p.get("views"), v_reach=p.get("reach"), v_saved=p.get("saved"), v_shares=p.get("shares"), v_comments=p.get("comments")))
 
@@ -128,19 +180,18 @@ def gruppen_tabelle():
     gr = {}
     for z in zeilen:
         if z["alter_h"] < 48 or z["typ"] not in ("Reel", "Karussell"): continue
-        gr.setdefault((z["typ"], z["slot"], _ja(z["stimme"])), []).append(z)
+        gr.setdefault((z["typ"], z["slot"], _ja(z["stimme"]), z["hook"] or "?"), []).append(z)
     alle = [z for l in gr.values() for z in l]
     schnitt = (sum(z["reach"] or 0 for z in alle) / len(alle)) if alle else None
     out = []
-    for (typ, slot, st_), l in sorted(gr.items()):
+    for (typ, slot, st_, hk), l in sorted(gr.items()):
         n = len(l); r = summe(l, "reach")
-        nfs = [z["nf_reach"] for z in l if z["nf_reach"] is not None]
         skips = [z["skip"] for z in l if z["skip"] is not None]
         prof = summe(l, "profil")
-        zeile = dict(format=typ, slot=slot, stimme=st_, n=n,
+        zeile = dict(format=typ, slot=slot, stimme=st_, hook=hk, n=n,
             reichweite=r / n if n else None,
-            nicht_follower=sum(nfs) / len(nfs) if nfs else None,
-            speichern=quote(summe(l, "saved"), r), teilen=quote(summe(l, "shares"), r),
+            speichern=quote(summe(l, "saved"), r),
+            teilen=quote(summe([z for z in l if not z["teilen_ueber"]], "shares"), summe([z for z in l if not z["teilen_ueber"]], "reach")),
             skip=sum(skips) / len(skips) if skips else None,
             follows_profil=quote(summe(l, "follows"), prof) if prof else None)
         if n < MIN_N or not schnitt:
@@ -181,6 +232,10 @@ def check(methode, kennzahl, typen, wert_f, fmt, ziel_txt, bewerte, braucht=None
 def summe(liste, feld):
     return sum(z[feld] or 0 for z in liste)
 
+def median(werte):
+    w = sorted(werte); n = len(w)
+    return None if not n else (w[n // 2] if n % 2 else (w[n // 2 - 1] + w[n // 2]) / 2)
+
 testmonat = gruppen_tabelle()
 s_reach = max((s.get("reach") or 0 for s in storys), default=None)
 s_repl = sum(s.get("replies") or 0 for s in storys) if storys else None
@@ -197,22 +252,22 @@ on_1930 = quote(on_cest.get(19), max(on_cest.values())) if on_cest else None
 methoden = [
     ("Reels bringen Nicht-Follower", "Anteil Nicht-Follower an der Reichweite (30 Tage)",
      pct(nf_quote) if nf_quote is not None else "–", "≥ 50 %", st(nf_quote, .5, .35), None),
-    check("Hook in den ersten 1,5 s", f"Ø Überspringrate Reels ab {REIF_H} h", {"Reel"},
-          lambda l: sum(z["skip"] for z in l) / len(l), lambda w: f"{w:.0f} %", "< 60 %",
-          lambda w: "✅" if w < 60 else ("⚠️" if w < 70 else "❌"), braucht="skip"),
+    check("Hook in den ersten 1,5 s", f"Median Überspringrate Reels ab {REIF_H} h (Ziel s. 06_auswertung)", {"Reel"},
+          lambda l: median([z["skip"] for z in l]), lambda w: f"{w:.0f} %", "< 65 %",
+          lambda w: "✅" if w < 65 else ("⚠️" if w < 75 else "❌"), braucht="skip"),
     check("Ø Sehdauer ÷ Länge", f"Anteil gesehen, Reels ab {REIF_H} h", {"Reel"},
           lambda l: sum(z["anteil"] for z in l) / len(l), lambda w: pct(w), "≥ 40 %",
           lambda w: st(w, .40, .25), braucht="anteil"),
-    check("„Wer schickt das an wen?“", f"Geteilt ÷ Erreicht, Karussells + Reels ab {REIF_H} h", {"Karussell", "Reel"},
-          lambda l: quote(summe(l, "shares"), summe(l, "reach")), lambda w: pct(w, 1), "≥ 3 %",
-          lambda w: st(w, .03, .015)),
+    check("„Wer schickt das an wen?“", f"Geteilt ÷ Erreicht, Karussells + Reels ab {REIF_H} h, ohne Geteilt > Erreicht", {"Karussell", "Reel"},
+          lambda l: quote(summe([z for z in l if not z["teilen_ueber"]], "shares"), summe([z for z in l if not z["teilen_ueber"]], "reach")),
+          lambda w: pct(w, 1), "≥ 3 %", lambda w: st(w, .03, .015)),
     check("Speicherbare Inhalte", f"Gespeichert ÷ Erreicht, Karussells ab {REIF_H} h", {"Karussell"},
           lambda l: quote(summe(l, "saved"), summe(l, "reach")), lambda w: pct(w, 1), "≥ 2 %",
           lambda w: st(w, .02, .01)),
     ("Mittags-Story mit Frage", "Story-Reichweite ÷ Follower · Antworten (letzte 24 h)",
      f"{pct(s_reach/fol)} · {s_repl} Antw." if s_reach else "–", "≥ 15 % · ≥ 1",
      "⏳" if not s_reach else ("✅" if s_reach / fol >= .15 and s_repl else "⚠️"), len(storys)),
-    check("Profil verwandelt Besucher", f"Follows ÷ Profilbesuche, Beiträge ab {REIF_H} h", {"Karussell", "Reel", "Bild"},
+    check("Profil verwandelt Besucher", f"Follows ÷ Profilbesuche, Karussells ab {REIF_H} h (für Reels liefert die API nichts)", {"Karussell", "Bild"},
           lambda l: quote(summe(l, "follows"), summe(l, "profil")),
           lambda w: f"{pct(w)}", "≥ 10 %", lambda w: st(w, .10, .05), braucht="profil"),
     ("TOOL-Aufruf / Bio-Link", "Link-Klicks in der Bio (30 Tage)", str(links), "≥ 1 pro Woche", "✅" if links else "❌", None),
@@ -233,6 +288,13 @@ def _zeit(e):
     return str(e.get("zeit", "")).strip().replace("T", " ")[:16]
 heute_online = sorted((e for e in plan if _zeit(e)[:10] == tag and e.get("status") not in ("entfaellt", "pause")), key=_zeit)
 fehler = [e["id"] for e in plan if e["status"] == "fehler"]
+
+# Soll-Ist: Feed-Einträge der letzten 48 h (vor dem Bezugszeitpunkt), die nicht als Beitrag erschienen sind
+_gefunden = {plan_eintrag(b)["id"] for b in d["beitraege"] if plan_eintrag(b)}
+nicht_erschienen = [e for e in plan if e.get("typ") in ("reel", "karussell", "bild") and e.get("zeit")
+                    and e.get("status") not in ("entfaellt", "pause")
+                    and bezug - timedelta(hours=48) <= _plan_zeit(e) <= bezug - timedelta(minutes=30)
+                    and e["id"] not in _gefunden and not e.get("link")]
 
 # --- HTML ---
 def balken():
@@ -269,14 +331,16 @@ def reel_zelle(z):
     zelle = " · ".join(teile)
     if z["anteil"] is not None:
         zelle += f'<br><span class="m">= {pct(z["anteil"])} gesehen</span>'
+    if z["skip_verlauf"]:  # frühere Skip-Werte mit Alter, damit die Drift sichtbar ist
+        zelle += '<br><span class="m">Skip: ' + " → ".join(f"{w:.0f} % ({h} h)" for h, w in z["skip_verlauf"]) + "</span>"
     return zelle
 
 reihen = "".join(
     f'<tr><td><b>{html.escape(z["name"])}</b><br><span class="m">{z["typ"]} · {z["zeit"]} · {int(z["alter_h"])} h</span></td>'
     f'<td>{zahl(z["views"])}{delta(z["views"], z["v_views"])}</td><td>{zahl(z["reach"])}{delta(z["reach"], z["v_reach"])}</td>'
     f'<td>{zahl(z["likes"])}</td><td>{zahl(z["comments"])}{delta(z["comments"], z["v_comments"])}</td>'
-    f'<td>{zahl(z["saved"])}{delta(z["saved"], z["v_saved"])}</td><td>{zahl(z["shares"])}{delta(z["shares"], z["v_shares"])}</td>'
-    f'<td>{zahl(z["profil"])}</td>'
+    f'<td>{zahl(z["saved"])}{delta(z["saved"], z["v_saved"])}</td><td>{zahl(z["shares"])}{delta(z["shares"], z["v_shares"])}{" ⚠️" if z["teilen_ueber"] else ""}</td>'
+    f'<td>{"n. v." if z["typ"] == "Reel" else zahl(z["profil"])}</td>'
     f'<td>{reel_zelle(z)}</td></tr>'
     for z in zeilen)
 s_reihen = "".join(
@@ -288,11 +352,15 @@ m_reihen = "".join(
     for a, b, c, z, s, n in methoden)
 def _p(x, n=0): return "–" if x is None else pct(x, n)
 t_reihen = "".join(
-    f'<tr><td><b>{t["format"]}</b></td><td>{t["slot"]}</td><td>{t["stimme"]}</td><td>{t["n"]}</td>'
-    f'<td>{zahl(t["reichweite"])}</td><td>{_p(t["nicht_follower"])}</td><td>{_p(t["speichern"],1)}</td><td>{_p(t["teilen"],1)}</td>'
+    f'<tr><td><b>{t["format"]}</b></td><td>{t["slot"]}</td><td>{t["stimme"]}</td><td>{t["hook"]}</td><td>{t["n"]}</td>'
+    f'<td>{zahl(t["reichweite"])}</td><td>{_p(t["speichern"],1)}</td><td>{_p(t["teilen"],1)}</td>'
     f'<td>{"–" if t["skip"] is None else f"{t[chr(115)+chr(107)+chr(105)+chr(112)]:.0f} %"}</td><td>{_p(t["follows_profil"])}</td>'
     f'<td class="{"m" if t["urteil"] == "zu wenig Daten" else "w"}">{t["urteil"]}</td></tr>'
     for t in testmonat) or '<tr><td colspan="11" class="m">noch keine Beiträge ab 48 h</td></tr>'
+n_reihen = "".join(
+    f'<tr><td class="w">{_zeit(e)[8:10]}.{_zeit(e)[5:7]}. {_zeit(e)[11:]}</td><td>{html.escape(e["typ"])}</td><td><b>{html.escape(e["id"])}</b></td>'
+    f'<td class="warn">{STATUS_TXT.get(e["status"], e["status"])} – nicht erschienen</td></tr>'
+    for e in nicht_erschienen) or '<tr><td colspan="4" class="m">alles Geplante ist erschienen</td></tr>'
 h_reihen = "".join(
     f'<tr><td class="w">{_zeit(e)[11:]}</td><td>{html.escape(e["typ"])}</td><td><b>{html.escape(e["id"])}</b></td>'
     f'<td class="{"warn" if e["status"] != "freigegeben" and e["status"] != "veroeffentlicht" else "m"}">{STATUS_TXT.get(e["status"], e["status"])}</td></tr>'
@@ -302,6 +370,7 @@ titel_tag = ["Mo","Di","Mi","Do","Fr","Sa","So"][wt.weekday()] + wt.strftime(" %
 
 seite = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @import url("../../vorlagen/schriften.css");
+*{{box-sizing:border-box}}
 body{{margin:0;width:1080px;background:#0B110E;color:#EAF1EC;font-family:"IBM Plex Sans",sans-serif;padding:44px 50px}}
 h1{{font-family:"IBM Plex Serif",serif;font-weight:600;font-size:46px;margin:0 0 4px}}
 .kick{{font-family:"IBM Plex Mono",monospace;letter-spacing:.25em;text-transform:uppercase;color:#53C3A2;font-size:16px;font-weight:600}}
@@ -328,14 +397,17 @@ td .d{{font-size:13px;margin-left:5px}}
 <h2>Reichweite pro Tag</h2>{balken()}
 <h2>Beiträge seit Neustart (Δ zum Vortag)</h2>
 <table><tr><th>Beitrag</th><th>Aufrufe</th><th>Erreicht</th><th>Likes</th><th>Komm.</th><th>Gespeich.</th><th>Geteilt</th><th>Profil</th><th>Skip · Ø Seh. / Länge</th></tr>{reihen}</table>
+<div class="leg">⚠️ bei Geteilt: mehr Weiterleitungen als erreichte Konten (Instagram zählt jedes Senden, auch mehrfach an Chats/Gruppen; Reichweite = eindeutige Konten) – fließt nicht in die Teilen-Quote ein · Profil n. v. = liefert die API für Reels nicht</div>
 <h2>Storys (letzte 24 h)</h2>
 <table><tr><th>Story</th><th>Aufrufe</th><th>Erreicht</th><th>Antworten</th><th>Tipps</th><th>Profil</th></tr>{s_reihen}</table>
 <h2>Greifen unsere Methoden?</h2>
 <table><tr><th></th><th>Methode · Kennzahl</th><th>Ist</th><th>Ziel</th><th>n</th></tr>{m_reihen}</table>
 <div class="leg">✅ greift · ⚠️ knapp · ❌ greift (noch) nicht · ⏳ zu früh / keine Daten · bewertet werden nur Beiträge ab {REIF_H} h, n = Anzahl Beiträge</div>
 <h2>Testmonat: Format × Slot × Stimme</h2>
-<table class="klein"><tr><th>Format</th><th>Slot</th><th>Stimme</th><th>n</th><th>Ø Erreicht</th><th>Nicht-Foll.</th><th>Speich.÷Err.</th><th>Teilen÷Err.</th><th>Skip</th><th>Follows÷Profil</th><th>Urteil</th></tr>{t_reihen}</table>
-<div class="leg">nur Beiträge ab 48 h · Urteil (Ø Erreicht gegen Schnitt aller Gruppen) erst ab n ≥ {MIN_N} · Stimme ? = nicht im Plan · Nicht-Follower je Beitrag nur, wenn Instagram die Aufteilung liefert</div>
+<table class="klein"><tr><th>Format</th><th>Slot</th><th>Stimme</th><th>Hook</th><th>n</th><th>Ø Erreicht</th><th>Speich.÷Err.</th><th>Teilen÷Err.</th><th>Skip</th><th>Follows÷Profil</th><th>Urteil</th></tr>{t_reihen}</table>
+<div class="leg">nur Beiträge ab 48 h · Urteil (Ø Erreicht gegen Schnitt aller Gruppen) erst ab n ≥ {MIN_N} · Stimme/Hook ? = nicht im Plan · Nicht-Follower je Beitrag liefert die API nicht (nur fürs ganze Konto, Kachel oben) · Teilen÷Erreicht ohne Beiträge mit Geteilt &gt; Erreicht</div>
+<h2>Soll-Ist: geplant, aber nicht erschienen (48 h)</h2>
+<table><tr><th>Geplant</th><th>Art</th><th>Beitrag</th><th>Status im Plan</th></tr>{n_reihen}</table>
 <h2>Heute geplant</h2>
 <table><tr><th>Zeit</th><th>Art</th><th>Beitrag</th><th>Status</th></tr>{h_reihen}</table>
 </body></html>"""
@@ -348,7 +420,8 @@ html_f.write_text(seite)
     nicht_follower_quote=nf_quote, link_klicks=links, beitraege=zeilen, storys=storys,
     methoden=[dict(methode=a, kennzahl=b, ist=c, ziel=z, status=s, n=n) for a, b, c, z, s, n in methoden],
     heute_online=[f'{_zeit(e)[11:]} {e["typ"]} {e["id"]} – {STATUS_TXT.get(e["status"], e["status"])}' for e in heute_online],
-    fehler=fehler, reif_ab_h=REIF_H, testmonat=testmonat),
+    fehler=fehler, reif_ab_h=REIF_H, testmonat=testmonat,
+    nicht_erschienen=[f'{_zeit(e)} {e["typ"]} {e["id"]} ({e["status"]})' for e in nicht_erschienen]),
     ensure_ascii=False, indent=1, default=str))
 
 js = f"""const {{createRequire}}=require('module');const {{execSync}}=require('child_process');

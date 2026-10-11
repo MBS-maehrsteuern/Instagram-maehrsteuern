@@ -129,7 +129,7 @@ except RuntimeError as e:
 
 # Alle Beiträge
 beitraege, weiter = [], None
-felder = "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count"
+felder = "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count,media_url"
 seite = get(f"{USER}/media", fields=felder, limit=50)
 while True:
     beitraege += seite.get("data", [])
@@ -137,7 +137,7 @@ while True:
     if not weiter:
         break
     seite = requests.get(weiter, timeout=60).json()
-ergebnis["beitraege"] = [{**{k: m.get(k) for k in ("id", "media_product_type", "media_type", "timestamp", "permalink",
+ergebnis["beitraege"] = [{**{k: m.get(k) for k in ("id", "media_product_type", "media_type", "timestamp", "permalink", "media_url",
                                                    "like_count", "comments_count", "caption")},
                           **media_insights(m)} for m in beitraege]
 
