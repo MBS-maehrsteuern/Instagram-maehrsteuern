@@ -1,8 +1,8 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 11:01 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 12:15 Uhr._
 
-**Als Nächstes online:** 📱 Story `08-story-rueckblick` am **So 11.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `13-reel-verknuepfung` am **So 11.10. 19:30 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -47,7 +47,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 11.10. 12:15 | 📱 Story `08-story-rueckblick` | 🟢 freigegeben (geht automatisch online) |  · [Freigabe #15](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/15) |
 | So 11.10. 19:30 | 🎬 Reel `13-reel-verknuepfung` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. #BEZUG! zwei Tage vor Abgabe – Verknüpfung auf die alte Datei. Vorgezogen vom 16.10. |
 | Mo 12.10. 12:45 | 📱 Story `03-story-quiz` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. ·  |
 | Mo 12.10. 19:30 | 🎬 Reel `14-reel-versionen` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 15 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 3: final_final_v3. Vorgezogen vom 18.10. |
@@ -84,6 +83,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- So 11.10. 12:15 · 📱 Story `08-story-rueckblick` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4005507302220849298) (online 2026-10-11 12:15)
 - Sa 10.10. 19:30 · 🎬 Reel `08-reel-kst-staffel` · [ansehen](https://www.instagram.com/reel/DeUn6ezCm7O/) (online 2026-10-10 19:30)
 - Sa 10.10. 12:15 · 📱 Story `08-story-heute` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4004782529098566867) (online 2026-10-10 12:15)
 - Sa 10.10. 09:30 · 🎬 Reel `12-reel-zeile` · [ansehen](https://www.instagram.com/reel/DeTiK24NyJt/)
@@ -93,7 +93,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Do 08.10. 19:30 · 🎬 Reel `06-reel-split` · [ansehen](https://www.instagram.com/reel/DePeYymNG2K/)
 - Mi 07.10. 19:35 · 📱 Story `02-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4002829658245043420) (online 2026-10-07 19:35)
 - Mi 07.10. 19:30 · 🖼️ Karussell `02-excel-fehler` · [ansehen](https://www.instagram.com/p/DeM5u1vGLsR/) (online 2026-10-07 19:32)
-- Mi 07.10. 12:15 · 📱 Story `05-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4002608197877985940) (online 2026-10-07 12:15)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -139,6 +138,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 11.10.2026**
+- 12:15 🤖 Autopilot: 08-story-rueckblick veroeffentlicht ([`13ef768`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/13ef768c61c88308d4738e7b9ec5e92b53765591))
+  - Plan: `08-story-rueckblick` status: freigegeben → veroeffentlicht; `08-story-rueckblick` online: https://www.instagram.com/stories/maehrsteuern/4005507302220849298
 - 11:01 🤖 Autopilot: Dateien fuer 08-story-rueckblick vorbereitet ([`a937cc1`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/a937cc1d7924d3f46a81914363925b5b086ea9b6))
   - `posts/08_2026-10-09_reel_kst_staffel`
 - 10:41 ✍️ LAGE.md aktualisiert nach Tagesbericht 11.10. ([`7d7cc99`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/7d7cc9924497d99ce774a2197d09db91ed9ffc07))
