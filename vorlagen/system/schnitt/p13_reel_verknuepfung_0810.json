@@ -18,25 +18,16 @@
  "szenen": [
   {
    "quelle": "v_hook",
-   "dauer": 5.64,
+   "dauer": 4.68,
    "text": [
-    {
-     "wort": "Kennst du das?",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.1,
-     "bis": 1.06
-    },
     {
      "wort": "Zwei Tage vor Abgabe,",
      "groesse": 62,
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 1.06,
-     "bis": 2.56
+     "ab": 0.1,
+     "bis": 1.6
     },
     {
      "wort": "du öffnest die",
@@ -44,8 +35,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 2.56,
-     "bis": 3.06
+     "ab": 1.6,
+     "bis": 2.1
     },
     {
      "wort": "Steuerberechnung und",
@@ -53,8 +44,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 3.06,
-     "bis": 3.88
+     "ab": 2.1,
+     "bis": 2.92
     },
     {
      "wort": "überall steht #BEZUG!",
@@ -62,8 +53,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 3.88,
-     "bis": 5.72
+     "ab": 2.92,
+     "bis": 4.76
     },
     {
      "wort": "#BEZUG!",
@@ -100,7 +91,7 @@
   },
   {
    "quelle": "v_dialog",
-   "dauer": 4.74,
+   "dauer": 2.94,
    "text": [
     {
      "wort": "überall steht #BEZUG!",
@@ -135,35 +126,7 @@
      "x": 470,
      "breite": 780,
      "ab": 1.62,
-     "bis": 2.94
-    },
-    {
-     "wort": "Irgendwer hatte den",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 2.94,
-     "bis": 3.74
-    },
-    {
-     "wort": "Ordner umbenannt.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 3.74,
-     "bis": 4.82
-    },
-    {
-     "wort": "umbenannt.",
-     "farbe": "rot",
-     "groesse": 104,
-     "y": 1180,
-     "x": 470,
-     "breite": 780,
-     "ab": 2.86,
-     "bis": 4.46
+     "bis": 3.02
     }
    ],
    "von": [
@@ -175,84 +138,6 @@
     540,
     930,
     1010
-   ]
-  },
-  {
-   "quelle": "v_dialog",
-   "dauer": 5.94,
-   "text": [
-    {
-     "wort": "Ordner umbenannt.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "bis": 0.08
-    },
-    {
-     "wort": "Ich habe einen ganzen",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.08,
-     "bis": 0.98
-    },
-    {
-     "wort": "Abend gesucht, welche",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.98,
-     "bis": 2.12
-    },
-    {
-     "wort": "Zahl woher kommt.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 2.12,
-     "bis": 3.36
-    },
-    {
-     "wort": "Das war der Moment, wo",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 3.36,
-     "bis": 4.16
-    },
-    {
-     "wort": "ich gesagt habe, das",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 4.16,
-     "bis": 5.06
-    },
-    {
-     "wort": "muss anders gehen.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 5.06,
-     "bis": 6.02
-    }
-   ],
-   "von": [
-    540,
-    930,
-    1010
-   ],
-   "nach": [
-    540,
-    960,
-    1080
    ]
   },
   {
@@ -260,7 +145,7 @@
    "dauer": 2.64,
    "text": [
     {
-     "wort": "muss anders gehen.",
+     "wort": "der Datei vom Vorjahr.",
      "groesse": 62,
      "y": 1330,
      "x": 470,
@@ -387,7 +272,7 @@
   },
   {
    "datei": "../../musik/08_runway_chill_house.mp3",
-   "ab": 16.32,
+   "ab": 7.62,
    "start": 0.4,
    "lautstaerke": 0.1,
    "ein": 0.8
@@ -396,14 +281,14 @@
    "datei": "../../musik/atmo/uhr_ticken.mp3",
    "ab": 0.02,
    "start": 0.3,
-   "dauer": 11.0,
+   "dauer": 4.6,
    "lautstaerke": 0.22,
    "ein": 0.05,
    "aus": 0.3
   },
   {
    "datei": "../../musik/atmo/fehlerton.mp3",
-   "ab": 4.44,
+   "ab": 3.48,
    "start": 0,
    "dauer": 0.6,
    "lautstaerke": 0.4,
@@ -412,9 +297,9 @@
   },
   {
    "datei": "../../musik/10_runway_spannung.mp3",
-   "ab": 5.64,
+   "ab": 4.68,
    "start": 0,
-   "dauer": 11.4,
+   "dauer": 2.8,
    "lautstaerke": 0.06,
    "ein": 0.05,
    "aus": 0.3

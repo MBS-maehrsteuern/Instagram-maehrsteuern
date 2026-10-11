@@ -15,7 +15,7 @@
  "szenen": [
   {
    "quelle": "4a",
-   "dauer": 6.56,
+   "dauer": 3.87,
    "text": [
     {
      "wort": "Eine Rechnungsnummer",
@@ -60,34 +60,7 @@
      "x": 470,
      "breite": 780,
      "ab": 3.08,
-     "bis": 3.86
-    },
-    {
-     "wort": "In Excel heißt das",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 3.86,
-     "bis": 4.84
-    },
-    {
-     "wort": "sortieren, scrollen,",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 4.84,
-     "bis": 6.08
-    },
-    {
-     "wort": "hoffen.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 6.08,
-     "bis": 6.64
+     "bis": 3.95
     },
     {
      "wort": "Doppelte Rechnungsnummer?",
@@ -124,10 +97,10 @@
   },
   {
    "quelle": "4b",
-   "dauer": 8.76,
+   "dauer": 6.61,
    "text": [
     {
-     "wort": "hoffen.",
+     "wort": "Und du?",
      "groesse": 62,
      "y": 1330,
      "x": 470,
@@ -204,34 +177,7 @@
      "x": 470,
      "breite": 780,
      "ab": 5.48,
-     "bis": 6.44
-    },
-    {
-     "wort": "Und ich weiß es vor",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 6.44,
-     "bis": 7.4
-    },
-    {
-     "wort": "der Prüfung –",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 7.4,
-     "bis": 8.12
-    },
-    {
-     "wort": "nicht danach.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 8.12,
-     "bis": 8.84
+     "bis": 6.69
     },
     {
      "wort": "DOPPELT",
@@ -261,7 +207,7 @@
      "x": 470,
      "breite": 780,
      "ab": 5.4,
-     "bis": 7.0
+     "bis": 6.61
     }
    ],
    "von": [
@@ -278,10 +224,10 @@
   },
   {
    "quelle": "s_ende4",
-   "dauer": 4.4,
+   "dauer": 2.42,
    "text": [
     {
-     "wort": "nicht danach.",
+     "wort": "Dauert eine Sekunde.",
      "groesse": 62,
      "y": 1330,
      "x": 470,
@@ -289,31 +235,13 @@
      "bis": 0.08
     },
     {
-     "wort": "Nummer 4 aus meinem",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.08,
-     "bis": 0.84
-    },
-    {
-     "wort": "5-Dinge-Reel.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.84,
-     "bis": 2.06
-    },
-    {
      "wort": "Speicher dir das für",
      "groesse": 62,
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 2.06,
-     "bis": 3.02
+     "ab": 0.08,
+     "bis": 1.04
     },
     {
      "wort": "nächsten Abschluss.",
@@ -321,8 +249,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 3.02,
-     "bis": 4.05
+     "ab": 1.04,
+     "bis": 2.07
     }
    ],
    "von": [
@@ -347,7 +275,7 @@
   },
   {
    "datei": "../../musik/07_runway_minimal_tech.mp3",
-   "ab": 6.56,
+   "ab": 3.87,
    "start": 0.4,
    "lautstaerke": 0.1,
    "ein": 0.8
@@ -363,7 +291,7 @@
   },
   {
    "datei": "../../musik/atmo/fehlerton.mp3",
-   "ab": 8.94,
+   "ab": 6.25,
    "start": 0,
    "dauer": 0.6,
    "lautstaerke": 0.3,

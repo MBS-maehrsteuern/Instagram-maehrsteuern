@@ -15,7 +15,7 @@
  "szenen": [
   {
    "quelle": "5a",
-   "dauer": 4.12,
+   "dauer": 4.2,
    "text": [
     {
      "wort": "SVERWEIS,",
@@ -51,7 +51,7 @@
      "x": 470,
      "breite": 780,
      "ab": 3.3,
-     "bis": 4.2
+     "bis": 4.28
     },
     {
      "wort": "SVERWEIS. #NV.",
@@ -87,71 +87,11 @@
    "abdunkeln": 0.25
   },
   {
-   "quelle": "5a",
-   "dauer": 3.72,
+   "quelle": "5b",
+   "dauer": 4.2,
    "text": [
     {
      "wort": "runterziehen.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "bis": 0.08
-    },
-    {
-     "wort": "Zwei Listen abgleichen",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 0.08,
-     "bis": 1.2
-    },
-    {
-     "wort": "hat mich früher einen",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 1.2,
-     "bis": 2.14
-    },
-    {
-     "wort": "halben Nachmittag",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 2.14,
-     "bis": 3.02
-    },
-    {
-     "wort": "gekostet.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 3.02,
-     "bis": 3.8
-    }
-   ],
-   "von": [
-    540,
-    930,
-    1010
-   ],
-   "nach": [
-    540,
-    960,
-    1080
-   ]
-  },
-  {
-   "quelle": "5b",
-   "dauer": 7.74,
-   "text": [
-    {
-     "wort": "gekostet.",
      "groesse": 62,
      "y": 1330,
      "x": 470,
@@ -174,43 +114,7 @@
      "x": 470,
      "breite": 780,
      "ab": 0.3,
-     "bis": 1.52
-    },
-    {
-     "wort": "Er legt beide Listen",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 1.52,
-     "bis": 2.6
-    },
-    {
-     "wort": "nebeneinander und sagt",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 2.6,
-     "bis": 3.56
-    },
-    {
-     "wort": "mir, was nur in einer",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 3.56,
-     "bis": 4.6
-    },
-    {
-     "wort": "steht.",
-     "groesse": 62,
-     "y": 1330,
-     "x": 470,
-     "breite": 780,
-     "ab": 4.6,
-     "bis": 5.18
+     "bis": 1.64
     },
     {
      "wort": "10.000 Zeilen?",
@@ -218,8 +122,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 5.18,
-     "bis": 6.24
+     "ab": 1.64,
+     "bis": 2.7
     },
     {
      "wort": "unter einer Sekunde.",
@@ -227,8 +131,8 @@
      "y": 1330,
      "x": 470,
      "breite": 780,
-     "ab": 6.24,
-     "bis": 7.82
+     "ab": 2.7,
+     "bis": 4.28
     },
     {
      "wort": "< 1 Sekunde",
@@ -237,8 +141,8 @@
      "y": 1180,
      "x": 470,
      "breite": 780,
-     "ab": 5.1,
-     "bis": 6.7
+     "ab": 1.56,
+     "bis": 3.16
     }
    ],
    "von": [
@@ -324,7 +228,7 @@
   },
   {
    "datei": "../../musik/08_runway_chill_house.mp3",
-   "ab": 7.84,
+   "ab": 4.2,
    "start": 0.4,
    "lautstaerke": 0.1,
    "ein": 0.8
