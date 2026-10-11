@@ -363,8 +363,11 @@
       "bilder": [
         "story_sa_rueckblick.png"
       ],
-      "status": "freigegeben",
-      "issue": 15
+      "status": "veroeffentlicht",
+      "issue": 15,
+      "media_id": "18169058188465485",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4005507302220849298",
+      "veroeffentlicht_am": "2026-10-11 12:15"
     },
     {
       "id": "13-reel-verknuepfung",
