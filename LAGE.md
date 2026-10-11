@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 13:25 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 11.10. 15:33 Uhr._
 
 **Als Nächstes online:** 🎬 Reel `13-reel-verknuepfung` am **So 11.10. 19:30 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -97,25 +97,24 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## 📈 Zahlen (täglich ca. 08:45)
 
 **361 Follower** · 9 Beiträge im Profil (Abruf 2026-10-11) · **+2** seit 2026-10-10
-Reichweite pro Tag: 07.10. **136** · 08.10. **216** · 09.10. **66** · 10.10. **362**
+Reichweite pro Tag: 08.10. **216** · 09.10. **66** · 10.10. **363** · 11.10. **47**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Sa 10.10. 12:15 | 39 | 32 | 0 | 0 | 0 |
-| Sa 10.10. 15:02 | 26 | 21 | 0 | 1 | 0 |
-| Sa 10.10. 19:49 | 19 | 14 | 0 | 0 | 0 |
+| Sa 10.10. 19:49 | 31 | 25 | 0 | 0 | 0 |
+| So 11.10. 12:15 | 20 | 12 | 0 | 1 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 199 | 159 | 7 | 8 | 4 | 9 |
-| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 276 (+134) | 225 | 10 | 0 | 5 | 5 |
-| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 140 (+14) | 54 | 7 | 1 | 6 | 84 |
+| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 218 | 173 | 8 | 8 | 4 | 9 |
+| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 311 (+169) | 252 | 11 | 0 | 5 | 5 |
+| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 143 (+17) | 55 | 8 | 1 | 6 | 84 |
 | Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 297 (+3) | 225 | 8 | 0 | 8 | 25 |
 | Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 199 (+10) | 75 | 6 | 0 | 4 | 0 |
-| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 386 (+9) | 290 | 11 | 2 | 10 | 8 |
-| So 04.10. 19:30 [5 Dinge, die ich aus Excel rausgeschmiss](https://www.instagram.com/reel/DeFLK53ALSs/) | 924 (+6) | 678 | 13 | 10 | 15 | 16 |
-| Do 01.10. 18:30 [Neu hier? Dann kurz zu mir 👋](https://www.instagram.com/p/Dd9V5HAAhcL/) | 363 (+5) | 135 | 10 | 2 | 2 | 17 |
-| Di 29.09. 15:42 [Steuern × Code. ⚡](https://www.instagram.com/reel/Dd34F9RtucT/) | 331 (+2) | 190 | 10 | 2 | 4 | 7 |
+| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 387 (+10) | 290 | 11 | 2 | 10 | 8 |
+| So 04.10. 19:30 [5 Dinge, die ich aus Excel rausgeschmiss](https://www.instagram.com/reel/DeFLK53ALSs/) | 924 (+6) | 679 | 13 | 10 | 15 | 16 |
+| Do 01.10. 18:30 [Neu hier? Dann kurz zu mir 👋](https://www.instagram.com/p/Dd9V5HAAhcL/) | 364 (+6) | 135 | 10 | 2 | 2 | 17 |
+| Di 29.09. 15:42 [Steuern × Code. ⚡](https://www.instagram.com/reel/Dd34F9RtucT/) | 332 (+3) | 191 | 10 | 2 | 4 | 7 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -138,6 +137,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 11.10.2026**
+- 15:33 📈 Statistik 2026-10-11 ([`47f6bbd`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/47f6bbd047525bd94869e79ea3c6a0ef58f1ddd7))
+  - `automatik/statistik`
 - 13:25 📡 Radar 2026-10-11: 8 Beiträge, 0 DM-Entwürfe ([`38b03af`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/38b03af8ea3a9247fa4a55c0a401933958834c09))
   - `automatik/interaktion`
 - 12:15 🤖 Autopilot: 08-story-rueckblick veroeffentlicht ([`13ef768`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/13ef768c61c88308d4738e7b9ec5e92b53765591))
