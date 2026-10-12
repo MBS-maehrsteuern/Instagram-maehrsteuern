@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 12.10. 09:42 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 12.10. 11:40 Uhr._
 
 **Als Nächstes online:** 📱 Story `03-story-quiz` am **Mo 12.10. 12:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -140,6 +140,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 12.10.2026**
+- 11:40 ✍️ Ampel-Reel auf 15 s gekürzt, Frage-Story als Tipp-Version ([`5e5c68d`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/5e5c68d880d4ea6772bdc169f44f7c96ec1de03f))
+  - `LAGE.html`, `automatik/plan.json`, `posts/01_2026-10-04_reel_ampel`, `strategie/13_backlog.md`, `vorlagen/system/schnitt/p01_reel_ampel_kurz.json`, `vorlagen/system/schnitt/p01_reel_ampel_kurz_bauen.py`
+- 11:30 🤖 Autopilot: Dateien fuer 03-story-quiz vorbereitet ([`2c882cc`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/2c882ccfdc84da6a62fa05142789937cd0ee3196))
+  - `posts/03_2026-10-13_gewst_hinzurechnung`
 - 09:42 ✍️ Tagesbericht 12.10. (Ersatz für den Routine-Lauf) ([`c80bb3d`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/c80bb3daa188cb22fd652e164a28eda92f7e2df0))
   - `automatik/berichte`, `automatik/statistik`
 - 08:49 📈 Statistik 2026-10-12 ([`409095e`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/409095efb20fab0777eca83916c58751c4f9e414))
