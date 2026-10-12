@@ -529,10 +529,11 @@
       "typ": "story",
       "ordner": "posts/04_2026-10-20_reel_mein_weg",
       "bilder": [
-        "story_mo_frage.png"
+        "story_mo_frage_tippen.png"
       ],
       "status": "freigegeben",
-      "issue": 44
+      "issue": 44,
+      "hinweis": "12.10.: go tippen (Loris, Issue #44) – Frage-Story mit Antwort zum Tippen statt Fragesticker (story_mo_frage_tippen.png)."
     },
     {
       "id": "16-reel-listen",
@@ -600,11 +601,11 @@
       "zeit": "2026-10-17 19:30",
       "typ": "reel",
       "ordner": "posts/01_2026-10-04_reel_ampel",
-      "video": "reel_stimme.mp4",
+      "video": "reel_kurz.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
+      "hinweis": "12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
       "issue": 7
     },
     {

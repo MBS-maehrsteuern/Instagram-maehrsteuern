@@ -50,9 +50,10 @@ Median-Hook, 1620 px) · Reels 13–16 auf 12–15 s gekürzt · Mittags-Feed 12
 Verlustvortrag auf 70 % korrigiert) · `15_plan_2_pro_tag.md` · Tagesbericht-Routine auf 09:15 · Monatsbericht-Routine: neue Commit-Regel + Commit-Erlaubnis.
 
 **Vorschläge zu freigegebenen Beiträgen (nicht umgesetzt – Go im Freigabe-Issue):**
-- **04-story-frage** (Do 15.10. 18:00, Issue #44): offene Frage „Was willst du über mich wissen?“ → Tipp-Version `story_mo_frage_tippen.png`
-  (👏 = mehr über mich · 😮 = mehr Tools) liegt im Ordner. Bei Go nur `bilder` im Plan tauschen.
-- **01-reel-ampel** (Sa 17.10.): 26 s → per Schnitt auf ca. 15 s kürzen (Regel 12–15 s). Bei Go schneide ich es.
+- ~~**04-story-frage** (Do 15.10. 18:00, Issue #44): Tipp-Version~~ → **erledigt 12.10.** (go tippen): Plan zeigt `story_mo_frage_tippen.png`
+  (👏 = mehr über mich · 😮 = mehr Tools).
+- ~~**01-reel-ampel** (Sa 17.10.): auf ca. 15 s kürzen~~ → **erledigt 12.10.** (go kürzen): `reel_kurz.mp4`, 15,3 s, −18 LUFS
+  (Schnitt `vorlagen/system/schnitt/p01_reel_ampel_kurz_bauen.py`), Langfassung `reel_stimme.mp4` bleibt liegen.
 - **04-reel-mein-weg** (Fr 16.10.): 13 s, passt.
 - **22-reel-steuersatz** (So 18.10.): Themen-Dopplung mit dem KSt-Reel vom 10.10. – auf KW 44 schieben? (siehe `15_plan_2_pro_tag.md`).
 
