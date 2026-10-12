@@ -305,6 +305,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:05 📡 Radar 2026-10-07: 8 Beiträge, 0 DM-Entwürfe ([`b4bb83c`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/b4bb83c7f8f93671ce6847808a8dc4b36ec6b407))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Di 06.10.2026**
 - 21:10 ✍️ Titelbild-Vorlage „Excel vs. Code“ (titel_split.html) für das Split-Reel – Varianten zur Auswahl ([`45579b6`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/45579b6ad03fb20a6d2c3452a98444a2a89f3800))
   - `posts/02_2026-10-06_excel_fehler`, `vorlagen/system/render.mjs`, `vorlagen/system/titel_split.html`
@@ -354,8 +356,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - Plan: `11-reel-monatsbericht` status: entwurf → wartet_auf_sprachnachricht
 - 07:05 📡 Radar 2026-10-06: 8 Beiträge, 0 DM-Entwürfe ([`ffe8206`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/ffe8206f9e4374e897b90f4e3832155b384c2bca))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mo 05.10.2026**
 - 21:39 ✍️ Monatsbericht-Reel auf Mi 07.10. vorgezogen (Follow-up zum 5-Dinge-Reel), Split-Reel auf So 11.10. ([`4f65efd`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/4f65efdd295d4130154d8206b85409f2f38b638f))
