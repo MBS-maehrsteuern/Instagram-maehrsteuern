@@ -393,8 +393,11 @@
       "bilder": [
         "story_mo_quiz.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
+      "status": "veroeffentlicht",
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · ",
+      "media_id": "17887520328620377",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4006247183418785188",
+      "veroeffentlicht_am": "2026-10-12 12:45"
     },
     {
       "id": "14-reel-versionen",
