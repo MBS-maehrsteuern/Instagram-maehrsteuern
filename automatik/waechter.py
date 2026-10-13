@@ -2,13 +2,15 @@
 
 - Workflow fehlgeschlagen → ein Kommentar, solange er rot bleibt kein weiterer. Wieder grün → nur der Status im
   Issue-Text ändert sich (keine Benachrichtigung).
+- Posten-Takt steht: letzter Anstoß von cron-job.org (workflow_dispatch auf posten.yml) älter als 40 Min. → ein
+  Kommentar, bis der Takt wieder läuft.
 - Schlüssel gilt weniger als 14 Tage (automatik/schluessel_ablauf.json, schreibt token.yml) → ein Kommentar je Ablaufdatum.
 Mehrere neue Probleme in einem Lauf landen gebündelt in einem Kommentar. Der Merkzustand steht unsichtbar im Issue-Text,
 damit nichts committet werden muss.
 Umgebung: GH_TOKEN (issues:write, actions:read), GITHUB_REPOSITORY.
 """
 import json, os, re, subprocess, sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -19,6 +21,7 @@ from ablauf import DATEI as ABLAUF
 REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
 LABEL = "waechter"
 WARNTAGE = 14
+TAKT_MINUTEN = 40   # cron-job.org stößt posten.yml alle 15 Min. an – älter als 40 Min. heißt: Takt steht
 ZUSTAND = re.compile(r"<!-- zustand (\{.*?\}) -->", re.S)
 
 
@@ -31,6 +34,15 @@ def letzter_lauf(datei):
              '[.workflow_runs[] | select(.conclusion=="success" or .conclusion=="failure")][0]'
              ' | [.conclusion, .html_url, .updated_at] | @tsv')
     return roh.split("\t") if roh else None
+
+
+def takt_alter():
+    """Minuten seit dem letzten Anstoß von posten.yml per workflow_dispatch (= cron-job.org, selten Loris von Hand)."""
+    roh = gh("api", f"repos/{REPO}/actions/workflows/posten.yml/runs?event=workflow_dispatch&per_page=1", "--jq",
+             ".workflow_runs[0].created_at // empty")
+    if not roh:
+        return None
+    return (datetime.now(timezone.utc) - datetime.fromisoformat(roh.replace("Z", "+00:00"))).total_seconds() / 60
 
 
 def issue_holen():
@@ -70,6 +82,29 @@ def main():
         else:
             zustand["rot"].pop(datei, None)
             zeilen.append(f"| {name} | ✅ |")
+    # Takt: cron-job.org stößt posten.yml alle 15 Min. per workflow_dispatch an. Fällt er aus, bleibt jeder Lauf grün,
+    # aber Beiträge gehen nur noch mit GitHubs eigenem Zeitplan raus (real alle 4–7 h). Gezählt wird der Anstoß
+    # (created_at, egal ob erfolgreich, abgebrochen oder wartend): Ein Lauf, der bis 17:45 schläft, lässt die
+    # folgenden Anstöße als „cancelled“ enden – die Erfolgszeit wäre dann bis 75 Min. alt, ohne dass etwas kaputt ist.
+    try:
+        alter = takt_alter()
+    except (subprocess.CalledProcessError, ValueError):
+        alter = None
+    if alter is None:
+        zeilen.append("| Posten-Takt (cron-job.org) | – |")
+    elif alter > TAKT_MINUTEN:
+        if not zustand.get("takt"):
+            neu.append(f"⏱️ **Posten-Takt steht** – letzter Anstoß von cron-job.org vor {alter:.0f} Min. (Soll: alle 15 Min.). "
+                       "Beiträge gehen jetzt nur noch mit GitHubs eigenem Zeitplan raus (alle paar Stunden, ggf. gar nicht). "
+                       "Bitte prüfen: ① cron-job.org einloggen → ist der Job für posten.yml aktiv? ② Verlauf dort: 401/403 = GitHub-Schlüssel "
+                       "`cron-posten` abgelaufen/ungültig → neuen (Actions: write) anlegen und im Job eintragen; 404/422 = "
+                       "Workflow- oder Branch-Name geändert. ③ Bis dahin fällige Beiträge von Hand: Actions → *Instagram posten* "
+                       "→ *Run workflow*.")
+        zustand["takt"] = "rot"
+        zeilen.append(f"| Posten-Takt (cron-job.org) | 🔴 letzter Anstoß vor {alter:.0f} Min. |")
+    else:
+        zustand.pop("takt", None)
+        zeilen.append("| Posten-Takt (cron-job.org) | ✅ |")
     ablauf = json.loads(ABLAUF.read_text()) if ABLAUF.exists() else {}
     heute = date.today()
     schluessel = []
@@ -87,7 +122,7 @@ def main():
     if neu or json.dumps(zustand, sort_keys=True) != alt or not alt.strip("{}"):
         stand = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%d.%m. %H:%M")
         text = (f"@{REPO.split('/')[0]} Dieses Issue bleibt offen. Es meldet sich **nur bei echten Problemen** "
-                f"(Workflow rot, Schlüssel < {WARNTAGE} Tage) – bei Grün ist Funkstille, wie bei einer Steuererklärung ohne Rückfragen. "
+                f"(Workflow rot, Posten-Takt steht, Schlüssel < {WARNTAGE} Tage) – bei Grün ist Funkstille, wie bei einer Steuererklärung ohne Rückfragen. "
                 "Bitte nicht schließen.\n\n"
                 f"**Stand {stand}**\n\n| Ablauf | Letzter Lauf |\n|---|---|\n" + "\n".join(zeilen) +
                 "\n\n| Schlüssel | gültig bis | |\n|---|---|---|\n" + ("\n".join(schluessel) or "| – | – | – |") +
