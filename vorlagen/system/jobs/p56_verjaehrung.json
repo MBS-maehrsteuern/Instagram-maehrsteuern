@@ -1,0 +1,5 @@
+{ "titel": "Karussell 56 · Festsetzungsverjährung (Nachtlauf 14.10., d2): verjaehrung Folien 1–5, Folie 6 neu: Speichern + Weiterleiten + TOOL, Story-Teaser", "ausgabe": "../../posts/56_2026-11-06_verjaehrung",
+  "bilder": [
+    {"vorlage":"karussell","datei":"folie_06.png","seite":6,"von":6,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für die nächste Prüfungsanordnung.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool rechnet Gewerbesteuer und Steuerrückstellung – mit Norm je Posten. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
+    {"vorlage":"story","datei":"story_fr_teaser.png","typ":"teaser","kicker":"Neuer Beitrag","titel":"Wie lange darf das Finanzamt *noch ändern?*","bild":"../../posts/56_2026-11-06_verjaehrung/folie_01.png"}
+  ] }

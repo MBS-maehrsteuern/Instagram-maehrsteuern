@@ -1,0 +1,16 @@
+GoBD in der Betriebsprüfung: Hält deine Steuer-Excel, wenn der Prüfer sie öffnet? 🔍
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Drei GoBD-Wörter, an denen es in Excel-Dateien oft hakt:
+01 Unveränderbar: Änderungen dürfen den ursprünglichen Inhalt nicht unkenntlich machen (§ 146 Abs. 4 AO). Eine überschriebene Zelle hinterlässt keine Spur.
+02 Zeitgerecht: Kasse täglich, unbare Vorgänge zeitnah – die GoBD nennen etwa 10 Tage als Richtwert (§ 146 Abs. 1 AO).
+03 Dokumentiert: Die Verfahrensdokumentation beschreibt, wie Daten entstehen, verarbeitet und aufbewahrt werden.
+Dazu kommt: Ein sachverständiger Dritter muss sich in angemessener Zeit zurechtfinden (§ 145 Abs. 1 AO) – und der Prüfer darf auf die Daten zugreifen (§ 147 Abs. 6 AO).
+
+Wo hakt es bei euch eher: A) Protokoll der Änderungen oder B) Verfahrensdokumentation? 👇
+📤 Schick das der Person, die bei euch die Steuer-Excel pflegt.
+
+Typischer Fall, kein echter Mandant.
+
+#steuern #steuerabteilung #betriebspruefung #gobd

@@ -1,0 +1,7 @@
+{ "titel": "Reel 54 · Reverse-Charge – mit USt bezahlt, trotzdem keine Vorsteuer (Nachtlauf 14.10., d2): Titelbild Prüfer-Fall, Abspann TOOL, Story Emoji-Tipp", "ausgabe": "../../posts/54_2026-11-05_reel_reverse_charge",
+  "bilder": [
+    {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Typischer Prüfer-Fall","titel":"Mit USt bezahlt.\nVorsteuer:\n*0 €.*","sub":"Reverse-Charge übersehen – § 13b UStG."},
+    {"vorlage":"einblendung","datei":"bausteine/haken_fall.png","typ":"haken","kicker":"Demo-Fall · Bau","titel":"Rechnung:\n100.000 € *+ 19.000 € USt*","sub":"Vom Subunternehmer. Ihr baut selbst – also schuldet ihr die Steuer (§ 13b Abs. 2 Nr. 4, Abs. 5 UStG)."},
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"Rechnungen\n*mit Regel prüfen?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"story","datei":"story_do_tipp.png","typ":"antwort","kicker":"Umsatzsteuer · 1 Tipp","titel":"Dieser Satz gehört auf jede *Reverse-Charge*-Rechnung.","text":"„Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) – und keine Umsatzsteuer ausweisen. Der Fall dazu im neuen Reel.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }

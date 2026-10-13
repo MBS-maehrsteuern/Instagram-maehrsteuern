@@ -1,0 +1,6 @@
+{ "titel": "Reel 52 · GoBD – Prüfer-Blick auf die Excel (Nachtlauf 14.10., d2): Titelbild Prüfer-Fall, Abspann TOOL, Story Emoji-Tipp", "ausgabe": "../../posts/52_2026-11-04_reel_gobd",
+  "bilder": [
+    {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Betriebsprüfung · GoBD","titel":"Der Prüfer\nöffnet deine\n*Excel.*","sub":"3 GoBD-Wörter, an denen er zuerst hängen bleibt."},
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"Rechnen mit\n*Protokoll?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"story","datei":"story_mi_tipp.png","typ":"antwort","kicker":"GoBD · 1 Tipp","titel":"Unbare Vorgänge: als Richtwert *10 Tage*.","text":"Zeitgerecht buchen heißt: Kasse täglich, unbare Vorgänge zeitnah – die GoBD nennen 10 Tage als Richtwert. Mehr im neuen Reel.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }
