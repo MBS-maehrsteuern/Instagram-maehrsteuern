@@ -113,7 +113,6 @@ Reichweite pro Tag: 09.10. **66** · 10.10. **363** · 11.10. **243** · 12.10. 
 | Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 392 (+0) | 296 | 11 | 2 | 10 | 8 |
 | So 04.10. 19:30 [5 Dinge, die ich aus Excel rausgeschmiss](https://www.instagram.com/reel/DeFLK53ALSs/) | 932 (+2) | 690 | 13 | 10 | 15 | 16 |
 | Do 01.10. 18:30 [Neu hier? Dann kurz zu mir 👋](https://www.instagram.com/p/Dd9V5HAAhcL/) | 377 (+1) | 143 | 10 | 2 | 2 | 17 |
-| Di 29.09. 15:42 [Steuern × Code. ⚡](https://www.instagram.com/reel/Dd34F9RtucT/) | 337 (+1) | 195 | 10 | 2 | 4 | 7 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
