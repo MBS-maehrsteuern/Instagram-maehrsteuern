@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:00 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:08 Uhr._
 
 **Als Nächstes online:** 📱 Story `09-story-quiz` am **Mi 14.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -133,6 +133,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 23:08 ✍️ Postzeiten vor die Follower-Welle gelegt: Feed 11:45/17:45, Storys 12:15/17:50 ([`52a273d`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/52a273d4fc78d6c90705f304a38708e1aebd92ac))
+  - Plan: `09-story-quiz` zeit: 2026-10-14 12:45 → 2026-10-14 12:15; `07-reel-hinzurechnung` zeit: 2026-10-14 19:30 → 2026-10-14 17:45; `09-rueckstellung` zeit: 2026-10-15 12:15 → 2026-10-15 11:45; `09-story-teaser` zeit: 2026-10-15 12:45 → 2026-10-15 12:15; `16-reel-listen` zeit: 2026-10-15 19:30 → 2026-10-15 17:45; `09-story-aufloesung` zeit: 2026-10-15 19:35 → 2026-10-15 17:50; `03-story-aufloesung` zeit: 2026-10-16 12:45 → 2026-10-16 12:15; `04-reel-mein-weg` zeit: 2026-10-16 19:30 → 2026-10-16 17:45; `04-story-teaser` zeit: 2026-10-16 19:35 → 2026-10-16 17:50; `01-reel-ampel` zeit: 2026-10-17 12:15 → 2026-10-17 11:45; `01-story-teaser` zeit: 2026-10-17 12:45 → 2026-10-17 12:15; `18-reel-aufbewahrung` zeit: 2026-10-19 19:30 → 2026-10-19 17:45; `19-reel-verlustvortrag` zeit: 2026-10-20 19:30 → 2026-10-20 17:45; `20-reel-erechnung` zeit: 2026-10-21 19:30 → 2026-10-21 17:45; `10-story-umfrage` zeit: 2026-10-22 12:45 → 2026-10-22 12:15; `21-reel-zinsschranke` zeit: 2026-10-22 19:30 → 2026-10-22 17:45; `10-e-rechnung` zeit: 2026-10-23 19:30 → 2026-10-23 17:45; `10-story-teaser` zeit: 2026-10-23 19:35 → 2026-10-23 17:50; `17-reel-kommentare` zeit: 2026-10-24 19:30 → 2026-10-24 17:45; `22-reel-steuersatz` zeit: 2026-10-26 19:30 → 2026-10-26 17:45
 - 23:00 ✍️ Lage nach Rebase neu erzeugt ([`0e1e645`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0e1e645cca01cbf14e1ea428881e8a819c976b5e))
   - `LAGE.html`
 - 23:00 ✍️ Konflikte Testmonat entschieden: Ampel mittags, Steuersatz KW 44, Notlösung ohne Stimme ([`c3eca9c`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/c3eca9cf94b92f497e19a71aafa60a91a82a18c2))
