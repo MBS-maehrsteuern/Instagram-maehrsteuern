@@ -1,4 +1,45 @@
-{ "titel": "31 · Karussell „Zinsschranke in 60 Sekunden“ – letzte Folie mit Speichern + Weiterleiten", "ausgabe": "../../posts/31_2026-10-22_zinsschranke",
-  "bilder": [
-    {"vorlage":"karussell","datei":"folie_06.png","seite":6,"von":6,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für später.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool führt EBITDA-Vortrag und Zinsvortrag fort. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"}
-  ] }
+{
+ "titel": "31 · Karussell „Zinsschranke in 60 Sekunden“ – Folie 3 (verrechenbares EBITDA), Folie 5 (Stand-alone) und letzte Folie mit Speichern + Weiterleiten",
+ "ausgabe": "../../posts/31_2026-10-22_zinsschranke",
+ "bilder": [
+  {
+   "vorlage": "karussell",
+   "datei": "folie_03.png",
+   "seite": 3,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Die Quote",
+   "titel": "*30 %* des steuerlichen EBITDA.",
+   "text": "Über der Freigrenze ist der Nettozinsaufwand nur bis zur Höhe des verrechenbaren EBITDA (= 30 % des steuerlichen EBITDA) abziehbar.",
+   "boxTitel": "NORM",
+   "box": "§ 4h Abs. 1 EStG"
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "folie_05.png",
+   "seite": 5,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Ausnahmen",
+   "titel": "Drei *Auswege*.",
+   "punkte": [
+    "Nettozinsaufwand unter 3 Mio. €",
+    "Kein Konzern, keine nahestehende Person (Stand-alone-Klausel)",
+    "Eigenkapitalquote höchstens 2 Prozentpunkte unter der des Konzerns (Escape)"
+   ],
+   "boxTitel": "NORM",
+   "box": "§ 4h Abs. 2 EStG · § 8a KStG"
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "folie_06.png",
+   "seite": 6,
+   "von": 6,
+   "typ": "cta",
+   "saeule": "Wissen",
+   "titel": "*Speichern* für später.",
+   "text": "Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool führt EBITDA-Vortrag und Zinsvortrag fort. Schreib „TOOL“.",
+   "chip": "📌 Speichern · 📤 Senden"
+  }
+ ]
+}

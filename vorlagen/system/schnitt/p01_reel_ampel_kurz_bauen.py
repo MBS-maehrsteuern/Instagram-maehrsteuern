@@ -55,7 +55,8 @@ for i, (t0, q, ex) in enumerate(SZENEN):
         if x < a < y: t[[e["wort"] for e in t].index(z)].pop("ab", None)
     for tz, w, f, yy, g in AKZENTE:
         x = neue_zeit(tz, behalten, neu)
-        if a <= x < b: t.append({"wort": w, "farbe": f, "groesse": g, "y": yy, "x": 470, "breite": 820, "ab": round(x - a, 2), "bis": round(b - a, 2)})
+        if a <= x < b: t.append({"wort": w, "farbe": f, "groesse": g, "y": yy, "x": 470, "breite": 820, "ab": round(x - a, 2), "bis": round(b - a, 2),
+                                 **({"kasten": True} if tz == 21.64 else {})})  # CTA liegt über der Dashboard-Überschrift → dunkler Kasten
     szenen.append({"quelle": q, "dauer": round(b - a, 3), "text": t, **ex})
 nz = lambda t: round(neue_zeit(t, behalten, neu), 2)
 ton = [{"datei": f"../../{P}/ton/stimme_kurz.flac", "ab": 0, "lautstaerke": 1.0, "ein": 0.02, "aus": 0.3},

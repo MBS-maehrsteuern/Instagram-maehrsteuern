@@ -18,9 +18,18 @@ def hintergrund():
     return Image.composite(farbe, bg, glow)
 
 
-def karte(folie, y=470, skala=0.9):
+def ohne_zaehler(f):
+    """Karussell-Zähler unten rechts („3/7“) mit der Hintergrundfarbe daneben übermalen – im Reel ohne Sinn (und bei 28 in falscher Reihenfolge)."""
+    d = ImageDraw.Draw(f)
+    for y in range(1230, 1310):
+        d.line((880, y, 1060, y), fill=f.getpixel((870, y)))
+    return f
+
+
+def karte(folie, y=470, skala=0.9, zaehler=True):
     bild = hintergrund()
     f = Image.open(folie).convert("RGB")
+    if not zaehler: f = ohne_zaehler(f)
     f = f.resize((round(f.width * skala), round(f.height * skala)), Image.LANCZOS)
     x = (W - f.width) // 2
     schatten = Image.new("L", (W, H), 0)
@@ -37,8 +46,8 @@ def karte(folie, y=470, skala=0.9):
 auftraege = {
     root / "posts/28_2026-10-19_reel_zuschlaege/material": {
         "hintergrund.png": None,
-        "karte_saeumnis.png": bib / "karussell/fristen_ao/folie_03.png",
-        "karte_verspaetung.png": bib / "karussell/fristen_ao/folie_02.png",
+        "karte_saeumnis.png": (bib / "karussell/fristen_ao/folie_03.png", False),  # 14.10.: Zähler 3/7 vor 2/7 ausgeblendet
+        "karte_verspaetung.png": (bib / "karussell/fristen_ao/folie_02.png", False),
     },
     root / "posts/30_2026-10-21_reel_gwg/material": {
         "hintergrund.png": None,
@@ -49,5 +58,7 @@ auftraege = {
 for ordner, dateien in auftraege.items():
     ordner.mkdir(parents=True, exist_ok=True)
     for name, quelle in dateien.items():
-        (hintergrund() if quelle is None else karte(quelle)).save(ordner / name)
+        if isinstance(quelle, tuple): quelle, zaehler = quelle
+        else: zaehler = True
+        (hintergrund() if quelle is None else karte(quelle, zaehler=zaehler)).save(ordner / name)
         print("✓", ordner / name)

@@ -138,6 +138,11 @@ def text_ebene(eintraege, t):
         box = ImageDraw.Draw(ebene).textbbox((0, 0), zeile, font=f, stroke_width=rand)
         bw, bh = box[2] - box[0], box[3] - box[1]
         x, y = e.get("x", W / 2) - bw / 2 - box[0], e.get("y", 760) - bh / 2 - box[1]
+        if e.get("kasten"):  # optional: dunkler Kasten hinter dem Text, z. B. über unruhigem Programmbild
+            rand_k = round(g * skala * 0.22)
+            ImageDraw.Draw(ebene).rounded_rectangle(
+                (x + box[0] - rand_k, y + box[1] - rand_k * 0.7, x + box[2] + rand_k, y + box[3] + rand_k * 0.7),
+                radius=round(rand_k * 0.8), fill=tuple(e["kasten"]) if isinstance(e["kasten"], list) else (8, 12, 11, 248))
         schatten = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         ImageDraw.Draw(schatten).text((x + 8, y + 12), zeile, font=f, fill=(0, 0, 0, 150), stroke_width=rand, stroke_fill=(0, 0, 0, 150))
         ebene.alpha_composite(schatten.filter(ImageFilter.GaussianBlur(10)))

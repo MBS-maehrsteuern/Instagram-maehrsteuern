@@ -194,18 +194,10 @@
    ],
    "text": [
     {
-     "wort": "2 Zahlen: 30 %, 3 Mio.",
-     "ab": 0.1,
-     "groesse": 80,
-     "y": 1350,
-     "x": 480,
-     "breite": 860
-    },
-    {
      "wort": "Speicher dir das.",
-     "ab": 0.6,
-     "groesse": 80,
-     "y": 1450,
+     "ab": 0.1,
+     "groesse": 72,
+     "y": 1400,
      "x": 480,
      "breite": 860,
      "farbe": "gruen"

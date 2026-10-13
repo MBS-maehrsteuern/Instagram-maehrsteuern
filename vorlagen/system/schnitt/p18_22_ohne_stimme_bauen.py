@@ -29,8 +29,8 @@ def ut(wort, ab, zeile=0, bis=None, farbe="weiss", groesse=94):
     if farbe != "weiss": e["farbe"] = farbe
     return e
 
-def unten(wort, ab, zeile=0, farbe="weiss", groesse=80):  # Untertitel im Abspann: unter der Karte, über y 1500
-    e = {"wort": wort, "ab": ab, "groesse": groesse, "y": [1350, 1450][zeile], "x": 480, "breite": 860}
+def unten(wort, ab, zeile=0, farbe="weiss", groesse=72):  # Untertitel im Abspann: unter der Karte, über y 1500
+    e = {"wort": wort, "ab": ab, "groesse": groesse, "y": [1400, 1475][zeile], "x": 480, "breite": 860}  # 14.10.: 50 px tiefer, Abstand zur Fußzeile der Abspann-Karte
     if farbe != "weiss": e["farbe"] = farbe
     return e
 
@@ -90,7 +90,7 @@ REELS = {
             ("folie", BIB / f"{KR}/zinsschranke/folie_04.png", 3.6, [ut("Aber: Der Zinsvortrag geht bei", 0.1, groesse=70),
                                                                       ut("schädlichem Anteilseigner-", 0.7, 1, groesse=70, farbe="rot"),
                                                                       ut("wechsel unter (§ 8c KStG).", 0.7, 2, groesse=70, farbe="rot")]),
-            ("abspann", None, 3.2, [unten("2 Zahlen: 30 %, 3 Mio.", 0.1), unten("Speicher dir das.", 0.6, 1, farbe="gruen")]),
+            ("abspann", None, 3.2, [unten("Speicher dir das.", 0.1, farbe="gruen")]),  # 14.10.: „2 Zahlen: 30 %, 3 Mio.“ weggelassen – zweite Zeile ragte unter y 1500
         ]),
     "22": dict(
         id="p22_reel_steuersatz", ordner="posts/22_2026-10-18_reel_steuersatz", titel=BIB / "reels/reel_kst2032/titelbild.png",
