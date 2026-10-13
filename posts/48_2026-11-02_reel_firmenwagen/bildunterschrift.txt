@@ -1,0 +1,17 @@
+Firmenwagen: Fahrtenbuch in Excel geführt – hält das in der Lohnsteuer-Außenprüfung? 🚗
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Typischer Prüfer-Fall: Das Fahrtenbuch ist eine Excel-Liste, die sich jederzeit ändern lässt. Der Prüfer verwirft es – und setzt die 1-%-Regel an.
+01 Fahrtenbuch nur, wenn es zeitnah und in geschlossener Form geführt wird (§ 6 Abs. 1 Nr. 4 Satz 3 EStG). Nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein.
+02 Sonst gilt pauschal 1 % vom Bruttolistenpreis pro Monat (§ 6 Abs. 1 Nr. 4 Satz 2 EStG) – egal, wie wenig privat gefahren wird.
+03 Plus 0,03 % je Entfernungskilometer für den Arbeitsweg (§ 8 Abs. 2 Satz 3 EStG), alternativ 0,002 % je Fahrt bei höchstens 180 Fahrten im Jahr.
+Demo: Listenpreis 50.000 €, 20 km Arbeitsweg → 500 € + 300 € = 800 € geldwerter Vorteil im Monat, 9.600 € im Jahr.
+E-Autos: 0,25 % bis 100.000 € Listenpreis (Anschaffung ab 1.7.2025), darüber 0,5 %.
+
+Wie führt ihr Fahrtenbücher: A) App/elektronisch oder B) Papier? 👇
+📤 Schick das dem Kollegen, der bei euch die Dienstwagen abrechnet.
+
+Typischer Fall, kein echter Mandant. Alle Zahlen sind Demo-Zahlen.
+
+#steuern #steuerabteilung #lohnsteuer #firmenwagen

@@ -1,0 +1,9 @@
+{ "titel": "Reel 49 · Kleinunternehmer 25.000/100.000 € – CTA-Reel KW 45 (Nachtlauf 14.10.): Titelbild, Karten mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe), Abspann TOOL, Story-Teaser",
+  "ausgabe": "../../posts/49_2026-11-02_reel_kleinunternehmer",
+  "bilder": [
+    {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Umsatzsteuer","titel":"*100.000 €*\nund raus.","sub":"Kleinunternehmer seit 2025: zwei Grenzen."},
+    {"vorlage":"karussell","datei":"bausteine/folie_grenze1.png","typ":"inhalt","saeule":"Grenze 1 · Vorjahr","titel":"Höchstens *25.000 €* im Vorjahr.","text":"Maßgeblich ist der Gesamtumsatz des vorangegangenen Kalenderjahres.","boxTitel":"NORM","box":"§ 19 Abs. 1 UStG"},
+    {"vorlage":"karussell","datei":"bausteine/folie_grenze2.png","typ":"inhalt","saeule":"Grenze 2 · laufendes Jahr","titel":"*100.000 €* – und zwar sofort.","text":"Wird die Grenze im laufenden Jahr überschritten, ist schon der Umsatz, mit dem sie überschritten wird, regulär steuerpflichtig.","boxTitel":"NORM","box":"§ 19 Abs. 1 UStG"},
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"Wie nah seid ihr\n*an 100.000 €?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"story","datei":"story_mo_teaser.png","typ":"teaser","kicker":"Neues Reel","titel":"Kleinunternehmer: *100.000 €* – und raus.","bild":"../../posts/49_2026-11-02_reel_kleinunternehmer/titelbild.png"}
+  ] }

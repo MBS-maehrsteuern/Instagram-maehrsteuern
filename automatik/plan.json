@@ -1414,6 +1414,112 @@
       "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Betriebsaufspaltungs-Reel (Titelbild), jobs/p47_reel_betriebsaufspaltung.json."
     },
     {
+      "id": "48-reel-firmenwagen",
+      "zeit": "2026-11-02 11:45",
+      "typ": "reel",
+      "ordner": "posts/48_2026-11-02_reel_firmenwagen",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json."
+    },
+    {
+      "id": "48-story-tipp",
+      "zeit": "2026-11-02 12:15",
+      "typ": "story",
+      "ordner": "posts/48_2026-11-02_reel_firmenwagen",
+      "bilder": [
+        "story_mo_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Emoji-Tipp-Story „Fahrtenbuch: zeitnah und geschlossen“ (nach storys/tipp_fahrtenbuch, R5) zum Firmenwagen-Reel, jobs/p48_reel_firmenwagen.json."
+    },
+    {
+      "id": "49-reel-kleinunternehmer",
+      "zeit": "2026-11-02 17:45",
+      "typ": "reel",
+      "ordner": "posts/49_2026-11-02_reel_kleinunternehmer",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json."
+    },
+    {
+      "id": "49-story-teaser",
+      "zeit": "2026-11-02 17:50",
+      "typ": "story",
+      "ordner": "posts/49_2026-11-02_reel_kleinunternehmer",
+      "bilder": [
+        "story_mo_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kleinunternehmer-CTA-Reel (Titelbild), jobs/p49_reel_kleinunternehmer.json."
+    },
+    {
+      "id": "50-reel-gebaeude-afa",
+      "zeit": "2026-11-03 11:45",
+      "typ": "reel",
+      "ordner": "posts/50_2026-11-03_reel_gebaeude_afa",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Musik 08 Chill House. Titelbild = reels/reel_gebaeude (unverändert), 3 Punkte = karussell/gebaeude_afa Folien 3–5 (linear § 7 Abs. 4, degressiv 5 % § 7 Abs. 5a, Sonder-AfA § 7b EStG). Demo 400.000 € → 12.000 € / 20.000 € / 19.000 € nachgerechnet. Grund und Boden + Voraussetzungen Betriebsgebäude in der Bildunterschrift. jobs/p50_reel_gebaeude_afa.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p50_reel_gebaeude_afa.json."
+    },
+    {
+      "id": "50-story-tipp",
+      "zeit": "2026-11-03 12:15",
+      "typ": "story",
+      "ordner": "posts/50_2026-11-03_reel_gebaeude_afa",
+      "bilder": [
+        "story_di_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Emoji-Tipp-Story „5 % degressiv für Wohnungsneubau“ (§ 7 Abs. 5a EStG) zum Gebäude-AfA-Reel, jobs/p50_reel_gebaeude_afa.json."
+    },
+    {
+      "id": "51-karussell-kapitalertraege",
+      "zeit": "2026-11-03 17:45",
+      "typ": "karussell",
+      "ordner": "posts/51_2026-11-03_kapitalertraege",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png",
+        "folie_07.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), karussell/kapitalertraege Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Steuererklärung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p51_kapitalertraege.json). Nachgerechnet: (3.000 − 1.000) × 26,375 % = 527,50 €. Alt-Texte in alt_texte.json. KW 45 ungerade → Karussell abends."
+    },
+    {
+      "id": "51-story-teaser",
+      "zeit": "2026-11-03 17:50",
+      "typ": "story",
+      "ordner": "posts/51_2026-11-03_kapitalertraege",
+      "bilder": [
+        "story_di_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json."
+    },
+    {
       "id": "57-reel-verlust-8c",
       "zeit": "2026-11-07 17:45",
       "typ": "reel",

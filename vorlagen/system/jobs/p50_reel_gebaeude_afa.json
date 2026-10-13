@@ -1,0 +1,6 @@
+{ "titel": "Reel 50 · Gebäude-AfA 2, 3 oder 5 % (Nachtlauf 14.10.): Abspann TOOL, Story Emoji-Tipp (Titelbild aus reels/reel_gebaeude)",
+  "ausgabe": "../../posts/50_2026-11-03_reel_gebaeude_afa",
+  "bilder": [
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"AfA-Plan\n*automatisch?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"story","datei":"story_di_tipp.png","typ":"antwort","kicker":"Zahl des Tages · 1 Tipp","titel":"*5 %* degressiv für Wohnungsneubau.","text":"Vom Restwert, bei Baubeginn 1.10.2023 bis 30.9.2029 (§ 7 Abs. 5a EStG). Grund und Boden wird nie abgeschrieben.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }

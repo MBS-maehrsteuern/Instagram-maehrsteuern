@@ -1,0 +1,166 @@
+{
+ "ausgabe": "../../posts/49_2026-11-02_reel_kleinunternehmer/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/titelbild.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Kleinunternehmer?",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_vorjahr.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "rein": "whip",
+   "text": [
+    {
+     "wort": "1 · Vorjahr",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "max. 25.000 €",
+     "groesse": 130,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_laufend.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "2 · Laufendes Jahr",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "über 100.000 € = sofort USt",
+     "groesse": 100,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_vorsteuer.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "3 · Dafür:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "keine Vorsteuer",
+     "groesse": 120,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/abspann_tool.png",
+   "dauer": 3.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Kommentiere „TOOL“",
+     "groesse": 110,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.2,
+     "farbe": "gelb"
+    }
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/12_runway_pop_electronic.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.59,
+   "ein": 0.3
+  }
+ ]
+}
