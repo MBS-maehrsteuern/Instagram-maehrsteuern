@@ -1,6 +1,24 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:26 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:35 Uhr._
+
+## ⏱️ 30-Sekunden-Briefing
+
+- **Heute online:** ✅ 12:15 🖼️ Karussell `03-gewst-hinzurechnung` (online) · ✅ 12:45 📱 Story `03-story-teaser` (online) · ✅ 19:30 🎬 Reel `15-reel-rechnungsnummern` (online) · ✅ 19:35 📱 Story `23-story-biolink` (online)
+- **Braucht dich:** 9 offen
+- **Letzte 7 Tage:** Reichweite **1441** (06.10.–12.10., +30 % zur Vorwoche) · Follower **+6** (jetzt 362) · 30 Tage: +19 Follows / −11 entfolgt
+- **Testmonat** (Tag 2/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **8/14** (3 online · 5 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 18.10.
+  - 🔴 **KW 43** (19.10.–25.10.): Feed **1/14** (0 online · 1 geplant · 5 wartet) · Reel-Tage (sicher) **0/7**
+  - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant · 1 wartet) · Reel-Tage (sicher) **0/7**
+  - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
+- **Freie Slots nächste 7 Tage** (15):
+  - Mi 14.10.: Feed 11:45 · Story 17:50
+  - Fr 16.10.: Feed 11:45
+  - Sa 17.10.: Feed 17:45 · Story 17:50
+  - So 18.10.: Feed 11:45 · Feed 17:45 · Story 12:15 · Story 17:50 – **ganzer Tag leer**
+  - Mo 19.10.: Feed 11:45 · Story 12:15 · Story 17:50
+  - Di 20.10.: Feed 11:45 · Story 12:15 · Story 17:50
 
 **Als Nächstes online:** 📱 Story `09-story-quiz` am **Mi 14.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -133,6 +151,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 23:35 ✍️ Lage: 30-Sekunden-Briefing, 7-Tage-Kachel, Testmonat je KW, freie Slots; Routine-Prompts neu ([`40e4b81`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/40e4b81b9cf066267004de35296f613cb000b22b))
+  - `.claude/skills/lage/SKILL.md`, `automatik/lage.py`, `automatik/lage_html.py`, `automatik/routinen`
+- 23:34 🤖 Autopilot: kein Doppel-Post mehr, Teaser nur nach Feed-Beitrag, Takt-Wächter ([`18b7d14`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/18b7d1481b4a7fc60e3b5ef71b1337feeacf6d31))
+  - `automatik/posten.py`, `automatik/tests`, `automatik/waechter.py`
 - 23:26 ✍️ Bio-/Profil-Vorschlag 14.10.: Nutzen-Bio, Namensfeld, Pins, Highlights (braucht Loris in der App) ([`0a8f9f2`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0a8f9f217615061add684e67a775935ba5896007))
   - `strategie/02_bio_highlights.md`
 - 23:24 ✍️ Nachtlauf 1: anstehende Beiträge optimiert (Texte, Titelbilder, Fachkorrekturen) ([`f0009be`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/f0009bea8b43bbb09695fbefabfe592304948e3e))
