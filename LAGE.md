@@ -1,8 +1,8 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 18:15 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 19:31 Uhr._
 
-**Als Nächstes online:** 🎬 Reel `15-reel-rechnungsnummern` am **Di 13.10. 19:30 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 📱 Story `23-story-biolink` am **Di 13.10. 19:35 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -48,7 +48,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 13.10. 19:30 | 🎬 Reel `15-reel-rechnungsnummern` | 🟢 freigegeben (geht automatisch online) | 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 4: doppelte Rechnungsnummer. Vorgezogen vom 20.10. |
 | Di 13.10. 19:35 | 📱 Story `23-story-biolink` | 🟢 freigegeben (geht automatisch online) | Auswertung 11.10.: 0 Bio-Link-Klicks. Story erklärt, was hinter dem Link steckt (15-Min-Demo). Ohne Sticker, automatisch postbar. · [Freigabe #54](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/54) |
 | Mi 14.10. 12:45 | 📱 Story `09-story-quiz` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Mi 14.10. 19:30 | 🎬 Reel `07-reel-hinzurechnung` | 🟢 freigegeben (geht automatisch online) | Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot · [Freigabe #14](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/14) |
@@ -64,12 +63,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Sa 17.10. 19:35 | 📱 Story `01-story-teaser` | 🟢 freigegeben (geht automatisch online) | 10.10.: mit dem Ampel-Reel auf Sa 17.10. · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“. |
 | So 18.10. 19:30 | 🎬 Reel `22-reel-steuersatz` | ⏳ wartet auf sprachnachricht | CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
 | Mo 19.10. 19:30 | 🎬 Reel `18-reel-aufbewahrung` | ⏳ wartet auf sprachnachricht | § 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
+| Di 20.10. 19:30 | 🎬 Reel `19-reel-verlustvortrag` | ⏳ wartet auf sprachnachricht | Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 20.10. 19:30 | 🎬 Reel `19-reel-verlustvortrag` | ⏳ wartet auf sprachnachricht | Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
 | Mi 21.10. 19:30 | 🎬 Reel `20-reel-erechnung` | ⏳ wartet auf sprachnachricht | Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
 | Do 22.10. 12:45 | 📱 Story `10-story-umfrage` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg · [Freigabe #31](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Do 22.10. 19:30 | 🎬 Reel `21-reel-zinsschranke` | ⏳ wartet auf sprachnachricht | § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
@@ -79,6 +78,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Di 13.10. 19:30 · 🎬 Reel `15-reel-rechnungsnummern` · [ansehen](https://www.instagram.com/reel/DecWVZwgpOC/) (online 2026-10-13 19:31)
 - Di 13.10. 12:45 · 📱 Story `03-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4006971953613492167) (online 2026-10-13 12:45)
 - Di 13.10. 12:15 · 🖼️ Karussell `03-gewst-hinzurechnung` · [ansehen](https://www.instagram.com/p/Debkp_3m1WY/) (online 2026-10-13 12:16)
 - Mo 12.10. 19:30 · 🎬 Reel `14-reel-versionen` · [ansehen](https://www.instagram.com/reel/DeZxf9AEy9p/) (online 2026-10-12 19:30)
@@ -88,7 +88,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Sa 10.10. 19:30 · 🎬 Reel `08-reel-kst-staffel` · [ansehen](https://www.instagram.com/reel/DeUn6ezCm7O/) (online 2026-10-10 19:30)
 - Sa 10.10. 12:15 · 📱 Story `08-story-heute` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4004782529098566867) (online 2026-10-10 12:15)
 - Sa 10.10. 09:30 · 🎬 Reel `12-reel-zeile` · [ansehen](https://www.instagram.com/reel/DeTiK24NyJt/)
-- Fr 09.10. 12:35 · 📱 Story `05-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4004067818916764813) (online 2026-10-09 12:35)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -135,6 +134,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 19:31 🤖 Autopilot: 15-reel-rechnungsnummern veroeffentlicht ([`36bff2a`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/36bff2afc1ace31d7a1c1b785d5bd05c0bab19b2))
+  - Plan: `15-reel-rechnungsnummern` status: freigegeben → veroeffentlicht; `15-reel-rechnungsnummern` online: https://www.instagram.com/reel/DecWVZwgpOC/
 - 18:15 🤖 Autopilot: Dateien fuer 15-reel-rechnungsnummern vorbereitet ([`a2c8f67`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/a2c8f676db4a7c63146be7aa5d0ecbe0996ea667))
   - `posts/15_2026-10-13_reel_rechnungsnummern`
 - 16:37 📈 Statistik 2026-10-13 ([`389b189`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/389b189ccd95b7d8d5d483276d6acc1ad993ebc1))
