@@ -1,0 +1,39 @@
+{
+ "titel": "Karussell 35 · Steuerkalender – Folie 2 (DFV präzisiert), Folie 6 Speichern + Weiterleiten, Teaser. Rest aus Bibliothek r4_18 (R4 gegengelesen)",
+ "ausgabe": "../../posts/35_2026-10-25_steuerkalender",
+ "bilder": [
+  {
+   "vorlage": "karussell",
+   "datei": "folie_02.png",
+   "seite": 2,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Monatlich",
+   "titel": "Am *10.* jedes Monats.",
+   "punkte": [
+    "Umsatzsteuer-Voranmeldung (§ 18 UStG)",
+    "Lohnsteuer-Anmeldung (§ 41a EStG)",
+    "USt mit Dauerfristverlängerung: einen Monat später (§ 46 UStDV)"
+   ]
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "folie_06.png",
+   "seite": 6,
+   "von": 6,
+   "typ": "cta",
+   "saeule": "Praxis",
+   "titel": "*Speichern* und Termine eintragen.",
+   "text": "Wer in deinem Team braucht das? Schick's weiter.\nOder Fristen automatisch im Blick: Schreib „TOOL“ – Demo per DM.",
+   "chip": "📌 Speichern · 📤 Senden"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neuer Beitrag",
+   "titel": "Steuerkalender:\n*feste Termine*.",
+   "bild": "../../posts/35_2026-10-25_steuerkalender/folie_01.png"
+  }
+ ]
+}

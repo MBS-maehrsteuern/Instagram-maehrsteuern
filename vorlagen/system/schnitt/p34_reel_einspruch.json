@@ -1,0 +1,104 @@
+{
+ "ausgabe": "../../posts/34_2026-10-25_reel_einspruch/reel.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.5,
+   "lautstaerke": 1.2,
+   "aus": 0.15
+  },
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 2.3,
+   "start": 0,
+   "lautstaerke": 0.73,
+   "ein": 0.3
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/titelbild.png",
+   "dauer": 2.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Bescheid falsch?",
+     "ab": 0.3,
+     "groesse": 120,
+     "y": 330,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "Die Uhr läuft.",
+     "ab": 1.0,
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 480,
+     "x": 480,
+     "breite": 800
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_post.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_frist.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_zahlen.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/abspann.png",
+   "dauer": 2.8
+  }
+ ]
+}

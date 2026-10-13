@@ -1,0 +1,48 @@
+{
+ "titel": "Reel 33 · Wenn Paragrafen Excel-Formeln wären (ohne Stimme) – Karten, Story. Inhalt aus Bibliothek r4_17 (R4 gegengelesen); Abspann = bausteine/abspann_paragraf.png",
+ "ausgabe": "../../posts/33_2026-10-24_reel_paragraf_formel",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Praxis · Steuern × Code",
+   "titel": "§ wird\n*Formel*",
+   "sub": "Drei Normen als Excel-Zeile."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_hinzurechnung.png",
+   "typ": "abspann",
+   "kicker": "§ 8 Nr. 1 GewStG",
+   "titel": "Ein *Viertel*\nüber\n200.000 €.",
+   "chip": "=MAX(0; Summe-200000)/4",
+   "sub": "Summe = Finanzierungsanteile (Zinsen + Quoten)"
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_geschenke.png",
+   "typ": "abspann",
+   "kicker": "§ 4 Abs. 5 Satz 1 Nr. 1 EStG",
+   "titel": "Bis *50 €* –\ndarüber gar nicht.",
+   "chip": "=WENN(Summe<=50; Summe; 0)",
+   "sub": "Summe = alle Geschenke je Empfänger und Jahr"
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_8b.png",
+   "typ": "abspann",
+   "kicker": "§ 8b Abs. 5 KStG",
+   "titel": "*5 %* der Dividende\nsind nicht abziehbar.",
+   "chip": "=Dividende*5%",
+   "sub": "Gilt ab 10 % Beteiligung (§ 8b Abs. 4 KStG)"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_sa_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neues Reel",
+   "titel": "Wenn Paragrafen\n*Excel-Formeln* wären.",
+   "bild": "../../posts/33_2026-10-24_reel_paragraf_formel/titelbild.png"
+  }
+ ]
+}

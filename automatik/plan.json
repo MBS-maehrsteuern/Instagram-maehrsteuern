@@ -830,6 +830,31 @@
       "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Auflösung zum GWG-Quiz vom Mi: Nein – GWG nur bis 800 € netto; 850 € → AfA oder Sammelposten. Slot war laut plan.json frei – bei Kollision weglassen"
     },
     {
+      "id": "32-reel-mindeststeuer",
+      "zeit": "2026-10-23 11:45",
+      "typ": "reel",
+      "ordner": "posts/32_2026-10-23_reel_mindeststeuer",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s (Titelbild reel_mindeststeuer + 3 Karten nach karussell/mindeststeuer + Abspann TOOL), Musik 12_pop_electronic. Schnitt: vorlagen/system/schnitt/p32_reel_mindeststeuer.json"
+    },
+    {
+      "id": "32-story-zahl",
+      "zeit": "2026-10-23 12:15",
+      "typ": "story",
+      "ordner": "posts/32_2026-10-23_reel_mindeststeuer",
+      "bilder": [
+        "story_fr_zahl.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Zahl des Tages 15 % (nach zdt_mindeststeuer) mit Emoji-Reaktion 👏/😮"
+    },
+    {
       "id": "10-e-rechnung",
       "zeit": "2026-10-23 17:45",
       "typ": "karussell",
@@ -862,6 +887,31 @@
       "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15."
     },
     {
+      "id": "33-reel-paragraf-formel",
+      "zeit": "2026-10-24 11:45",
+      "typ": "reel",
+      "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,4 s (3 Normen als Formel: § 8 Nr. 1 GewStG, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 8b Abs. 5 KStG; Abspann abspann_paragraf; Titelbild neu mit „Drei Normen“ statt „Fünf“). Raster Sa mittags = Stimme → Abweichung (keine Aufnahme). Schnitt: vorlagen/system/schnitt/p33_reel_paragraf_formel.json"
+    },
+    {
+      "id": "33-story-teaser",
+      "zeit": "2026-10-24 12:15",
+      "typ": "story",
+      "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
+      "bilder": [
+        "story_sa_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild"
+    },
+    {
       "id": "17-reel-kommentare",
       "zeit": "2026-10-24 17:45",
       "typ": "reel",
@@ -872,6 +922,61 @@
       "status": "wartet_auf_sprachnachricht",
       "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.",
       "stimme": true
+    },
+    {
+      "id": "34-reel-einspruch",
+      "zeit": "2026-10-25 11:45",
+      "typ": "reel",
+      "ordner": "posts/34_2026-10-25_reel_einspruch",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json"
+    },
+    {
+      "id": "34-story-tipp",
+      "zeit": "2026-10-25 12:15",
+      "typ": "story",
+      "ordner": "posts/34_2026-10-25_reel_einspruch",
+      "bilder": [
+        "story_so_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig"
+    },
+    {
+      "id": "35-karussell-steuerkalender",
+      "zeit": "2026-10-25 17:45",
+      "typ": "karussell",
+      "ordner": "posts/35_2026-10-25_steuerkalender",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11."
+    },
+    {
+      "id": "35-story-teaser",
+      "zeit": "2026-10-25 17:50",
+      "typ": "story",
+      "ordner": "posts/35_2026-10-25_steuerkalender",
+      "bilder": [
+        "story_so_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Folie 1"
     },
     {
       "id": "22-reel-steuersatz",

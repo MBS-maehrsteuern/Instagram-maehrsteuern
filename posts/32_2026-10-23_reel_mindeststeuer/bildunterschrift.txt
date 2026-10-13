@@ -1,0 +1,12 @@
+Globale Mindeststeuer 15 % – betrifft das deine Gruppe überhaupt? 🌍
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Das Mindeststeuergesetz (Pillar Two) greift erst ab 750 Mio. € Konzernumsatz in mindestens zwei der vier Vorjahre (§ 1 MinStG). Dann zählt der Effektivsteuersatz je Land: Liegt er unter 15 %, wird die Differenz als Ergänzungssteuer erhoben. In Deutschland liegt der Gesamtsatz bei 400 % Hebesatz zwar bei 29,83 % – aber Sondereffekte und Vergünstigungen können die effektive Quote drücken. Rechnen muss man trotzdem. Erleichterungen: CbCR-Safe-Harbour in der Übergangszeit, De-minimis-Regel, substanzbasierter Freibetrag.
+
+Wie rechnet ihr den Effektivsteuersatz je Land: A) Excel oder B) Software? 👇
+📤 Schick das der Person, die bei euch Pillar Two auf dem Tisch hat.
+
+Alle Zahlen sind Demo-Zahlen.
+
+#steuerabteilung #mindeststeuer #pillartwo #taxtech

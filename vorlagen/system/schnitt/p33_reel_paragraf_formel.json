@@ -1,0 +1,104 @@
+{
+ "ausgabe": "../../posts/33_2026-10-24_reel_paragraf_formel/reel.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/atmo/tippen_fehlerton.mp3",
+   "ab": 0.2,
+   "start": 0.8,
+   "dauer": 1.6,
+   "lautstaerke": 1.17,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/11_runway_future_garage.mp3",
+   "ab": 1.9,
+   "start": 0,
+   "lautstaerke": 0.72,
+   "ein": 0.4
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Paragraf rein.",
+     "ab": 0.3,
+     "groesse": 120,
+     "y": 330,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "Formel raus.",
+     "ab": 0.9,
+     "farbe": "gruen",
+     "groesse": 140,
+     "y": 480,
+     "x": 480,
+     "breite": 800
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_hinzurechnung.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_geschenke.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_8b.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/abspann.png",
+   "dauer": 2.8
+  }
+ ]
+}
