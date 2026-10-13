@@ -31,6 +31,20 @@ Neu 11.10.: Aufruf auf „kommentieren“ angeglichen (CTA-Reels sagen „Schrei
 - „Steuern × Code“ bleibt im Namensfeld bzw. im Markenauftritt und braucht in der Bio keine Zeile.
 - Prüfen nach 2 Wochen: Follows ÷ Profilbesuche im Tagesbericht (Ziel ≥ 10 %).
 
+### Vorschlag 14.10. (Nachtlauf, ersetzt den vom 08.10. – braucht Loris in der App)
+Grundlage: 91 % der Reichweite sind Nicht-Follower, Profilbesuch → Follow 1 von 10, Bio-Link-Metrik zählt nur Kontakt-Buttons.
+Bio (146 Zeichen):
+```
+📊 Steuer-Tools für Steuerabteilung & Kanzlei
+Rückstellung · GewSt · latente Steuern
+Diplom-Finanzwirt · KI-Manager (IHK)
+💬 DM „TOOL“ → 20-Min-Demo
+```
+Namensfeld (durchsuchbar): `Loris | Steuer-Tools & Excel für Steuerabteilungen`
+Angepinnt (statt Neuvorstellung: 7 Profilbesuche, 0 Follows): 5-Dinge-Reel · Excel-Fehler-Karussell · Latente-Steuern-Karussell.
+Highlights von links: Start 👋 · Demo ⚙️ (Ausschnitte Split/Hinzurechnung/Listen + Link-Sticker Demo) · Wissen 📚 (Karussell-Teaser) · FAQ ❓. „Feedbacks“ erst ab 2 echten Rückmeldungen.
+Folge-Liste schrittweise von 292 auf < 200 (inaktive/fachfremde Konten).
+
 ### Highlight „Start 👋“ fehlt noch
 Die 3 Start-Storys (`assets/storys/start/start_1–3.png`) sind seit 30.09. online gewesen, das Highlight wurde nie angelegt.
 In der App: Profil → **+ Neu** → die 3 Storys vom 30.09. aus dem Archiv wählen → Titel „Start 👋“ →
