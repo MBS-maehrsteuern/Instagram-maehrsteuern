@@ -56,8 +56,8 @@ Der Plan wurde vorher an anderer Stelle umgebaut (Reels meist 19:30, Karussells 
 | Mi 14.10. | *frei → Fabrik* | 07 Hinzurechnung (Begleit-Reel, ohne Stimme) |
 | Do 15.10. | 09 Rückstellung (Karussell, 12:30 → 12:15) | 16 Nr. 5 Listen (Reel, Stimme) |
 | Fr 16.10. | *frei → Fabrik* | 04 Mein Weg (Reel, Stimme, KI-Label von Hand) |
-| Sa 17.10. | *frei → Fabrik* | 01 Ampel (Reel, Stimme) |
-| So 18.10. | *frei → Fabrik* | 22 Steuersatz (Reel, Stimme, **CTA TOOL**) – wartet auf Sprachnachricht |
+| Sa 17.10. | 01 Ampel (Reel, Stimme, fall) – 13.10. vorgezogen | *frei → Fabrik* |
+| So 18.10. | *frei → Fabrik* | *frei → Fabrik* (22 Steuersatz → Mo 26.10.) |
 
 | Woche 43 | 12:15 | 19:30 |
 |---|---|---|
@@ -70,14 +70,16 @@ Der Plan wurde vorher an anderer Stelle umgebaut (Reels meist 19:30, Karussells 
 
 Storys: alle Mittags-Storys von 12:15 auf **12:45** (Quiz, Auflösungen, Umfrage, Teaser); 09-Auflösung auf Do 19:35.
 
-### Konflikte – Loris entscheidet
+### Konflikte – entschieden 13.10. (go Loris für alle vier)
 1. **Woche 42 ist reel-lastig abends, mittags leer.** Die Fabrik (Mo/Mi/Fr) füllt ab Mo 12.10. die Mittags-Slots ab übermorgen.
-   Mo 12.10. 12:15 bleibt deshalb wahrscheinlich leer (zu kurzfristig) – ok so?
-2. **Alle Stimm-Reels liegen auf 19:30.** Für den Slot-Test „Stimme mittags“ müssten 1–2 davon auf 12:15 (z. B. Ampel Sa 17.10. 12:15). Vorschlag, nicht umgesetzt.
+   Mo 12.10. 12:15 bleibt deshalb wahrscheinlich leer (zu kurzfristig) – ok so? → **ok.**
+2. **Alle Stimm-Reels liegen auf 19:30.** Für den Slot-Test „Stimme mittags“ müssten 1–2 davon auf 12:15 (z. B. Ampel Sa 17.10. 12:15). → **umgesetzt:** Ampel Sa 17.10. 12:15, Teaser 12:45; Sa 19:30 frei für die Fabrik.
 3. **Themen-Dopplung:** 22 Steuersatz (So 18.10.) wiederholt das KSt-Staffel-Reel vom 10.10. Vorschlag: auf KW 44 schieben und dafür
-   ein anderes CTA-Reel vorziehen – oder bewusst als „Teil 2 mit TOOL-Aufruf“ laufen lassen.
+   ein anderes CTA-Reel vorziehen – oder bewusst als „Teil 2 mit TOOL-Aufruf“ laufen lassen. → **umgesetzt:** 22 auf Mo 26.10. 19:30 (CTA der KW 44);
+   CTA der KW 42 liefert das Ampel-Reel („TOOL“ per DM). So 18.10. 19:30 frei für die Fabrik.
 4. **Wartet-auf-Sprachnachricht-Slots 18.–24.10.:** Ohne Aufnahme bis Mi 14.10. bleiben fünf Abend-Slots leer. Notlösung: Fabrik baut
-   dort Reels ohne Stimme (dann Faktor Stimme = false).
+   dort Reels ohne Stimme (dann Faktor Stimme = false). → **umgesetzt:** Stichtag Do 15.10. 12:00 (Erinnerung + Hinweis an jedem Eintrag);
+   ohne Aufnahme baut Claude/die Fabrik (Fr 16.10.) im selben Slot ein Reel ohne Stimme zum selben Thema (stimme=false, entwurf → Freigabe).
 
 ## Content-Fabrik (3.3a)
 - Läuft seit 08.10. **Mo, Mi, Fr 08:47** (3 Läufe), bis zu **6 Feed-Beiträge pro Lauf** → 18 Plätze für 14 Beiträge.

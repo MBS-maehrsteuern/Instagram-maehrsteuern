@@ -55,7 +55,9 @@ Verlustvortrag auf 70 % korrigiert) · `15_plan_2_pro_tag.md` · Tagesbericht-Ro
 - ~~**01-reel-ampel** (Sa 17.10.): auf ca. 15 s kürzen~~ → **erledigt 12.10.** (go kürzen): `reel_kurz.mp4`, 15,3 s, −18 LUFS
   (Schnitt `vorlagen/system/schnitt/p01_reel_ampel_kurz_bauen.py`), Langfassung `reel_stimme.mp4` bleibt liegen.
 - **04-reel-mein-weg** (Fr 16.10.): 13 s, passt.
-- **22-reel-steuersatz** (So 18.10.): Themen-Dopplung mit dem KSt-Reel vom 10.10. – auf KW 44 schieben? (siehe `15_plan_2_pro_tag.md`).
+- ~~**22-reel-steuersatz** (So 18.10.): auf KW 44 schieben~~ → **erledigt 13.10.** (go): Mo 26.10. 19:30.
+- **Erledigt 13.10. (go Loris für alle offenen Konflikte in `15_plan_2_pro_tag.md`):** Ampel-Reel Sa 17.10. 12:15 (Teaser 12:45),
+  Notlösung ohne Stimme ab Do 15.10. 12:00, Mo 12.10. mittags leer ok. Story Bio-Link lief bereits Di 13.10. 19:35.
 
 **Routinen – nur Loris kann klicken (claude.ai/code → Routinen):**
 1. „Instagram Tagesbericht 9 Uhr“: **Quelle/Repo** `maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen (die Routine hat aktuell

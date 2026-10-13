@@ -57,6 +57,14 @@
       "zeigen_ab_tagen": 2,
       "titel": "📌 Highlight „Start 👋“ in der App anlegen + Bio-Nutzen-Satz eintragen",
       "text": "Highlight aus den Start-Storys (30.09.) und der Neuvorstellung. Bio-Vorschlag in strategie/02_bio_highlights.md (Nutzen-Satz statt Leitspruch). Die Story zum Bio-Link läuft Di 13.10. 19:35 (Entwurf, Freigabe nötig)."
+    },
+    {
+      "id": "notloesung-ohne-stimme",
+      "wann": "2026-10-15T12:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 1,
+      "titel": "🔇 Keine Sprachnachricht? → Reels ohne Stimme bauen (19.–22. + 26.10.)",
+      "text": "Notlösung (go Loris, 13.10.): Für jedes Reel mit Status wartet_auf_sprachnachricht ohne Aufnahme baut Claude bzw. die Content-Fabrik (Fr 16.10.) im selben Slot ein Reel ohne Stimme zum selben Thema (12–15 s, stimme=false, Status entwurf → Freigabe). Sprechtexte bleiben für später in posts/sprechtexte.md."
     }
   ]
 }
