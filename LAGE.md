@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 🖼️ Karussell `03-gewst-hinzurechnung` (online) · ✅ 12:45 📱 Story `03-story-teaser` (online) · ✅ 19:30 🎬 Reel `15-reel-rechnungsnummern` (online) · ✅ 19:35 📱 Story `23-story-biolink` (online)
+- **Heute online:** 🟢 12:15 📱 Story `09-story-quiz` (läuft automatisch) · 🟢 17:45 🎬 Reel `07-reel-hinzurechnung` (läuft automatisch)
 - **Braucht dich:** 9 offen
 - **Letzte 7 Tage:** Reichweite **1441** (06.10.–12.10., +30 % zur Vorwoche) · Follower **+6** (jetzt 362) · 30 Tage: +19 Follows / −11 entfolgt
-- **Testmonat** (Tag 2/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 3/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **12/14** (3 online · 9 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 43** (19.10.–25.10.): Feed **9/14** (0 online · 9 geplant · 5 wartet) · Reel-Tage (sicher) **5/7** – ohne Reel: Di 20.10., Do 22.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant · 1 wartet) · Reel-Tage (sicher) **0/7**
@@ -368,6 +368,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:05 📡 Radar 2026-10-08: 8 Beiträge, 0 DM-Entwürfe ([`24a5a4f`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/24a5a4ffd0c8dc898c67f078a9bce7f64a4ba470))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mi 07.10.2026**
 - 19:35 🤖 Autopilot: 02-story-teaser veroeffentlicht ([`e476372`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/e476372f52ceb6d0bc4bee2debcd9b34867e3ac9))
   - Plan: `02-story-teaser` status: freigegeben → veroeffentlicht; `02-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4002829658245043420
@@ -391,8 +393,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:05 📡 Radar 2026-10-07: 8 Beiträge, 0 DM-Entwürfe ([`b4bb83c`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/b4bb83c7f8f93671ce6847808a8dc4b36ec6b407))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 06.10.2026**
 - 21:10 ✍️ Titelbild-Vorlage „Excel vs. Code“ (titel_split.html) für das Split-Reel – Varianten zur Auswahl ([`45579b6`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/45579b6ad03fb20a6d2c3452a98444a2a89f3800))
