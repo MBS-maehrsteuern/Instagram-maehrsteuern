@@ -460,10 +460,13 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 4: doppelte Rechnungsnummer. Vorgezogen vom 20.10.",
       "stimme": true,
-      "hook": "fall"
+      "hook": "fall",
+      "media_id": "17978683293122831",
+      "link": "https://www.instagram.com/reel/DecWVZwgpOC/",
+      "veroeffentlicht_am": "2026-10-13 19:31"
     },
     {
       "id": "23-story-biolink",
