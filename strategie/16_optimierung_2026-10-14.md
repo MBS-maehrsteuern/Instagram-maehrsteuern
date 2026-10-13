@@ -8,7 +8,7 @@ einzeln committet (Protokoll in LAGE.md).
 - **Plan bis zum Testmonat-Ende voll:** 37 neue Feed-Beiträge (28 Reels, 9 Karussells) + 37 Storys, alle
   `freigegeben`, aus der gegengelesenen Bibliothek, ohne Stimme. Stand Testmonat: KW 42 12/14 · KW 43 9/14 (+5 Notlösung
   → 14/14) · KW 44 12/14 (+1 Notlösung) · KW 45 13/14 · jeden Tag ≥ 1 Reel. Frei bleiben nur Stimm-Slots (Sa mittags).
-- **Zweimal unabhängig geprüft** (fachlich + Regeln + Technik). Gefunden und behoben: 5 Fachfehler/-ungenauigkeiten,
+- **Dreimal unabhängig geprüft** (je Zeitraum: 14.–26.10., KW 44, KW 45; fachlich an Primärquellen + Regeln + Technik). Gefunden und behoben: 5 Fachfehler/-ungenauigkeiten,
   1 Arbeitgeber-Ortsbezug, 1 Platzhalter-Story, Hashtag-Fallen, Überlappungen.
 - **Autopilot sicherer:** kein Doppel-Post mehr bei Push-Konflikt, Teaser nur wenn der Beitrag online ist, Wächter
   meldet ausgefallenen Takt (cron-job.org), Container vor dem Warten → pünktlicher.
@@ -38,6 +38,7 @@ Text), Titelbilder Ampel + Hinzurechnung, Alt-Texte für Karussells (Datei `alt_
 (Papier in der Übergangszeit ohne Zustimmung) · Zinsschranke (verrechenbares EBITDA = 30 % des steuerlichen; § 8a Abs. 1
 S. 3 KStG) · Organschaft (Aufhebung aus wichtigem Grund) · Säumniszuschlag-Formulierung · Betriebsprüfung nach neuer
 **Außenprüfungsordnung (ersetzt BpO 2000 seit 10.09.2026)** · § 35 EStG als Ermäßigung statt „zurück“.
+KW 45: Fahrtenbuch mit Arbeitnehmer-Normen (§ 8 Abs. 2 S. 2–4 EStG, BMF 03.03.2022) · InvStG „mehr als 50 %“ · § 171 AO als Ablaufhemmung · § 8c Abs. 1 Sätze 4–8 · § 34a-Satz sinkt ab 2028 ergänzt.
 Geprüft und **nicht** geändert: Verlustrücktrag-Folie ist richtig (10 Mio. € nur 2022/2023, seit 2024 1 Mio. €).
 
 **Arbeitgeber-Bezug entfernt:** Im Ampel-Reel stand in der Programm-Aufnahme ein Hebesatz-Hinweis mit Stadtname (~10–12 s)
@@ -76,6 +77,7 @@ automatisch, ob Aufnahmen da sind, und stellt sonst um (video → Ersatz, stimme
    online; die Original-Aufnahme liegt weiter im (öffentlichen) Repo bzw. in der Git-Historie.
 
 ## 5 · Bewusst nicht gemacht
+- Bibliothek-Vorlage `jobs/bibliothek/r4_06_par8c.json` nennt noch „§ 8c Abs. 1 Sätze 4–9“ (richtig 4–8) – im Beitrag 57 korrigiert, Bibliothek selbst unverändert.
 - Postzeit 17:45 nicht geändert (deine Entscheidung; Daten zeigen 19:30 minimal höher → Test ab 09.11. vorgeschlagen).
 - Keine Stimm-Reels erfunden, keine Inhalte aus nicht gegengelesenen Bibliothek-Teilen (mbs_*, Platzhalter).
 - Keine Routine-Prompts per API getauscht, kein Modellwechsel.

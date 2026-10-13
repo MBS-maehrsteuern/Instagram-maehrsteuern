@@ -1,5 +1,6 @@
-{ "titel": "Karussell 51 · Kapitalerträge: fünf Regeln (Nachtlauf 14.10.): Folie 7 Speichern + Weiterleiten + TOOL, Story-Teaser", "ausgabe": "../../posts/51_2026-11-03_kapitalertraege",
+{ "titel": "Karussell 51 · Kapitalerträge: fünf Regeln (Nachtlauf 14.10.): Folie 7 Speichern + Weiterleiten + TOOL, Story-Teaser; QA KW45: Folie 4 „mehr als 50 %“ (§ 2 Abs. 6 InvStG) statt „mindestens 51 %“", "ausgabe": "../../posts/51_2026-11-03_kapitalertraege",
   "bilder": [
+    {"vorlage":"karussell","datei":"folie_04.png","seite":4,"von":7,"typ":"inhalt","saeule":"Aktienfonds","titel":"*30 %* bleiben steuerfrei.","text":"Teilfreistellung für Fonds, die laut Anlagebedingungen mehr als 50 % in Aktien anlegen.","boxTitel":"NORM","box":"§ 20 Abs. 1, § 2 Abs. 6 InvStG"},
     {"vorlage":"karussell","datei":"folie_07.png","seite":7,"von":7,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für die Steuererklärung.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder sortieren lassen: Mein Tool ordnet Bankbescheinigungen den richtigen Töpfen zu. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
     {"vorlage":"story","datei":"story_di_teaser.png","typ":"teaser","kicker":"Neuer Beitrag","titel":"Kapitalerträge: *fünf Regeln*.","bild":"../../posts/51_2026-11-03_kapitalertraege/bausteine/teaser_bild.png"}
   ] }

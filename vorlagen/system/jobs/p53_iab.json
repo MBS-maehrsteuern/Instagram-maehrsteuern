@@ -1,9 +1,9 @@
-{ "titel": "53 · Investitionsabzugsbetrag (Nachtlauf 14.10., d2): Begleit-Reel Mi 17:45 + Karussell Do 17:45 (iab_2 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL), Storys", "ausgabe": "../../posts/53_2026-11-04_iab",
+{ "titel": "53 · Investitionsabzugsbetrag (Nachtlauf 14.10., d2): Begleit-Reel Mi 17:45 + Karussell Do 17:45 (iab_2 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL), Storys; QA KW45: Folie 7 TOOL-Satz zum IAB, Story-Teaser Do mit verkleinerter Karte (bausteine/teaser_karte.png)", "ausgabe": "../../posts/53_2026-11-04_iab",
   "bilder": [
     {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Wissen · Steuern × Code","titel":"Heute abziehen.\n*Später kaufen.*","sub":"Investitionsabzugsbetrag, § 7g EStG – 50 % vorab."},
     {"vorlage":"einblendung","datei":"bausteine/haken_frist.png","typ":"haken","kicker":"Achtung · Frist","titel":"Nicht investiert?\n*Rückwirkend weg.*","sub":"Nach 3 Jahren rückgängig im Abzugsjahr – mit Zinsen (§ 7g Abs. 3 EStG, § 233a AO)."},
     {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"Fristen\n*im Blick?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
-    {"vorlage":"karussell","datei":"folie_07.png","seite":7,"von":7,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für die Investitionsplanung.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool rechnet Gewerbesteuer und Steuerrückstellung – mit Norm je Posten. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
+    {"vorlage":"karussell","datei":"folie_07.png","seite":7,"von":7,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für die Investitionsplanung.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool rechnet den IAB mit und behält die 3-Jahres-Frist im Blick. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
     {"vorlage":"story","datei":"story_mi_teaser.png","typ":"teaser","kicker":"Neues Reel","titel":"Investitionsabzugsbetrag: *50 % vorab* abziehen.","bild":"../../posts/53_2026-11-04_iab/titelbild.png"},
-    {"vorlage":"story","datei":"story_do_teaser.png","typ":"teaser","kicker":"Neuer Beitrag","titel":"IAB in 5 Regeln: *50 %, 200.000 €, 3 Jahre.*","bild":"../../posts/53_2026-11-04_iab/folie_01.png"}
+    {"vorlage":"story","datei":"story_do_teaser.png","typ":"teaser","kicker":"Neuer Beitrag","titel":"IAB in 5 Regeln: *50 %, 200.000 €, 3 Jahre.*","bild":"../../posts/53_2026-11-04_iab/bausteine/teaser_karte.png"}
   ] }

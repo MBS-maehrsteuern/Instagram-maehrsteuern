@@ -2,7 +2,7 @@
 Gleiches Verfahren (Funktion kopiert) wie p24_27_karten_bauen.py (Folien-Inhaltsbereich auf 9:16, Safe-Zone).
 
     cd vorlagen/system/schnitt && python3 p48_50_karten_bauen.py
-Vorher:  node render.mjs jobs/p49_reel_kleinunternehmer.json  (Grenz-Folien mit Normbox „§ 19 Abs. 1 UStG“)
+Vorher:  node render.mjs jobs/p48_reel_firmenwagen.json jobs/p49_reel_kleinunternehmer.json  (48: Folien mit § 8 Abs. 2 EStG; 49: Grenz-Folien mit Normbox „§ 19 Abs. 1 UStG“)
 Danach:  cd vorlagen/system && python3 montage.py schnitt/p48_reel_firmenwagen.json  (bzw. p49_…, p50_…)
 """
 from pathlib import Path
@@ -35,9 +35,11 @@ P48 = REPO / "posts/48_2026-11-02_reel_firmenwagen/bausteine"
 P49 = REPO / "posts/49_2026-11-02_reel_kleinunternehmer/bausteine"
 P50 = REPO / "posts/50_2026-11-03_reel_gebaeude_afa/bausteine"
 
-folie_karte("karussell/firmenwagen/folie_05.png", ziel=P48 / "karte_fahrtenbuch.png")
-folie_karte("karussell/firmenwagen/folie_02.png", ziel=P48 / "karte_1prozent.png")
-folie_karte("karussell/firmenwagen/folie_03.png", ziel=P48 / "karte_arbeitsweg.png")
+# QA KW45: Lohnsteuer-Fall → Arbeitnehmer-Normen (§ 8 Abs. 2 Satz 2–4 EStG, BMF 03.03.2022 Rn. 13) statt § 6 Abs. 1 Nr. 4 EStG.
+# Folien dafür aus jobs/p48_reel_firmenwagen.json (bausteine/folie_*.png), Bibliothek firmenwagen unverändert.
+folie_karte(P48 / "folie_fahrtenbuch.png", ziel=P48 / "karte_fahrtenbuch.png")
+folie_karte(P48 / "folie_1prozent.png", ziel=P48 / "karte_1prozent.png")
+folie_karte(P48 / "folie_arbeitsweg.png", ziel=P48 / "karte_arbeitsweg.png")
 
 folie_karte(P49 / "folie_grenze1.png", ziel=P49 / "karte_vorjahr.png")
 folie_karte(P49 / "folie_grenze2.png", ziel=P49 / "karte_laufend.png")

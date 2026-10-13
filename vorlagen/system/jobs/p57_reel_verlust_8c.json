@@ -1,5 +1,5 @@
 {
- "titel": "Reel 57 · § 8c KStG Verlustuntergang (Nachtlauf 14.10., d3): Titelbild Zahl-Hook „51 % verkauft? Verluste weg.“, Abspann TOOL, Story-Teaser",
+ "titel": "Reel 57 · § 8c KStG Verlustuntergang (Nachtlauf 14.10., d3): Titelbild Zahl-Hook „51 % verkauft? Verluste weg.“, Abspann TOOL, Story-Teaser; QA KW45: Reel-Folie „Rettungsanker“ mit Normbox „§ 8c Abs. 1 Sätze 4–8“ (Abs. 1 hat 8 Sätze), Bibliothek par8c unverändert",
  "ausgabe": "../../posts/57_2026-11-07_reel_verlust_8c",
  "bilder": [
   {
@@ -25,6 +25,22 @@
    "kicker": "Neues Reel",
    "titel": "51 % verkauft? *Verluste weg.*",
    "bild": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/teaser_karte.png"
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_anker.png",
+   "seite": 3,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Ausnahmen",
+   "titel": "Drei *Rettungsanker*.",
+   "punkte": [
+    "*Konzernklausel*: Erwerber und Veräußerer zu 100 % in einer Hand",
+    "*Stille-Reserven-Klausel*: Verluste bis zur Höhe der stillen Reserven bleiben",
+    "*Sanierungsklausel*: Erwerb zum Zweck der Sanierung"
+   ],
+   "boxTitel": "NORM",
+   "box": "§ 8c Abs. 1 Sätze 4–8, Abs. 1a KStG"
   }
  ]
 }
