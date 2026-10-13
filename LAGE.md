@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 10:55 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 11:01 Uhr._
 
 **Als Nächstes online:** 🖼️ Karussell `03-gewst-hinzurechnung` am **Di 13.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -138,6 +138,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 11:01 🤖 Autopilot: Dateien fuer 03-gewst-hinzurechnung vorbereitet ([`609c5b4`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/609c5b4784405e3c49790c800bf081fd3e025a0d))
+  - `posts/03_2026-10-13_gewst_hinzurechnung`
 - 10:55 ✍️ LAGE aktualisiert nach Tagesbericht 13. Oktober ([`326e3e4`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/326e3e4f5061f5c8d1797cd06df9001ff8bb4520))
   - `LAGE.html`
 - 10:55 ✍️ Tagesbericht 13. Oktober: Hook-Rate zu hoch, Videos zu lang, Bio-Link schläft ([`f0dbf0a`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/f0dbf0a3e06801145ff36869a21138e92dfc134b))
