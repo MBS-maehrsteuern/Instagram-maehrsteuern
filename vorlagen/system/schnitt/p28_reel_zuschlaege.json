@@ -1,0 +1,165 @@
+{
+ "ausgabe": "../../posts/28_2026-10-19_reel_zuschlaege/reel_zuschlaege.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/09_runway_lofi_piano.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.581,
+   "ein": 0.3
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 2.0,
+   "start": 0,
+   "lautstaerke": 1.045,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 3.4,
+   "start": 0,
+   "dauer": 3.0,
+   "lautstaerke": 0.406,
+   "ein": 0.2,
+   "aus": 0.4
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/28_2026-10-19_reel_zuschlaege/material/hintergrund.png",
+   "dauer": 3.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ],
+   "text": [
+    {
+     "wort": "Steuer 1 Woche",
+     "ab": 0.3,
+     "y": 560,
+     "groesse": 120,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "zu spät gezahlt",
+     "ab": 0.6,
+     "y": 700,
+     "groesse": 125,
+     "x": 480,
+     "breite": 800,
+     "farbe": "rot"
+    },
+    {
+     "wort": "50.000 € fällig …",
+     "ab": 1.3,
+     "y": 930,
+     "groesse": 95,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "+ 500 € Zuschlag",
+     "ab": 2.0,
+     "y": 1080,
+     "groesse": 140,
+     "x": 480,
+     "breite": 800,
+     "farbe": "rot"
+    },
+    {
+     "wort": "Demo-Zahlen · § 240 AO",
+     "ab": 2.0,
+     "y": 1230,
+     "groesse": 48,
+     "x": 480,
+     "breite": 800
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/28_2026-10-19_reel_zuschlaege/material/karte_saeumnis.png",
+   "dauer": 4.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Nur 3 Tage Schonfrist",
+     "ab": 0.15,
+     "y": 330,
+     "groesse": 90,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gelb",
+     "bis": 2.0
+    },
+    {
+     "wort": "Tag 4 = voller Monat 1 %",
+     "ab": 2.0,
+     "y": 330,
+     "groesse": 85,
+     "x": 480,
+     "breite": 800,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/28_2026-10-19_reel_zuschlaege/material/karte_verspaetung.png",
+   "dauer": 3.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Erklärung auch zu spät?",
+     "ab": 0.15,
+     "y": 330,
+     "groesse": 90,
+     "x": 480,
+     "breite": 800,
+     "bis": 1.8
+    },
+    {
+     "wort": "ab 25 € je Monat möglich",
+     "ab": 1.8,
+     "y": 330,
+     "groesse": 85,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../assets/bibliothek/bausteine/abspann_frist.png",
+   "dauer": 3.4,
+   "rein": "whip"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "ausgabe": "../../posts/30_2026-10-21_reel_gwg/reel_gwg.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.953,
+   "ein": 0.3
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 2.4,
+   "start": 0,
+   "lautstaerke": 1.715,
+   "aus": 0.1
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/material/hintergrund.png",
+   "dauer": 3.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ],
+   "text": [
+    {
+     "wort": "Bürostuhl 799 € netto",
+     "ab": 0.3,
+     "y": 560,
+     "groesse": 100,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "→ sofort absetzen",
+     "ab": 0.9,
+     "y": 690,
+     "groesse": 110,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gruen"
+    },
+    {
+     "wort": "801 € netto",
+     "ab": 1.8,
+     "y": 900,
+     "groesse": 100,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "→ abschreiben",
+     "ab": 2.4,
+     "y": 1030,
+     "groesse": 120,
+     "x": 480,
+     "breite": 800,
+     "farbe": "rot"
+    },
+    {
+     "wort": "Demo-Zahlen · § 6 Abs. 2 EStG",
+     "ab": 2.4,
+     "y": 1180,
+     "groesse": 48,
+     "x": 480,
+     "breite": 800
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/material/karte_schwellen.png",
+   "dauer": 4.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "GWG: bis 800 € netto",
+     "ab": 0.15,
+     "y": 330,
+     "groesse": 90,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gruen",
+     "bis": 2.0
+    },
+    {
+     "wort": "Pool: 250,01–1.000 €, 5 Jahre",
+     "ab": 2.0,
+     "y": 330,
+     "groesse": 80,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/material/karte_einheitlich.png",
+   "dauer": 3.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Pool gewählt?",
+     "ab": 0.15,
+     "y": 330,
+     "groesse": 95,
+     "x": 480,
+     "breite": 800,
+     "bis": 1.6
+    },
+    {
+     "wort": "Dann gilt er fürs ganze Jahr",
+     "ab": 1.6,
+     "y": 330,
+     "groesse": 80,
+     "x": 480,
+     "breite": 800,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../assets/bibliothek/bausteine/abspann_rechnet.png",
+   "dauer": 3.4,
+   "rein": "whip"
+  }
+ ]
+}
