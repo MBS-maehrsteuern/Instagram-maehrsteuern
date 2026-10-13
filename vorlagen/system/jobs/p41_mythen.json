@@ -1,0 +1,5 @@
+{ "titel": "Karussell 41 · 6 Steuer-Irrtümer (Nachtlauf 14.10.): Folie 8 Speichern + Weiterleiten + TOOL statt offener Frage, Story Emoji-Tipp", "ausgabe": "../../posts/41_2026-10-29_mythen",
+  "bilder": [
+    {"vorlage":"karussell","datei":"folie_08.png","seite":8,"von":8,"typ":"cta","saeule":"Mythos oder Fakt","titel":"*Speichern* für später.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool rechnet Gewerbesteuer und Steuerrückstellung – mit Norm je Posten. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
+    {"vorlage":"story","datei":"story_do_tipp.png","typ":"antwort","kicker":"Mythos oder Fakt · 1 Tipp","titel":"Gewerbesteuer ist *keine* Betriebsausgabe.","text":"Seit 2008 nicht abziehbar (§ 4 Abs. 5b EStG). 5 weitere Irrtümer im neuen Beitrag.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }

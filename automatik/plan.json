@@ -1221,6 +1221,119 @@
       "hinweis": "14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json."
     },
     {
+      "id": "41-karussell-mythen",
+      "zeit": "2026-10-29 11:45",
+      "typ": "karussell",
+      "ordner": "posts/41_2026-10-29_mythen",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png",
+        "folie_07.png",
+        "folie_08.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json."
+    },
+    {
+      "id": "41-story-tipp",
+      "zeit": "2026-10-29 12:15",
+      "typ": "story",
+      "ordner": "posts/41_2026-10-29_mythen",
+      "bilder": [
+        "story_do_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage)."
+    },
+    {
+      "id": "42-reel-afa",
+      "zeit": "2026-10-29 17:45",
+      "typ": "reel",
+      "ordner": "posts/42_2026-10-29_reel_afa",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €."
+    },
+    {
+      "id": "42-story-teaser",
+      "zeit": "2026-10-29 17:50",
+      "typ": "story",
+      "ordner": "posts/42_2026-10-29_reel_afa",
+      "bilder": [
+        "story_do_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild)."
+    },
+    {
+      "id": "43-reel-par35",
+      "zeit": "2026-10-30 11:45",
+      "typ": "reel",
+      "ordner": "posts/43_2026-10-30_reel_par35",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift."
+    },
+    {
+      "id": "43-story-tipp",
+      "zeit": "2026-10-30 12:15",
+      "typ": "story",
+      "ordner": "posts/43_2026-10-30_reel_par35",
+      "bilder": [
+        "story_fr_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format)."
+    },
+    {
+      "id": "44-karussell-glossar",
+      "zeit": "2026-10-30 17:45",
+      "typ": "karussell",
+      "ordner": "posts/44_2026-10-30_glossar",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png",
+        "folie_07.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json."
+    },
+    {
+      "id": "44-story-teaser",
+      "zeit": "2026-10-30 17:50",
+      "typ": "story",
+      "ordner": "posts/44_2026-10-30_glossar",
+      "bilder": [
+        "story_fr_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Glossar-Karussell (Folie 1), jobs/p44_glossar.json."
+    },
+    {
       "id": "45-reel-vga",
       "zeit": "2026-10-31 17:45",
       "typ": "reel",

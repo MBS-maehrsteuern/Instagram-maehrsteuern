@@ -1,0 +1,24 @@
+{
+ "titel": "Reel 43 · § 35 EStG: das 4,0-Fache zurück (Nachtlauf 14.10.): Abspann TOOL, Story Emoji-Tipp (Titelbild aus reels/reel_35)",
+ "ausgabe": "../../posts/43_2026-10-30_reel_par35",
+ "bilder": [
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Entlastung für\n*euren Hebesatz?*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · mit Beispieldaten"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_fr_tipp.png",
+   "typ": "antwort",
+   "kicker": "Zahl des Tages · 1 Tipp",
+   "titel": "*4,0 ×* Messbetrag.",
+   "text": "Um so viel sinkt die Einkommensteuer von Einzelunternehmern und Mitunternehmern – höchstens um die tatsächlich zu zahlende Gewerbesteuer (§ 35 EStG).",
+   "antwort": "Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"
+  }
+ ]
+}
