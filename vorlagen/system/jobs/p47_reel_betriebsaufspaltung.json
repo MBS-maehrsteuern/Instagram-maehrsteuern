@@ -1,0 +1,9 @@
+{
+ "titel": "Reel 47 · Betriebsaufspaltung (Nachtlauf 14.10.): Titelbild Fall „Halle an die eigene GmbH“, Abspann TOOL, Story-Teaser",
+ "ausgabe": "../../posts/47_2026-11-01_reel_betriebsaufspaltung",
+ "bilder": [
+  {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Typischer Fall", "titel": "Halle an die\neigene GmbH.\n*Gewerblich.*", "sub": "Betriebsaufspaltung – die stille Falle."},
+  {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Struktur prüfen,\n*bevor sie kippt.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
+  {"vorlage": "story", "datei": "story_so_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Halle an die eigene GmbH: *plötzlich gewerblich.*", "bild": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/titelbild.png"}
+ ]
+}

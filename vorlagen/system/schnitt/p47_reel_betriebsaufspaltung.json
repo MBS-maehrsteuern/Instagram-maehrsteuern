@@ -1,0 +1,170 @@
+{
+ "ausgabe": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/titelbild.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Nur vermietet?",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/bausteine/karte_sachlich.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "rein": "whip",
+   "text": [
+    {
+     "wort": "1 · Sachlich",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Halle = Betriebsgrundlage",
+     "groesse": 110,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/bausteine/karte_personell.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "2 · Personell",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Du beherrschst beide",
+     "groesse": 110,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/bausteine/karte_folge.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Folge:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Gewerbebetrieb",
+     "groesse": 140,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/47_2026-11-01_reel_betriebsaufspaltung/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.22,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 0.3,
+   "dauer": 0.8,
+   "lautstaerke": 0.33
+  },
+  {
+   "datei": "../../musik/09_runway_lofi_piano.mp3",
+   "ab": 2.6,
+   "start": 0,
+   "lautstaerke": 0.59,
+   "ein": 0.3
+  }
+ ]
+}
