@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:26 Uhr._
 
 **Als Nächstes online:** 📱 Story `09-story-quiz` am **Mi 14.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -133,6 +133,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 23:26 ✍️ Bio-/Profil-Vorschlag 14.10.: Nutzen-Bio, Namensfeld, Pins, Highlights (braucht Loris in der App) ([`0a8f9f2`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0a8f9f217615061add684e67a775935ba5896007))
+  - `strategie/02_bio_highlights.md`
 - 23:24 ✍️ Nachtlauf 1: anstehende Beiträge optimiert (Texte, Titelbilder, Fachkorrekturen) ([`f0009be`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/f0009bea8b43bbb09695fbefabfe592304948e3e))
   - `LAGE.html`, `automatik/plan.json`, `posts/01_2026-10-04_reel_ampel`, `posts/03_2026-10-13_gewst_hinzurechnung`, `posts/04_2026-10-20_reel_mein_weg`, `posts/09_2026-10-15_rueckstellung`, `…`
 - 23:09 ✍️ Lage nach Rebase neu erzeugt ([`41f3298`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/41f3298f33034864fee374590869ad749ae08a19))
