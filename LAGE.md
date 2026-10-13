@@ -134,6 +134,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 19:31 🤖 Autopilot: Dateien fuer 23-story-biolink vorbereitet ([`2b08c21`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/2b08c218c4d03a69acf66d9f578689214574d60d))
+  - `posts/23_2026-10-13_story_biolink`
 - 19:31 🤖 Autopilot: 15-reel-rechnungsnummern veroeffentlicht ([`36bff2a`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/36bff2afc1ace31d7a1c1b785d5bd05c0bab19b2))
   - Plan: `15-reel-rechnungsnummern` status: freigegeben → veroeffentlicht; `15-reel-rechnungsnummern` online: https://www.instagram.com/reel/DecWVZwgpOC/
 - 18:15 🤖 Autopilot: Dateien fuer 15-reel-rechnungsnummern vorbereitet ([`a2c8f67`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/a2c8f676db4a7c63146be7aa5d0ecbe0996ea667))
