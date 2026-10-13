@@ -1,8 +1,8 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 19:31 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 19:35 Uhr._
 
-**Als Nächstes online:** 📱 Story `23-story-biolink` am **Di 13.10. 19:35 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 📱 Story `09-story-quiz` am **Mi 14.10. 12:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -48,7 +48,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 13.10. 19:35 | 📱 Story `23-story-biolink` | 🟢 freigegeben (geht automatisch online) | Auswertung 11.10.: 0 Bio-Link-Klicks. Story erklärt, was hinter dem Link steckt (15-Min-Demo). Ohne Sticker, automatisch postbar. · [Freigabe #54](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/54) |
 | Mi 14.10. 12:45 | 📱 Story `09-story-quiz` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Mi 14.10. 19:30 | 🎬 Reel `07-reel-hinzurechnung` | 🟢 freigegeben (geht automatisch online) | Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot · [Freigabe #14](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/14) |
 | Do 15.10. 12:15 | 🖼️ Karussell `09-rueckstellung` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %) · [Freigabe #35](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/35) |
@@ -78,6 +77,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Di 13.10. 19:35 · 📱 Story `23-story-biolink` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4007178310619152901) (online 2026-10-13 19:35)
 - Di 13.10. 19:30 · 🎬 Reel `15-reel-rechnungsnummern` · [ansehen](https://www.instagram.com/reel/DecWVZwgpOC/) (online 2026-10-13 19:31)
 - Di 13.10. 12:45 · 📱 Story `03-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4006971953613492167) (online 2026-10-13 12:45)
 - Di 13.10. 12:15 · 🖼️ Karussell `03-gewst-hinzurechnung` · [ansehen](https://www.instagram.com/p/Debkp_3m1WY/) (online 2026-10-13 12:16)
@@ -87,7 +87,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - So 11.10. 12:15 · 📱 Story `08-story-rueckblick` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4005507302220849298) (online 2026-10-11 12:15)
 - Sa 10.10. 19:30 · 🎬 Reel `08-reel-kst-staffel` · [ansehen](https://www.instagram.com/reel/DeUn6ezCm7O/) (online 2026-10-10 19:30)
 - Sa 10.10. 12:15 · 📱 Story `08-story-heute` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4004782529098566867) (online 2026-10-10 12:15)
-- Sa 10.10. 09:30 · 🎬 Reel `12-reel-zeile` · [ansehen](https://www.instagram.com/reel/DeTiK24NyJt/)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -134,6 +133,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 19:35 🤖 Autopilot: 23-story-biolink veroeffentlicht ([`204f1d7`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/204f1d70261c50bc2559a49982e0fef940b4383d))
+  - Plan: `23-story-biolink` status: freigegeben → veroeffentlicht; `23-story-biolink` online: https://www.instagram.com/stories/maehrsteuern/4007178310619152901
 - 19:31 🤖 Autopilot: Dateien fuer 23-story-biolink vorbereitet ([`2b08c21`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/2b08c218c4d03a69acf66d9f578689214574d60d))
   - `posts/23_2026-10-13_story_biolink`
 - 19:31 🤖 Autopilot: 15-reel-rechnungsnummern veroeffentlicht ([`36bff2a`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/36bff2afc1ace31d7a1c1b785d5bd05c0bab19b2))
