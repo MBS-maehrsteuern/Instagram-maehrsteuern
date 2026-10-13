@@ -1,0 +1,16 @@
+{
+ "titel": "Notlösung Stimm-Reels 18–22: Abspann mit TOOL-Aufruf (Reels ohne Stimme, Nachtlauf 14.10.)",
+ "ausgabe": "../../posts",
+ "bilder": [
+  {"vorlage": "einblendung", "datei": "18_2026-10-19_reel_aufbewahrung/_karten/abspann.png", "typ": "abspann",
+   "titel": "Jede Frist.\n*Im Blick.*", "chip": "💬 Kommentiere „TOOL“ → Demo per DM"},
+  {"vorlage": "einblendung", "datei": "19_2026-10-20_reel_verlustvortrag/_karten/abspann.png", "typ": "abspann",
+   "titel": "Verluste planen.\n*Über Jahre.*", "chip": "💬 Kommentiere „TOOL“ → Demo per DM"},
+  {"vorlage": "einblendung", "datei": "20_2026-10-21_reel_erechnung/_karten/abspann.png", "typ": "abspann",
+   "titel": "Rechnungsdaten auswerten.\n*Statt abtippen.*", "chip": "💬 Kommentiere „TOOL“ → Demo per DM"},
+  {"vorlage": "einblendung", "datei": "21_2026-10-22_reel_zinsschranke/_karten/abspann.png", "typ": "abspann",
+   "titel": "Zinsvortrag.\n*Automatisch fortgeführt.*", "chip": "💬 Kommentiere „TOOL“ → Demo per DM"},
+  {"vorlage": "einblendung", "datei": "22_2026-10-18_reel_steuersatz/_karten/abspann.png", "typ": "abspann",
+   "titel": "Der richtige Satz.\n*Jedes Jahr.*", "chip": "💬 Kommentiere „TOOL“ → Demo per DM"}
+ ]
+}

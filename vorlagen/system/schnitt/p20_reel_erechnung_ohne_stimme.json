@@ -1,0 +1,224 @@
+{
+ "ausgabe": "../../posts/20_2026-10-21_reel_erechnung/reel_ohne_stimme.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.7,
+   "lautstaerke": 0.35,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 1.1,
+   "start": 0,
+   "dauer": 0.6,
+   "lautstaerke": 0.5,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/11_runway_future_garage.mp3",
+   "ab": 2.5500000000000003,
+   "start": 0.0,
+   "lautstaerke": 0.5,
+   "ein": 0.4
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_1.png",
+   "dauer": 2.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Eine PDF per Mail …",
+     "ab": 0.3,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "… ist keine E-Rechnung.",
+     "ab": 0.8,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "PDF = E-Rechnung?",
+     "ab": 0.3,
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880
+    },
+    {
+     "wort": "Nein.",
+     "ab": 1.1,
+     "groesse": 210,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_2.png",
+   "dauer": 2.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Empfangen musst du sie",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "schon seit 2025.",
+     "ab": 0.7,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_3.png",
+   "dauer": 4.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Ausstellen ab 2027, bei über",
+     "ab": 0.1,
+     "groesse": 74,
+     "y": 340,
+     "x": 480,
+     "breite": 860,
+     "bis": 2.4
+    },
+    {
+     "wort": "800.000 € Vorjahresumsatz –",
+     "ab": 0.7,
+     "groesse": 74,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "bis": 2.4
+    },
+    {
+     "wort": "ab 2028:",
+     "ab": 2.4,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "alle.",
+     "ab": 2.8,
+     "groesse": 110,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_4.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Frag heute nach:",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "Kann euer Posteingang das lesen?",
+     "ab": 0.7,
+     "groesse": 72,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/abspann.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Speicher dir das.",
+     "ab": 0.1,
+     "groesse": 80,
+     "y": 1350,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  }
+ ]
+}
