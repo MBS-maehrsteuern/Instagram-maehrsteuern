@@ -21,9 +21,37 @@ def overlay(bild, datei, skala, xy):
     bild.alpha_composite(o, xy)
 
 
-def folie_karte(folie, ziel, y=600, overlays=()):
-    im = Image.open(folie).convert("RGB").crop((0, OBEN, 1080, UNTEN))
-    im = im.resize((round(1080 * SKALA), round((UNTEN - OBEN) * SKALA)), Image.LANCZOS)
+def ohne_nr(im):
+    """Grosse gruene Karussell-Nummer (01 … 05, links oben im Inhaltsbereich) mit dem Hintergrund der Zeile uebermalen.
+    QA KW44: Im Reel wirkten die Nummern wie eine falsche Reihenfolge (38: 03 vor 02, 40: 05 → 01 → 04)."""
+    px = im.load()
+    gruen = [(x, y) for y in range(360, 640) for x in range(80, 330)
+             if px[x, y][1] > 120 and px[x, y][1] > px[x, y][0] + 40]
+    if not gruen:
+        return im
+    zeilen = sorted({p[1] for p in gruen})  # nur der erste zusammenhängende Zeilenblock = Nummer (darunter folgt der grüne Titel)
+    ende = zeilen[0]
+    for z in zeilen[1:]:
+        if z - ende > 6:
+            break
+        ende = z
+    gruen = [p for p in gruen if p[1] <= ende]
+    x0, x1 = min(p[0] for p in gruen) - 10, max(p[0] for p in gruen) + 10
+    y0, y1 = min(p[1] for p in gruen) - 10, max(p[1] for p in gruen) + 10
+    for y in range(y0, y1 + 1):
+        ref = [px[x, y] for x in range(20, 70)]
+        farbe = tuple(sum(c[i] for c in ref) // len(ref) for i in range(3))
+        for x in range(x0, x1 + 1):
+            px[x, y] = farbe
+    return im
+
+
+def folie_karte(folie, ziel, y=600, overlays=(), oben=OBEN, unten=UNTEN, nr_aus=False):
+    im = Image.open(folie).convert("RGB")
+    if nr_aus:
+        im = ohne_nr(im)
+    im = im.crop((0, oben, 1080, unten))
+    im = im.resize((round(1080 * SKALA), round((unten - oben) * SKALA)), Image.LANCZOS)
     maske = Image.new("L", im.size, 0)
     ImageDraw.Draw(maske).rectangle((25, 25, im.width - 25, im.height - 25), fill=255)
     maske = maske.filter(ImageFilter.GaussianBlur(12))
@@ -46,14 +74,17 @@ K = B / "karussell"
 folie_karte(K / "bewirtung/folie_02.png", P36 / "karte_70.png")
 
 # Reel 38: Folien des Begleit-Karussells 37 (bp_vorbereitung) + Prüfpfad-Einblendungen aus der Bibliothek (R1/R2)
-folie_karte(K / "bp_vorbereitung/folie_04.png", P38 / "karte_verfahrensdoku.png", y=640,
+# QA KW44: Kartennummern ausgeblendet (03 lief vor 02); Folie 3 aus Post 37 (neu gerendert, § 147 Abs. 6 AO aktuelle Fassung);
+# Box „Ein Klick. Eine Quelle.“ höher, damit der Rahmen auch nach dem Zoom über y 1500 endet.
+folie_karte(K / "bp_vorbereitung/folie_04.png", P38 / "karte_verfahrensdoku.png", y=640, nr_aus=True,
             overlays=[(P38 / "leiste_pruefpfad.png", 0.86, (40, 300))])
-folie_karte(K / "bp_vorbereitung/folie_03.png", P38 / "karte_datenzugriff.png", y=420,
-            overlays=[(P38 / "haken_ueber_pruefpfad.png", 0.84, (40, 1060))])
+folie_karte(REPO / "posts/37_2026-10-27_bp_vorbereitung/folie_03.png", P38 / "karte_datenzugriff.png", y=420, oben=540, nr_aus=True,
+            overlays=[(P38 / "haken_ueber_pruefpfad.png", 0.84, (40, 990))])
 
 folie_karte(K / "holding/folie_02.png", P39 / "karte_regel.png")
 folie_karte(K / "holding/folie_03.png", P39 / "karte_rechnung.png")
 
-folie_karte(K / "excel_formeln/folie_06.png", P40 / "karte_wennfehler.png")
-folie_karte(K / "excel_formeln/folie_02.png", P40 / "karte_xverweis.png")
-folie_karte(K / "excel_formeln/folie_05.png", P40 / "karte_namen.png")
+# QA KW44: Kartennummern ausgeblendet (05 → 01 → 04 wirkte ungeordnet)
+folie_karte(K / "excel_formeln/folie_06.png", P40 / "karte_wennfehler.png", nr_aus=True)
+folie_karte(K / "excel_formeln/folie_02.png", P40 / "karte_xverweis.png", nr_aus=True)
+folie_karte(K / "excel_formeln/folie_05.png", P40 / "karte_namen.png", nr_aus=True)

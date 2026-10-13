@@ -3,5 +3,5 @@
     {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Wissen · Steuern × Code","titel":"AfA:\n*30 %* degressiv","sub":"Nur bis Ende 2027 – Anschaffung oder Herstellung 07/2025 bis 12/2027."},
     {"vorlage":"einblendung","datei":"bausteine/haken_dezember.png","typ":"haken","kicker":"Achtung · Jahresende","titel":"Kauf im Dezember:\n*nur 1/12* im ersten Jahr.","sub":"Zeitanteilig (§ 7 Abs. 1 Satz 4 EStG). Demo: 30.000 € × 1/12 = 2.500 €."},
     {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"AfA-Plan\n*pro Jahr rechnen?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
-    {"vorlage":"story","datei":"story_do_teaser.png","typ":"teaser","kicker":"Neues Reel","titel":"Degressive AfA *30 %* – nur bis Ende 2027.","bild":"../../posts/42_2026-10-29_reel_afa/titelbild.png"}
+    {"vorlage":"story","datei":"story_do_teaser.png","typ":"teaser","kicker":"Neues Reel","titel":"Degressive AfA *30 %* – nur bis Ende 2027.","bild":"../../posts/42_2026-10-29_reel_afa/bausteine/teaser_karte.png"}
   ] }

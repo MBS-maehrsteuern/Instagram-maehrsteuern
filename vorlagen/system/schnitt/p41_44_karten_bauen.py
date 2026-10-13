@@ -33,5 +33,5 @@ folie_karte("karussell/afa_degressiv/folie_02.png", P42 / "karte_regeln.png")
 folie_karte("karussell/afa_degressiv/folie_03.png", P42 / "karte_beispiel.png")
 
 folie_karte("karussell/par35/folie_03.png", P43 / "karte_messzahl.png")
-folie_karte("karussell/par35/folie_04.png", P43 / "karte_4fach.png")
+folie_karte(P43 / "folie_schritt3.png", P43 / "karte_4fach.png")  # QA KW44: eigene Folie „Die ESt sinkt um das 4,0-Fache.“ statt „zurück“ (Job p43_reel_par35.json)
 folie_karte("karussell/par35/folie_05.png", P43 / "karte_400.png")

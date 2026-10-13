@@ -1,4 +1,26 @@
-{ "titel": "Karussell 46 · Dividenden § 8b KStG (Nachtlauf 14.10.): Folie 6 Speichern + Weiterleiten + TOOL", "ausgabe": "../../posts/46_2026-11-01_dividenden_8b",
-  "bilder": [
-    {"vorlage":"karussell","datei":"folie_06.png","seite":6,"von":6,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für später.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder prüfen lassen: Mein Tool zeigt, ob 10 % (KSt) und 15 % (GewSt) erreicht sind. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"}
-  ] }
+{
+ "titel": "Karussell 46 · Dividenden § 8b KStG (Nachtlauf 14.10.): Folie 6 Speichern + Weiterleiten + TOOL; Story Zahl des Tages als Emoji-Tipp (QA KW44: erlaubtes Format)",
+ "ausgabe": "../../posts/46_2026-11-01_dividenden_8b",
+ "bilder": [
+  {
+   "vorlage": "karussell",
+   "datei": "folie_06.png",
+   "seite": 6,
+   "von": 6,
+   "typ": "cta",
+   "saeule": "Wissen",
+   "titel": "*Speichern* für später.",
+   "text": "Wer in deinem Team braucht das? Schick's weiter.\nOder prüfen lassen: Mein Tool zeigt, ob 10 % (KSt) und 15 % (GewSt) erreicht sind. Schreib „TOOL“.",
+   "chip": "📌 Speichern · 📤 Senden"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_zdt_8b.png",
+   "typ": "antwort",
+   "kicker": "Zahl des Tages",
+   "titel": "*95 %*\nsteuerfrei",
+   "text": "Dividenden (ab 10 % Beteiligung) und Veräußerungsgewinne aus KapG-Anteilen bei der KSt (§ 8b KStG).\n*Rechenbeispiel im neuen Beitrag.*",
+   "antwort": "Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"
+  }
+ ]
+}

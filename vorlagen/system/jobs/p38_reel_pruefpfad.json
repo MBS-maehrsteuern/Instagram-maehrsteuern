@@ -4,6 +4,6 @@
  "bilder": [
   {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Betriebsprüfung", "titel": "Jede Zahl\nbis zur *Quelle*.", "sub": "Die erste Frage des Prüfers."},
   {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Jede Zahl\n*belegt.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
-  {"vorlage": "story", "datei": "story_di_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Betriebsprüfung: *Woher kommt diese Zahl?*", "bild": "../../posts/38_2026-10-27_reel_pruefpfad/titelbild.png"}
+  {"vorlage": "story", "datei": "story_di_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Betriebsprüfung: *Woher kommt diese Zahl?*", "bild": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/teaser_karte.png"}
  ]
 }

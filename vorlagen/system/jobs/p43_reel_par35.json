@@ -1,7 +1,26 @@
 {
- "titel": "Reel 43 · § 35 EStG: das 4,0-Fache zurück (Nachtlauf 14.10.): Abspann TOOL, Story Emoji-Tipp (Titelbild aus reels/reel_35)",
+ "titel": "Reel 43 · § 35 EStG: ESt-Ermäßigung um das 4,0-Fache des Messbetrags (Nachtlauf 14.10., QA KW44: Titelbild + Karte Schritt 3 neu, kein „zurück“ mehr): Abspann TOOL, Story Emoji-Tipp",
  "ausgabe": "../../posts/43_2026-10-30_reel_par35",
  "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Wissen · Steuern × Code",
+   "titel": "Gewerbesteuer\n*angerechnet*",
+   "sub": "Auf die ESt · § 35 EStG in 15 Sekunden."
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_schritt3.png",
+   "seite": 4,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Schritt 3",
+   "titel": "Die ESt sinkt um\ndas *4,0-Fache*.",
+   "text": "Ermäßigung um das Vierfache des Messbetrags – höchstens um die tatsächlich zu zahlende Gewerbesteuer.",
+   "boxTitel": "NORM",
+   "box": "§ 35 Abs. 1 EStG"
+  },
   {
    "vorlage": "einblendung",
    "datei": "bausteine/abspann_tool.png",
