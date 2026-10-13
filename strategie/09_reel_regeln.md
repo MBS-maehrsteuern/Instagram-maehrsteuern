@@ -26,18 +26,19 @@ Vorlage zum Kopieren: `vorlagen/system/schnitt/p01_reel_ampel_hook.json` (Render
   Richtwerte: Stimme ca. −18 LUFS, Musik ~0,13, Atmo 0,2–0,3.
 - Aufnahme: Abstand zum Handy-Mikro halten (sonst klingt es kratzig/übersteuert), ruhiger Raum.
 
-## Länge: 12–15 s (Auswertung 11.10.)
+## Länge: 12–20 s (Auswertung 11.10., angepasst 13.10.)
 - Ø gesehen nur **20–24 % der Länge**, egal ob 23 s oder 41 s; Skip 62–82 %. Die Zuschauer gehen nach ca. 5–7 s – die Länge
   ist also nicht das Problem, sondern alles nach dem Einstieg.
-- **Regel ab 11.10.:** Reels **12–15 s**, die **Pointe in den ersten 5 s** (Ergebnis oder Zahl, nicht erst der Weg dorthin),
-  Hook-Text ab 0,3 s und ohne Ton verständlich, höchstens 3 Punkte. Sprechtexte höchstens 35–40 Wörter.
+- **Regel ab 13.10.:** Reels **12–20 s**, **Pointe in den ersten 5 s**, Hook-Text ab 0,3 s und ohne Ton verständlich, höchstens 3 Punkte, Sprechtexte höchstens 35–40 Wörter. Nicht mehr nachträglich unter 15 s schneiden, wenn dabei Inhalt (Zahl, Ergebnis) wegfällt. Zusätzliche Kennzahl: **Ø Sehdauer in Sekunden** (Ziel ≥ 6 s) neben „gesehen %“ – kurze Reels heben den Prozentwert rechnerisch, nicht die Sehzeit (13.10.: 13–15 s → Ø 4,8 s, 30–41 s → Ø 8,5 s; n = 2 je Gruppe, Hinweis).
 - Bereits aufgenommene Sprachnachrichten werden nicht verworfen, sondern per Schnitt gekürzt (13–16 am 11.10.: 22–26 s → 13–15 s).
 - Täglich mindestens ein Reel: Der Tag ohne Reel (09.10.) erreichte 66 Konten, der Tag mit zwei Reels (10.10.) 362.
+- **Reichweite steht nach ~13 h zu 80–90 % fest** (5 Reels, 13.10.). Wer nach 24 h unter 150 Erreichten liegt, wird nicht mehr „entdeckt“ – Folgeformat sofort anpassen, nicht 48 h warten. Überspringrate weiter erst ab 48 h werten.
 
 ## Listen-Reels: höchstens 3 Punkte (Entscheidung Loris, 04.10.)
 - Reel „5 Dinge mit Code statt Excel“ (41 s): Einstieg stark (46 % weitergewischt statt 66 %), aber Ø Sehdauer nur 7,6 s = 19 % der Länge – die meisten steigen nach Punkt 5/4 aus.
 - **Regel:** Listen-/Countdown-Reels mit **maximal 3 Punkten**, Ziel **unter 20 s**. Mehr Punkte → als Karussell oder als Serie (Teil 1, 2 …).
 - Countdown beibehalten (3 → 1), stärkster Punkt zuletzt, damit man bis zum Ende schaut.
+- Folge-Reels einer Serie müssen allein funktionieren: kein „Nummer X aus meinem …“ im Hook oder in der Frage; Serien-Hinweis höchstens als letzte Zeile vor den Hashtags („Teil 4 meiner Excel-Serie – alle Teile im Profil“).
 
 ## Hook (0–3 s)
 - **Kein Dauerfeuer.** Im Hook 2 Einstellungen, nicht 4–5 Achtel-Schnitte. Jede Einstellung darf 1,4–2 s stehen.

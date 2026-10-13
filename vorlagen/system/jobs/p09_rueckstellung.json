@@ -1,0 +1,7 @@
+{ "titel": "Karussell 09 · Rückstellung – Korrekturen für den Post (Folie 1 Untertitel, Folie 5 VZ je Steuer, Folie 7 Speichern + Weiterleiten, Teaser)", "ausgabe": "../../posts/09_2026-10-15_rueckstellung",
+  "bilder": [
+    {"vorlage":"karussell","datei":"folie_01.png","seite":1,"von":7,"typ":"titel","saeule":"Wissen","titel":"Die Steuerrückstellung in *6 Schritten*.","sub":"Vom Ergebnis vor Steuern bis zur Rückstellung – mit Demo-Zahlen."},
+    {"vorlage":"karussell","datei":"folie_05.png","seite":5,"von":7,"typ":"inhalt","saeule":"Schritt 5 · Vorauszahlungen","titel":"Was schon *gezahlt* ist.","zeilen":[["KSt + SolZ 158.250 − VZ 130.000","28.250 €"],["GewSt 140.000 − VZ 120.000","20.000 €"],["Steuerrückstellungen gesamt","48.250 €","summe"]],"boxTitel":"WICHTIG","box":"VZ je Steuer abziehen – KSt-VZ nur gegen KSt, GewSt-VZ nur gegen GewSt."},
+    {"vorlage":"karussell","datei":"folie_07.png","seite":7,"von":7,"typ":"cta","saeule":"Wissen","titel":"*Speichern* für später.","text":"Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool baut die Rückstellung mit Prüfpfad auf. Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"},
+    {"vorlage":"story","datei":"story_do_teaser.png","typ":"teaser","kicker":"Neuer Beitrag","titel":"Rückstellung in *6 Schritten*.","bild":"../../posts/09_2026-10-15_rueckstellung/folie_01.png"}
+  ] }

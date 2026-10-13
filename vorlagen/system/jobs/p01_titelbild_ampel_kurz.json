@@ -1,0 +1,12 @@
+{
+ "ausgabe": "../../posts/01_2026-10-04_reel_ampel",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "saeule": "Demo",
+   "titel": "Steuerrückstellung:\n*grün* statt #BEZUG!",
+   "sub": "Hebesatz rein – alles rechnet neu."
+  }
+ ]
+}

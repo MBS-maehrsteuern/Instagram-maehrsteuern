@@ -34,7 +34,7 @@ SZENEN = [(0, "buero", {"ab": 0.2, "tempo": 0.9, "von": [540, 960, 1080], "nach"
           (11.14, "schulter", {"ab": 1.8, "von": [540, 800, 1000], "nach": [560, 760, 820]}),
           (14.85, "tabelle", {"ab": 7.0}),
           (16.86, "ampel", {"ab": 8.0, "rein": "whip", "von": [540, 960, 1080], "nach": [540, 1000, 1000]}),
-          (20.72, "ampel", {"ab": 13.5, "von": [540, 960, 1080], "nach": [410, 900, 820]})]
+          (20.72, "ampel", {"ab": 13.8, "von": [540, 960, 1080], "nach": [410, 900, 820]})]
 AKZENTE = [(2.06, "2 Tage vor Frist", "rot", 520, 150), (9.76, "#BEZUG!", "rot", 520, 230), (11.52, "#NAME?", "rot", 520, 230),
            (13.26, "#WERT!", "rot", 520, 230), (14.96, "Quelle nicht gefunden.", "rot", 470, 95), (19.12, "Code.", "gruen", 380, 200),
            (21.64, "„TOOL“ per DM", "gruen", 380, 160)]
@@ -64,8 +64,11 @@ ton = [{"datei": f"../../{P}/ton/stimme_kurz.flac", "ab": 0, "lautstaerke": 1.0,
        {"datei": "../../musik/atmo/fehlerton.mp3", "ab": nz(11.52), "dauer": 0.6, "lautstaerke": 0.22},
        {"datei": "../../musik/atmo/fehlerton.mp3", "ab": nz(13.26), "dauer": 0.6, "lautstaerke": 0.22},
        {"datei": "../../musik/07_runway_minimal_tech.mp3", "ab": nz(16.86), "start": 0.4, "lautstaerke": 0.11, "ein": 0.8}]
+quellen = json.loads((hier / "p01_reel_ampel_stimme.json").read_text())["quellen"]
+# 14.10.: Ortsangabe im Hebesatz-Hinweis der Aufnahme überdeckt (keine Ortsbezüge), Stammdaten-Seite (ab ~13,6 s) nicht zeigen
+quellen["ampel"] = {"video": f"../../{P}/bausteine/aufnahme_gelb_gruen_neutral.mp4"}
 cfg = {"ausgabe": f"../../{P}/reel_kurz.mp4", "fps": 30,
-       "quellen": json.loads((hier / "p01_reel_ampel_stimme.json").read_text())["quellen"], "szenen": szenen, "ton": ton}
+       "quellen": quellen, "szenen": szenen, "ton": ton}
 (hier / "p01_reel_ampel_kurz.json").write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
 subprocess.run([sys.executable, str(hier.parent / "montage.py"), str(hier / "p01_reel_ampel_kurz.json")], check=True, cwd=hier.parent)
 print(f"✓ Ampel kurz: {ende:.1f} s · Mix {lufs(REPO / P / 'reel_kurz.mp4'):.1f} LUFS")

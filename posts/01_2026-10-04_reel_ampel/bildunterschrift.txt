@@ -1,12 +1,14 @@
-Zwei Tage vor Frist – und die Excel zeigt #BEZUG! 😩
+Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt #BEZUG! 😩
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
 
 #NAME?, #WERT!, Verknüpfung ins Leere … und du suchst dich dumm und dämlich. Kenn ich zu gut.
 
-Deshalb rechne ich meine Ertragsteuer inzwischen mit Code: Hebesatz rein, alles rechnet neu, am Ende steht „abschlussreif“. 🔒 Läuft komplett lokal auf deinem Rechner – keine Steuerdaten in der Cloud. Alles im Video sind Beispieldaten.
+Deshalb rechne ich meine Ertragsteuer inzwischen mit Code: Hebesatz rein, alles rechnet neu, am Ende steht die Abschlussreife auf Grün – „vollständig“. 🔒 Läuft komplett lokal – keine Steuerdaten in der Cloud. Alles im Video sind Beispieldaten.
 
-Welcher Excel-Fehler hat dich schon mal kurz vor Abgabe erwischt? Schreib's in die Kommentare 👇
+Welcher Fehler hat dich zuletzt erwischt: #BEZUG!, #NAME? oder #WERT!? 👇
 📤 Schick das dem Kollegen, der noch in Excel rechnet.
 
-💬 Schreib mir „TOOL“ per DM – ich zeig dir die Demo.
+🤖 Hinweis: Die Büro-Szenen im Video sind mit KI erzeugt.
 
-#steuern #steuerabteilung #excel #automatisierung #jahresabschluss
+#steuerabteilung #taxtech #jahresabschluss #steuerrueckstellung

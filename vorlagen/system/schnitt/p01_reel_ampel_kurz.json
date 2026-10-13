@@ -12,7 +12,7 @@
    "video": "../hooks/bausteine/karte_oben_tabelle.mp4"
   },
   "ampel": {
-   "video": "../../posts/01_2026-10-04_reel_ampel/bausteine/aufnahme_gelb_gruen.mp4"
+   "video": "../../posts/01_2026-10-04_reel_ampel/bausteine/aufnahme_gelb_gruen_neutral.mp4"
   }
  },
  "szenen": [
@@ -324,7 +324,7 @@
      "bis": 2.26
     }
    ],
-   "ab": 13.5,
+   "ab": 13.8,
    "von": [
     540,
     960,

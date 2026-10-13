@@ -503,10 +503,12 @@
       "video": "reel_hinzurechnung.mp4",
       "text": "bildunterschrift_reel.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Titelbild ergänzt, Bildunterschrift (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot",
       "issue": 14,
       "stimme": false,
-      "hook": "fall"
+      "hook": "fall",
+      "titelbild": "titelbild_reel.png",
+      "begleit": true
     },
     {
       "id": "09-rueckstellung",
@@ -524,7 +526,7 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Folie 5 Vorauszahlungen je Steuer (Saldierungsverbot § 246 Abs. 2 HGB), Folie 1 Untertitel, Folie 7 Speichern + Weiterleiten, Bildunterschrift neu, Alt-Texte in alt_texte.json · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
       "issue": 35,
       "stimme": false,
       "hook": "zahl"
@@ -539,7 +541,7 @@
       ],
       "status": "freigegeben",
       "issue": 35,
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Teaser neu gerendert (Folie 1 mit neuem Untertitel) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
     },
     {
       "id": "16-reel-listen",
@@ -550,7 +552,7 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch.",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift neu (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch.",
       "stimme": true,
       "hook": "fall"
     },
@@ -598,7 +600,7 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label).",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift neu (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label).",
       "ki_label": true,
       "stimme": true,
       "hook": "fall"
@@ -624,11 +626,12 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf 12:15 vorgezogen (go Loris) – Slot-Test „Stimme mittags“; Sa 19:30 frei für die Fabrik · 12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Ortsangabe im Hebesatz-Hinweis der Aufnahme überdeckt, Stammdaten-Seite raus; neues Titelbild (Versprechen passt zur Kurzfassung); neue Bildunterschrift mit KI-Hinweis. KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf 12:15 vorgezogen (go Loris) – Slot-Test „Stimme mittags“; Sa 19:30 frei für die Fabrik · 12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
       "issue": 7,
       "stimme": true,
       "hook": "fall",
-      "begleit": false
+      "begleit": false,
+      "ki_label": true
     },
     {
       "id": "01-story-teaser",
@@ -686,10 +689,10 @@
       "typ": "story",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
-        "story_mi_umfrage.png"
+        "story_do_umfrage_tippen.png"
       ],
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Platzhalter „STICKER HIER“ ersetzt durch Tipp-Story (👏/😮) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
       "issue": 31
     },
     {
@@ -720,7 +723,7 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
+      "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
       "issue": 31,
       "stimme": false,
       "hook": "fall"

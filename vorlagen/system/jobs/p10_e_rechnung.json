@@ -1,0 +1,4 @@
+{ "titel": "Karussell 10 · E-Rechnung – letzte Folie mit Speichern + Weiterleiten", "ausgabe": "../../posts/10_2026-10-22_e_rechnung",
+  "bilder": [
+    {"vorlage":"karussell","datei":"folie_06.png","seite":6,"von":6,"typ":"cta","saeule":"Praxis","titel":"*Speichern* für später.","text":"Wer in deinem Team braucht das? Schick's an eure Buchhaltung, bevor 2027 losgeht.\nE-Rechnungsdaten auswerten statt abtippen: Schreib „TOOL“.","chip":"📌 Speichern · 📤 Senden"}
+  ] }
