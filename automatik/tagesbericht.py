@@ -55,9 +55,20 @@ gestern = tage[-1] if tage else None
 r_gestern = tw.get(gestern)
 r_vortag = tw.get(tage[-2]) if len(tage) > 1 else None
 m30 = d["konto_verlauf"][0]
-nf = m30["reach"]["aufgeteilt"].get("NON_FOLLOWER", 0); ff = m30["reach"]["aufgeteilt"].get("FOLLOWER", 0)
+_r30 = (m30.get("reach") or {}).get("aufgeteilt") or {}  # fehlt die Reichweite einmal, bricht der Bericht nicht ab
+nf = _r30.get("NON_FOLLOWER", 0); ff = _r30.get("FOLLOWER", 0)
 nf_quote = quote(nf, nf + ff)
+# profile_links_taps = Taps auf Kontakt-Buttons (E-Mail, Anrufen …), NICHT der Website-Link in der Bio
 links = (m30.get("profile_links_taps") or {}).get("gesamt") or 0
+
+def _konto_wert(name):
+    """Kontometrik aus dem 30-Tage-Block (Zahl oder {gesamt, aufgeteilt}); None, wenn die API sie nicht liefert."""
+    w = m30.get(name)
+    return w.get("gesamt") if isinstance(w, dict) else w
+website_klicks, profil_aufrufe = _konto_wert("website_clicks"), _konto_wert("profile_views")
+# follows_and_unfollows mit follow_type: FOLLOWER = neue Follows, NON_FOLLOWER = Entfolgungen (30 Tage)
+_fu = (m30.get("follows_and_unfollows") or {}).get("aufgeteilt") or {}
+neu_follows, entfolgt = (_fu.get("FOLLOWER"), _fu.get("NON_FOLLOWER")) if _fu else (None, None)
 
 # Beiträge seit Neustart
 vor_bt = {b["id"]: b for b in v.get("beitraege", [])}
@@ -65,6 +76,7 @@ bt = [b for b in d["beitraege"] if b["timestamp"][:10] >= START]
 bt.sort(key=lambda b: b["timestamp"], reverse=True)
 plan_link = {e.get("link"): e for e in plan if e.get("link")}
 BERLIN = ZoneInfo("Europe/Berlin")
+PT = ZoneInfo("America/Los_Angeles")  # Instagram liefert Tages- und Stundenwerte in Pacific Time
 FEED = {"REELS": "reel", "CAROUSEL_ALBUM": "karussell", "IMAGE": "bild"}
 
 def _utc(ts):
@@ -97,10 +109,18 @@ def name(b):
     return (b.get("caption") or "").split("\n")[0][:34]
 
 # Bezugszeit für das Alter der Beiträge: jetzt, wenn der Bericht für heute läuft, sonst 09:00 Ortszeit des Berichtstags
+# (echte Zeitzone: im Sommer 07:00 UTC, im Winter 08:00 UTC – vorher fest 07:00 UTC bzw. +2 h)
+SEH_ZIEL_S = 6  # Ziel Ø Sehdauer je Reel in Sekunden (analyse_reels 13.10.: Prozentwert allein täuscht bei kurzen Reels)
 REIF_H = 48  # erst ab diesem Alter werden Beiträge im Methoden-Check bewertet (frühe Werte wandern noch)
-_jetzt = datetime.now(timezone.utc)
-_bezug_tag = datetime.strptime(tag, "%Y-%m-%d").replace(hour=7, tzinfo=timezone.utc)  # 09:00 MESZ
-bezug = _jetzt if (_jetzt + timedelta(hours=2)).strftime("%Y-%m-%d") == tag else _bezug_tag
+def um_9_uhr(tag_):
+    return datetime.strptime(tag_, "%Y-%m-%d").replace(hour=9, tzinfo=BERLIN)
+_jetzt = datetime.now(BERLIN)
+bezug = _jetzt if _jetzt.strftime("%Y-%m-%d") == tag else um_9_uhr(tag)
+
+def pt_stunde_nach_berlin(tag_, h):
+    """Stunde h (Pacific Time) am Tag tag_ als Stunde deutscher Zeit. Der Abstand ist meist 9 h, aber vom
+    25.10. bis 31.10.2026 (Deutschland schon Winterzeit, USA erst ab 01.11.) nur 8 h – im Frühjahr ebenso kurz 8 h."""
+    return datetime.strptime(tag_, "%Y-%m-%d").replace(hour=int(h), tzinfo=PT).astimezone(BERLIN).hour
 
 def alter_h(ts):
     t = datetime.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
@@ -145,16 +165,39 @@ def ortszeit(ts):
     t = _utc(ts).astimezone(BERLIN)  # Sommer-/Winterzeit richtig (vorher fest +2 h)
     return t.strftime("%a %d.%m. %H:%M").replace("Mon","Mo").replace("Tue","Di").replace("Wed","Mi").replace("Thu","Do").replace("Fri","Fr").replace("Sat","Sa").replace("Sun","So")
 
-# Skip-Verlauf je Reel aus den Morgen-Schnappschüssen (frühe Werte steigen mit der Reichweite – Alter mit anzeigen)
-skip_verlauf = {}
-for f in sorted(OUT.glob("basis_*.json")):
+# Skip- und Reichweiten-Verlauf je Beitrag aus den Morgen-Schnappschüssen (frühe Werte steigen mit der Reichweite –
+# Alter mit anzeigen). Skip nur aus berichte/basis_*.json (wie bisher); Reichweite zusätzlich aus
+# statistik/insights_*.json für Tage ohne Bericht. Zeitpunkt jeweils 09:00 deutscher Zeit (Abruf ~08:45).
+skip_verlauf, reach_verlauf = {}, {}
+_snaps = {f.stem.split("_")[1]: f for f in sorted(ST.glob("insights_*.json"))}
+_snaps.update({f.stem.split("_")[1]: f for f in sorted(OUT.glob("basis_*.json"))})  # Bericht-Stand hat Vorrang
+for _tag_s, f in sorted(_snaps.items()):
+    if _tag_s > tag: continue
     try: snap = json.loads(f.read_text())
     except (OSError, ValueError): continue
-    snap_t = datetime.strptime(snap["abgerufen"], "%Y-%m-%d").replace(hour=7, tzinfo=timezone.utc)
+    snap_t = um_9_uhr(snap.get("abgerufen", _tag_s))
     for sb in snap.get("beitraege", []):
-        if sb.get("reels_skip_rate") is None: continue
         h = (snap_t - _utc(sb["timestamp"])).total_seconds() / 3600
-        if h > 0: skip_verlauf.setdefault(sb["id"], []).append((round(h), sb["reels_skip_rate"]))
+        if h <= 0: continue
+        if sb.get("reach") is not None: reach_verlauf.setdefault(sb["id"], {})[round(h, 1)] = sb["reach"]
+        if sb.get("reels_skip_rate") is not None and f.parent == OUT:
+            skip_verlauf.setdefault(sb["id"], []).append((round(h), sb["reels_skip_rate"]))
+
+def reichweite_24h(b):
+    """Erreichte Konten nach 24 h: linear zwischen dem letzten Stand vor und dem ersten nach 24 h (Morgen-Stände,
+    z. B. 15 h und 39 h bei einem 17:45-Reel). Fehlt einer der beiden, der Stand am nächsten an 24 h (±6 h).
+    None, solange der Beitrag jünger als 24 h ist."""
+    if alter_h(b["timestamp"]) < 24: return None
+    pkt = dict(reach_verlauf.get(b["id"], {}))
+    if b.get("reach") is not None: pkt[round(alter_h(b["timestamp"]), 1)] = b["reach"]
+    pkt = sorted(pkt.items())
+    vor = [x for x in pkt if x[0] <= 24]; nach = [x for x in pkt if x[0] >= 24]
+    if vor and nach:
+        (h1, r1), (h2, r2) = vor[-1], nach[0]
+        if h2 - h1 <= 36:
+            return r1 if h2 == h1 else round(r1 + (r2 - r1) * (24 - h1) / (h2 - h1))
+    nah = [x for x in pkt if abs(x[0] - 24) <= 6]
+    return min(nah, key=lambda x: abs(x[0] - 24))[1] if nah else None
 
 zeilen = []
 for b in bt:
@@ -164,7 +207,7 @@ for b in bt:
         views=b.get("views"), reach=b.get("reach"), likes=b.get("likes"), comments=b.get("comments"),
         saved=b.get("saved"), shares=b.get("shares"), profil=b.get("profile_visits"), follows=b.get("follows"),
         sehdauer=(b.get("ig_reels_avg_watch_time") or 0) / 1000 or None, skip=b.get("reels_skip_rate"),
-        alter_h=round(alter_h(b["timestamp"]), 1), laenge=laenge_s(b) if typ == "Reel" else None,
+        alter_h=round(alter_h(b["timestamp"]), 1), laenge=laenge_s(b) if typ == "Reel" else None, reach_24h=reichweite_24h(b),
         stimme=(plan_eintrag(b) or {}).get("stimme"), hook=(plan_eintrag(b) or {}).get("hook"),
         teilen_ueber=bool(b.get("shares") and b.get("reach") and b["shares"] > b["reach"]),
         skip_verlauf=sorted(set(skip_verlauf.get(b["id"], [])))[-3:],
@@ -188,8 +231,11 @@ def gruppen_tabelle():
         n = len(l); r = summe(l, "reach")
         skips = [z["skip"] for z in l if z["skip"] is not None]
         prof = summe(l, "profil")
+        r24 = [z["reach_24h"] for z in l if z["reach_24h"] is not None]
+        seh = [z["sehdauer"] for z in l if z["sehdauer"]]
         zeile = dict(format=typ, slot=slot, stimme=st_, hook=hk, n=n,
-            reichweite=r / n if n else None,
+            reichweite=r / n if n else None, reichweite_24h=sum(r24) / len(r24) if r24 else None,
+            sehdauer=sum(seh) / len(seh) if seh else None,
             speichern=quote(summe(l, "saved"), r),
             teilen=quote(summe([z for z in l if not z["teilen_ueber"]], "shares"), summe([z for z in l if not z["teilen_ueber"]], "reach")),
             skip=sum(skips) / len(skips) if skips else None,
@@ -241,12 +287,14 @@ s_reach = max((s.get("reach") or 0 for s in storys), default=None)
 s_repl = sum(s.get("replies") or 0 for s in storys) if storys else None
 profil = sum(z["profil"] or 0 for z in zeilen); follows = sum(z["follows"] or 0 for z in zeilen)
 # Aktive Zeiten: Instagram liefert sie nicht bei jedem Abruf – dann den letzten Abruf mit Werten nehmen
-on = {}
+on, on_tag = {}, None
 for f in [None] + sorted(OUT.glob("basis_*.json"), reverse=True):
     online = d.get("online_follower", {}) if f is None else json.loads(f.read_text()).get("online_follower", {})
-    on = next((online[t] for t in sorted(online, reverse=True) if online[t]), {})
+    on_tag = next((t for t in sorted(online, reverse=True) if online[t]), None)
+    on = online[on_tag] if on_tag else {}
     if on: break
-on_cest = {(int(h) + 9) % 24: n for h, n in on.items()}
+# Stunden kommen in Pacific Time; Umrechnung je Datum (vorher fest +9 h – vom 25.10. bis 31.10. falsch)
+on_cest = {pt_stunde_nach_berlin(on_tag, h): n for h, n in on.items()} if on else {}
 on_abend = quote(on_cest.get(18), max(on_cest.values())) if on_cest else None  # gepostet wird 17:45, kurz vor der Welle
 
 methoden = [
@@ -258,6 +306,9 @@ methoden = [
     check("Ø Sehdauer ÷ Länge", f"Anteil gesehen, Reels ab {REIF_H} h", {"Reel"},
           lambda l: sum(z["anteil"] for z in l) / len(l), lambda w: pct(w), "≥ 40 %",
           lambda w: st(w, .40, .25), braucht="anteil"),
+    check("Ø Sehdauer in Sekunden", f"Mittel der Ø Sehdauer, Reels ab {REIF_H} h (kurze Reels heben nur den %-Wert)", {"Reel"},
+          lambda l: sum(z["sehdauer"] for z in l) / len(l), lambda w: f"{w:.1f} s".replace(".", ","), f"≥ {SEH_ZIEL_S} s",
+          lambda w: st(w, SEH_ZIEL_S, 4.5), braucht="sehdauer"),
     check("„Wer schickt das an wen?“", f"Geteilt ÷ Erreicht, Karussells + Reels ab {REIF_H} h, ohne Geteilt > Erreicht", {"Karussell", "Reel"},
           lambda l: quote(summe([z for z in l if not z["teilen_ueber"]], "shares"), summe([z for z in l if not z["teilen_ueber"]], "reach")),
           lambda w: pct(w, 1), "≥ 3 %", lambda w: st(w, .03, .015)),
@@ -270,7 +321,11 @@ methoden = [
     check("Profil verwandelt Besucher", f"Follows ÷ Profilbesuche, Karussells ab {REIF_H} h (für Reels liefert die API nichts)", {"Karussell", "Bild"},
           lambda l: quote(summe(l, "follows"), summe(l, "profil")),
           lambda w: f"{pct(w)}", "≥ 10 %", lambda w: st(w, .10, .05), braucht="profil"),
-    ("TOOL-Aufruf / Bio-Link", "Link-Klicks in der Bio (30 Tage)", str(links), "≥ 1 pro Woche", "✅" if links else "❌", None),
+    ("TOOL-Aufruf / Kontakt-Buttons", "Taps auf Kontakt-Buttons, kein Website-Link (30 Tage) – echtes Ziel: Demos/Woche (Wochenbericht)",
+     str(links), "≥ 1 pro Woche", "✅" if links else "⚠️", None),
+    ("Website-Link in der Bio", "Website-Klicks (30 Tage, API-Metrik website_clicks)",
+     "–" if website_klicks is None else zahl(website_klicks), "≥ 4 (≈ 1 pro Woche)",
+     "⏳" if website_klicks is None else st(website_klicks, 4, 1), None),
     ("Posten um 17:45", "Follower online 18–19 Uhr ÷ Spitzenstunde", pct(on_abend) if on_abend else "–", "≥ 85 %", st(on_abend, .85, .7), None),
 ]
 # Profil-Zeile: absolute Zahlen mit anzeigen (z. B. „0 / 7“), weil die Quote bei kleinen Zahlen wenig sagt
@@ -329,18 +384,31 @@ def reel_zelle(z):
         seh += f' / {z["laenge"]:.0f} s'
     teile.append(seh)
     zelle = " · ".join(teile)
-    if z["anteil"] is not None:
-        zelle += f'<br><span class="m">= {pct(z["anteil"])} gesehen</span>'
+    # Ø Sehdauer in Sekunden mit Ziel neben „gesehen %“ – kurze Reels heben nur den Prozentwert
+    seh_st = "" if not z["sehdauer"] else (" ✅" if z["sehdauer"] >= SEH_ZIEL_S else " ⚠️")
+    if z["anteil"] is not None or z["sehdauer"]:
+        zelle += ('<br><span class="m">' + (f'{pct(z["anteil"])} gesehen · ' if z["anteil"] is not None else "")
+                  + (f'Ø {komma(z["sehdauer"])} s{seh_st} (Ziel ≥ {SEH_ZIEL_S} s)' if z["sehdauer"] else "") + "</span>")
     if z["skip_verlauf"]:  # frühere Skip-Werte mit Alter, damit die Drift sichtbar ist
         zelle += '<br><span class="m">Skip: ' + " → ".join(f"{w:.0f} % ({h} h)" for h, w in z["skip_verlauf"]) + "</span>"
     return zelle
 
+def zusatz_24h(z):
+    """Erreichte nach 24 h (aus den Tagesständen) unter der aktuellen Reichweite."""
+    return "" if z["reach_24h"] is None else f'<br><span class="m" style="white-space:nowrap">24 h: {zahl(z["reach_24h"])}</span>'
+
+def zusatz_follows(z):
+    """Follows aus dem Beitrag (nur Karussell/Bild – für Reels liefert die API keine) unter den Profilbesuchen."""
+    return "" if z["typ"] == "Reel" or z["follows"] is None else f'<br><span class="m">+{zahl(z["follows"])} Follows</span>'
+
 reihen = "".join(
     f'<tr><td><b>{html.escape(z["name"])}</b><br><span class="m">{z["typ"]} · {z["zeit"]} · {int(z["alter_h"])} h</span></td>'
-    f'<td>{zahl(z["views"])}{delta(z["views"], z["v_views"])}</td><td>{zahl(z["reach"])}{delta(z["reach"], z["v_reach"])}</td>'
+    f'<td>{zahl(z["views"])}{delta(z["views"], z["v_views"])}</td><td>{zahl(z["reach"])}{delta(z["reach"], z["v_reach"])}'
+    f'{zusatz_24h(z)}</td>'
     f'<td>{zahl(z["likes"])}</td><td>{zahl(z["comments"])}{delta(z["comments"], z["v_comments"])}</td>'
     f'<td>{zahl(z["saved"])}{delta(z["saved"], z["v_saved"])}</td><td>{zahl(z["shares"])}{delta(z["shares"], z["v_shares"])}{" ⚠️" if z["teilen_ueber"] else ""}</td>'
-    f'<td>{"n. v." if z["typ"] == "Reel" else zahl(z["profil"])}</td>'
+    f'<td>{"n. v." if z["typ"] == "Reel" else zahl(z["profil"])}'
+    f'{zusatz_follows(z)}</td>'
     f'<td>{reel_zelle(z)}</td></tr>'
     for z in zeilen)
 s_reihen = "".join(
@@ -353,10 +421,11 @@ m_reihen = "".join(
 def _p(x, n=0): return "–" if x is None else pct(x, n)
 t_reihen = "".join(
     f'<tr><td><b>{t["format"]}</b></td><td>{t["slot"]}</td><td>{t["stimme"]}</td><td>{t["hook"]}</td><td>{t["n"]}</td>'
-    f'<td>{zahl(t["reichweite"])}</td><td>{_p(t["speichern"],1)}</td><td>{_p(t["teilen"],1)}</td>'
-    f'<td>{"–" if t["skip"] is None else f"{t[chr(115)+chr(107)+chr(105)+chr(112)]:.0f} %"}</td><td>{_p(t["follows_profil"])}</td>'
+    f'<td>{zahl(t["reichweite"])}</td><td>{zahl(t["reichweite_24h"])}</td><td>{_p(t["speichern"],1)}</td><td>{_p(t["teilen"],1)}</td>'
+    f'<td>{"–" if t["skip"] is None else f"{t[chr(115)+chr(107)+chr(105)+chr(112)]:.0f} %"}</td>'
+    f'<td>{"–" if not t["sehdauer"] else komma(t["sehdauer"]) + " s"}</td><td>{_p(t["follows_profil"])}</td>'
     f'<td class="{"m" if t["urteil"] == "zu wenig Daten" else "w"}">{t["urteil"]}</td></tr>'
-    for t in testmonat) or '<tr><td colspan="11" class="m">noch keine Beiträge ab 48 h</td></tr>'
+    for t in testmonat) or '<tr><td colspan="13" class="m">noch keine Beiträge ab 48 h</td></tr>'
 n_reihen = "".join(
     f'<tr><td class="w">{_zeit(e)[8:10]}.{_zeit(e)[5:7]}. {_zeit(e)[11:]}</td><td>{html.escape(e["typ"])}</td><td><b>{html.escape(e["id"])}</b></td>'
     f'<td class="warn">{STATUS_TXT.get(e["status"], e["status"])} – nicht erschienen</td></tr>'
@@ -392,20 +461,25 @@ td .d{{font-size:13px;margin-left:5px}}
 {kachel("Follower", zahl(fol), delta(fol, fol_v), f"du folgst {k['follows_count']}")}
 {kachel("Reichweite gestern", zahl(r_gestern), delta(r_gestern, r_vortag), "erreichte Konten")}
 {kachel("Nicht-Follower (30 T.)", pct(nf_quote) if nf_quote is not None else "–", "", f"{nf} von {nf+ff} Konten")}
-{kachel("Bio-Link-Klicks", str(links), "", f"30 Tage · {m30.get('replies',0)} Story-Antworten")}
+{kachel("Follows / Entfolgt", "–" if neu_follows is None else f"+{zahl(neu_follows)} / −{zahl(entfolgt)}", "", "30 Tage · netto " + ("–" if neu_follows is None else f"{(neu_follows or 0) - (entfolgt or 0):+d}"))}
+{kachel("Profilaufrufe (30 T.)", zahl(profil_aufrufe), "", "API: profile_views" if profil_aufrufe is not None else "liefert die API (noch) nicht")}
+{kachel("Website-Klicks (30 T.)", zahl(website_klicks), "", "Link in der Bio" if website_klicks is not None else "liefert die API (noch) nicht")}
+{kachel("Kontakt-Buttons (30 T.)", str(links), "", "kein Website-Link")}
+{kachel("Story-Antworten (30 T.)", zahl(m30.get("replies")), "", "Antworten auf Storys")}
 </div>
 <h2>Reichweite pro Tag</h2>{balken()}
+<div class="leg">Tage nach Pacific Time (Instagram): ein Tag läuft von 09:00 bis 09:00 deutscher Zeit, vom 25.10. bis 31.10. von 08:00 bis 08:00</div>
 <h2>Beiträge seit Neustart (Δ zum Vortag)</h2>
 <table><tr><th>Beitrag</th><th>Aufrufe</th><th>Erreicht</th><th>Likes</th><th>Komm.</th><th>Gespeich.</th><th>Geteilt</th><th>Profil</th><th>Skip · Ø Seh. / Länge</th></tr>{reihen}</table>
-<div class="leg">⚠️ bei Geteilt: mehr Weiterleitungen als erreichte Konten (Instagram zählt jedes Senden, auch mehrfach an Chats/Gruppen; Reichweite = eindeutige Konten) – fließt nicht in die Teilen-Quote ein · Profil n. v. = liefert die API für Reels nicht</div>
+<div class="leg">Erreicht · 24 h = Stand nach 24 h (aus den Morgen-Ständen) · Skip-Zelle: gesehen % und Ø Sehdauer in s (Ziel ≥ {SEH_ZIEL_S} s) · ⚠️ bei Geteilt: mehr Weiterleitungen als erreichte Konten (Instagram zählt jedes Senden, auch mehrfach an Chats/Gruppen; Reichweite = eindeutige Konten) – fließt nicht in die Teilen-Quote ein · Profil n. v. = liefert die API für Reels nicht</div>
 <h2>Storys (letzte 24 h)</h2>
 <table><tr><th>Story</th><th>Aufrufe</th><th>Erreicht</th><th>Antworten</th><th>Tipps</th><th>Profil</th></tr>{s_reihen}</table>
 <h2>Greifen unsere Methoden?</h2>
 <table><tr><th></th><th>Methode · Kennzahl</th><th>Ist</th><th>Ziel</th><th>n</th></tr>{m_reihen}</table>
 <div class="leg">✅ greift · ⚠️ knapp · ❌ greift (noch) nicht · ⏳ zu früh / keine Daten · bewertet werden nur Beiträge ab {REIF_H} h, n = Anzahl Beiträge</div>
 <h2>Testmonat: Format × Slot × Stimme</h2>
-<table class="klein"><tr><th>Format</th><th>Slot</th><th>Stimme</th><th>Hook</th><th>n</th><th>Ø Erreicht</th><th>Speich.÷Err.</th><th>Teilen÷Err.</th><th>Skip</th><th>Follows÷Profil</th><th>Urteil</th></tr>{t_reihen}</table>
-<div class="leg">nur Beiträge ab 48 h · Urteil (Ø Erreicht gegen Schnitt aller Gruppen) erst ab n ≥ {MIN_N} · Stimme/Hook ? = nicht im Plan · Nicht-Follower je Beitrag liefert die API nicht (nur fürs ganze Konto, Kachel oben) · Teilen÷Erreicht ohne Beiträge mit Geteilt &gt; Erreicht</div>
+<table class="klein"><tr><th>Format</th><th>Slot</th><th>Stimme</th><th>Hook</th><th>n</th><th>Ø Erreicht</th><th>Ø Err. 24 h</th><th>Speich.÷Err.</th><th>Teilen÷Err.</th><th>Skip</th><th>Ø Seh.</th><th>Follows÷Profil</th><th>Urteil</th></tr>{t_reihen}</table>
+<div class="leg">nur Beiträge ab 48 h · Ø Err. 24 h = Erreichte nach 24 h, aus den Morgen-Ständen dazwischen gerechnet (gleiches Alter, darum fairer für den Slot-Vergleich als „Ø Erreicht“ heute) · Ø Seh. = Ø Sehdauer in s (Ziel ≥ {SEH_ZIEL_S} s) · Urteil (Ø Erreicht gegen Schnitt aller Gruppen) erst ab n ≥ {MIN_N} · Stimme/Hook ? = nicht im Plan · Nicht-Follower je Beitrag liefert die API nicht (nur fürs ganze Konto, Kachel oben) · Teilen÷Erreicht ohne Beiträge mit Geteilt &gt; Erreicht</div>
 <h2>Soll-Ist: geplant, aber nicht erschienen (48 h)</h2>
 <table><tr><th>Geplant</th><th>Art</th><th>Beitrag</th><th>Status im Plan</th></tr>{n_reihen}</table>
 <h2>Heute geplant</h2>
@@ -417,7 +491,9 @@ html_f = OUT / f"tagesbericht_{tag}.html"; png_f = OUT / f"tagesbericht_{tag}.pn
 html_f.write_text(seite)
 (OUT / f"tagesbericht_{tag}.json").write_text(json.dumps(dict(
     tag=tag, follower=fol, follower_vortag=fol_v, reichweite_gestern=r_gestern, reichweite_vortag=r_vortag,
-    nicht_follower_quote=nf_quote, link_klicks=links, beitraege=zeilen, storys=storys,
+    nicht_follower_quote=nf_quote, link_klicks=links, kontakt_button_taps=links, website_klicks=website_klicks,
+    profil_aufrufe=profil_aufrufe, follows_30t=neu_follows, entfolgt_30t=entfolgt, sehdauer_ziel_s=SEH_ZIEL_S,
+    beitraege=zeilen, storys=storys,
     methoden=[dict(methode=a, kennzahl=b, ist=c, ziel=z, status=s, n=n) for a, b, c, z, s, n in methoden],
     heute_online=[f'{_zeit(e)[11:]} {e["typ"]} {e["id"]} – {STATUS_TXT.get(e["status"], e["status"])}' for e in heute_online],
     fehler=fehler, reif_ab_h=REIF_H, testmonat=testmonat,

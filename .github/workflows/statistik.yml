@@ -2,6 +2,9 @@ name: Instagram-Statistik
 # Täglich ca. 08:45 die Zahlen abholen und in automatik/statistik/ speichern. Manuell startbar.
 # Hauptauslöser ist lage.yml (08:40–10:00 Uhr deutscher Zeit, läuft durch den 15-Min.-Takt zuverlässig);
 # der Zeitplan hier ist nur die Reserve, falls GitHub ihn überhaupt ausführt (UTC, im Winter eine Stunde früher).
+# GitHub startet ihn oft 6–9 h zu spät – deshalb holt er nur ab, wenn es heute noch keine insights_<heute>.json gibt
+# (sonst gingen u. a. die Online-Follower des Morgenlaufs verloren). insights_voll.py selbst ergänzt bei einem
+# zweiten Lauf nur und überschreibt den Morgenstand nicht (Handstart: ERZWINGEN=1 nur lokal).
 on:
   schedule:
     - cron: "47 6 * * *"
@@ -23,6 +26,16 @@ jobs:
       - uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - run: pip install -q requests
+      - name: Reserve-Lauf nur, wenn der Morgenlauf fehlt
+        id: sperre
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          heute=$(TZ=Europe/Berlin date +%F)
+          git fetch -q origin claude/instagram || true
+          if git cat-file -e "origin/claude/instagram:automatik/statistik/insights_$heute.json" 2>/dev/null \
+             || [ -f "automatik/statistik/insights_$heute.json" ]; then
+            echo "Statistik für $heute ist schon da – Reserve-Lauf entfällt."; echo "aus=1" >> "$GITHUB_OUTPUT"
+          fi
       - name: Schnellabruf (nur Protokoll)
         if: ${{ inputs.beitrag != '' && inputs.beitrag != null }}
         env:
@@ -32,7 +45,7 @@ jobs:
           BEITRAG: ${{ inputs.beitrag }}
         run: python automatik/beitrag_jetzt.py $BEITRAG
       - name: Abholen
-        if: ${{ inputs.beitrag == '' || inputs.beitrag == null }}
+        if: ${{ (inputs.beitrag == '' || inputs.beitrag == null) && steps.sperre.outputs.aus != '1' }}
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -40,7 +53,7 @@ jobs:
           python automatik/statistik.py
           python automatik/insights_voll.py
       - name: Speichern
-        if: ${{ inputs.beitrag == '' || inputs.beitrag == null }}
+        if: ${{ (inputs.beitrag == '' || inputs.beitrag == null) && steps.sperre.outputs.aus != '1' }}
         run: |
           git config user.name "Loris M." && git config user.email "mkwloris@googlemail.com"
           git add automatik/statistik && git diff --cached --quiet && exit 0
