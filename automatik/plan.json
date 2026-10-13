@@ -430,10 +430,13 @@
         "folie_07.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
+      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · ",
+      "media_id": "18103996271188698",
+      "link": "https://www.instagram.com/p/Debkp_3m1WY/",
+      "veroeffentlicht_am": "2026-10-13 12:16"
     },
     {
       "id": "03-story-teaser",
