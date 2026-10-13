@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 19:35 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 13.10. 23:00 Uhr._
 
 **Als Nächstes online:** 📱 Story `09-story-quiz` am **Mi 14.10. 12:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -133,6 +133,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 13.10.2026**
+- 23:00 ✍️ Konflikte Testmonat entschieden: Ampel mittags, Steuersatz KW 44, Notlösung ohne Stimme ([`c3eca9c`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/c3eca9cf94b92f497e19a71aafa60a91a82a18c2))
+  - Plan: `01-reel-ampel` zeit: 2026-10-17 19:30 → 2026-10-17 12:15; `01-story-teaser` zeit: 2026-10-17 19:35 → 2026-10-17 12:45; `22-reel-steuersatz` zeit: 2026-10-18 19:30 → 2026-10-26 19:30
 - 19:35 🤖 Autopilot: 23-story-biolink veroeffentlicht ([`204f1d7`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/204f1d70261c50bc2559a49982e0fef940b4383d))
   - Plan: `23-story-biolink` status: freigegeben → veroeffentlicht; `23-story-biolink` online: https://www.instagram.com/stories/maehrsteuern/4007178310619152901
 - 19:31 🤖 Autopilot: Dateien fuer 23-story-biolink vorbereitet ([`2b08c21`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/2b08c218c4d03a69acf66d9f578689214574d60d))
