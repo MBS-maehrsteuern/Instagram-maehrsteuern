@@ -1,0 +1,1324 @@
+{
+ "abgerufen": "2026-10-13",
+ "konto": {
+  "username": "maehrsteuern",
+  "name": "Loris | Steuer-Tools x Code",
+  "biography": "🧠 Steuern × Code – Steuerwissen, das rechnet\n⚙️ KI-Lösungen, die wirklich laufen\n🎓 Diplom-Finanzwirt · KI-Manager (IHK)\n💬 DM mir „TOOL“ → gratis Demo",
+  "website": "https://app.reclaim.ai/m/maehrsteuern/demo",
+  "followers_count": 362,
+  "follows_count": 292,
+  "media_count": 11
+ },
+ "konto_verlauf": [
+  {
+   "von": "2026-09-13",
+   "bis": "2026-10-13",
+   "reach": {
+    "gesamt": 1739,
+    "aufgeteilt": {
+     "FOLLOWER": 155,
+     "NON_FOLLOWER": 1582
+    }
+   },
+   "views": {
+    "gesamt": 6131,
+    "aufgeteilt": {
+     "UNKNOWN": 1,
+     "NON_FOLLOWER": 3144,
+     "FOLLOWER": 2986
+    }
+   },
+   "accounts_engaged": 43,
+   "total_interactions": 704,
+   "likes": 238,
+   "comments": 24,
+   "shares": 178,
+   "saves": 63,
+   "replies": 5,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 19,
+     "NON_FOLLOWER": 11
+    }
+   }
+  },
+  {
+   "von": "2026-08-14",
+   "bis": "2026-09-13",
+   "reach": {
+    "gesamt": 33,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 32
+    }
+   },
+   "views": {
+    "gesamt": 107,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "UNKNOWN": 4,
+     "NON_FOLLOWER": 102
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": -1,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": -1,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 8
+    }
+   }
+  },
+  {
+   "von": "2026-07-15",
+   "bis": "2026-08-14",
+   "reach": {
+    "gesamt": 63,
+    "aufgeteilt": {
+     "NON_FOLLOWER": 59,
+     "FOLLOWER": 4
+    }
+   },
+   "views": {
+    "gesamt": 194,
+    "aufgeteilt": {
+     "UNKNOWN": 12,
+     "FOLLOWER": 14,
+     "NON_FOLLOWER": 168
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 10
+    }
+   }
+  },
+  {
+   "von": "2026-06-15",
+   "bis": "2026-07-15",
+   "reach": {
+    "gesamt": 60,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 59
+    }
+   },
+   "views": {
+    "gesamt": 258,
+    "aufgeteilt": {
+     "UNKNOWN": 4,
+     "FOLLOWER": 9,
+     "NON_FOLLOWER": 245
+    }
+   },
+   "accounts_engaged": 2,
+   "total_interactions": 3,
+   "likes": 2,
+   "comments": 1,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 4,
+     "NON_FOLLOWER": 8
+    }
+   }
+  },
+  {
+   "von": "2026-05-16",
+   "bis": "2026-06-15",
+   "reach": {
+    "gesamt": 52,
+    "aufgeteilt": {
+     "FOLLOWER": 4,
+     "NON_FOLLOWER": 48
+    }
+   },
+   "views": {
+    "gesamt": 185,
+    "aufgeteilt": {
+     "NON_FOLLOWER": 161,
+     "UNKNOWN": 3,
+     "FOLLOWER": 21
+    }
+   },
+   "accounts_engaged": 6,
+   "total_interactions": 9,
+   "likes": 8,
+   "comments": 1,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 9,
+     "NON_FOLLOWER": 8
+    }
+   }
+  },
+  {
+   "von": "2026-04-16",
+   "bis": "2026-05-16",
+   "reach": {
+    "gesamt": 59,
+    "aufgeteilt": {
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 57
+    }
+   },
+   "views": {
+    "gesamt": 125,
+    "aufgeteilt": {
+     "FOLLOWER": 26,
+     "UNKNOWN": 15,
+     "NON_FOLLOWER": 84
+    }
+   },
+   "accounts_engaged": 2,
+   "total_interactions": 5,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 7,
+     "NON_FOLLOWER": 6
+    }
+   }
+  },
+  {
+   "von": "2026-03-17",
+   "bis": "2026-04-16",
+   "reach": {
+    "gesamt": 53,
+    "aufgeteilt": {
+     "NON_FOLLOWER": 53
+    }
+   },
+   "views": {
+    "gesamt": 111,
+    "aufgeteilt": {
+     "UNKNOWN": 3,
+     "NON_FOLLOWER": 108
+    }
+   },
+   "accounts_engaged": 1,
+   "total_interactions": 3,
+   "likes": 1,
+   "comments": 0,
+   "shares": 1,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 13
+    }
+   }
+  },
+  {
+   "von": "2026-02-15",
+   "bis": "2026-03-17",
+   "reach": {
+    "gesamt": 38,
+    "aufgeteilt": {
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 36
+    }
+   },
+   "views": {
+    "gesamt": 92,
+    "aufgeteilt": {
+     "FOLLOWER": 4,
+     "NON_FOLLOWER": 88
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 8,
+   "likes": 6,
+   "comments": 0,
+   "shares": 1,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 13
+    }
+   }
+  },
+  {
+   "von": "2026-01-16",
+   "bis": "2026-02-15",
+   "reach": {
+    "gesamt": 74,
+    "aufgeteilt": {
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 72
+    }
+   },
+   "views": {
+    "gesamt": 266,
+    "aufgeteilt": {
+     "UNKNOWN": 1,
+     "FOLLOWER": 11,
+     "NON_FOLLOWER": 254
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 5,
+   "likes": 8,
+   "comments": 0,
+   "shares": 0,
+   "saves": -3,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 8,
+     "NON_FOLLOWER": 16
+    }
+   }
+  },
+  {
+   "von": "2025-12-17",
+   "bis": "2026-01-16",
+   "reach": {
+    "gesamt": 123,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 117
+    }
+   },
+   "views": {
+    "gesamt": 482,
+    "aufgeteilt": {
+     "FOLLOWER": 27,
+     "UNKNOWN": 4,
+     "NON_FOLLOWER": 451
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 9,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 13,
+     "NON_FOLLOWER": 18
+    }
+   }
+  },
+  {
+   "von": "2025-11-17",
+   "bis": "2025-12-17",
+   "reach": {
+    "gesamt": 91,
+    "aufgeteilt": {
+     "FOLLOWER": 5,
+     "NON_FOLLOWER": 87
+    }
+   },
+   "views": {
+    "gesamt": 240,
+    "aufgeteilt": {
+     "UNKNOWN": 7,
+     "NON_FOLLOWER": 221,
+     "FOLLOWER": 12
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 8,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 9,
+     "NON_FOLLOWER": 14
+    }
+   }
+  },
+  {
+   "von": "2025-10-18",
+   "bis": "2025-11-17",
+   "reach": {
+    "gesamt": 72,
+    "aufgeteilt": {
+     "NON_FOLLOWER": 66,
+     "FOLLOWER": 6
+    }
+   },
+   "views": {
+    "gesamt": 184,
+    "aufgeteilt": {
+     "UNKNOWN": 6,
+     "NON_FOLLOWER": 163,
+     "FOLLOWER": 15
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 2,
+   "likes": 4,
+   "comments": 0,
+   "shares": 0,
+   "saves": -2,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 27,
+     "NON_FOLLOWER": 24
+    }
+   }
+  },
+  {
+   "von": "2025-09-18",
+   "bis": "2025-10-18",
+   "reach": {
+    "gesamt": 198,
+    "aufgeteilt": {
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 16
+    }
+   },
+   "views": {
+    "gesamt": 487,
+    "aufgeteilt": {
+     "UNKNOWN": 17,
+     "FOLLOWER": 75,
+     "NON_FOLLOWER": 395
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 11,
+   "likes": 10,
+   "comments": 0,
+   "shares": 0,
+   "saves": 1,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 5
+    }
+   }
+  },
+  {
+   "von": "2025-08-19",
+   "bis": "2025-09-18",
+   "reach": {
+    "gesamt": 385,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 749,
+    "aufgeteilt": {
+     "UNKNOWN": 24,
+     "NON_FOLLOWER": 674,
+     "FOLLOWER": 51
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 23,
+   "likes": 16,
+   "comments": 2,
+   "shares": 2,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   }
+  },
+  {
+   "von": "2025-07-20",
+   "bis": "2025-08-19",
+   "reach": {
+    "gesamt": 3477,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   }
+  },
+  {
+   "von": "2025-06-20",
+   "bis": "2025-07-20",
+   "reach": {
+    "gesamt": 5574,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 2,
+    "aufgeteilt": {
+     "EMAIL": 2
+    }
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   }
+  },
+  {
+   "von": "2025-05-21",
+   "bis": "2025-06-20",
+   "reach": {
+    "gesamt": 2158,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   }
+  },
+  {
+   "von": "2025-05-01",
+   "bis": "2025-05-21",
+   "reach": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   }
+  }
+ ],
+ "tageswerte_reichweite": {
+  "2026-09-14": 2,
+  "2026-09-15": 0,
+  "2026-09-16": 4,
+  "2026-09-17": 1,
+  "2026-09-18": 1,
+  "2026-09-19": 0,
+  "2026-09-20": 4,
+  "2026-09-21": 4,
+  "2026-09-22": 3,
+  "2026-09-23": 1,
+  "2026-09-24": 3,
+  "2026-09-25": 1,
+  "2026-09-26": 3,
+  "2026-09-27": 1,
+  "2026-09-28": 1,
+  "2026-09-29": 126,
+  "2026-09-30": 82,
+  "2026-10-01": 68,
+  "2026-10-02": 79,
+  "2026-10-03": 63,
+  "2026-10-04": 428,
+  "2026-10-05": 262,
+  "2026-10-06": 220,
+  "2026-10-07": 136,
+  "2026-10-08": 216,
+  "2026-10-09": 66,
+  "2026-10-10": 363,
+  "2026-10-11": 243,
+  "2026-10-12": 195
+ },
+ "zielgruppe": {
+  "follower_demographics": {
+   "this_month": {
+    "age": {
+     "13-17": 5,
+     "18-24": 22,
+     "25-34": 122,
+     "35-44": 97,
+     "45-54": 68,
+     "55-64": 24,
+     "65+": 14
+    },
+    "gender": {
+     "F": 152,
+     "M": 108,
+     "U": 92
+    },
+    "city": {
+     "Wölfis, Thüringen": 2,
+     "Jena, Thüringen": 2,
+     "Heidenheim, Baden-Württemberg": 2,
+     "Heidelberg, Baden-Württemberg": 2,
+     "Markt Sankt Florian, Upper Austria": 1,
+     "Munich, Bayern": 8,
+     "Aachen, Nordrhein-Westfalen": 1,
+     "Gotha, Thüringen": 3,
+     "Berlin, Berlin": 17,
+     "Hürth, Nordrhein-Westfalen": 2,
+     "Erfurt, Thüringen": 8,
+     "Suhl, Thüringen": 2,
+     "Hamburg, Hamburg": 8,
+     "Erfurt-Bindersleben, Thüringen": 2,
+     "Düsseldorf, Nordrhein-Westfalen": 2,
+     "Ludwigshafen, Rheinland-Pfalz": 2,
+     "Oberhausen, Nordrhein-Westfalen": 2,
+     "Dortmund, Nordrhein-Westfalen": 2,
+     "Dresden, Sachsen": 2,
+     "Ohrdruf, Thüringen": 5,
+     "Essen, Nordrhein-Westfalen": 6,
+     "Plaue, Thüringen": 2,
+     "Cologne, Nordrhein-Westfalen": 8,
+     "Nuremberg, Bayern": 2,
+     "Shanghai, Shanghai": 3,
+     "Ravensburg, Baden-Württemberg": 2,
+     "Haigerloch, Baden-Württemberg": 1,
+     "Wien, Vienna": 5,
+     "Wernberg-Köblitz, Bayern": 2,
+     "Kokrobite, Greater Accra Region": 1,
+     "Brazzaville, Brazzaville": 1,
+     "Hanover, Niedersachsen": 2,
+     "Schmalkalden, Thüringen": 1,
+     "Leipzig, Sachsen": 3,
+     "Filderstadt, Baden-Württemberg": 2,
+     "Arnstadt, Thüringen": 4,
+     "Frankfurt, Hessen": 3,
+     "Oberasbach, Bayern": 1,
+     "Viersen, Nordrhein-Westfalen": 3,
+     "Flensburg, Schleswig-Holstein": 2,
+     "Niederense, Nordrhein-Westfalen": 1,
+     "Stuttgart, Baden-Württemberg": 2,
+     "Zweibrücken, Rheinland-Pfalz": 1,
+     "Neuss, Nordrhein-Westfalen": 2,
+     "Gera, Thüringen": 2
+    },
+    "country": {
+     "DE": 272,
+     "LR": 1,
+     "BJ": 1,
+     "FR": 2,
+     "BR": 1,
+     "SD": 1,
+     "GB": 3,
+     "ID": 3,
+     "GD": 1,
+     "GE": 1,
+     "CA": 1,
+     "US": 9,
+     "GH": 1,
+     "CG": 1,
+     "CH": 2,
+     "IN": 2,
+     "GM": 1,
+     "CI": 1,
+     "KR": 1,
+     "ZA": 1,
+     "GR": 1,
+     "CN": 4,
+     "IT": 8,
+     "CO": 1,
+     "ES": 5,
+     "AR": 3,
+     "ZM": 1,
+     "XK": 1,
+     "AT": 15,
+     "CY": 1,
+     "CZ": 1,
+     "PH": 2,
+     "PK": 1,
+     "PL": 1,
+     "RO": 1
+    }
+   }
+  },
+  "reached_audience_demographics": {
+   "this_month": {
+    "age": {
+     "13-17": 1,
+     "18-24": 19,
+     "25-34": 88,
+     "35-44": 33,
+     "45-54": 16,
+     "55-64": 2
+    },
+    "gender": {
+     "F": 57,
+     "M": 70,
+     "U": 32
+    },
+    "city": {
+     "Wölfis, Thüringen": 1,
+     "Herrieden, Bayern": 1,
+     "Jena, Thüringen": 2,
+     "Halle, Saxony-Anhalt": 1,
+     "Hesel, Niedersachsen": 1,
+     "Ahrensfelde, Brandenburg": 1,
+     "Gotha, Thüringen": 3,
+     "Berlin, Berlin": 5,
+     "Hürth, Nordrhein-Westfalen": 2,
+     "Erfurt, Thüringen": 8,
+     "Hamburg, Hamburg": 5,
+     "Oberwil, Basel-Landschaft": 1,
+     "Düsseldorf, Nordrhein-Westfalen": 2,
+     "Seoul, Seoul": 1,
+     "Dresden, Sachsen": 2,
+     "Luisenthal, Thüringen": 1,
+     "Ohrdruf, Thüringen": 5,
+     "Waldsee, Rheinland-Pfalz": 1,
+     "Neukirchen-Vluyn, Nordrhein-Westfalen": 1,
+     "Pöttmes, Bayern": 1,
+     "Plaue, Thüringen": 2,
+     "Marktbreit, Bayern": 1,
+     "Ravensburg, Baden-Württemberg": 1,
+     "Pößneck, Thüringen": 1,
+     "Weimar, Thüringen": 1,
+     "Wernberg-Köblitz, Bayern": 1,
+     "Recklinghausen, Nordrhein-Westfalen": 1,
+     "Amman, Amman Governorate": 1,
+     "Schmölln, Thüringen": 1,
+     "Chennai, Tamil Nadu": 2,
+     "Simmerath, Nordrhein-Westfalen": 1,
+     "Groningen, Groningen": 1,
+     "Gossel, Thüringen": 2,
+     "Hardheim, Baden-Württemberg": 1,
+     "Frankfurt, Hessen": 2,
+     "Crawinkel, Thüringen": 1,
+     "Grenville, Saint Andrew Parish": 1,
+     "Liebenstein, Thüringen": 2,
+     "Fulda, Hessen": 1,
+     "Maxhütte-Haidhof, Bayern": 1,
+     "Wolfsburg-Unkeroda, Thüringen": 1,
+     "Flensburg, Schleswig-Holstein": 2,
+     "Kempen, Nordrhein-Westfalen": 1,
+     "Semnan, Semnan Province": 1,
+     "Neuss, Nordrhein-Westfalen": 1
+    },
+    "country": {
+     "DE": 131,
+     "CH": 1,
+     "UZ": 1,
+     "JO": 1,
+     "IN": 8,
+     "SY": 1,
+     "KR": 6,
+     "IR": 2,
+     "MX": 1,
+     "FR": 1,
+     "PK": 1,
+     "GB": 1,
+     "GD": 1,
+     "NL": 1,
+     "TR": 2
+    }
+   },
+   "this_week": {
+    "age": {
+     "13-17": 1,
+     "18-24": 19,
+     "25-34": 87,
+     "35-44": 33,
+     "45-54": 16,
+     "55-64": 1
+    },
+    "gender": {
+     "F": 56,
+     "M": 69,
+     "U": 32
+    },
+    "city": {
+     "Wölfis, Thüringen": 1,
+     "Herrieden, Bayern": 1,
+     "Jena, Thüringen": 2,
+     "Halle, Saxony-Anhalt": 1,
+     "Hesel, Niedersachsen": 1,
+     "Ahrensfelde, Brandenburg": 1,
+     "Gotha, Thüringen": 3,
+     "Berlin, Berlin": 5,
+     "Hürth, Nordrhein-Westfalen": 2,
+     "Erfurt, Thüringen": 8,
+     "Hamburg, Hamburg": 5,
+     "Oberwil, Basel-Landschaft": 1,
+     "Düsseldorf, Nordrhein-Westfalen": 2,
+     "Seoul, Seoul": 1,
+     "Dresden, Sachsen": 2,
+     "Luisenthal, Thüringen": 1,
+     "Ohrdruf, Thüringen": 5,
+     "Waldsee, Rheinland-Pfalz": 1,
+     "Neukirchen-Vluyn, Nordrhein-Westfalen": 1,
+     "Pöttmes, Bayern": 1,
+     "Plaue, Thüringen": 2,
+     "Marktbreit, Bayern": 1,
+     "Ravensburg, Baden-Württemberg": 1,
+     "Pößneck, Thüringen": 1,
+     "Weimar, Thüringen": 1,
+     "Wernberg-Köblitz, Bayern": 1,
+     "Recklinghausen, Nordrhein-Westfalen": 1,
+     "Amman, Amman Governorate": 1,
+     "Schmölln, Thüringen": 1,
+     "Chennai, Tamil Nadu": 2,
+     "Simmerath, Nordrhein-Westfalen": 1,
+     "Groningen, Groningen": 1,
+     "Gossel, Thüringen": 2,
+     "Hardheim, Baden-Württemberg": 1,
+     "Frankfurt, Hessen": 2,
+     "Crawinkel, Thüringen": 1,
+     "Grenville, Saint Andrew Parish": 1,
+     "Liebenstein, Thüringen": 2,
+     "Fulda, Hessen": 1,
+     "Maxhütte-Haidhof, Bayern": 1,
+     "Wolfsburg-Unkeroda, Thüringen": 1,
+     "Flensburg, Schleswig-Holstein": 2,
+     "Kempen, Nordrhein-Westfalen": 1,
+     "Semnan, Semnan Province": 1,
+     "Neuss, Nordrhein-Westfalen": 1
+    },
+    "country": {
+     "DE": 129,
+     "CH": 1,
+     "UZ": 1,
+     "JO": 1,
+     "IN": 8,
+     "SY": 1,
+     "KR": 6,
+     "IR": 2,
+     "MX": 1,
+     "FR": 1,
+     "PK": 1,
+     "GB": 1,
+     "GD": 1,
+     "NL": 1,
+     "TR": 2
+    }
+   }
+  }
+ },
+ "online_follower": {
+  "2026-10-11": {
+   "0": 98,
+   "1": 97,
+   "2": 104,
+   "3": 116,
+   "4": 121,
+   "5": 107,
+   "6": 106,
+   "7": 105,
+   "8": 108,
+   "9": 122,
+   "10": 118,
+   "11": 129,
+   "12": 118,
+   "13": 105,
+   "14": 62,
+   "15": 40,
+   "16": 20,
+   "17": 16,
+   "18": 12,
+   "19": 22,
+   "20": 37,
+   "21": 55,
+   "22": 78,
+   "23": 97
+  },
+  "2026-10-12": {}
+ },
+ "beitraege": [
+  {
+   "id": "18192110539399398",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-12T17:30:23+0000",
+   "permalink": "https://www.instagram.com/reel/DeZxf9AEy9p/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOUcSyo5eenEtw2KZlV9F8hyodeaVMiVuPPpq7PiAM-5Px7yqUVk4tdJsckU1Yr9h_TxD5nyubZaxRLVLgkxgrMKzXf6vIf0tBECYU.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=LqM3D3gwsCcQ7kNvwHkCJ4H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQ1NjUwMDgyMzkwNTksImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=40210a2f5d5e273c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQ0NCQjk2OTk3NDk0Q0Q3ODM5MkY0NTAzNjBDMERDOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzYxNjQ4RUZERjZFQTQ4NUY5NUQ3NTBERDlGMDBFMDBGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamp-K9p6vpPxUCKAJDMywXQC4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKhY4pBp3aKMCp86mBogk1tZSOIhQhBewrzVrO8xeMCeQOdkwip--Dp2q0CTUtn3wQ966DEZOM_IQ&oh=00_AQPVLmP5qFi21B9dRXdgoMUqkIsWEdizntoGTvGMe8DGfw&oe=6ACFA349",
+   "like_count": 3,
+   "comments_count": 0,
+   "caption": "final.xlsx · final_final.xlsx · final_final_v3.xlsx – und keiner weiß, welche die richtige ist. 🙃\n\nSo sah mein Steuerordner früher aus.\nHeute gibt's eine Datei. Und jede Änderung wird gespeichert: wer, wann, was.\nHebesatz von 400 auf 410? Steht da – mit Datum und Name. Und wenn was schiefgeht, geh ich einfach einen Schritt zurück.\n\nNummer 3 aus meinem 5-Dinge-Reel.\nWie heißt eure schlimmste Datei? Schreib's in die Kommentare 👇\n\nAlle Zahlen und Namen im Video sind Beispieldaten.\n\n#steuern #excel #versionierung #steuerabteilung #automatisierung",
+   "views": 179,
+   "reach": 135,
+   "likes": 3,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 5270,
+   "ig_reels_video_view_total_time": 732644,
+   "reels_skip_rate": 69.1,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18132056470604183",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-11T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeXMtEnDn3I/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMCAESiLxe2_6D3utJDYLxtJXp9145JJanYhMeemM_x611tR8bJSWgkuCNPDreDi_MnfJLq1GrYQN0c1gIc9AXfv0bCYFAVEuwJCMU.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=iSmQkVduqbcQ7kNvwFD9mBv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQzOTU5NjQyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8c2b2bdcf516649b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NDk2QTIzMzMxOTM0ODFFQTQ3MzQ1MUNBODZFRDQ0QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ4M0UzRjlFNzgwQTRDMTk5RkE1Njc5QTY5NEQ0NENEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACams-yAvKHpPxUCKAJDMywXQCpU_fO2RaIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKIZT7NvTsIJrmsp7FZwqF6iJmLEiqkxW4jNs59-wPAV0A-zm29PwN_RqVxw3qpOhFebTifYO0RtQ&oh=00_AQMcZr3W-PcRbC9Y6zUwhkS5jFDm07X_XI0f0DFa5mFA6w&oe=6ACFB4EE",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬\n\nBei mir hing eine Verknüpfung noch an der Datei vom Vorjahr. Irgendwer hatte den Ordner umbenannt. Ich hab einen ganzen Abend gesucht, welche Zahl woher kommt.\n\nDas war der Moment, wo ich gesagt hab: Das muss anders gehen.\nHeute klicke ich auf eine Zahl und sehe sofort, wo sie herkommt – eine Datenquelle, keine Verknüpfungen.\n\nWie oft passiert dir das? Schreib's in die Kommentare 👇\n🔁 Schick das dem Kollegen, der nächste Woche abgibt.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #excel #steuerberechnung #jahresabschluss #automatisierung",
+   "views": 278,
+   "reach": 216,
+   "likes": 6,
+   "comments": 0,
+   "saved": 4,
+   "shares": 1,
+   "total_interactions": 12,
+   "ig_reels_avg_watch_time": 3936,
+   "ig_reels_video_view_total_time": 901559,
+   "reels_skip_rate": 77.6,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18111753380332641",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-10T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeUn6ezCm7O/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMlUDolBeM0cOSweSpuDZIGpaRxEiVdshWJeZGo4miIBeEHu5rLGofplz6C6yZKDdyrVD_j2V5QyvZInEQHtA9hrjXv07xspqMeFUY.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=G9kzUDhbVCgQ7kNvwFD17kw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQyMjEwOTEyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=2caf6af7bbc3e6bb&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NzcxRjM3RkU1NTQ0MDU5QjkwRDQ3QkMxMTYwMkMwMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Q1NkM4MjcxRTY0MzQzNDQ4OUM2RURCNDZEQTRDMUQzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam0vqMpZfpPxUCKAJDMywXQDru2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIUECiw0qzeMhkoCmma66aXa8L-My8JNWweOzpaIK3ijs5wYmWRSCn9JifCgSHy-k1fcNNe7vVsEA&oh=00_AQNz5eL4nIT36epQpbwrSsgYFsXbYvaMjKdaIB8v4LTSPA&oe=6ACFCA21",
+   "like_count": 9,
+   "comments_count": 8,
+   "caption": "Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % falsch. 📉\n\nDie Körperschaftsteuer sinkt ab 2028 jedes Jahr um einen Punkt – bis auf 10 % ab 2032. Für latente Steuern zählt der Satz im Jahr, in dem sich die Differenz abbaut (§ 274 Abs. 2 HGB). Bei Hebesatz 400 % heißt das: 24,55 % statt 29,83 %. Den Rechenweg mit Demo-Zahlen findest du im Karussell von gestern.\n\nSchick das dem Kollegen, in dessen Excel noch 30 % steht. 😉\n\nAb welchem Jahr kehren sich eure größten Differenzen um – vor oder nach 2028? 👇\n\n📌 Speichern für den Abschluss.\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #latentesteuern #jahresabschluss #steuerabteilung #hgb",
+   "views": 250,
+   "reach": 197,
+   "likes": 9,
+   "comments": 8,
+   "saved": 5,
+   "shares": 9,
+   "total_interactions": 33,
+   "ig_reels_avg_watch_time": 5734,
+   "ig_reels_video_view_total_time": 1250128,
+   "reels_skip_rate": 78.5,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18479903389113257",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-10T07:23:47+0000",
+   "permalink": "https://www.instagram.com/reel/DeTiK24NyJt/",
+   "media_url": null,
+   "like_count": 11,
+   "comments_count": 0,
+   "caption": "Jutta hat schon wieder eine Zeile eingefügt – und die Summe ist weg. #BEZUG! 😤\n\nIn Excel hängt die Summe an festen Zellen. Fügst du am Rand was ein, rechnet sie am neuen Posten vorbei. Oder sie bricht ganz.\n\nIm Code gibt's keine Zellen. Ich sag nur: Nimm alle Posten und summier den Betrag. Egal ob 3 oder 300 Zeilen dazukommen – die Summe stimmt.\n\nDas war Nummer 2 aus meinem 5-Dinge-Reel.\nWelche Nummer willst du als Nächstes sehen? 3, 4 oder 5 – schreib's in die Kommentare 👇\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #excel #gewerbesteuer #python automatisierung",
+   "views": 337,
+   "reach": 279,
+   "likes": 11,
+   "comments": 0,
+   "saved": 5,
+   "shares": 5,
+   "total_interactions": 22,
+   "ig_reels_avg_watch_time": 4939,
+   "ig_reels_video_view_total_time": 1521484,
+   "reels_skip_rate": 69.6,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17883309489625827",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-09T10:31:14+0000",
+   "permalink": "https://www.instagram.com/p/DeRTLb4EYwd/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/843548267_17963992911239059_3394766765668847800_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6LS_CpSWu5QQ7kNvwGHFl_E&_nc_oc=AdoX5HORElq6lhir6xodiu7XwaWbDHdTuze3gESE6blG-6ID_rycTovyqe8mtE2aiCI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&_nc_tpa=Q5bMBQJRcl7W_weYejGpqaebkdYP9t13oVr8xThHID0sW2OEWBLyy5vnZVS6Bk-8irFPl3EP6_sVMEBR5Q&oh=00_AQMbsg-8RHXn8Qk1kjCrd6O7tcIC6LdN4HGMV2yjYDVpeg&oe=6AD3A9C1",
+   "like_count": 8,
+   "comments_count": 1,
+   "caption": "Hör auf, 30 % fest einzutippen. 📉\n\nAb 2028 sinkt die Körperschaftsteuer jedes Jahr um einen Punkt – bis auf 10 % ab 2032. Für latente Steuern zählt der Satz im Jahr, in dem sich die Differenz abbaut (§ 274 Abs. 2 HGB). Heißt: Spätestens jetzt brauchst du eine Staffel statt eines Festwerts. Rechenbeispiel mit Demo-Zahlen in den Folien.\n\nMit welchem Satz rechnet ihr aktuell – fest 30 % oder schon gestaffelt? 👇\n\n📌 Speichern für den Abschluss.\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #latentesteuern #jahresabschluss #steuerabteilung #hgb",
+   "views": 162,
+   "reach": 60,
+   "likes": 8,
+   "comments": 1,
+   "saved": 6,
+   "shares": 84,
+   "total_interactions": 103,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "17967294990178023",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-08T17:30:05+0000",
+   "permalink": "https://www.instagram.com/reel/DePeYymNG2K/",
+   "media_url": null,
+   "like_count": 8,
+   "comments_count": 0,
+   "caption": "Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀\n\nOben Excel: #BEZUG! und „Quelle nicht gefunden“. Unten mein Tool: fertig, bevor Excel die Quelle findet. Eine Datenquelle, keine Verknüpfungen. Alles Demo-Daten.\n\nWie oft hängt bei euch eine Verknüpfung noch an einer alten Datei? 👇\n\n💬 Schreib mir „TOOL“ per DM – ich zeig dir die Demo.\n📌 Alle 5 Excel-Fehler stehen im Karussell von gestern.\n\n#steuern #excel #steuerabteilung #gewerbesteuer automatisierung",
+   "views": 305,
+   "reach": 229,
+   "likes": 8,
+   "comments": 0,
+   "saved": 8,
+   "shares": 25,
+   "total_interactions": 43,
+   "ig_reels_avg_watch_time": 5568,
+   "ig_reels_video_view_total_time": 1403324,
+   "reels_skip_rate": 75.4,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18106773428616015",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-07T17:32:05+0000",
+   "permalink": "https://www.instagram.com/p/DeM5u1vGLsR/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/840659331_17963743935239059_185783263749411825_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DHoN-_4wBQQQ7kNvwHc6JZq&_nc_oc=AdoLhPCK_KuSrpLwbFXt1rCuI18NFr9jzCFHz_vPF5DTc6CCBaFO4kY--Zvm8zH8p0I&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&_nc_tpa=Q5bMBQINqknjZemjS6lTNSe1hx0dOXNDV2SVvMb-MXupl9I06S0cRg37LqonfzWTzYKk9P5Na6nRFz2p1Q&oh=00_AQPJZNG2rdRYQVzmSiu3KB646pD0dl8hP7XuYJVx8zmiQw&oe=6AD3C0F6",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀\n\nFest eingetippte Steuersätze, tote Verknüpfungen, keine Versionen, kein Prüfpfad, zu früh gerundet. Keiner davon fällt sofort auf – aber alle kosten im Abschluss Zeit.\n\nWelcher Fehler ist bei euch Stammgast? Nummer in die Kommentare 👇\n\n💬 Schreib mir „TOOL“ per DM – ich zeig dir, wie ein Tool das verhindert.\n\n#steuern #steuerabteilung #excel #steuerrueckstellung #automatisierung",
+   "views": 210,
+   "reach": 80,
+   "likes": 6,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 10,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 3,
+   "profile_activity": 0,
+   "follows": 1,
+   "kommentare_text": []
+  },
+  {
+   "id": "18154273729518650",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-06T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeKUuvPgA1W/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN0usf4clbBfzuh_NmGvar011w_E9dkP5YrS3fAw5kIyNnZTtKYJthJ8So8NHsG6dpLE1dm6y8QbpQhapRyFBa1OEfFJKXTdJ70ZBY.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=VIwDj-LCExQQ7kNvwGRMtFS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjM1OTg0ODkyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a471baeca170de5d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMzZFMkQ2Qzg4RUU0Qzk3OTY1NkM4QzdEMEI0OUE1Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJFRURCOEE1Njc2OTQ5NEU5ODc4MzM0OEM0RUU5NDI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam-LWthvPoPxUCKAJDMywXQD4iDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIWoq8Fvlj6BVBo3b0HaxWMMlR_3p-JSdF13bVK14xLsOCVl6K1SGDLbKW7vpmb_nOCDs8Zj7zgVw&oh=00_AQPAcTZYrjDC79VJlF_kmYKO_VD2kQU8puU4I1_38d46Pg&oe=6ACFCB3D",
+   "like_count": 11,
+   "comments_count": 2,
+   "caption": "Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen Bericht 😮‍💨\n\nHeute drück ich einen Knopf. So geht's:\n\n1️⃣ SuSa einlesen – der Code zieht sich die Summen- und Saldenliste direkt aus dem Export\n2️⃣ Abstimmen – passt was nicht, stoppt er, bevor ein falscher Bericht rausgeht\n3️⃣ Bericht bauen – Tabellen, Diagramm, PDF. Fertig.\n\nDas war Nummer 1 aus meinem letzten Reel.\nWelche Nummer willst du als Nächstes sehen? 2, 3, 4 oder 5 – schreib's in die Kommentare 👇\n🔖 Speicher dir das für den nächsten Monatsabschluss.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #monatsabschluss #excel #python #automatisierung",
+   "views": 392,
+   "reach": 296,
+   "likes": 11,
+   "comments": 2,
+   "saved": 10,
+   "shares": 8,
+   "total_interactions": 33,
+   "ig_reels_avg_watch_time": 7211,
+   "ig_reels_video_view_total_time": 2401423,
+   "reels_skip_rate": 66.3,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17916550404258137",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-04T17:30:48+0000",
+   "permalink": "https://www.instagram.com/reel/DeFLK53ALSs/",
+   "media_url": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m86/AQMGTllf_p8mhOJi0XVjyoZZvujksA-bNFj1zmQJMOpmbQ1L_Ys6qb7h68YMfa4k-Kclj1JAEMmztO9gkkq73PhPMjsVdv1MAjtRLx0.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=TXS3d_lNAMAQ7kNvwH-whh7&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjMyODc4MzYyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo4LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=d3bd9d96c0c8a1d0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BN0EzRTkxM0FCQjQ0NjMwOEVFMTZBNjE5RTQyMjJEOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U1MUJFN0JDRUY0QzQwNzY5RDM4MDc3N0I3NTk0MENCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamk9Hn--DoPxUCKAJDMywXQESZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQK6aA4anvCjLbVFzLGbEFypDrxBHDd01VhbxtYonEBo7NcwcnYwgPPh_xUggNS8dvp1pXZFCNUz-w&oh=00_AQM2nhvqNhGCxGIIPuV1K8DrcSDVYkxgA8EypD0wxE28YA&oe=6ACFB6E4",
+   "like_count": 13,
+   "comments_count": 10,
+   "caption": "5 Dinge, die ich aus Excel rausgeschmissen hab 👇\n\n5️⃣ Listen abgleichen – statt SVERWEIS und #NV ein paar Zeilen Code, egal wie lang die Liste ist\n4️⃣ Doppelte Rechnungsnummern und Lücken finden – in einer Sekunde, nicht erst in der Prüfung\n3️⃣ Sehen, wer was geändert hat – jede Version bleibt gespeichert, kein „final_final_v3“ mehr\n2️⃣ Zeile einfügen, ohne dass die Summe kaputtgeht\n1️⃣ Der Monatsbericht – Daten rein, ein Klick, fertig\n\nExcel bleibt super zum schnellen Rechnen. Aber alles, was sich jeden Monat wiederholt, macht bei mir inzwischen Code.\n\nWelche Nummer soll ich dir Schritt für Schritt zeigen? Schreib die Zahl in die Kommentare 👇\n🔖 Speicher dir das für später.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #steuerabteilung #excel #python #automatisierung",
+   "views": 932,
+   "reach": 690,
+   "likes": 13,
+   "comments": 10,
+   "saved": 15,
+   "shares": 16,
+   "total_interactions": 56,
+   "ig_reels_avg_watch_time": 9649,
+   "ig_reels_video_view_total_time": 7854981,
+   "reels_skip_rate": 64.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17965089348198457",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-01T16:30:02+0000",
+   "permalink": "https://www.instagram.com/p/Dd9V5HAAhcL/",
+   "media_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/829710983_17962490259239059_6872578594741669005_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CY-DPZ5YTK4Q7kNvwHCqZl1&_nc_oc=AdpAoCyXLU86z-FvaxiomvjoDFRdPs3mqXy2Vxi-CJASYRtbodZOjQtgZ6CICJIlYDE&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&_nc_tpa=Q5bMBQJVeI3eFt_gYi6C0IibDGFgoLUboANgvthTLDvc4hV_J0dNr8NTTyMnFBvj6b6woikF3_356Ez6_A&oh=00_AQO-gfzXrrpXBdSXJOXPVSyirVNB7_he2IuVnFwCMclGzg&oe=6AD38BCE",
+   "like_count": 10,
+   "comments_count": 2,
+   "caption": "Neu hier? Dann kurz zu mir 👋\n\nIch bin Loris – Diplom-Finanzwirt und IHK-zertifizierter Manager für angewandte KI-Transformation.\n\n2025 habe ich maehrsteuern gestartet: mit Lern-Inhalten und KI-Schulungen rund ums Steuer-Examen. Viele von euch kennen mich daher – und sind heute selbst Beraterinnen und Berater. 🎓➡️💼\n\nJetzt geht's den nächsten Schritt: KI-Lösungen für Steuern, die wirklich laufen – weil ich sie selbst programmiere. Vom kleinen Tool bis zum ganzen Prozess.\n\n📅 Ab jetzt jede Woche neue Beiträge, meist abends um 19:30:\n⚙️ Demos meiner Tools\n📊 Excel-Fehler und Steuerwissen mit Rechenbeispiel\n🧠 Einblicke hinter den Code\n\nWoher kennst du mich – Examen, Kanzlei oder Steuerabteilung? 👇\n\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #steuerrecht #kuenstlicheintelligenz #automatisierung #finanzwirt",
+   "views": 377,
+   "reach": 143,
+   "likes": 10,
+   "comments": 2,
+   "saved": 2,
+   "shares": 17,
+   "total_interactions": 34,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 7,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "18432424948196865",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-09-29T13:42:19+0000",
+   "permalink": "https://www.instagram.com/reel/Dd34F9RtucT/",
+   "media_url": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t16/f2/m84/AQPsi3_yhZclGjiU1LQZnZrGB_cjOQJOPQVJ9ZIouwDX0uNf2jGN8gXxtRgkmEkZBgo3mWt7AC211hn-hislqK4xAMzo-CEpgXIsi7M.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=Sh2l4w0MgYgQ7kNvwGD_1tz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA5NzI1NTgzOTM4NzgyMiwiYXNzZXRfYWdlX2RheXMiOjEzLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=e609f892104aa91e&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83N0E3RkQwMzgxMDU0MENCQjA1NTI1OUJCNTJEQzY0NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkxQkVFNUU5ODAzNjQ0MjFCNjYyNTYxQkU4ODFERDdFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbcwsaI2fzyAxUCKAJDMywXQC4qfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=zoHqsbZzrHm1D8ByNRPVHQ&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQJxcccmrd5B_WSnT-WQ6BByYKEXNUmwmGm8c1QafDHwxxDVXeYPegKL-sH0jpO0syrRV2oDT77CWg&oh=00_AQP_dOV2MpOg4zj5yMJeLBXEQxqTJJH7t9hKBlkGBDXiFw&oe=6ACFA15A",
+   "like_count": 10,
+   "comments_count": 2,
+   "caption": "Steuern × Code. ⚡\nKeine Standardsoftware, keine Excel-Hölle, sondern maßgeschneiderte Steuer-Tools mit Prüfpfad und Dashboard.\n💬 „TOOL“ per DM, und wir reden über dein Projekt.\n\nWie rechnest du deine Steuern? Stimm ab! 👇🏼\n\n#steuern #taxtech #programmieren #finanzen #steuerberater",
+   "views": 337,
+   "reach": 195,
+   "likes": 10,
+   "comments": 2,
+   "saved": 4,
+   "shares": 7,
+   "total_interactions": 24,
+   "ig_reels_avg_watch_time": 7296,
+   "ig_reels_video_view_total_time": 1955494,
+   "reels_skip_rate": 61.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  }
+ ],
+ "storys_aktiv": [
+  {
+   "id": "17887520328620377",
+   "zeit": "2026-10-12T10:45:15+0000",
+   "views": 39,
+   "reach": 33,
+   "_fehlt": [
+    "likes",
+    "comments",
+    "saved",
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "reach_aufgeteilt"
+   ],
+   "shares": 0,
+   "total_interactions": 1,
+   "profile_visits": 1,
+   "profile_activity": 1,
+   "follows": 0,
+   "navigation": 35,
+   "replies": 0,
+   "kommentare_text": []
+  }
+ ],
+ "_fehlt": [
+  "engaged_audience_demographics/this_month/age: 400 Not enough users",
+  "engaged_audience_demographics/this_month/gender: 400 Not enough users",
+  "engaged_audience_demographics/this_month/city: 400 Not enough users",
+  "engaged_audience_demographics/this_month/country: 400 Not enough users",
+  "engaged_audience_demographics/this_week/age: 400 Not enough users",
+  "engaged_audience_demographics/this_week/gender: 400 Not enough users",
+  "engaged_audience_demographics/this_week/city: 400 Not enough users",
+  "engaged_audience_demographics/this_week/country: 400 Not enough users"
+ ]
+}
