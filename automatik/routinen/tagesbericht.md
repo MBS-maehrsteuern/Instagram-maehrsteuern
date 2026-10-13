@@ -12,7 +12,7 @@ ERLAUBNIS: Diese Routine darf und soll ohne Rückfrage committen und auf den Zwe
 
 4. Chat-Bericht (Deutsch, klar gegliedert):
    a) Tabelle Konto (Heute | Vortag | Δ) und alle Beiträge seit 29.09. mit Δ zum Vortag; bei Reels Skip (mit Alter), Ø Sehdauer, Anteil an der Länge.
-   b) Greifen unsere Methoden? – jede Zeile mit Status, Ursache in 1–2 Sätzen, Datenlage (n; < 48 h = zu früh). Gruppen (Format, Slot 12:15/19:30, Stimme, Hook fall/zahl) erst ab n ≥ 3. Geteilt > Erreicht ist ⚠️ markiert und zählt nicht in die Teilen-Quote.
+   b) Greifen unsere Methoden? – jede Zeile mit Status, Ursache in 1–2 Sätzen, Datenlage (n; < 48 h = zu früh). Gruppen (Format, Slot mittags/abends, Stimme, Hook fall/zahl) erst ab n ≥ 3. Geteilt > Erreicht ist ⚠️ markiert und zählt nicht in die Teilen-Quote.
    c) Soll-Ist: Steht etwas unter „geplant, aber nicht erschienen“, ganz oben mit 🚨 markieren.
    d) Was wir ändern – 1–3 Maßnahmen mit Bezug auf geplante Beiträge (ID/Datum). Nur vorschlagen; Beiträge mit Status freigegeben/veroeffentlicht nie stillschweigend ändern.
    e) Heute geplant, Einträge mit status "fehler", offene Freigabe-Issues, was Loris heute tun muss.

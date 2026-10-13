@@ -65,8 +65,8 @@ def follower(von, bis):
 
 
 def beitraege(von, bis):
-    """Letzter Stand je Beitrag bis Wochenende. Der Bericht läuft So ~18:00, das Sonntags-Reel geht erst 19:30
-    online – „neu“ ist deshalb, was von So der Vorwoche bis Sa gepostet wurde (sonst fiele jedes Sonntags-Reel
+    """Letzter Stand je Beitrag bis Wochenende. Der Bericht läuft So ~18:00, das Sonntags-Reel geht kurz davor
+    (17:45) online – „neu“ ist deshalb, was von So der Vorwoche bis Sa gepostet wurde (sonst fiele jedes Sonntags-Reel
     durch beide Berichte). Aufrufe der Woche = Zuwachs je Beitrag gegenüber dem Stand vor der Woche; neue Beiträge
     zählen ab 0. Fehlt der Vorwochen-Stand, zählt der erste Stand in der Woche als Basis, damit alte Aufrufe nicht
     als neu erscheinen. Top 3 nur aus Beiträgen der letzten 4 Wochen."""

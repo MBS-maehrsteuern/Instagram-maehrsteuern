@@ -10,7 +10,12 @@ Stand 11.10.2026. Grundlage: Auswertung in `06_auswertung.md` (Abschnitt „Stan
 - Bisher lief fast alles um 19:30. Ob 12:15 genauso gut oder besser ist, wissen wir nicht.
 
 ## Raster (pro Woche 14 Feed-Beiträge: ~10 Reels, 4 Karussells)
-Feed **12:15** und **19:30**, Storys **12:45** (Frage zum Tippen / Teaser zum Mittagsbeitrag) und **19:35** (Teaser).
+Feed **11:45** und **17:45**, Storys **12:15** (Frage zum Tippen / Teaser zum Mittagsbeitrag) und **17:50** (Teaser).
+
+**Ab Mi 14.10. (Loris, 13.10.):** Insights „Zeiten mit hoher Follower-Aktivität“ (MESZ) – Block **18–21 Uhr** am höchsten (So/Mo/Mi),
+danach 12–15 Uhr; Anstieg ab 6 Uhr. Gepostet wird **kurz vor** der Welle, damit der Beitrag die ersten Reaktionen schon hat,
+wenn die meisten da sind: 19:30 → **17:45**, 19:35 → **17:50**, 12:15 → **11:45**, 12:45 → **12:15**. Alle Einträge ab 14.10. verschoben.
+In den Tabellen unten stehen „12:15/19:30“ für die Slots *mittags/abends* (Stand 11.10.).
 Täglich mindestens ein Reel.
 
 | Tag | 12:15 | 19:30 |
@@ -34,7 +39,7 @@ Pro Woche mindestens **1 Beitrag mit klarem Aufruf** („Schreib TOOL in die Kom
 | Faktor | Feld in `plan.json` | Werte |
 |---|---|---|
 | Format | `typ` | reel · karussell |
-| Slot | `zeit` | 12:15 · 19:30 |
+| Slot | `zeit` | mittags 11:45 · abends 17:45 (bis 13.10.: 12:15 · 19:30) |
 | Stimme | `stimme` | true · false |
 | Hook-Art | `hook` | fall · zahl (Prüfer zählt als *fall*) |
 | Begleit- vs. Einzel-Reel | `begleit` | true · false (nur Reels) |

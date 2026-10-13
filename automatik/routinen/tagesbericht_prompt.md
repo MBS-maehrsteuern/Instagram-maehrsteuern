@@ -19,7 +19,7 @@ Täglicher Insights-Bericht für @maehrsteuern. Loris will ihn jeden Morgen um 9
 3. PNG in den Scratchpad kopieren und mit SendUserFile (display "render", status "proactive") senden.
 4. Chat-Bericht (Deutsch, klar gegliedert):
    a) Tabelle Konto (Heute | Vortag | Δ) und alle Beiträge seit 29.09. mit Δ zum Vortag; bei Reels Skip, Ø Sehdauer und Anteil an der Länge (JSON beitraege[].anteil).
-   b) **Greifen unsere Methoden?** – jede Zeile mit Status, Ursache in 1–2 Sätzen und ob die Datenlage reicht (n; < 48 h = zu früh). Formate vergleichen (Karussell/Reel/Story, Stimme ja/nein, Slot 12:15/19:30) erst ab n ≥ 3 je Gruppe.
+   b) **Greifen unsere Methoden?** – jede Zeile mit Status, Ursache in 1–2 Sätzen und ob die Datenlage reicht (n; < 48 h = zu früh). Formate vergleichen (Karussell/Reel/Story, Stimme ja/nein, Slot mittags/abends) erst ab n ≥ 3 je Gruppe.
    c) **Was wir ändern** – 1–3 Maßnahmen mit Bezug auf geplante Beiträge (ID/Datum). Nur vorschlagen, nicht eigenmächtig ändern.
    d) Heute geplant (JSON heute_online, inkl. „von Hand posten“ / „wartet auf Sprachnachricht“), Einträge mit status "fehler", offene Freigabe-Issues, was Loris heute tun muss.
    2025er Zahlen nicht als Maßstab nehmen.

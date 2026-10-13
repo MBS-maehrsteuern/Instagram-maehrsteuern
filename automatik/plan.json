@@ -485,32 +485,32 @@
     },
     {
       "id": "09-story-quiz",
-      "zeit": "2026-10-14 12:45",
+      "zeit": "2026-10-14 12:15",
       "typ": "story",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
         "story_mi_quiz.png"
       ],
       "status": "freigegeben",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Ja/Nein zum Antippen (08.10.): Antwort per Emoji-Schnellreaktion 👏 = Ja · 😮 = Nein – ein Tipp statt Tippen. Besser noch: in der App zusätzlich Quiz-Sticker Ja/Nein setzen (richtig: Ja). Aus der Bibliothek, Einstieg zum Rückstellungs-Karussell",
       "issue": 35
     },
     {
       "id": "07-reel-hinzurechnung",
-      "zeit": "2026-10-14 19:30",
+      "zeit": "2026-10-14 17:45",
       "typ": "reel",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "video": "reel_hinzurechnung.mp4",
       "text": "bildunterschrift_reel.txt",
       "status": "freigegeben",
-      "hinweis": "Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot",
       "issue": 14,
       "stimme": false,
       "hook": "fall"
     },
     {
       "id": "09-rueckstellung",
-      "zeit": "2026-10-15 12:15",
+      "zeit": "2026-10-15 11:45",
       "typ": "karussell",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
@@ -524,14 +524,14 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). Aus der Bibliothek (gegengelesen 05.10., Demo-Zahlen 1 Mio. €, Hebesatz 400 %)",
       "issue": 35,
       "stimme": false,
       "hook": "zahl"
     },
     {
       "id": "09-story-teaser",
-      "zeit": "2026-10-15 12:45",
+      "zeit": "2026-10-15 12:15",
       "typ": "story",
       "ordner": "posts/09_2026-10-15_rueckstellung",
       "bilder": [
@@ -539,7 +539,32 @@
       ],
       "status": "freigegeben",
       "issue": 35,
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
+    },
+    {
+      "id": "16-reel-listen",
+      "zeit": "2026-10-15 17:45",
+      "typ": "reel",
+      "ordner": "posts/16_2026-10-15_reel_listen",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch.",
+      "stimme": true,
+      "hook": "fall"
+    },
+    {
+      "id": "09-story-aufloesung",
+      "zeit": "2026-10-15 17:50",
+      "typ": "story",
+      "ordner": "posts/09_2026-10-15_rueckstellung",
+      "bilder": [
+        "story_do_aufloesung.png"
+      ],
+      "status": "freigegeben",
+      "issue": 35,
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
     },
     {
       "id": "04-story-frage",
@@ -554,76 +579,52 @@
       "hinweis": "12.10.: go tippen (Loris, Issue #44) – Frage-Story mit Antwort zum Tippen statt Fragesticker (story_mo_frage_tippen.png)."
     },
     {
-      "id": "16-reel-listen",
-      "zeit": "2026-10-15 19:30",
-      "typ": "reel",
-      "ordner": "posts/16_2026-10-15_reel_listen",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "hinweis": "11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch.",
-      "stimme": true,
-      "hook": "fall"
-    },
-    {
-      "id": "09-story-aufloesung",
-      "zeit": "2026-10-15 19:35",
-      "typ": "story",
-      "ordner": "posts/09_2026-10-15_rueckstellung",
-      "bilder": [
-        "story_do_aufloesung.png"
-      ],
-      "status": "freigegeben",
-      "issue": 35,
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
-    },
-    {
       "id": "03-story-aufloesung",
-      "zeit": "2026-10-16 12:45",
+      "zeit": "2026-10-16 12:15",
       "typ": "story",
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "bilder": [
         "story_fr_aufloesung.png"
       ],
       "status": "freigegeben",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · "
     },
     {
       "id": "04-reel-mein-weg",
-      "zeit": "2026-10-16 19:30",
+      "zeit": "2026-10-16 17:45",
       "typ": "reel",
       "ordner": "posts/04_2026-10-20_reel_mein_weg",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label).",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label).",
       "ki_label": true,
       "stimme": true,
       "hook": "fall"
     },
     {
       "id": "04-story-teaser",
-      "zeit": "2026-10-16 19:35",
+      "zeit": "2026-10-16 17:50",
       "typ": "story",
       "ordner": "posts/04_2026-10-20_reel_mein_weg",
       "bilder": [
         "story_di_teaser_markenweg.png"
       ],
       "status": "freigegeben",
-      "issue": 44
+      "issue": 44,
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15."
     },
     {
       "id": "01-reel-ampel",
-      "zeit": "2026-10-17 12:15",
+      "zeit": "2026-10-17 11:45",
       "typ": "reel",
       "ordner": "posts/01_2026-10-04_reel_ampel",
       "video": "reel_kurz.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "13.10.: auf 12:15 vorgezogen (go Loris) – Slot-Test „Stimme mittags“; Sa 19:30 frei für die Fabrik · 12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf 12:15 vorgezogen (go Loris) – Slot-Test „Stimme mittags“; Sa 19:30 frei für die Fabrik · 12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
       "issue": 7,
       "stimme": true,
       "hook": "fall",
@@ -631,18 +632,18 @@
     },
     {
       "id": "01-story-teaser",
-      "zeit": "2026-10-17 12:45",
+      "zeit": "2026-10-17 12:15",
       "typ": "story",
       "ordner": "posts/01_2026-10-04_reel_ampel",
       "bilder": [
         "story_so_teaser.png"
       ],
       "status": "freigegeben",
-      "hinweis": "13.10.: mit dem Ampel-Reel auf 12:45 (Teaser nennt keine Uhrzeit) · 10.10.: mit dem Ampel-Reel auf Sa 17.10. · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: mit dem Ampel-Reel auf 12:45 (Teaser nennt keine Uhrzeit) · 10.10.: mit dem Ampel-Reel auf Sa 17.10. · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“."
     },
     {
       "id": "18-reel-aufbewahrung",
-      "zeit": "2026-10-19 19:30",
+      "zeit": "2026-10-19 17:45",
       "typ": "reel",
       "ordner": "posts/18_2026-10-19_reel_aufbewahrung",
       "video": "reel.mp4",
@@ -651,11 +652,11 @@
       "status": "wartet_auf_sprachnachricht",
       "stimme": true,
       "hook": "zahl",
-      "hinweis": "§ 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
     },
     {
       "id": "19-reel-verlustvortrag",
-      "zeit": "2026-10-20 19:30",
+      "zeit": "2026-10-20 17:45",
       "typ": "reel",
       "ordner": "posts/19_2026-10-20_reel_verlustvortrag",
       "video": "reel.mp4",
@@ -664,11 +665,11 @@
       "status": "wartet_auf_sprachnachricht",
       "stimme": true,
       "hook": "fall",
-      "hinweis": "Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
     },
     {
       "id": "20-reel-erechnung",
-      "zeit": "2026-10-21 19:30",
+      "zeit": "2026-10-21 17:45",
       "typ": "reel",
       "ordner": "posts/20_2026-10-21_reel_erechnung",
       "video": "reel.mp4",
@@ -677,23 +678,23 @@
       "status": "wartet_auf_sprachnachricht",
       "stimme": true,
       "hook": "zahl",
-      "hinweis": "Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
     },
     {
       "id": "10-story-umfrage",
-      "zeit": "2026-10-22 12:45",
+      "zeit": "2026-10-22 12:15",
       "typ": "story",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
         "story_mi_umfrage.png"
       ],
       "status": "freigegeben",
-      "hinweis": "11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg",
       "issue": 31
     },
     {
       "id": "21-reel-zinsschranke",
-      "zeit": "2026-10-22 19:30",
+      "zeit": "2026-10-22 17:45",
       "typ": "reel",
       "ordner": "posts/21_2026-10-22_reel_zinsschranke",
       "video": "reel.mp4",
@@ -702,11 +703,11 @@
       "status": "wartet_auf_sprachnachricht",
       "stimme": true,
       "hook": "zahl",
-      "hinweis": "§ 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
     },
     {
       "id": "10-e-rechnung",
-      "zeit": "2026-10-23 19:30",
+      "zeit": "2026-10-23 17:45",
       "typ": "karussell",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
@@ -719,37 +720,38 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
       "issue": 31,
       "stimme": false,
       "hook": "fall"
     },
     {
       "id": "10-story-teaser",
-      "zeit": "2026-10-23 19:35",
+      "zeit": "2026-10-23 17:50",
       "typ": "story",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
         "story_do_teaser.png"
       ],
       "status": "freigegeben",
-      "issue": 31
+      "issue": 31,
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15."
     },
     {
       "id": "17-reel-kommentare",
-      "zeit": "2026-10-24 19:30",
+      "zeit": "2026-10-24 17:45",
       "typ": "reel",
       "ordner": "posts/17_2026-10-24_reel_kommentare",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "wartet_auf_sprachnachricht",
-      "hinweis": "Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.",
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.",
       "stimme": true
     },
     {
       "id": "22-reel-steuersatz",
-      "zeit": "2026-10-26 19:30",
+      "zeit": "2026-10-26 17:45",
       "typ": "reel",
       "ordner": "posts/22_2026-10-18_reel_steuersatz",
       "video": "reel.mp4",
@@ -758,7 +760,7 @@
       "status": "wartet_auf_sprachnachricht",
       "stimme": true,
       "hook": "zahl",
-      "hinweis": "13.10.: auf Mo 26.10. (KW 44) geschoben (go Loris) – sonst Themen-Dopplung mit dem KSt-Reel vom 10.10.; CTA der KW 42 kommt vom Ampel-Reel (TOOL per DM). So 18.10. 19:30 frei für die Fabrik · CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf Mo 26.10. (KW 44) geschoben (go Loris) – sonst Themen-Dopplung mit dem KSt-Reel vom 10.10.; CTA der KW 42 kommt vom Ampel-Reel (TOOL per DM). So 18.10. 19:30 frei für die Fabrik · CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe)."
     }
   ]
 }

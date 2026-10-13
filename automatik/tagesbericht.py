@@ -168,7 +168,7 @@ for b in bt:
         stimme=(plan_eintrag(b) or {}).get("stimme"), hook=(plan_eintrag(b) or {}).get("hook"),
         teilen_ueber=bool(b.get("shares") and b.get("reach") and b["shares"] > b["reach"]),
         skip_verlauf=sorted(set(skip_verlauf.get(b["id"], [])))[-3:],
-        slot="12:15" if int(ortszeit(b["timestamp"])[-5:-3]) < 15 else "19:30", nf_reach=nf_anteil(b),
+        slot="mittags" if int(ortszeit(b["timestamp"])[-5:-3]) < 15 else "abends", nf_reach=nf_anteil(b),
         v_views=p.get("views"), v_reach=p.get("reach"), v_saved=p.get("saved"), v_shares=p.get("shares"), v_comments=p.get("comments")))
 
 storys = [s for s in d.get("storys_aktiv", []) if s.get("views") is not None]
@@ -247,7 +247,7 @@ for f in [None] + sorted(OUT.glob("basis_*.json"), reverse=True):
     on = next((online[t] for t in sorted(online, reverse=True) if online[t]), {})
     if on: break
 on_cest = {(int(h) + 9) % 24: n for h, n in on.items()}
-on_1930 = quote(on_cest.get(19), max(on_cest.values())) if on_cest else None
+on_abend = quote(on_cest.get(18), max(on_cest.values())) if on_cest else None  # gepostet wird 17:45, kurz vor der Welle
 
 methoden = [
     ("Reels bringen Nicht-Follower", "Anteil Nicht-Follower an der Reichweite (30 Tage)",
@@ -271,7 +271,7 @@ methoden = [
           lambda l: quote(summe(l, "follows"), summe(l, "profil")),
           lambda w: f"{pct(w)}", "≥ 10 %", lambda w: st(w, .10, .05), braucht="profil"),
     ("TOOL-Aufruf / Bio-Link", "Link-Klicks in der Bio (30 Tage)", str(links), "≥ 1 pro Woche", "✅" if links else "❌", None),
-    ("Posten um 19:30", "Follower online 19–20 Uhr ÷ Spitzenstunde", pct(on_1930) if on_1930 else "–", "≥ 85 %", st(on_1930, .85, .7), None),
+    ("Posten um 17:45", "Follower online 18–19 Uhr ÷ Spitzenstunde", pct(on_abend) if on_abend else "–", "≥ 85 %", st(on_abend, .85, .7), None),
 ]
 # Profil-Zeile: absolute Zahlen mit anzeigen (z. B. „0 / 7“), weil die Quote bei kleinen Zahlen wenig sagt
 _p = [z for z in reif if z["profil"] is not None]
