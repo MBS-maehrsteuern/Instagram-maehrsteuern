@@ -581,6 +581,20 @@
       "hinweis": "12.10.: go tippen (Loris, Issue #44) – Frage-Story mit Antwort zum Tippen statt Fragesticker (story_mo_frage_tippen.png)."
     },
     {
+      "id": "24-reel-ein-euro",
+      "zeit": "2026-10-16 11:45",
+      "typ": "reel",
+      "ordner": "posts/24_2026-10-16_reel_ein_euro",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,2 s, −18,1 LUFS, Musik 08 Chill House. Titelbild reels/reel_ein_euro, Karten aus karussell/ein_euro Folien 2–4 (vorlagen/system/schnitt/p24_27_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p24_reel_ein_euro.json), Schnitt schnitt/p24_reel_ein_euro.json. Nachgerechnet: 1 − 15,825 % − 14 % = 0,7018 €; × (1 − 26,375 %) = 0,5167 €. Keine Storys (Story-Slots 16.10. belegt)."
+    },
+    {
       "id": "03-story-aufloesung",
       "zeit": "2026-10-16 12:15",
       "typ": "story",
@@ -643,6 +657,86 @@
       ],
       "status": "freigegeben",
       "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: mit dem Ampel-Reel auf 12:45 (Teaser nennt keine Uhrzeit) · 10.10.: mit dem Ampel-Reel auf Sa 17.10. · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“."
+    },
+    {
+      "id": "25-reel-plausi",
+      "zeit": "2026-10-17 17:45",
+      "typ": "reel",
+      "ordner": "posts/25_2026-10-17_reel_plausi",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3/R5 gegengelesen), Reel ohne Stimme 14,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab der Lösung. Hook-Fall bausteine/haken_vorjahr („Vorjahr kopiert. Hebesatz nicht.“), dann 3 Checks (Reel-Regel max. 3 Punkte; 5 Checks aus karussell/excel_checks → 3 im Bild, 2 als Bonus in der Bildunterschrift). Check-Folien, Leisten, Prüfspalte, Titelbild „Drei Plausi-Checks“ und Abspann neu gerendert mit Nummer 1–3 (jobs/p25_reel_plausi.json), Schnitt schnitt/p25_reel_plausi.json."
+    },
+    {
+      "id": "25-story-teaser",
+      "zeit": "2026-10-17 17:50",
+      "typ": "story",
+      "ordner": "posts/25_2026-10-17_reel_plausi",
+      "bilder": [
+        "story_sa_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Plausi-Reel (Titelbild), jobs/p25_reel_plausi.json."
+    },
+    {
+      "id": "26-karussell-kuerzungen",
+      "zeit": "2026-10-18 11:45",
+      "typ": "karussell",
+      "ordner": "posts/26_2026-10-18_kuerzungen",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/kuerzungen Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p26_kuerzungen.json). Geprüft: 0,11 % des Grundsteuerwerts ab EZ 2025 (§ 9 Nr. 1 Satz 1 GewStG), Schachtel 15 % zu Beginn des EZ (§ 9 Nr. 2a), Spenden 20 % / 4 ‰ (§ 9 Nr. 5). In der Bildunterschrift ergänzt: 5 % nbBA nach § 8b Abs. 5 KStG bleiben. Alt-Texte in alt_texte.json. Gegenstück zur Hinzurechnung (13.10.)."
+    },
+    {
+      "id": "26-story-tipp",
+      "zeit": "2026-10-18 12:15",
+      "typ": "story",
+      "ordner": "posts/26_2026-10-18_kuerzungen",
+      "bilder": [
+        "story_so_tipp_schachtel.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Tipp-Story storys/tipp_schachtel (R3 gegengelesen) zum Kürzungen-Karussell – Schachtelprivileg, 15 % zu Beginn des Erhebungszeitraums."
+    },
+    {
+      "id": "27-reel-organschaft",
+      "zeit": "2026-10-18 17:45",
+      "typ": "reel",
+      "ordner": "posts/27_2026-10-18_reel_organschaft",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Prüfer-Fall, Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton, Musik 10 Spannung. Karte aus karussell/organschaft Folie 4 („Mindestens 5 Jahre“); Titelbild, Ampel rot/grün („Laufzeit 5 Zeitjahre“), Folge-Karte und Abspann neu (jobs/p27_reel_organschaft.json) – Bibliothek-Ampel gelb nicht genutzt (zeigt „Eintragung HR fehlt“, passt nicht zum Laufzeit-Fall). Schnitt schnitt/p27_reel_organschaft.json. Geprüft: § 14 Abs. 1 Satz 1 Nr. 3 KStG (5 Zeitjahre, Kündigung aus wichtigem Grund unschädlich); Folge verunglückte Organschaft von Anfang an, Abführung i. d. R. vGA."
+    },
+    {
+      "id": "27-story-teaser",
+      "zeit": "2026-10-18 17:50",
+      "typ": "story",
+      "ordner": "posts/27_2026-10-18_reel_organschaft",
+      "bilder": [
+        "story_so_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Organschaft-Reel (Titelbild), jobs/p27_reel_organschaft.json."
     },
     {
       "id": "28-reel-zuschlaege",

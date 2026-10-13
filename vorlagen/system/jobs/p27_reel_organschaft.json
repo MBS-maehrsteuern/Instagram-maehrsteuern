@@ -1,0 +1,114 @@
+{
+ "titel": "Reel 27 · Organschaft weg: GAV 4 Jahre 11 Monate (Nachtlauf 14.10.): Titelbild, Ampel rot/grün (Laufzeit 5 Zeitjahre), Folge-Karte, Abspann, Story-Teaser",
+ "ausgabe": "../../posts/27_2026-10-18_reel_organschaft",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Prüfer-Fall",
+   "titel": "4 Jahre,\n11 Monate.\n*Organschaft weg.*",
+   "sub": "§ 14 KStG verlangt 5 Zeitjahre."
+  },
+  {
+   "vorlage": "ampel",
+   "datei": "bausteine/ampel_organ_rot.png",
+   "stand": "rot",
+   "kopf": "Organschaft",
+   "datum": "WJ 2026",
+   "kicker": "§ 14 Abs. 1 Satz 1 Nr. 3 KStG",
+   "titel": "Laufzeit\n*zu kurz*",
+   "namen": [
+    "Finanzielle Eingliederung",
+    "EAV abgeschlossen",
+    "Laufzeit 5 Zeitjahre",
+    "Eintragung HR",
+    "Durchführung"
+   ],
+   "zeilen": [
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "rot",
+     "4 J. 11 M."
+    ],
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ]
+   ]
+  },
+  {
+   "vorlage": "ampel",
+   "datei": "bausteine/ampel_organ_gruen.png",
+   "stand": "gruen",
+   "kopf": "Organschaft",
+   "datum": "WJ 2026",
+   "kicker": "§ 14 Abs. 1 Satz 1 Nr. 3 KStG",
+   "titel": "Organkreis\n*steht.*",
+   "namen": [
+    "Finanzielle Eingliederung",
+    "EAV abgeschlossen",
+    "Laufzeit 5 Zeitjahre",
+    "Eintragung HR",
+    "Durchführung"
+   ],
+   "zeilen": [
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ],
+    [
+     "gruen",
+     "ok"
+    ]
+   ]
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/haken_folge.png",
+   "typ": "haken",
+   "kicker": "Folge",
+   "titel": "Organschaft\n*von Anfang an* weg.",
+   "sub": "Abgeführte Gewinne gelten dann in der Regel als verdeckte Gewinnausschüttung."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Laufzeit\n*vorher prüfen.*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · mit Beispieldaten"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neues Reel",
+   "titel": "4 Jahre, 11 Monate: *Organschaft weg.*",
+   "bild": "../../posts/27_2026-10-18_reel_organschaft/titelbild.png"
+  }
+ ]
+}

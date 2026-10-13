@@ -1,0 +1,78 @@
+{
+ "titel": "Reel 25 · Drei Plausi-Checks (Nachtlauf 14.10.): Titelbild (3 statt 5 Punkte, Reel-Regel), Check-Folien und Einblendungen mit Nummer 1–3 (Texte aus r5_17/r5_25), Abspann, Story-Teaser",
+ "ausgabe": "../../posts/25_2026-10-17_reel_plausi",
+ "bilder": [
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_check1.png",
+   "typ": "inhalt",
+   "saeule": "Check 1",
+   "titel": "Abgleich mit der *SuSa*.",
+   "text": "Jeder Betrag in der Steuerdatei muss sich auf ein Konto der Summen- und Saldenliste zurückführen lassen."
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_check2.png",
+   "typ": "inhalt",
+   "saeule": "Check 2",
+   "titel": "*Vorjahr* daneben.",
+   "text": "Große Abweichungen kurz begründen. Meist steckt eine Umbuchung oder ein Tippfehler dahinter."
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_check3.png",
+   "typ": "inhalt",
+   "saeule": "Check 3",
+   "titel": "Eine *Prüfspalte*.",
+   "text": "Am Ende jeder Tabelle: Differenz gleich null? Dann grün. Sonst sofort sichtbar."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/leiste_check1.png",
+   "typ": "leiste",
+   "kicker": "Check 1",
+   "titel": "SuSa *abgleichen*",
+   "transparent": true
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/leiste_check2.png",
+   "typ": "leiste",
+   "kicker": "Check 2",
+   "titel": "Vorjahr *daneben*",
+   "transparent": true
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/haken_ueber_check3.png",
+   "typ": "haken_ueber",
+   "kicker": "Check 3 · Prüfspalte",
+   "titel": "Differenz:\n*0,00 €*",
+   "transparent": true
+  },
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Praxis · Steuern × Code",
+   "titel": "Drei\n*Plausi-Checks*",
+   "sub": "Bevor der Abschluss rausgeht."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Erst prüfen.\n*Dann senden.*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · mit Beispieldaten"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_sa_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neues Reel",
+   "titel": "Drei *Plausi-Checks* vor dem Abschluss.",
+   "bild": "../../posts/25_2026-10-17_reel_plausi/titelbild.png"
+  }
+ ]
+}

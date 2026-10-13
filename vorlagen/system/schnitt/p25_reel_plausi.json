@@ -1,0 +1,135 @@
+{
+ "ausgabe": "../../posts/25_2026-10-17_reel_plausi/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../assets/bibliothek/bausteine/haken_vorjahr.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Steuerdatei raus …",
+     "groesse": 90,
+     "y": 380,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/25_2026-10-17_reel_plausi/bausteine/karte_susa.png",
+   "dauer": 2.8,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "3 Checks vorher:",
+     "groesse": 95,
+     "y": 560,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/25_2026-10-17_reel_plausi/bausteine/karte_vorjahr.png",
+   "dauer": 2.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Hier fällt's auf.",
+     "groesse": 95,
+     "y": 560,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/25_2026-10-17_reel_plausi/bausteine/karte_pruefspalte.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ]
+  },
+  {
+   "karte": "../../posts/25_2026-10-17_reel_plausi/bausteine/abspann_tool.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.3,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 1.0,
+   "dauer": 0.8,
+   "lautstaerke": 0.45
+  },
+  {
+   "datei": "../../musik/11_runway_future_garage.mp3",
+   "ab": 2.6,
+   "start": 0,
+   "lautstaerke": 0.73,
+   "ein": 0.3
+  }
+ ]
+}

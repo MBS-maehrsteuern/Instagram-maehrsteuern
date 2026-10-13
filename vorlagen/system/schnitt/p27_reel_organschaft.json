@@ -1,0 +1,147 @@
+{
+ "ausgabe": "../../posts/27_2026-10-18_reel_organschaft/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/titelbild.png",
+   "dauer": 2.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Der Prüfer zählt nach.",
+     "groesse": 85,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/bausteine/karte_5_jahre.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Gesetz: 5 Zeitjahre",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "4 J. 11 M. = zu kurz",
+     "groesse": 120,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 1.0,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/bausteine/ampel_organ_rot.png",
+   "dauer": 2.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/bausteine/haken_folge.png",
+   "dauer": 2.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/bausteine/ampel_organ_gruen.png",
+   "dauer": 1.8,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/27_2026-10-18_reel_organschaft/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.4,
+   "lautstaerke": 0.3,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 3.4,
+   "dauer": 0.8,
+   "lautstaerke": 0.45
+  },
+  {
+   "datei": "../../musik/10_runway_spannung.mp3",
+   "ab": 2.4,
+   "start": 0,
+   "lautstaerke": 0.7,
+   "ein": 0.3
+  }
+ ]
+}

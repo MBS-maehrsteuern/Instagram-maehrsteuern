@@ -1,0 +1,16 @@
+Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebesatz nicht – wer findet's zuerst, du oder der Prüfer? 🔎
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Passiert ständig: Die Steuerdatei vom Vorjahr wird kopiert, ein Wert bleibt stehen. Drei Checks, bevor die Datei rausgeht:
+1️⃣ SuSa-Abgleich – jeder Betrag lässt sich auf ein Konto der Summen- und Saldenliste zurückführen.
+2️⃣ Vorjahr daneben – große Abweichungen kurz begründen.
+3️⃣ Prüfspalte – Differenz 0,00 €? Dann grün.
+Bonus: Summen quer gegenrechnen und Steuersätze in eine Parameterzelle statt fest in die Formel.
+
+Welcher Check fehlt bei euch am häufigsten: 1, 2 oder 3? 👇
+📤 Schick das dem Kollegen, der die Datei morgen rausschickt.
+
+Typischer Fall, kein echter Mandant. Alle Zahlen sind Demo-Zahlen.
+
+#steuern #steuerabteilung #jahresabschluss #excel

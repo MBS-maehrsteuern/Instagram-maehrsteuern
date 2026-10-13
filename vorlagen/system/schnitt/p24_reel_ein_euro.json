@@ -1,0 +1,156 @@
+{
+ "ausgabe": "../../posts/24_2026-10-16_reel_ein_euro/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/24_2026-10-16_reel_ein_euro/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Rechnen wir nach:",
+     "groesse": 90,
+     "y": 380,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/24_2026-10-16_reel_ein_euro/bausteine/karte_ebene1.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Erst die GmbH:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "−29,825 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/24_2026-10-16_reel_ein_euro/bausteine/karte_ebene2.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Dann du:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "−26,375 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/24_2026-10-16_reel_ein_euro/bausteine/karte_gesamt.png",
+   "dauer": 2.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Netto privat:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "0,52 €",
+     "groesse": 190,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/24_2026-10-16_reel_ein_euro/bausteine/abspann_tool.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.95,
+   "ein": 0.3
+  }
+ ]
+}
