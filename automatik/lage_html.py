@@ -7,8 +7,8 @@ Skripte; nur die IBM-Plex-Schriften kommen von Google Fonts (fällt sonst auf Sy
 import csv, html, json, re
 from datetime import datetime, timedelta
 
-from lage import (KONTO, NOTIZEN, REPO, STATUS, TYP, WOCHENTAG, WURZEL, insights_dateien, issue_link, lokal, tag,
-                  zeit)
+from lage import (FEED_SOLL, KONTO, NOTIZEN, REPO, STATUS, TEST_START, TYP, UEBERFAELLIG, WOCHENTAG, WURZEL, freie_slots, heute_ampel,
+                  insights_dateien, issue_link, lokal, sieben_tage, tag, testmonat, vorwoche_prozent, zeit)
 
 ZIEL = WURZEL / "LAGE.html"
 ART_NAME = {"🤖": "Autopilot", "✅": "Freigabe", "📈": "Statistik", "🎵": "Musik", "🔑": "Schlüssel", "🔀": "Merge",
@@ -66,7 +66,7 @@ def punkt_stufe(p):
 
 # ---------- Bausteine ----------
 
-def kopf(stand, naechster):
+def kopf(stand, naechster, briefing_html="", n=None):
     teile = [f'''<header class="top">
   <div>
     <div class="kicker">maehrsteuern · Instagram</div>
@@ -75,18 +75,22 @@ def kopf(stand, naechster):
       <a href="https://github.com/{REPO}/blob/claude/instagram/LAGE.md" target="_blank" rel="noopener">LAGE.md</a></p>
   </div>
   <nav class="sprung">
-    <a href="#braucht">Braucht dich</a><a href="#arbeit">In Arbeit</a><a href="#kalender">Kalender</a>
+    <a href="#briefing">30 Sek.</a><a href="#braucht">Braucht dich</a><a href="#arbeit">In Arbeit</a><a href="#kalender">Kalender</a>
     <a href="#plan">Plan</a><a href="#zahlen">Zahlen</a><a href="#automatik">Automatik</a><a href="#protokoll">Protokoll</a>
   </nav>
 </header>''']
+    if briefing_html:
+        teile.append(briefing_html)
     if naechster:
         t = zeit(naechster)
+        ueber = (' <span class="pill crit">🔴 überfällig</span>'
+                 if n and naechster["status"] == "freigegeben" and t < n - UEBERFAELLIG else "")
         hinweis = f'<p class="hero-hinweis">{md(naechster["hinweis"] + issue_link(naechster))}</p>' if naechster.get("hinweis") else ""
         teile.append(f'''<section class="hero">
   <div class="hero-links">
     <div class="kicker">Als Nächstes online</div>
     <div class="hero-titel">{e(TYP.get(naechster["typ"], naechster["typ"]))} <code>{e(naechster["id"])}</code></div>
-    <div class="hero-zeit">{e(tag(t))} Uhr · {status_pille(naechster["status"])}</div>
+    <div class="hero-zeit">{e(tag(t))} Uhr · {status_pille(naechster["status"])}{ueber}</div>
     {hinweis}
   </div>
   <div class="countdown" data-ziel="{t.isoformat()}"><span class="cd-wert">–</span><span class="cd-label">bis online</span></div>
@@ -104,7 +108,9 @@ def kacheln(n, punkte, kommend, ablaeufe):
             diff_text = f'<span class="delta {"neg" if diff < 0 else "pos" if diff > 0 else ""}">{diff:+d} seit {e(zeilen[-2]["datum"][8:10])}.{e(zeilen[-2]["datum"][5:7])}.</span>'
     reich, reich_text = "–", ""
     if (dateien := insights_dateien()):
-        tage = sorted((json.loads(dateien[-1].read_text()).get("tageswerte_reichweite") or {}).items())
+        d = json.loads(dateien[-1].read_text())
+        grenze = min(n.strftime("%Y-%m-%d"), d.get("abgerufen", "9999")[:10])  # laufender Tag ist unvollständig
+        tage = [(t, v) for t, v in sorted((d.get("tageswerte_reichweite") or {}).items()) if t < grenze]
         if tage:
             reich = tage[-1][1]
             reich_text = f'<span class="delta">am {tage[-1][0][8:10]}.{tage[-1][0][5:7]}. · Ø 7 Tage {round(sum(v for _, v in tage[-7:]) / len(tage[-7:]))}</span>'
@@ -123,6 +129,76 @@ def kacheln(n, punkte, kommend, ablaeufe):
     <span class="delta {"neg" if rot else ""}">{f"{rot} rot" if rot else "nichts Dringendes"}</span></div>
   <div class="kachel {"k-crit" if fehl else ""}"><div class="k-label">Automatik</div><div class="k-wert">{ok}/{len(ablaeufe)}</div>
     <span class="delta {"neg" if fehl else ""}">{e(auto_text)}</span></div>
+</section>'''
+
+
+AMPEL_STUFE = {"✅": "done", "🔴": "crit", "🟢": "ok", "🟡": "warn", "✋": "info"}
+
+
+def briefing(n, eintraege, punkte):
+    """30-Sekunden-Briefing: heute online (Ampel), letzte 7 Tage, Testmonat je KW, freie Slots."""
+    heute = "".join(
+        f'<li class="b-heute {AMPEL_STUFE.get(a, "warn")}"><span class="chip-zeit">{zeit(x):%H:%M}</span> '
+        f'{e(TYP.get(x["typ"], x["typ"]))} <code>{e(x["id"])}</code> <span class="pill {AMPEL_STUFE.get(a, "warn")}">{e(a)} {e(t)}</span></li>'
+        for a, t, x in heute_ampel(eintraege, n)) or '<li class="b-heute muted">Heute ist nichts geplant.</li>'
+    offen = [p for p in punkte if not p.startswith("Nichts")]
+    rot = sum(p.startswith("🔴") for p in offen)
+    offen_text = (f'<a href="#braucht" class="b-offen {"crit" if rot else "warn" if offen else "ok"}">👉 Braucht dich: '
+                  f'<strong>{len(offen)}</strong>{f" · {rot} rot" if rot else ""}</a>')
+
+    w = sieben_tage(n)
+    if w:
+        rw = (f'<div class="k-wert">{e(w.get("reichweite", "–"))}</div><span class="delta">erreicht'
+              + (f' · {e(w["von"][8:10])}.{e(w["von"][5:7])}.–{e(w["bis"][8:10])}.{e(w["bis"][5:7])}.' if "von" in w else "") + "</span>")
+        if "vorwoche" in w:
+            rw += f'<span class="delta {"neg" if w["reichweite"] < w["vorwoche"] else "pos"}"> · {e(vorwoche_prozent(w))} zur Vorwoche</span>'
+        fd = w.get("follower_diff")
+        fol = (f'<div class="b-zeile">Follower <strong class="delta {"neg" if fd < 0 else "pos" if fd > 0 else ""}">{fd:+d}</strong> '
+               f'<span class="leise">(jetzt {e(w["follower"])})</span></div>') if fd is not None else ""
+        fu = (f'<div class="b-zeile leise">30 Tage: +{e(w["follows30"])} Follows / −{e(w.get("entfolgt30", "–"))} entfolgt</div>'
+              if w.get("follows30") is not None else "")
+        sieben = f'<div class="kachel"><div class="k-label">Letzte 7 Tage <span class="leise">(nur abgeschlossene Tage)</span></div>{rw}{fol}{fu}</div>'
+    else:
+        sieben = '<div class="kachel"><div class="k-label">Letzte 7 Tage</div><div class="k-wert">–</div><span class="delta">noch keine Statistik</span></div>'
+
+    wochen = testmonat(eintraege, n)
+    test = ""
+    if wochen:
+        zeilen = ""
+        for x in wochen:
+            sicher = x["online"] + x["geplant"]
+            stufe_w = "ok" if sicher >= FEED_SOLL and not x["ohne_reel"] else "crit" if sicher < FEED_SOLL / 2 else "warn"
+            breite = lambda k: f"{min(100, 100 * x[k] / FEED_SOLL):.1f}%"
+            ohne = (" · ohne Reel: " + ", ".join(f"{WOCHENTAG[d.weekday()]} {d:%d.}" for d in x["ohne_reel"])
+                    if x["ohne_reel"] and not x["vorbei"] and len(x["ohne_reel"]) <= 3 else "")
+            zeilen += (f'<div class="tm-zeile{" aktuell" if x["aktuell"] else ""}{" vorbei" if x["vorbei"] else ""}">'
+                       f'<div class="tm-kopf"><span><strong>KW {x["kw"]}</strong> <span class="leise">{x["von"]:%d.%m.}–{x["bis"]:%d.%m.}'
+                       f'{" · jetzt" if x["aktuell"] else ""}</span></span><span class="pill {stufe_w}">{sicher}/{FEED_SOLL} Feed</span></div>'
+                       f'<div class="tm-balken" role="img" aria-label="{x["online"]} online, {x["geplant"]} geplant, {x["wartet"]} wartet von {FEED_SOLL}">'
+                       f'<span class="tm-online" style="width:{breite("online")}"></span><span class="tm-geplant" style="width:{breite("geplant")}"></span>'
+                       f'<span class="tm-wartet" style="width:{breite("wartet")}"></span></div>'
+                       f'<div class="tm-info leise">{x["online"]} online · {x["geplant"]} geplant'
+                       + (f' · {x["wartet"]} wartet' if x["wartet"] else "") + (f' · {x["fehler"]} Fehler' if x["fehler"] else "")
+                       + f' · Reel-Tage {x["reel_tage"]}/{x["test_tage"]}{e(ohne)}</div></div>')
+        tag_nr = max(0, min((n.date() - TEST_START).days + 1, 28))
+        test = (f'<div class="block b-test"><div class="k-label">Testmonat · Tag {tag_nr}/28 · Soll {FEED_SOLL} Feed/Woche, täglich ≥ 1 Reel</div>'
+                f'{zeilen}<div class="tm-legende leise"><span class="tm-online"></span>online <span class="tm-geplant"></span>geplant '
+                f'<span class="tm-wartet"></span>wartet (zählt nicht)</div></div>')
+
+    frei = freie_slots(eintraege, n)
+    slots = "".join(
+        f'<li><span class="nowrap"><strong>{WOCHENTAG[d.weekday()]} {d:%d.%m.}</strong></span> '
+        + " ".join(f'<span class="slot">{e(x)}</span>' for x in liste)
+        + (' <span class="pill crit">ganzer Tag leer</span>' if len(liste) == 4 else "") + "</li>"
+        for d, liste in sorted(frei.items())) or "<li>Alle Slots belegt.</li>"
+    slots_html = (f'<div class="block b-slots"><div class="k-label">Freie Slots · nächste 7 Tage '
+                  f'<span class="leise">({sum(map(len, frei.values()))} · Feed 11:45/17:45, Storys 12:15/17:50)</span></div>'
+                  f'<ul class="slot-liste">{slots}</ul></div>')
+    return f'''<section id="briefing" class="briefing">
+  <div class="b-kopf"><div class="kicker">30-Sekunden-Briefing</div>{offen_text}</div>
+  <div class="k-label">Heute online</div>
+  <ul class="b-heute-liste">{heute}</ul>
+  <div class="b-grid">{sieben}{test}{slots_html}</div>
 </section>'''
 
 
@@ -450,7 +526,29 @@ figcaption{font-size:13px;color:var(--leise);margin-bottom:6px}
 .pk-details{font-size:12.5px;color:var(--leise);margin-top:2px}
 .sha{font:11.5px "IBM Plex Mono",monospace;color:var(--leise)}
 footer{margin-top:48px;color:var(--leise);font-size:12.5px}
-@media (max-width:600px){h1{font-size:28px}.hero{padding:16px}.k-wert{font-size:26px}}
+.briefing{margin-top:20px;padding:18px;border-radius:14px;background:var(--flaeche);border:1px solid var(--linie);box-shadow:var(--schatten)}
+.b-kopf{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.b-offen{font-size:13px;text-decoration:none;border-radius:999px;padding:4px 12px;border:1px solid var(--linie);color:var(--text)}
+.b-offen.crit{background:var(--crit-bg);border-color:var(--crit);color:var(--crit)}.b-offen.warn{background:var(--warn-bg);color:var(--warn)}
+.b-offen.ok{background:var(--ok-bg);color:var(--ok)}
+.b-heute-liste{list-style:none;padding:0;margin:4px 0 14px;display:grid;gap:6px}
+.b-heute{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:7px 10px;border-radius:8px;border-left:4px solid var(--leise);background:var(--flaeche2);font-size:14px}
+.b-heute.ok{border-left-color:var(--ok)}.b-heute.warn{border-left-color:var(--warn)}.b-heute.crit{border-left-color:var(--crit);background:var(--crit-bg)}
+.b-heute.info{border-left-color:var(--info)}.b-heute.done{border-left-color:var(--done)}
+.b-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.b-grid .kachel,.b-grid .block{padding:14px 16px}
+.b-zeile{font-size:13.5px;margin-top:6px}
+.tm-zeile{margin-top:10px}.tm-zeile.vorbei{opacity:.62}.tm-zeile.aktuell .tm-kopf strong{color:var(--akzent-text)}
+.tm-kopf{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13.5px}
+.tm-balken{display:flex;height:8px;border-radius:999px;background:var(--flaeche2);overflow:hidden;margin:5px 0 3px;border:1px solid var(--linie)}
+.tm-online,.tm-geplant,.tm-wartet{display:inline-block;height:100%}
+.tm-online{background:var(--done)}.tm-geplant{background:var(--ok)}.tm-wartet{background:var(--warn);opacity:.55}
+.tm-info{font-size:12.5px}
+.tm-legende{margin-top:10px;font-size:12px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.tm-legende span{width:10px;height:10px;border-radius:3px;margin-left:6px}
+.slot-liste{list-style:none;padding:0;margin:6px 0 0;display:grid;gap:6px;font-size:13.5px}
+.slot{display:inline-block;font:12px "IBM Plex Mono",monospace;background:var(--flaeche2);border:1px solid var(--linie);border-radius:6px;padding:1px 6px;margin:1px 2px 1px 0;white-space:nowrap}
+@media (max-width:600px){h1{font-size:28px}.hero{padding:16px}.k-wert{font-size:26px}.briefing{padding:14px}}
 """
 
 JS = """
@@ -484,7 +582,7 @@ JS = """
 
 def schreiben(n, stand, eintraege, kommend, naechster, punkte, ablaeufe, commits):
     koerper = "\n".join([
-        kopf(stand, naechster),
+        kopf(stand, naechster, briefing(n, eintraege, punkte), n),
         kacheln(n, punkte, kommend, ablaeufe),
         braucht(punkte),
         notizen(),
