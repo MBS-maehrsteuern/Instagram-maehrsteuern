@@ -1,0 +1,11 @@
+{
+ "titel": "Reel 36 · Bewirtungsbeleg ohne Anlass – der Prüfer streicht (Nachtlauf 14.10.): Titelbild, Pflichtangaben-Karte, Getrennt-buchen-Karte, Abspann, Tipp-Story. Inhalt aus Bibliothek r3_08/r3_24 (R3 gegengelesen)",
+ "ausgabe": "../../posts/36_2026-10-26_reel_bewirtung",
+ "bilder": [
+  {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Prüfer-Fall", "titel": "Bewirtung\nohne *Anlass*.", "sub": "Der Prüfer streicht – 0 statt 70 %."},
+  {"vorlage": "einblendung", "datei": "bausteine/karte_angaben.png", "typ": "haken", "kicker": "§ 4 Abs. 5 Satz 1 Nr. 2 EStG", "titel": "Ort, Tag, Teilnehmer,\n*Anlass*, Höhe.", "sub": "„Arbeitsgespräch“ als Anlass reicht nicht."},
+  {"vorlage": "einblendung", "datei": "bausteine/karte_konto.png", "typ": "haken", "kicker": "§ 4 Abs. 7 EStG", "titel": "Getrennt\n*buchen*.", "sub": "Eigenes Konto für Bewirtungen –\nsonst ist der Abzug weg."},
+  {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Belege\n*vorher prüfen.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
+  {"vorlage": "story", "datei": "story_mo_tipp.png", "typ": "antwort", "kicker": "Tipp", "titel": "Bewirtungsbeleg *vollständig*.", "text": "Ort, Tag, Teilnehmer, Anlass und Höhe – im Restaurant ein maschinell erstellter Beleg. „Arbeitsgespräch“ als Anlass reicht nicht (§ 4 Abs. 5 Satz 1 Nr. 2 EStG).", "antwort": "Tipp unten auf ein Emoji:\n👏 = machen wir so · 😮 = neu für mich"}
+ ]
+}

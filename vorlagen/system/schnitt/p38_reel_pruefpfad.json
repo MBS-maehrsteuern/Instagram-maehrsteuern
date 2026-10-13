@@ -1,0 +1,119 @@
+{
+ "ausgabe": "../../posts/38_2026-10-27_reel_pruefpfad/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/titelbild.png",
+   "dauer": 2.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Betriebsprüfung, Tag 1:",
+     "groesse": 80,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/haken_pruefpfad.png",
+   "dauer": 2.6,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ],
+   "text": [
+    {
+     "wort": "12 Blätter. Kein Pfad.",
+     "groesse": 95,
+     "y": 1250,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.8,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/karte_verfahrensdoku.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/karte_datenzugriff.png",
+   "dauer": 2.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 4.9,
+   "lautstaerke": 0.185,
+   "ein": 0.1,
+   "aus": 0.3
+  },
+  {
+   "datei": "../../musik/09_runway_lofi_piano.mp3",
+   "ab": 4.9,
+   "start": 0,
+   "lautstaerke": 0.594,
+   "ein": 0.3
+  }
+ ]
+}

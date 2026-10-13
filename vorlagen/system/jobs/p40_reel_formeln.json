@@ -1,0 +1,9 @@
+{
+ "titel": "Reel 40 · Excel-Formel-Check: WENNFEHLER versteckt den Fehler (Nachtlauf 14.10.): Titelbild, Abspann TOOL, Story-Teaser. Folien aus Bibliothek r2_07 (R2 gegengelesen, $C$12-Satz korrigiert)",
+ "ausgabe": "../../posts/40_2026-10-28_reel_formeln",
+ "bilder": [
+  {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Excel-Formel-Check", "titel": "Fehler weg.\n*Steuer auch.*", "sub": "=WENNFEHLER(…; 0) in der Rückstellung."},
+  {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Fehler\n*sichtbar lassen.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
+  {"vorlage": "story", "datei": "story_mi_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Excel: *Fehler weg, Steuer auch.*", "bild": "../../posts/40_2026-10-28_reel_formeln/titelbild.png"}
+ ]
+}

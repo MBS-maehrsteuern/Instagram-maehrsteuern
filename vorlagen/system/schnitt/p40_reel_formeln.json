@@ -1,0 +1,164 @@
+{
+ "ausgabe": "../../posts/40_2026-10-28_reel_formeln/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/titelbild.png",
+   "dauer": 2.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Formel-Check:",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_wennfehler.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Fehler → 0 €",
+     "groesse": 100,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "versteckt.",
+     "groesse": 170,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_xverweis.png",
+   "dauer": 2.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Besser:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Satz aus Tabelle",
+     "groesse": 120,
+     "y": 490,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_namen.png",
+   "dauer": 2.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Und:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "„Hebesatz“ statt $C$12",
+     "groesse": 95,
+     "y": 490,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/tippen_fehlerton.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.266,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/12_runway_pop_electronic.mp3",
+   "ab": 2.3,
+   "start": 0,
+   "lautstaerke": 0.608,
+   "ein": 0.3
+  }
+ ]
+}

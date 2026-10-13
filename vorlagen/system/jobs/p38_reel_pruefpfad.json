@@ -1,0 +1,9 @@
+{
+ "titel": "Reel 38 · Betriebsprüfung: Woher kommt diese Zahl? – Begleit-Reel zu Karussell 37 (Nachtlauf 14.10.): Titelbild BP, Abspann TOOL, Story-Teaser. Haken/Leiste aus Bibliothek r1_07 (R1 gegengelesen)",
+ "ausgabe": "../../posts/38_2026-10-27_reel_pruefpfad",
+ "bilder": [
+  {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Betriebsprüfung", "titel": "Jede Zahl\nbis zur *Quelle*.", "sub": "Die erste Frage des Prüfers."},
+  {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Jede Zahl\n*belegt.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
+  {"vorlage": "story", "datei": "story_di_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Betriebsprüfung: *Woher kommt diese Zahl?*", "bild": "../../posts/38_2026-10-27_reel_pruefpfad/titelbild.png"}
+ ]
+}

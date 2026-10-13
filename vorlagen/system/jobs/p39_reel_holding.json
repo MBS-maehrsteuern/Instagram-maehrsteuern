@@ -1,0 +1,38 @@
+{
+ "titel": "Reel 39 · Holding: 1,5 % (Nachtlauf 14.10.): Titelbild, Karte 10-%-Grenze Dividenden, Abspann TOOL. Inhalt aus Bibliothek r4_03/r4_23 (R4 gegengelesen, 14.913 € / 1,49 % nachgerechnet), Quiz-Story als Emoji-Tipp (statt offener Antwort)",
+ "ausgabe": "../../posts/39_2026-10-28_reel_holding",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Holding · Demo-Zahlen",
+   "titel": "1 Mio. € Gewinn.\n*1,5 %* Steuer.",
+   "sub": "GmbH verkauft GmbH-Anteile."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_grenze.png",
+   "typ": "haken",
+   "kicker": "§ 8b Abs. 4 KStG",
+   "titel": "Dividenden:\nerst ab *10 %*.",
+   "sub": "Veräußerungsgewinne:\nohne Mindestbeteiligung."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Struktur\n*durchrechnen?*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · Demo-Zahlen, Hebesatz 400 %"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_mi_quiz.png",
+   "typ": "antwort",
+   "kicker": "Quiz",
+   "titel": "GmbH verkauft Anteile: 1 Mio. € Gewinn. Wie viel *Steuer*?",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = rund 1,5 % · 😮 = rund 30 %\nDie Antwort steht im neuen Reel."
+  }
+ ]
+}

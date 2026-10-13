@@ -1,0 +1,8 @@
+{
+ "titel": "Karussell 37 · Betriebsprüfung: 4 Dinge vorab (Nachtlauf 14.10.): Folie 6 Speichern + Weiterleiten + TOOL, Tipp-Story. Rest aus Bibliothek r3_18 (R3 gegengelesen)",
+ "ausgabe": "../../posts/37_2026-10-27_bp_vorbereitung",
+ "bilder": [
+  {"vorlage": "karussell", "datei": "folie_06.png", "seite": 6, "von": 6, "typ": "cta", "saeule": "Praxis", "titel": "*Speichern* bis zur nächsten Prüfungsanordnung.", "text": "Wer in deinem Team braucht das? Schick's weiter.\nUnd „Woher kommt diese Zahl?“: Mein Tool zeigt jede Zahl der Steuerrückstellung bis zur Quelle. Schreib „TOOL“.", "chip": "📌 Speichern · 📤 Senden"},
+  {"vorlage": "story", "datei": "story_di_tipp.png", "typ": "antwort", "kicker": "Tipp", "titel": "Prüfungs­anordnung: *zuerst* lesen.", "text": "Steuerarten, Zeiträume, Beginn. Passt der Termin nicht, kann der Beginn auf Antrag aus wichtigem Grund verlegt werden (§ 197 Abs. 2 AO).", "antwort": "Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+ ]
+}
