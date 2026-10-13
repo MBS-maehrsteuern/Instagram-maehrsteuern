@@ -1,0 +1,137 @@
+{
+ "ausgabe": "../../posts/57_2026-11-07_reel_verlust_8c/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/titelbild.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Verlustvortrag: 0 €?",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/karte_regel.png",
+   "dauer": 3.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "rein": "whip",
+   "text": [
+    {
+     "wort": "Die Regel",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "> 50 % in 5 Jahren",
+     "groesse": 110,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/karte_anker.png",
+   "dauer": 4.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "3 Rettungsanker",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "+ § 8d auf Antrag",
+     "groesse": 100,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 1.2,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.22,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 0.3,
+   "dauer": 0.8,
+   "lautstaerke": 0.33
+  },
+  {
+   "datei": "../../musik/10_runway_spannung.mp3",
+   "ab": 2.6,
+   "start": 0,
+   "lautstaerke": 0.74,
+   "ein": 0.3
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "ausgabe": "../../posts/58_2026-11-08_reel_vorsteuer/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/titelbild.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Der Prüfer will die Rechnung.",
+     "groesse": 80,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/karte_rechnung.png",
+   "dauer": 3.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "rein": "whip",
+   "text": [
+    {
+     "wort": "Voraussetzung 3 von 4",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Ordnungsgemäße Rechnung",
+     "groesse": 100,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/karte_pflicht.png",
+   "dauer": 4.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Was drauf muss",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Fehlt was? Berichtigen.",
+     "groesse": 100,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 1.2,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.22,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 0.3,
+   "dauer": 0.8,
+   "lautstaerke": 0.33
+  },
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 2.6,
+   "start": 0,
+   "lautstaerke": 1.04,
+   "ein": 0.3
+  }
+ ]
+}

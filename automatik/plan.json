@@ -1412,6 +1412,86 @@
       ],
       "status": "freigegeben",
       "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Betriebsaufspaltungs-Reel (Titelbild), jobs/p47_reel_betriebsaufspaltung.json."
+    },
+    {
+      "id": "57-reel-verlust-8c",
+      "zeit": "2026-11-07 17:45",
+      "typ": "reel",
+      "ordner": "posts/57_2026-11-07_reel_verlust_8c",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,8 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Zahl-Hook „51 % verkauft? Verluste weg.“, Karten aus karussell/par8c Folie 2 (Regel) und 3 (Rettungsanker), ampel_8c_* (Demo-Quoten) bewusst nicht genutzt. Bildunterschrift: § 8c Abs. 1 Satz 1/4/5–8, Abs. 1a, § 8d KStG, § 10a Satz 10 GewStG, Zinsvortrag § 8a Abs. 1 Satz 3 KStG. Sa 11:45 bleibt frei (Stimm-Slot). jobs/p57_reel_verlust_8c.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p57_reel_verlust_8c.json."
+    },
+    {
+      "id": "57-story-teaser",
+      "zeit": "2026-11-07 17:50",
+      "typ": "story",
+      "ordner": "posts/57_2026-11-07_reel_verlust_8c",
+      "bilder": [
+        "story_sa_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum § 8c-Reel (Titelbild), jobs/p57_reel_verlust_8c.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird."
+    },
+    {
+      "id": "58-reel-vorsteuer",
+      "zeit": "2026-11-08 11:45",
+      "typ": "reel",
+      "ordner": "posts/58_2026-11-08_reel_vorsteuer",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,7 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 08 Chill House. Titelbild neu als Prüfer-Fall „Rechnung lückenhaft? Vorsteuer wackelt.“, Karten aus karussell/vorsteuer Folie 4 und Pflichtangaben-Folie mit 3 statt 5 Punkten (gebündelt, Reel-Regel). ampel_vst_* nicht genutzt (zeigt § 13b = Thema d2 Reverse-Charge). Bildunterschrift: 4 Voraussetzungen § 15 UStG, § 14 Abs. 4 UStG, § 33 UStDV (250 €), rückwirkende Berichtigung nur mit Mindestangaben (§ 31 Abs. 5 UStDV, BMF 18.09.2020). jobs/p58_reel_vorsteuer.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p58_reel_vorsteuer.json."
+    },
+    {
+      "id": "58-story-tipp",
+      "zeit": "2026-11-08 12:15",
+      "typ": "story",
+      "ordner": "posts/58_2026-11-08_reel_vorsteuer",
+      "bilder": [
+        "story_so_tipp.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf (d3): Tipp-Story mit Emoji-Reaktion „Bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)“ zum Vorsteuer-Reel, jobs/p58_reel_vorsteuer.json."
+    },
+    {
+      "id": "59-karussell-pensionen",
+      "zeit": "2026-11-08 17:45",
+      "typ": "karussell",
+      "ordner": "posts/59_2026-11-08_pensionen",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": false,
+      "hook": "zahl",
+      "hinweis": "14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen, keine offenen Punkte), karussell/pension Folien 1–5 unverändert; Folie 6 neu: „Speichern für die Gutachten-Saison“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p59_pensionen.json). Letzter Testmonat-Tag: Bildunterschrift mit Community-Auswahl „Welches Thema als Nächstes: A) Teilwertabschreibung oder B) Rechnungsabgrenzung?“. Fachlich: § 6a Abs. 1, Abs. 3 Satz 3 EStG (6 %), § 253 Abs. 2 und 6 HGB (10-Jahres-Durchschnitt, Ausschüttungssperre), § 274 HGB (Wahlrecht Aktivüberhang). Alt-Texte in alt_texte.json."
+    },
+    {
+      "id": "59-story-teaser",
+      "zeit": "2026-11-08 17:50",
+      "typ": "story",
+      "ordner": "posts/59_2026-11-08_pensionen",
+      "bilder": [
+        "story_so_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum Pensions-Karussell (Folie 1), jobs/p59_pensionen.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird."
     }
   ]
 }

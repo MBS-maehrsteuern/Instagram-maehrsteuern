@@ -1,0 +1,17 @@
+Vorsteuerabzug: Die Rechnung ist unvollständig – und der Prüfer streicht die Vorsteuer? 🧾
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Die 4 Voraussetzungen nach § 15 UStG:
+01 Unternehmer im Sinne des § 2 UStG
+02 Leistung für das Unternehmen (Gegenstände: mindestens 10 % unternehmerisch genutzt, § 15 Abs. 1 Satz 2 UStG)
+03 Ordnungsgemäße Rechnung mit allen Pflichtangaben (§ 14 Abs. 4 UStG) – bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)
+04 Kein Ausschluss durch steuerfreie Umsätze (§ 15 Abs. 2 UStG)
+Fehlt eine Pflichtangabe, kann der Prüfer den Abzug versagen. Die Berichtigung durch den Lieferanten (§ 31 Abs. 5 UStDV) wirkt zurück – aber nur, wenn die Rechnung schon die Grundangaben hatte: Aussteller, Empfänger, Leistung, Entgelt und gesondert ausgewiesene Steuer (BMF 18.09.2020).
+
+Wie prüft ihr Eingangsrechnungen: A) Stichprobe von Hand oder B) jede automatisch? 👇
+📤 Schick das der Person, die bei euch die Eingangsrechnungen freigibt.
+
+Typischer Prüfer-Fall, kein echter Mandant. Gesetzeswerte, Stand 2026.
+
+#steuern #steuerabteilung #umsatzsteuer #vorsteuer
