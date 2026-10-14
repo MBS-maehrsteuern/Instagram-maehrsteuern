@@ -15,6 +15,8 @@ einzeln committet (Protokoll in LAGE.md).
 - **Statistik/Lage besser:** Zeitzonen-Fehler ab 25.10. behoben, keine Doppelläufe, neue Kennzahlen (Ø Sehdauer in s,
   Reichweite nach 24 h, Follows/Entfolgungen, Wochenziele mit Ampel), LAGE mit 30-Sekunden-Briefing.
 
+**Morgen-Check 14.10. 06:50:** alles gepusht, Automatik ✅ (alle Abläufe ok), heute online: 12:15 Quiz-Story Rückstellung, 17:45 Hinzurechnungs-Reel (neues Titelbild, neuer Text).
+
 ## 1 · Was die Daten sagen (Insights 30.09.–13.10.)
 | Erkenntnis | Beleg | Konsequenz (eingebaut) |
 |---|---|---|
@@ -59,6 +61,7 @@ automatisch, ob Aufnahmen da sind, und stellt sonst um (video → Ersatz, stimme
   warten auf ihren Feed-Beitrag, Fehler beim Vorbereiten trifft nur den einen Eintrag, Container vor dem Warten.
   14 Unit-Tests (`automatik/tests/test_posten.py`).
 - `waechter.py`: 🔴 wenn der externe Posten-Takt > 40 Min. steht.
+- `radar.py` (14.10. früh, Loris' Hinweis): derselbe Beitrag erscheint nur noch einmal (nach ID + Textanfang).
 - Statistik/Radar: Reserve-Läufe überschreiben den Morgenstand nicht mehr; Radar schließt das Morgen-Issue nicht.
 - `tagesbericht.py`: Pacific→Berlin je Datum (Zeitumstellung 25.10./01.11.), neue Kennzahlen; `wochenbericht.py`:
   Kennzahlen + Ziele + Ampel.
