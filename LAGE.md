@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 📱 Story `09-story-quiz` (online) · ✅ 17:45 🎬 Reel `07-reel-hinzurechnung` (online)
+- **Heute online:** 🟢 11:45 🖼️ Karussell `09-rueckstellung` (läuft automatisch) · 🟢 12:15 📱 Story `09-story-teaser` (läuft automatisch) · 🟢 17:45 🎬 Reel `16-reel-listen` (läuft automatisch) · 🟢 17:50 📱 Story `09-story-aufloesung` (läuft automatisch) · 🟢 18:00 📱 Story `04-story-frage` (läuft automatisch)
 - **Braucht dich:** 9 offen
 - **Letzte 7 Tage:** Reichweite **1462** (07.10.–13.10., +22 % zur Vorwoche) · Follower **+6** (jetzt 364) · 30 Tage: +22 Follows / −11 entfolgt
-- **Testmonat** (Tag 3/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 4/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **12/14** (4 online · 8 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 43** (19.10.–25.10.): Feed **9/14** (0 online · 9 geplant · 5 wartet) · Reel-Tage (sicher) **5/7** – ohne Reel: Di 20.10., Do 22.10.
   - 🟡 **KW 44** (26.10.–01.11.): Feed **12/14** (0 online · 12 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
@@ -430,6 +430,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:05 📡 Radar 2026-10-09: 8 Beiträge, 0 DM-Entwürfe ([`0c9c6fc`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0c9c6fc3bc9e991c600d222579b7668cf1aba5c4))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Do 08.10.2026**
 - 19:35 🤖 Autopilot: 06-story-teaser veroeffentlicht ([`7cfed5a`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/7cfed5abd434681ce018f0a123c80eb0491cf57b))
   - Plan: `06-story-teaser` status: freigegeben → veroeffentlicht; `06-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4003554454352185254
@@ -467,8 +469,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:05 📡 Radar 2026-10-08: 8 Beiträge, 0 DM-Entwürfe ([`24a5a4f`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/24a5a4ffd0c8dc898c67f078a9bce7f64a4ba470))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mi 07.10.2026**
 - 19:35 🤖 Autopilot: 02-story-teaser veroeffentlicht ([`e476372`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/e476372f52ceb6d0bc4bee2debcd9b34867e3ac9))
