@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 14.10. 06:51 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 14.10. 07:10 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -222,6 +222,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 14.10.2026**
+- 07:10 💼 LinkedIn-Pakete: 26-karussell-kuerzungen, 29-karussell-verluste, 31-karussell-zinsschranke, 35-karussell-steuerkalender, 37-karussell-bp-vorbereitung, 41-karussell-mythen, 44-karussell-glossar, 46-karussell-dividenden-8b, 51-karussell-kapitalertraege, 53-karussell-iab, 56-karussell-verjaehrung, 59-karussell-pensionen ([`faf26c5`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/faf26c55651209ab7dbcb4f72bac877727909c02))
+  - `posts/26_2026-10-18_kuerzungen`, `posts/29_2026-10-20_verluste_70`, `posts/31_2026-10-22_zinsschranke`, `posts/35_2026-10-25_steuerkalender`, `posts/37_2026-10-27_bp_vorbereitung`, `posts/41_2026-10-29_mythen`, `…`
+- 07:05 📡 Radar 2026-10-14: 8 Beiträge, 0 DM-Entwürfe ([`e5cac03`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/e5cac037e3f8f772fca6abbd6abdb3cf69c31ff0))
+  - `automatik/interaktion`
 - 06:51 ✍️ Bericht Nachtlauf 14.10. finalisiert (Morgen-Check, Radar-Fix) ([`015a26d`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/015a26d56b96743b265a9b20ceaceae399f474a8))
   - `LAGE.html`, `strategie/16_optimierung_2026-10-14.md`
 - 05:29 📡 Radar: gleicher Beitrag nicht mehr mehrfach vorschlagen ([`0311da4`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0311da48b02b229d0a8927e2ecda9d3734c46e16))
