@@ -505,13 +505,16 @@
       "ordner": "posts/03_2026-10-13_gewst_hinzurechnung",
       "video": "reel_hinzurechnung.mp4",
       "text": "bildunterschrift_reel.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Titelbild ergänzt, Bildunterschrift (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell vom 13.10. (12,8 s, echte Programm-Aufnahme, ohne Stimme) – neuer Mittwochs-Reel-Slot",
       "issue": 14,
       "stimme": false,
       "hook": "fall",
       "titelbild": "titelbild_reel.png",
-      "begleit": true
+      "begleit": true,
+      "media_id": "17987011205886587",
+      "link": "https://www.instagram.com/reel/DeemwStk5mL/",
+      "veroeffentlicht_am": "2026-10-14 17:45"
     },
     {
       "id": "09-rueckstellung",
