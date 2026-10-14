@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 14.10. 01:46 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 14.10. 05:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -222,6 +222,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 14.10.2026**
+- 05:29 📡 Radar: gleicher Beitrag nicht mehr mehrfach vorschlagen ([`0311da4`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/0311da48b02b229d0a8927e2ecda9d3734c46e16))
+  - `automatik/radar.py`
 - 01:46 ✍️ QA KW 45: Fahrtenbuch-Normen, InvStG, § 171 AO, § 8c, § 34a ab 2028; Teaser ([`234e53f`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/234e53f1ba57e2d4430bee2cc2ba4d38864bcfdc))
   - `LAGE.html`, `posts/48_2026-11-02_reel_firmenwagen`, `posts/51_2026-11-03_kapitalertraege`, `posts/52_2026-11-04_reel_gobd`, `posts/53_2026-11-04_iab`, `posts/55_2026-11-06_reel_thesaurierung`, `…`
 - 01:19 ✍️ Bericht Nachtlauf 14.10.: Instagram-Optimierungen (Entwurf, QA KW 45 folgt) ([`92c6434`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/92c6434c40788e36757e3e60dbc089f8c466713c))
