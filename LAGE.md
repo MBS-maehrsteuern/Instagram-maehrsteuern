@@ -13,8 +13,8 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - 🟡 **KW 44** (26.10.–01.11.): Feed **12/14** (0 online · 12 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 45** (02.11.–08.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
 - **Freie Slots nächste 7 Tage** (2):
-  - Mi 14.10.: Story 17:50
   - Mo 19.10.: Story 17:50
+  - Mi 21.10.: Story 17:50
 
 **Als Nächstes online:** 🖼️ Karussell `09-rueckstellung` am **Do 15.10. 11:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
