@@ -303,11 +303,17 @@ def auswaehlen(profile, hashtag_beitraege, kontakte, gesehen):
         p, treffer = punkte(m, kontakte.get(m.get("konto", "")))
         wertung.append((p, treffer, m))
     wertung.sort(key=lambda x: -x[0])
-    auswahl, je_konto = [], {}
+    auswahl, je_konto, schon = [], {}, set()
     for p, treffer, m in wertung:  # höchstens 2 Beiträge pro Konto, damit die Liste breit bleibt
         schluessel = m.get("konto") or m["id"]
         if je_konto.get(schluessel, 0) >= 2:
             continue
+        # Derselbe Beitrag kommt über mehrere Hashtags/Läufe mehrfach; Hashtag-Beiträge haben keinen Kontonamen, und
+        # Kanzlei-Content-Dienste verteilen denselben Text an viele Konten → nach ID UND Textanfang nur einmal zeigen
+        kopf = " ".join((m.get("caption") or "").lower().split())[:120]
+        if m["id"] in schon or (kopf and kopf in schon):
+            continue
+        schon.update({m["id"], kopf} - {""})
         je_konto[schluessel] = je_konto.get(schluessel, 0) + 1
         m["treffer"] = treffer
         auswahl.append(m)
