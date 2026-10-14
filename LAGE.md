@@ -5,7 +5,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟢 12:15 📱 Story `09-story-quiz` (läuft automatisch) · 🟢 17:45 🎬 Reel `07-reel-hinzurechnung` (läuft automatisch)
-- **Braucht dich:** 9 offen
+- **Braucht dich:** 10 offen
 - **Letzte 7 Tage:** Reichweite **1462** (07.10.–13.10., +22 % zur Vorwoche) · Follower **+6** (jetzt 364) · 30 Tage: +22 Follows / −11 entfolgt
 - **Testmonat** (Tag 3/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **12/14** (3 online · 9 geplant) · Reel-Tage (sicher) **7/7**
@@ -58,6 +58,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - ⏰ **📌 Highlight „Start 👋“ in der App anlegen + Bio-Nutzen-Satz eintragen** (Di 13.10. 19:00) – Highlight aus den Start-Storys (30.09.) und der Neuvorstellung. Bio-Vorschlag in strategie/02_bio_highlights.md (Nutzen-Satz statt Leitspruch). Die Story zum Bio-Link läuft Di 13.10. 19:35 (Entwurf, Freigabe nötig).
 - ⏰ **💳 ManyChat-Trial endet Fr 16.10. – entscheiden** (Mi 14.10. 18:00) – Entscheidung Loris: weiter (Kosten?) oder kündigen. Grundlage: ManyChat gesendet/Klicks und Demos aus den Wochenberichten KW 40 + 41.
 - ⏰ **🎙️ 5 Sprechtexte einsprechen (je ≤ 15 s): Steuersatz, Aufbewahrung, Verlustvortrag, E-Rechnung, Zinsschranke** (Mi 14.10. 19:00) – Texte in posts/sprechtexte.md, Abschnitt „Neue Sprechtexte (11.10.)“. In Drive „Maehrsteuern audios“ ablegen. Ohne Aufnahme bleiben die Reel-Slots So 18.10. bis Do 22.10. 19:30 leer (keine Lücke mehr im Reel-Takt).
+- ⏰ **🔇 Keine Sprachnachricht? → Reels ohne Stimme bauen (19.–22. + 26.10.)** (Do 15.10. 12:00) – Notlösung (go Loris, 13.10.): Für jedes Reel mit Status wartet_auf_sprachnachricht ohne Aufnahme baut Claude bzw. die Content-Fabrik (Fr 16.10.) im selben Slot ein Reel ohne Stimme zum selben Thema (12–15 s, stimme=false, Status entwurf → Freigabe). Sprechtexte bleiben für später in posts/sprechtexte.md.
 
 ## ⏭️ Nächste 7 Tage
 
