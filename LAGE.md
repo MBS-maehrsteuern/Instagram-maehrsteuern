@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:45 🖼️ Karussell `09-rueckstellung` (online) · ✅ 12:15 📱 Story `09-story-teaser` (online) · ✅ 17:50 📱 Story `09-story-aufloesung` (online) · ✅ 18:00 📱 Story `04-story-frage` (online) · ✅ 18:35 🎬 Reel `60-reel-geld-verschenkt` (online) · ✅ 18:45 📱 Story `60-story-teaser` (online) · ✅ 21:15 🎬 Reel `16-reel-listen` (online)
+- **Heute online:** 🟢 11:45 🎬 Reel `24-reel-ein-euro` (läuft automatisch) · 🟢 12:15 📱 Story `03-story-aufloesung` (läuft automatisch) · 🟢 17:45 🎬 Reel `04-reel-mein-weg` (läuft automatisch) · 🟢 17:50 📱 Story `04-story-teaser` (läuft automatisch)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **1521** (08.10.–14.10., +21 % zur Vorwoche) · Follower **+9** (jetzt 365) · 30 Tage: +23 Follows / −11 entfolgt
-- **Testmonat** (Tag 4/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 5/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **13/14** (7 online · 6 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 43** (19.10.–25.10.): Feed **13/14** (0 online · 13 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 44** (26.10.–01.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
@@ -454,6 +454,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:04 📡 Radar 2026-10-10: 8 Beiträge, 0 DM-Entwürfe ([`f626328`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f626328688858f48feed9c8023210206cf3929a6))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Fr 09.10.2026**
 - 15:47 📈 Statistik 2026-10-09 ([`79346c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/79346c66cf32cc4fb3a54b81827749e3e7b01bbe))
   - `automatik/statistik`
@@ -471,8 +473,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:05 📡 Radar 2026-10-09: 8 Beiträge, 0 DM-Entwürfe ([`0c9c6fc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0c9c6fc3bc9e991c600d222579b7668cf1aba5c4))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Do 08.10.2026**
 - 19:35 🤖 Autopilot: 06-story-teaser veroeffentlicht ([`7cfed5a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7cfed5abd434681ce018f0a123c80eb0491cf57b))
