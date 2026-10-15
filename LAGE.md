@@ -1,10 +1,10 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 15.10. 12:07 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 15.10. 12:15 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:45 🖼️ Karussell `09-rueckstellung` (online) · 🟢 12:15 📱 Story `09-story-teaser` (läuft automatisch) · 🟢 17:45 🎬 Reel `16-reel-listen` (läuft automatisch) · 🟢 17:50 📱 Story `09-story-aufloesung` (läuft automatisch) · 🟢 18:00 📱 Story `04-story-frage` (läuft automatisch)
+- **Heute online:** ✅ 11:45 🖼️ Karussell `09-rueckstellung` (online) · ✅ 12:15 📱 Story `09-story-teaser` (online) · 🟢 17:45 🎬 Reel `16-reel-listen` (läuft automatisch) · 🟢 17:50 📱 Story `09-story-aufloesung` (läuft automatisch) · 🟢 18:00 📱 Story `04-story-frage` (läuft automatisch)
 - **Braucht dich:** 4 offen
 - **Letzte 7 Tage:** Reichweite **1462** (07.10.–13.10., +22 % zur Vorwoche) · Follower **+6** (jetzt 364) · 30 Tage: +22 Follows / −11 entfolgt
 - **Testmonat** (Tag 4/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
@@ -16,7 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Mo 19.10.: Story 17:50
   - Mi 21.10.: Story 17:50
 
-**Als Nächstes online:** 📱 Story `09-story-teaser` am **Do 15.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `16-reel-listen` am **Do 15.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -58,7 +58,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 15.10. 12:15 | 📱 Story `09-story-teaser` | 🟢 freigegeben (geht automatisch online) | 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Teaser neu gerendert (Folie 1 mit neuem Untertitel) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). · [Freigabe #35](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Do 15.10. 17:45 | 🎬 Reel `16-reel-listen` | 🟢 freigegeben (geht automatisch online) | 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift neu (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch. |
 | Do 15.10. 17:50 | 📱 Story `09-story-aufloesung` | 🟢 freigegeben (geht automatisch online) | 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell). · [Freigabe #35](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/35) |
 | Do 15.10. 18:00 | 📱 Story `04-story-frage` | 🟢 freigegeben (geht automatisch online) | 12.10.: go tippen (Loris, Issue #44) – Frage-Story mit Antwort zum Tippen statt Fragesticker (story_mo_frage_tippen.png). · [Freigabe #44](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/44) |
@@ -85,12 +84,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 21.10. 12:15 | 📱 Story `30-story-quiz` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Quiz quiz_gwg als Emoji-Tipp neu gerendert („Monitor 850 € netto – GWG?“ 👏 = Ja · 😮 = Nein, richtig: Nein). Auflösung Do 22.10. 17:50 (12:15 belegt durch 10-story-umfrage) |
 | Mi 21.10. 17:45 | 🎬 Reel `20-reel-erechnung` | 🟢 freigegeben (geht automatisch online) | 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
 | Do 22.10. 11:45 | 🖼️ Karussell `31-karussell-zinsschranke` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke |
+| Do 22.10. 12:15 | 📱 Story `10-story-umfrage` | 🟢 freigegeben (geht automatisch online) | 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Platzhalter „STICKER HIER“ ersetzt durch Tipp-Story (👏/😮) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 22.10. 12:15 | 📱 Story `10-story-umfrage` | 🟢 freigegeben (geht automatisch online) | 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Platzhalter „STICKER HIER“ ersetzt durch Tipp-Story (👏/😮) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Do 22.10. 17:45 | 🎬 Reel `21-reel-zinsschranke` | 🟢 freigegeben (geht automatisch online) | 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
 | Do 22.10. 17:50 | 📱 Story `30-story-aufloesung` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Auflösung zum GWG-Quiz vom Mi: Nein – GWG nur bis 800 € netto; 850 € → AfA oder Sammelposten. Slot war laut plan.json frei – bei Kollision weglassen |
 | Fr 23.10. 11:45 | 🎬 Reel `32-reel-mindeststeuer` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s (Titelbild reel_mindeststeuer + 3 Karten nach karussell/mindeststeuer + Abspann TOOL), Musik 12_pop_electronic. Schnitt: vorlagen/system/schnitt/p32_reel_mindeststeuer.json |
@@ -158,6 +157,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Do 15.10. 12:15 · 📱 Story `09-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4008391387481799579) (online 2026-10-15 12:15)
 - Do 15.10. 11:45 · 🖼️ Karussell `09-rueckstellung` · [ansehen](https://www.instagram.com/p/DegoIVKluPa/) (online 2026-10-15 11:45)
 - Mi 14.10. 17:45 · 🎬 Reel `07-reel-hinzurechnung` · [ansehen](https://www.instagram.com/reel/DeemwStk5mL/) (online 2026-10-14 17:45)
 - Mi 14.10. 12:15 · 📱 Story `09-story-quiz` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4007644771296937300) (online 2026-10-14 12:15)
@@ -167,7 +167,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Di 13.10. 12:15 · 🖼️ Karussell `03-gewst-hinzurechnung` · [ansehen](https://www.instagram.com/p/Debkp_3m1WY/) (online 2026-10-13 12:16)
 - Mo 12.10. 19:30 · 🎬 Reel `14-reel-versionen` · [ansehen](https://www.instagram.com/reel/DeZxf9AEy9p/) (online 2026-10-12 19:30)
 - Mo 12.10. 12:45 · 📱 Story `03-story-quiz` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4006247183418785188) (online 2026-10-12 12:45)
-- So 11.10. 19:30 · 🎬 Reel `13-reel-verknuepfung` · [ansehen](https://www.instagram.com/reel/DeXMtEnDn3I/) (online 2026-10-11 19:30)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -217,6 +216,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 15.10.2026**
+- 12:15 🤖 Autopilot: 09-story-teaser veroeffentlicht ([`43ead3b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/43ead3bc2ceaeab431fc196449077d1f150142e9))
+  - Plan: `09-story-teaser` status: freigegeben → veroeffentlicht; `09-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4008391387481799579
 - 12:07 ✍️ Plan: Stimm-Reels 18–22 auf Fassung ohne Stimme umgestellt (Notlösung, keine Aufnahme bis 15.10. 12:00) ([`57d175c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/57d175cde86a211435f4fbf7baae2470a284fae3))
   - Plan: `18-reel-aufbewahrung` status: wartet_auf_sprachnachricht → freigegeben; `19-reel-verlustvortrag` status: wartet_auf_sprachnachricht → freigegeben; `20-reel-erechnung` status: wartet_auf_sprachnachricht → freigegeben; `21-reel-zinsschranke` status: wartet_auf_sprachnachricht → freigegeben; `22-reel-steuersatz` status: wartet_auf_sprachnachricht → freigegeben
 - 11:57 📡 Radar 2026-10-15: 8 Beiträge, 0 DM-Entwürfe ([`f11d92f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f11d92f88f7e1bba6923e66fa2413dae12b65211))
