@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="basis.css"><script src="text.js"></script>
+<!-- Reel-Grafiken 1080×1920, transparent (Reel 60 „Geld verschenkt“). Typen: jahr | kalender | uhr | tage | muenze | strich | flieger | dokument. Position: x, y = Mitte -->
+<style>
+html,body{width:1080px;height:1920px;background:transparent!important}
+.el{position:absolute;transform:translate(-50%,-50%)}
+.jahr{width:300px;height:124px;border-radius:32px;border:5px solid var(--gruen);background:rgba(11,17,14,.78);display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-weight:600;font-size:74px;color:var(--text);box-shadow:0 0 50px rgba(83,195,162,.3)}
+.jahr.hell{background:var(--gruen);color:#0B110E}
+.kal{width:290px;height:330px;border-radius:30px;background:#EAF1EC;overflow:hidden;box-shadow:0 18px 60px rgba(0,0,0,.55),0 0 50px rgba(83,195,162,.25);text-align:center}
+.kal .band{height:84px;background:var(--rot);color:#0B110E;font-family:var(--mono);font-weight:600;font-size:42px;letter-spacing:.12em;display:flex;align-items:center;justify-content:center}
+.kal .tag{font-family:var(--serif);font-weight:600;font-size:196px;line-height:1;color:#0B110E;margin-top:16px}
+.kal .ring{position:absolute;top:-10px;width:20px;height:34px;border-radius:12px;background:#0B110E;border:4px solid #EAF1EC}
+.pill{border-radius:99px;border:5px solid var(--gruen);background:rgba(11,17,14,.85);padding:16px 48px;font-family:var(--mono);font-weight:600;font-size:56px;color:var(--text);white-space:nowrap;box-shadow:0 0 50px rgba(83,195,162,.3)}
+.pill b{color:var(--gruen)}
+svg{display:block;overflow:visible}
+</style></head><body>
+<script>
+const d = window.DATA || {typ:'kalender',x:540,y:900};
+let h = '', st = `left:${d.x}px;top:${d.y}px`;
+const G='#53C3A2', T='#EAF1EC', R='#E07A6B';
+if (d.typ==='jahr') h = `<div class="el jahr ${d.hell?'hell':''}" style="${st}">${d.text}</div>`;
+else if (d.typ==='kalender') h = `<div class="el kal" style="${st}"><div class="ring" style="left:36px"></div><div class="ring" style="right:36px"></div><div class="band">DEZ 2026</div><div class="tag">31</div></div>`;
+else if (d.typ==='tage') h = `<div class="el pill" style="${st}">noch <b>${d.text}</b> Tage</div>`;
+else if (d.typ==='uhr') { const a = d.winkel||0;
+  h = `<div class="el" style="${st}"><svg width="260" height="260" viewBox="-130 -130 260 260">
+   <circle r="118" fill="rgba(11,17,14,.85)" stroke="${G}" stroke-width="10"/>
+   ${[...Array(12)].map((_,i)=>`<line x1="0" y1="-98" x2="0" y2="-${i%3===0?80:90}" stroke="${T}" stroke-width="${i%3===0?7:4}" stroke-linecap="round" transform="rotate(${i*30})"/>`).join('')}
+   <line x1="0" y1="0" x2="0" y2="-52" stroke="${T}" stroke-width="10" stroke-linecap="round" transform="rotate(${(a/12)+300})"/>
+   <line x1="0" y1="14" x2="0" y2="-88" stroke="${R}" stroke-width="6" stroke-linecap="round" transform="rotate(${a})"/>
+   <circle r="9" fill="${R}"/></svg></div>`; }
+else if (d.typ==='muenze') h = `<div class="el" style="${st}"><svg width="400" height="400" viewBox="-200 -200 400 400">
+   <circle r="186" fill="rgba(83,195,162,.16)" stroke="${G}" stroke-width="16"/><circle r="150" fill="none" stroke="${G}" stroke-width="5" stroke-dasharray="3 14" stroke-linecap="round"/>
+   <text y="68" text-anchor="middle" font-family="IBM Plex Serif" font-weight="600" font-size="210" fill="${G}">€</text></svg></div>`;
+else if (d.typ==='strich') h = `<div class="el" style="${st}"><svg width="440" height="440" viewBox="-220 -220 440 440"><line x1="-170" y1="-170" x2="170" y2="170" stroke="${R}" stroke-width="26" stroke-linecap="round"/></svg></div>`;
+else if (d.typ==='flieger') h = `<div class="el" style="${st}"><svg width="330" height="300" viewBox="0 0 330 300">
+   <path d="M20 140 L310 20 L240 270 L160 190 Z" fill="rgba(83,195,162,.2)" stroke="${G}" stroke-width="14" stroke-linejoin="round"/>
+   <path d="M20 140 L160 190 L310 20" fill="none" stroke="${G}" stroke-width="14" stroke-linejoin="round"/>
+   <path d="M160 190 L172 262 L205 218" fill="none" stroke="${G}" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+   <path d="M-40 215 q30 20 60 -6 M-70 175 q22 14 46 -2" fill="none" stroke="${G}" stroke-width="8" stroke-linecap="round" opacity=".6"/></svg></div>`;
+else if (d.typ==='dokument') h = `<div class="el" style="${st}"><svg width="260" height="320" viewBox="0 0 260 320">
+   <path d="M20 10 H170 L240 80 V310 H20 Z" fill="rgba(234,241,236,.1)" stroke="${T}" stroke-width="10" stroke-linejoin="round"/>
+   <path d="M170 10 V80 H240" fill="none" stroke="${T}" stroke-width="10" stroke-linejoin="round"/>
+   <path d="M60 140 H200 M60 190 H200 M60 240 H140" stroke="${T}" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+   <circle cx="205" cy="268" r="62" fill="${G}"/><path d="M175 268 l24 24 l44 -50" fill="none" stroke="#0B110E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg></div>`;
+document.body.insertAdjacentHTML('beforeend', h);
+</script></body></html>

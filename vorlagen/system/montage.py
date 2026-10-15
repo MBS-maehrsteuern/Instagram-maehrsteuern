@@ -127,7 +127,8 @@ def text_ebene(eintraege, t):
     for e in eintraege:
         ab = zeit(e["ab"]) if "ab" in e else -1
         if t < ab or ("bis" in e and t >= zeit(e["bis"])): continue
-        zeile = e["wort"]
+        teile = e.get("teile")  # mehrfarbige Zeile: [["Text", "farbe"], ...] – ein Wort/Abschnitt je Farbe
+        zeile = " ".join(x[0] for x in teile) if teile else e["wort"]
         g = e.get("groesse", 150)
         breit = ImageDraw.Draw(ebene).textbbox((0, 0), zeile, font=font(g), stroke_width=round(g * 0.075))
         g = min(g, int(g * e.get("breite", W - 90) / (breit[2] - breit[0])))  # nie breiter als das Bild bzw. "breite" (Safe-Zone)
@@ -146,9 +147,45 @@ def text_ebene(eintraege, t):
         schatten = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         ImageDraw.Draw(schatten).text((x + 8, y + 12), zeile, font=f, fill=(0, 0, 0, 150), stroke_width=rand, stroke_fill=(0, 0, 0, 150))
         ebene.alpha_composite(schatten.filter(ImageFilter.GaussianBlur(10)))
-        ImageDraw.Draw(ebene).text((x, y), zeile, font=f, fill=FARBEN.get(e.get("farbe", "weiss"), e.get("farbe")),
-                                   stroke_width=rand, stroke_fill="#000000")
+        if teile:
+            d = ImageDraw.Draw(ebene); cx = x
+            for tx, fa in teile:  # erst alle Outlines, dann Füllung (sonst frisst die Outline das Nachbarwort an)
+                d.text((cx, y), tx, font=f, fill="#000000", stroke_width=rand, stroke_fill="#000000"); cx += f.getlength(tx + " ")
+            cx = x
+            for tx, fa in teile:
+                d.text((cx, y), tx, font=f, fill=FARBEN.get(fa, fa)); cx += f.getlength(tx + " ")
+        else:
+            ImageDraw.Draw(ebene).text((x, y), zeile, font=f, fill=FARBEN.get(e.get("farbe", "weiss"), e.get("farbe")),
+                                       stroke_width=rand, stroke_fill="#000000")
     return ebene
+
+
+_ebenen = {}
+def ebene_bild(datei):
+    if datei not in _ebenen: _ebenen[datei] = Image.open(pfad(datei)).convert("RGBA")
+    return _ebenen[datei]
+
+
+def ebenen_zeichnen(bild, liste, t):
+    """Szene-Option "ebenen": [{"datei": "x.png" (1080x1920, transparent), "ab": 0.5, "bis": 2, "pop": true, "pivot": [x, y],
+    "drift": [dx, dy, dauer], "verblassen": [t0, t1, alpha_ende]}] – Grafiken, die aufpoppen, wandern oder ausblenden."""
+    for l in liste:
+        ab = zeit(l.get("ab", 0))
+        if t < ab or ("bis" in l and t >= zeit(l["bis"])): continue
+        im = ebene_bild(l["datei"]); s, a, dx, dy = 1.0, 1.0, 0.0, 0.0
+        if l.get("pop"):
+            k = min((t - ab) / 0.2, 1); s = 0.65 + 0.35 * k + 0.12 * math.sin(math.pi * k); a = min(k * 1.6, 1)
+        if l.get("drift"):
+            ddx, ddy, dd = l["drift"]; k = min((t - ab) / dd, 1); k = 1 - (1 - k) ** 3; dx, dy = ddx * k, ddy * k
+        if l.get("verblassen"):
+            t0, t1, ae = l["verblassen"]; k = min(max((t - t0) / (t1 - t0), 0), 1); a *= 1 + (ae - 1) * k
+        px, py = l.get("pivot", [W / 2, H / 2])
+        if abs(s - 1) > 1e-3 or dx or dy:
+            im = im.transform((W, H), Image.AFFINE, (1 / s, 0, px - (px + dx) / s, 0, 1 / s, py - (py + dy) / s), Image.BICUBIC)
+        if a < 0.999:
+            im = im.copy(); im.putalpha(im.getchannel("A").point(lambda v: int(v * a)))
+        bild = bild.convert("RGBA"); bild.alpha_composite(im); bild = bild.convert("RGB")
+    return bild
 
 
 szenen = cfg["szenen"]
@@ -214,6 +251,8 @@ for nr, sz in enumerate(szenen):
             bild = rgb_versatz(bild, 10)
         if sz.get("abdunkeln"):
             bild = Image.blend(bild, Image.new("RGB", (W, H), "black"), sz["abdunkeln"])
+        if sz.get("ebenen"):
+            bild = ebenen_zeichnen(bild, sz["ebenen"], t)
         if sz.get("text"):
             bild = bild.convert("RGBA"); bild.alpha_composite(text_ebene(sz["text"], t)); bild = bild.convert("RGB")
         if "flash" in rein and i < 4:

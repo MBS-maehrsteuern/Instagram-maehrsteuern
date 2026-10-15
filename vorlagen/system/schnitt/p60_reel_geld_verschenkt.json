@@ -1,0 +1,807 @@
+{
+ "ausgabe": "../../posts/60_2026-10-15_reel_geld_verschenkt/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_foto.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1010,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Im Finanzamt",
+     "farbe": "weiss",
+     "groesse": 95,
+     "y": 300,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.3,
+     "bis": 3.0
+    },
+    {
+     "wort": "hab ich gesehen,",
+     "farbe": "weiss",
+     "groesse": 95,
+     "y": 412,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.6,
+     "bis": 3.0
+    },
+    {
+     "wort": "wie Leute",
+     "farbe": "weiss",
+     "groesse": 95,
+     "y": 524,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.9,
+     "bis": 3.0
+    },
+    {
+     "wort": "Geld verschenken.",
+     "farbe": "gruen",
+     "groesse": 95,
+     "y": 636,
+     "x": 465,
+     "breite": 820,
+     "ab": 1.2,
+     "bis": 3.0
+    },
+    {
+     "teile": [
+      [
+       "Im Finanzamt",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.06,
+     "bis": 0.8
+    },
+    {
+     "teile": [
+      [
+       "hab ich jeden Tag",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.76,
+     "bis": 1.42
+    },
+    {
+     "teile": [
+      [
+       "gesehen, wie Leute",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.38,
+     "bis": 2.08
+    },
+    {
+     "teile": [
+      [
+       "Geld",
+       "weiss"
+      ],
+      [
+       "verschenken.",
+       "gruen"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 2.04,
+     "bis": 3.0
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_foto.png",
+   "dauer": 2.54,
+   "von": [
+    540,
+    1010,
+    1000
+   ],
+   "nach": [
+    540,
+    1040,
+    940
+   ],
+   "abdunkeln": 0.35,
+   "text": [
+    {
+     "wort": "Nicht tricksen.",
+     "farbe": "weiss",
+     "groesse": 108,
+     "y": 360,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.1,
+     "bis": 2.54
+    },
+    {
+     "wort": "Nichts abgeben.",
+     "farbe": "gruen",
+     "groesse": 108,
+     "y": 500,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.55,
+     "bis": 2.54
+    },
+    {
+     "teile": [
+      [
+       "Nicht, weil sie",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.12,
+     "bis": 0.52
+    },
+    {
+     "teile": [
+      [
+       "tricksen – sondern",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.48,
+     "bis": 1.34
+    },
+    {
+     "teile": [
+      [
+       "weil sie gar",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.3,
+     "bis": 1.82
+    },
+    {
+     "teile": [
+      [
+       "nichts",
+       "gruen"
+      ],
+      [
+       "abgeben.",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.78,
+     "bis": 2.54
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_karte.png",
+   "dauer": 3.45,
+   "text": [
+    {
+     "wort": "Keine Pflicht?",
+     "farbe": "weiss",
+     "groesse": 127,
+     "y": 340,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.15,
+     "bis": 3.45
+    },
+    {
+     "wort": "Trotzdem",
+     "farbe": "gruen",
+     "groesse": 180,
+     "y": 530,
+     "x": 465,
+     "breite": 820,
+     "ab": 2.12,
+     "bis": 3.45
+    },
+    {
+     "wort": "abgeben.",
+     "farbe": "gruen",
+     "groesse": 180,
+     "y": 705,
+     "x": 465,
+     "breite": 820,
+     "ab": 2.47,
+     "bis": 3.45
+    },
+    {
+     "teile": [
+      [
+       "Wer keine",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.1,
+     "bis": 0.44
+    },
+    {
+     "teile": [
+      [
+       "Steuererklärung machen",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.4,
+     "bis": 1.28
+    },
+    {
+     "teile": [
+      [
+       "muss, darf",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.24,
+     "bis": 2.4
+    },
+    {
+     "teile": [
+      [
+       "trotzdem",
+       "gruen"
+      ],
+      [
+       "abgeben.",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 2.36,
+     "bis": 3.45
+    }
+   ],
+   "ebenen": [
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_dokument.png",
+     "ab": 2.4,
+     "pop": true,
+     "pivot": [
+      465,
+      1020
+     ]
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_karte.png",
+   "dauer": 1.25,
+   "text": [
+    {
+     "wort": "4 Jahre",
+     "farbe": "gruen",
+     "groesse": 229,
+     "y": 390,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.05,
+     "bis": 1.25
+    },
+    {
+     "wort": "rückwirkend",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 575,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.3,
+     "bis": 1.25
+    },
+    {
+     "teile": [
+      [
+       "Vier Jahre",
+       "gruen"
+      ],
+      [
+       "rückwirkend.",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.13,
+     "bis": 1.25
+    }
+   ],
+   "ebenen": [
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_jahr_2022.png",
+     "ab": 0.2,
+     "pop": true,
+     "pivot": [
+      315,
+      840
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_jahr_2023.png",
+     "ab": 0.37,
+     "pop": true,
+     "pivot": [
+      615,
+      840
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_jahr_2024.png",
+     "ab": 0.54,
+     "pop": true,
+     "pivot": [
+      315,
+      985
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_jahr_2025.png",
+     "ab": 0.71,
+     "pop": true,
+     "pivot": [
+      615,
+      985
+     ]
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_karte.png",
+   "dauer": 5.33,
+   "text": [
+    {
+     "wort": "2022",
+     "farbe": "gruen",
+     "groesse": 327,
+     "y": 480,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.73,
+     "bis": 5.33
+    },
+    {
+     "teile": [
+      [
+       "bis",
+       "weiss"
+      ],
+      [
+       "31.12.2026",
+       "gruen"
+      ]
+     ],
+     "groesse": 120,
+     "y": 770,
+     "x": 465,
+     "breite": 820,
+     "ab": 2.23,
+     "bis": 5.33
+    },
+    {
+     "teile": [
+      [
+       "Das heißt: Für",
+       "weiss"
+      ],
+      [
+       "2022",
+       "gruen"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.08,
+     "bis": 1.64
+    },
+    {
+     "teile": [
+      [
+       "hast du nur noch",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.6,
+     "bis": 2.28
+    },
+    {
+     "teile": [
+      [
+       "bis",
+       "weiss"
+      ],
+      [
+       "31. Dezember 2026",
+       "gruen"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 2.24,
+     "bis": 4.72
+    },
+    {
+     "teile": [
+      [
+       "Zeit.",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 4.68,
+     "bis": 5.33
+    }
+   ],
+   "ebenen": [
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_kalender.png",
+     "ab": 2.42,
+     "pop": true,
+     "pivot": [
+      320,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_0.png",
+     "ab": 2.33,
+     "bis": 3.45,
+     "pop": true,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_1.png",
+     "ab": 3.45,
+     "bis": 4.45,
+     "pop": false,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_2.png",
+     "ab": 4.45,
+     "bis": 5.45,
+     "pop": false,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_3.png",
+     "ab": 5.45,
+     "bis": 6.45,
+     "pop": false,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_4.png",
+     "ab": 6.45,
+     "bis": 7.45,
+     "pop": false,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_uhr_5.png",
+     "ab": 7.45,
+     "bis": 5.33,
+     "pop": false,
+     "pivot": [
+      620,
+      1000
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_tage.png",
+     "ab": 3.5,
+     "pop": true,
+     "pivot": [
+      465,
+      1250
+     ]
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_karte.png",
+   "dauer": 2.0,
+   "text": [
+    {
+     "wort": "Danach:",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 330,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.1,
+     "bis": 2.0
+    },
+    {
+     "wort": "Geld weg.",
+     "farbe": "gruen",
+     "groesse": 173,
+     "y": 510,
+     "x": 465,
+     "breite": 820,
+     "ab": 1.0,
+     "bis": 2.0
+    },
+    {
+     "teile": [
+      [
+       "Danach ist das",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.21,
+     "bis": 1.05
+    },
+    {
+     "teile": [
+      [
+       "Geld einfach",
+       "weiss"
+      ],
+      [
+       "weg.",
+       "gruen"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.01,
+     "bis": 2.0
+    }
+   ],
+   "ebenen": [
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_muenze.png",
+     "ab": 0.1,
+     "pop": true,
+     "pivot": [
+      465,
+      960
+     ],
+     "verblassen": [
+      1.05,
+      1.94,
+      0.12
+     ]
+    },
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_strich.png",
+     "ab": 1.64,
+     "pop": true,
+     "pivot": [
+      465,
+      960
+     ]
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_karte.png",
+   "dauer": 2.43,
+   "text": [
+    {
+     "wort": "Schick das",
+     "farbe": "gruen",
+     "groesse": 165,
+     "y": 340,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.1,
+     "bis": 2.43
+    },
+    {
+     "wort": "dem, der seit Jahren",
+     "farbe": "weiss",
+     "groesse": 76,
+     "y": 505,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.45,
+     "bis": 2.43
+    },
+    {
+     "wort": "keine Erklärung macht.",
+     "farbe": "weiss",
+     "groesse": 76,
+     "y": 610,
+     "x": 465,
+     "breite": 820,
+     "ab": 0.8,
+     "bis": 2.43
+    },
+    {
+     "teile": [
+      [
+       "Schick",
+       "gruen"
+      ],
+      [
+       "das dem,",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.03,
+     "bis": 0.83
+    },
+    {
+     "teile": [
+      [
+       "der seit Jahren",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 0.79,
+     "bis": 1.31
+    },
+    {
+     "teile": [
+      [
+       "keine Erklärung macht.",
+       "weiss"
+      ]
+     ],
+     "groesse": 72,
+     "y": 1385,
+     "x": 465,
+     "breite": 800,
+     "ab": 1.27,
+     "bis": 2.43
+    }
+   ],
+   "ebenen": [
+    {
+     "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/ebene_flieger.png",
+     "ab": 0.5,
+     "pop": true,
+     "pivot": [
+      420,
+      1000
+     ],
+     "drift": [
+      170,
+      -110,
+      1.7
+     ]
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/abspann.png",
+   "dauer": 1.5
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/60_2026-10-15_reel_geld_verschenkt/ton/stimme_schnitt.wav",
+   "ab": 0.1,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.3
+  },
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 5.54,
+   "start": 0.4,
+   "lautstaerke": 0.12,
+   "ein": 0.8,
+   "aus": 0.8
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 10.24,
+   "start": 0,
+   "dauer": 4.0,
+   "lautstaerke": 0.22,
+   "ein": 0.05,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 14.24,
+   "start": 0,
+   "dauer": 1.33,
+   "lautstaerke": 0.22,
+   "ein": 0.02,
+   "aus": 0.3
+  }
+ ]
+}

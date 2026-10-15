@@ -1,0 +1,157 @@
+{
+ "ausgabe": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine",
+ "bilder": [
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_dokument.png",
+   "typ": "dokument",
+   "x": 465,
+   "y": 1020
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_jahr_2022.png",
+   "typ": "jahr",
+   "text": "2022",
+   "x": 315,
+   "y": 840,
+   "hell": true
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_jahr_2023.png",
+   "typ": "jahr",
+   "text": "2023",
+   "x": 615,
+   "y": 840,
+   "hell": false
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_jahr_2024.png",
+   "typ": "jahr",
+   "text": "2024",
+   "x": 315,
+   "y": 985,
+   "hell": false
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_jahr_2025.png",
+   "typ": "jahr",
+   "text": "2025",
+   "x": 615,
+   "y": 985,
+   "hell": false
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_kalender.png",
+   "typ": "kalender",
+   "x": 320,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_0.png",
+   "typ": "uhr",
+   "winkel": 0,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_1.png",
+   "typ": "uhr",
+   "winkel": 24,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_2.png",
+   "typ": "uhr",
+   "winkel": 48,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_3.png",
+   "typ": "uhr",
+   "winkel": 72,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_4.png",
+   "typ": "uhr",
+   "winkel": 96,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_uhr_5.png",
+   "typ": "uhr",
+   "winkel": 120,
+   "x": 620,
+   "y": 1000
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_tage.png",
+   "typ": "tage",
+   "text": "77",
+   "x": 465,
+   "y": 1250
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_muenze.png",
+   "typ": "muenze",
+   "x": 465,
+   "y": 960
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_strich.png",
+   "typ": "strich",
+   "x": 465,
+   "y": 960
+  },
+  {
+   "vorlage": "p60_ebenen",
+   "transparent": true,
+   "datei": "ebene_flieger.png",
+   "typ": "flieger",
+   "x": 420,
+   "y": 1000
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "abspann.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Steuerwissen,\ndas *rechnet.*",
+   "chip": "@maehrsteuern folgen",
+   "sub": "Kurz erklärt – ohne Fachchinesisch."
+  }
+ ]
+}

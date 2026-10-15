@@ -1771,6 +1771,30 @@
       ],
       "status": "freigegeben",
       "hinweis": "14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum Pensions-Karussell (Folie 1), jobs/p59_pensionen.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird."
+    },
+    {
+      "id": "60-reel-geld-verschenkt",
+      "zeit": "2026-10-15 18:35",
+      "typ": "reel",
+      "ordner": "posts/60_2026-10-15_reel_geld_verschenkt",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "hinweis": "15.10. (Loris: neues Follower-Reel, Storytelling + Mehrwert, ~20 s, 3 Takes eingesprochen, volle Freigabe + sofort posten inkl. Story). Antragsveranlagung § 46 Abs. 2 Nr. 8 EStG, 4 Jahre § 169 Abs. 2 Nr. 2 AO → 2022 bis 31.12.2026 (BFH VI R 53/10, keine Anlaufhemmung). Echte Stimme, echtes Foto – kein KI-Label nötig.",
+      "stimme": true,
+      "hook": "fall"
+    },
+    {
+      "id": "60-story-teaser",
+      "zeit": "2026-10-15 18:45",
+      "typ": "story",
+      "ordner": "posts/60_2026-10-15_reel_geld_verschenkt",
+      "bilder": [
+        "story_reel_teaser.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "15.10.: Story zum Follower-Reel (Loris: sofort mit posten)."
     }
   ]
 }
