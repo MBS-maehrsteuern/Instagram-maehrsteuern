@@ -32,20 +32,20 @@
     {
      "wort": "Mein Weg.",
      "farbe": "weiss",
-     "groesse": 118,
-     "y": 700,
-     "x": 470,
-     "breite": 820,
+     "groesse": 84,
+     "y": 140,
+     "x": 540,
+     "breite": 900,
      "ab": 0.3,
      "bis": 2.0
     },
     {
      "wort": "Rückwärts.",
      "farbe": "gruen",
-     "groesse": 118,
-     "y": 850,
-     "x": 470,
-     "breite": 820,
+     "groesse": 84,
+     "y": 226,
+     "x": 540,
+     "breite": 900,
      "ab": 0.8999999999999999,
      "bis": 2.0
     }
@@ -57,10 +57,9 @@
    ],
    "nach": [
     540,
-    900,
-    960
-   ],
-   "abdunkeln": 0.25
+    960,
+    1080
+   ]
   },
   {
    "quelle": "k2",
