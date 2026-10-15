@@ -576,9 +576,12 @@
       "bilder": [
         "story_do_aufloesung.png"
       ],
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "issue": 35,
-      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell)."
+      "hinweis": "13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · 10.10.: Go von Loris (Rückstellungskarussell).",
+      "media_id": "17914129839521886",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4008594677285168406",
+      "veroeffentlicht_am": "2026-10-15 18:29"
     },
     {
       "id": "04-story-frage",
