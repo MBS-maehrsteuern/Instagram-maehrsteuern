@@ -563,10 +563,13 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "15.10.: auf 21:15 verschoben – 17:45 ausgefallen (Posten-Takt von cron-job.org steht seit dem Repo-Umzug), außerdem 2,5 h Vorsprung für das neue Follower-Reel. · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift neu (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Kurzfassung 13 s (Ziel 12–15 s, Pointe in den ersten 5 s; Loris: direkt austauschen), Langfassung als reel_lang.mp4. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Serie Nummer 5: zwei Listen, SVERWEIS. Vorgezogen vom 22.10. – Serie damit durch.",
       "stimme": true,
-      "hook": "fall"
+      "hook": "fall",
+      "media_id": "17913471876286439",
+      "link": "https://www.instagram.com/reel/DehnTbyEZ2g/",
+      "veroeffentlicht_am": "2026-10-15 21:15"
     },
     {
       "id": "09-story-aufloesung",
