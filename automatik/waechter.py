@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lage import WORKFLOWS
 from ablauf import DATEI as ABLAUF
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LABEL = "waechter"
 WARNTAGE = 14
 TAKT_MINUTEN = 40   # cron-job.org stößt posten.yml alle 15 Min. an – älter als 40 Min. heißt: Takt steht
@@ -96,9 +96,9 @@ def main():
         if not zustand.get("takt"):
             neu.append(f"⏱️ **Posten-Takt steht** – letzter Anstoß von cron-job.org vor {alter:.0f} Min. (Soll: alle 15 Min.). "
                        "Beiträge gehen jetzt nur noch mit GitHubs eigenem Zeitplan raus (alle paar Stunden, ggf. gar nicht). "
-                       "Bitte prüfen: ① cron-job.org einloggen → ist der Job für posten.yml aktiv? ② Verlauf dort: 401/403 = GitHub-Schlüssel "
+                       "Bitte prüfen: ① cron-job.org einloggen → ist der Job für posten.yml aktiv? Steht er auf „deaktiviert wegen zu vieler Fehler“, erst Ursache beheben, dann wieder einschalten (Enable job). ② Verlauf dort: 401/403 = GitHub-Schlüssel "
                        "`cron-posten` abgelaufen/ungültig → neuen (Actions: write) anlegen und im Job eintragen; 404/422 = "
-                       "Workflow- oder Branch-Name geändert. ③ Bis dahin fällige Beiträge von Hand: Actions → *Instagram posten* "
+                       "Workflow- oder Branch-Name geändert; 404 kann auch heißen: Repo umgezogen (URL und Resource owner des Schlüssels müssen `MBS-maehrsteuern` sein). ③ Bis dahin fällige Beiträge von Hand: Actions → *Instagram posten* "
                        "→ *Run workflow*.")
         zustand["takt"] = "rot"
         zeilen.append(f"| Posten-Takt (cron-job.org) | 🔴 letzter Anstoß vor {alter:.0f} Min. |")

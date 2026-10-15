@@ -25,7 +25,7 @@ UEBERFAELLIG = timedelta(minutes=30)  # freigegeben, aber so lange nach der Zeit
 RASTER = {"Feed": ("11:45", "17:45"), "Story": ("12:15", "17:50")}  # Slots laut strategie/15_plan_2_pro_tag.md
 TEST_START, TEST_ENDE = date(2026, 10, 12), date(2026, 11, 8)  # Testmonat: 14 Feed-Beiträge/Woche, täglich ≥ 1 Reel
 FEED_SOLL = 14
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LAGE_COMMIT = "Lage aktualisiert"
 
 TYP = {"karussell": "🖼️ Karussell", "reel": "🎬 Reel", "story": "📱 Story", "bild": "🖼️ Bild"}

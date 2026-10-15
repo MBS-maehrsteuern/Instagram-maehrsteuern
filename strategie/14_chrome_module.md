@@ -27,13 +27,13 @@ Unten stehen Grundregeln, Kontext und 7 Module. Frag mich zuerst: „Welche Modu
 - Am Ende jedes Moduls: kurzer Bericht (Format steht beim Modul).
 
 ══════════ KONTEXT ══════════
-- Repo: https://github.com/maehrsteuern/Instagram-maehrsteuern (Branch claude/instagram). Issues:
+- Repo: https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern (Branch claude/instagram). Issues:
   „📡 Radar …“ (täglich, Label radar) · „📊 Woche KW xx“ (sonntags, Label wochenbericht) · „💼 LinkedIn …“ (Label linkedin) ·
   „🚨 Wächter“ (#21) · Freigabe-Issues (Label freigabe).
 - ManyChat (Plan Essential, app.manychat.com): Automation „Auto-send links from comments, story replies, or DMs“,
   Stichwörter Tool/TOOL/tool/tol → DM mit Demo-Link https://app.reclaim.ai/m/maehrsteuern/demo.
-- Radar-Konten: https://github.com/maehrsteuern/Instagram-maehrsteuern/blob/claude/instagram/automatik/interaktion.json
-- Anzeigen-Plan: https://github.com/maehrsteuern/Instagram-maehrsteuern/blob/claude/instagram/strategie/12_interaktion.md (Abschnitt 5)
+- Radar-Konten: https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/blob/claude/instagram/automatik/interaktion.json
+- Anzeigen-Plan: https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/blob/claude/instagram/strategie/12_interaktion.md (Abschnitt 5)
 
 ══════════ MODUL A – Neuvorstellung anpinnen (einmalig) ══════════
 instagram.com → Profil @maehrsteuern → Beitrag „Neu hier? Dann kurz zu mir 👋“ (Karussell vom 01.10.) öffnen →
@@ -107,7 +107,7 @@ Bericht: Issue · hochgeladen ja/nein · gepostet (nach go) ja/nein · Link.
    Thema, Hook (erste Textzeile/erster Satz, sinngemäß – nicht wörtlich kopieren), Länge, Format (Talking Head,
    Screen-Recording, Text-Overlay, Karussell …), Aufruf zum Handeln, Aufrufe.
 3. Datei anlegen bzw. ergänzen:
-   https://github.com/maehrsteuern/Instagram-maehrsteuern/new/claude/instagram?filename=strategie/wettbewerb.md
+   https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/new/claude/instagram?filename=strategie/wettbewerb.md
    (gibt es sie schon: über den Stift bearbeiten und oben einen neuen Abschnitt einfügen).
    Abschnitt „## <Monat Jahr>“ mit einer Tabelle (Konto · Thema · Hook-Idee · Länge · Format · Aufrufe) und
    3 Stichpunkten „Was wir davon lernen“ (bezogen auf Steuern × Code, Zielgruppen Steuerabteilung/Kanzlei).

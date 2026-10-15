@@ -60,7 +60,7 @@ Verlustvortrag auf 70 % korrigiert) · `15_plan_2_pro_tag.md` · Tagesbericht-Ro
   Notlösung ohne Stimme ab Do 15.10. 12:00, Mo 12.10. mittags leer ok. Story Bio-Link lief bereits Di 13.10. 19:35.
 
 **Routinen – nur Loris kann klicken (claude.ai/code → Routinen):**
-1. „Instagram Tagesbericht 9 Uhr“: **Quelle/Repo** `maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen (die Routine hat aktuell
+1. „Instagram Tagesbericht 9 Uhr“: **Quelle/Repo** `MBS-maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen (die Routine hat aktuell
    *keine* Quelle → Push 403 „not in this session's authorized repository set“). **Connectoren:** Google Calendar und GitHub hinzufügen.
    GitHub → Settings → Applications → Claude → Repository access: Instagram-maehrsteuern (großes I) freigeben.
 2. Prompt der Tagesbericht- und der Fabrik-Routine: nur aus deren eigenem Chat änderbar. Neue Texte: `automatik/routinen/tagesbericht.md`

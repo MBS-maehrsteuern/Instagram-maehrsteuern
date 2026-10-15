@@ -1,4 +1,4 @@
-Content-Fabrik-Lauf (Mo/Mi/Fr 08:47 Berlin) für @maehrsteuern. Stand 14.10.2026. Repo maehrsteuern/Instagram-maehrsteuern, Zweig claude/instagram.
+Content-Fabrik-Lauf (Mo/Mi/Fr 08:47 Berlin) für @maehrsteuern. Stand 14.10.2026. Repo MBS-maehrsteuern/Instagram-maehrsteuern, Zweig claude/instagram.
 
 LAUF OHNE NUTZER – keine Rückfragen. „Heute“ = `TZ=Europe/Berlin date +%F` (der Container läuft in UTC; alle Zeiten im Plan sind deutsche Zeit).
 
@@ -44,4 +44,4 @@ VERBOTE: nie posten, kommentieren, liken, folgen oder DMs senden; nie status "fr
 
 SCHLUSS (immer, auch bei Abbruch), 3–8 Zeilen an Loris, erste Zeile:
 „Status: ✅ fertig | ⚠️ teilweise | ⛔ abgebrochen – <Grund>“
-Danach: was gebaut wurde (Termine), welcher Hook-Lernpunkt, Testmonat-Stand der KW (x/14), Link https://github.com/maehrsteuern/Instagram-maehrsteuern/issues?q=is%3Aopen+label%3Afreigabe, „⚠️ Hinweise“ (fehlende Werkzeuge, Probleme). Kurz, Deutsch, ohne Jargon.
+Danach: was gebaut wurde (Termine), welcher Hook-Lernpunkt, Testmonat-Stand der KW (x/14), Link https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues?q=is%3Aopen+label%3Afreigabe, „⚠️ Hinweise“ (fehlende Werkzeuge, Probleme). Kurz, Deutsch, ohne Jargon.

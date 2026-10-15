@@ -26,7 +26,7 @@ STATISTIK = WURZEL / "automatik" / "statistik"
 WOCHE = STATISTIK / "woche.csv"
 KOMMENTARE = WURZEL / "automatik" / "interaktion" / "kommentare.json"
 DM_TRACKING = WURZEL / "strategie" / "dm_tracking.csv"
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LABEL = "wochenbericht"
 FELDER = ["kw", "von", "bis", "follower_start", "follower_ende", "zuwachs", "views_woche", "reichweite_neue",
           "speichern_neue", "teilen_neue", "neue_beitraege", "radar_kommentiert", "radar_dms", "kommentare_beantwortet",

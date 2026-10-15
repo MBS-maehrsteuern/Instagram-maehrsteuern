@@ -56,7 +56,7 @@ ART_WOERTER = (("kanzlei", "kanzlei"), ("steuerberat", "kanzlei"), ("steuerabtei
                ("hochschule", "uni"), ("verband", "uni"))
 ARTEN_ERLAUBT = {"kanzlei", "creator", "steuerabteilung", "software", "uni"}
 FEHLERHAFT = {}  # Konto → Fehlertext, nur bei dauerhaften Fehlern (umbenannt, privat, gelöscht …)
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 API = "https://graph.facebook.com/v23.0"
 LABEL = "radar"
 ZONE = ZoneInfo("Europe/Berlin")

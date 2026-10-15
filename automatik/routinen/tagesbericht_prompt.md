@@ -11,7 +11,7 @@ Alle Prompts haben denselben Kopf: Lauf ohne Nutzer, „heute“ in Berliner Zei
 Kontaktnamen), Statuszeile „Status: ✅ | ⚠️ | ⛔ …“ am Ende. Slots: Feed 11:45/17:45, Storys 12:15/17:50.
 
 ## Einstellungen je Routine (claude.ai/code → Routinen) – macht Loris
-- **Quelle/Repo:** `maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen.
+- **Quelle/Repo:** `MBS-maehrsteuern/Instagram-maehrsteuern` mit Schreibzugriff eintragen.
 - **Neue Sitzung je Lauf** statt fester Sitzung (in einer alten Sitzung greift `add_repo` nicht → Push 403).
 - **Modell:** nur auf Loris' Wunsch ändern (Empfehlung der Analyse vom 13.10.: nicht Haiku).
 - **Connectors** nur, wo nötig: Tagesbericht → Google Calendar; Content-Fabrik → Google Drive („Maehrsteuern audios“).

@@ -11,7 +11,7 @@ from pathlib import Path
 
 WURZEL = Path(__file__).resolve().parent.parent
 PLAN = WURZEL / "automatik" / "plan.json"
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LABEL = "freigabe"
 
 

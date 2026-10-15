@@ -22,7 +22,7 @@ import ki
 WURZEL = Path(__file__).resolve().parent.parent
 EINSTELLUNGEN = json.loads((WURZEL / "automatik" / "interaktion.json").read_text())["kommentare"]
 STAND = WURZEL / "automatik" / "interaktion" / "kommentare.json"
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 API = "https://graph.instagram.com/v23.0"
 LABEL = "kommentare"
 ZONE = ZoneInfo("Europe/Berlin")
