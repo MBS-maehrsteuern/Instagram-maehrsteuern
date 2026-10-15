@@ -1780,10 +1780,13 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "15.10. (Loris: neues Follower-Reel, Storytelling + Mehrwert, ~20 s, 3 Takes eingesprochen, volle Freigabe + sofort posten inkl. Story). Antragsveranlagung § 46 Abs. 2 Nr. 8 EStG, 4 Jahre § 169 Abs. 2 Nr. 2 AO → 2022 bis 31.12.2026 (BFH VI R 53/10, keine Anlaufhemmung). Echte Stimme, echtes Foto – kein KI-Label nötig.",
       "stimme": true,
-      "hook": "fall"
+      "hook": "fall",
+      "media_id": "18124066181475903",
+      "link": "https://www.instagram.com/reel/DehYZkyD-sL/",
+      "veroeffentlicht_am": "2026-10-15 18:25"
     },
     {
       "id": "60-story-teaser",
