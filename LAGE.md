@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 15.10. 19:46 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 15.10. 19:47 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -212,6 +212,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 15.10.2026**
+- 19:47 💼 LinkedIn-Bild mit aktuellem Headshot (15.10.) ([`d20616f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d20616f7798c3b8fc7685c2e914e850fdfa7bce1))
+  - `assets/marke/loris_headshot_1.jpg`, `assets/marke/loris_headshot_2.jpg`, `posts/60_2026-10-15_reel_geld_verschenkt`, `vorlagen/system/linkedin_bild.html`
 - 19:46 💼 LinkedIn-Paket zum Follower-Reel (Bild + Text); Fallbeispiele korrigiert (Lohnersatzleistungen = Pflichtveranlagung) ([`a0b1ce1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a0b1ce16d92337e72251b909d86b3d5c344cb6e9))
   - `LAGE.html`, `posts/60_2026-10-15_reel_geld_verschenkt`, `vorlagen/system/linkedin_bild.html`
 - 18:32 ✍️ SVERWEIS-Reel auf 21:15 verschoben (17:45 ausgefallen, Vorsprung fürs Follower-Reel) ([`6316cba`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6316cbab0429c6dfd1e563a5428a8d4bddc776bc))
