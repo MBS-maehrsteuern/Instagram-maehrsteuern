@@ -4,6 +4,22 @@ Ablauf: Text grob lesen, dann **locker frei sprechen** (Sprachnachricht vom Hand
 etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertiteln (Regeln: `strategie/09_reel_regeln.md`).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
+## 🔥 Follower-Reel (15.10.) · „Geld, das Leute verschenken“ (`60-reel-geld-verschenkt`, ca. 20 s)
+Ziel: Follower statt Demo-Anfragen (Säule 4 + Wissen, breite Zielgruppe: Angestellte, Selbstständige, Studierende).
+Bewusst etwas länger als die 15-s-Regel (≈ 50 Wörter), weil Geschichte + Nutzen. Pointe (Geld verschenkt) in den ersten 4 s.
+Am besten **selbst ins Handy sprechen und filmen** (Gesicht, Augenhöhe, eine Aufnahme), sonst Sprachnachricht.
+Hook-Text im Bild ab 0,3 s: **„Im Finanzamt hab ich gesehen, wie Leute Geld verschenken.“**
+
+> Im Finanzamt hab ich jeden Tag gesehen, wie Leute Geld verschenken.
+> Nicht, weil sie tricksen – sondern weil sie gar nichts abgeben.
+> Wer keine Steuererklärung machen muss, darf trotzdem. Vier Jahre rückwirkend.
+> Heißt: Für 2022 hast du nur noch bis 31. Dezember Zeit. Danach ist das Geld weg.
+> Schick das dem, der seit Jahren keine Erklärung macht.
+
+Rechtsstand 15.10.2026: Antragsveranlagung § 46 Abs. 2 Nr. 8 EStG, Festsetzungsfrist 4 Jahre (§ 169 Abs. 2 Nr. 2 AO),
+keine Anlaufhemmung bei Antragsveranlagung (BFH VI R 53/10) → 2022 endet am 31.12.2026. Gilt nur, wenn keine Abgabepflicht besteht.
+Satz 1 nur sprechen, wenn er für dich stimmt (sonst: „Ich hab Steuern im Finanzamt gelernt – und eins sofort gesehen: …“).
+
 ## 🎙️ Neue Sprechtexte (11.10.) – je höchstens 15 s (35–40 Wörter)
 Auswertung 11.10.: Reels werden im Schnitt nur zu 20–24 % gesehen, egal ob 23 oder 41 s. Deshalb: **12–15 s, Pointe in den ersten 5 s,
 höchstens 3 Punkte.** Lieber zu langsam sprechen; Claude schneidet Atmer und Pausen raus. Bis **Mi 14.10.** in Drive „Maehrsteuern audios“.
