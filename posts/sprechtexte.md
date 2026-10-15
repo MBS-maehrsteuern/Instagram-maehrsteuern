@@ -2,6 +2,7 @@
 
 Ablauf: Text grob lesen, dann **locker frei sprechen** (Sprachnachricht vom Handy reicht, ca. 20–30 s, ruhiger Raum,
 etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertiteln (Regeln: `strategie/09_reel_regeln.md`).
+Aufnahme-Fassung für Fr 16.10. als Google Doc im Drive-Ordner „Maehrsteuern audios“ (Sprechtexte zum Aufnehmen – Fr 16.10.).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
 ## 🔥 Follower-Reel (15.10.) · „Geld, das Leute verschenken“ (`60-reel-geld-verschenkt`, ca. 20 s)
@@ -25,9 +26,9 @@ Auswertung 11.10.: Reels werden im Schnitt nur zu 20–24 % gesehen, egal ob 23 
 höchstens 3 Punkte.** Lieber zu langsam sprechen; Claude schneidet Atmer und Pausen raus. Bis **Mi 14.10.** in Drive „Maehrsteuern audios“.
 Rechtsstand geprüft am 11.10.2026. Aussagen mit „bei mir“/„früher“ nur sprechen, wenn sie für dich stimmen.
 
-### So 18.10. · „Der Steuersatz in Excel“ (`22-reel-steuersatz`, CTA-Reel der Woche)
+### Mo 26.10. · „Der Steuersatz in Excel“ (`22-reel-steuersatz`, CTA-Reel der Woche)
 > Wie oft steht dein Steuersatz in Excel? Ab 2028 sinkt die Körperschaftsteuer jedes Jahr um einen Punkt, bis auf zehn Prozent.
-> Festwerte heißt: Zelle für Zelle ändern – und eine vergisst du. Bei mir: eine Zelle. Schreib TOOL in die Kommentare.
+> Festwerte heißt: Zelle für Zelle ändern – und eine vergisst du. Bei mir: eine Zelle. Kommentiere „TOOL“ – ich schick dir die Demo.
 
 Hook-Text: „30 % an 12 Stellen?“ · Rechtsstand: KSt 15 % bis 2027, dann 14/13/12/11 %, ab 2032 10 % (Investitionssofortprogramm 2025).
 
