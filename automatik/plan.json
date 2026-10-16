@@ -640,11 +640,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift neu (Suchbegriff vorn, Auswahlfrage, TOOL als Kommentar, 4 Hashtags) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 10.10.: Autopilot postet (Loris: Edits bringt kaum Reichweite) – Status freigegeben. Mein Weg rückwärts (Variante B, Loris hat den Text am 08.10. eingesprochen). Vorgezogen vom 27.10. KI-LABEL in Edits/Instagram einschalten (Karte 2 + 3 KI), Hinweis steht in der Bildunterschrift. Variante-A-Dateien: *_variante_a.* KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label).",
       "ki_label": true,
       "stimme": true,
-      "hook": "fall"
+      "hook": "fall",
+      "media_id": "18564693718076338",
+      "link": "https://www.instagram.com/reel/DekHzHkF7E2/",
+      "veroeffentlicht_am": "2026-10-16 19:57"
     },
     {
       "id": "04-story-teaser",
