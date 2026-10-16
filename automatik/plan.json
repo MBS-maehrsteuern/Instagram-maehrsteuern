@@ -609,11 +609,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,2 s, −18,1 LUFS, Musik 08 Chill House. Titelbild reels/reel_ein_euro, Karten aus karussell/ein_euro Folien 2–4 (vorlagen/system/schnitt/p24_27_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p24_reel_ein_euro.json), Schnitt schnitt/p24_reel_ein_euro.json. Nachgerechnet: 1 − 15,825 % − 14 % = 0,7018 €; × (1 − 26,375 %) = 0,5167 €. Keine Storys (Story-Slots 16.10. belegt)."
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,2 s, −18,1 LUFS, Musik 08 Chill House. Titelbild reels/reel_ein_euro, Karten aus karussell/ein_euro Folien 2–4 (vorlagen/system/schnitt/p24_27_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p24_reel_ein_euro.json), Schnitt schnitt/p24_reel_ein_euro.json. Nachgerechnet: 1 − 15,825 % − 14 % = 0,7018 €; × (1 − 26,375 %) = 0,5167 €. Keine Storys (Story-Slots 16.10. belegt).",
+      "media_id": "18020387378730163",
+      "link": "https://www.instagram.com/reel/DejLN1HiY0k/",
+      "veroeffentlicht_am": "2026-10-16 11:45"
     },
     {
       "id": "03-story-aufloesung",
