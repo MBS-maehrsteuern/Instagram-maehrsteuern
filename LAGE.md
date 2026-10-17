@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 17.10. 09:19 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 17.10. 09:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 17.10.2026**
+- 09:29 ✍️ Tagesbericht 17. Oktober: 368 Follower (+3), Reichweite 146, 6 Methoden ✅ ([`a7a4844`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a7a4844048864095fe6a2eb56a43ba8567519881))
+  - `automatik/berichte`
 - 09:19 ✍️ Aufnahme 17.10. (alle Sprechtexte 18–22) + Anweisungen daraus: Kalender-Erinnerung, Zinsschranke-Serie ([`642f5be`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/642f5beeeeb7e239ffb3e65b0c6bc0860560ec18))
   - `LAGE.html`, `aufnahmen/2026-10-17_sprechtexte.mp3`, `aufnahmen/2026-10-17_sprechtexte_woerter.json`, `automatik/erinnerungen.json`, `strategie/13_backlog.md`
 - 09:19 📈 Statistik 2026-10-17 ([`c02ca73`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c02ca73d8393e09b81e59486376632abe40b4b36))
