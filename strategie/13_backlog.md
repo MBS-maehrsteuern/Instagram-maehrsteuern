@@ -88,3 +88,13 @@ Vorher fehlen die Daten, um daraus etwas Belastbares abzuleiten.
 - Nie automatisch posten, kommentieren, folgen, liken oder DMs senden. DMs nur über ManyChat.
 - Benachrichtigungen niedrig halten, lieber bündeln (ein Issue je Zweck, Status im Issue-Text statt neuer Kommentare).
 - Kosten, Upgrades, neue Zugänge: erst fragen.
+
+## Serie „Zinsschranke – 6 Regeln“ (Loris, Aufnahme 17.10.)
+Reel 21 (Do 22.10.) endet mit „Das ist Regel Nr. 1. Es gibt aber noch 5 andere.“ → Folge-Reels (je 12–20 s, Stimme, Hook *zahl*):
+1. ✓ 30 % vom steuerlichen EBITDA / Freigrenze < 3 Mio. € Nettozinsaufwand (§ 4h Abs. 1, Abs. 2 S. 1 Buchst. a EStG)
+2. EBITDA-Vortrag: ungenutztes verrechenbares EBITDA 5 Jahre vortragbar (§ 4h Abs. 1 S. 3 EStG)
+3. Zinsvortrag: nicht abziehbare Zinsen gehen in spätere Jahre (§ 4h Abs. 1 S. 5 EStG)
+4. Stand-alone-Klausel: kein Konzern → keine Zinsschranke (§ 4h Abs. 2 S. 1 Buchst. b; bei KapGes § 8a Abs. 2 KStG beachten)
+5. Escape-Klausel: Eigenkapitalquote nicht mehr als 2 Prozentpunkte unter Konzern (§ 4h Abs. 2 S. 1 Buchst. c; § 8a Abs. 3 KStG)
+6. Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 8a Abs. 1 S. 3 i. V. m. § 8c KStG) bzw. Betriebsaufgabe (§ 4h Abs. 5 EStG)
+Vor dem Einsprechen Rechtsstand prüfen; Sprechtexte dann in posts/sprechtexte.md, Termine ab KW 44/45 in freie Stimm-Slots (Sa mittags) oder als Ersatz für 17.

@@ -65,6 +65,14 @@
       "zeigen_ab_tagen": 1,
       "titel": "🔇 Keine Sprachnachricht? → Reels ohne Stimme bauen (19.–22. + 26.10.)",
       "text": "Notlösung (go Loris, 13.10.): Für jedes Reel mit Status wartet_auf_sprachnachricht ohne Aufnahme baut Claude bzw. die Content-Fabrik (Fr 16.10.) im selben Slot ein Reel ohne Stimme zum selben Thema (12–15 s, stimme=false, Status entwurf → Freigabe). Sprechtexte bleiben für später in posts/sprechtexte.md."
+    },
+    {
+      "id": "reel17-kommentare-pruefen",
+      "wann": "2026-10-22T18:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 2,
+      "titel": "💬 Reel Sa 24.10.: Kommentare prüfen – gibt es ein Thema? Sonst Ersatz",
+      "text": "Loris (Aufnahme 17.10.): Für das Reel aus den Kommentaren (17-reel-kommentare, Sa 24.10. 17:45) die Kommentare der letzten Reels durchgehen. Kommt kein brauchbares Thema, baut Claude einen Ersatz (z. B. Zinsschranke Regel 2) und Loris spricht ihn ein. Bis Fr 23.10. Bescheid geben."
     }
   ]
 }
