@@ -722,8 +722,11 @@
       "bilder": [
         "story_sa_teaser.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Plausi-Reel (Titelbild), jobs/p25_reel_plausi.json."
+      "status": "veroeffentlicht",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Plausi-Reel (Titelbild), jobs/p25_reel_plausi.json.",
+      "media_id": "17961643229999538",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4010059715828907470",
+      "veroeffentlicht_am": "2026-10-17 19:00"
     },
     {
       "id": "26-karussell-kuerzungen",
