@@ -1,0 +1,277 @@
+{
+ "ausgabe": "../../posts/20_2026-10-21_reel_erechnung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_1.png",
+   "dauer": 6.77,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Hast du dieses Jahr",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.7
+    },
+    {
+     "wort": "800.000 Euro Umsatz?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.7,
+     "bis": 4.11
+    },
+    {
+     "wort": "Dann mach dich bereit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.11,
+     "bis": 5.69
+    },
+    {
+     "wort": "für die E-Rechnung,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.69,
+     "bis": 6.77
+    },
+    {
+     "wort": "800.000 €",
+     "farbe": "gelb",
+     "groesse": 180,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.05,
+     "bis": 6.77
+    },
+    {
+     "wort": "Umsatz?",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.77,
+     "bis": 6.77
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_3.png",
+   "dauer": 8.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "für die E-Rechnung,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "denn du musst ab 2027",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 3.11
+    },
+    {
+     "wort": "E-Rechnungen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.11,
+     "bis": 3.76
+    },
+    {
+     "wort": "ausstellen im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.76,
+     "bis": 4.69
+    },
+    {
+     "wort": "XML-Format.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.69,
+     "bis": 6.29
+    },
+    {
+     "wort": "Ab 2028 müssen das",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.29,
+     "bis": 8.15
+    },
+    {
+     "wort": "dann alle.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 8.15,
+     "bis": 8.9
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/szene_4.png",
+   "dauer": 7.35,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "dann alle.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Frag dich also selbst:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.81
+    },
+    {
+     "wort": "Kann euer Posteingang",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.81,
+     "bis": 3.34
+    },
+    {
+     "wort": "lesen?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.34,
+     "bis": 4.23
+    },
+    {
+     "wort": "Wenn nicht, schreibt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.23,
+     "bis": 4.99
+    },
+    {
+     "wort": "mir eine DM, dann",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.99,
+     "bis": 6.01
+    },
+    {
+     "wort": "richten wir das ein.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.01,
+     "bis": 7.15
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/20_2026-10-21_reel_erechnung/_karten/abspann.png",
+   "dauer": 1.6,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/20_2026-10-21_reel_erechnung/ton/stimme.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 6.7700000000000005,
+   "lautstaerke": 0.12,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/11_runway_future_garage.mp3",
+   "ab": 6.670000000000001,
+   "start": 0,
+   "lautstaerke": 0.09,
+   "ein": 0.6
+  }
+ ]
+}
