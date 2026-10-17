@@ -672,13 +672,16 @@
       "video": "reel_kurz.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "hinweis": "14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Ortsangabe im Hebesatz-Hinweis der Aufnahme überdeckt, Stammdaten-Seite raus; neues Titelbild (Versprechen passt zur Kurzfassung); neue Bildunterschrift mit KI-Hinweis. KI-LABEL: geht nicht per API → nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf 12:15 vorgezogen (go Loris) – Slot-Test „Stimme mittags“; Sa 19:30 frei für die Fabrik · 12.10.: go kürzen (Loris, Issue #7) – Autopilot postet reel_kurz.mp4 (15,3 s, −18 LUFS; ohne „Also, wer kennt's nicht“, Excel-Abstimmen, „Deswegen“, „ich zeige dir die Demo“), Langfassung bleibt reel_stimme.mp4 · 10.10.: auf Sa 17.10. 19:30 eingeplant (Loris), Autopilot postet reel_stimme.mp4 (26 s, −17,9 LUFS). · Loris erzählt (Sprachnachricht): 2 Tage vor Frist, #BEZUG!/#NAME?/#WERT! → Lösung mit Code, echte Programm-Aufnahme; Untertitel wörtlich, Musik ganz leise, CTA TOOL per DM, 26 s · 04.10.: Go zurückgenommen (Loris) – ersetzt durch Reel „5 Dinge, die mit Code besser gehen als mit Excel“.",
       "issue": 7,
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "ki_label": true
+      "ki_label": true,
+      "media_id": "17969275643965634",
+      "link": "https://www.instagram.com/reel/Del54DNE7fz/",
+      "veroeffentlicht_am": "2026-10-17 12:34"
     },
     {
       "id": "01-story-teaser",
