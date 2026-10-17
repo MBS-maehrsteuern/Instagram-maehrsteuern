@@ -705,11 +705,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3/R5 gegengelesen), Reel ohne Stimme 14,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab der Lösung. Hook-Fall bausteine/haken_vorjahr („Vorjahr kopiert. Hebesatz nicht.“), dann 3 Checks (Reel-Regel max. 3 Punkte; 5 Checks aus karussell/excel_checks → 3 im Bild, 2 als Bonus in der Bildunterschrift). Check-Folien, Leisten, Prüfspalte, Titelbild „Drei Plausi-Checks“ und Abspann neu gerendert mit Nummer 1–3 (jobs/p25_reel_plausi.json), Schnitt schnitt/p25_reel_plausi.json."
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3/R5 gegengelesen), Reel ohne Stimme 14,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab der Lösung. Hook-Fall bausteine/haken_vorjahr („Vorjahr kopiert. Hebesatz nicht.“), dann 3 Checks (Reel-Regel max. 3 Punkte; 5 Checks aus karussell/excel_checks → 3 im Bild, 2 als Bonus in der Bildunterschrift). Check-Folien, Leisten, Prüfspalte, Titelbild „Drei Plausi-Checks“ und Abspann neu gerendert mit Nummer 1–3 (jobs/p25_reel_plausi.json), Schnitt schnitt/p25_reel_plausi.json.",
+      "media_id": "18633133474034755",
+      "link": "https://www.instagram.com/reel/Deml8DcD_Dx/",
+      "veroeffentlicht_am": "2026-10-17 18:59"
     },
     {
       "id": "25-story-teaser",
