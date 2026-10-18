@@ -1,14 +1,14 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 18.10. 17:50 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 18.10. 19:42 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:45 🖼️ Karussell `26-karussell-kuerzungen` (online) · ✅ 12:15 📱 Story `26-story-tipp` (online) · ✅ 17:45 🎬 Reel `27-reel-organschaft` (online) · ✅ 17:50 📱 Story `27-story-teaser` (online)
+- **Heute online:** ✅ 11:45 🖼️ Karussell `26-karussell-kuerzungen` (online) · ✅ 12:15 📱 Story `26-story-tipp` (online) · ✅ 17:45 🎬 Reel `27-reel-organschaft` (online) · ✅ 17:50 📱 Story `27-story-teaser` (online) · 🟢 19:45 🎬 Reel `61-reel-rms-finanzamt` (läuft automatisch)
 - **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **1550** (11.10.–17.10., -8 % zur Vorwoche) · Follower **+7** (jetzt 368) · 30 Tage: +27 Follows / −11 entfolgt
 - **Testmonat** (Tag 7/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 42** (12.10.–18.10.) ← jetzt: Feed **13/14** (13 online · 0 geplant) · Reel-Tage (sicher) **7/7**
+  - ✅ **KW 42** (12.10.–18.10.) ← jetzt: Feed **14/14** (13 online · 1 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 43** (19.10.–25.10.): Feed **13/14** (0 online · 13 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 44** (26.10.–01.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 45** (02.11.–08.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
@@ -17,7 +17,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Mi 21.10.: Story 17:50
   - Sa 24.10.: Story 17:50
 
-**Als Nächstes online:** 🎬 Reel `28-reel-zuschlaege` am **Mo 19.10. 11:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `61-reel-rms-finanzamt` am **So 18.10. 19:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -56,6 +56,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
+| So 18.10. 19:45 | 🎬 Reel `61-reel-rms-finanzamt` | 🟢 freigegeben (geht automatisch online) | 18.10. (Loris: volle Freigabe, parallel zum LinkedIn-Sonntagspost 19:00). Einzelbild als Reel 9:16 (12 s, langsamer Zoom, Musik 06 Lo-Fi ruhig, -18 LUFS) für Ausspielung an Nicht-Follower. Echtes Foto freigestellt, Hintergrund KI-generiert (Runway) – kein KI-Gesicht. Inhalt: § 88 Abs. 5 AO (RMS, Zufallsauswahl, Geheimhaltung), § 155 Abs. 4 / § 150 Abs. 7 AO (qualifizierter Freitext). Nur öffentlicher Gesetzesinhalt, keine Dienstinterna (§ 37 BeamtStG geprüft). Abweichung Reel-Regel: 4 Punkte im Bild (Entscheidung Loris: ein Bild wie LinkedIn). |
 | Mo 19.10. 11:45 | 🎬 Reel `28-reel-zuschlaege` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s, −18,1 LUFS (Musik 09 Lofi-Piano + Fehlerton/Uhr). Fall „Steuer 1 Woche zu spät“: 50.000 € → 500 € Säumniszuschlag (§ 240 AO, Schonfrist 3 Tage), Verspätungszuschlag mind. 25 €/Monat als „möglich“ (§ 152 Abs. 1/5 AO, Ermessen). Material: karussell/fristen_ao Folien 2+3, Abspann abspann_frist. Schnitt: vorlagen/system/schnitt/p28_reel_zuschlaege.json (Standbilder: schnitt/p28_p30_material.py) |
 | Mo 19.10. 12:15 | 📱 Story `28-story-quiz` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Quiz quiz_saeumnis als Emoji-Tipp neu gerendert (👏 = Ja · 😮 = Nein, richtig: Ja). Optional in der App Quiz-Sticker Ja/Nein setzen. Auflösung Di 20.10. 17:50 |
 | Mo 19.10. 17:45 | 🎬 Reel `18-reel-aufbewahrung` | 🟢 freigegeben (geht automatisch online) | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 23,7 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
@@ -181,7 +182,6 @@ Reichweite pro Tag: 15.10. **316** · 16.10. **146** · 17.10. **212** · 18.10.
 | Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 311 (+0) | 237 | 8 | 0 | 8 | 25 |
 | Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 224 (+1) | 90 | 6 | 0 | 4 | 0 |
 | Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 404 (+3) | 306 | 11 | 2 | 10 | 8 |
-| So 04.10. 19:30 [5 Dinge, die ich aus Excel rausgeschmiss](https://www.instagram.com/reel/DeFLK53ALSs/) | 956 (+2) | 711 | 13 | 10 | 14 | 16 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -204,6 +204,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 18.10.2026**
+- 19:42 ✍️ Reel 61: Einzelbild „Deine Steuererklärung liest zuerst kein Mensch“ (RMS, § 88 Abs. 5 AO) – freigegeben für 18.10. 19:45 ([`0879258`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/087925802a0db2a86b2c22a07854115e7cce0f9b))
+  - Plan: neu `61-reel-rms-finanzamt` (2026-10-18 19:45, freigegeben)
 - 17:50 🤖 Autopilot: 27-story-teaser veroeffentlicht ([`e978ebf`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e978ebfe1aa136bf28c8101a52d06a8b985ad57e))
   - Plan: `27-story-teaser` status: freigegeben → veroeffentlicht; `27-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4010746920150907932
 - 17:45 🤖 Autopilot: Dateien fuer 27-story-teaser vorbereitet ([`e04eead`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e04eeadec7a2fbfd4af56d71716b3f47fe1a2af1))
