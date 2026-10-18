@@ -4,12 +4,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:45 🖼️ Karussell `26-karussell-kuerzungen` (online) · ✅ 12:15 📱 Story `26-story-tipp` (online) · ✅ 17:45 🎬 Reel `27-reel-organschaft` (online) · ✅ 17:50 📱 Story `27-story-teaser` (online) · ✋ 19:45 🎬 Reel `61-reel-rms-finanzamt` (von Hand)
+- **Heute online:** 🟢 11:45 🎬 Reel `28-reel-zuschlaege` (läuft automatisch) · 🟢 12:15 📱 Story `28-story-quiz` (läuft automatisch) · 🟢 17:45 🎬 Reel `18-reel-aufbewahrung` (läuft automatisch)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **1550** (11.10.–17.10., -8 % zur Vorwoche) · Follower **+7** (jetzt 368) · 30 Tage: +27 Follows / −11 entfolgt
-- **Testmonat** (Tag 7/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
-  - ✅ **KW 42** (12.10.–18.10.) ← jetzt: Feed **14/14** (13 online · 1 geplant) · Reel-Tage (sicher) **7/7**
-  - 🟡 **KW 43** (19.10.–25.10.): Feed **13/14** (0 online · 13 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
+- **Testmonat** (Tag 8/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **13/14** (0 online · 13 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 44** (26.10.–01.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 45** (02.11.–08.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
 - **Freie Slots nächste 7 Tage** (3):
@@ -444,6 +443,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:07 📡 Radar 2026-10-13: 8 Beiträge, 0 DM-Entwürfe ([`84b20f9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/84b20f9b44b56d10b2287d315441083a7b7827f7))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 12.10.2026**
 - 19:30 🤖 Autopilot: 14-reel-versionen veroeffentlicht ([`b6160e3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b6160e35e81e4273979114637d5437be4d307840))
   - Plan: `14-reel-versionen` status: freigegeben → veroeffentlicht; `14-reel-versionen` online: https://www.instagram.com/reel/DeZxf9AEy9p/
@@ -467,8 +468,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:04 📡 Radar 2026-10-12: 8 Beiträge, 0 DM-Entwürfe ([`4502ea7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4502ea74317a7d152fe9bbec006880bb2f53a623))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 11.10.2026**
 - 19:30 🤖 Autopilot: 13-reel-verknuepfung veroeffentlicht ([`6574fbf`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6574fbf8cdb937ab8dfe8d92eb5651957108939b))
