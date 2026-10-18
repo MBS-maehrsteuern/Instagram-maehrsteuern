@@ -772,11 +772,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Prüfer-Fall, Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton, Musik 10 Spannung. Karte aus karussell/organschaft Folie 4 („Mindestens 5 Jahre“); Titelbild, Ampel rot/grün („Laufzeit 5 Zeitjahre“), Folge-Karte und Abspann neu (jobs/p27_reel_organschaft.json) – Bibliothek-Ampel gelb nicht genutzt (zeigt „Eintragung HR fehlt“, passt nicht zum Laufzeit-Fall). Schnitt schnitt/p27_reel_organschaft.json. Geprüft: § 14 Abs. 1 Satz 1 Nr. 3 KStG (5 Zeitjahre, Kündigung aus wichtigem Grund unschädlich); Folge verunglückte Organschaft von Anfang an, Abführung i. d. R. vGA."
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Prüfer-Fall, Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton, Musik 10 Spannung. Karte aus karussell/organschaft Folie 4 („Mindestens 5 Jahre“); Titelbild, Ampel rot/grün („Laufzeit 5 Zeitjahre“), Folge-Karte und Abspann neu (jobs/p27_reel_organschaft.json) – Bibliothek-Ampel gelb nicht genutzt (zeigt „Eintragung HR fehlt“, passt nicht zum Laufzeit-Fall). Schnitt schnitt/p27_reel_organschaft.json. Geprüft: § 14 Abs. 1 Satz 1 Nr. 3 KStG (5 Zeitjahre, Kündigung aus wichtigem Grund unschädlich); Folge verunglückte Organschaft von Anfang an, Abführung i. d. R. vGA.",
+      "media_id": "18095702354660428",
+      "link": "https://www.instagram.com/reel/Deo8TzBjns_/",
+      "veroeffentlicht_am": "2026-10-18 17:45"
     },
     {
       "id": "27-story-teaser",
