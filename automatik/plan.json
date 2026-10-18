@@ -789,8 +789,11 @@
       "bilder": [
         "story_so_teaser.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Organschaft-Reel (Titelbild), jobs/p27_reel_organschaft.json."
+      "status": "veroeffentlicht",
+      "hinweis": "14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Organschaft-Reel (Titelbild), jobs/p27_reel_organschaft.json.",
+      "media_id": "17992853162852700",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4010746920150907932",
+      "veroeffentlicht_am": "2026-10-18 17:50"
     },
     {
       "id": "28-reel-zuschlaege",
