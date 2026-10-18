@@ -742,10 +742,13 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/kuerzungen Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p26_kuerzungen.json). Geprüft: 0,11 % des Grundsteuerwerts ab EZ 2025 (§ 9 Nr. 1 Satz 1 GewStG), Schachtel 15 % zu Beginn des EZ (§ 9 Nr. 2a), Spenden 20 % / 4 ‰ (§ 9 Nr. 5). In der Bildunterschrift ergänzt: 5 % nbBA nach § 8b Abs. 5 KStG bleiben. Alt-Texte in alt_texte.json. Gegenstück zur Hinzurechnung (13.10.)."
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/kuerzungen Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p26_kuerzungen.json). Geprüft: 0,11 % des Grundsteuerwerts ab EZ 2025 (§ 9 Nr. 1 Satz 1 GewStG), Schachtel 15 % zu Beginn des EZ (§ 9 Nr. 2a), Spenden 20 % / 4 ‰ (§ 9 Nr. 5). In der Bildunterschrift ergänzt: 5 % nbBA nach § 8b Abs. 5 KStG bleiben. Alt-Texte in alt_texte.json. Gegenstück zur Hinzurechnung (13.10.).",
+      "media_id": "17923713027429647",
+      "link": "https://www.instagram.com/p/DeomJhQG4o8/",
+      "veroeffentlicht_am": "2026-10-18 13:39"
     },
     {
       "id": "26-story-tipp",
