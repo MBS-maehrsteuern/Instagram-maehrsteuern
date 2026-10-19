@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 19.10. 09:32 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 19.10. 13:52 Uhr._
 
 **Als Nächstes online:** 📱 Story `10-story-umfrage` am **Do 22.10. 12:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
@@ -87,23 +87,38 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**361 Follower** · 9 Beiträge im Profil (Abruf 2026-10-11) · **+2** seit 2026-10-10
-Reichweite pro Tag: 07.10. **136** · 08.10. **216** · 09.10. **66** · 10.10. **362**
+**368 Follower** · 23 Beiträge im Profil (Abruf 2026-10-19) · **+7** seit 2026-10-11
+Reichweite pro Tag: 16.10. **146** · 17.10. **214** · 18.10. **196** · 19.10. **1**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Sa 10.10. 12:15 | 39 | 32 | 0 | 0 | 0 |
-| Sa 10.10. 15:02 | 26 | 21 | 0 | 1 | 0 |
-| Sa 10.10. 19:49 | 19 | 14 | 0 | 0 | 0 |
+| So 18.10. 13:40 | 66 | 57 | 0 | 0 | 0 |
+| So 18.10. 15:50 | 67 | 52 | 0 | 0 | 0 |
+| So 18.10. 17:50 | 59 | 46 | 0 | 1 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 199 | 159 | 7 | 8 | 4 | 9 |
-| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 276 (+134) | 225 | 10 | 0 | 5 | 5 |
-| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 140 (+14) | 54 | 7 | 1 | 6 | 84 |
-| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 297 (+3) | 225 | 8 | 0 | 8 | 25 |
-| Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 199 (+10) | 75 | 6 | 0 | 4 | 0 |
-| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 386 (+9) | 290 | 11 | 2 | 10 | 8 |
+| So 18.10. 21:10 [Deine Steuererklärung liest im Finanzamt](https://www.instagram.com/reel/DepZflYMPE6/) | 110 | 102 | 2 | 1 | 2 | 0 |
+| So 18.10. 17:45 [Organschaft Mindestlaufzeit: Der Gewinna](https://www.instagram.com/reel/Deo8TzBjns_/) | 46 | 31 | 4 | 0 | 4 | 0 |
+| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 145 | 66 | 4 | 0 | 4 | 0 |
+| Sa 17.10. 18:59 [Plausibilitätsprüfung Jahresabschluss: V](https://www.instagram.com/reel/Deml8DcD_Dx/) | 60 | 49 | 5 | 0 | 4 | 0 |
+| Sa 17.10. 12:34 [Steuerrückstellung zwei Tage vor Frist –](https://www.instagram.com/reel/Del54DNE7fz/) | 161 | 132 | 4 | 0 | 4 | 0 |
+| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 122 | 78 | 10 | 0 | 4 | 0 |
+| Fr 16.10. 11:45 [GmbH-Gewinn ausschütten: Von 1 € kommen ](https://www.instagram.com/reel/DejLN1HiY0k/) | 99 | 81 | 4 | 0 | 4 | 0 |
+| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 266 | 219 | 6 | 0 | 5 | 0 |
+| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 253 | 163 | 8 | 0 | 4 | 0 |
+| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 138 | 69 | 1 | 0 | 1 | 0 |
+| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 249 | 197 | 6 | 0 | 3 | 0 |
+| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 296 | 230 | 5 | 2 | 5 | 1 |
+| Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 131 | 58 | 2 | 0 | 1 | 0 |
+| Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 216 | 165 | 7 | 0 | 4 | 0 |
+| So 11.10. 19:30 [#BEZUG! – zwei Tage vor Abgabe. Kennst d](https://www.instagram.com/reel/DeXMtEnDn3I/) | 293 | 225 | 8 | 0 | 6 | 1 |
+| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 285 (+86) | 221 | 14 | 8 | 7 | 18 |
+| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 367 (+91) | 298 | 11 | 0 | 6 | 5 |
+| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 189 (+49) | 69 | 8 | 1 | 6 | 84 |
+| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 314 (+17) | 238 | 8 | 0 | 8 | 25 |
+| Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 225 (+26) | 90 | 6 | 0 | 4 | 0 |
+| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 407 (+21) | 306 | 11 | 2 | 10 | 8 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -126,6 +141,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 19.10.2026**
+- 13:52 ✍️ Tagesbericht 19. Oktober: −8% Reichweite, 4/9 Methoden erfolgreich ([`c0930f6`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/c0930f61e0be6c3e0f780c868463410cc17cb4cb))
+  - `automatik/berichte`
+- 09:37 📈 Statistik 2026-10-19 ([`f4dba84`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/f4dba8488cde74320627a1b8f0261daf46d85ca4))
+  - `automatik/statistik`
 - 09:32 ✍️ Tagesbericht 18. Oktober: +45% Reichweite, 6/10 Methoden erfolgreich ([`b9e9b96`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/b9e9b961133350182f79aaa2b40ca8dc863b6684))
   - `automatik/berichte`
 
