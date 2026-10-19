@@ -803,11 +803,14 @@
       "video": "reel_zuschlaege.mp4",
       "titelbild": "titelbild_reel.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s, −18,1 LUFS (Musik 09 Lofi-Piano + Fehlerton/Uhr). Fall „Steuer 1 Woche zu spät“: 50.000 € → 500 € Säumniszuschlag (§ 240 AO, Schonfrist 3 Tage), Verspätungszuschlag mind. 25 €/Monat als „möglich“ (§ 152 Abs. 1/5 AO, Ermessen). Material: karussell/fristen_ao Folien 2+3, Abspann abspann_frist. Schnitt: vorlagen/system/schnitt/p28_reel_zuschlaege.json (Standbilder: schnitt/p28_p30_material.py)"
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s, −18,1 LUFS (Musik 09 Lofi-Piano + Fehlerton/Uhr). Fall „Steuer 1 Woche zu spät“: 50.000 € → 500 € Säumniszuschlag (§ 240 AO, Schonfrist 3 Tage), Verspätungszuschlag mind. 25 €/Monat als „möglich“ (§ 152 Abs. 1/5 AO, Ermessen). Material: karussell/fristen_ao Folien 2+3, Abspann abspann_frist. Schnitt: vorlagen/system/schnitt/p28_reel_zuschlaege.json (Standbilder: schnitt/p28_p30_material.py)",
+      "media_id": "17905235670352134",
+      "link": "https://www.instagram.com/reel/DerFcnnnTMT/",
+      "veroeffentlicht_am": "2026-10-19 12:52"
     },
     {
       "id": "28-story-quiz",
