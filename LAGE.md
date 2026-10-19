@@ -16,7 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Mi 21.10.: Story 17:50
   - Sa 24.10.: Story 17:50
 
-**Als Nächstes online:** 🎬 Reel `61-reel-rms-finanzamt` am **So 18.10. 19:45 Uhr** – ✋ manuell (postest du in der App)
+**Als Nächstes online:** 🎬 Reel `28-reel-zuschlaege` am **Mo 19.10. 11:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -56,7 +56,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 18.10. 19:45 | 🎬 Reel `61-reel-rms-finanzamt` | ✋ manuell (postest du in der App) | 18.10. (Loris: volle Freigabe, parallel zum LinkedIn-Sonntagspost 19:00). Einzelbild als Reel 9:16 (12 s, langsamer Zoom, Musik 06 Lo-Fi ruhig, -18 LUFS) für Ausspielung an Nicht-Follower. Echtes Foto freigestellt, Hintergrund KI-generiert (Runway) – kein KI-Gesicht. Inhalt: § 88 Abs. 5 AO (RMS, Zufallsauswahl, Geheimhaltung), § 155 Abs. 4 / § 150 Abs. 7 AO (qualifizierter Freitext). Nur öffentlicher Gesetzesinhalt, keine Dienstinterna (§ 37 BeamtStG geprüft). Abweichung Reel-Regel: 4 Punkte im Bild (Entscheidung Loris: ein Bild wie LinkedIn). |
 | Mo 19.10. 11:45 | 🎬 Reel `28-reel-zuschlaege` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s, −18,1 LUFS (Musik 09 Lofi-Piano + Fehlerton/Uhr). Fall „Steuer 1 Woche zu spät“: 50.000 € → 500 € Säumniszuschlag (§ 240 AO, Schonfrist 3 Tage), Verspätungszuschlag mind. 25 €/Monat als „möglich“ (§ 152 Abs. 1/5 AO, Ermessen). Material: karussell/fristen_ao Folien 2+3, Abspann abspann_frist. Schnitt: vorlagen/system/schnitt/p28_reel_zuschlaege.json (Standbilder: schnitt/p28_p30_material.py) |
 | Mo 19.10. 12:15 | 📱 Story `28-story-quiz` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Quiz quiz_saeumnis als Emoji-Tipp neu gerendert (👏 = Ja · 😮 = Nein, richtig: Ja). Optional in der App Quiz-Sticker Ja/Nein setzen. Auflösung Di 20.10. 17:50 |
 | Mo 19.10. 17:45 | 🎬 Reel `18-reel-aufbewahrung` | 🟢 freigegeben (geht automatisch online) | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 23,7 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 147 Abs. 3 AO / § 257 HGB i. d. F. BEG IV: Buchungsbelege 8 statt 10 Jahre seit 01.01.2025, Ablaufhemmung. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
