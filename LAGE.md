@@ -5,7 +5,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** ✅ 11:45 🎬 Reel `28-reel-zuschlaege` (online) · ✅ 12:15 📱 Story `28-story-quiz` (online) · ✅ 17:45 🎬 Reel `18-reel-aufbewahrung` (online)
-- **Braucht dich:** 2 offen
+- **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **1505** (12.10.–18.10., +0 % zur Vorwoche) · Follower **+8** (jetzt 368) · 30 Tage: +27 Follows / −10 entfolgt
 - **Testmonat** (Tag 8/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **13/14** (2 online · 11 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
@@ -49,7 +49,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- ✋ **Von Hand posten** `61-reel-rms-finanzamt` (So 18.10. 19:45) – 18.10. (Loris: volle Freigabe, parallel zum LinkedIn-Sonntagspost 19:00). Einzelbild als Reel 9:16 (12 s, langsamer Zoom, Musik 06 Lo-Fi ruhig, -18 LUFS) für Ausspielung an Nicht-Follower. Echtes Foto freigestellt, Hintergrund KI-generiert (Runway) – kein KI-Gesicht. Inhalt: § 88 Abs. 5 AO (RMS, Zufallsauswahl, Geheimhaltung), § 155 Abs. 4 / § 150 Abs. 7 AO (qualifizierter Freitext). Nur öffentlicher Gesetzesinhalt, keine Dienstinterna (§ 37 BeamtStG geprüft). Abweichung Reel-Regel: 4 Punkte im Bild (Entscheidung Loris: ein Bild wie LinkedIn).
 - ⏳ **Wartet auf sprachnachricht** `17-reel-kommentare` (Sa 24.10. 17:45) – 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.
 
 ## ⏭️ Nächste 7 Tage
