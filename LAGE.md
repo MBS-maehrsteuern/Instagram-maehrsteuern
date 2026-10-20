@@ -5,7 +5,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** ✅ 11:45 🖼️ Karussell `29-karussell-verluste` (online) · ✅ 12:15 📱 Story `29-story-teaser` (online) · ✅ 17:45 🎬 Reel `19-reel-verlustvortrag` (online) · ✅ 17:50 📱 Story `28-story-aufloesung` (online)
-- **Braucht dich:** 1 offen
+- **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **1424** (13.10.–19.10., -1 % zur Vorwoche) · Follower **+6** (jetzt 368) · 30 Tage: +27 Follows / −10 entfolgt
 - **Testmonat** (Tag 9/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **13/14** (4 online · 9 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
@@ -52,6 +52,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## 👉 Braucht dich
 
 - ⏳ **Wartet auf sprachnachricht** `17-reel-kommentare` (Sa 24.10. 17:45) – 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.
+- ⏰ **💬 Reel Sa 24.10.: Kommentare prüfen – gibt es ein Thema? Sonst Ersatz** (Do 22.10. 18:00) – Loris (Aufnahme 17.10.): Für das Reel aus den Kommentaren (17-reel-kommentare, Sa 24.10. 17:45) die Kommentare der letzten Reels durchgehen. Kommt kein brauchbares Thema, baut Claude einen Ersatz (z. B. Zinsschranke Regel 2) und Loris spricht ihn ein. Bis Fr 23.10. Bescheid geben.
 
 ## ⏭️ Nächste 7 Tage
 
@@ -179,7 +180,6 @@ Reichweite pro Tag: 17.10. **214** · 18.10. **196** · 19.10. **116** · 20.10.
 | Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 189 (+0) | 69 | 8 | 1 | 6 | 84 |
 | Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 316 (+2) | 239 | 8 | 0 | 8 | 25 |
 | Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 226 (+0) | 91 | 6 | 0 | 4 | 0 |
-| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 410 (+1) | 307 | 11 | 2 | 10 | 8 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
