@@ -129,6 +129,18 @@ Screenshots der Google-KI-Antwort (Quellen darin: Instagram-Beiträge, YouTube �
 - **Format-Update:** neues Hochformat **3:4 (1080×1440)** löst 4:5 ab; **Safe Zone 1080×1350 in der Mitte**, weil das Profilraster oben und unten je **45 px** abschneidet. → siehe `17_karussell_design.md` Abschnitt 2 (zweite Quelle für 1440, aber **andere Randwerte** als die Karussell-Quelle).
 - Anbieter-Hinweis der KI: Updates von Instagram-Chef Adam Mosseri beobachten (als Aufgabe einrichtbar) – bei uns nicht eingerichtet.
 
+## Alt vs. neu – Carousel @thesenuka (Input Loris, 20.10.; Herkunft Creator-Carousel, **ungeprüft**) + Abgleich mit unserem Plan
+| Regel (neu statt alt) | Stand bei uns (Plan 21.10.–08.11.) | Folge |
+|---|---|---|
+| 5 Hashtags + Insta-SEO (Alt-Text) statt 30 | ✅ überall 4 Hashtags; Alt-Text bei allen Karussells | bleibt; Reels: Stichwort in Zeile 1 + Untertitel reichen |
+| 1 h **vor** der Spitze posten, nicht zur Spitze | Abend 17:45 bei Welle 18–21 Uhr (Insights 13.10.); API liefert `online_followers` leer | Spitzen-Stunde aus der App (Insights → Follower aktivste Zeiten) ablesen, dann Abendslot = Spitze − 1 h. Eigene Zahlen: 19:30-Reels Median 228 erreicht, 17:45-Reels 52 (vermischt mit Stimme, n klein) |
+| Neue erreichte Konten statt Follower zählen | Wochenbericht zählt Follower + Reichweite | Kennzahl „Nicht-Follower-Anteil“ ergänzen (Backlog) |
+| Raster ordnen statt chronologisch | 3 Pins | Raster in der App umsortieren: oben Demo/Verkauf, Stimm-Reels, bestes Karussell |
+| Stichworte statt langer Bildunterschrift | ✅ Stichwort in Zeile 1; aber 800–1.365 Zeichen | Neue Beiträge: max. ~600 Zeichen, Normen-Details in die Folien statt in den Text |
+| Teilbar statt nur speicherbar | ✅ „📤 Schick das …“ überall; Karussells bitten zusätzlich ums Speichern | Teilen zuerst nennen; Speichern höchstens als Zusatz |
+| Inhalt für Käufer statt nur Aufrufe (Hook → Body → CTA, gestützt durch **Messaging** + **Präsentation**) | ✅ TOOL-Aufruf überall; aber fast nur allgemeines Steuerwissen, kaum MBS/Demo | pro Woche ≥ 2 Käufer-Beiträge (Problem der Kanzlei/Steuerabteilung → MBS zeigt Lösung → TOOL) |
+| (eigene Zahl) Stimme | Stimm-Reels Median 221 erreicht vs. 52 ohne Stimme (bis 20.10.) | **Ziel 3 Stimm-Reels/Woche** – größter Hebel |
+
 ## Bewusst nicht übernommen
 - Trends und Trend-Sounds **ohne Bezug zur Nische** – nur, wenn sie sich sauber auf Steuern übertragen lassen.
 - Schnelle Schnitte und knallige Effekte als Grundregel – für Software zu hektisch (`09_reel_regeln.md`).
