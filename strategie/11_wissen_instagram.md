@@ -2,7 +2,8 @@
 
 Gesammelt aus Artikeln und einem Video, die Loris geschickt hat (Quellen unten). Übernommen ist **nur, was zu @maehrsteuern passt**
 (Steuern × Code, kleine Fachnische, ~350 Follower). Gilt für die Content-Fabrik zusätzlich zu
-`08_hooks.md`, `09_reel_regeln.md` und `10_software_reel_konzept.md`. Bei Widerspruch gewinnen unsere eigenen Regeln
+`08_hooks.md`, `09_reel_regeln.md` und `10_software_reel_konzept.md`. **Karussells: zusätzlich `17_karussell_design.md`
+(Leseführung, Kontrast, 10-Folien-Raster, Prüfliste, Baustein).** Bei Widerspruch gewinnen unsere eigenen Regeln
 und Zahlen aus `06_auswertung.md`.
 
 ## Wie der Algorithmus bewertet (Reels)
