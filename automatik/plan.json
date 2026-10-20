@@ -857,10 +857,13 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R2, korrigiert gegengelesen), Folien 1–5 aus karussell/verlustvortrag, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p29_verluste.json). KSt/ESt 70 % VZ 2024–2027 über 1 Mio. €, ab 2028 60 %; GewSt § 10a GewStG 60 %, kein Rücktrag – steht auf Folie 3/5 und in der Bildunterschrift. Begleit-Karussell zum Abend-Reel 19 Verlustvortrag. Raster KW 43 (Karussell abends) bewusst getauscht"
+      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R2, korrigiert gegengelesen), Folien 1–5 aus karussell/verlustvortrag, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p29_verluste.json). KSt/ESt 70 % VZ 2024–2027 über 1 Mio. €, ab 2028 60 %; GewSt § 10a GewStG 60 %, kein Rücktrag – steht auf Folie 3/5 und in der Bildunterschrift. Begleit-Karussell zum Abend-Reel 19 Verlustvortrag. Raster KW 43 (Karussell abends) bewusst getauscht",
+      "media_id": "17982558018104055",
+      "link": "https://www.instagram.com/p/DetnHd6G82Y/",
+      "veroeffentlicht_am": "2026-10-20 12:24"
     },
     {
       "id": "29-story-teaser",
