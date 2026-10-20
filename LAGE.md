@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:45 🖼️ Karussell `29-karussell-verluste` (online) · ✅ 12:15 📱 Story `29-story-teaser` (online) · ✅ 17:45 🎬 Reel `19-reel-verlustvortrag` (online) · ✅ 17:50 📱 Story `28-story-aufloesung` (online)
+- **Heute online:** 🟢 11:45 🎬 Reel `30-reel-gwg` (läuft automatisch) · 🟢 12:15 📱 Story `30-story-quiz` (läuft automatisch) · 🟢 17:45 🎬 Reel `20-reel-erechnung` (läuft automatisch)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **1424** (13.10.–19.10., -1 % zur Vorwoche) · Follower **+6** (jetzt 368) · 30 Tage: +27 Follows / −10 entfolgt
-- **Testmonat** (Tag 9/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 10/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **13/14** (4 online · 9 geplant · 1 wartet) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 44** (26.10.–01.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
   - 🟡 **KW 45** (02.11.–08.11.): Feed **13/14** (0 online · 13 geplant) · Reel-Tage (sicher) **7/7**
@@ -383,6 +383,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 11:09 ✍️ Mein-Weg-Reel: Karte „Das bin ich heute“ mit aktuellem Foto (Bild 1) neu, Reel neu gerendert, KI-Hinweis ergänzt ([`593413e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/593413ee94912455090257e55e162c4475ac6afa))
   - `assets/marke/karte_1_aktuell_9x16.png`, `assets/marke/loris_aktuell_freisteller_2026-10.png`, `automatik/lage_notizen.md`, `posts/04_2026-10-20_reel_mein_weg`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mi 14.10.2026**
 - 17:45 🤖 Autopilot: 07-reel-hinzurechnung veroeffentlicht ([`2cda127`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2cda127419002dbc77fc067d6ffd383412b79111))
   - Plan: `07-reel-hinzurechnung` status: freigegeben → veroeffentlicht; `07-reel-hinzurechnung` online: https://www.instagram.com/reel/DeemwStk5mL/
@@ -430,8 +432,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - Plan: neu `45-reel-vga` (2026-10-31 17:45, freigegeben); neu `45-story-teaser` (2026-10-31 17:50, freigegeben); neu `46-karussell-dividenden-8b` (2026-11-01 11:45, freigegeben); neu `46-story-zdt` (2026-11-01 12:15, freigegeben); neu `47-reel-betriebsaufspaltung` (2026-11-01 17:45, freigegeben); neu `47-story-teaser` (2026-11-01 17:50, freigegeben)
 - 00:13 ✍️ Notlösung bereit: 5 Reels ohne Stimme für 18–22 (Aufbewahrung … Steuersatz) ([`68bdddf`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/68bdddf43ab89f34e405a8fe02f55c3a268ff4bd))
   - `LAGE.html`, `automatik/plan.json`, `posts/18_2026-10-19_reel_aufbewahrung`, `posts/19_2026-10-20_reel_verlustvortrag`, `posts/20_2026-10-21_reel_erechnung`, `posts/21_2026-10-22_reel_zinsschranke`, `…`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 13.10.2026**
 - 23:44 ✍️ Plan: Lücken 16.–18.10. gefüllt (3 Reels, 1 Karussell, 3 Storys, freigegeben) ([`0d15697`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0d15697e1a0cf25025af67bc82391c0e8b2a6a83))
