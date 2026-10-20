@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 20.10. 12:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 20.10. 13:28 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -20,6 +20,8 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Instagram-Regeln Okt. 2026 (20.10., Google-KI-Antwort, ungeprüft):** Zusammenfassung in `strategie/11_wissen_instagram.md` (Saves/Shares, Originalität, 3–5 Hashtags + **Alt-Text**, 3:4-Format). Widerspruch zu „erste Stunde zählt“ → im Testmonat prüfen, Postzeiten nicht ändern. Format 1440 jetzt von zwei Quellen genannt, Randwerte uneinheitlich → `17_karussell_design.md` Abschnitt 2.
+- **Karussell-Design (20.10.):** Neue Regeln aus Loris' Screenshots (@fizzaandalgorithm) in `strategie/17_karussell_design.md` – Z-Muster, Kontrast mit Messwerten unserer Marke (Nebentext `#8FA398` nur 4,7 am hellen Verlaufsende), 10-Folien-Raster, Prüfliste und Baustein; Content-Fabrik liest sie über `11_wissen_instagram.md` und `automatik/routinen/content_fabrik.md`. **Offen (Loris):** Format 1080×1440 (3:4) statt 1080×1350 – Angabe der Quelle nicht gegengeprüft, Vorlage bleibt vorerst 1350. Routine-Prompt in den Routine-Einstellungen ggf. um `17_karussell_design.md` in der Leseliste ergänzen.
 - **Nachtlauf 14.10. (Loris: „Optimierungen suchen, einbauen, freigeben“)** – Bericht `strategie/16_optimierung_2026-10-14.md`. Kurz: Plan 14.10.–01.11. fast lückenlos (~40 neue Beiträge/Storys aus der gegengelesenen Bibliothek, ohne Stimme, freigegeben, 2× unabhängig geprüft), anstehende Beiträge überarbeitet (Suchbegriff in Zeile 1, „Kommentiere TOOL“, Auswahlfrage, 4 Hashtags), Fachfehler korrigiert (Rückstellung Folie 5, E-Rechnung-Text, Zinsschranke-EBITDA), Ortsangabe im Ampel-Reel überdeckt. Autopilot ohne Doppel-Post-Risiko, Takt-Wächter, Statistik ohne Doppelläufe, Zeitzonen-Fix vor 25.10., Lage mit 30-Sekunden-Briefing. Notlösung 18–22 liegt als `ersatz_video` bereit, Umstellung Do 15.10. 12:05 (geplanter Check). **Braucht Loris:** KI-Label Ampel (Sa) + Mein Weg (Fr) in der App, Bio/Pins/Highlights (`02_bio_highlights.md`), Routine-Prompts übernehmen, ManyChat (TOOL-Kommentare!).
 - Neustart läuft: Start-Storys + Vorfreude (30.09.) und Neuvorstellung (Do 01.10. 18:30, von Hand) sind online. Nach 2 h: 26 erreicht, 6× geteilt, 0 neue Follower. Angepinnt ✓ (03.10.). Offen von Hand: Highlight „Start 👋“.
 - Wochenrhythmus ab Okt. steht im Prompt der Content-Fabrik (Mo + Do 08:47, max. 4 Beiträge pro Lauf): Di/Do Karussell + Teaser, Mi Begleit-Reel, Fr Wissens-Reel oder Stimm-Reel, So Reel + Teaser, täglich 12:15 Story.
@@ -201,6 +203,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 20.10.2026**
+- 13:28 ✍️ Instagram-Regeln Oktober 2026 (Google-KI-Antwort) als ungeprüftes Wissen eingetragen ([`a86b9c2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a86b9c2e5d175ad7ff1a90bf2dd6d0535023142b))
+  - `automatik/lage_notizen.md`, `strategie/11_wissen_instagram.md`, `strategie/17_karussell_design.md`
+- 13:27 ✍️ Karussell-Design-Regeln und Baustein für die Content-Fabrik ([`b127d80`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b127d80d3af2e0f704a081424dd448f8c3ef7226))
+  - `README.md`, `automatik/lage_notizen.md`, `automatik/routinen`, `strategie/11_wissen_instagram.md`, `strategie/17_karussell_design.md`
 - 12:24 🤖 Autopilot: 29-story-teaser veroeffentlicht ([`cfbfc3e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cfbfc3e83bc85afe583bf3d79351fe7101aa240a))
   - Plan: `29-story-teaser` status: freigegeben → veroeffentlicht; `29-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4012035073688455220
 - 12:24 🤖 Autopilot: Dateien fuer 29-story-teaser vorbereitet ([`a6501f5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a6501f551887c0ba3ec0ca327c0c1072eb2f688b))
