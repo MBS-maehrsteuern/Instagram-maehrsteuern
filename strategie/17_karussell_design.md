@@ -16,6 +16,7 @@ Quelle: Instagram-Karussell von @fizzaandalgorithm (Screenshots von Loris, Folie
 ## 2. Format und Sicherheitsrand
 - Quelle nennt als **neues Format 1080 × 1440 px (3:4)**; alt: 1080×1080 und 1080×1350. Sicherheitsrand laut Quelle
   **ca. 50 px links/rechts, ca. 180 px oben/unten**. Bei **Anzeigen (Boosting) 1080 × 1350** nehmen.
+- **Zweite Quelle (Google-KI, 20.10., ungeprüft):** 3:4 (1080×1440) löst 4:5 ab; wichtige Elemente in die **Mitte 1080×1350**, weil das Profilraster **oben und unten je 45 px** abschneidet. Das widerspricht den Rändern der Karussell-Quelle (50 px seitlich, 180 px oben/unten). **Vorsichtshalber der strengere Wert:** Text und Logo ≥ 50 px seitlich, ≥ 180 px oben/unten. Beide Quellen sind sekundär – vor dem Umstellen an einem Testbild in der App (Raster-Vorschau) prüfen.
 - ⚠️ **Offene Entscheidung Loris:** Unsere Vorlage `karussell.html` und alle bisherigen Karussells sind **1080×1350 (4:5)**.
   Die Angabe der Quelle ist hier nicht gegengeprüft. Bis Loris entscheidet, bleibt 1350 – und Text/Logo trotzdem
   innerhalb der Ränder (≥ 50 px seitlich, ≥ 180 px oben/unten), damit ein späterer Wechsel auf 3:4 nichts abschneidet.
