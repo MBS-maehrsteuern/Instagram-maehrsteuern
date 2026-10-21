@@ -151,6 +151,23 @@ class Instagram:
             print(f"Hinweis: Link zu {mid} nicht abrufbar ({fehler})")
             return mid, None
 
+    def kommentieren(self, mid, text):
+        return self._post(f"{mid}/comments", message=text)["id"]
+
+
+def erster_kommentar(ig, e, mid):
+    """Direkt nach einem Feed-Beitrag den ersten Kommentar (posts/<ordner>/erster_kommentar.txt) setzen. Gibt die
+    Kommentar-ID zurück oder None. Fehler hier verändern den Beitrag nie – nur eine Warnung."""
+    if e["typ"] == "story" or not mid or e.get("erster_kommentar_id"):
+        return None
+    try:
+        datei = WURZEL / e["ordner"] / "erster_kommentar.txt"
+        text = datei.read_text().strip() if datei.is_file() else ""
+        return ig.kommentieren(mid, text) if text else None
+    except Exception as fehler:
+        print(f"⚠ {e['id']}: erster Kommentar nicht gesetzt ({str(fehler).replace(ig.token, '***')[:200]})")
+        return None
+
 
 def pruefen(e):
     """Gibt einen Grund zurück, warum der Eintrag (noch) nicht gepostet werden darf – oder None."""
@@ -324,6 +341,9 @@ def main():
                 felder = dict(status="veroeffentlicht", media_id=mid, link=permalink,
                               veroeffentlicht_am=jetzt().strftime("%Y-%m-%d %H:%M"))
                 print(f"✓ {e['id']} online: {permalink}")
+                kid = erster_kommentar(ig, e, mid)
+                if kid:
+                    felder["erster_kommentar_id"] = kid
                 erste_stunde({**e, **felder})
         except Exception as fehler:
             plan = fehler_sichern(ig, e["id"], fehler, fehlgeschlagen) or plan

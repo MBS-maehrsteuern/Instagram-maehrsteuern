@@ -34,6 +34,12 @@ class FakeIG:
         self.container_n, self.veroeffentlicht, self.media = 0, [], media or []
         self.beim_posten = beim_posten
 
+    def kommentieren(self, mid, text):
+        if getattr(self, "kommentar_fehler", False):
+            raise RuntimeError("comments: 400 kaputt GEHEIM")
+        self.kommentare = getattr(self, "kommentare", []) + [(mid, text)]
+        return "k1"
+
     def container(self, **daten):
         self.container_n += 1
         return f"c{self.container_n}"
@@ -116,6 +122,33 @@ class Trockenlauf(unittest.TestCase):
         e = self.remote_plan()["07-reel-hinzurechnung"]
         self.assertEqual((e["status"], e["media_id"], e["link"]), ("veroeffentlicht", "m1", "https://instagram.com/p/m1"))
         self.assertTrue((self.claude / "posts/x/_jpg/bild.jpg").exists(), "JPG muss gepusht sein")
+
+    # 1b ── erster Kommentar: Erfolg, Fehler (Post bleibt gültig), kein Kommentar bei Story/ohne Datei
+    def test_erster_kommentar(self):
+        self.plan_anlegen([eintrag("07-reel-hinzurechnung", "reel", "17:45", video="video.mp4", bilder=[], titelbild="bild.png")])
+        (self.lauf / "posts/x/erster_kommentar.txt").write_text("Welche Hinzurechnung nutzt ihr?\n")
+        ig = FakeIG()
+        self.assertEqual(self.lauf_starten(ig), 0)
+        self.assertEqual(ig.kommentare, [("m1", "Welche Hinzurechnung nutzt ihr?")])
+        self.assertEqual(self.remote_plan()["07-reel-hinzurechnung"]["erster_kommentar_id"], "k1")
+        # idempotent: bereits gesetzte ID → kein zweiter Kommentar
+        self.assertIsNone(posten.erster_kommentar(ig, {"id": "x", "typ": "bild", "ordner": "posts/x", "erster_kommentar_id": "k1"}, "m1"))
+        self.assertEqual(len(ig.kommentare), 1)
+
+    def test_erster_kommentar_fehler_laesst_post_bestehen(self):
+        self.plan_anlegen([eintrag("07-reel-hinzurechnung", "reel", "17:45", video="video.mp4", bilder=[], titelbild="bild.png")])
+        (self.lauf / "posts/x/erster_kommentar.txt").write_text("Frage?\n")
+        ig = FakeIG(); ig.kommentar_fehler = True
+        self.assertEqual(self.lauf_starten(ig), 0)
+        e = self.remote_plan()["07-reel-hinzurechnung"]
+        self.assertEqual((e["status"], e["media_id"]), ("veroeffentlicht", "m1"))
+        self.assertNotIn("erster_kommentar_id", e)
+
+    def test_kein_kommentar_bei_story_oder_ohne_datei(self):
+        ig = FakeIG()
+        self.assertIsNone(posten.erster_kommentar(ig, {"id": "s", "typ": "story", "ordner": "posts/x"}, "m1"))
+        self.assertIsNone(posten.erster_kommentar(ig, {"id": "b", "typ": "bild", "ordner": "posts/gibtsnicht"}, "m1"))
+        self.assertFalse(hasattr(ig, "kommentare"))
 
     # 2 ── Push-Konflikt direkt nach dem Posten → Status kommt trotzdem an, kein zweiter Post
     def test_push_konflikt_nach_post(self):
