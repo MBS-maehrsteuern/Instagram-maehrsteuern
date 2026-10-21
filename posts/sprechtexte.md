@@ -5,6 +5,32 @@ etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertit
 Aufnahme-Fassung für Fr 16.10. als Google Doc im Drive-Ordner „Maehrsteuern audios“ (Sprechtexte zum Aufnehmen – Fr 16.10.).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
+## 🎙️ Aufnahme 21.10. – alle Reels ab heute mit Stimme (Loris: Stimm-Reels ohne Nachhall laufen am besten)
+Eine Datei reicht: vor jedem Text die Nummer sagen („Nummer 32“), 2 s Pause, dann sprechen. Ruhiger, gedämpfter Raum, 20–30 cm Abstand.
+Danach wird jedes Reel neu geschnitten: Stimme −18 LUFS, Musik leise darunter, wörtliche Untertitel. Inhalte = bisherige Karten/Bildunterschrift.
+
+- **30 GWG:** 799 Euro netto? Sofort voll absetzen. 801 Euro? Abschreiben. Bis 800 Euro ist es ein GWG. Darüber: Nutzungsdauer oder Sammelposten, fünf Jahre je 20 Prozent. Aber: Wer den Pool wählt, muss ihn das ganze Jahr nutzen.
+- **32 Mindeststeuer:** Globale Mindeststeuer – betrifft dich das überhaupt? Erst ab 750 Millionen Euro Konzernumsatz. Dann zählt pro Land der Effektivsteuersatz. Liegt er unter 15 Prozent, kommt die Ergänzungssteuer. Auch in Deutschland kann die Quote darunter rutschen.
+- **33 Paragraf-Formel:** Drei Paragrafen, drei Excel-Formeln. Hinzurechnung: ein Viertel über 200.000 Euro. Geschenke: 50 Euro Freigrenze je Empfänger und Jahr. Paragraf 8b: fünf Prozent der Dividende nicht abziehbar. Welche rechnest du noch von Hand?
+- **34 Einspruch:** Bescheid am Montag zur Post – wann endet deine Einspruchsfrist? Seit 2025 gilt er am vierten Tag als bekannt gegeben, also Freitag. Ab dann ein Monat. Zahlen musst du trotzdem – außer mit Aussetzung der Vollziehung.
+- **36 Bewirtung:** Bewirtungsbeleg ohne Anlass? Dann streicht der Prüfer alles – null statt 70 Prozent. Auf den Beleg gehören Ort, Tag, Teilnehmer, Anlass und Betrag. „Arbeitsgespräch“ reicht nicht. Und Bewirtungen getrennt buchen, sonst ist der Abzug auch weg.
+- **38 Prüfpfad:** „Woher kommt diese Zahl?“ Die Frage kommt in jeder Betriebsprüfung. Nach den GoBD muss ein Dritter in angemessener Zeit nachvollziehen können, wie deine Zahlen entstehen. In zwölf Excel-Blättern heißt das: suchen. Mit Prüfpfad: klicken, Quelle sehen.
+- **39 Holding:** Eine Million Euro Gewinn aus dem Anteilsverkauf – und nur rund 15.000 Euro Steuer. Verkauft eine GmbH Anteile an einer Kapitalgesellschaft, bleibt der Gewinn steuerfrei. Nur fünf Prozent gelten als nicht abziehbar. Bei 400 Prozent Hebesatz: rund 1,5 Prozent.
+- **40 Formeln:** WENNFEHLER mit Null – der Fehler ist weg, die Steuer auch. Die Tabelle sieht sauber aus, die Rückstellung ist zu niedrig. Besser: Steuersatz per XVERWEIS aus einer Tabelle holen statt eintippen. Und Namen wie „Hebesatz“ statt Dollar C Dollar 12.
+- **42 AfA:** Degressive AfA: bis zu 30 Prozent im Jahr. Aber nur für bewegliche Wirtschaftsgüter, angeschafft von Juli 2025 bis Ende 2027. Maschine für 100.000 Euro, gekauft im Dezember? Im ersten Jahr nur ein Zwölftel: 2.500 Euro.
+- **43 Paragraf 35:** Gewerbesteuer – und am Ende fast neutral? Die Einkommensteuer sinkt um das Vierfache des Messbetrags. Bei 100.000 Euro Gewerbeertrag und 400 Prozent Hebesatz: 10.570 Euro Gewerbesteuer, 10.570 Euro Ermäßigung. Höchstens aber die tatsächlich gezahlte Gewerbesteuer.
+- **45 vGA:** Darlehen an den Gesellschafter, null Prozent Zinsen? Für den Prüfer eine verdeckte Gewinnausschüttung. Die GmbH gewährt einen Vorteil, den ein Fremder nie bekäme. Genauso: überhöhtes Geschäftsführergehalt oder Privatnutzung ohne Vereinbarung.
+- **47 Betriebsaufspaltung:** Halle an die eigene GmbH vermietet – und plötzlich ist die Miete gewerblich. Dafür reichen zwei Dinge: Die Halle ist wesentliche Betriebsgrundlage, und du beherrschst beide Seiten. Folge: Halle und GmbH-Anteile werden Betriebsvermögen.
+- **48 Firmenwagen:** Fahrtenbuch in Excel – verworfen. Ein Fahrtenbuch zählt nur, wenn es zeitnah und in geschlossener Form geführt wird. Sonst gilt die 1-Prozent-Regel plus 0,03 Prozent pro Entfernungskilometer. Bei 50.000 Euro Listenpreis und 20 Kilometern: 800 Euro im Monat.
+- **49 Kleinunternehmer:** 100.000 Euro Umsatz – und du bist sofort raus. Seit 2025: Vorjahr höchstens 25.000, laufendes Jahr höchstens 100.000 Euro. Wer drüber kommt, zahlt schon für diesen Umsatz Umsatzsteuer. Kein Warten bis Silvester mehr. Kommentiere „TOOL“.
+- **50 Gebäude-AfA:** Zwei, zweieinhalb, drei oder fünf Prozent – welcher Satz gilt für dein Gebäude? Wohngebäude ab 2023 fertig: drei Prozent linear. Baubeginn ab Oktober 2023: degressiv fünf Prozent. Beim Mietwohnungsneubau Sonder-AfA obendrauf. Grund und Boden: nie.
+- **52 GoBD:** Der Prüfer öffnet deine Excel. Hält sie? Drei GoBD-Wörter: Unveränderbar – eine überschriebene Zelle hinterlässt keine Spur. Zeitgerecht – Kasse täglich, der Rest zeitnah. Dokumentiert – eine Verfahrensdokumentation, wie die Daten entstehen.
+- **53 IAB:** Heute abziehen, später kaufen. Mit dem Investitionsabzugsbetrag ziehst du bis zu 50 Prozent der geplanten Kosten vorher ab. Maschine für 60.000 Euro geplant: 30.000 Euro Abzug. Nicht bis Ende des dritten Folgejahres investiert? Rückwirkend weg, mit Zinsen.
+- **54 Reverse Charge:** Mit Umsatzsteuer bezahlt – und trotzdem null Euro Vorsteuer. Am Bau schuldest du als Bauleister die Steuer selbst. Weist der Subunternehmer trotzdem 19.000 Euro aus, ist das keine abziehbare Vorsteuer. Du schuldest die Steuer nach 13b – und ziehst sie dort ab.
+- **55 Thesaurierung:** 28,25 statt bis zu 45 Prozent – für Gewinn, der im Betrieb bleibt. Auf Antrag wird nicht entnommener Gewinn begünstigt besteuert, ab 2028 sinkt der Satz weiter. Aber: Entnimmst du ihn später, kommen 25 Prozent Nachsteuer dazu.
+- **57 Verlust 8c:** Mehr als 50 Prozent der Anteile verkauft – und der Verlustvortrag ist weg. Innerhalb von fünf Jahren an einen Erwerber: Die Verluste sind nicht mehr abziehbar, auch Gewerbesteuer-Fehlbetrag und Zinsvortrag. Rettungsanker: Konzernklausel und stille Reserven.
+- **58 Vorsteuer:** Rechnung lückenhaft – und die Vorsteuer wackelt. Für den Abzug brauchst du eine ordnungsgemäße Rechnung mit allen Pflichtangaben. Fehlt eine, kann der Prüfer streichen. Bis 250 Euro brutto reicht eine Kleinbetragsrechnung. Also: Rechnungen beim Eingang prüfen.
+
 ## 🔥 Follower-Reel (15.10.) · „Geld, das Leute verschenken“ (`60-reel-geld-verschenkt`, ca. 20 s)
 Ziel: Follower statt Demo-Anfragen (Säule 4 + Wissen, breite Zielgruppe: Angestellte, Selbstständige, Studierende).
 Bewusst etwas länger als die 15-s-Regel (≈ 50 Wörter), weil Geschichte + Nutzen. Pointe (Geld verschenkt) in den ersten 4 s.
