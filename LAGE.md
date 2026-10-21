@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 12:16 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 13:52 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -204,6 +204,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 21.10.2026**
+- 13:52 ✍️ Sprechtexte als Fachbeiträge 25–30 s (Loris 21.10.); Reel-Regel und Content-Fabrik angepasst ([`2553eb2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2553eb251ef95617b1782f6df72b4d3ca232d3b5))
+  - `automatik/routinen`, `posts/sprechtexte.md`, `strategie/09_reel_regeln.md`
 - 12:16 ✍️ Karussells auf 3:4 (1080×1440): Vorlagen umgestellt, 11 kommende Karussells neu gerendert ([`eec6c7b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/eec6c7bdf3a250a718e921dd5dde790da1f00c29))
   - `posts/10_2026-10-22_e_rechnung`, `posts/31_2026-10-22_zinsschranke`, `posts/35_2026-10-25_steuerkalender`, `posts/37_2026-10-27_bp_vorbereitung`, `posts/41_2026-10-29_mythen`, `posts/44_2026-10-30_glossar`, `…`
 - 12:06 ✍️ Alle geplanten Beiträge pausiert (Loris 21.10.); Bildunterschriften mit großartigen Hooks, erster Kommentar automatisch nach dem Posten ([`0725ab0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0725ab046c6c6422e3ef8daf5439c67a16c8c230))
