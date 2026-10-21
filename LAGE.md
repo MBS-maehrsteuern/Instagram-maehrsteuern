@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 15:31 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 16:34 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -204,6 +204,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 21.10.2026**
+- 16:34 ✍️ Wissen 21.10.: Meta-Kennzahlen (Hook Rate = 3 s, geschätzte Werte nur als Trend) ([`2238d53`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2238d5384316896999a2ec218333705d1e0233bf))
+  - `strategie/18_wissen_2026-10-21.md`
 - 15:31 ✍️ Reel 42 (AfA) mit Stimme 21.10.; Stimmen neu geschnitten nur in echten Pausen ([`907fde5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/907fde5b0c6c77871c040a950a8f49032c619266))
   - `aufnahmen/2026-10-21/geschnitten/schnitt.py`, `aufnahmen/2026-10-21/geschnitten/stimme_30.wav`, `aufnahmen/2026-10-21/geschnitten/stimme_32.wav`, `aufnahmen/2026-10-21/geschnitten/stimme_33.wav`, `aufnahmen/2026-10-21/geschnitten/stimme_34.wav`, `aufnahmen/2026-10-21/geschnitten/stimme_36.wav`, `…`
 - 14:31 ✍️ Aufnahme 21.10.: Fachbeitrags-Sprechtexte, beste Takes je Reel geschnitten (21 Stimmen, −18 LUFS) ([`487cdc1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/487cdc13507c54c7bb502807953deb44dbc97423))
