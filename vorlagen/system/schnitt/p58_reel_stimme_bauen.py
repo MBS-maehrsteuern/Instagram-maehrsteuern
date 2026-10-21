@@ -24,7 +24,7 @@ for r in range(900, 0, -6): d.ellipse([540 - r, 700 - r, 540 + r, 700 + r], fill
 im.save(bg)
 UT = {"groesse": 78, "y": 400, "x": 480, "breite": 860}
 def g(wort, t, y, farbe="weiss", groesse=150): return dict(wort=wort, t=t, y=y, farbe=farbe, groesse=groesse)
-SZ = [(0.0, "bausteine/hintergrund.png", [g("Rechnung bezahlt.", 0.1, 820, "weiss", 120), g("Vorsteuer:", 2.3, 1000, "gelb", 170), g("0 €.", 3.0, 1190, "rot", 200)]),
+SZ = [(0.0, "bausteine/hintergrund.png", [g("Rechnung bezahlt.", 0.0, 820, "weiss", 120), g("Vorsteuer:", 0.0, 1000, "gelb", 170), g("0 €.", 0.0, 1190, "rot", 220)]),
       (3.8, "bausteine/karte_rechnung.png", []),
       (8.3, "bausteine/karte_pflicht.png", []),
       (16.06, "bausteine/karte_rechnung.png", []),
@@ -38,7 +38,7 @@ for i, (a, karte, akz) in enumerate(SZ):
     b = SZ[i + 1][0] if i + 1 < len(SZ) else ende
     text = [{"wort": z, **UT, "ab": round(max(x - a, 0), 2), "bis": round(min(y, b) - a, 2)} for z, x, y in ut if x < b and y > a]
     text += [{"wort": k["wort"], "farbe": k["farbe"], "groesse": k["groesse"], "y": k["y"], "x": 480, "breite": 880, "ab": round(k["t"] - a, 2), "bis": round(b - a, 2)} for k in akz]
-    sz = {"karte": f"../../{O}/{karte}", "dauer": round(b - a, 3), "von": [540, 960, 1080], "nach": [540, 960, 1040], "text": text}
+    sz = {"karte": f"../../{O}/{karte}", "dauer": round(b - a, 3), "von": [540, 960, 1080], "nach": ([540, 960, 960] if i == 0 else [540, 960, 1040]), "text": text}
     if i == 1: sz["rein"] = "whip"
     szenen.append(sz)
 szenen.append({"karte": f"../../{O}/bausteine/abspann_tool.png", "dauer": 1.8, "von": [540, 960, 1040], "nach": [540, 960, 1000], "text": []})

@@ -1855,11 +1855,11 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "21.10. (Loris: „Bau das Reel und dann Autopilot“): vorgezogen von So 08.11. auf heute 17:45, neu geschnitten mit Loris’ Stimme aus Aufnahme 21.10. (31,6 s, −18 LUFS, Musik 08 Chill House, Hook „Rechnung bezahlt. Vorsteuer: 0 €.“ bis 3 s). Bau: vorlagen/system/schnitt/p58_reel_stimme_bauen.py. 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,7 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 08 Chill House. Titelbild neu als Prüfer-Fall „Rechnung lückenhaft? Vorsteuer wackelt.“, Karten aus karussell/vorsteuer Folie 4 und Pflichtangaben-Folie mit 3 statt 5 Punkten (gebündelt, Reel-Regel). ampel_vst_* nicht genutzt (zeigt § 13b = Thema d2 Reverse-Charge). Bildunterschrift: 4 Voraussetzungen § 15 UStG, § 14 Abs. 4 UStG, § 33 UStDV (250 €), rückwirkende Berichtigung nur mit Mindestangaben (§ 31 Abs. 5 UStDV, BMF 18.09.2020). jobs/p58_reel_vorsteuer.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p58_reel_vorsteuer.json."
+      "hinweis": "21.10. 17:50 umgebaut nach Auswertung AfA-Reel: Hook „Rechnung bezahlt. Vorsteuer: 0 €.“ ab Frame 1 mit Zoom, neues Titelbild aus dem Hook (alt: titelbild_alt.png). 21.10. (Loris: „Bau das Reel und dann Autopilot“): vorgezogen von So 08.11. auf heute 17:45, neu geschnitten mit Loris’ Stimme aus Aufnahme 21.10. (31,6 s, −18 LUFS, Musik 08 Chill House, Hook „Rechnung bezahlt. Vorsteuer: 0 €.“ bis 3 s). Bau: vorlagen/system/schnitt/p58_reel_stimme_bauen.py. 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,7 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 08 Chill House. Titelbild neu als Prüfer-Fall „Rechnung lückenhaft? Vorsteuer wackelt.“, Karten aus karussell/vorsteuer Folie 4 und Pflichtangaben-Folie mit 3 statt 5 Punkten (gebündelt, Reel-Regel). ampel_vst_* nicht genutzt (zeigt § 13b = Thema d2 Reverse-Charge). Bildunterschrift: 4 Voraussetzungen § 15 UStG, § 14 Abs. 4 UStG, § 33 UStDV (250 €), rückwirkende Berichtigung nur mit Mindestangaben (§ 31 Abs. 5 UStDV, BMF 18.09.2020). jobs/p58_reel_vorsteuer.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p58_reel_vorsteuer.json."
     },
     {
       "id": "58-story-tipp",
