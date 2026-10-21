@@ -186,3 +186,11 @@ der Tagesbericht zeigt die Skip-Rate je Reel jetzt mit Alter (Verlauf aus den Mo
 - **Nicht-Follower-Anteil je Beitrag:** wird ab 09.10. abgefragt (`reach_aufgeteilt`). Liefert Instagram ihn nicht, bleibt die Spalte im Testmonat leer.
 - **Profilbesuche und neue Follower pro Reel** gibt Instagram nur für Storys und Feed-Beiträge heraus. Für die Karussells ab 06.10. haben wir diese Werte dann.
 - **Zielgruppe der erreichten und interagierenden Konten:** Dafür sind es noch zu wenige. Die Werte kommen automatisch, sobald genug Daten da sind.
+
+## Erstes Stimm-Fach-Reel (42 AfA, manuell 21.10. ~16:35, Stand nach ~1 h, Screenshots Loris)
+- 80 Aufrufe (74 IG, 6 FB) · 43 Betrachter (≈ 1,9 Aufrufe je Person → Wiederholungen) · Ø 16 s bei 32 s Länge · 1 neuer Follower.
+- Verlauf 1. Stunde ≈ 3× „übliche Reels“ (~70 vs. ~20 nach 1 h). Übersprungen 73,9 % (niedriger als üblich).
+- Raten (Basis ≈ 46 Konten): geteilt 30,4 % (≈ 14) · Gefällt mir 15,2 % · gespeichert 13,0 % · Repost 10,9 % · Kommentare 8,7 %.
+- Haltekurve: ~50 % nach der 1. Sekunde, ~30 % ab ~5 s, ~25 % Mitte, **18 % am Ende**.
+- Quellen: Reels-Tab 33,8 % · Feed 14,1 % · Stories 12,7 % · Profil 5,6 % · Explore 4,2 % → noch viel eigenes Umfeld, Aussagekraft begrenzt (n = 1, < 72 h).
+- Lesart: Ø 16 s = 2–3× unser bisheriger Wert (4,8–8,5 s) – Fachbeitrag 25–30 s + Stimme + Widerspruchs-Hook trägt. Hebel: Absturz in Sekunde 0–1.
