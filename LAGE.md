@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 10:54 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 11:59 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -83,12 +83,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Di 27.10. 12:15 | 📱 Story `37-story-tipp` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek Tipp-Story neu (statt frage_pruefung = offene Frage): „Prüfungsanordnung zuerst lesen“, Verlegung des Beginns auf Antrag aus wichtigem Grund (§ 197 Abs. 2 AO), Emoji-Reaktion 👏/😮 (jobs/p37_bp_vorbereitung.json). |
 | Di 27.10. 17:45 | 🎬 Reel `38-reel-pruefpfad` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R1/R2 gegengelesen), Begleit-Reel zu Karussell 37, ohne Stimme 13,7 s, −18,0 LUFS, Atmo Uhr im Hook, Musik 09 Lofi-Piano ab der Lösung. Als Betriebsprüfungs-Thema gerahmt („Woher kommt diese Zahl?“, GoBD-Nachvollziehbarkeit), nicht als #BEZUG/Excel-Fehler. Titelbild „Betriebsprüfung – Jede Zahl bis zur Quelle“ und Abspann „Kommentiere TOOL“ neu (jobs/p38_reel_pruefpfad.json); bausteine/haken_pruefpfad, leiste_pruefpfad, haken_ueber_pruefpfad auf Folien 3/4 von bp_vorbereitung (schnitt/p36_40_karten_bauen.py), Schnitt schnitt/p38_reel_pruefpfad.json. |
 | Di 27.10. 17:50 | 📱 Story `38-story-teaser` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Prüfpfad-Reel (Titelbild), jobs/p38_reel_pruefpfad.json. |
+| Mi 28.10. 11:45 | 🎬 Reel `39-reel-holding` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,8 s, −18,0 LUFS, Musik 07 Minimal Tech. Veräußerungsgewinn GmbH an GmbH: 1 Mio. € × 5 % nbBA (§ 8b Abs. 2, 3 KStG) × 29,825 % (Hebesatz 400 %) = 14.913 € = 1,49 % – nachgerechnet. Karten aus karussell/holding Folien 2+3 (schnitt/p36_40_karten_bauen.py); Titelbild „1 Mio. € Gewinn. 1,5 % Steuer.“, Karte „Dividenden erst ab 10 % (§ 8b Abs. 4 KStG)“ und Abspann TOOL neu (jobs/p39_reel_holding.json). Bildunterschrift: Dividenden § 8b Abs. 1/5, 10-%-Grenze Abs. 4, GewSt-Schachtel 15 % (§ 9 Nr. 2a GewStG), Verluste nicht abziehbar (Abs. 3 Satz 3), Ausnahmen Abs. 7/8. Abgrenzung zum Karussell par8b (Dividenden, 01.11.). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 28.10. 11:45 | 🎬 Reel `39-reel-holding` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,8 s, −18,0 LUFS, Musik 07 Minimal Tech. Veräußerungsgewinn GmbH an GmbH: 1 Mio. € × 5 % nbBA (§ 8b Abs. 2, 3 KStG) × 29,825 % (Hebesatz 400 %) = 14.913 € = 1,49 % – nachgerechnet. Karten aus karussell/holding Folien 2+3 (schnitt/p36_40_karten_bauen.py); Titelbild „1 Mio. € Gewinn. 1,5 % Steuer.“, Karte „Dividenden erst ab 10 % (§ 8b Abs. 4 KStG)“ und Abspann TOOL neu (jobs/p39_reel_holding.json). Bildunterschrift: Dividenden § 8b Abs. 1/5, 10-%-Grenze Abs. 4, GewSt-Schachtel 15 % (§ 9 Nr. 2a GewStG), Verluste nicht abziehbar (Abs. 3 Satz 3), Ausnahmen Abs. 7/8. Abgrenzung zum Karussell par8b (Dividenden, 01.11.). |
 | Mi 28.10. 12:15 | 📱 Story `39-story-quiz` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen): quiz_holding als Emoji-Tipp neu gerendert (👏 = rund 1,5 % · 😮 = rund 30 %, richtig: 👏), statt „Antworte in Prozent“; Auflösung im Bild: „Die Antwort steht im neuen Reel“ (Reel 39 lief um 11:45). Keine Auflösungs-Story: Do 29.10. 12:15/17:50 sind von Agent c2 belegt (story_do_tipp Mythen, story_do_teaser AfA). Optional in der App Quiz-Sticker setzen. |
 | Mi 28.10. 17:45 | 🎬 Reel `40-reel-formeln` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). |
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | 🟢 freigegeben (geht automatisch online) | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
@@ -205,6 +205,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 21.10.2026**
+- 11:59 ✍️ Wissen 21.10.: großartige Hooks, Format 3:4, Karussell-Aufbau, Routine nach dem Posten; Sprechtexte mit neuen Hooks ([`4752ff5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4752ff57357b3e20d60a85c672ebc23b46b8872a))
+  - `automatik/routinen`, `posts/sprechtexte.md`, `strategie/08_hooks.md`, `strategie/17_karussell_design.md`, `strategie/18_wissen_2026-10-21.md`
 - 10:54 ✍️ Sprechtexte 21.10.: Stimm-Fassung für alle 21 Reels ab heute ([`9f9630b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9f9630be2b8c54ec7237d590aeb8892c2c294a06))
   - `posts/sprechtexte.md`
 - 09:22 📈 Statistik 2026-10-21 ([`f404f3e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f404f3e639597c30fe30c8ae4a0e7fbab9927786))
