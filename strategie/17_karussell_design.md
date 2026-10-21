@@ -5,6 +5,8 @@ Quelle: Instagram-Karussell von @fizzaandalgorithm (Screenshots von Loris, Folie
 @maehrsteuern passt. Gilt für die Content-Fabrik zusätzlich zu `08_hooks.md`, `09_reel_regeln.md` und
 `11_wissen_instagram.md`. Bei Widerspruch gewinnen unsere eigenen Regeln und Zahlen aus `06_auswertung.md`.
 
+> Ergänzt am 21.10. durch `18_wissen_2026-10-21.md` (Reihenfolge Hook → 3 Punkte → CTA, minimal, Vorschaubild-tauglich, Persönlichkeit/Nutzen/Beweis/CTA).
+
 ## 1. Leseführung (Z-Muster)
 - ❌ Überschrift, Text und Zwischenüberschrift ohne erkennbare Reihenfolge.
 - ✅ Westliche Leser lesen in einem festen Muster: oben links → rechts → diagonal nach links unten → rechts unten.
@@ -17,7 +19,7 @@ Quelle: Instagram-Karussell von @fizzaandalgorithm (Screenshots von Loris, Folie
 - Quelle nennt als **neues Format 1080 × 1440 px (3:4)**; alt: 1080×1080 und 1080×1350. Sicherheitsrand laut Quelle
   **ca. 50 px links/rechts, ca. 180 px oben/unten**. Bei **Anzeigen (Boosting) 1080 × 1350** nehmen.
 - **Zweite Quelle (Google-KI, 20.10., ungeprüft):** 3:4 (1080×1440) löst 4:5 ab; wichtige Elemente in die **Mitte 1080×1350**, weil das Profilraster **oben und unten je 45 px** abschneidet. Das widerspricht den Rändern der Karussell-Quelle (50 px seitlich, 180 px oben/unten). **Vorsichtshalber der strengere Wert:** Text und Logo ≥ 50 px seitlich, ≥ 180 px oben/unten. Beide Quellen sind sekundär – vor dem Umstellen an einem Testbild in der App (Raster-Vorschau) prüfen.
-- ⚠️ **Offene Entscheidung Loris:** Unsere Vorlage `karussell.html` und alle bisherigen Karussells sind **1080×1350 (4:5)**.
+- ✅ **Entschieden 21.10. (Loris): auf 1080×1440 umstellen** – Details und Schnittstellen-Prüfung in `18_wissen_2026-10-21.md` Abschnitt 2. Alter Stand: Unsere Vorlage `karussell.html` und alle bisherigen Karussells sind **1080×1350 (4:5)**.
   Die Angabe der Quelle ist hier nicht gegengeprüft. Bis Loris entscheidet, bleibt 1350 – und Text/Logo trotzdem
   innerhalb der Ränder (≥ 50 px seitlich, ≥ 180 px oben/unten), damit ein späterer Wechsel auf 3:4 nichts abschneidet.
   Beim Umstellen: Vorlage + Job-Dateien neu rendern, alte Beiträge nicht anfassen.
@@ -54,7 +56,7 @@ straffen (z. B. 7 Folien: 1 Hook · 2–3 Beispiel · 4 Diagramm · 5–6 Praxis
 
 ## Prüfliste vor dem Freigeben (Karussell)
 - [ ] Z-Muster: Überschrift führt, eine Aussage pro Folie
-- [ ] Format wie in der Vorlage (derzeit 1080×1350), Text innerhalb des Sicherheitsrands
+- [ ] Format 1080×1440 (3:4, seit 21.10.; Anzeigen 1350), Text innerhalb des Sicherheitsrands
 - [ ] Kontrast ≥ 4,5 für kleinen Text; Nebentext nicht auf hellem Verlaufsende; auf dem Handy gedimmt geprüft
 - [ ] Folie 1 hält an, Folie 2 funktioniert allein, jede Folie gibt einen Grund zum Wischen
 - [ ] Wert vor Einladung, letzte Folie genau **ein** CTA
@@ -67,7 +69,7 @@ straffen (z. B. 7 Folien: 1 Hook · 2–3 Beispiel · 4 Diagramm · 5–6 Praxis
 KARUSSELL-DESIGN (strategie/17_karussell_design.md): Pro Folie eine Aussage; Überschrift führt (Z-Muster: groß → Zwischenzeile → klein).
 Raster: 1 Hook (stoppt das Scrollen) · 2–3 Beispiel/Fall · 4–5 Diagramm/Tabelle/Rechenweg · 6–9 praktische Schritte/Checkliste · letzte Folie genau ein CTA
 („Speichern für später“ + Weiterleiten-Frage), nie Verkauf vor Wert. Folie 2 muss allein funktionieren.
-Format wie Vorlage (1080×1350), Text innerhalb 50 px seitlich / 180 px oben und unten. Kontrast ≥ 4,5: kleiner Text nie in #8FA398 auf dem
+Format 1080×1440 (3:4), Text innerhalb 50 px seitlich / 180 px oben und unten. Kontrast ≥ 4,5: kleiner Text nie in #8FA398 auf dem
 hellen Verlaufsende (#153A31), dort #EAF1EC. Bilder eingebunden (weicher Schatten, Licht zum grünen Verlauf), keine aufgeklebten Freisteller,
 keine KI-Schrift. Vor dem Freigeben Prüfliste am Ende von 17_karussell_design.md abarbeiten.
 ```

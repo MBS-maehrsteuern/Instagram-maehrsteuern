@@ -11,6 +11,8 @@ Quelle der Grundmuster: Lisa Hu, „33 geniale Hooks für Social Media“ (lisah
 6. **Testen.** Pro Beitrag eine Hook-Art notieren und nach 4 Wochen in `06_auswertung.md` vergleichen (Reichweite, Verweildauer, Speicherungen).
 7. **Kommentar-Frage als Auswahl, nicht offen.** „A oder B?“, „vor oder nach 2028?“, „1 bis 5“ – antwortet man mit einem Wort/einer Zahl. Offene Fragen („Wie oft passiert dir das?“) brachten 0 Kommentare (3 Reels), Fragen nur für Kenner 0–2 (Stand 13.10.). Keine Frage, die ein früheres Reel voraussetzt – 91 % der Zuschauer sind Nicht-Follower.
 
+8. **Großartig statt gut (ab 21.10., Pflicht):** Hook = Kontext + Neugier + offene Schleife, widerspricht einer Überzeugung oder öffnet eine unbeantwortete Frage. Prüffrage mit 5 Punkten und Beispiele: `18_wissen_2026-10-21.md` Abschnitt 1.
+
 ## Die 6 Bausteine
 | Baustein | Wirkung | Passt bei uns für |
 |---|---|---|
