@@ -1362,18 +1362,18 @@
     },
     {
       "id": "42-reel-afa",
-      "zeit": "2026-10-29 17:45",
+      "zeit": "2026-10-21 16:35",
       "typ": "reel",
       "ordner": "posts/42_2026-10-29_reel_afa",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "21.10.: neu mit Stimme gebaut (32,2 s), an Loris zum manuellen Posten am 21.10. gegeben – bleibt pausiert, bis Loris bestätigt, dass es online ist. 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €.",
-      "status_vorher": "freigegeben"
+      "hinweis": "21.10.: von Loris manuell gepostet (ca. 16:35, Zeit geschätzt aus Insights), Stimme-Fassung 32 s. Nach 1 h: 80 Aufrufe, Ø 16 s, geteilt 30 %, 18 % bis zum Ende (strategie/06_auswertung.md). 21.10.: neu mit Stimme gebaut (32,2 s), an Loris zum manuellen Posten am 21.10. gegeben – bleibt pausiert, bis Loris bestätigt, dass es online ist. 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €.",
+      "veroeffentlicht_am": "2026-10-21 16:35"
     },
     {
       "id": "42-story-teaser",

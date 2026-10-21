@@ -4,11 +4,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 11:45 🎬 Reel `30-reel-gwg` (pausiert) · 🟡 12:15 📱 Story `30-story-quiz` (pausiert) · 🟡 17:45 🎬 Reel `20-reel-erechnung` (pausiert) · ✅ 18:00 🎬 Reel `58-reel-vorsteuer` (online)
+- **Heute online:** 🟡 11:45 🎬 Reel `30-reel-gwg` (pausiert) · 🟡 12:15 📱 Story `30-story-quiz` (pausiert) · ✅ 16:35 🎬 Reel `42-reel-afa` (online) · 🟡 17:45 🎬 Reel `20-reel-erechnung` (pausiert) · ✅ 18:00 🎬 Reel `58-reel-vorsteuer` (online)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **1271** (14.10.–20.10., -13 % zur Vorwoche) · Follower **+4** (jetzt 368) · 30 Tage: +27 Follows / −10 entfolgt
 - **Testmonat** (Tag 10/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
-  - 🔴 **KW 43** (19.10.–25.10.) ← jetzt: Feed **5/14** (5 online · 0 geplant · 1 wartet) · Reel-Tage (sicher) **3/7**
+  - 🔴 **KW 43** (19.10.–25.10.) ← jetzt: Feed **6/14** (6 online · 0 geplant · 1 wartet) · Reel-Tage (sicher) **3/7**
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
 - **Freie Slots nächste 7 Tage** (2):
@@ -17,6 +17,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Stand 21.10. abends (Sitzung mit Loris):**
+  - **Online heute:** Reel 42 AfA (manuell ~16:35, Stimme) und Reel 58 Vorsteuer (Autopilot 18:10, Stimme, Link im Plan). Nach 1 h AfA: 80 Aufrufe, Ø 16 s, 30 % geteilt, 18 % bis zum Ende → `strategie/06_auswertung.md`.
+  - **Alle anderen Beiträge ab 21.10. sind `pausiert`** (Loris 21.10.; alter Status in `status_vorher`). Grund: Umbau aller Reels auf Loris' Stimme + neues Wissen. Wieder freigeben nur nach Loris' Ansage.
+  - **Neues Wissen verbindlich:** `strategie/18_wissen_2026-10-21.md` – großartige Hooks (5-Fragen-Check), Hook ab Frame 1 (Meta Hook Rate = 3 s), Titelbild aus dem Hook, Karussells 1080×1440 (11 kommende neu gerendert), Ablauf nach dem Posten, Meta-Kennzahlen nur als Trend.
+  - **Reels jetzt Fachbeiträge 25–30 s** mit Stimme (`09_reel_regeln`). Aufnahme 21.10.: `aufnahmen/2026-10-21/` – 20 Stimmen geschnitten (`geschnitten/stimme_NN.wav`, nur in echten Pausen). Gebaut: 42, 58 (`vorlagen/system/schnitt/p42_…`, `p58_reel_stimme_bauen.py` als Vorlage).
+  - **Offen:** übrige 18 Reels nach Muster 58 bauen (Hook ab Frame 1 + Zoom, Titelbild aus Hook) → Loris sichtet → freigeben. 47 Betriebsaufspaltung: Loris nimmt neu auf (Günther-Einstieg raus). 55: Schlussfrage zusätzlich einblenden. 17-reel-kommentare: Thema offen. Titelfolien der Karussells noch mit alten Hooks.
+  - **Autopilot:** Erster Kommentar wird jetzt automatisch gesetzt (`erster_kommentar.txt`, `posten.py`). GitHub-Takt startet Läufe teils ~5–10 Min. später → Puffer einplanen. GWG 11:45 ging nicht raus (Ursache unbekannt, Actions-Protokoll prüfen).
 - **Instagram-Regeln Okt. 2026 (20.10., Google-KI-Antwort, ungeprüft):** Zusammenfassung in `strategie/11_wissen_instagram.md` (Saves/Shares, Originalität, 3–5 Hashtags + **Alt-Text**, 3:4-Format). Widerspruch zu „erste Stunde zählt“ → im Testmonat prüfen, Postzeiten nicht ändern. Format 1440 jetzt von zwei Quellen genannt, Randwerte uneinheitlich → `17_karussell_design.md` Abschnitt 2.
 - **Karussell-Design (20.10.):** Neue Regeln aus Loris' Screenshots (@fizzaandalgorithm) in `strategie/17_karussell_design.md` – Z-Muster, Kontrast mit Messwerten unserer Marke (Nebentext `#8FA398` nur 4,7 am hellen Verlaufsende), 10-Folien-Raster, Prüfliste und Baustein; Content-Fabrik liest sie über `11_wissen_instagram.md` und `automatik/routinen/content_fabrik.md`. **Offen (Loris):** Format 1080×1440 (3:4) statt 1080×1350 – Angabe der Quelle nicht gegengeprüft, Vorlage bleibt vorerst 1350. Routine-Prompt in den Routine-Einstellungen ggf. um `17_karussell_design.md` in der Leseliste ergänzen.
 - **Nachtlauf 14.10. (Loris: „Optimierungen suchen, einbauen, freigeben“)** – Bericht `strategie/16_optimierung_2026-10-14.md`. Kurz: Plan 14.10.–01.11. fast lückenlos (~40 neue Beiträge/Storys aus der gegengelesenen Bibliothek, ohne Stimme, freigegeben, 2× unabhängig geprüft), anstehende Beiträge überarbeitet (Suchbegriff in Zeile 1, „Kommentiere TOOL“, Auswahlfrage, 4 Hashtags), Fachfehler korrigiert (Rückstellung Folie 5, E-Rechnung-Text, Zinsschranke-EBITDA), Ortsangabe im Ampel-Reel überdeckt. Autopilot ohne Doppel-Post-Risiko, Takt-Wächter, Statistik ohne Doppelläufe, Zeitzonen-Fix vor 25.10., Lage mit 30-Sekunden-Briefing. Notlösung 18–22 liegt als `ersatz_video` bereit, Umstellung Do 15.10. 12:05 (geplanter Check). **Braucht Loris:** KI-Label Ampel (Sa) + Mein Weg (Fr) in der App, Bio/Pins/Highlights (`02_bio_highlights.md`), Routine-Prompts übernehmen, ManyChat (TOOL-Kommentare!).
@@ -90,7 +97,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 |---|---|---|---|
 | Do 29.10. 11:45 | 🖼️ Karussell `41-karussell-mythen` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
-| Do 29.10. 17:45 | 🎬 Reel `42-reel-afa` | pausiert | 21.10.: neu mit Stimme gebaut (32,2 s), an Loris zum manuellen Posten am 21.10. gegeben – bleibt pausiert, bis Loris bestätigt, dass es online ist. 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €. |
 | Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 11:45 | 🎬 Reel `43-reel-par35` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift. |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
@@ -131,6 +137,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
 - Mi 21.10. 18:00 · 🎬 Reel `58-reel-vorsteuer` · [ansehen](https://www.instagram.com/reel/Dewza8JCASO/) (online 2026-10-21 18:10)
+- Mi 21.10. 16:35 · 🎬 Reel `42-reel-afa` (online 2026-10-21 16:35)
 - Di 20.10. 17:50 · 📱 Story `28-story-aufloesung` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012196501812014820) (online 2026-10-20 17:50)
 - Di 20.10. 17:45 · 🎬 Reel `19-reel-verlustvortrag` · [ansehen](https://www.instagram.com/reel/DeuJJHoDXkl/) (online 2026-10-20 17:45)
 - Di 20.10. 12:15 · 📱 Story `29-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012035073688455220) (online 2026-10-20 12:24)
@@ -139,7 +146,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Mo 19.10. 12:15 · 📱 Story `28-story-quiz` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4011324194198123089) (online 2026-10-19 12:52)
 - Mo 19.10. 11:45 · 🎬 Reel `28-reel-zuschlaege` · [ansehen](https://www.instagram.com/reel/DerFcnnnTMT/) (online 2026-10-19 12:52)
 - So 18.10. 17:50 · 📱 Story `27-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4010746920150907932) (online 2026-10-18 17:50)
-- So 18.10. 17:45 · 🎬 Reel `27-reel-organschaft` · [ansehen](https://www.instagram.com/reel/Deo8TzBjns_/) (online 2026-10-18 17:45)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -227,227 +233,3 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/routinen`, `posts/sprechtexte.md`, `strategie/08_hooks.md`, `strategie/17_karussell_design.md`, `strategie/18_wissen_2026-10-21.md`
 - 10:54 ✍️ Sprechtexte 21.10.: Stimm-Fassung für alle 21 Reels ab heute ([`9f9630b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9f9630be2b8c54ec7237d590aeb8892c2c294a06))
   - `posts/sprechtexte.md`
-- 09:22 📈 Statistik 2026-10-21 ([`f404f3e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f404f3e639597c30fe30c8ae4a0e7fbab9927786))
-  - `automatik/statistik`
-- 08:00 📡 Radar 2026-10-21: 8 Beiträge, 0 DM-Entwürfe ([`55c2c36`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/55c2c360a480fbbde486b749d04d7df1922b11e9))
-  - `automatik/interaktion`
-
-**Di 20.10.2026**
-- 17:50 🤖 Autopilot: 28-story-aufloesung veroeffentlicht ([`73152cc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/73152cc6473f5066c434511b2e849c18052fcc76))
-  - Plan: `28-story-aufloesung` status: freigegeben → veroeffentlicht; `28-story-aufloesung` online: https://www.instagram.com/stories/maehrsteuern/4012196501812014820
-- 17:45 🤖 Autopilot: Dateien fuer 28-story-aufloesung vorbereitet ([`3d041f1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3d041f1b9caf1eaa1e927f77471795a02dd6e969))
-  - `posts/28_2026-10-19_reel_zuschlaege`
-- 17:45 🤖 Autopilot: 19-reel-verlustvortrag veroeffentlicht ([`b32dff7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b32dff711058e72d12d412fe18d8293d030b57b5))
-  - Plan: `19-reel-verlustvortrag` status: freigegeben → veroeffentlicht; `19-reel-verlustvortrag` online: https://www.instagram.com/reel/DeuJJHoDXkl/
-- 17:21 🤖 Autopilot: Dateien fuer 19-reel-verlustvortrag vorbereitet ([`f717de0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f717de06fdd80b8c3c7f3c72c0700c079efa4cb5))
-  - `posts/19_2026-10-20_reel_verlustvortrag`
-- 14:14 📈 Statistik 2026-10-20 ([`0a8e3fd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0a8e3fdb074d97ccebd331113e3d34641b23c482))
-  - `automatik/statistik`
-- 13:28 ✍️ Instagram-Regeln Oktober 2026 (Google-KI-Antwort) als ungeprüftes Wissen eingetragen ([`a86b9c2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a86b9c2e5d175ad7ff1a90bf2dd6d0535023142b))
-  - `automatik/lage_notizen.md`, `strategie/11_wissen_instagram.md`, `strategie/17_karussell_design.md`
-- 13:27 ✍️ Karussell-Design-Regeln und Baustein für die Content-Fabrik ([`b127d80`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b127d80d3af2e0f704a081424dd448f8c3ef7226))
-  - `README.md`, `automatik/lage_notizen.md`, `automatik/routinen`, `strategie/11_wissen_instagram.md`, `strategie/17_karussell_design.md`
-- 12:24 🤖 Autopilot: 29-story-teaser veroeffentlicht ([`cfbfc3e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cfbfc3e83bc85afe583bf3d79351fe7101aa240a))
-  - Plan: `29-story-teaser` status: freigegeben → veroeffentlicht; `29-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4012035073688455220
-- 12:24 🤖 Autopilot: Dateien fuer 29-story-teaser vorbereitet ([`a6501f5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a6501f551887c0ba3ec0ca327c0c1072eb2f688b))
-  - `posts/29_2026-10-20_verluste_70`
-- 12:24 🤖 Autopilot: 29-karussell-verluste veroeffentlicht ([`597d886`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/597d886deb95ec66fea1cfa637bb8529243d7271))
-  - Plan: `29-karussell-verluste` status: freigegeben → veroeffentlicht; `29-karussell-verluste` online: https://www.instagram.com/p/DetnHd6G82Y/
-- 12:22 🤖 Autopilot: Dateien fuer 29-karussell-verluste vorbereitet ([`943b6c7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/943b6c7349a0d25cc1b9f86576a1d7e4b90714b7))
-  - `posts/29_2026-10-20_verluste_70`
-- 07:28 📡 Radar 2026-10-20: 8 Beiträge, 0 DM-Entwürfe ([`aba45c8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/aba45c8dfd569198a5c5929be3f2b8668d6aa705))
-  - `automatik/interaktion`
-
-**Mo 19.10.2026**
-- 19:26 🤖 Autopilot: 18-reel-aufbewahrung veroeffentlicht ([`0e93a0d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0e93a0d136d815e4bb611d9ef14e9513d3fb00e6))
-  - Plan: `18-reel-aufbewahrung` status: freigegeben → veroeffentlicht; `18-reel-aufbewahrung` online: https://www.instagram.com/reel/DeryoWUE_Or/
-- 19:25 🤖 Autopilot: Dateien fuer 18-reel-aufbewahrung vorbereitet ([`6eae2ca`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6eae2ca71f2a557899258f763c3a7ef8a10fbbe5))
-  - `posts/18_2026-10-19_reel_aufbewahrung`
-- 16:02 📈 Statistik 2026-10-19 ([`9665ae7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9665ae7c4dee9510e80f9ff4f131dccb3103a02e))
-  - `automatik/statistik`
-- 12:52 🤖 Autopilot: 28-story-quiz veroeffentlicht ([`763f070`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/763f070c7bcc9dba81c81f1079675e9c43910469))
-  - Plan: `28-story-quiz` status: freigegeben → veroeffentlicht; `28-story-quiz` online: https://www.instagram.com/stories/maehrsteuern/4011324194198123089
-- 12:52 🤖 Autopilot: Dateien fuer 28-story-quiz vorbereitet ([`c5c60d2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c5c60d2a27160e56fd6e0891709216b39f5f2ee9))
-  - `posts/28_2026-10-19_reel_zuschlaege`
-- 12:52 🤖 Autopilot: 28-reel-zuschlaege veroeffentlicht ([`4bc0642`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4bc0642194080491d56295e23dcedbef22847669))
-  - Plan: `28-reel-zuschlaege` status: freigegeben → veroeffentlicht; `28-reel-zuschlaege` online: https://www.instagram.com/reel/DerFcnnnTMT/
-- 12:51 🤖 Autopilot: Dateien fuer 28-reel-zuschlaege vorbereitet ([`be13455`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/be134558a4708e9b7b578b6c16ba66e3da812a1d))
-  - `posts/28_2026-10-19_reel_zuschlaege`
-- 07:15 📡 Radar 2026-10-19: 8 Beiträge, 0 DM-Entwürfe ([`f24b172`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f24b17280244cdb352b99cc0ea9ef3757ad69b91))
-  - `automatik/interaktion`
-
-**So 18.10.2026**
-- 20:18 ✍️ Reel 61: Version mit Loris' Stimme (30 s, beste Takes, Untertitel Wort für Wort) – von Hand über Edits ([`d5ea58a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d5ea58a3621dbf603ff331527a0623c8e02bef9f))
-  - `posts/61_2026-10-18_reel_rms_finanzamt`, `vorlagen/system/schnitt/p61_reel_stimme_bauen.py`
-- 19:54 ✍️ Reel 61: Status manuell – Loris postet von Hand über Edits ([`24a5e56`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/24a5e562283e604b68b9dfc01ef89b218851fff5))
-  - Plan: `61-reel-rms-finanzamt` status: freigegeben → manuell
-- 19:43 ✍️ Wochenbericht KW 2026-42 ([`6c25e1f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6c25e1fa7071bec4f01f0a2c16e67b982f7e01b4))
-  - `automatik/statistik`
-- 19:42 ✍️ Reel 61: Einzelbild „Deine Steuererklärung liest zuerst kein Mensch“ (RMS, § 88 Abs. 5 AO) – freigegeben für 18.10. 19:45 ([`0879258`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/087925802a0db2a86b2c22a07854115e7cce0f9b))
-  - Plan: neu `61-reel-rms-finanzamt` (2026-10-18 19:45, freigegeben)
-- 17:50 🤖 Autopilot: 27-story-teaser veroeffentlicht ([`e978ebf`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e978ebfe1aa136bf28c8101a52d06a8b985ad57e))
-  - Plan: `27-story-teaser` status: freigegeben → veroeffentlicht; `27-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4010746920150907932
-- 17:45 🤖 Autopilot: Dateien fuer 27-story-teaser vorbereitet ([`e04eead`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e04eeadec7a2fbfd4af56d71716b3f47fe1a2af1))
-  - `posts/27_2026-10-18_reel_organschaft`
-- 17:45 🤖 Autopilot: 27-reel-organschaft veroeffentlicht ([`e2d8d24`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e2d8d24817a798061e1d1f88a17cb5998e63d58c))
-  - Plan: `27-reel-organschaft` status: freigegeben → veroeffentlicht; `27-reel-organschaft` online: https://www.instagram.com/reel/Deo8TzBjns_/
-- 16:52 🤖 Autopilot: Dateien fuer 27-reel-organschaft vorbereitet ([`6a26e95`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6a26e95384354d18262467d446375bf9bd29f00a))
-  - `posts/27_2026-10-18_reel_organschaft`
-- 13:40 🤖 Autopilot: 26-story-tipp veroeffentlicht ([`38b0bcf`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/38b0bcf4e5fc6d6674f75828899230c14c58ad57))
-  - Plan: `26-story-tipp` status: freigegeben → veroeffentlicht; `26-story-tipp` online: https://www.instagram.com/stories/maehrsteuern/4010623450268543057
-- 13:39 🤖 Autopilot: Dateien fuer 26-story-tipp vorbereitet ([`59e23b8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/59e23b85485ddc921b157614598e9a5d9c3580ca))
-  - `posts/26_2026-10-18_kuerzungen`
-- 13:39 🤖 Autopilot: 26-karussell-kuerzungen veroeffentlicht ([`ae5fe9f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ae5fe9fc1d09c46c7f2a3dc4656e6163cee41506))
-  - Plan: `26-karussell-kuerzungen` status: freigegeben → veroeffentlicht; `26-karussell-kuerzungen` online: https://www.instagram.com/p/DeomJhQG4o8/
-- 13:37 🤖 Autopilot: Dateien fuer 26-karussell-kuerzungen vorbereitet ([`d6441d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d6441d5352955936cdf8cfa7922f6ceee770ff2a))
-  - `posts/26_2026-10-18_kuerzungen`
-- 09:19 📈 Statistik 2026-10-18 ([`ce42aa3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ce42aa33224a40f452d8a22456da1f8160215aa0))
-  - `automatik/statistik`
-- 08:34 📡 Radar 2026-10-18: 8 Beiträge, 0 DM-Entwürfe ([`202a9d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/202a9d53176496be4e01f10cff5a482fdc7f08f6))
-  - `automatik/interaktion`
-
-**Sa 17.10.2026**
-- 19:00 🤖 Autopilot: 25-story-teaser veroeffentlicht ([`68449e0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/68449e01da676d7b4c74238f4f307aa4c69f36d8))
-  - Plan: `25-story-teaser` status: freigegeben → veroeffentlicht; `25-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4010059715828907470
-- 18:59 🤖 Autopilot: Dateien fuer 25-story-teaser vorbereitet ([`b59d9d2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b59d9d2bcd3af77c14aef956a1787c2631393efe))
-  - `posts/25_2026-10-17_reel_plausi`
-- 18:59 🤖 Autopilot: 25-reel-plausi veroeffentlicht ([`ddd63a5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ddd63a5fec029bd0435535ff2858c070185566cb))
-  - Plan: `25-reel-plausi` status: freigegeben → veroeffentlicht; `25-reel-plausi` online: https://www.instagram.com/reel/Deml8DcD_Dx/
-- 18:58 🤖 Autopilot: Dateien fuer 25-reel-plausi vorbereitet ([`21e8942`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/21e89429a9649ceb3ee3bee868bce16991f8f485))
-  - `posts/25_2026-10-17_reel_plausi`
-- 12:35 🤖 Autopilot: 01-story-teaser veroeffentlicht ([`6af7ed2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6af7ed21274cdca2a697a5e5cf794149a0c9cda4))
-  - Plan: `01-story-teaser` status: freigegeben → veroeffentlicht; `01-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4009865918985715708
-- 12:34 🤖 Autopilot: Dateien fuer 01-story-teaser vorbereitet ([`fc129bc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fc129bc6662ebbdb4ce514f80dfb839ff4a56bc9))
-  - `posts/01_2026-10-04_reel_ampel`
-- 12:34 🤖 Autopilot: 01-reel-ampel veroeffentlicht ([`5909755`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/59097558a84ca99e01a56912c3abc5dd6cd6075a))
-  - Plan: `01-reel-ampel` status: freigegeben → veroeffentlicht; `01-reel-ampel` online: https://www.instagram.com/reel/Del54DNE7fz/
-- 12:33 🤖 Autopilot: Dateien fuer 01-reel-ampel vorbereitet ([`4cd7e78`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4cd7e7894c312be99e8760e2fab886f27cb72f44))
-  - `posts/01_2026-10-04_reel_ampel`
-- 10:01 ✍️ Stimm-Reels 18–22 aus Loris' Aufnahme vom 17.10. geschnitten und freigegeben ([`c638676`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c638676a697d861ae5839c5e3a4d298d53f0aaca))
-  - `LAGE.html`, `automatik/plan.json`, `posts/18_2026-10-19_reel_aufbewahrung`, `posts/19_2026-10-20_reel_verlustvortrag`, `posts/20_2026-10-21_reel_erechnung`, `posts/21_2026-10-22_reel_zinsschranke`, `…`
-- 09:29 ✍️ Tagesbericht 17. Oktober: 368 Follower (+3), Reichweite 146, 6 Methoden ✅ ([`a7a4844`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a7a4844048864095fe6a2eb56a43ba8567519881))
-  - `automatik/berichte`
-- 09:19 ✍️ Aufnahme 17.10. (alle Sprechtexte 18–22) + Anweisungen daraus: Kalender-Erinnerung, Zinsschranke-Serie ([`642f5be`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/642f5beeeeb7e239ffb3e65b0c6bc0860560ec18))
-  - `LAGE.html`, `aufnahmen/2026-10-17_sprechtexte.mp3`, `aufnahmen/2026-10-17_sprechtexte_woerter.json`, `automatik/erinnerungen.json`, `strategie/13_backlog.md`
-- 09:19 📈 Statistik 2026-10-17 ([`c02ca73`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c02ca73d8393e09b81e59486376632abe40b4b36))
-  - `automatik/statistik`
-- 08:08 📡 Radar 2026-10-17: 8 Beiträge, 0 DM-Entwürfe ([`dcd9eeb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dcd9eeb97bf8a423c39a31d289c16e84a047d6ec))
-  - `automatik/interaktion`
-
-**Fr 16.10.2026**
-- 19:58 🤖 Autopilot: 04-story-teaser veroeffentlicht ([`97bc986`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/97bc986ff205d3055248653a6db5d4120049963c))
-  - Plan: `04-story-teaser` status: freigegeben → veroeffentlicht; `04-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4009364203832588698
-- 19:57 🤖 Autopilot: Dateien fuer 04-story-teaser vorbereitet ([`891e4c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/891e4c6965890a6c2e3d8ae78f062a25f7cc2065))
-  - `posts/04_2026-10-20_reel_mein_weg`
-- 19:57 🤖 Autopilot: 04-reel-mein-weg veroeffentlicht ([`702317b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/702317b7456085a7b612d168cfcc34a160b4412c))
-  - Plan: `04-reel-mein-weg` status: freigegeben → veroeffentlicht; `04-reel-mein-weg` online: https://www.instagram.com/reel/DekHzHkF7E2/
-- 19:56 🤖 Autopilot: Dateien fuer 04-reel-mein-weg vorbereitet ([`c84f980`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c84f9801c22dbb45f5cd8ac9b1199fd76fc93d6c))
-  - `posts/04_2026-10-20_reel_mein_weg`
-- 13:59 📈 Statistik 2026-10-16 ([`03a7062`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/03a706239d18de19226340ec07406a881b71d4a5))
-  - `automatik/statistik`
-- 12:15 🤖 Autopilot: 03-story-aufloesung veroeffentlicht ([`3f7f444`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3f7f444bdaf540ba9e23576159d05dfdde8bbec7))
-  - Plan: `03-story-aufloesung` status: freigegeben → veroeffentlicht; `03-story-aufloesung` online: https://www.instagram.com/stories/maehrsteuern/4009116186525268251
-- 11:48 📡 Radar 2026-10-16: 8 Beiträge, 0 DM-Entwürfe ([`3b1c3e0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3b1c3e068baa3dd731c9a75c829476a2faf85923))
-  - `automatik/interaktion`
-- 11:45 🤖 Autopilot: Dateien fuer 03-story-aufloesung vorbereitet ([`5368e91`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5368e918d254122c64cd7fd714b2eb14d365336e))
-  - `posts/03_2026-10-13_gewst_hinzurechnung`
-- 11:45 🤖 Autopilot: 24-reel-ein-euro veroeffentlicht ([`4ba5f80`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4ba5f80bf7f6181d263d14534cea7ee5aa168f9d))
-  - Plan: `24-reel-ein-euro` status: freigegeben → veroeffentlicht; `24-reel-ein-euro` online: https://www.instagram.com/reel/DejLN1HiY0k/
-- 11:07 🤖 Autopilot: Dateien fuer 24-reel-ein-euro vorbereitet ([`2355cc2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2355cc2d7bd1049034095519026869fae3d12634))
-  - `posts/24_2026-10-16_reel_ein_euro`
-- 10:26 ✍️ LAGE regeneriert nach Tagesbericht 15. Oktober ([`acd61f7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/acd61f748d97205ccb7dcd9b14733dd8001ea3db))
-  - `LAGE.html`
-- 10:26 ✍️ Tagesbericht 15. Oktober: 365 Follower (+1), Reichweite 195, 6 Methoden ✅ ([`9cb1f72`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9cb1f72e22fa2474046a3b45d4822f9fc5255d8d))
-  - `automatik/berichte`
-
-**Do 15.10.2026**
-- 21:57 ✍️ Sprechtexte: Aufnahme-Doc für Fr 16.10. im Drive, Steuersatz-Reel auf 26.10. + „Kommentiere TOOL“ ([`d5b5672`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d5b5672beab5adc7ab6900b05441cb2f6b8d9c0f))
-  - `LAGE.html`, `posts/sprechtexte.md`
-- 21:15 🤖 Autopilot: 16-reel-listen veroeffentlicht ([`d4a5adc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d4a5adcc4c5d7da91adbfa6e447448603b3c8fdf))
-  - Plan: `16-reel-listen` status: freigegeben → veroeffentlicht; `16-reel-listen` online: https://www.instagram.com/reel/DehnTbyEZ2g/
-- 20:34 🤖 Autopilot: Dateien fuer 16-reel-listen vorbereitet ([`aebfbf3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/aebfbf3ceae88a1bea51ff379b6ccb48b4be91b9))
-  - `posts/16_2026-10-15_reel_listen`
-- 19:47 💼 LinkedIn-Bild mit aktuellem Headshot (15.10.) ([`d20616f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d20616f7798c3b8fc7685c2e914e850fdfa7bce1))
-  - `assets/marke/loris_headshot_1.jpg`, `assets/marke/loris_headshot_2.jpg`, `posts/60_2026-10-15_reel_geld_verschenkt`, `vorlagen/system/linkedin_bild.html`
-- 19:46 💼 LinkedIn-Paket zum Follower-Reel (Bild + Text); Fallbeispiele korrigiert (Lohnersatzleistungen = Pflichtveranlagung) ([`a0b1ce1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a0b1ce16d92337e72251b909d86b3d5c344cb6e9))
-  - `LAGE.html`, `posts/60_2026-10-15_reel_geld_verschenkt`, `vorlagen/system/linkedin_bild.html`
-- 18:32 ✍️ SVERWEIS-Reel auf 21:15 verschoben (17:45 ausgefallen, Vorsprung fürs Follower-Reel) ([`6316cba`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6316cbab0429c6dfd1e563a5428a8d4bddc776bc))
-  - Plan: `16-reel-listen` zeit: 2026-10-15 17:45 → 2026-10-15 21:15
-- 18:31 🤖 Autopilot: 04-story-frage veroeffentlicht ([`72fa99c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/72fa99c40ff9dce61b221deb13d0da756bd2bc76))
-  - Plan: `04-story-frage` status: freigegeben → veroeffentlicht; `04-story-frage` online: https://www.instagram.com/stories/maehrsteuern/4008595900159636869
-- 18:31 🤖 Autopilot: Dateien fuer 04-story-frage vorbereitet ([`777bc73`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/777bc730b4169336ee6d2d6170eff5b8bf2d2d69))
-  - `posts/04_2026-10-20_reel_mein_weg`
-- 18:29 🤖 Autopilot: 09-story-aufloesung veroeffentlicht ([`6cf9da8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6cf9da80e0d1adfe0b19ab0086d89f90e06321a3))
-  - Plan: `09-story-aufloesung` status: freigegeben → veroeffentlicht; `09-story-aufloesung` online: https://www.instagram.com/stories/maehrsteuern/4008594677285168406
-- 18:28 🤖 Autopilot: Dateien fuer 09-story-aufloesung vorbereitet ([`20be58b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/20be58b07a26643b2fd46656d6c480ce6ca5123f))
-  - `posts/09_2026-10-15_rueckstellung`
-- 18:27 🤖 Autopilot: 60-story-teaser veroeffentlicht ([`a202edd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a202edd151c60751dd494b3b5f747038cebe5181))
-  - Plan: `60-story-teaser` status: freigegeben → veroeffentlicht; `60-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4008593645150536384
-- 18:26 🤖 Autopilot: Dateien fuer 60-story-teaser vorbereitet ([`e3b7217`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e3b721705b09b57236e3b34c6238228c4db528ad))
-  - `posts/60_2026-10-15_reel_geld_verschenkt`
-- 18:25 🤖 Autopilot: 60-reel-geld-verschenkt veroeffentlicht ([`2083bfd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2083bfdf03e9e39f5a1dd210b2d8e30e50740b51))
-  - Plan: `60-reel-geld-verschenkt` status: freigegeben → veroeffentlicht; `60-reel-geld-verschenkt` online: https://www.instagram.com/reel/DehYZkyD-sL/
-- 18:24 🤖 Autopilot: Dateien fuer 60-reel-geld-verschenkt vorbereitet ([`98adca1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/98adca1f708d53aee02bb2131ba4fa3c27e74d09))
-  - `posts/60_2026-10-15_reel_geld_verschenkt`
-- 18:22 ✍️ Neues Follower-Reel „Geld verschenkt“ (Antragsveranlagung 2022 bis 31.12.2026) + Story, sofort freigegeben ([`f116413`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f116413d3f3419f857f6528cca694bd190a7c31a))
-  - Plan: neu `60-reel-geld-verschenkt` (2026-10-15 18:35, freigegeben); neu `60-story-teaser` (2026-10-15 18:45, freigegeben)
-- 17:38 ✍️ Sprechtext Follower-Reel „Geld, das Leute verschenken“ (Antragsveranlagung 2022 bis 31.12.) ([`0d1d4e0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0d1d4e0846308fb270d43028ea9a8de54400e1df))
-  - `LAGE.html`, `posts/sprechtexte.md`
-- 16:53 ✍️ Repo-Umzug zu MBS-maehrsteuern: Verweise, Takt-Anleitung und Wächter-Hinweis angepasst ([`b9a7fee`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b9a7feec735db7e10505320d72cc66745b18b2ff))
-  - `EINRICHTUNG.md`, `automatik/freigabe.py`, `automatik/kalender.py`, `automatik/kommentare.py`, `automatik/lage.py`, `automatik/lage_notizen.md`, `…`
-- 14:10 📈 Statistik 2026-10-15 ([`7f4b181`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f4b18167dd8f61b06e189d0c897c0dd9d812359))
-  - `automatik/statistik`
-- 12:15 🤖 Autopilot: 09-story-teaser veroeffentlicht ([`43ead3b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/43ead3bc2ceaeab431fc196449077d1f150142e9))
-  - Plan: `09-story-teaser` status: freigegeben → veroeffentlicht; `09-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4008391387481799579
-- 12:07 ✍️ Plan: Stimm-Reels 18–22 auf Fassung ohne Stimme umgestellt (Notlösung, keine Aufnahme bis 15.10. 12:00) ([`57d175c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/57d175cde86a211435f4fbf7baae2470a284fae3))
-  - Plan: `18-reel-aufbewahrung` status: wartet_auf_sprachnachricht → freigegeben; `19-reel-verlustvortrag` status: wartet_auf_sprachnachricht → freigegeben; `20-reel-erechnung` status: wartet_auf_sprachnachricht → freigegeben; `21-reel-zinsschranke` status: wartet_auf_sprachnachricht → freigegeben; `22-reel-steuersatz` status: wartet_auf_sprachnachricht → freigegeben
-- 11:57 📡 Radar 2026-10-15: 8 Beiträge, 0 DM-Entwürfe ([`f11d92f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f11d92f88f7e1bba6923e66fa2413dae12b65211))
-  - `automatik/interaktion`
-- 11:45 🤖 Autopilot: Dateien fuer 09-story-teaser vorbereitet ([`339d132`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/339d1325aa0374adb8d787ffd363e1cfcea5f9c0))
-  - `posts/09_2026-10-15_rueckstellung`
-- 11:45 🤖 Autopilot: 09-rueckstellung veroeffentlicht ([`1e392cc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1e392ccbd73bb58a3cf7cd32a1d085f352e20946))
-  - Plan: `09-rueckstellung` status: freigegeben → veroeffentlicht; `09-rueckstellung` online: https://www.instagram.com/p/DegoIVKluPa/
-- 11:34 ✍️ Mein-Weg-Reel: Karte 1 als gerahmter Headshot statt Ganzkörper, Hook über den Rahmen ([`166a7d4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/166a7d4aa90facd5ec786ec561c07a818842f593))
-  - `LAGE.html`, `assets/marke/karte_1_aktuell_9x16.png`, `assets/marke/loris_aktuell_freisteller_2026-10.png`, `automatik/lage_notizen.md`, `posts/04_2026-10-20_reel_mein_weg`, `vorlagen/system/schnitt/p04_reel_mein_weg_0810.json`
-- 11:21 🤖 Autopilot: Dateien fuer 09-rueckstellung vorbereitet ([`d47306d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d47306d5bcb560788f0bf7ee5656027a1248295e))
-  - `posts/09_2026-10-15_rueckstellung`
-- 11:09 ✍️ Mein-Weg-Reel: Karte „Das bin ich heute“ mit aktuellem Foto (Bild 1) neu, Reel neu gerendert, KI-Hinweis ergänzt ([`593413e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/593413ee94912455090257e55e162c4475ac6afa))
-  - `assets/marke/karte_1_aktuell_9x16.png`, `assets/marke/loris_aktuell_freisteller_2026-10.png`, `automatik/lage_notizen.md`, `posts/04_2026-10-20_reel_mein_weg`
-
-<details><summary>Älter als 7 Tage</summary>
-
-**Mi 14.10.2026**
-- 17:45 🤖 Autopilot: 07-reel-hinzurechnung veroeffentlicht ([`2cda127`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2cda127419002dbc77fc067d6ffd383412b79111))
-  - Plan: `07-reel-hinzurechnung` status: freigegeben → veroeffentlicht; `07-reel-hinzurechnung` online: https://www.instagram.com/reel/DeemwStk5mL/
-- 16:31 🤖 Autopilot: Dateien fuer 07-reel-hinzurechnung vorbereitet ([`af88a97`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/af88a97b3fbb92a2475cc8e9767d72a903148bc6))
-  - `posts/03_2026-10-13_gewst_hinzurechnung`
-- 12:15 🤖 Autopilot: 09-story-quiz veroeffentlicht ([`fe70178`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fe70178e388d8239e9cbc25805be3ecd28ebfe2d))
-  - Plan: `09-story-quiz` status: freigegeben → veroeffentlicht; `09-story-quiz` online: https://www.instagram.com/stories/maehrsteuern/4007644771296937300
-- 11:01 🤖 Autopilot: Dateien fuer 09-story-quiz vorbereitet ([`234f46f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/234f46f0714bdcb992442dc9992e649ac7b41778))
-  - `posts/09_2026-10-15_rueckstellung`
-- 09:39 ✍️ LAGE aktualisiert nach Tagesbericht 14. Oktober ([`95dd5d1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/95dd5d12f0e9300ea13d4217d07ec65374f411c9))
-  - `LAGE.html`
-- 09:38 ✍️ Tagesbericht 14. Oktober: Reichweite +23%, Website-Klicks x 9, Sehdauer grün ([`ca4022b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ca4022b41a97b229d5a3748ec0303f06cd1c75ed))
-  - `automatik/berichte`
-- 08:50 📈 Statistik 2026-10-14 ([`79e1d05`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/79e1d058cbada9781211ffa612dac1888cd2cf2e))
-  - `automatik/statistik`
-- 07:10 💼 LinkedIn-Pakete: 26-karussell-kuerzungen, 29-karussell-verluste, 31-karussell-zinsschranke, 35-karussell-steuerkalender, 37-karussell-bp-vorbereitung, 41-karussell-mythen, 44-karussell-glossar, 46-karussell-dividenden-8b, 51-karussell-kapitalertraege, 53-karussell-iab, 56-karussell-verjaehrung, 59-karussell-pensionen ([`faf26c5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/faf26c55651209ab7dbcb4f72bac877727909c02))
-  - `posts/26_2026-10-18_kuerzungen`, `posts/29_2026-10-20_verluste_70`, `posts/31_2026-10-22_zinsschranke`, `posts/35_2026-10-25_steuerkalender`, `posts/37_2026-10-27_bp_vorbereitung`, `posts/41_2026-10-29_mythen`, `…`
-- 07:05 📡 Radar 2026-10-14: 8 Beiträge, 0 DM-Entwürfe ([`e5cac03`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e5cac037e3f8f772fca6abbd6abdb3cf69c31ff0))
-  - `automatik/interaktion`
-- 06:51 ✍️ Bericht Nachtlauf 14.10. finalisiert (Morgen-Check, Radar-Fix) ([`015a26d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/015a26d56b96743b265a9b20ceaceae399f474a8))
-  - `LAGE.html`, `strategie/16_optimierung_2026-10-14.md`
-- 05:29 📡 Radar: gleicher Beitrag nicht mehr mehrfach vorschlagen ([`0311da4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0311da48b02b229d0a8927e2ecda9d3734c46e16))
-  - `automatik/radar.py`
-- 01:46 ✍️ QA KW 45: Fahrtenbuch-Normen, InvStG, § 171 AO, § 8c, § 34a ab 2028; Teaser ([`234e53f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/234e53f1ba57e2d4430bee2cc2ba4d38864bcfdc))
-  - `LAGE.html`, `posts/48_2026-11-02_reel_firmenwagen`, `posts/51_2026-11-03_kapitalertraege`, `posts/52_2026-11-04_reel_gobd`, `posts/53_2026-11-04_iab`, `posts/55_2026-11-06_reel_thesaurierung`, `…`
-- 01:19 ✍️ Bericht Nachtlauf 14.10.: Instagram-Optimierungen (Entwurf, QA KW 45 folgt) ([`92c6434`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/92c6434c40788e36757e3e60dbc089f8c466713c))
-  - `LAGE.html`, `strategie/16_optimierung_2026-10-14.md`
-- 01:18 ✍️ Plan: 04.–06.11. gefüllt (4 Reels, 2 Karussells, 6 Storys, freigegeben) ([`d79428e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d79428ee2f5f237886dfe0d0441a37f38afdb6e4))
-  - Plan: neu `52-reel-gobd` (2026-11-04 11:45, freigegeben); neu `52-story-tipp` (2026-11-04 12:15, freigegeben); neu `53-reel-iab` (2026-11-04 17:45, freigegeben); neu `53-story-teaser` (2026-11-04 17:50, freigegeben); neu `54-reel-reverse-charge` (2026-11-05 11:45, freigegeben); neu `54-story-tipp` (2026-11-05 12:15, freigegeben); neu `53-karussell-iab` (2026-11-05 17:45, freigegeben); neu `53-story-teaser-karussell` (2026-11-05 17:50, freigegeben); neu `55-reel-thesaurierung` (2026-11-06 11:45, freigegeben); neu `55-story-tipp` (2026-11-06 12:15, freigegeben); neu `56-karussell-verjaehrung` (2026-11-06 17:45, freigegeben); neu `56-story-teaser` (2026-11-06 17:50, freigegeben)
-- 01:13 ✍️ Plan: 02./03.11. gefüllt (3 Reels, 1 Karussell, 4 Storys, freigegeben) ([`d107c25`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d107c252e79f77215ffa99c550ccd9e1d494b904))
-  - Plan: neu `48-reel-firmenwagen` (2026-11-02 11:45, freigegeben); neu `48-story-tipp` (2026-11-02 12:15, freigegeben); neu `49-reel-kleinunternehmer` (2026-11-02 17:45, freigegeben); neu `49-story-teaser` (2026-11-02 17:50, freigegeben); neu `50-reel-gebaeude-afa` (2026-11-03 11:45, freigegeben); neu `50-story-tipp` (2026-11-03 12:15, freigegeben); neu `51-karussell-kapitalertraege` (2026-11-03 17:45, freigegeben); neu `51-story-teaser` (2026-11-03 17:50, freigegeben)
-- 01:13 ✍️ QA KW 44: ApO statt BpO, § 35 als Ermäßigung, Teaser nicht mehr angeschnitten ([`440024c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/440024c11e345604c848b57a1dea392d2ef539fc))
-  - `LAGE.html`, `posts/37_2026-10-27_bp_vorbereitung`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `posts/42_2026-10-29_reel_afa`, `…`
-
-</details>
