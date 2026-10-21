@@ -1,0 +1,220 @@
+{
+ "30": {
+  "dauer": 27.8,
+  "woerter": 75,
+  "text": "Ein einziger Euro entscheidet, ob du sofort absetzt oder fünf Jahre lang. Bürostufe 799 Euro netto, GWG, sofort voll abziehbar. Der selbe Stuhl für 801 Euro abschreiben, über die Nutzungsdauer oder Sammel posten. Fünf Jahre hier 20 % und genau da passiert der Fehler. Wer den Pool wählt, muss ihn für alles zwischen 250 .000 Euro im ganzen Jahr nutzen. Dann geht auch die 800 Euro Grenze nicht mehr. Was nehmt ihr? GWG oder Pool?",
+  "unsicher": [
+   "fünf",
+   "Der",
+   "%"
+  ]
+ },
+ "32": {
+  "dauer": 30.4,
+  "woerter": 77,
+  "text": "Steuern, Steuern, Steuern. Das ist Deutschland in einem Wort zusammengefasst. Und trotzdem kann hier zusätzlich noch Mindeststeuer anfallen. Warum? Es zählt nicht der Nominalsatz, sondern der Effektivsteuersatz pro Land. Vergünstigungen und Sondereffekte können die effektive Quote unter 15 % drücken. Dann würde die Differenz als Ergänzungssteuer erhoben. Betroffen sind aber nur Gruppen ab 750 Millionen Euro Konzernumsatz in zwei der letzten vier Wirtschaftsjahren. Rechnet ihr das in Excel oder mit Software? Schreibt es mir in die Kommentare.",
+  "unsicher": [
+   "Warum?",
+   "würde"
+  ]
+ },
+ "33": {
+  "dauer": 28.1,
+  "woerter": 69,
+  "text": "Du rechnest Paragrafen echter von Hand, dabei passen drei davon in je eine Exizeile. Erstens, Gewerbesteuer hinzurechnung. Ein Viertel der Summe über 200 .000 Euro. Zweitens, Geschenke, bis 50 Euro je Empfänger und ja Abziehbar, darüber gar nicht. Drittens, Paragraf 8B Kastige. 5 % der Dividende gelten als nicht abziehbar. Aber Vorsicht, steuerfrei sind Dividenden nur ab 10 % Beteiligung. Welche baust du zuerst nach, A, B oder C?",
+  "unsicher": [
+   "Du",
+   "Aber",
+   "%"
+  ]
+ },
+ "34": {
+  "dauer": 26.7,
+  "woerter": 74,
+  "text": "Dein Bescheid geht am 5. Oktober zur Post. Dein Einspruchsfrist endet aber nicht am 5. November. Seit 2025 geht ein Bescheid erst am 4. Tag als bekannt gegeben. Abgeschickten Montag, 5. Oktober, bekannt gegeben Freitag, 9. Oktober. Ab da läuft ein Monat. Frist endet Montag, 9. November. Für das Ende aufs Wochenende zählt der nächste Werktag. Und zahlen musst du trotzdem, außer mit Aussetzung der Verziehung. Wie überwacht ihr eure Fristen? Kalender oder Software?",
+  "unsicher": [
+   "Frist",
+   "Für"
+  ]
+ },
+ "36": {
+  "dauer": 29.4,
+  "woerter": 71,
+  "text": "Beleg da, Betrag stimmt. Teilnehmer stehen drauf. Und der Prüfer streicht trotzdem alles. Weil ein Wort fehlt, der Anlass. Geschäftliche Bewertungen sind zu 70 % abziehbar. Aber nur mit Ort, Tag, Teilnehmern, Anlass und Höhe. Steht da nur Arbeitsgespräch, ist der Nachweis nicht erbracht. 0 statt 70%. Und der zweite Fehler, Bewertungen getrennt buchen. Sonst ist der Abzug auch weg. Wo steht bei euch der Anlass auf dem Beleg oder digital?",
+  "unsicher": [
+   "Beleg",
+   "Aber",
+   "der",
+   "auf"
+  ]
+ },
+ "38": {
+  "dauer": 25.6,
+  "woerter": 73,
+  "text": "Eine Frage in der Betriebsprüfung. Und deine Exi hat keine Antwort. Woher kommt diese verdammte Zahl? Die Frage kommt in jeder Prüfung. Nach dem GOPD muss ein sachverständiger Tritter in angemessener Zeit nachvollziehen können, wie deine Zahlen entstehen. Von Beleg bis zur Erklärung und zurück. In zwölf verknüpften Tabellenblättern heißt das suchen. Mit Prüfert auf die zeiglichen Quelle sehen. Wie beantwortet ihr die Frage heute? Spur in Exel oder Prüfert in einem Tool?",
+  "unsicher": [
+   "Exi",
+   "Von",
+   "suchen.",
+   "Prüfert"
+  ]
+ },
+ "39": {
+  "dauer": 28.7,
+  "woerter": 73,
+  "text": "Eine Million Euro Gewinn. Und die GmbH zahlt darauf keine 15 .000 Euro Steuer. Völlig legal. Verkauft eine GmbH Anteile an einer anderen Kapitalgesellschaft bleibt der Gewinn steuerfrei. Nur 5 % gelten als nicht abziehbare Betriebsausgaben. Also 50 .000 Euro. Darauf rund 30 % Körperschaft und Gewerbesteuer. Knapp 15 .000 Euro. Rund 1 ,5%. Aber Verluste aus so einem Verkauf darfst du dafür auch nicht abziehen. Holding schon im Einsatz? Ja oder nein?",
+  "unsicher": [
+   "Eine"
+  ]
+ },
+ "40": {
+  "dauer": 29.3,
+  "woerter": 78,
+  "text": "Die Formel, die deine Exel sauber aussehen lässt, macht deine Steuerrückstellung falsch. Wenn Fehler mit Null verwandelt jeden Fehler in eine Null. Die Tabelle sieht sauber aus. Die Rückstellung ist zu niedrig. Und keiner merkt es. Besser Fehler sichtbar lassen. und zwei Dinge, die solche Fehler gar nicht erst entstehen lassen. Steuersatz und Hebesatz per X Verweis holen statt Eintippen und benutzt nahm wie Hebesatz statt $C $12. Wie sieht es bei euch aus? Habt ihr wenn Fehler?",
+  "unsicher": [
+   "Die",
+   "Exel",
+   "mit",
+   "und",
+   "nahm",
+   "ihr",
+   "wenn"
+  ]
+ },
+ "42": {
+  "dauer": 30.5,
+  "woerter": 76,
+  "text": "Du kaufst die Maschine im Dezember für die 30 % AVA und bekommst nur 2 .500 Euro. Die deklusive AVA gibt es wieder bis zum dreifachen der Linearen, höchstens 30%. Für bewegliche Wirtschaftsgüter angeschafft von Juli 2025 bis Ende 2027. Maschine 100 .000 Euro, 10 Jahre Nutzungsdauer im vollen Jahr 30 .000 Euro. Aber im 1. Januar zeitanteilig. Dezember heißt ein Zwölfte. Später darfst du auf Linear wechseln. Investiert ihr eher im Dezember oder im Januar?",
+  "unsicher": [
+   "ihr",
+   "eher"
+  ]
+ },
+ "43": {
+  "dauer": 35.4,
+  "woerter": 88,
+  "text": "Du zahlst über 10 .000 Euro Gewerbesteuer und am Ende kostet sie dich oft fast nichts. Der Grund, Paragraph 35. Gewerbeattrag 100 .000 Euro minus 24 .500 Euro Freibetrag mal 3 ,5 % Messbetrag sind 2 .642 ,50 Euro. Bei 400 % Hebesatz zahlt zu 10 .570 Euro Gewerbesteuer und deine Einkommenssteuer sinkt um das Vierfache des Messbetrags genau um 10 .570 Euro. Aber höchstens um die Einkommenssteuer auf den Gewinn und bei höherem Hebesatz bleibt etwas übrig. Wie sieht euer Hebesatz aus? Unter oder über 400 %?",
+  "unsicher": [
+   "am",
+   "Euro",
+   "minus",
+   "mal",
+   "%",
+   "zu",
+   "bleibt",
+   "%?"
+  ]
+ },
+ "45": {
+  "dauer": 34.6,
+  "woerter": 67,
+  "text": "Ein Darlehen an dich selbst und für den Prüfer ist es eine Gewinnausschüttung. 0 % Zinsen von der eigenen GmbH das bekäme kein Fremder. Folge verdeckte Gewinnausschüttung. Der Gewinn der GmbH wird außerbilanzär erhöht und das ist nur einer der Klassiker. Genauso überhöhtes Geschäftsführergehalt, Privatnutzung ohne Vereinbarung, Miete über Marktwert. Beim beherrschenden Gesellschafter zählt zusätzlich eine klare Vereinbarung im Voraus. Was seht ihr häufiger? Darlehen oder Gehalt?",
+  "unsicher": [
+   "Ein",
+   "das",
+   "eine"
+  ]
+ },
+ "47": {
+  "dauer": 28.7,
+  "woerter": 85,
+  "text": "Günder vermietet mir eine Halle und regt sich darüber auf, dass die Miete jetzt gewerblich ist. Das passiert, wenn zwei Dinge zusammenkommen. Erstens. Die Halle ist seine wesentliche Betriebsgrundlage in seiner GmbH. Zweitens. Er beherrscht beide Seiten. Er als Vermieter und die GmbH. Dann ist das Betriebsaufspeitung. Die Folge. Die Miete ist gewerblich. Halle und GmbH Anteile werden Betriebsvermögen und der eigentliche Schreck kommt dann später. Fällt eine Voraussetzung weg, droht die Aufdeckung von stillen Reserven. Habt ihr das schon mal erlebt? Ja oder nein?",
+  "unsicher": [
+   "und",
+   "mal"
+  ]
+ },
+ "48": {
+  "dauer": 25.5,
+  "woerter": 76,
+  "text": "Du trägst jede Fahrt sauber ein und der Prüfer verwürfte das Fahrtenbuch trotzdem, weil es eine Exeliste ist, die sich jederzeit ändern lässt. Ein Fahrtenbuch zählt nur, wenn es zeitnah und in geschlossener Form geführt wird. Nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein. Sonst gilt die 1 % -Regel, egal wie wenig du privat fährst. Bei 50 .000 Euro Listenpreis und 20 Kilometer zur Arbeit. 800 Euro im Monat. Fahrtenbuch oder 1 %? Was nutzt ihr?",
+  "unsicher": [
+   "Du",
+   "20",
+   "%?"
+  ]
+ },
+ "49": {
+  "dauer": 26.1,
+  "woerter": 73,
+  "text": "Ein einziger Auftrag kann die sofort umsatzsteuerpflichtig machen. Nicht erst ab Januar. Seit 2025 gelten zwei Grenzen. Vorjahr höchstens 25 .000 Euro laufen das Jahr höchstens 100 .000 Euro. Wer die 100 .000 Euro überschreitet, ist sofort raus. Schon der Umsatz, mit dem die Grenze überschritten wird, ist steuerpflichtig. Früher hatte man bis Silvesterzeit, heute nicht mehr. Und wer freiwillig verzichtet, ist fünf Jahre gebunden. Kommentiere Tool und ich schicke dir den Grenzmonitor.",
+  "unsicher": [
+   "laufen",
+   "das",
+   "der"
+  ]
+ },
+ "50": {
+  "dauer": 27.4,
+  "woerter": 68,
+  "text": "Zwei Häuser, gleicher Preis. Und eins darf mehr als doppelt so schnell abschreiben. Zuerst Grund und Boden wird nie abgeschrieben. Den Kaufpreis also aufteilen. Dann zählt das Baujahr. Wohngebäude ab 23 fertig, 3 % den Jahr. Von 1925 bis 22, 2%. Ältere zweieinhalb. Baubeginn ab Oktober 2023. Dekresiv 5 % vom Restwert. Und beim Mietwohnungsneubau kann eine Sonder Afer oben drauf kommen. Welcher Satz geht für euer Gebäude?",
+  "unsicher": [
+   "fertig,",
+   "%",
+   "Oktober",
+   "Afer"
+  ]
+ },
+ "52": {
+  "dauer": 32.1,
+  "woerter": 65,
+  "text": "Deine Steuerechse stimmt und kann in der Prüfung trotzdem durchfallen, weil der Prüfer nicht nur auf Zahlen schaut, sondern auf drei Gebäude wird er. Unveränderbar, eine überschriebene Zelle hinterlässt keine Spur, genau das ist das Problem. Zeitgerecht, kassetäglich, alles andere zeitnah, die Gebäude in etwa zehn Tage dokumentiert. Eine Verfahrensdokumentation beschreibt, wie die Daten entstehen und aufbewahrt werden. Habt ihr eine Verfahrensdokumentation? Ja oder nein?",
+  "unsicher": [
+   "wird"
+  ]
+ },
+ "53": {
+  "dauer": 28.0,
+  "woerter": 78,
+  "text": "Du kannst eine Maschine absetzen, die du noch gar nicht gekauft hast. Mit dem Investitionsabzugsbetrag ziehst du bis zu 50 % der geplanten Kosten schon vorher ab, wenn dein Gewinn höchstens 200 .000 Euro beträgt. Maschine für 60 .000 Euro geplant, 30 .000 Euro Abzug schon dieses Jahr. Im Kaufjahr wird er wieder hinzugerechnet, aber kaufst du nicht bis Ende des dritten Folgejahres wird der Abzug rückwürgend gestrichen mit Zinsen. Nutzt sie denn die IAB? Ja oder nein?",
+  "unsicher": [
+   "Du",
+   "200",
+   "mit",
+   "sie",
+   "denn"
+  ]
+ },
+ "54": {
+  "dauer": 28.3,
+  "woerter": 80,
+  "text": "Du hast die Umsatzsteuer bezahlt und bekommst sie trotzdem nicht als Vorsteuer zurück. Der Fall. Ein Subunternehmer stellt dir 100 .000 Euro plus 19 .000 Euro Umsatzsteuer in Rechnung. Du erbringst Selbstbauleistung. Also schuldest du die Steuer. Der Subunternehmer schuldet die ausgewiesenen 19 .000 trotzdem und du darfst sie nicht als Vorsteuer ziehen. Stattdessen schuldest du die Steuer nach 13B OSDG und ziehst sie dort wieder ab. Dass zu viel Gezeiten vorderst du zurück. Schon mal passiert? Ja oder nein?",
+  "unsicher": [
+   "Fall.",
+   "dir",
+   "Dass",
+   "Gezeiten",
+   "vorderst"
+  ]
+ },
+ "55": {
+  "dauer": 28.6,
+  "woerter": 72,
+  "text": "Du zahlst bis zu 45 % Steuer auf Gewinn, den du gar nicht entnimmst. Muss nicht sein. Auf Antrag wird der Gewinn der M -Betrieb bleibt mit 28 ,25 % besteuert plus Soli. Ab 2028 sinkt der Satz schrittweise. Ab 2032 auf 25%. Geht für Einzelunternehmer und Mitunternehmer mit Bilanz. Aber ihr nimmst du den Gewinn später. Kommen 25 % Nachversteuerung dazu. Lohnt sich also nur wenn das Geld lange drin bleibt.",
+  "unsicher": [
+   "M",
+   "28",
+   "plus",
+   "ihr",
+   "du",
+   "wenn"
+  ]
+ },
+ "57": {
+  "dauer": 28.4,
+  "woerter": 74,
+  "text": "Ein Antheitsverkauf und Jahre an Verlusten sind über Nacht wertlos. Gehen innerhalb von fünf Jahren mehr als 50 % der Anteile an einen Erwerber. Sind die bisher nicht genutzten Verluste weg. Nahestehende Personen zählen zusammen und es trifft auch den gewerbesteuerlichen Fehlbetrag und den Zinsvortrag. Zwei Rettungsanger habt ihr. Die Konzernklausel bei Übertragung im 100 % -Konzern und die stille Reservenklausel Verluste bleiben soweit stillere Reserven da sind. Schon mal geprüft? Ja oder nein?",
+  "unsicher": [
+   "%",
+   "und"
+  ]
+ },
+ "58": {
+  "dauer": 30.2,
+  "woerter": 74,
+  "text": "Rechnung bezahlt, Leistung erhalten und die Vorsteuer ist trotzdem weg. Vorsteuer gibt es nur mit einer ordnungsgemäßen Rechnung, mit allen Pflichtangaben. Steuernummer, fortlaufende Rechnungsnummer, Leistungszeitpunkt und so weiter und so fort. Fehlt einer, kann der Prüfer den Abzug versagen. Bis 250 Euro brutto reicht eine kleinen Betragsrechnung mit weniger Angaben. Die gute Nachricht, eine Berichtigung durch den Lieferanten kann zurückwürgen. Darum Rechnung beim Eingang prüfen. Wer prüft das bei euch? Buchhaltung oder gar keiner?",
+  "unsicher": [
+   "kleinen"
+  ]
+ }
+}
