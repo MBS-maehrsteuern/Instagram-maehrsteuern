@@ -17,7 +17,7 @@ ERLAUBNIS: Diese Routine darf und soll ohne Rückfrage Beiträge bauen, committe
    - HOOK-PRÜFUNG (18_wissen Abschnitt 1): Jeder Hook (Folie 1, Reel-Titel, Satz 1 im Sprechtext, Zeile 1 der Bildunterschrift) muss alle 5 Prüffragen mit Ja beantworten – sonst umschreiben. Im Plan-Hinweis „Hook 5/5“ notieren.
    - Format: Karussells und Einzelbilder 1080×1440 (3:4), Reels 9:16. Ab 21.10. sind alle Reels Stimm-Reels (Loris).
    - Pro Feed-Beitrag `erster_kommentar.txt` im Post-Ordner: eine Frage mit Suchbegriff (wird nach dem Posten automatisch kommentiert; Loris heftet an).
-   - Reels 12–20 s, Pointe in den ersten 5 s, Hook-Text ab 0,3 s und ohne Ton verständlich, höchstens 3 Punkte, Sprechtext höchstens 35–40 Wörter (09_reel_regeln).
+   - Reels 12–20 s, Pointe in den ersten 5 s, Hook-Text ab 0,3 s und ohne Ton verständlich, höchstens 3 Punkte, Fach-Reels mit Stimme 25–30 s, ca. 60–75 Wörter (09_reel_regeln, Regel ab 21.10.).
    - Stimm-Reels nur mit Sprachnachricht, sonst status `wartet_auf_sprachnachricht` mit Frist im Hinweis. Dazu gleich das Notlösungs-Video OHNE Stimme bauen (`reel_ohne_stimme.mp4` im Post-Ordner) und im Eintrag `"ersatz_video": "reel_ohne_stimme.mp4"` setzen – Status bleibt `wartet_auf_sprachnachricht`.
    - Ersetzen (Eintrag auf das Ersatz-Video umstellen: `video` = Ersatz, `stimme: false`, status `entwurf`) NUR, wenn die Frist vorbei ist UND Drive „Maehrsteuern audios“ lesbar ist UND dort keine Aufnahme liegt. Ohne Drive-Zugang nie ersetzen, nur melden.
    - Pro Feed-Beitrag im Plan `"stimme": true|false` und `"hook": "fall"|"zahl"`. Mindestens ein fall-Hook pro Lauf (08_hooks); jedes fall-Reel bekommt einen Teilen-Aufruf und eine prüfbare These/Zahl im Hook.

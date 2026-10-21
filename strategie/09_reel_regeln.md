@@ -82,3 +82,5 @@ Vorlage zum Kopieren: `vorlagen/system/schnitt/p01_reel_ampel_hook.json` (Render
 - „Früher habe ich immer diesen Fehler gemacht.“
 
 Quellen: kontentino.com/de/blog/100-hook-ideen-instagram-reels, speekly.de/blog/100-ugc-hook-beispiele
+
+- **Regel ab 21.10. (Loris):** Fach-Reels mit Stimme **25–30 s (ca. 60–75 Wörter)**: großartiger Hook → Praxisbeispiel → zweite offene Schleife → Auswahl-Frage. Begründung: Fachbeiträge brauchen Beispiel und Einordnung; Sehdauer in Sekunden (Ziel ≥ 8 s) ist die Leitkennzahl, nicht „gesehen %“.
