@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 16:42 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 21.10. 17:38 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -206,6 +206,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 21.10.2026**
+- 17:38 ✍️ Auswertung: erstes Stimm-Fach-Reel (AfA) nach 1 h ([`f37dadc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f37dadc570822d4a307b8491d14a13c7c1ffcd15))
+  - `strategie/06_auswertung.md`
 - 16:42 ✍️ Reel 58 (Vorsteuer) mit Stimme, Autopilot heute 17:45 ([`fd702af`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fd702afc1456427f044a99abac6a00784c2d3f48))
   - Plan: `58-reel-vorsteuer` status: pausiert → freigegeben; `58-reel-vorsteuer` zeit: 2026-11-08 11:45 → 2026-10-21 17:45
 - 16:34 ✍️ Wissen 21.10.: Meta-Kennzahlen (Hook Rate = 3 s, geschätzte Werte nur als Trend) ([`2238d53`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2238d5384316896999a2ec218333705d1e0233bf))
