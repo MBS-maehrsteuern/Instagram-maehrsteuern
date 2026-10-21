@@ -1,0 +1,520 @@
+{
+ "ausgabe": "../../posts/58_2026-11-08_reel_vorsteuer/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/hintergrund.png",
+   "dauer": 3.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Rechnung bezahlt,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.24
+    },
+    {
+     "wort": "Leistung erhalten und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.24,
+     "bis": 2.24
+    },
+    {
+     "wort": "die Vorsteuer ist",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.24,
+     "bis": 2.96
+    },
+    {
+     "wort": "trotzdem weg.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.96,
+     "bis": 3.8
+    },
+    {
+     "wort": "Rechnung bezahlt.",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 3.8
+    },
+    {
+     "wort": "Vorsteuer:",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.3,
+     "bis": 3.8
+    },
+    {
+     "wort": "0 €.",
+     "farbe": "rot",
+     "groesse": 200,
+     "y": 1190,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.0,
+     "bis": 3.8
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/karte_rechnung.png",
+   "dauer": 4.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Vorsteuer gibt es nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.22
+    },
+    {
+     "wort": "mit einer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 1.72
+    },
+    {
+     "wort": "ordnungsgemäßen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.72,
+     "bis": 2.44
+    },
+    {
+     "wort": "Rechnung, mit allen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.44,
+     "bis": 3.36
+    },
+    {
+     "wort": "Pflichtangaben.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.36,
+     "bis": 4.5
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/karte_pflicht.png",
+   "dauer": 7.76,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Steuernummer,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.96
+    },
+    {
+     "wort": "fortlaufende",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.96,
+     "bis": 1.44
+    },
+    {
+     "wort": "Rechnungsnummer,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.44,
+     "bis": 2.46
+    },
+    {
+     "wort": "Leistungszeitpunkt und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.46,
+     "bis": 3.54
+    },
+    {
+     "wort": "so weiter und so fort.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.54,
+     "bis": 4.78
+    },
+    {
+     "wort": "Fehlt eine, kann der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.78,
+     "bis": 5.94
+    },
+    {
+     "wort": "Prüfer den Abzug",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.94,
+     "bis": 6.88
+    },
+    {
+     "wort": "versagen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.88,
+     "bis": 7.76
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/karte_rechnung.png",
+   "dauer": 4.28,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Bis 250 Euro brutto",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.4
+    },
+    {
+     "wort": "reicht eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.4,
+     "bis": 1.82
+    },
+    {
+     "wort": "Kleinbetragsrechnung",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.82,
+     "bis": 2.8
+    },
+    {
+     "wort": "mit weniger Angaben.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.8,
+     "bis": 4.28
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/hintergrund.png",
+   "dauer": 4.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Die gute Nachricht,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.18
+    },
+    {
+     "wort": "eine Berichtigung",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.18,
+     "bis": 1.98
+    },
+    {
+     "wort": "durch den Lieferanten",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.98,
+     "bis": 2.8
+    },
+    {
+     "wort": "kann zurückwirken.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.8,
+     "bis": 4.08
+    },
+    {
+     "wort": "Berichtigung",
+     "farbe": "gruen",
+     "groesse": 150,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.26,
+     "bis": 4.08
+    },
+    {
+     "wort": "wirkt zurück.",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.86,
+     "bis": 4.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/hintergrund.png",
+   "dauer": 2.48,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Darum, Rechnung beim",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.28
+    },
+    {
+     "wort": "Eingang prüfen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.28,
+     "bis": 2.48
+    },
+    {
+     "wort": "Beim Eingang",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.78,
+     "bis": 2.48
+    },
+    {
+     "wort": "prüfen.",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.48,
+     "bis": 2.48
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/hintergrund.png",
+   "dauer": 2.92,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wer prüft das bei",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.74
+    },
+    {
+     "wort": "euch?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.74,
+     "bis": 1.1
+    },
+    {
+     "wort": "Buchhaltung oder gar",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.1,
+     "bis": 2.1
+    },
+    {
+     "wort": "keiner?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.1,
+     "bis": 2.62
+    },
+    {
+     "wort": "Buchhaltung",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.1,
+     "bis": 2.92
+    },
+    {
+     "wort": "oder keiner?",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.9,
+     "bis": 2.92
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/58_2026-11-08_reel_vorsteuer/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/58_2026-11-08_reel_vorsteuer/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

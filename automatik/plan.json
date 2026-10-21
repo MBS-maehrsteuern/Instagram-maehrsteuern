@@ -1369,10 +1369,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €.",
+      "hinweis": "21.10.: neu mit Stimme gebaut (32,2 s), an Loris zum manuellen Posten am 21.10. gegeben – bleibt pausiert, bis Loris bestätigt, dass es online ist. 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,3 dBFS), Musik 07 Minimal Tech. Titelbild neu ohne „zurück“, mit Anschaffung/Herstellung 07/2025–12/2027 (Prüfbericht r2_15), Karten aus karussell/afa_degressiv Folien 2–3 (schnitt/p41_44_karten_bauen.py), Einblendung „Kauf im Dezember: nur 1/12“ (§ 7 Abs. 1 Satz 4 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p42_reel_afa.json), Schnitt schnitt/p42_reel_afa.json. Geprüft: § 7 Abs. 2 EStG bewegliche WG, 01.07.2025–31.12.2027, 3-fach linear, max. 30 %; 100.000 € / 10 J. → 30.000 € statt 10.000 €; 30.000 € × 1/12 = 2.500 €.",
       "status_vorher": "freigegeben"
     },
     {
@@ -1849,18 +1849,17 @@
     },
     {
       "id": "58-reel-vorsteuer",
-      "zeit": "2026-11-08 11:45",
+      "zeit": "2026-10-21 17:45",
       "typ": "reel",
       "ordner": "posts/58_2026-11-08_reel_vorsteuer",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
-      "stimme": false,
+      "status": "freigegeben",
+      "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,7 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 08 Chill House. Titelbild neu als Prüfer-Fall „Rechnung lückenhaft? Vorsteuer wackelt.“, Karten aus karussell/vorsteuer Folie 4 und Pflichtangaben-Folie mit 3 statt 5 Punkten (gebündelt, Reel-Regel). ampel_vst_* nicht genutzt (zeigt § 13b = Thema d2 Reverse-Charge). Bildunterschrift: 4 Voraussetzungen § 15 UStG, § 14 Abs. 4 UStG, § 33 UStDV (250 €), rückwirkende Berichtigung nur mit Mindestangaben (§ 31 Abs. 5 UStDV, BMF 18.09.2020). jobs/p58_reel_vorsteuer.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p58_reel_vorsteuer.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "21.10. (Loris: „Bau das Reel und dann Autopilot“): vorgezogen von So 08.11. auf heute 17:45, neu geschnitten mit Loris’ Stimme aus Aufnahme 21.10. (31,6 s, −18 LUFS, Musik 08 Chill House, Hook „Rechnung bezahlt. Vorsteuer: 0 €.“ bis 3 s). Bau: vorlagen/system/schnitt/p58_reel_stimme_bauen.py. 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,7 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 08 Chill House. Titelbild neu als Prüfer-Fall „Rechnung lückenhaft? Vorsteuer wackelt.“, Karten aus karussell/vorsteuer Folie 4 und Pflichtangaben-Folie mit 3 statt 5 Punkten (gebündelt, Reel-Regel). ampel_vst_* nicht genutzt (zeigt § 13b = Thema d2 Reverse-Charge). Bildunterschrift: 4 Voraussetzungen § 15 UStG, § 14 Abs. 4 UStG, § 33 UStDV (250 €), rückwirkende Berichtigung nur mit Mindestangaben (§ 31 Abs. 5 UStDV, BMF 18.09.2020). jobs/p58_reel_vorsteuer.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p58_reel_vorsteuer.json."
     },
     {
       "id": "58-story-tipp",
