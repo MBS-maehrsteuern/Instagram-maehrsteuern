@@ -1,59 +1,45 @@
-import json,subprocess,os
-w=json.load(open('woerter.json'))['sprechtexte_fach.mp3']
-S=[];cur=[]
-for x in w:
-    cur.append(x)
-    if x[0].endswith(('.','?','!')) or len(cur)>25: S.append(cur);cur=[]
-if cur:S.append(cur)
-# (satz, ab_wort_index)
-R={
-'30':[3,4,5,6,7,8,9,10],
-'32':[38,39,40,41,31,32,33,34,35,36],
-'33':[49,50,51,52,59,60,61,62],
-'34':list(range(63,79)),
-'36':[79,80,81,82,83,84,85,86,92,93,94],
-'38':list(range(98,108)),
-'39':list(range(109,121)),
-'40':[122,123,124,125,126,127,(139,'und'),140,141,142],
-'42':list(range(146,155)),
-'43':list(range(159,166)),
-'45':list(range(166,174)),
-'47':list(range(192,206)),
-'48':list(range(207,215)),
-'49':list(range(216,225)),
-'50':list(range(226,234))+[235,236,237,238],
-'52':list(range(240,246)),
-'53':[246,247,250,251,252,253],
-'54':list(range(260,270)),
-'55':list(range(273,282)),
-'57':[(282,1)]+list(range(283,290)),
-'58':list(range(290,299)),
-}
+import numpy as np, json, subprocess
+C=json.load(open('chunks.json'))
 SRC='/home/claude/instagram-maehrsteuern/aufnahmen/2026-10-21/sprechtexte_fach.mp3'
+SR=48000
+r=subprocess.run(['ffmpeg','-v','error','-i',SRC,'-ac','1','-ar',str(SR),'-f','f32le','-'],capture_output=True)
+X=np.frombuffer(r.stdout,np.float32).copy()
+rg=lambda a,b:list(range(a,b+1))
+R={'30':rg(8,23),'32':rg(63,66)+rg(53,59),'33':rg(76,84)+rg(96,102),'34':rg(105,113),
+'36':rg(116,124)+rg(133,136),'38':rg(141,150),'39':rg(153,161),'40':rg(163,171)+rg(203,204),
+'42':rg(210,218),'43':rg(223,230),'45':rg(232,241)+rg(244,245),'48':rg(284,292),'49':rg(294,305),
+'50':rg(308,313)+rg(316,319),'52':rg(322,331)+rg(336,337),'53':rg(339,341)+rg(347,355),'54':rg(362,373),
+'55':rg(380,390),'57':rg(392,400),'58':rg(402,414)}
+PRE,POST,MAXGAP,XF=0.09,0.22,0.42,0.025
+def seg(a,b): return X[int(a*SR):int(b*SR)]
+def xcat(parts):
+    out=parts[0]; n=int(XF*SR); w=np.sin(np.linspace(0,np.pi/2,n))**2
+    for p in parts[1:]:
+        out=np.concatenate([out[:-n], out[-n:]*(1-w)+p[:n]*w, p[n:]])
+    return out
 info={}
 for nr,sel in R.items():
-    spans=[];text=[];minp=[]
-    for s in sel:
-        if isinstance(s,tuple):
-            i,k=s; ws=S[i]
-            if isinstance(k,str): k=[j for j,t in enumerate(ws) if t[0].lower().startswith(k)][0]
-            ws=ws[k:]
-        else: ws=S[s]
-        # split sentence on internal pauses > 0.6s to drop long gaps
-        seg=[ws[0]]
-        for a,b in zip(ws,ws[1:]):
-            if b[1]-a[2]>0.6: spans.append((seg[0][1],seg[-1][2])); seg=[]
-            seg.append(b)
-        spans.append((seg[0][1],seg[-1][2]))
-        text+= [t[0] for t in ws]; minp+=[t for t in ws if t[3]<0.5]
-    f=[];parts=[]
-    for j,(a,b) in enumerate(spans):
-        a=max(0,a-0.06); b=b+0.14
-        parts.append(f"[0:a]atrim={a:.2f}:{b:.2f},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={b-a-0.03:.2f}:d=0.03,apad=pad_dur=0.16[p{j}]")
-    fc=";".join(parts)+";"+"".join(f"[p{j}]" for j in range(len(spans)))+f"concat=n={len(spans)}:v=0:a=1,highpass=f=80,afftdn=nf=-30,loudnorm=I=-18:TP=-1.5:LRA=7[o]"
-    out=f'cut/stimme_{nr}.wav'
-    subprocess.run(['ffmpeg','-y','-v','error','-i',SRC,'-filter_complex',fc,'-map','[o]','-ar','48000','-ac','1',out],check=True)
-    d=float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',out],capture_output=True,text=True).stdout)
-    info[nr]={'dauer':round(d,1),'woerter':len(text),'text':" ".join(text),'unsicher':[t[0] for t in minp]}
-    print(nr,round(d,1),len(text),"unsicher:",", ".join(t[0] for t in minp)[:120])
-json.dump(info,open('cut/info.json','w'),ensure_ascii=False,indent=1)
+    parts=[]
+    for k,i in enumerate(sel):
+        a,b=C[i][0],C[i][1]
+        prv=C[i-1][1] if i>0 else 0; nxt=C[i+1][0] if i+1<len(C) else b+1
+        nxt_sel = k+1<len(sel) and sel[k+1]==i+1
+        prv_sel = k>0 and sel[k-1]==i-1
+        s=a-min(PRE,(a-prv)/2) if not prv_sel else a
+        if nxt_sel:
+            gap=nxt-b
+            if gap<=MAXGAP: e=nxt   # keep whole natural gap
+            else: e=b+min(POST,gap/2); # shorten: tail here, head of next added via its own pre
+        else: e=b+min(POST,(nxt-b)/2)
+        if prv_sel:
+            gap=a-prv
+            s = a if gap<=MAXGAP else a-min(PRE+0.1,gap/2)
+        parts.append(seg(s,e))
+    y=xcat(parts)
+    y=y/np.max(np.abs(y))*0.5
+    raw=f'bau/r_{nr}.f32'; y.astype(np.float32).tofile(raw)
+    out=f'bau/stimme_{nr}.wav'
+    subprocess.run(['ffmpeg','-y','-v','error','-f','f32le','-ar',str(SR),'-ac','1','-i',raw,'-af','highpass=f=70,loudnorm=I=-18:TP=-1.5:LRA=9',out,'-ar','48000'],check=True)
+    info[nr]=round(len(y)/SR,1)
+print(info)
+json.dump(info,open('bau/dauer.json','w'))
