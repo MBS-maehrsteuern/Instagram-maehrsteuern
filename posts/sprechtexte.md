@@ -5,6 +5,18 @@ etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertit
 Aufnahme-Fassung für Fr 16.10. als Google Doc im Drive-Ordner „Maehrsteuern audios“ (Sprechtexte zum Aufnehmen – Fr 16.10.).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
+## 🔍 Do 22.10. · „3 Dinge, die das Finanzamt längst weiß“ (`62-reel-glaesern`, ~30 s, vorgezogen, Idee Loris 22.10.)
+Hook-Text ab Frame 1: **„Das Finanzamt weiß es schon.“** · Teilen-Aufruf am Ende. Rechtsstand 22.10.2026.
+Fassung A (Loris' Reihenfolge, Punkt 2 fachlich korrigiert):
+> Du denkst, das Finanzamt weiß nur, was du in die Steuererklärung schreibst? Ich hab im Finanzamt gearbeitet – die wissen es schon vorher.
+> Erstens: deine Kranken- und Pflegeversicherung. Die Krankenkasse meldet die Beiträge direkt.
+> Zweitens: deinen Freistellungsauftrag. Die Bank meldet, wie viel Zinsen und Dividenden steuerfrei geblieben sind.
+> Und drittens – das Wichtigste: dein Gehalt. Dein Arbeitgeber schickt die Lohnsteuerbescheinigung, bevor du überhaupt anfängst.
+> Gläsern bist du also längst. Schick das dem, der glaubt, das merkt doch keiner.
+Fassung B (stärkerer Punkt 2 statt Freistellungsauftrag): „Zweitens: dein Konto im Ausland. Über 100 Länder melden Kontostände und Erträge automatisch nach Deutschland.“
+Quellen: Lohnsteuerbescheinigung § 41b EStG · KV/PV-Beiträge § 10 Abs. 2a EStG · Freistellungsaufträge § 45d EStG (an BZSt) · Auslandskonten CRS/FKAustG.
+Achtung: Inländische Kapitalerträge mit Abgeltungsteuer meldet die Bank dem Finanzamt **nicht** einzeln – daher nicht „die kennen deine Kapitalerträge“ sagen.
+
 ## 🎙️ Aufnahme 21.10. – Fachbeiträge 25–30 s (Loris 21.10.: „Variante 2, weil es Fachbeiträge sind“), Hooks nach 18_wissen
 Eine Datei: vor jedem Text die Nummer sagen, 2 s Pause, dann sprechen. Aufbau: großartiger Hook → Praxisbeispiel → zweite offene Schleife → Auswahl-Frage.
 
