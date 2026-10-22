@@ -22,6 +22,7 @@ ERLAUBNIS: Diese Routine darf und soll ohne Rückfrage Beiträge bauen, committe
    - Ersetzen (Eintrag auf das Ersatz-Video umstellen: `video` = Ersatz, `stimme: false`, status `entwurf`) NUR, wenn die Frist vorbei ist UND Drive „Maehrsteuern audios“ lesbar ist UND dort keine Aufnahme liegt. Ohne Drive-Zugang nie ersetzen, nur melden.
    - Pro Feed-Beitrag im Plan `"stimme": true|false` und `"hook": "fall"|"zahl"`. Mindestens ein fall-Hook pro Lauf (08_hooks); jedes fall-Reel bekommt einen Teilen-Aufruf und eine prüfbare These/Zahl im Hook.
    - Karussells: Aufbau und Design nach strategie/17_karussell_design.md (Hook · Beispiel · Diagramm · praktisch · ein CTA, Kontrast, Sicherheitsrand, eingebundene Bilder). Letzte Folie „Speichern für später“ + Weiterleiten-Frage („Wer in deinem Team braucht das?“). Bibliothek-Karussells vorher fachlich gegenlesen (assets/bibliothek/PRUEFBERICHT.md).
+   - Storys: nie den eigenen Beitrag reposten, sondern eigene Umfrage/Quiz zum Thema (18_wissen Abschnitt 6).
    - Storys nur zum Tippen: Quiz, Umfrage, Ja/Nein, Emoji-Slider, Teaser. Keine offenen Fragesticker.
    - Steuerrecht fachlich korrekt, Rechtsstand prüfen, pruefzettel.md im Post-Ordner. Themen: 03_redaktionsplan.md, dann Themenspeicher, sonst selbst (Zielgruppe Steuerabteilungen/Kanzleien 25–54).
    - Im Plan-Hinweis je Beitrag kurz: „Wer schickt das an wen?“ + Suchbegriff + genutzter Hook-Lernpunkt.
@@ -30,7 +31,7 @@ ERLAUBNIS: Diese Routine darf und soll ohne Rückfrage Beiträge bauen, committe
    - Zeile 1 = Suchbegriff + Frage/Behauptung, z. B. „Gewerbesteuer-Hinzurechnung: Werden Mieten voll hinzugerechnet? 🤔“. Denselben Begriff auf Folie 1 / im Reel-Titel / im Gesprochenen. Suchbegriffe: Steuerrückstellung · Gewerbesteuer Hinzurechnung · latente Steuern · Körperschaftsteuer 2028 · Jahresabschluss · Steuerabteilung · Tax Compliance / Tax CMS · E-Rechnung 2027 · Verlustvortrag Mindestbesteuerung · Zinsschranke · Aufbewahrungsfristen · Steuererklärung Kapitalgesellschaft · Excel für Steuerberater · DATEV Excel · Steuerfachangestellte · Bilanzbuchhalter · Tax Technology.
    - Absatz 2 wörtlich: „💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.“ Einziges Stichwort ist TOOL (automatik/interaktion.json) – kein neues erfinden.
    - Kommentar-Frage als Auswahl, nicht offen: „A oder B?“, „vor oder nach 2028?“, „1 bis 5?“ – mit einem Wort oder einer Zahl beantwortbar, ohne Vorwissen aus früheren Beiträgen.
-   - Am Ende genau 4 Hashtags, je nach Zielgruppe ein Set:
+   - Hashtags ab 22.10.: höchstens 3 thematische (18_wissen Abschnitt 6), sonst wie bisher je Zielgruppe aus dem Set:
      Steuerabteilung `#steuerabteilung #taxtech #jahresabschluss #[thema]` ·
      Kanzlei `#steuerberater #steuerkanzlei #steuerfachangestellte #[thema]` ·
      Excel/Tool `#steuern #excel #automatisierung #[thema]` ([thema] = ein Wort ohne Leerzeichen, z. B. #gewerbesteuer).
