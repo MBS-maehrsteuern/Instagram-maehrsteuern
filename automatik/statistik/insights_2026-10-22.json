@@ -1,0 +1,1980 @@
+{
+ "abgerufen": "2026-10-22",
+ "konto": {
+  "username": "maehrsteuern",
+  "name": "Loris | Steuer-Tools x Code",
+  "biography": "🧠 Steuerwissen, das rechnet\n⚙️ KI-Lösungen, die wirklich laufen\n🎓 Diplom-Finanzwirt · KI-Manager (IHK)\n⚠️ Keine Beratung in Steuersachen nach StBerG!",
+  "website": "http://maehr-bs.de",
+  "followers_count": 372,
+  "follows_count": 301,
+  "media_count": 30
+ },
+ "konto_verlauf": [
+  {
+   "von": "2026-09-22",
+   "bis": "2026-10-22",
+   "reach": {
+    "gesamt": 2696,
+    "aufgeteilt": {
+     "FOLLOWER": 180,
+     "NON_FOLLOWER": 2538
+    }
+   },
+   "views": {
+    "gesamt": 10829,
+    "aufgeteilt": {
+     "FOLLOWER": 5641,
+     "NON_FOLLOWER": 5188
+    }
+   },
+   "accounts_engaged": 54,
+   "total_interactions": 1001,
+   "likes": 392,
+   "comments": 32,
+   "shares": 204,
+   "saves": 133,
+   "replies": 8,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 27,
+     "NON_FOLLOWER": 10
+    }
+   },
+   "website_clicks": 15,
+   "profile_views": 823
+  },
+  {
+   "von": "2026-08-23",
+   "bis": "2026-09-22",
+   "reach": {
+    "gesamt": 43,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 42
+    }
+   },
+   "views": {
+    "gesamt": 149,
+    "aufgeteilt": {
+     "FOLLOWER": 12,
+     "UNKNOWN": 3,
+     "NON_FOLLOWER": 134
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": -1,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": -1,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 5
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 42
+  },
+  {
+   "von": "2026-07-24",
+   "bis": "2026-08-23",
+   "reach": {
+    "gesamt": 51,
+    "aufgeteilt": {
+     "FOLLOWER": 3,
+     "NON_FOLLOWER": 48
+    }
+   },
+   "views": {
+    "gesamt": 145,
+    "aufgeteilt": {
+     "UNKNOWN": 5,
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 134
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 5,
+     "NON_FOLLOWER": 12
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 38
+  },
+  {
+   "von": "2026-06-24",
+   "bis": "2026-07-24",
+   "reach": {
+    "gesamt": 68,
+    "aufgeteilt": {
+     "FOLLOWER": 3,
+     "NON_FOLLOWER": 65
+    }
+   },
+   "views": {
+    "gesamt": 299,
+    "aufgeteilt": {
+     "FOLLOWER": 17,
+     "UNKNOWN": 13,
+     "NON_FOLLOWER": 269
+    }
+   },
+   "accounts_engaged": 1,
+   "total_interactions": 2,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 3,
+     "NON_FOLLOWER": 6
+    }
+   },
+   "website_clicks": 1,
+   "profile_views": 51
+  },
+  {
+   "von": "2026-05-25",
+   "bis": "2026-06-24",
+   "reach": {
+    "gesamt": 52,
+    "aufgeteilt": {
+     "FOLLOWER": 4,
+     "NON_FOLLOWER": 48
+    }
+   },
+   "views": {
+    "gesamt": 175,
+    "aufgeteilt": {
+     "FOLLOWER": 21,
+     "UNKNOWN": 3,
+     "NON_FOLLOWER": 151
+    }
+   },
+   "accounts_engaged": 5,
+   "total_interactions": 6,
+   "likes": 4,
+   "comments": 2,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 8,
+     "NON_FOLLOWER": 12
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 41
+  },
+  {
+   "von": "2026-04-25",
+   "bis": "2026-05-25",
+   "reach": {
+    "gesamt": 51,
+    "aufgeteilt": {
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 49
+    }
+   },
+   "views": {
+    "gesamt": 118,
+    "aufgeteilt": {
+     "UNKNOWN": 10,
+     "FOLLOWER": 18,
+     "NON_FOLLOWER": 90
+    }
+   },
+   "accounts_engaged": 4,
+   "total_interactions": 9,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 7,
+     "NON_FOLLOWER": 4
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 28
+  },
+  {
+   "von": "2026-03-26",
+   "bis": "2026-04-25",
+   "reach": {
+    "gesamt": 52,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 51
+    }
+   },
+   "views": {
+    "gesamt": 102,
+    "aufgeteilt": {
+     "UNKNOWN": 5,
+     "FOLLOWER": 9,
+     "NON_FOLLOWER": 88
+    }
+   },
+   "accounts_engaged": 1,
+   "total_interactions": 2,
+   "likes": 0,
+   "comments": 0,
+   "shares": 1,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 7,
+     "NON_FOLLOWER": 12
+    }
+   },
+   "website_clicks": 2,
+   "profile_views": 36
+  },
+  {
+   "von": "2026-02-24",
+   "bis": "2026-03-26",
+   "reach": {
+    "gesamt": 41,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 40
+    }
+   },
+   "views": {
+    "gesamt": 106,
+    "aufgeteilt": {
+     "UNKNOWN": 3,
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 101
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 8,
+   "likes": 6,
+   "comments": 0,
+   "shares": 1,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 7,
+     "NON_FOLLOWER": 13
+    }
+   },
+   "website_clicks": 1,
+   "profile_views": 32
+  },
+  {
+   "von": "2026-01-25",
+   "bis": "2026-02-24",
+   "reach": {
+    "gesamt": 55,
+    "aufgeteilt": {
+     "FOLLOWER": 1,
+     "NON_FOLLOWER": 54
+    }
+   },
+   "views": {
+    "gesamt": 148,
+    "aufgeteilt": {
+     "UNKNOWN": 1,
+     "FOLLOWER": 2,
+     "NON_FOLLOWER": 145
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 9,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 14
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 34
+  },
+  {
+   "von": "2025-12-26",
+   "bis": "2026-01-25",
+   "reach": {
+    "gesamt": 107,
+    "aufgeteilt": {
+     "FOLLOWER": 5,
+     "NON_FOLLOWER": 102
+    }
+   },
+   "views": {
+    "gesamt": 432,
+    "aufgeteilt": {
+     "UNKNOWN": 2,
+     "NON_FOLLOWER": 404,
+     "FOLLOWER": 26
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 5,
+   "likes": 8,
+   "comments": 0,
+   "shares": 0,
+   "saves": -3,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 12,
+     "NON_FOLLOWER": 19
+    }
+   },
+   "website_clicks": 3,
+   "profile_views": 64
+  },
+  {
+   "von": "2025-11-26",
+   "bis": "2025-12-26",
+   "reach": {
+    "gesamt": 128,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 122
+    }
+   },
+   "views": {
+    "gesamt": 399,
+    "aufgeteilt": {
+     "UNKNOWN": 9,
+     "NON_FOLLOWER": 368,
+     "FOLLOWER": 22
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 9,
+   "likes": 10,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 10,
+     "NON_FOLLOWER": 10
+    }
+   },
+   "website_clicks": 0,
+   "profile_views": 62
+  },
+  {
+   "von": "2025-10-27",
+   "bis": "2025-11-26",
+   "reach": {
+    "gesamt": 68,
+    "aufgeteilt": {
+     "FOLLOWER": 6,
+     "NON_FOLLOWER": 63
+    }
+   },
+   "views": {
+    "gesamt": 176,
+    "aufgeteilt": {
+     "UNKNOWN": 3,
+     "FOLLOWER": 15,
+     "NON_FOLLOWER": 158
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 1,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "saves": -2,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 27,
+     "NON_FOLLOWER": 25
+    }
+   },
+   "website_clicks": 1,
+   "profile_views": 52
+  },
+  {
+   "von": "2025-09-27",
+   "bis": "2025-10-27",
+   "reach": {
+    "gesamt": 175,
+    "aufgeteilt": {
+     "NON_FOLLOWER": 13
+    }
+   },
+   "views": {
+    "gesamt": 463,
+    "aufgeteilt": {
+     "FOLLOWER": 75,
+     "UNKNOWN": 15,
+     "NON_FOLLOWER": 373
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 12,
+   "likes": 11,
+   "comments": 0,
+   "shares": 0,
+   "saves": 1,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {
+     "FOLLOWER": 3,
+     "NON_FOLLOWER": 8
+    }
+   },
+   "website_clicks": 4,
+   "profile_views": 131
+  },
+  {
+   "von": "2025-08-28",
+   "bis": "2025-09-27",
+   "reach": {
+    "gesamt": 242,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 522,
+    "aufgeteilt": {
+     "UNKNOWN": 21,
+     "NON_FOLLOWER": 470,
+     "FOLLOWER": 31
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 23,
+   "likes": 16,
+   "comments": 2,
+   "shares": 2,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   },
+   "website_clicks": 7,
+   "profile_views": 475
+  },
+  {
+   "von": "2025-07-29",
+   "bis": "2025-08-28",
+   "reach": {
+    "gesamt": 2528,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 299,
+    "aufgeteilt": {
+     "UNKNOWN": 8,
+     "FOLLOWER": 22,
+     "NON_FOLLOWER": 269
+    }
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   },
+   "website_clicks": 10,
+   "profile_views": 5429
+  },
+  {
+   "von": "2025-06-29",
+   "bis": "2025-07-29",
+   "reach": {
+    "gesamt": 4425,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 2,
+    "aufgeteilt": {
+     "EMAIL": 2
+    }
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   },
+   "website_clicks": 62,
+   "profile_views": 3616
+  },
+  {
+   "von": "2025-05-30",
+   "bis": "2025-06-29",
+   "reach": {
+    "gesamt": 4211,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   },
+   "website_clicks": 30,
+   "profile_views": 1470
+  },
+  {
+   "von": "2025-05-01",
+   "bis": "2025-05-30",
+   "reach": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "views": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "accounts_engaged": 0,
+   "total_interactions": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saves": 0,
+   "replies": 0,
+   "profile_links_taps": {
+    "gesamt": 0,
+    "aufgeteilt": {}
+   },
+   "follows_and_unfollows": {
+    "gesamt": null,
+    "aufgeteilt": {}
+   },
+   "website_clicks": 0,
+   "profile_views": 0
+  }
+ ],
+ "tageswerte_reichweite": {
+  "2026-09-24": 3,
+  "2026-09-25": 1,
+  "2026-09-26": 3,
+  "2026-09-27": 1,
+  "2026-09-28": 1,
+  "2026-09-29": 126,
+  "2026-09-30": 82,
+  "2026-10-01": 68,
+  "2026-10-02": 79,
+  "2026-10-03": 63,
+  "2026-10-04": 428,
+  "2026-10-05": 262,
+  "2026-10-06": 220,
+  "2026-10-07": 136,
+  "2026-10-08": 216,
+  "2026-10-09": 66,
+  "2026-10-10": 363,
+  "2026-10-11": 243,
+  "2026-10-12": 197,
+  "2026-10-13": 241,
+  "2026-10-14": 195,
+  "2026-10-15": 316,
+  "2026-10-16": 146,
+  "2026-10-17": 214,
+  "2026-10-18": 196,
+  "2026-10-19": 116,
+  "2026-10-20": 88,
+  "2026-10-21": 164,
+  "2026-10-22": 27
+ },
+ "zielgruppe": {
+  "follower_demographics": {
+   "this_month": {
+    "age": {
+     "13-17": 5,
+     "18-24": 21,
+     "25-34": 126,
+     "35-44": 103,
+     "45-54": 72,
+     "55-64": 27,
+     "65+": 14
+    },
+    "gender": {
+     "F": 154,
+     "M": 115,
+     "U": 99
+    },
+    "city": {
+     "Wölfis, Thüringen": 2,
+     "Jena, Thüringen": 2,
+     "Heidenheim, Baden-Württemberg": 2,
+     "Heidelberg, Baden-Württemberg": 2,
+     "Kassel, Hessen": 1,
+     "Bergisch Gladbach, Nordrhein-Westfalen": 2,
+     "Munich, Bayern": 6,
+     "Schwörstadt, Baden-Württemberg": 1,
+     "Gotha, Thüringen": 3,
+     "Berlin, Berlin": 19,
+     "Hürth, Nordrhein-Westfalen": 2,
+     "Gummersbach, Nordrhein-Westfalen": 1,
+     "Erfurt, Thüringen": 6,
+     "Hamburg, Hamburg": 7,
+     "Düsseldorf, Nordrhein-Westfalen": 2,
+     "Ludwigshafen, Rheinland-Pfalz": 2,
+     "Búger, Balearic Islands": 1,
+     "Oberhausen, Nordrhein-Westfalen": 2,
+     "Dresden, Sachsen": 2,
+     "Dortmund, Nordrhein-Westfalen": 2,
+     "Ohrdruf, Thüringen": 6,
+     "Essen, Nordrhein-Westfalen": 6,
+     "Chemnitz, Sachsen": 1,
+     "Plaue, Thüringen": 3,
+     "Cologne, Nordrhein-Westfalen": 7,
+     "Karlsruhe, Baden-Württemberg": 2,
+     "Shanghai, Shanghai": 3,
+     "Nuremberg, Bayern": 3,
+     "Trumau, Lower Austria": 1,
+     "Wien, Vienna": 5,
+     "Barsbüttel, Schleswig-Holstein": 2,
+     "Wernberg-Köblitz, Bayern": 2,
+     "Bad Münder am Deister, Niedersachsen": 1,
+     "Buchrain, Luzern": 1,
+     "Hanover, Niedersachsen": 2,
+     "Leipzig, Sachsen": 2,
+     "Arnstadt, Thüringen": 4,
+     "Frankfurt, Hessen": 5,
+     "Crawinkel, Thüringen": 3,
+     "Viersen, Nordrhein-Westfalen": 4,
+     "Flensburg, Schleswig-Holstein": 3,
+     "Stuttgart, Baden-Württemberg": 2,
+     "Aschaffenburg, Bayern": 2,
+     "Gera, Thüringen": 2,
+     "Neuss, Nordrhein-Westfalen": 2
+    },
+    "country": {
+     "DE": 286,
+     "LR": 1,
+     "BJ": 1,
+     "FR": 2,
+     "BR": 2,
+     "SD": 1,
+     "ID": 3,
+     "GB": 3,
+     "GD": 1,
+     "GE": 1,
+     "CA": 1,
+     "US": 9,
+     "GH": 1,
+     "CG": 1,
+     "AE": 1,
+     "IN": 2,
+     "CH": 2,
+     "GM": 1,
+     "CI": 1,
+     "KR": 1,
+     "ZA": 1,
+     "GR": 1,
+     "CN": 4,
+     "IT": 8,
+     "CO": 1,
+     "ES": 6,
+     "AR": 3,
+     "ZM": 1,
+     "AT": 16,
+     "CZ": 1,
+     "PH": 2,
+     "PK": 1,
+     "PL": 1,
+     "RO": 1
+    }
+   }
+  },
+  "reached_audience_demographics": {
+   "this_month": {
+    "age": {
+     "13-17": 42,
+     "18-24": 369,
+     "25-34": 1136,
+     "35-44": 505,
+     "45-54": 195,
+     "55-64": 120,
+     "65+": 35
+    },
+    "gender": {
+     "F": 260,
+     "M": 1342,
+     "U": 800
+    },
+    "city": {
+     "Jena, Thüringen": 8,
+     "Mülheim an der Ruhr, Nordrhein-Westfalen": 10,
+     "Bochum, Nordrhein-Westfalen": 6,
+     "Braunschweig, Niedersachsen": 11,
+     "Munich, Bayern": 52,
+     "Aachen, Nordrhein-Westfalen": 6,
+     "Gotha, Thüringen": 6,
+     "Berlin, Berlin": 81,
+     "Erfurt, Thüringen": 23,
+     "Hamburg, Hamburg": 58,
+     "Düsseldorf, Nordrhein-Westfalen": 20,
+     "Osnabrück, Niedersachsen": 8,
+     "Dortmund, Nordrhein-Westfalen": 9,
+     "Dresden, Sachsen": 13,
+     "Hagen, Nordrhein-Westfalen": 6,
+     "Magdeburg, Saxony-Anhalt": 7,
+     "Ohrdruf, Thüringen": 10,
+     "Essen, Nordrhein-Westfalen": 17,
+     "Chemnitz, Sachsen": 6,
+     "Ulm, Baden-Württemberg": 10,
+     "Fürth, Bayern": 6,
+     "Wuppertal, Nordrhein-Westfalen": 7,
+     "Cologne, Nordrhein-Westfalen": 46,
+     "Karlsruhe, Baden-Württemberg": 12,
+     "Nuremberg, Bayern": 24,
+     "Regensburg, Bayern": 8,
+     "Bonn, Nordrhein-Westfalen": 10,
+     "Wien, Vienna": 38,
+     "Darmstadt, Hessen": 8,
+     "Rostock, Mecklenburg-Vorpommern": 6,
+     "Hamm, Nordrhein-Westfalen": 7,
+     "Hanover, Niedersachsen": 17,
+     "Leipzig, Sachsen": 23,
+     "Arnstadt, Thüringen": 13,
+     "Münster, Nordrhein-Westfalen": 10,
+     "Frankfurt, Hessen": 30,
+     "Krefeld, Nordrhein-Westfalen": 9,
+     "Duisburg, Nordrhein-Westfalen": 9,
+     "Mannheim, Baden-Württemberg": 11,
+     "Augsburg, Bayern": 11,
+     "Stuttgart, Baden-Württemberg": 23,
+     "Kiel, Schleswig-Holstein": 8,
+     "Bremen, Bremen": 10,
+     "Graz, Styria": 6,
+     "Bielefeld, Nordrhein-Westfalen": 16
+    },
+    "country": {
+     "NO": 1,
+     "DE": 2106,
+     "JO": 1,
+     "JP": 1,
+     "DK": 1,
+     "LU": 1,
+     "HR": 1,
+     "FR": 4,
+     "HU": 1,
+     "BR": 1,
+     "ID": 1,
+     "GB": 3,
+     "GD": 1,
+     "GE": 1,
+     "CA": 2,
+     "US": 5,
+     "AE": 2,
+     "UZ": 2,
+     "IN": 13,
+     "CH": 74,
+     "SY": 1,
+     "KR": 7,
+     "IR": 1,
+     "MX": 1,
+     "GR": 1,
+     "IT": 13,
+     "ES": 2,
+     "AR": 1,
+     "AT": 131,
+     "TH": 1,
+     "AU": 3,
+     "PE": 1,
+     "CZ": 1,
+     "PK": 1,
+     "PL": 1,
+     "NL": 3,
+     "TR": 10,
+     "BA": 1
+    }
+   },
+   "this_week": {
+    "age": {
+     "13-17": 36,
+     "18-24": 213,
+     "25-34": 700,
+     "35-44": 313,
+     "45-54": 98,
+     "55-64": 61,
+     "65+": 18
+    },
+    "gender": {
+     "F": 159,
+     "M": 795,
+     "U": 485
+    },
+    "city": {
+     "Jena, Thüringen": 7,
+     "Mülheim an der Ruhr, Nordrhein-Westfalen": 6,
+     "Bochum, Nordrhein-Westfalen": 4,
+     "Braunschweig, Niedersachsen": 11,
+     "Munich, Bayern": 36,
+     "Gotha, Thüringen": 4,
+     "Berlin, Berlin": 49,
+     "Erfurt, Thüringen": 15,
+     "Hamburg, Hamburg": 34,
+     "Düsseldorf, Nordrhein-Westfalen": 14,
+     "Dortmund, Nordrhein-Westfalen": 5,
+     "Osnabrück, Niedersachsen": 5,
+     "Dresden, Sachsen": 5,
+     "Hagen, Nordrhein-Westfalen": 4,
+     "Ohrdruf, Thüringen": 7,
+     "Essen, Nordrhein-Westfalen": 10,
+     "Mingolsheim, Baden-Württemberg": 4,
+     "Ulm, Baden-Württemberg": 7,
+     "Arnsberg, Nordrhein-Westfalen": 4,
+     "Cologne, Nordrhein-Westfalen": 21,
+     "Karlsruhe, Baden-Württemberg": 8,
+     "Nuremberg, Bayern": 9,
+     "Regensburg, Bayern": 6,
+     "Bonn, Nordrhein-Westfalen": 6,
+     "Wien, Vienna": 20,
+     "Darmstadt, Hessen": 6,
+     "Recklinghausen, Nordrhein-Westfalen": 4,
+     "Hanover, Niedersachsen": 11,
+     "Leipzig, Sachsen": 11,
+     "Arnstadt, Thüringen": 10,
+     "Münster, Nordrhein-Westfalen": 5,
+     "Frankfurt, Hessen": 15,
+     "Krefeld, Nordrhein-Westfalen": 4,
+     "Duisburg, Nordrhein-Westfalen": 5,
+     "Crawinkel, Thüringen": 4,
+     "Liebenstein, Thüringen": 4,
+     "Lübeck, Schleswig-Holstein": 4,
+     "Mannheim, Baden-Württemberg": 4,
+     "Augsburg, Bayern": 6,
+     "Hattingen, Nordrhein-Westfalen": 4,
+     "Stuttgart, Baden-Württemberg": 16,
+     "Ibbenbüren, Nordrhein-Westfalen": 5,
+     "Bremen, Bremen": 7,
+     "Bielefeld, Nordrhein-Westfalen": 8,
+     "Wiesbaden, Hessen": 5
+    },
+    "country": {
+     "NO": 1,
+     "DE": 1286,
+     "JO": 0,
+     "JP": 0,
+     "DK": 1,
+     "LU": 1,
+     "HR": 0,
+     "FR": 2,
+     "HU": 0,
+     "BR": 0,
+     "ID": 1,
+     "GB": 2,
+     "GD": 1,
+     "GE": 0,
+     "US": 2,
+     "CA": 2,
+     "AE": 2,
+     "IN": 1,
+     "UZ": 1,
+     "CH": 43,
+     "SY": 0,
+     "KR": 0,
+     "IR": 0,
+     "MX": 0,
+     "GR": 0,
+     "IT": 8,
+     "ES": 2,
+     "AR": 1,
+     "AT": 72,
+     "TH": 1,
+     "AU": 1,
+     "PE": 0,
+     "CZ": 0,
+     "PK": 0,
+     "PL": 1,
+     "NL": 0,
+     "TR": 7,
+     "BA": 0
+    }
+   }
+  }
+ },
+ "online_follower": {
+  "2026-10-21": {},
+  "2026-10-22": {}
+ },
+ "beitraege": [
+  {
+   "id": "17896711332413842",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-21T16:10:12+0000",
+   "permalink": "https://www.instagram.com/reel/Dewza8JCASO/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQPd0tafC9Dk1FppiPHOd5GITa1zWpwlXlgan2lcYk3NF2kaAZaiFXaqaiBe5jz9chaNw351p7FpqGbgGcVoO4eIbqBdnZNRT-4MoTw.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=DDC1EhrP8oMQ7kNvwHY4gXd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjYxODcxNzcyMzkwNTksImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=d28fdd78d5f7f2d3&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EOEJDRjE5QTI4MEQ0MjgxOUZGMEYzMjYzRUE1NTFFMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIzQzQzMzY1MjBGNDRCNTZCQTk0MzY4MzRDN0RDRjExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamiNfK3YnqPxUCKAJDMywXQD-iDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIBIVW9aB_jr8j02jEGfVBMJ_YCNnyX56PI9gOPNeTTPwQ9rcRAxhXwahwwKRfwHCho6RdlYI0P1A&oh=00_AQNx-FM7J1enEdD5C6pgihgdtUQWOZEmPx_sW_fmzO2TeA&oe=6ADBF9D7",
+   "like_count": 3,
+   "comments_count": 1,
+   "caption": "Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und die Vorsteuer ist trotzdem weg. Warum? 🧾\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nDie 4 Voraussetzungen nach § 15 UStG:\n01 Unternehmer im Sinne des § 2 UStG\n02 Leistung für das Unternehmen (Gegenstände: mindestens 10 % unternehmerisch genutzt, § 15 Abs. 1 Satz 2 UStG)\n03 Ordnungsgemäße Rechnung mit allen Pflichtangaben (§ 14 Abs. 4 UStG) – bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)\n04 Kein Ausschluss durch steuerfreie Umsätze (§ 15 Abs. 2 UStG)\nFehlt eine Pflichtangabe, kann der Prüfer den Abzug versagen. Die Berichtigung durch den Lieferanten (§ 31 Abs. 5 UStDV) wirkt zurück – aber nur, wenn die Rechnung schon die Grundangaben hatte: Aussteller, Empfänger, Leistung, Entgelt und gesondert ausgewiesene Steuer (BMF 18.09.2020).\n\nWie prüft ihr Eingangsrechnungen: A) Stichprobe von Hand oder B) jede automatisch? 👇\n📤 Schick das der Person, die bei euch die Eingangsrechnungen freigibt.\n\nTypischer Prüfer-Fall, kein echter Mandant. Gesetzeswerte, Stand 2026.\n\n#steuern #steuerabteilung #umsatzsteuer #vorsteuer",
+   "views": 132,
+   "reach": 109,
+   "likes": 3,
+   "comments": 1,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 7,
+   "ig_reels_avg_watch_time": 4203,
+   "ig_reels_video_view_total_time": 504453,
+   "reels_skip_rate": 82.6,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17986965504088976",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-21T13:43:01+0000",
+   "permalink": "https://www.instagram.com/reel/DewieoRNf5g/",
+   "media_url": null,
+   "like_count": 8,
+   "comments_count": 4,
+   "caption": "Degressive AfA 2026: Du kaufst im Dezember für die 30 % – und bekommst im ersten Jahr nur 2.500 €. Warum? 🏭\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nWas gilt (§ 7 Abs. 2 EStG, Investitionssofortprogramm):\n→ bewegliche Wirtschaftsgüter des Anlagevermögens\n→ angeschafft oder hergestellt vom 01.07.2025 bis 31.12.2027\n→ höchstens das 3-Fache der linearen AfA, maximal 30 %\n\nDemo: Maschine 100.000 €, Nutzungsdauer 10 Jahre → linear 10.000 €, degressiv 30.000 € im vollen Jahr.\nAber: Im ersten Jahr nur zeitanteilig (§ 7 Abs. 1 Satz 4 EStG). Kauf im Dezember = 1/12 → 2.500 €. Der Wechsel zur linearen AfA ist später möglich (§ 7 Abs. 3 EStG).\n\nWas macht ihr bei Investitionen 2026/2027: A) degressiv oder B) weiter linear? 👇\n\n📤 Schick das der Person, die bei euch den Anlagenspiegel pflegt.\n\nAlle Zahlen sind Demo-Zahlen. Gesetzeswerte, Stand 2026.\n\n#steuern #steuerabteilung #afa #investitionssofortprogramm",
+   "views": 137,
+   "reach": 94,
+   "likes": 8,
+   "comments": 4,
+   "saved": 6,
+   "shares": 14,
+   "total_interactions": 37,
+   "ig_reels_avg_watch_time": 9696,
+   "ig_reels_video_view_total_time": 1095663,
+   "reels_skip_rate": 77.9,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18087315434321744",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-20T15:45:01+0000",
+   "permalink": "https://www.instagram.com/reel/DeuJJHoDXkl/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQNNVZm0LtdnFZXJBrgXXpLGix1omG73ANgr7FxduiXZZUoXngCcZO-Og50vn3UWrh-355DNgM6YF4_sIKIwPdjvwc70eX5xM2V0YhM.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=Z0pGTkchbJUQ7kNvwGej7Hb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjYwMTQ4NDUyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4cc8eee5a4bc41e1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MTNBQ0YzOUUwQzY0RURCQTIwRTBEOUZEMjcwNDlCMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ZBMDQ2NjI4MkVCMDRCRUM4NkYwMjgxRDUyQTRDMEYzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam_InO2f_pPxUCKAJDMywXQDOIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQLmNwJrn7lYUSNuZCGxcO3GPN1OMQVJnBPDV4RnrkUw-H1OI6GC_bLahTrjd5eQxaDCPjd0hemnhg&oh=00_AQOnYPo6KPf3B_Um1GGj5bS59yiLV5yvoQaIvGd7lwmJYA&oe=6ADBCEBA",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer? 📉\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nMindestbesteuerung (§ 10d Abs. 2 EStG, für die KSt über § 8 Abs. 1 KStG): Bis 1 Mio. € Gewinn verrechnest du den Verlustvortrag voll, darüber in den VZ 2024–2027 nur zu 70 % – ab 2028 wieder zu 60 %.\n\nBeispiel: 3 Mio. € Verlustvortrag, 2 Mio. € Gewinn → 1 Mio. € + 70 % von 1 Mio. € = 1,7 Mio. € verrechnet, 300.000 € bleiben steuerpflichtig. Bei der Gewerbesteuer bleibt es bei 60 % (§ 10a GewStG): 1,6 Mio. € verrechnet, 400.000 € steuerpflichtig. Der Rest wird weiter vorgetragen.\n\nWie plant ihr die Verlustnutzung: A) Jahr für Jahr oder B) über mehrere Jahre im Voraus? 👇\n📤 Schick das der Person, die bei euch die Steuerplanung macht.\n\nAlle Zahlen sind Demo-Zahlen.\n\n#steuern #steuerabteilung #taxtech #verlustvortrag",
+   "views": 123,
+   "reach": 81,
+   "likes": 2,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 5553,
+   "ig_reels_video_view_total_time": 555373,
+   "reels_skip_rate": 75.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17982558018104055",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-20T10:24:24+0000",
+   "permalink": "https://www.instagram.com/p/DetnHd6G82Y/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/860310567_17965969125239059_7467260878133777989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=luIQJfFm2-kQ7kNvwGcUZe-&_nc_oc=Ados-A_FYDoQ0SeWDUMSwV8XLVEhRfgf0Ru3P-HWB4rj-RvLRBL6iM4Ih_suAWkxb0I&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQLbuUQybQvAiGtXgdLE_DTtjJUntm13WKKgFqn-nw4yRtJHYFvbrnwwkPACrIlAkCIPV-62jo1NVw&oh=00_AQO5vlcuUuY_Wi20AcjBIctwpKZRYug_gFJRgvp9lO9Fkg&oe=6ADFBC5A",
+   "like_count": 1,
+   "comments_count": 0,
+   "caption": "Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % oder 60 %? 📉\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nBis 1 Mio. € darfst du Verlustvorträge voll verrechnen. Was darüber liegt, nur zum Teil: Bei Einkommen- und Körperschaftsteuer sind das für die Veranlagungszeiträume 2024 bis 2027 70 %, ab 2028 wieder 60 % (§ 10d Abs. 2 EStG, § 8 Abs. 1 KStG). Bei der Gewerbesteuer bleibt es bei 60 % (§ 10a GewStG) – und einen Rücktrag gibt es dort nicht.\nRechenbeispiel: 3 Mio. € Gewinn, 5 Mio. € Verlustvortrag → 2,4 Mio. € verrechenbar, 600.000 € zu versteuern.\n\nRechnet ihr KSt und GewSt in einer Tabelle oder in zwei getrennten? A oder B? 👇\n📌 Speichern für die Planung.\n📤 Wer in deinem Team braucht das? Schick's der Person, die bei euch die Verlustvorträge fortschreibt.\n\nAlle Zahlen sind Demo-Zahlen.\n\n#steuerabteilung #koerperschaftsteuer #verlustvortrag #jahresabschluss",
+   "views": 95,
+   "reach": 31,
+   "likes": 1,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 2,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "17993391783114087",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-19T17:26:41+0000",
+   "permalink": "https://www.instagram.com/reel/DeryoWUE_Or/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQO4rc7IbqiJpByrbEPxA41ELCslYqJ-Iyk3Ft8JfgwuUtXT81VoMn0C_OzAzfitGlfeTGvOilF95bLWjdbFKvKk3EDZF1GuLPPeutI.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=nD0XUEOC3kIQ7kNvwH7lCPu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjU4NTgxNzAyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=55959250df589fcc&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DNzJBNjJBMkNBNUY0MkVCOEYxMkMyMkQzRTdDNkVDNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzBGMDA5M0EzNERERjQ3Q0Y4NDEyQzI3RjRFQkE3QTlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam4ZOlyvbpPxUCKAJDMywXQDe7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKQ9e6vBhwJaUg5_lAAUoTOSpRQIkhLtE91FzCar789ZTq-DObE3iO0QKR-emIZZyJqtWYIzSmhtw&oh=00_AQO2rlBUSKTPPAe5j9bPhTsNMlCuE8tJj3AHQ7N9VwjrOQ&oe=6ADBF666",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jahre? 🗂️\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nSeit dem BEG IV gilt für Buchungsbelege (z. B. Rechnungen, Kontoauszüge) eine Frist von 8 statt 10 Jahren – für alle Belege, deren Frist am 01.01.2025 noch nicht abgelaufen war (§ 147 Abs. 3 AO, § 257 Abs. 4 HGB, § 14b UStG). Bücher, Inventare und Jahresabschlüsse bleiben bei 10 Jahren, Handels- und Geschäftsbriefe bei 6.\n\nWichtig: Die Frist beginnt mit dem Ende des Kalenderjahres, in dem der Beleg entstanden ist. Und sie läuft nicht ab, solange die Festsetzungsfrist für die betroffenen Steuern noch läuft (Ablaufhemmung, § 147 Abs. 3 Satz 5 AO). Erst prüfen, dann schreddern.\n\nWie räumt ihr das Archiv auf: A) einmal im Jahr nach Fristenliste oder B) erst, wenn der Keller voll ist? 👇\n📤 Schick das der Person, die bei euch das Archiv verwaltet.\n\n#steuern #steuerabteilung #taxtech #aufbewahrungsfristen",
+   "views": 74,
+   "reach": 56,
+   "likes": 2,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 4042,
+   "ig_reels_video_view_total_time": 230431,
+   "reels_skip_rate": 79.6,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17905235670352134",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-19T10:51:57+0000",
+   "permalink": "https://www.instagram.com/reel/DerFcnnnTMT/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQNOOe3AFn19GfIL-rYa1h9CANmf1dO_zo9g5HsYKu6HNRuQWUo8NHYj0046IKqDqymzjer2a4xER0JjApELNCtEmgqhvimZB_1BHS4.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=NGHDRyi2GyQQ7kNvwFXaO_k&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjU3OTE4MjUyMzkwNTksImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=92b018174ee5e9f5&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yRDQ3MkMzMTY0Njk0QTdCODJFNzI0RTg3OUZFQUJFQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkwNjEzMTEyNUVGOTQ5NjNBNjM0REJENEQ5RTc1RDk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam8ND92_LpPxUCKAJDMywXQC0zMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQK8L-NFSi6IjnMxC2ivZKOC-MXXmY2pss7ZWoR0JoAXKlwxijGIQXoXjoxBdpKDMrenfFUhwm9OUQ&oh=00_AQNoW-l8fgBFsfsd6umZYYuQLU38I8B1STMFu7u3Uez0hA&oe=6ADBDB82",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Säumniszuschlag: Was kostet eine Woche zu spät? ⏰\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nSteuer eine Woche zu spät überwiesen: Die Schonfrist von 3 Tagen ist vorbei, also 1 % Säumniszuschlag für den angefangenen Monat (§ 240 AO). Bei 50.000 € sind das 500 € – egal ob eine oder drei Wochen zu spät. Kommt die Erklärung zu spät, kann das Finanzamt zusätzlich einen Verspätungszuschlag festsetzen: 0,25 % der festgesetzten Steuer abzüglich Vorauszahlungen, mindestens 25 € je angefangenen Monat (§ 152 Abs. 5 AO).\n\nWer hat bei euch die Fälligkeiten im Blick: A) Fristenkalender oder B) Kopf? 👇\n📤 Schick das dem Kollegen, der Zahlungen „noch schnell nächste Woche“ anweist.\n📌 Alle Fristen und Zuschläge zum Speichern im Karussell in meinem Profil.\n\nAlle Zahlen sind Demo-Zahlen.\n\n#steuerabteilung #abgabenordnung #saeumniszuschlag #steuerfristen",
+   "views": 70,
+   "reach": 55,
+   "likes": 2,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 3,
+   "ig_reels_avg_watch_time": 3060,
+   "ig_reels_video_view_total_time": 168322,
+   "reels_skip_rate": 86.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18137276653636154",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-18T19:10:41+0000",
+   "permalink": "https://www.instagram.com/reel/DepZflYMPE6/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t16/f2/m84/AQPfBpwu1mZve8nzTGiaxGMCOj0cxcfsyyLKU4uEsDGKAaqIGZVj-hPXoDYO15oqrUT-E6Cd8WMZst0Qx3HCOinTkx8GQ4MkL_M02TQ.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=O6hBQxIfCAAQ7kNvwHrfkRD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDQ3NDM4NDYwOTQ0OTI4OCwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjozMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=25c3b8c11f375d2d&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wODc0NjA5MEUyOUQ0RUY3QjEwQjA2OEM1RDU0QzA4MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzU0NTA5NjU4OTA4QjRDQkRBRTkwQTdBQTg2RUUxOTcwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQ1eCTu9vyDxUCKAJDMywXQEDqn752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIoRox2ONS_N9AapUOFJ1cgUKQebWLu8NaSSZOhTBlYtGQ1bC3qQejCnyBDONO4skswzbwRSj9eRA&oh=00_AQOrwJEPKI4vyw_Evfz_QU_FBMIjn4xbUHUqSAa0x-3eVQ&oe=6ADBD69A",
+   "like_count": 5,
+   "comments_count": 1,
+   "caption": "Deine Steuererklärung liest im Finanzamt kein Mensch – sondern Code. 🤖\n\nIch wurde auf der anderen Seite ausgebildet – in der Thüringer Steuerverwaltung. Mein Bild vorher: Ein Sachbearbeiter liest jede Erklärung Zeile für Zeile. Die Realität: Zuerst entscheidet ein System aus Code.\n\nDas Spannende: Nichts davon ist geheim. Es steht alles im Gesetz.\n\n✅ Ein Algorithmus sortiert vor – das Risikomanagementsystem (§ 88 Abs. 5 AO). Unauffällige Fälle können vollautomatisch durchlaufen.\n✅ Die genauen Prüfregeln sind geheim. Per Gesetz. Wer „den Trick“ kennt, rät.\n✅ Unauffällig heißt nicht ungeprüft: Das Gesetz verlangt zusätzlich eine Zufallsauswahl.\n⚠️ Alles im qualifizierten Freitextfeld („Ergänzende Angaben zur Steuererklärung“) stoppt die Automatik (§ 155 Abs. 4 AO). Dann landet deine Erklärung auf dem Tisch des Sachbearbeiters.\n\nWelcher Punkt war neu für dich? 👇\n📤 Schick das dem, der glaubt, das Finanzamt liest jede Zeile.\n🔔 Folg @maehrsteuern für noch mehr Insiderwissen aus dem Finanzamt.\n\nAllgemeine Info, keine Steuerberatung im Einzelfall.\n\n#steuererklärung #finanzamt #steuern #steuertipps",
+   "views": 158,
+   "reach": 128,
+   "likes": 5,
+   "comments": 1,
+   "saved": 3,
+   "shares": 0,
+   "total_interactions": 9,
+   "ig_reels_avg_watch_time": 6182,
+   "ig_reels_video_view_total_time": 859409,
+   "reels_skip_rate": 77.3,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18095702354660428",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-18T15:45:01+0000",
+   "permalink": "https://www.instagram.com/reel/Deo8TzBjns_/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/o1/v/t2/f2/m86/AQNNsBxo-XRbOt4oVphs3NKorF50kzClHIxF_AdhCLfWODyxFZDVDYPU4vUPPPlIuye5yChvERBiMLqoBbjV7lIxKM6kWntM7Qu6-Tc.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_ohc=Ici8EkB0wMcQ7kNvwE83Acn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjU2MzgxMDUyMzkwNTksImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c26cb07832b2843b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMEVGODNBMzlFMkM0QTlDODREMTBENzI2NzQxMjQ5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc1ODYxNDEzQjdEQzRGQzdCNzg5NTU2NjdCMDAwQ0I5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamuOjW4unpPxUCKAJDMywXQC4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKOB63kBxGSDluQsRNViztWB_nifn6uV1EK7E8i15_JzQD6WNGZK4zQrD6kPR-Q6FSXN1n8C1r1DQ&oh=00_AQN7ZIZiWa7MHmxXXtCwD9cE0SX5-kWFDlnMwn-FxOG_DQ&oe=6ADBE38B",
+   "like_count": 5,
+   "comments_count": 0,
+   "caption": "Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läuft 4 Jahre und 11 Monate. Hält die Organschaft? ⏳\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nNein. § 14 Abs. 1 Satz 1 Nr. 3 KStG verlangt mindestens fünf Zeitjahre – nicht fünf Wirtschaftsjahre. Typischer Stolperstein: ein Rumpfwirtschaftsjahr.\nFolge: Die Organschaft ist von Anfang an nicht anzuerkennen. Organträger und Organgesellschaft werden einzeln besteuert, abgeführte Gewinne gelten in der Regel als verdeckte Gewinnausschüttung.\nVorzeitig enden darf der Vertrag nur aus wichtigem Grund – per Kündigung oder einvernehmlicher Aufhebung (§ 14 Abs. 1 Satz 1 Nr. 3 Satz 2 KStG, R 14.5 Abs. 6 KStR).\n\nWo prüft ihr die GAV-Laufzeit: A) in der Vertragsakte oder B) per Checkliste im Tool? 👇\n📤 Schick das dem Kollegen, der gerade den Organkreis aufsetzt.\n\nTypischer Prüfer-Fall, kein echter Mandant. Alle Zahlen sind Demo-Zahlen.\n\n#steuern #steuerabteilung #organschaft #konzernsteuern",
+   "views": 59,
+   "reach": 40,
+   "likes": 5,
+   "comments": 0,
+   "saved": 5,
+   "shares": 0,
+   "total_interactions": 10,
+   "ig_reels_avg_watch_time": 3772,
+   "ig_reels_video_view_total_time": 177330,
+   "reels_skip_rate": 72.1,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17923713027429647",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-18T11:39:45+0000",
+   "permalink": "https://www.instagram.com/p/DeomJhQG4o8/",
+   "media_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/857022843_17965601262239059_7321923347091258584_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vyivNWqWkTcQ7kNvwGqZYE6&_nc_oc=AdrPm3wNvGFmn18CG9Zl9SWUMgj5WdB0bG88j9QGEIXt8f08I-n8usfe-fWV00B-_Hs&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQJpu1wMD7xAQyFOEoTSdcz0JGw7uTItTI818uBCUXMD4_pd1foFBZUlNWFXsN-hI5l3ORrSaNB5QA&oh=00_AQO2uLxUAvVarIDFgjiiebaglPuyOIAcBwOC-yuqoZV2Ig&oe=6ADFBBC9",
+   "like_count": 4,
+   "comments_count": 0,
+   "caption": "Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 2025 mit 0,11 % des Grundsteuerwerts – schon umgestellt? 🏢\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nDas Gegenstück zur Hinzurechnung – die vier wichtigsten Kürzungen:\n01 Grundbesitz: 0,11 % des Grundsteuerwerts (§ 9 Nr. 1 Satz 1 GewStG, ab Erhebungszeitraum 2025; vorher 1,2 % von 140 % des Einheitswerts)\n02 Gewinnanteile aus Personengesellschaften (§ 9 Nr. 2 GewStG)\n03 Schachtelprivileg: Dividenden ab 15 % Beteiligung zu Beginn des Erhebungszeitraums (§ 9 Nr. 2a GewStG) – die 5 % nicht abziehbare Betriebsausgaben nach § 8b Abs. 5 KStG bleiben\n04 Spenden: bis 20 % des Gewinns oder 4 ‰ der Umsätze, Löhne und Gehälter (§ 9 Nr. 5 GewStG)\n\nWelche Kürzung steht bei euch öfter in der Erklärung: A) Grundbesitz oder B) Schachtel? 👇\n📌 Speichern für die nächste GewSt-Erklärung.\n📤 Wer in deinem Team braucht das? Schick's der Person, die bei euch die Gewerbesteuer macht.\n\nGesetzeswerte, Stand 2026.\n\n#steuern #steuerabteilung #gewerbesteuer #kuerzungen",
+   "views": 177,
+   "reach": 76,
+   "likes": 4,
+   "comments": 0,
+   "saved": 5,
+   "shares": 0,
+   "total_interactions": 10,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 3,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "18633133474034755",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-17T16:59:41+0000",
+   "permalink": "https://www.instagram.com/reel/Deml8DcD_Dx/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQNE9dMi0H_tiQ4lpZyfjHZMT65O1kEEfHzhf2jWUSd3zeGx290ZyLKRpZukRSkhAo86cjxIGFYTHv2imvbOOtbK4BzrOK8AYEuZB7o.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=uVTU89jkXggQ7kNvwGJytEp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjU0NTc5NTUyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7cbd367904bf4f73&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85NjgyNTc1MjkzOTA0MjUxODgzNkQ4QUY0MjhGNTE1OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzU4QkM0Njg3MkUyRTRDQTc4QUZBNEU3OUM3RkMyRTAyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam0rG6pN_pPxUCKAJDMywXQCwAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKK2I8w2Rv7su1GOp76oNEJ2VounzAcRTnXKDPKbnEBBTkHo1bqnaJTQwVMMkvKRCohkadOSbjr2Q&oh=00_AQPVjLRijOKW03zndwyd4uX4HWG4KhuPbQio-zwrEGVL9A&oe=6ADBE05F",
+   "like_count": 5,
+   "comments_count": 0,
+   "caption": "Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebesatz nicht – wer findet's zuerst, du oder der Prüfer? 🔎\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nPassiert ständig: Die Steuerdatei vom Vorjahr wird kopiert, ein Wert bleibt stehen. Drei Checks, bevor die Datei rausgeht:\n1️⃣ SuSa-Abgleich – jeder Betrag lässt sich auf ein Konto der Summen- und Saldenliste zurückführen.\n2️⃣ Vorjahr daneben – große Abweichungen kurz begründen.\n3️⃣ Prüfspalte – Differenz 0,00 €? Dann grün.\nBonus: Summen quer gegenrechnen und Steuersätze in eine Parameterzelle statt fest in die Formel.\n\nWelcher Check fehlt bei euch am häufigsten: 1, 2 oder 3? 👇\n📤 Schick das dem Kollegen, der die Datei morgen rausschickt.\n\nTypischer Fall, kein echter Mandant. Alle Zahlen sind Demo-Zahlen.\n\n#steuern #steuerabteilung #jahresabschluss #excel",
+   "views": 69,
+   "reach": 55,
+   "likes": 5,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 10,
+   "ig_reels_avg_watch_time": 3500,
+   "ig_reels_video_view_total_time": 210015,
+   "reels_skip_rate": 72.4,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17969275643965634",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-17T10:34:35+0000",
+   "permalink": "https://www.instagram.com/reel/Del54DNE7fz/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQMa5pq_fLkrpx71wLtKP1T2wsohI76AJvgxBIcmDs35luvoDQeMesnSuFy3rZ88vyD_GLKKlTWN2TFjujh4-JbtoNxx_qgCeDwWUQg.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=DP_pnQjG3c8Q7kNvwG1oxJN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjUzODIzMjgyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bb5bef26d9af89fd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDA2NUEzNDJCQkE0MkNEQjUwRDNCRkYzMUM3MTdDMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzA4RTBDM0QzQkFBRjQ2NTlBNEZEOTMwMzhCRjc4Q0YxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamj-7-8NrpPxUCKAJDMywXQC6qfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQJ-jP7NP504lV198Yw8pUO46dMIMyfK9Rp7i8vEPwpanpLBTYhNC6FfX2zhZFL3_iZVZ6XLhl6Phg&oh=00_AQM-aNgY7Gni1phJzLs-L2JqCIlflCdle08QA7ifmxRFlg&oe=6ADBF5B9",
+   "like_count": 4,
+   "comments_count": 0,
+   "caption": "Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt „BEZUG!“ 😩\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\n„NAME?“, „WERT!“, Verknüpfung ins Leere … und du suchst dich dumm und dämlich. Kenn ich zu gut.\n\nDeshalb rechne ich meine Ertragsteuer inzwischen mit Code: Hebesatz rein, alles rechnet neu, am Ende steht die Abschlussreife auf Grün – „vollständig“. 🔒 Läuft komplett lokal – keine Steuerdaten in der Cloud. Alles im Video sind Beispieldaten.\n\nWelcher Fehler hat dich zuletzt erwischt: BEZUG!, NAME? oder WERT!? 👇\n📤 Schick das dem Kollegen, der noch in Excel rechnet.\n\n🤖 Hinweis: Die Büro-Szenen im Video sind mit KI erzeugt.\n\n#steuerabteilung #taxtech #jahresabschluss #steuerrueckstellung",
+   "views": 171,
+   "reach": 141,
+   "likes": 4,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 8,
+   "ig_reels_avg_watch_time": 3541,
+   "ig_reels_video_view_total_time": 517017,
+   "reels_skip_rate": 72,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18564693718076338",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-16T17:57:49+0000",
+   "permalink": "https://www.instagram.com/reel/DekHzHkF7E2/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQM1Nd6EjcsSbkxhBg8SvRN4yCQLH0OxlBlXgF8zw7A-xut0WY07Yh5EErh6trbwOWnKLRcDhGh_HufZhlAZmu7wX26_aYYko0cdgkI.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=NagKZGVWAvUQ7kNvwHOTCnl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjUyNzMwNTkyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=163363b19e3fbaa3&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BOTcyNjlBOTAxQkQ0MzMzOEU1RTFCMjg0NUQyREU4Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0M5QjdFODIxQjM2RTQ0N0I5OTg5MkNBRUIyMUZGMDI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamkunvwtTpPxUCKAJDMywXQCmZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIjhN_0Qbz4OyBhYqLhTCmZw5OVhL9rWo9H4C6iLbqWDUuS9ba2QLIt4GUziXJ86-ZPg0WZndb03A&oh=00_AQML92qBqxMx3s-SonUgeId1FDICo-7joVJfydSplrtRiw&oe=6ADBDE58",
+   "like_count": 14,
+   "comments_count": 0,
+   "caption": "Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, einmal rückwärts 🔁\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich zeig dir, was ich baue.\n➕ Folg mir, wenn du Steuern × Code sehen willst.\n\nDas bin ich. Heute. Davor: ein KI-Porträt, das ich selbst bearbeitet habe. 2025 hat sogar noch ein KI-Avatar für mich gesprochen.\nHeute stehe ich selbst da – mit Steuern × Code.\n\nWas willst du als Nächstes sehen: A) mehr Tool-Demos oder B) mehr Steuerwissen? A oder B in die Kommentare 👇\n\n🤖 Hinweis: Porträt und Avatar im Reel sind mit KI erzeugt bzw. bearbeitet; das aktuelle Foto ist mit KI hochskaliert und leicht retuschiert.\n\n#steuern #finanzwirt #taxtech #kuenstlicheintelligenz",
+   "views": 168,
+   "reach": 104,
+   "likes": 14,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 19,
+   "ig_reels_avg_watch_time": 7361,
+   "ig_reels_video_view_total_time": 817111,
+   "reels_skip_rate": 52.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18020387378730163",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-16T09:45:01+0000",
+   "permalink": "https://www.instagram.com/reel/DejLN1HiY0k/",
+   "media_url": "https://scontent-dfw5-2.cdninstagram.com/o1/v/t2/f2/m86/AQNjtJzRi2HcrB2rAfzWE1qcMW4qtSjfREq3M065h7rI-Bz_cYCtNVYYI9b_pmRlxvXkkQ3aBJX7X-PnXYgnt3Pb7xGPhbdhVwgEHqk.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_ohc=DHfELb0EQAgQ7kNvwH-WSae&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjUxODgzMTIyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=389f9a1c4fcea550&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNjY0NzVCM0YwQ0E0N0I5QUZFREE1NEI3MzFGRTgwM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzAzMEVGM0ZDQjQzMDRBOUU4MTIzRURERkY4MjY5MjI4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamr-S6y8_pPxUCKAJDMywXQCxmZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIAiqDubNCWMFOsIs9zTw_K9WTXmzX7ssS_PkqLHWPqIM2bCuYwo1vkwzyh-_lyBGWfxiX7qqpCNQ&oh=00_AQM3KesBKkaktp09xuCdgZFNjnbrTybnTHDOGhtSp43rXQ&oe=6ADBC4F4",
+   "like_count": 4,
+   "comments_count": 0,
+   "caption": "GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 Cent an? 💶\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nEbene 1, GmbH: 15 % KSt + 5,5 % SolZ = 15,825 %, dazu 14 % GewSt bei 400 % Hebesatz. Bleiben 0,7018 €.\nEbene 2, Gesellschafter: 25 % Abgeltungsteuer + SolZ = 26,375 % auf die Ausschüttung. Bleiben 0,5167 €.\nZusammen rund 48 % – aber nur bei Ausschüttung. Bleibt der Gewinn in der GmbH, sind es 29,825 %. Ab 2028 sinkt die KSt schrittweise bis auf 10 % (2032).\n\nWas machst du mit dem Gewinn: A) ausschütten oder B) in der GmbH lassen? 👇\n📤 Schick das dem Kollegen, der gerade die Rechtsform-Frage auf dem Tisch hat.\n\nGesellschafter privat mit Abgeltungsteuer (§ 32d Abs. 1 EStG), ohne Kirchensteuer und Sparer-Pauschbetrag, Stand 2026. Alle Zahlen sind Demo-Zahlen.\n\n#steuern #steuerberatung #gmbh #ausschuettung",
+   "views": 104,
+   "reach": 87,
+   "likes": 4,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 8,
+   "ig_reels_avg_watch_time": 1876,
+   "ig_reels_video_view_total_time": 170774,
+   "reels_skip_rate": 90,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17913471876286439",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-15T19:15:02+0000",
+   "permalink": "https://www.instagram.com/reel/DehnTbyEZ2g/",
+   "media_url": "https://scontent-dfw5-1.cdninstagram.com/o1/v/t2/f2/m86/AQPJCCyBoaoAoQadewZCH3UQRyZ86y9yrNYoryjxz4D4kUG3YDdIh4kBsXKagMHhkhe9mk_DiJe5VA2ICuI7oB6dElQAxqW7NH6LfXE.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=87LIjaMFEOgQ7kNvwFKJQNm&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjUxMDM1MzIyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6812943a1bf1b664&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yRkY4QjVGMDY2RUM0ODBBQTlCQzhBOEUwMkVCMUI4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNFQTRBODJDMzcyNjQ0MEI4QkVFREU4NjdDODU4MTJEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamo6Pm08rpPxUCKAJDMywXQCnMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIBif3NeZfpcY_CaZM-dHlpwbASKMMkru6BZKBzMBi_zPpzV3ZMRoQS66-fZ4dNCdVxqsQJ6XmaPw&oh=00_AQMIWTKvEalVau76JWsQIf1A25p3a-GeKP9_32CGUlsJeg&oe=6ADBDB98",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV“. Nochmal. 😮‍💨\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nHat mich früher einen halben Nachmittag gekostet.\nHeute: drei Zeilen Code. Er legt Kreditoren und Buchhaltung nebeneinander und zeigt, was nur in einer Liste steht. 10.000 Zeilen? Unter einer Sekunde.\n\nWomit gleichst du Listen ab: SVERWEIS, XVERWEIS oder Code? 👇\nDu kennst die Serie schon? Dann gern auch: Welche Nummer war die beste – 1 bis 5?\n📤 Schick das dem Kollegen, der gerade wieder runterzieht.\n\nAlle Zahlen im Video sind Beispieldaten.\nTeil 5 meiner Excel-Serie – alle Teile im Profil.\n\n#steuern #excel #automatisierung #sverweis",
+   "views": 272,
+   "reach": 223,
+   "likes": 6,
+   "comments": 0,
+   "saved": 5,
+   "shares": 0,
+   "total_interactions": 12,
+   "ig_reels_avg_watch_time": 3195,
+   "ig_reels_video_view_total_time": 763701,
+   "reels_skip_rate": 79.2,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18124066181475903",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-15T16:25:09+0000",
+   "permalink": "https://www.instagram.com/reel/DehYZkyD-sL/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQPbPeaT782BZktaqHipmS_9u-OPkHTN1Fl9iPXlfaRMxWFMMmyltZXeIjypWGKG8Sexxndxk6z3D2xOtHWwd0SGkFMcM3pg18FiuN8.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=6QMNldQyVfYQ7kNvwH2N7RO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjUwODY5MDkyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a9f55b117c04bd63&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNEM3RjlBQzc0RTk0N0E1OEE3RjJGOTgzRDg0N0I3N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNEOUI2QTJBQzA2QTQ0Q0M4NTRCOUJCMjE4RjQwMDYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamvKz518npPxUCKAJDMywXQDWAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQI_S-kWfnSzxQ9YrqYCFpAXzvj589uCc3PfeGgP89ZcHY8VS7u_208c10171UsOGQvAISfBLzTvdA&oh=00_AQOVBlo_ZMt6K9L-FT8Qyle1Xj3103O_KiylK3fz64NSxQ&oe=6ADBDC69",
+   "like_count": 9,
+   "comments_count": 0,
+   "caption": "Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Danach ist dein Geld weg. ⏳\n\nIm Finanzamt hab ich es jeden Tag gesehen: Viele zahlen zu viel Steuern. Nicht, weil sie tricksen – sondern weil sie gar nichts abgeben.\n\nSo geht's:\n✅ Keine Pflicht zur Abgabe? Du darfst trotzdem – freiwillig (Antragsveranlagung, § 46 Abs. 2 Nr. 8 EStG).\n✅ Dafür hast du 4 Jahre Zeit (§ 169 Abs. 2 Nr. 2 AO). Für 2022 heißt das: Eingang beim Finanzamt bis 31.12.2026.\n✅ Typisch lohnt es sich bei Jobwechsel, Teilzeit, Arbeitslosigkeit, Fahrtkosten, Handwerkerrechnungen oder Spenden.\n⚠️ Musstest du abgeben (z. B. Nebeneinkünfte, Steuerklasse III/V), gelten andere Fristen – dann eher länger, nicht kürzer.\n\nWie viele Jahre hast du schon nicht abgegeben: A) 0, B) 1–2 oder C) 3+? 👇\n📤 Schick das dem, der seit Jahren keine Erklärung macht.\n🔔 Folg @maehrsteuern für Steuerwissen, das rechnet.\n\nAllgemeine Info, keine Steuerberatung im Einzelfall.\n\n#steuererklärung #steuertipps #steuern #finanzamt",
+   "views": 271,
+   "reach": 173,
+   "likes": 9,
+   "comments": 0,
+   "saved": 5,
+   "shares": 0,
+   "total_interactions": 15,
+   "ig_reels_avg_watch_time": 7912,
+   "ig_reels_video_view_total_time": 1622131,
+   "reels_skip_rate": 71.8,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18089184050693705",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-15T09:45:01+0000",
+   "permalink": "https://www.instagram.com/p/DegoIVKluPa/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/848751794_17965019286239059_8043886187076236624_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dklkAJqVU08Q7kNvwGi1gQT&_nc_oc=AdoBJZE3nEhfZ8y_U7wIIDdWf9xaCUoOC7EfTPf74qJMcVMDCFiOjXxwKIqC_NbIMQs&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQJJgQBVbTf108rqGHpxI1UBChqhq9J_wTw2-KY9AJvWuQJp6BnY8FQSUKo0Eo-U5139qYh9eU_xpg&oh=00_AQObIyrMUkqSm1MNuhGx60c9mbDqdty7Hkl2_ZMWAUKMDg&oe=6ADFC0CD",
+   "like_count": 1,
+   "comments_count": 0,
+   "caption": "Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz auf 29,83 %? 🧾\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nIn 6 Schritten vom Ergebnis vor Steuern über Körperschaftsteuer, Solidaritätszuschlag und Gewerbesteuer bis zur Rückstellung – Vorauszahlungen sauber je Steuer abgezogen. Rechenbeispiel mit Demo-Zahlen (1 Mio. € Ergebnis, Hebesatz 400 %) plus der schnelle Plausi-Check für den Jahresabschluss: der Gesamtsatz.\n\nWie prüft ihr eure Rückstellung: Gesamtsatz, Vorjahr oder Bauchgefühl? 👇\n📌 Speichern für später.\n📤 Wer in deinem Team braucht das? Schick's der Person, die bei euch die Rückstellung rechnet.\n\nAlle Zahlen sind Demo-Zahlen.\n\n#steuerabteilung #jahresabschluss #steuerrueckstellung #gewerbesteuer",
+   "views": 154,
+   "reach": 73,
+   "likes": 1,
+   "comments": 0,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 2,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "17987011205886587",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-14T15:45:01+0000",
+   "permalink": "https://www.instagram.com/reel/DeemwStk5mL/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOkkGW6KOAKjfEiTZfygqt7ivJ2Pkt65hgXOG3p4WvjPDPotwUsS6GhfYOYBB-7XdnMmhVlgkqfhDGUAg3ufKGLzN371CKhmn7wIeA.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_ohc=9mrZrP_liGkQ7kNvwEy7nOW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQ4Nzc3MzcyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=54ab4d100f482e39&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82MkVEQjZEM0ZDQkI0OEZFQjA3N0JBOTlCQkI4OUVBMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ZGOEJBNkY4N0Q2MTQxNTU5NzMzMTZBQTQ4MDBEMkEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamiLG_wb3pPxUCKAJDMywXQCmZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIbQtVoIhHhtLfUt7VCLPrD6bk-QbPhebbksNh_C2DEJosRHlWKoDwqFdmY2_RcOCjZkkg2zQcLww&oh=00_AQPgpjlTkrkfiRn_X4-HsWaUJ4AGs-uyEDp9dr5FCZ037g&oe=6ADBD583",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "Gewerbesteuer-Hinzurechnung ohne Excel? 🤔\n\n💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.\n\nBeträge rein, die Quoten nach § 8 Nr. 1 GewStG rechnet das Tool selbst: 390.000 € Finanzierungsanteile, 200.000 € Freibetrag ab, vom Rest ein Viertel – 47.500 € Hinzurechnung. Alles Demo-Daten, läuft lokal.\n\nWie rechnet ihr die Hinzurechnung heute: A) eigene Excel oder B) Software? 👇\n📤 Schick das dem Kollegen, der die Quoten noch von Hand rechnet.\n📌 Den ganzen Rechenweg zum Speichern gibt's im Karussell in meinem Profil.\n\n#steuerabteilung #taxtech #jahresabschluss #gewerbesteuer",
+   "views": 252,
+   "reach": 200,
+   "likes": 6,
+   "comments": 0,
+   "saved": 3,
+   "shares": 0,
+   "total_interactions": 9,
+   "ig_reels_avg_watch_time": 4110,
+   "ig_reels_video_view_total_time": 908515,
+   "reels_skip_rate": 71.6,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17978683293122831",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-13T17:30:53+0000",
+   "permalink": "https://www.instagram.com/reel/DecWVZwgpOC/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/o1/v/t2/f2/m86/AQNh9JPw8rD7kSPfBX1bVYvQOQz1xHnw3sRARNxGo3ldV8Rf-LY__5LkiS6ajHFbI0wNB62uMFjgAvDpWBjzP67MH9kLLmn444fFVe0.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_ohc=9V4pmcSB_2sQ7kNvwFbZu6l&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQ3MzQzMTkyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo4LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ef2ad64e6e6595fc&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yMDI4NUY2NkE1M0E0NjhBQjA5REM2MkVGOUU5Rjc1MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0YxNEIyREYyNkIxRTQyRkRCMkRDNUI5MjJEQ0ZCRUQ3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam_qj5lLXpPxUCKAJDMywXQCnMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQK0fV2SSqFsJqbA-vnNpF39zTXngJtM_dFTvOxIlP0mHyccaffatcs7WsAC1VJEVG-XeHcePHCzCA&oh=00_AQO7h6fnd5LVzQzTHGHsKijf96s8ZYIG5iwgfSQuiPIPaQ&oe=6ADBC3A3",
+   "like_count": 5,
+   "comments_count": 2,
+   "caption": "Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Minuten. Und du? 🔍\n\nIn Excel heißt das: sortieren, scrollen, hoffen.\nMein Code prüft jede Nummer gegen alle anderen. Doppelt? Rot. Lücke in der Folge? Auch rot.\nDauert eine Sekunde – und ich weiß es vor der Prüfung, nicht danach.\n\nNummer 4 aus meinem 5-Dinge-Reel.\n🔖 Speicher dir das für den nächsten Abschluss.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #betriebspruefung #umsatzsteuer #python #automatisierung",
+   "views": 301,
+   "reach": 232,
+   "likes": 5,
+   "comments": 2,
+   "saved": 5,
+   "shares": 1,
+   "total_interactions": 13,
+   "ig_reels_avg_watch_time": 4794,
+   "ig_reels_video_view_total_time": 1198527,
+   "reels_skip_rate": 74.1,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18103996271188698",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-13T10:16:32+0000",
+   "permalink": "https://www.instagram.com/p/Debkp_3m1WY/",
+   "media_url": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/845530271_17964670293239059_4441325453567951615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0zIPMrNcrGMQ7kNvwFXp3C4&_nc_oc=AdoUpszghbfBdPJLNCr7aIxAnORLn3lxznTeO43dKSdNa6bV2SOWLq1F50AqLG0CkGY&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQJBwQt1GvkdZavI8n9KpKLXl5WsXzThLZzUBnG41fsCb7oLdQh62f3vY-RO6h1_sFV3AQ3PdEf_gw&oh=00_AQOoXkvtcS0j12ZIb0SSd7KVDQKSj9ANv1JCjnSiWvblAg&oe=6ADFBD09",
+   "like_count": 3,
+   "comments_count": 0,
+   "caption": "Werden Mieten voll hinzugerechnet? 🤔\n\nWas wird hinzugerechnet, mit welcher Quote, und wie wirkt der Freibetrag von 200.000 €? Mit Rechenbeispiel (Demo-Zahlen) bis zur fertigen Gewerbesteuer.\n\n📌 Speichern für den nächsten Abschluss.\n💬 Lieber rechnen lassen? Schreib mir „TOOL“ per DM.\n\n#steuern #gewerbesteuer #steuerrecht #jahresabschluss #finanzwirt",
+   "views": 143,
+   "reach": 62,
+   "likes": 3,
+   "comments": 0,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 5,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 1,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "18192110539399398",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-12T17:30:23+0000",
+   "permalink": "https://www.instagram.com/reel/DeZxf9AEy9p/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t2/f2/m86/AQOUcSyo5eenEtw2KZlV9F8hyodeaVMiVuPPpq7PiAM-5Px7yqUVk4tdJsckU1Yr9h_TxD5nyubZaxRLVLgkxgrMKzXf6vIf0tBECYU.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=Ej--BhrmQ1sQ7kNvwHtGmlw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQ1NjUwMDgyMzkwNTksImFzc2V0X2FnZV9kYXlzIjo5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=40210a2f5d5e273c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQ0NCQjk2OTk3NDk0Q0Q3ODM5MkY0NTAzNjBDMERDOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzYxNjQ4RUZERjZFQTQ4NUY5NUQ3NTBERDlGMDBFMDBGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamp-K9p6vpPxUCKAJDMywXQC4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKhsqJtvxXzsEEcQ07e_fMUQz3QQF-KA_RRQPM6jcE51SNBXwi5vynYFf256b4QDRoKEWfYXrG__Q&oh=00_AQNmg_dlAef7swkxLiibieBLYVkbLebbviqAi1Wn0nvUTA&oe=6ADBF149",
+   "like_count": 7,
+   "comments_count": 0,
+   "caption": "final.xlsx · final_final.xlsx · final_final_v3.xlsx – und keiner weiß, welche die richtige ist. 🙃\n\nSo sah mein Steuerordner früher aus.\nHeute gibt's eine Datei. Und jede Änderung wird gespeichert: wer, wann, was.\nHebesatz von 400 auf 410? Steht da – mit Datum und Name. Und wenn was schiefgeht, geh ich einfach einen Schritt zurück.\n\nNummer 3 aus meinem 5-Dinge-Reel.\nWie heißt eure schlimmste Datei? Schreib's in die Kommentare 👇\n\nAlle Zahlen und Namen im Video sind Beispieldaten.\n\n#steuern #excel #versionierung #steuerabteilung #automatisierung",
+   "views": 217,
+   "reach": 166,
+   "likes": 7,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 11,
+   "ig_reels_avg_watch_time": 5435,
+   "ig_reels_video_view_total_time": 940272,
+   "reels_skip_rate": 67.1,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18132056470604183",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-11T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeXMtEnDn3I/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMCAESiLxe2_6D3utJDYLxtJXp9145JJanYhMeemM_x611tR8bJSWgkuCNPDreDi_MnfJLq1GrYQN0c1gIc9AXfv0bCYFAVEuwJCMU.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_ohc=lkeeyocBA8sQ7kNvwHWFWuU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQzOTU5NjQyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxMCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8c2b2bdcf516649b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NDk2QTIzMzMxOTM0ODFFQTQ3MzQ1MUNBODZFRDQ0QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ4M0UzRjlFNzgwQTRDMTk5RkE1Njc5QTY5NEQ0NENEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACams-yAvKHpPxUCKAJDMywXQCpU_fO2RaIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQJzDI4sEYH8xj0MmIT-lQuPAJH2WC0phebA7sj770OZj-VFXa-zpc0CbvLeeIblOqTDXJLqD9_ueg&oh=00_AQNHAQPNzrrx9vph1Wekziypfk0XqBcd3q8OtBFC2lURMg&oe=6ADBCAAE",
+   "like_count": 8,
+   "comments_count": 0,
+   "caption": "#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬\n\nBei mir hing eine Verknüpfung noch an der Datei vom Vorjahr. Irgendwer hatte den Ordner umbenannt. Ich hab einen ganzen Abend gesucht, welche Zahl woher kommt.\n\nDas war der Moment, wo ich gesagt hab: Das muss anders gehen.\nHeute klicke ich auf eine Zahl und sehe sofort, wo sie herkommt – eine Datenquelle, keine Verknüpfungen.\n\nWie oft passiert dir das? Schreib's in die Kommentare 👇\n🔁 Schick das dem Kollegen, der nächste Woche abgibt.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #excel #steuerberechnung #jahresabschluss #automatisierung",
+   "views": 299,
+   "reach": 229,
+   "likes": 8,
+   "comments": 0,
+   "saved": 6,
+   "shares": 1,
+   "total_interactions": 16,
+   "ig_reels_avg_watch_time": 4314,
+   "ig_reels_video_view_total_time": 1070105,
+   "reels_skip_rate": 74.5,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18111753380332641",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-10T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeUn6ezCm7O/",
+   "media_url": "https://scontent-dfw5-2.cdninstagram.com/o1/v/t2/f2/m86/AQMlUDolBeM0cOSweSpuDZIGpaRxEiVdshWJeZGo4miIBeEHu5rLGofplz6C6yZKDdyrVD_j2V5QyvZInEQHtA9hrjXv07xspqMeFUY.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_ohc=8TLBSXz4FiAQ7kNvwHly2SG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjQyMjEwOTEyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2caf6af7bbc3e6bb&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NzcxRjM3RkU1NTQ0MDU5QjkwRDQ3QkMxMTYwMkMwMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Q1NkM4MjcxRTY0MzQzNDQ4OUM2RURCNDZEQTRDMUQzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam0vqMpZfpPxUCKAJDMywXQDru2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQK72XC-4dckkXAXlXX2NpGbAawh5lVhsoC0cZRTJkmWRm-VVgUozdiM4CyadxK11AX7DDOY7NZ-nw&oh=00_AQOYeEYTDMzObXNvFBa2TjkdjGxCUA57EptwkQbW-V-Iqw&oe=6ADBDFE1",
+   "like_count": 14,
+   "comments_count": 8,
+   "caption": "Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % falsch. 📉\n\nDie Körperschaftsteuer sinkt ab 2028 jedes Jahr um einen Punkt – bis auf 10 % ab 2032. Für latente Steuern zählt der Satz im Jahr, in dem sich die Differenz abbaut (§ 274 Abs. 2 HGB). Bei Hebesatz 400 % heißt das: 24,55 % statt 29,83 %. Den Rechenweg mit Demo-Zahlen findest du im Karussell von gestern.\n\nSchick das dem Kollegen, in dessen Excel noch 30 % steht. 😉\n\nAb welchem Jahr kehren sich eure größten Differenzen um – vor oder nach 2028? 👇\n\n📌 Speichern für den Abschluss.\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #latentesteuern #jahresabschluss #steuerabteilung #hgb",
+   "views": 288,
+   "reach": 223,
+   "likes": 14,
+   "comments": 8,
+   "saved": 7,
+   "shares": 18,
+   "total_interactions": 50,
+   "ig_reels_avg_watch_time": 6578,
+   "ig_reels_video_view_total_time": 1664330,
+   "reels_skip_rate": 74.2,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18479903389113257",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-10T07:23:47+0000",
+   "permalink": "https://www.instagram.com/reel/DeTiK24NyJt/",
+   "media_url": null,
+   "like_count": 11,
+   "comments_count": 0,
+   "caption": "Jutta hat schon wieder eine Zeile eingefügt – und die Summe ist weg. #BEZUG! 😤\n\nIn Excel hängt die Summe an festen Zellen. Fügst du am Rand was ein, rechnet sie am neuen Posten vorbei. Oder sie bricht ganz.\n\nIm Code gibt's keine Zellen. Ich sag nur: Nimm alle Posten und summier den Betrag. Egal ob 3 oder 300 Zeilen dazukommen – die Summe stimmt.\n\nDas war Nummer 2 aus meinem 5-Dinge-Reel.\nWelche Nummer willst du als Nächstes sehen? 3, 4 oder 5 – schreib's in die Kommentare 👇\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #excel #gewerbesteuer #python automatisierung",
+   "views": 376,
+   "reach": 308,
+   "likes": 11,
+   "comments": 0,
+   "saved": 6,
+   "shares": 5,
+   "total_interactions": 23,
+   "ig_reels_avg_watch_time": 5215,
+   "ig_reels_video_view_total_time": 1804645,
+   "reels_skip_rate": 68.9,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17883309489625827",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-09T10:31:14+0000",
+   "permalink": "https://www.instagram.com/p/DeRTLb4EYwd/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/843548267_17963992911239059_3394766765668847800_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Fu_W7elmVlMQ7kNvwE9AI--&_nc_oc=AdqBV95XgNgUyW0RlHigxidCQpH9xnk4Wc5zuprexhKijU5Ooo4GIl9JkUQAJv7K_XQ&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQLztIQagl6aicrwLy75H3-JTQzlnrzR-zwro2kotoF3fHs40H5_MKDHkTR2ygOawHS0-eRte1MnIQ&oh=00_AQNpH1H_iUPdq1boFrgwO-Ze7_qGsgkSYbyNTrvYK-xXVA&oe=6ADFBF81",
+   "like_count": 8,
+   "comments_count": 1,
+   "caption": "Hör auf, 30 % fest einzutippen. 📉\n\nAb 2028 sinkt die Körperschaftsteuer jedes Jahr um einen Punkt – bis auf 10 % ab 2032. Für latente Steuern zählt der Satz im Jahr, in dem sich die Differenz abbaut (§ 274 Abs. 2 HGB). Heißt: Spätestens jetzt brauchst du eine Staffel statt eines Festwerts. Rechenbeispiel mit Demo-Zahlen in den Folien.\n\nMit welchem Satz rechnet ihr aktuell – fest 30 % oder schon gestaffelt? 👇\n\n📌 Speichern für den Abschluss.\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #latentesteuern #jahresabschluss #steuerabteilung #hgb",
+   "views": 190,
+   "reach": 70,
+   "likes": 8,
+   "comments": 1,
+   "saved": 6,
+   "shares": 84,
+   "total_interactions": 103,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "17967294990178023",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-08T17:30:05+0000",
+   "permalink": "https://www.instagram.com/reel/DePeYymNG2K/",
+   "media_url": null,
+   "like_count": 8,
+   "comments_count": 0,
+   "caption": "Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀\n\nOben Excel: #BEZUG! und „Quelle nicht gefunden“. Unten mein Tool: fertig, bevor Excel die Quelle findet. Eine Datenquelle, keine Verknüpfungen. Alles Demo-Daten.\n\nWie oft hängt bei euch eine Verknüpfung noch an einer alten Datei? 👇\n\n💬 Schreib mir „TOOL“ per DM – ich zeig dir die Demo.\n📌 Alle 5 Excel-Fehler stehen im Karussell von gestern.\n\n#steuern #excel #steuerabteilung #gewerbesteuer automatisierung",
+   "views": 317,
+   "reach": 240,
+   "likes": 8,
+   "comments": 0,
+   "saved": 8,
+   "shares": 25,
+   "total_interactions": 43,
+   "ig_reels_avg_watch_time": 5667,
+   "ig_reels_video_view_total_time": 1501989,
+   "reels_skip_rate": 73.3,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "18106773428616015",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-07T17:32:05+0000",
+   "permalink": "https://www.instagram.com/p/DeM5u1vGLsR/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/840659331_17963743935239059_185783263749411825_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ah10Z5rrj-kQ7kNvwF9G8Rg&_nc_oc=AdpOzE9NdyAEj1EMHdHaaX6LzSMFLmQIt8u_jlTVx2YjQe7xlHRem7EbHUh8HBvpUok&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQLRQU4Q1PLmCZy2VSZ8Zvq2_ziIaKz14SuKL5xgI49xXmLOQkV_7cTWFAG7N_3PxfA7nUlo_GBEDw&oh=00_AQObskHeLlGEf-4Zp5lLOoyPAwLangPvoXFosTa_V-iUuA&oe=6ADFD6B6",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀\n\nFest eingetippte Steuersätze, tote Verknüpfungen, keine Versionen, kein Prüfpfad, zu früh gerundet. Keiner davon fällt sofort auf – aber alle kosten im Abschluss Zeit.\n\nWelcher Fehler ist bei euch Stammgast? Nummer in die Kommentare 👇\n\n💬 Schreib mir „TOOL“ per DM – ich zeig dir, wie ein Tool das verhindert.\n\n#steuern #steuerabteilung #excel #steuerrueckstellung #automatisierung",
+   "views": 228,
+   "reach": 93,
+   "likes": 6,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "total_interactions": 10,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 3,
+   "profile_activity": 0,
+   "follows": 1,
+   "kommentare_text": []
+  },
+  {
+   "id": "18154273729518650",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-06T17:30:33+0000",
+   "permalink": "https://www.instagram.com/reel/DeKUuvPgA1W/",
+   "media_url": "https://scontent-dfw5-2.cdninstagram.com/o1/v/t2/f2/m86/AQN0usf4clbBfzuh_NmGvar011w_E9dkP5YrS3fAw5kIyNnZTtKYJthJ8So8NHsG6dpLE1dm6y8QbpQhapRyFBa1OEfFJKXTdJ70ZBY.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_ohc=WPcVw1T80QcQ7kNvwFYfsNk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjM1OTg0ODkyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxNSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a471baeca170de5d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMzZFMkQ2Qzg4RUU0Qzk3OTY1NkM4QzdEMEI0OUE1Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJFRURCOEE1Njc2OTQ5NEU5ODc4MzM0OEM0RUU5NDI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam-LWthvPoPxUCKAJDMywXQD4iDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQIBshPuPwxaUjiCwHkLhQRKWw6HrxhTl2Y_Q1uYHAmMOVQaB1AMi6bW1Jc6DtwnLvIa0GucBAVY2Q&oh=00_AQMWLF2kYrCc6jpZgDKzTiu474ahz_uaeHRyFwEg0udjsw&oe=6ADBE0FD",
+   "like_count": 11,
+   "comments_count": 2,
+   "caption": "Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen Bericht 😮‍💨\n\nHeute drück ich einen Knopf. So geht's:\n\n1️⃣ SuSa einlesen – der Code zieht sich die Summen- und Saldenliste direkt aus dem Export\n2️⃣ Abstimmen – passt was nicht, stoppt er, bevor ein falscher Bericht rausgeht\n3️⃣ Bericht bauen – Tabellen, Diagramm, PDF. Fertig.\n\nDas war Nummer 1 aus meinem letzten Reel.\nWelche Nummer willst du als Nächstes sehen? 2, 3, 4 oder 5 – schreib's in die Kommentare 👇\n🔖 Speicher dir das für den nächsten Monatsabschluss.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #monatsabschluss #excel #python #automatisierung",
+   "views": 431,
+   "reach": 308,
+   "likes": 11,
+   "comments": 2,
+   "saved": 10,
+   "shares": 8,
+   "total_interactions": 33,
+   "ig_reels_avg_watch_time": 7279,
+   "ig_reels_video_view_total_time": 2555004,
+   "reels_skip_rate": 62.2,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17916550404258137",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-10-04T17:30:48+0000",
+   "permalink": "https://www.instagram.com/reel/DeFLK53ALSs/",
+   "media_url": "https://scontent-dfw6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMGTllf_p8mhOJi0XVjyoZZvujksA-bNFj1zmQJMOpmbQ1L_Ys6qb7h68YMfa4k-Kclj1JAEMmztO9gkkq73PhPMjsVdv1MAjtRLx0.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_ohc=NdzHAHnvE-oQ7kNvwHGpy_s&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjMyODc4MzYyMzkwNTksImFzc2V0X2FnZV9kYXlzIjoxNywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=d3bd9d96c0c8a1d0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BN0EzRTkxM0FCQjQ0NjMwOEVFMTZBNjE5RTQyMjJEOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U1MUJFN0JDRUY0QzQwNzY5RDM4MDc3N0I3NTk0MENCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamk9Hn--DoPxUCKAJDMywXQESZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQJ6tP49tOcP8Xm-0SLYuZVVd1-DcZVHooSiPHKmq3KqWyJ3UHxe5YsqmpOuu2nclGHRxRhAVKX1Ag&oh=00_AQOdU7_6gHpE5sRHbqz2Jq-gvT6PfAbfjbKzEbXmv-13sQ&oe=6ADBCCA4",
+   "like_count": 13,
+   "comments_count": 10,
+   "caption": "5 Dinge, die ich aus Excel rausgeschmissen hab 👇\n\n5️⃣ Listen abgleichen – statt SVERWEIS und #NV ein paar Zeilen Code, egal wie lang die Liste ist\n4️⃣ Doppelte Rechnungsnummern und Lücken finden – in einer Sekunde, nicht erst in der Prüfung\n3️⃣ Sehen, wer was geändert hat – jede Version bleibt gespeichert, kein „final_final_v3“ mehr\n2️⃣ Zeile einfügen, ohne dass die Summe kaputtgeht\n1️⃣ Der Monatsbericht – Daten rein, ein Klick, fertig\n\nExcel bleibt super zum schnellen Rechnen. Aber alles, was sich jeden Monat wiederholt, macht bei mir inzwischen Code.\n\nWelche Nummer soll ich dir Schritt für Schritt zeigen? Schreib die Zahl in die Kommentare 👇\n🔖 Speicher dir das für später.\n\nAlle Zahlen im Video sind Beispieldaten.\n\n#steuern #steuerabteilung #excel #python #automatisierung",
+   "views": 975,
+   "reach": 717,
+   "likes": 13,
+   "comments": 10,
+   "saved": 14,
+   "shares": 16,
+   "total_interactions": 55,
+   "ig_reels_avg_watch_time": 9884,
+   "ig_reels_video_view_total_time": 8490550,
+   "reels_skip_rate": 64.1,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  },
+  {
+   "id": "17965089348198457",
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "timestamp": "2026-10-01T16:30:02+0000",
+   "permalink": "https://www.instagram.com/p/Dd9V5HAAhcL/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/829710983_17962490259239059_6872578594741669005_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=s4D9PrRWfyEQ7kNvwFrnlls&_nc_oc=AdoEwjF2XgVrZsQjZM2-5YMP8sYc4HsdoOYHRU4gJqjSXdqDBSX35Gwdg3Y-MsV-vhk&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&_nc_tpa=Q5bMBQL17dQHJssotL1OoZ9oIV_a9ZXxeZwNHNZf68rxxU2CeVhpL-G526hKFYAuS9sN3bHv30R58_ox8w&oh=00_AQOFKjFl2cJoT4s1_rP1pfWrWI_HHjaLWnIoevC7BvBzLg&oe=6ADFD9CE",
+   "like_count": 10,
+   "comments_count": 2,
+   "caption": "Neu hier? Dann kurz zu mir 👋\n\nIch bin Loris – Diplom-Finanzwirt und IHK-zertifizierter Manager für angewandte KI-Transformation.\n\n2025 habe ich maehrsteuern gestartet: mit Lern-Inhalten und KI-Schulungen rund ums Steuer-Examen. Viele von euch kennen mich daher – und sind heute selbst Beraterinnen und Berater. 🎓➡️💼\n\nJetzt geht's den nächsten Schritt: KI-Lösungen für Steuern, die wirklich laufen – weil ich sie selbst programmiere. Vom kleinen Tool bis zum ganzen Prozess.\n\n📅 Ab jetzt jede Woche neue Beiträge, meist abends um 19:30:\n⚙️ Demos meiner Tools\n📊 Excel-Fehler und Steuerwissen mit Rechenbeispiel\n🧠 Einblicke hinter den Code\n\nWoher kennst du mich – Examen, Kanzlei oder Steuerabteilung? 👇\n\n💬 Schreib mir „TOOL“ per DM, wenn du die Demo sehen willst.\n\n#steuern #steuerrecht #kuenstlicheintelligenz #automatisierung #finanzwirt",
+   "views": 416,
+   "reach": 169,
+   "likes": 10,
+   "comments": 2,
+   "saved": 3,
+   "shares": 17,
+   "total_interactions": 35,
+   "_fehlt": [
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "profile_visits": 7,
+   "profile_activity": 0,
+   "follows": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "18432424948196865",
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "timestamp": "2026-09-29T13:42:19+0000",
+   "permalink": "https://www.instagram.com/reel/Dd34F9RtucT/",
+   "media_url": "https://scontent-dfw6-2.cdninstagram.com/o1/v/t16/f2/m84/AQPsi3_yhZclGjiU1LQZnZrGB_cjOQJOPQVJ9ZIouwDX0uNf2jGN8gXxtRgkmEkZBgo3mWt7AC211hn-hislqK4xAMzo-CEpgXIsi7M.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-dfw6-2.cdninstagram.com&_nc_ohc=LIcSmcxYdBcQ7kNvwFYYDDf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA5NzI1NTgzOTM4NzgyMiwiYXNzZXRfYWdlX2RheXMiOjIyLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=e609f892104aa91e&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC83N0E3RkQwMzgxMDU0MENCQjA1NTI1OUJCNTJEQzY0NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzkxQkVFNUU5ODAzNjQ0MjFCNjYyNTYxQkU4ODFERDdFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbcwsaI2fzyAxUCKAJDMywXQC4qfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=iu_uqmEANyrqG2v8F2ormg&edm=ANo9K5cEAAAA&_nc_zt=28&_nc_tpa=Q5bMBQKukqdbjlaLiDUXgLnBLEVagJf9lHADvR3RRCtzSt9VCk38mo9SBPu33Y2UvWP8G9RGKXNtN1yVcw&oh=00_AQNbwj-w2igIHYIoOVaPcCs-UgreW34iTWxZ_9s6QEbs0w&oe=6ADBEF5A",
+   "like_count": 10,
+   "comments_count": 2,
+   "caption": "Steuern × Code. ⚡\nKeine Standardsoftware, keine Excel-Hölle, sondern maßgeschneiderte Steuer-Tools mit Prüfpfad und Dashboard.\n💬 „TOOL“ per DM, und wir reden über dein Projekt.\n\nWie rechnest du deine Steuern? Stimm ab! 👇🏼\n\n#steuern #taxtech #programmieren #finanzen #steuerberater",
+   "views": 356,
+   "reach": 203,
+   "likes": 10,
+   "comments": 2,
+   "saved": 4,
+   "shares": 7,
+   "total_interactions": 24,
+   "ig_reels_avg_watch_time": 7470,
+   "ig_reels_video_view_total_time": 2091656,
+   "reels_skip_rate": 61.4,
+   "_fehlt": [
+    "profile_visits",
+    "profile_activity",
+    "follows",
+    "navigation",
+    "replies",
+    "reach_aufgeteilt"
+   ],
+   "kommentare_text": []
+  }
+ ],
+ "storys_aktiv": [
+  {
+   "id": "18103649354456546",
+   "zeit": "2026-10-21T16:23:53+0000",
+   "views": 33,
+   "reach": 30,
+   "_fehlt": [
+    "likes",
+    "comments",
+    "saved",
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "reach_aufgeteilt"
+   ],
+   "shares": 0,
+   "total_interactions": 1,
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 1,
+   "navigation": 31,
+   "replies": 0,
+   "kommentare_text": []
+  },
+  {
+   "id": "18038215007851074",
+   "zeit": "2026-10-21T13:43:08+0000",
+   "views": 50,
+   "reach": 39,
+   "_fehlt": [
+    "likes",
+    "comments",
+    "saved",
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "reach_aufgeteilt"
+   ],
+   "shares": 0,
+   "total_interactions": 3,
+   "profile_visits": 0,
+   "profile_activity": 0,
+   "follows": 0,
+   "navigation": 46,
+   "replies": 0,
+   "kommentare_text": []
+  }
+ ],
+ "_fehlt": [
+  "engaged_audience_demographics/this_month/age: 400 Not enough users",
+  "engaged_audience_demographics/this_month/gender: 400 Not enough users",
+  "engaged_audience_demographics/this_month/city: 400 Not enough users",
+  "engaged_audience_demographics/this_month/country: 400 Not enough users",
+  "engaged_audience_demographics/this_week/age: 400 Not enough users",
+  "engaged_audience_demographics/this_week/gender: 400 Not enough users",
+  "engaged_audience_demographics/this_week/city: 400 Not enough users",
+  "engaged_audience_demographics/this_week/country: 400 Not enough users"
+ ]
+}
