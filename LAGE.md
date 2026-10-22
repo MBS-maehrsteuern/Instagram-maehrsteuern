@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 22.10. 11:50 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 22.10. 14:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 11:45 🖼️ Karussell `31-karussell-zinsschranke` (pausiert) · ✋ 11:50 🎬 Reel `62-reel-glaesern` (von Hand) · 🟡 12:15 📱 Story `10-story-umfrage` (pausiert) · 🟡 17:45 🎬 Reel `21-reel-zinsschranke` (pausiert) · 🟡 17:50 📱 Story `30-story-aufloesung` (pausiert)
 - **Braucht dich:** 3 offen
-- **Letzte 7 Tage:** Reichweite **1271** (14.10.–20.10., -13 % zur Vorwoche) · Follower **+4** (jetzt 368) · 30 Tage: +27 Follows / −10 entfolgt
+- **Letzte 7 Tage:** Reichweite **1240** (15.10.–21.10., -18 % zur Vorwoche) · Follower **+7** (jetzt 372) · 30 Tage: +27 Follows / −10 entfolgt
 - **Testmonat** (Tag 11/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **7/14** (6 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **4/7** – ohne Reel: Fr 23.10., Sa 24.10., So 25.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
@@ -95,12 +95,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 28.10. 17:45 | 🎬 Reel `40-reel-formeln` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). |
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
 | Do 29.10. 11:45 | 🖼️ Karussell `41-karussell-mythen` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
+| Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
 | Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 11:45 | 🎬 Reel `43-reel-par35` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift. |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
@@ -153,40 +153,41 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**368 Follower** · 28 Beiträge im Profil (Abruf 2026-10-21) · **+0** seit 2026-10-20
-Reichweite pro Tag: 18.10. **196** · 19.10. **116** · 20.10. **88** · 21.10. **0**
+**372 Follower** · 30 Beiträge im Profil (Abruf 2026-10-22) · **+4** seit 2026-10-21
+Reichweite pro Tag: 19.10. **116** · 20.10. **88** · 21.10. **164** · 22.10. **27**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Di 20.10. 12:24 | 55 | 46 | 0 | 0 | 0 |
-| Di 20.10. 17:50 | 41 | 36 | 0 | 0 | 0 |
-| Di 20.10. 18:30 | 42 | 33 | 0 | 1 | 0 |
+| Mi 21.10. 15:43 | 50 | 39 | 0 | 0 | 0 |
+| Mi 21.10. 18:23 | 33 | 30 | 0 | 0 | 1 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Di 20.10. 17:45 [Verlustvortrag 2026: 3 Mio. € Verlust – ](https://www.instagram.com/reel/DeuJJHoDXkl/) | 93 | 59 | 1 | 0 | 0 | 0 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 81 (+54) | 22 | 1 | 0 | 1 | 0 |
-| Mo 19.10. 19:26 [Aufbewahrungsfristen: Buchungsbelege nur](https://www.instagram.com/reel/DeryoWUE_Or/) | 72 (+5) | 53 | 2 | 0 | 1 | 0 |
-| Mo 19.10. 12:51 [Säumniszuschlag: Was kostet eine Woche z](https://www.instagram.com/reel/DerFcnnnTMT/) | 66 (+7) | 53 | 1 | 0 | 0 | 0 |
-| So 18.10. 21:10 [Deine Steuererklärung liest im Finanzamt](https://www.instagram.com/reel/DepZflYMPE6/) | 149 (+20) | 121 | 5 | 1 | 3 | 0 |
-| So 18.10. 17:45 [Organschaft Mindestlaufzeit: Der Gewinna](https://www.instagram.com/reel/Deo8TzBjns_/) | 55 (+3) | 38 | 4 | 0 | 4 | 0 |
-| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 171 (+7) | 74 | 4 | 0 | 5 | 0 |
-| Sa 17.10. 18:59 [Plausibilitätsprüfung Jahresabschluss: V](https://www.instagram.com/reel/Deml8DcD_Dx/) | 67 (+1) | 53 | 5 | 0 | 4 | 0 |
-| Sa 17.10. 12:34 [Steuerrückstellung zwei Tage vor Frist –](https://www.instagram.com/reel/Del54DNE7fz/) | 170 (+1) | 140 | 4 | 0 | 4 | 0 |
-| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 149 (+12) | 94 | 14 | 0 | 4 | 0 |
-| Fr 16.10. 11:45 [GmbH-Gewinn ausschütten: Von 1 € kommen ](https://www.instagram.com/reel/DejLN1HiY0k/) | 102 (+2) | 85 | 4 | 0 | 4 | 0 |
-| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 270 (+2) | 222 | 6 | 0 | 5 | 0 |
-| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 263 (+6) | 168 | 9 | 0 | 5 | 0 |
-| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 154 (+3) | 73 | 1 | 0 | 1 | 0 |
-| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 252 (+2) | 200 | 6 | 0 | 3 | 0 |
-| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 299 (+1) | 232 | 5 | 2 | 5 | 1 |
-| Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 138 (+3) | 61 | 2 | 0 | 1 | 0 |
-| Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 217 (+1) | 166 | 7 | 0 | 4 | 0 |
-| So 11.10. 19:30 [#BEZUG! – zwei Tage vor Abgabe. Kennst d](https://www.instagram.com/reel/DeXMtEnDn3I/) | 298 (+5) | 228 | 8 | 0 | 6 | 1 |
-| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 287 (+2) | 223 | 14 | 8 | 7 | 18 |
-| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 374 (+3) | 306 | 11 | 0 | 6 | 5 |
-| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 190 (+1) | 70 | 8 | 1 | 6 | 84 |
-| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 317 (+1) | 240 | 8 | 0 | 8 | 25 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 132 | 109 | 3 | 1 | 2 | 0 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 137 | 94 | 8 | 4 | 6 | 14 |
+| Di 20.10. 17:45 [Verlustvortrag 2026: 3 Mio. € Verlust – ](https://www.instagram.com/reel/DeuJJHoDXkl/) | 123 (+30) | 81 | 2 | 0 | 0 | 0 |
+| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 95 (+14) | 31 | 1 | 0 | 1 | 0 |
+| Mo 19.10. 19:26 [Aufbewahrungsfristen: Buchungsbelege nur](https://www.instagram.com/reel/DeryoWUE_Or/) | 74 (+2) | 56 | 2 | 0 | 1 | 0 |
+| Mo 19.10. 12:51 [Säumniszuschlag: Was kostet eine Woche z](https://www.instagram.com/reel/DerFcnnnTMT/) | 70 (+4) | 55 | 2 | 0 | 1 | 0 |
+| So 18.10. 21:10 [Deine Steuererklärung liest im Finanzamt](https://www.instagram.com/reel/DepZflYMPE6/) | 158 (+9) | 128 | 5 | 1 | 3 | 0 |
+| So 18.10. 17:45 [Organschaft Mindestlaufzeit: Der Gewinna](https://www.instagram.com/reel/Deo8TzBjns_/) | 59 (+4) | 40 | 5 | 0 | 5 | 0 |
+| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 177 (+6) | 76 | 4 | 0 | 5 | 0 |
+| Sa 17.10. 18:59 [Plausibilitätsprüfung Jahresabschluss: V](https://www.instagram.com/reel/Deml8DcD_Dx/) | 69 (+2) | 55 | 5 | 0 | 4 | 0 |
+| Sa 17.10. 12:34 [Steuerrückstellung zwei Tage vor Frist –](https://www.instagram.com/reel/Del54DNE7fz/) | 171 (+1) | 141 | 4 | 0 | 4 | 0 |
+| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 168 (+19) | 104 | 14 | 0 | 4 | 0 |
+| Fr 16.10. 11:45 [GmbH-Gewinn ausschütten: Von 1 € kommen ](https://www.instagram.com/reel/DejLN1HiY0k/) | 104 (+2) | 87 | 4 | 0 | 4 | 0 |
+| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 272 (+2) | 223 | 6 | 0 | 5 | 0 |
+| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 271 (+8) | 173 | 9 | 0 | 5 | 0 |
+| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 154 (+0) | 73 | 1 | 0 | 1 | 0 |
+| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 252 (+0) | 200 | 6 | 0 | 3 | 0 |
+| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 301 (+2) | 232 | 5 | 2 | 5 | 1 |
+| Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 143 (+5) | 62 | 3 | 0 | 2 | 0 |
+| Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 217 (+0) | 166 | 7 | 0 | 4 | 0 |
+| So 11.10. 19:30 [#BEZUG! – zwei Tage vor Abgabe. Kennst d](https://www.instagram.com/reel/DeXMtEnDn3I/) | 299 (+1) | 229 | 8 | 0 | 6 | 1 |
+| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 288 (+1) | 223 | 14 | 8 | 7 | 18 |
+| Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 376 (+2) | 308 | 11 | 0 | 6 | 5 |
+| Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 190 (+0) | 70 | 8 | 1 | 6 | 84 |
+| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 317 (+0) | 240 | 8 | 0 | 8 | 25 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -209,6 +210,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 22.10.2026**
+- 14:29 📈 Statistik 2026-10-22 ([`c74205e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c74205e5dde717a3640ca91decd1d3459219f140))
+  - `automatik/statistik`
 - 11:50 ✍️ Reel 62: Loris postet von Hand – aus dem Autopiloten genommen ([`7573cda`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7573cda15e15e73bcc21e3e30943869f7ba82558))
   - Plan: `62-reel-glaesern` status: freigegeben → manuell; `62-reel-glaesern` zeit: 2026-10-22 17:45 → 2026-10-22 11:50
 - 11:45 ✍️ Reel 62 „Das Finanzamt weiß es schon“ mit Stimme, heute 17:45 ([`c28b879`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c28b87953f97d961207dbfb4cf5b9f71a00b40ab))
