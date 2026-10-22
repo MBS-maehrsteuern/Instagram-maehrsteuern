@@ -11,11 +11,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **7/14** (6 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **4/7** – ohne Reel: Fr 23.10., Sa 24.10., So 25.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
-- **Freie Slots nächste 7 Tage** (2):
+- **Freie Slots nächste 7 Tage** (3):
   - Sa 24.10.: Story 17:50
   - Mo 26.10.: Story 17:50
-
-**Als Nächstes online:** 🎬 Reel `62-reel-glaesern` am **Do 22.10. 11:50 Uhr** – ✋ manuell (postest du in der App)
+  - Do 29.10.: Feed 17:45
 
 ## 📝 Gerade in Arbeit
 
@@ -67,9 +66,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 22.10. 11:45 | 🖼️ Karussell `31-karussell-zinsschranke` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke |
-| Do 22.10. 11:50 | 🎬 Reel `62-reel-glaesern` | ✋ manuell (postest du in der App) | 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt. |
-| Do 22.10. 12:15 | 📱 Story `10-story-umfrage` | pausiert | 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Platzhalter „STICKER HIER“ ersetzt durch Tipp-Story (👏/😮) · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Do 22.10. 17:45 | 🎬 Reel `21-reel-zinsschranke` | pausiert | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 21,9 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
 | Do 22.10. 17:50 | 📱 Story `30-story-aufloesung` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Auflösung zum GWG-Quiz vom Mi: Nein – GWG nur bis 800 € netto; 850 € → AfA oder Sammelposten. Slot war laut plan.json frei – bei Kollision weglassen |
 | Fr 23.10. 11:45 | 🎬 Reel `32-reel-mindeststeuer` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s (Titelbild reel_mindeststeuer + 3 Karten nach karussell/mindeststeuer + Abspann TOOL), Musik 12_pop_electronic. Schnitt: vorlagen/system/schnitt/p32_reel_mindeststeuer.json |
@@ -96,12 +92,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
 | Do 29.10. 11:45 | 🖼️ Karussell `41-karussell-mythen` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
+| Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 11:45 | 🎬 Reel `43-reel-par35` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift. |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
 | Fr 30.10. 17:45 | 🖼️ Karussell `44-karussell-glossar` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json. |
@@ -187,7 +183,6 @@ Reichweite pro Tag: 19.10. **116** · 20.10. **88** · 21.10. **164** · 22.10. 
 | Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 288 (+1) | 223 | 14 | 8 | 7 | 18 |
 | Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 376 (+2) | 308 | 11 | 0 | 6 | 5 |
 | Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 190 (+0) | 70 | 8 | 1 | 6 | 84 |
-| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 317 (+0) | 240 | 8 | 0 | 8 | 25 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
