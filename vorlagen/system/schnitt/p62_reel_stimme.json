@@ -1,0 +1,457 @@
+{
+ "ausgabe": "../../posts/62_2026-10-22_reel_glaesern/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/hintergrund.png",
+   "dauer": 6.84,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du denkst, das",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.7
+    },
+    {
+     "wort": "Finanzamt weiß nur,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.7,
+     "bis": 2.04
+    },
+    {
+     "wort": "was du in die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.04,
+     "bis": 2.6
+    },
+    {
+     "wort": "Steuererklärung",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.6,
+     "bis": 3.28
+    },
+    {
+     "wort": "schreibst?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.28,
+     "bis": 4.08
+    },
+    {
+     "wort": "Ich hab im Finanzamt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.08,
+     "bis": 4.84
+    },
+    {
+     "wort": "gearbeitet, die wissen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.84,
+     "bis": 5.82
+    },
+    {
+     "wort": "es schon vorher.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.82,
+     "bis": 6.84
+    },
+    {
+     "wort": "Das Finanzamt",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 6.84
+    },
+    {
+     "wort": "weiß es",
+     "farbe": "gelb",
+     "groesse": 160,
+     "y": 980,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 6.84
+    },
+    {
+     "wort": "schon.",
+     "farbe": "rot",
+     "groesse": 190,
+     "y": 1160,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 6.84
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/karte_1.png",
+   "dauer": 4.82,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Erstens:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.64
+    },
+    {
+     "wort": "Deine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.64,
+     "bis": 0.94
+    },
+    {
+     "wort": "Kranken- und Pflegeversicherung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.94,
+     "bis": 2.14
+    },
+    {
+     "wort": "Die Krankenkasse",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.68,
+     "bis": 3.28
+    },
+    {
+     "wort": "meldet die Beiträge",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.28,
+     "bis": 4.14
+    },
+    {
+     "wort": "direkt.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.14,
+     "bis": 4.82
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/karte_2.png",
+   "dauer": 6.66,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zweitens:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.96
+    },
+    {
+     "wort": "Dein Konto im Ausland.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.96,
+     "bis": 2.34
+    },
+    {
+     "wort": "Über 100 Länder melden",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.34,
+     "bis": 3.78
+    },
+    {
+     "wort": "Kontostände und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.78,
+     "bis": 4.66
+    },
+    {
+     "wort": "Erträge automatisch",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.66,
+     "bis": 5.78
+    },
+    {
+     "wort": "nach Deutschland.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.78,
+     "bis": 6.66
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/karte_3.png",
+   "dauer": 6.66,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Und drittens – das Wichtigste:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.64
+    },
+    {
+     "wort": "Dein Gehalt.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 2.94
+    },
+    {
+     "wort": "Dein Arbeitgeber",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.94,
+     "bis": 3.66
+    },
+    {
+     "wort": "schickt die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.66,
+     "bis": 4.02
+    },
+    {
+     "wort": "Lohnsteuerbescheinigung,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.02,
+     "bis": 5.16
+    },
+    {
+     "wort": "bevor du überhaupt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.16,
+     "bis": 5.78
+    },
+    {
+     "wort": "anfängst.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.78,
+     "bis": 6.66
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/hintergrund.png",
+   "dauer": 4.52,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Gläsern bist du also",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.94
+    },
+    {
+     "wort": "längst.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.94,
+     "bis": 1.68
+    },
+    {
+     "wort": "Schick das dem, der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.68,
+     "bis": 2.64
+    },
+    {
+     "wort": "glaubt, das merkt doch",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.64,
+     "bis": 3.72
+    },
+    {
+     "wort": "keiner.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.72,
+     "bis": 4.22
+    },
+    {
+     "wort": "Gläsern",
+     "farbe": "weiss",
+     "groesse": 170,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.02,
+     "bis": 4.52
+    },
+    {
+     "wort": "bist du längst.",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.82,
+     "bis": 4.52
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/62_2026-10-22_reel_glaesern/bausteine/abspann.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/62_2026-10-22_reel_glaesern/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/10_runway_spannung.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

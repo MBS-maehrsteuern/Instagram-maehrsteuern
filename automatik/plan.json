@@ -1951,6 +1951,20 @@
       "stimme": false,
       "begleit": false,
       "hinweis": "18.10. (Loris: volle Freigabe, parallel zum LinkedIn-Sonntagspost 19:00). Einzelbild als Reel 9:16 (12 s, langsamer Zoom, Musik 06 Lo-Fi ruhig, -18 LUFS) für Ausspielung an Nicht-Follower. Echtes Foto freigestellt, Hintergrund KI-generiert (Runway) – kein KI-Gesicht. Inhalt: § 88 Abs. 5 AO (RMS, Zufallsauswahl, Geheimhaltung), § 155 Abs. 4 / § 150 Abs. 7 AO (qualifizierter Freitext). Nur öffentlicher Gesetzesinhalt, keine Dienstinterna (§ 37 BeamtStG geprüft). Abweichung Reel-Regel: 4 Punkte im Bild (Entscheidung Loris: ein Bild wie LinkedIn)."
+    },
+    {
+      "id": "62-reel-glaesern",
+      "zeit": "2026-10-22 17:45",
+      "typ": "reel",
+      "ordner": "posts/62_2026-10-22_reel_glaesern",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "hinweis": "22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt."
     }
   ]
 }
