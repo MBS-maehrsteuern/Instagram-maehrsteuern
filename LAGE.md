@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 22.10. 03:59 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 22.10. 06:08 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -205,6 +205,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 22.10.2026**
+- 06:08 ✍️ Sprechtext 62 „3 Dinge, die das Finanzamt längst weiß“ (Idee Loris 22.10.) ([`c420547`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c420547619d7148e7d17fa782d754b62f0aed41d))
+  - `posts/sprechtexte.md`
 - 03:59 ✍️ Wissen 22.10.: Postzeiten-Routine (Story-Umfrage statt Repost, 48-h-Pause, ≤ 3 Hashtags) ([`c865e1b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c865e1b5014a1c6079e1cd823da7a9a8b161ff88))
   - `LAGE.html`, `automatik/lage_notizen.md`, `automatik/routinen`, `strategie/18_wissen_2026-10-21.md`
 
