@@ -1,8 +1,8 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 20.10. 09:34 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 20.10. 14:54 Uhr._
 
-**Als Nächstes online:** 📱 Story `10-story-umfrage` am **Do 22.10. 12:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🖼️ Karussell `10-e-rechnung` am **Fr 23.10. 19:30 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -53,19 +53,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - 🔴 **Verpasst** `04-story-teaser` (Fr 16.10. 19:35): war freigegeben, ist aber nicht online gegangen – Zeit neu setzen oder von Hand posten
 - 🔴 **Verpasst** `01-reel-ampel` (Sa 17.10. 19:30): war freigegeben, ist aber nicht online gegangen – Zeit neu setzen oder von Hand posten
 - 🔴 **Verpasst** `01-story-teaser` (Sa 17.10. 19:35): war freigegeben, ist aber nicht online gegangen – Zeit neu setzen oder von Hand posten
-- ⏳ **Wartet auf sprachnachricht** `19-reel-verlustvortrag` (Di 20.10. 19:30) – Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot.
-- ⏳ **Wartet auf sprachnachricht** `20-reel-erechnung` (Mi 21.10. 19:30) – Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot.
-- ⏳ **Wartet auf sprachnachricht** `21-reel-zinsschranke` (Do 22.10. 19:30) – § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot.
+- 🔴 **Verpasst** `10-story-umfrage` (Do 22.10. 12:45): war freigegeben, ist aber nicht online gegangen – Zeit neu setzen oder von Hand posten
 - ⏳ **Wartet auf sprachnachricht** `17-reel-kommentare` (Sa 24.10. 19:30) – Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 20.10. 19:30 | 🎬 Reel `19-reel-verlustvortrag` | ⏳ wartet auf sprachnachricht | Mindestbesteuerung § 10d Abs. 2 EStG/§ 8 KStG: VZ 2024–2027 70 % über 1 Mio. (ab 2028 wieder 60 %), GewSt § 10a GewStG 60 % – Text vom 08.10. (60 %) korrigiert. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
-| Mi 21.10. 19:30 | 🎬 Reel `20-reel-erechnung` | ⏳ wartet auf sprachnachricht | Begleit-Reel zum Karussell E-Rechnung (Fr 23.10.). § 14 UStG, § 27 Abs. 38 UStG: Empfang ab 2025, Ausstellen ab 2027 (> 800.000 € Vorjahresumsatz), ab 2028 alle. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
-| Do 22.10. 12:45 | 📱 Story `10-story-umfrage` | 🟢 freigegeben (geht automatisch online) | 11.10.: Testmonat-Raster (Loris: Feed mittags 12:15, Storys 12:45) – Zeit verschoben. · Aus der Bibliothek: Umfrage E-Rechnung als Einstieg · [Freigabe #31](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/31) |
-| Do 22.10. 19:30 | 🎬 Reel `21-reel-zinsschranke` | ⏳ wartet auf sprachnachricht | § 4h EStG: 30 % des verrechenbaren EBITDA, Freigrenze Nettozinsaufwand < 3 Mio. €. Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. |
 | Fr 23.10. 19:30 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Fr 23.10. 19:35 | 📱 Story `10-story-teaser` | 🟢 freigegeben (geht automatisch online) |  · [Freigabe #31](https://github.com/maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Sa 24.10. 19:30 | 🎬 Reel `17-reel-kommentare` | ⏳ wartet auf sprachnachricht | Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md. |
@@ -114,9 +108,6 @@ Reichweite pro Tag: 17.10. **214** · 18.10. **196** · 19.10. **116** · 20.10.
 | Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 285 (+0) | 221 | 14 | 8 | 7 | 18 |
 | Sa 10.10. 09:23 [Jutta hat schon wieder eine Zeile eingef](https://www.instagram.com/reel/DeTiK24NyJt/) | 371 (+4) | 302 | 11 | 0 | 6 | 5 |
 | Fr 09.10. 12:31 [Hör auf, 30 % fest einzutippen. 📉](https://www.instagram.com/p/DeRTLb4EYwd/) | 189 (+0) | 69 | 8 | 1 | 6 | 84 |
-| Do 08.10. 19:30 [Gleiche Aufgabe, zwei Wege: Hebesatz von](https://www.instagram.com/reel/DePeYymNG2K/) | 316 (+2) | 239 | 8 | 0 | 8 | 25 |
-| Mi 07.10. 19:32 [5 Excel-Fehler, die fast jede Steuerrück](https://www.instagram.com/p/DeM5u1vGLsR/) | 226 (+1) | 91 | 6 | 0 | 4 | 0 |
-| Di 06.10. 19:30 [Zwei Stunden. Jeden Monat. Nur Copy-Past](https://www.instagram.com/reel/DeKUuvPgA1W/) | 410 (+3) | 307 | 11 | 2 | 10 | 8 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -139,6 +130,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 20.10.2026**
+- 14:54 ✍️ Tagesbericht 20. Oktober: −41% Reichweite, 3/9 Methoden erfolgreich ([`909d652`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/909d652ca03f873dd90e02d86649eb639bdf26d9))
+  - `LAGE.html`, `automatik/berichte`
 - 09:34 📈 Statistik 2026-10-20 ([`38195d0`](https://github.com/maehrsteuern/Instagram-maehrsteuern/commit/38195d0a4eb07058603979585415860e17a35024))
   - `automatik/statistik`
 
