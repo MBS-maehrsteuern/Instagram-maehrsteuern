@@ -1,0 +1,504 @@
+{
+ "ausgabe": "../../posts/39_2026-10-28_reel_holding/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/hintergrund.png",
+   "dauer": 4.26,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Eine Million Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.78
+    },
+    {
+     "wort": "Gewinn und die GmbH",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.78,
+     "bis": 1.94
+    },
+    {
+     "wort": "zahlt darauf keine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.94,
+     "bis": 2.66
+    },
+    {
+     "wort": "15.000 Euro Steuer.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.66,
+     "bis": 4.26
+    },
+    {
+     "wort": "1 Mio. € Gewinn:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.26
+    },
+    {
+     "wort": "unter 15.000 €",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.26
+    },
+    {
+     "wort": "Steuer.",
+     "farbe": "rot",
+     "groesse": 200,
+     "y": 1190,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.26
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/hintergrund.png",
+   "dauer": 1.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Völlig legal.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.1
+    },
+    {
+     "wort": "Völlig legal.",
+     "farbe": "gelb",
+     "groesse": 190,
+     "y": 960,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 1.1
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_regel.png",
+   "dauer": 5.22,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Verkauft eine GmbH",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.26
+    },
+    {
+     "wort": "Anteile an einer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.26,
+     "bis": 2.08
+    },
+    {
+     "wort": "anderen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.08,
+     "bis": 2.36
+    },
+    {
+     "wort": "Kapitalgesellschaft",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.36,
+     "bis": 3.32
+    },
+    {
+     "wort": "bleibt der Gewinn",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.32,
+     "bis": 4.3
+    },
+    {
+     "wort": "steuerfrei.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.3,
+     "bis": 5.22
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_rechnung.png",
+   "dauer": 7.58,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Nur 5 % gelten als",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.28
+    },
+    {
+     "wort": "nicht abziehbare",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.28,
+     "bis": 1.96
+    },
+    {
+     "wort": "Betriebsausgaben, also",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.96,
+     "bis": 3.2
+    },
+    {
+     "wort": "50.000 Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.2,
+     "bis": 4.5
+    },
+    {
+     "wort": "Darauf rund 30 %",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.5,
+     "bis": 5.7
+    },
+    {
+     "wort": "Körperschaft und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.7,
+     "bis": 6.6
+    },
+    {
+     "wort": "Gewerbesteuer.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.6,
+     "bis": 7.58
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/hintergrund.png",
+   "dauer": 2.68,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Knapp 15.000 Euro,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.34
+    },
+    {
+     "wort": "rund 1,5 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.34,
+     "bis": 2.68
+    },
+    {
+     "wort": "Knapp 15.000 €",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.68
+    },
+    {
+     "wort": "= rund 1,5 %",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.34,
+     "bis": 2.68
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/hintergrund.png",
+   "dauer": 4.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Aber Verluste aus so",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.8
+    },
+    {
+     "wort": "einem Verkauf darfst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.8,
+     "bis": 2.78
+    },
+    {
+     "wort": "du dafür auch nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.78,
+     "bis": 3.34
+    },
+    {
+     "wort": "abziehen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.34,
+     "bis": 4.12
+    },
+    {
+     "wort": "Aber: Verluste",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.12
+    },
+    {
+     "wort": "nicht abziehbar",
+     "farbe": "rot",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.28,
+     "bis": 4.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/hintergrund.png",
+   "dauer": 2.34,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Holding schon im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.62
+    },
+    {
+     "wort": "Einsatz?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.62,
+     "bis": 1.3
+    },
+    {
+     "wort": "Ja oder nein?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.3,
+     "bis": 2.04
+    },
+    {
+     "wort": "Holding",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.34
+    },
+    {
+     "wort": "schon im Einsatz?",
+     "farbe": "gelb",
+     "groesse": 120,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.3,
+     "bis": 2.34
+    },
+    {
+     "wort": "Ja oder nein?",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1220,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.3,
+     "bis": 2.34
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/39_2026-10-28_reel_holding/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

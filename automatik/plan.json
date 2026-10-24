@@ -1660,10 +1660,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge.",
+      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p52_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge.",
       "status_vorher": "freigegeben"
     },
     {
@@ -1687,10 +1687,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift_reel.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "zahl",
       "begleit": true,
-      "hinweis": "14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €.",
+      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p53_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €.",
       "status_vorher": "freigegeben"
     },
     {
@@ -1714,10 +1714,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall.",
+      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p54_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall.",
       "status_vorher": "freigegeben"
     },
     {
@@ -1774,10 +1774,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/thesaurierung), Reel ohne Stimme 14,0 s, −18,0 LUFS (Peak −4,2 dBFS), Musik 12 Pop Electronic. Titelbild neu „28,25 % statt bis 45 %.“, Karten aus thesaurierung Folien 2/3/4 (Folie 5 Option § 1a KStG bewusst nicht genutzt, Antragsfrist nicht nachgeprüft), Abspann TOOL (jobs/p55_reel_thesaurierung.json), Schnitt schnitt/p55_reel_thesaurierung.json. Geprüft: § 34a Abs. 1 (28,25 % zzgl. SolZ, Antrag, Bilanzierer) und Abs. 4 (25 % Nachversteuerung); Bildunterschrift: Gesamtbelastung bei baldiger Entnahme oft höher.",
+      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p55_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/thesaurierung), Reel ohne Stimme 14,0 s, −18,0 LUFS (Peak −4,2 dBFS), Musik 12 Pop Electronic. Titelbild neu „28,25 % statt bis 45 %.“, Karten aus thesaurierung Folien 2/3/4 (Folie 5 Option § 1a KStG bewusst nicht genutzt, Antragsfrist nicht nachgeprüft), Abspann TOOL (jobs/p55_reel_thesaurierung.json), Schnitt schnitt/p55_reel_thesaurierung.json. Geprüft: § 34a Abs. 1 (28,25 % zzgl. SolZ, Antrag, Bilanzierer) und Abs. 4 (25 % Nachversteuerung); Bildunterschrift: Gesamtbelastung bei baldiger Entnahme oft höher.",
       "status_vorher": "freigegeben"
     },
     {
@@ -1833,10 +1833,10 @@
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "pausiert",
-      "stimme": false,
+      "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,8 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Zahl-Hook „51 % verkauft? Verluste weg.“, Karten aus karussell/par8c Folie 2 (Regel) und 3 (Rettungsanker), ampel_8c_* (Demo-Quoten) bewusst nicht genutzt. Bildunterschrift: § 8c Abs. 1 Satz 1/4/5–8, Abs. 1a, § 8d KStG, § 10a Satz 10 GewStG, Zinsvortrag § 8a Abs. 1 Satz 3 KStG. Sa 11:45 bleibt frei (Stimm-Slot). jobs/p57_reel_verlust_8c.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p57_reel_verlust_8c.json.",
+      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p57_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,8 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Zahl-Hook „51 % verkauft? Verluste weg.“, Karten aus karussell/par8c Folie 2 (Regel) und 3 (Rettungsanker), ampel_8c_* (Demo-Quoten) bewusst nicht genutzt. Bildunterschrift: § 8c Abs. 1 Satz 1/4/5–8, Abs. 1a, § 8d KStG, § 10a Satz 10 GewStG, Zinsvortrag § 8a Abs. 1 Satz 3 KStG. Sa 11:45 bleibt frei (Stimm-Slot). jobs/p57_reel_verlust_8c.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p57_reel_verlust_8c.json.",
       "status_vorher": "freigegeben"
     },
     {

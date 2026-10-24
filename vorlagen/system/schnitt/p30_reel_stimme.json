@@ -1,0 +1,486 @@
+{
+ "ausgabe": "../../posts/30_2026-10-21_reel_gwg/reel_gwg.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/hintergrund.png",
+   "dauer": 3.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Ein einziger Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.76
+    },
+    {
+     "wort": "entscheidet, ob du",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.76,
+     "bis": 1.44
+    },
+    {
+     "wort": "sofort absetzt oder",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.44,
+     "bis": 2.76
+    },
+    {
+     "wort": "fünf Jahre lang.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.76,
+     "bis": 3.8
+    },
+    {
+     "wort": "1 € entscheidet:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.8
+    },
+    {
+     "wort": "sofort oder",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.8
+    },
+    {
+     "wort": "5 Jahre.",
+     "farbe": "rot",
+     "groesse": 230,
+     "y": 1220,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.8
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/hintergrund.png",
+   "dauer": 4.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Bürostuhl für 799 Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.74
+    },
+    {
+     "wort": "netto:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.74,
+     "bis": 2.44
+    },
+    {
+     "wort": "GWG, sofort voll",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.44,
+     "bis": 3.78
+    },
+    {
+     "wort": "abziehbar.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.78,
+     "bis": 4.7
+    },
+    {
+     "wort": "Stuhl 799 €:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.7
+    },
+    {
+     "wort": "GWG = sofort",
+     "farbe": "gruen",
+     "groesse": 140,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.44,
+     "bis": 4.7
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/hintergrund.png",
+   "dauer": 2.94,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Derselbe Stuhl für 801",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.24
+    },
+    {
+     "wort": "Euro abschreiben:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.24,
+     "bis": 2.94
+    },
+    {
+     "wort": "Stuhl 801 €:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.94
+    },
+    {
+     "wort": "abschreiben",
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.68,
+     "bis": 2.94
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/karte_schwellen.png",
+   "dauer": 2.26,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "über die Nutzungsdauer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.78
+    },
+    {
+     "wort": "oder Sammelposten.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.78,
+     "bis": 2.26
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/hintergrund.png",
+   "dauer": 3.92,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Fünf Jahre je 20 % und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.8
+    },
+    {
+     "wort": "genau da passiert der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.8,
+     "bis": 3.24
+    },
+    {
+     "wort": "Fehler.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.24,
+     "bis": 3.92
+    },
+    {
+     "wort": "Pool:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.92
+    },
+    {
+     "wort": "5 Jahre je 20 %",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.4,
+     "bis": 3.92
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/karte_einheitlich.png",
+   "dauer": 7.62,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wer den Pool wählt,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.14
+    },
+    {
+     "wort": "muss ihn für alles",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.14,
+     "bis": 1.86
+    },
+    {
+     "wort": "zwischen 250 bis 1.000",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.86,
+     "bis": 3.52
+    },
+    {
+     "wort": "Euro im ganzen Jahr",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.52,
+     "bis": 4.48
+    },
+    {
+     "wort": "nutzen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.48,
+     "bis": 5.18
+    },
+    {
+     "wort": "Dann geht auch die 800",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.18,
+     "bis": 6.06
+    },
+    {
+     "wort": "Euro Grenze nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.06,
+     "bis": 7.0
+    },
+    {
+     "wort": "mehr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 7.0,
+     "bis": 7.62
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/hintergrund.png",
+   "dauer": 2.28,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Was nehmt ihr?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.8
+    },
+    {
+     "wort": "GWG oder Pool?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.8,
+     "bis": 1.98
+    },
+    {
+     "wort": "Was nehmt ihr?",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.28
+    },
+    {
+     "wort": "GWG oder Pool?",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.8,
+     "bis": 2.28
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/30_2026-10-21_reel_gwg/bausteine/abspann_rechnet.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/30_2026-10-21_reel_gwg/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

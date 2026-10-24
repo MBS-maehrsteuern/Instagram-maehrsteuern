@@ -1,0 +1,531 @@
+{
+ "ausgabe": "../../posts/54_2026-11-05_reel_reverse_charge/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/hintergrund.png",
+   "dauer": 3.66,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du hast die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.42
+    },
+    {
+     "wort": "Umsatzsteuer bezahlt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.42,
+     "bis": 1.3
+    },
+    {
+     "wort": "und bekommst sie",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.3,
+     "bis": 1.84
+    },
+    {
+     "wort": "trotzdem nicht als",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.84,
+     "bis": 2.46
+    },
+    {
+     "wort": "Vorsteuer zurück.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.46,
+     "bis": 3.66
+    },
+    {
+     "wort": "USt bezahlt.",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.66
+    },
+    {
+     "wort": "Vorsteuer:",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.66
+    },
+    {
+     "wort": "0 €",
+     "farbe": "rot",
+     "groesse": 260,
+     "y": 1220,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.66
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/haken_fall.png",
+   "dauer": 5.56,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Der Fall.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.78
+    },
+    {
+     "wort": "Ein Subunternehmer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.78,
+     "bis": 1.58
+    },
+    {
+     "wort": "stellt dir 100.000€",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.8
+    },
+    {
+     "wort": "plus 19.000€",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.8,
+     "bis": 4.0
+    },
+    {
+     "wort": "Umsatzsteuer in",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.0,
+     "bis": 4.74
+    },
+    {
+     "wort": "Rechnung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.74,
+     "bis": 5.56
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/hintergrund.png",
+   "dauer": 3.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Du erbringst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.6
+    },
+    {
+     "wort": "Bauleistung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.6,
+     "bis": 1.8
+    },
+    {
+     "wort": "Also schuldest du die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.8,
+     "bis": 2.64
+    },
+    {
+     "wort": "Steuer.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.64,
+     "bis": 3.4
+    },
+    {
+     "wort": "Du baust selbst.",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    },
+    {
+     "wort": "Du schuldest",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.8,
+     "bis": 3.4
+    },
+    {
+     "wort": "die Steuer.",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1150,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.54,
+     "bis": 3.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/karte_fehler.png",
+   "dauer": 6.42,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Der Subunternehmer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.82
+    },
+    {
+     "wort": "schuldet die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.82,
+     "bis": 1.36
+    },
+    {
+     "wort": "ausgewiesenen 19.000€",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.36,
+     "bis": 3.16
+    },
+    {
+     "wort": "trotzdem.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.16,
+     "bis": 3.92
+    },
+    {
+     "wort": "Und du darfst sie",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.92,
+     "bis": 4.66
+    },
+    {
+     "wort": "nicht als Vorsteuer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.66,
+     "bis": 5.66
+    },
+    {
+     "wort": "ziehen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.66,
+     "bis": 6.42
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/karte_regel.png",
+   "dauer": 5.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Stattdessen schuldest",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.2
+    },
+    {
+     "wort": "du die Steuer nach",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 1.94
+    },
+    {
+     "wort": "13b UStG und ziehst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.94,
+     "bis": 3.94
+    },
+    {
+     "wort": "sie dort wieder ab.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.94,
+     "bis": 5.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/hintergrund.png",
+   "dauer": 2.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Das zu viel gezahlte",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.02
+    },
+    {
+     "wort": "forderst du zurück.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.02,
+     "bis": 2.08
+    },
+    {
+     "wort": "Zu viel gezahlt:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.08
+    },
+    {
+     "wort": "zurückfordern.",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.02,
+     "bis": 2.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/hintergrund.png",
+   "dauer": 2.04,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Schon mal passiert?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.0
+    },
+    {
+     "wort": "Ja oder nein?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.0,
+     "bis": 1.74
+    },
+    {
+     "wort": "Schon mal",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.04
+    },
+    {
+     "wort": "passiert?",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.28,
+     "bis": 2.04
+    },
+    {
+     "wort": "Ja oder nein?",
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.0,
+     "bis": 2.04
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/54_2026-11-05_reel_reverse_charge/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

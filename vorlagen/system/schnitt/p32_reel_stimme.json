@@ -1,0 +1,521 @@
+{
+ "ausgabe": "../../posts/32_2026-10-23_reel_mindeststeuer/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/hintergrund.png",
+   "dauer": 4.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Steuern, Steuern,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.4
+    },
+    {
+     "wort": "Steuern.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.4,
+     "bis": 2.1
+    },
+    {
+     "wort": "Das ist Deutschland in",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.1,
+     "bis": 3.12
+    },
+    {
+     "wort": "einem Wort",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.12,
+     "bis": 3.66
+    },
+    {
+     "wort": "zusammengefasst und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.66,
+     "bis": 4.7
+    },
+    {
+     "wort": "Deutschland:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.7
+    },
+    {
+     "wort": "trotzdem",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.7
+    },
+    {
+     "wort": "Mindeststeuer?",
+     "farbe": "rot",
+     "groesse": 120,
+     "y": 1190,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.7
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_deutschland.png",
+   "dauer": 3.82,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "zusammengefasst und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "trotzdem kann hier",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 1.02
+    },
+    {
+     "wort": "zusätzlich noch",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.02,
+     "bis": 1.74
+    },
+    {
+     "wort": "Mindeststeuer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.74,
+     "bis": 2.34
+    },
+    {
+     "wort": "anfallen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.34,
+     "bis": 3.08
+    },
+    {
+     "wort": "Warum?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.08,
+     "bis": 3.82
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/hintergrund.png",
+   "dauer": 3.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Es zählt nicht der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.6
+    },
+    {
+     "wort": "nominale Satz, sondern",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.6,
+     "bis": 1.62
+    },
+    {
+     "wort": "der Effektivsteuersatz",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.62,
+     "bis": 2.7
+    },
+    {
+     "wort": "pro Land.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.7,
+     "bis": 3.6
+    },
+    {
+     "wort": "Nicht der Satz,",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.08,
+     "bis": 3.6
+    },
+    {
+     "wort": "sondern effektiv",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.5,
+     "bis": 3.6
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_land.png",
+   "dauer": 7.26,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Vergünstigungen und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.9
+    },
+    {
+     "wort": "Sondereffekte können",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.9,
+     "bis": 1.76
+    },
+    {
+     "wort": "die effektive Quote",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.76,
+     "bis": 2.82
+    },
+    {
+     "wort": "unter 15 % drücken.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.82,
+     "bis": 4.58
+    },
+    {
+     "wort": "Dann würde die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.58,
+     "bis": 5.1
+    },
+    {
+     "wort": "Differenz als",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.1,
+     "bis": 5.66
+    },
+    {
+     "wort": "Ergänzungssteuer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.66,
+     "bis": 6.4
+    },
+    {
+     "wort": "erhoben.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.4,
+     "bis": 7.26
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_wer.png",
+   "dauer": 6.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Betroffen sind aber",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.92
+    },
+    {
+     "wort": "nur Gruppen ab 750",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.92,
+     "bis": 2.3
+    },
+    {
+     "wort": "Millionen Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.3,
+     "bis": 3.02
+    },
+    {
+     "wort": "Konzernumsatz in zwei",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.02,
+     "bis": 4.6
+    },
+    {
+     "wort": "der letzten vier",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.6,
+     "bis": 5.36
+    },
+    {
+     "wort": "Wirtschaftsjahren.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.36,
+     "bis": 6.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/hintergrund.png",
+   "dauer": 3.84,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Rechnet ihr das in",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.74
+    },
+    {
+     "wort": "Excel oder mit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.74,
+     "bis": 1.66
+    },
+    {
+     "wort": "Software?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.66,
+     "bis": 2.46
+    },
+    {
+     "wort": "Schreibt's mir in die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.46,
+     "bis": 3.04
+    },
+    {
+     "wort": "Kommentare.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.04,
+     "bis": 3.54
+    },
+    {
+     "wort": "Rechnet ihr das:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.84
+    },
+    {
+     "wort": "Excel oder",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.74,
+     "bis": 3.84
+    },
+    {
+     "wort": "Software?",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1210,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.66,
+     "bis": 3.84
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/abspann.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/32_2026-10-23_reel_mindeststeuer/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

@@ -1,0 +1,467 @@
+{
+ "ausgabe": "../../posts/34_2026-10-25_reel_einspruch/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/hintergrund.png",
+   "dauer": 4.92,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Dein Bescheid geht am",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.82
+    },
+    {
+     "wort": "5.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.82,
+     "bis": 1.14
+    },
+    {
+     "wort": "Oktober zur Post.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.14,
+     "bis": 2.2
+    },
+    {
+     "wort": "Seine Einspruchsfrist",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.2,
+     "bis": 2.96
+    },
+    {
+     "wort": "endet aber nicht am 5.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.96,
+     "bis": 4.16
+    },
+    {
+     "wort": "November.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.16,
+     "bis": 4.92
+    },
+    {
+     "wort": "Post am 5.10.:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.92
+    },
+    {
+     "wort": "Frist endet",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.92
+    },
+    {
+     "wort": "nicht 5.11.",
+     "farbe": "rot",
+     "groesse": 200,
+     "y": 1190,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.92
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/hintergrund.png",
+   "dauer": 4.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Seit 2025 geht ein",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.42
+    },
+    {
+     "wort": "Bescheid erst am 4.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.42,
+     "bis": 2.46
+    },
+    {
+     "wort": "Tag als bekannt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.46,
+     "bis": 3.12
+    },
+    {
+     "wort": "gegeben.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.12,
+     "bis": 4.1
+    },
+    {
+     "wort": "Seit 2025:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.1
+    },
+    {
+     "wort": "4. Tag",
+     "farbe": "gelb",
+     "groesse": 220,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.16,
+     "bis": 4.1
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_post.png",
+   "dauer": 3.88,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Abgeschickt Montag, 5.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.2
+    },
+    {
+     "wort": "Oktober, bekannt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 2.0
+    },
+    {
+     "wort": "gegeben Freitag, 9.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.0,
+     "bis": 3.02
+    },
+    {
+     "wort": "Oktober.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.02,
+     "bis": 3.88
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_frist.png",
+   "dauer": 5.96,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Ab da läuft ein Monat.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.32
+    },
+    {
+     "wort": "Frist endet Montag, 9.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.32,
+     "bis": 2.66
+    },
+    {
+     "wort": "November.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.66,
+     "bis": 3.42
+    },
+    {
+     "wort": "Für das Ende aufs",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.42,
+     "bis": 4.22
+    },
+    {
+     "wort": "Wochenende zieht der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.22,
+     "bis": 4.98
+    },
+    {
+     "wort": "nächste Werktag.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.98,
+     "bis": 5.96
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/karte_zahlen.png",
+   "dauer": 3.14,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Und Zahlen musst du",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.6
+    },
+    {
+     "wort": "trotzdem, außer mit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.6,
+     "bis": 1.74
+    },
+    {
+     "wort": "Aussetzung der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.74,
+     "bis": 2.28
+    },
+    {
+     "wort": "Vollziehung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.28,
+     "bis": 3.14
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/hintergrund.png",
+   "dauer": 3.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wie überwacht ihr eure",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.96
+    },
+    {
+     "wort": "Fristen?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.96,
+     "bis": 1.64
+    },
+    {
+     "wort": "Kalender oder",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 2.16
+    },
+    {
+     "wort": "Software?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.16,
+     "bis": 2.8
+    },
+    {
+     "wort": "Wie überwacht ihr",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.1
+    },
+    {
+     "wort": "Kalender oder",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.64,
+     "bis": 3.1
+    },
+    {
+     "wort": "Software?",
+     "farbe": "gelb",
+     "groesse": 160,
+     "y": 1210,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.16,
+     "bis": 3.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/34_2026-10-25_reel_einspruch/bausteine/abspann.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/34_2026-10-25_reel_einspruch/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "ausgabe": "../../posts/49_2026-11-02_reel_kleinunternehmer/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 3.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Ein einziger Auftrag",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.16
+    },
+    {
+     "wort": "kann dich sofort",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.16,
+     "bis": 1.8
+    },
+    {
+     "wort": "umsatzsteuerpflichtig",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.8,
+     "bis": 2.9
+    },
+    {
+     "wort": "machen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.9,
+     "bis": 3.4
+    },
+    {
+     "wort": "Ein Auftrag",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    },
+    {
+     "wort": "Umsatzsteuer",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    },
+    {
+     "wort": "ab sofort",
+     "farbe": "rot",
+     "groesse": 220,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 1.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "machen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.04
+    },
+    {
+     "wort": "Nicht erst ab Januar.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.04,
+     "bis": 1.4
+    },
+    {
+     "wort": "Nicht erst",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.04,
+     "bis": 1.4
+    },
+    {
+     "wort": "ab Januar",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.48,
+     "bis": 1.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 2.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Seit 2025 gelten zwei",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.76
+    },
+    {
+     "wort": "Grenzen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.76,
+     "bis": 2.5
+    },
+    {
+     "wort": "Seit 2025:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.14,
+     "bis": 2.5
+    },
+    {
+     "wort": "2 Grenzen",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.56,
+     "bis": 2.5
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_vorjahr.png",
+   "dauer": 1.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Grenzen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "Vorjahr höchstens",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 0.66
+    },
+    {
+     "wort": "25.000 Euro laufendes",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.66,
+     "bis": 1.7
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "25.000 Euro laufendes",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.82
+    },
+    {
+     "wort": "Jahr höchstens 100.000",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.82,
+     "bis": 1.88
+    },
+    {
+     "wort": "Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.88,
+     "bis": 2.6
+    },
+    {
+     "wort": "Laufendes Jahr:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.04,
+     "bis": 2.6
+    },
+    {
+     "wort": "100.000 €",
+     "farbe": "gelb",
+     "groesse": 190,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.0,
+     "bis": 2.6
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 2.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "Wer die 100.000 Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 1.1
+    },
+    {
+     "wort": "überschreitet ist",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.1,
+     "bis": 1.9
+    },
+    {
+     "wort": "sofort raus.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.9,
+     "bis": 2.9
+    },
+    {
+     "wort": "Über 100.000 €:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.26,
+     "bis": 2.9
+    },
+    {
+     "wort": "sofort raus",
+     "farbe": "rot",
+     "groesse": 190,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.9,
+     "bis": 2.9
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_laufend.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "sofort raus.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "Schon der Umsatz, mit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 1.02
+    },
+    {
+     "wort": "dem die Grenze",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.02,
+     "bis": 1.58
+    },
+    {
+     "wort": "überschritten wird,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.24
+    },
+    {
+     "wort": "ist steuerpflichtig.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.24,
+     "bis": 3.2
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 2.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "ist steuerpflichtig.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "Früher hatte man bis",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.08
+    },
+    {
+     "wort": "Silvester Zeit, heute",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.08,
+     "bis": 2.12
+    },
+    {
+     "wort": "nicht mehr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.12,
+     "bis": 2.9
+    },
+    {
+     "wort": "Früher: bis Silvester",
+     "farbe": "weiss",
+     "groesse": 100,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 2.9
+    },
+    {
+     "wort": "heute nicht mehr",
+     "farbe": "rot",
+     "groesse": 120,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.96,
+     "bis": 2.9
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_vorsteuer.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "nicht mehr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.08
+    },
+    {
+     "wort": "Und wer freiwillig",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.08,
+     "bis": 0.84
+    },
+    {
+     "wort": "verzichtet, ist fünf",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.84,
+     "bis": 1.9
+    },
+    {
+     "wort": "Jahre gebunden.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.9,
+     "bis": 3.0
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/hintergrund.png",
+   "dauer": 3.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Jahre gebunden.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "Kommentiere TOOL und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.32
+    },
+    {
+     "wort": "ich schicke den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.32,
+     "bis": 1.78
+    },
+    {
+     "wort": "Grenzmonitor.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.78,
+     "bis": 2.78
+    },
+    {
+     "wort": "Kommentiere",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 3.08
+    },
+    {
+     "wort": "TOOL",
+     "farbe": "gelb",
+     "groesse": 220,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.6,
+     "bis": 3.08
+    },
+    {
+     "wort": "für den Grenzmonitor",
+     "farbe": "weiss",
+     "groesse": 85,
+     "y": 1230,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.46,
+     "bis": 3.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/49_2026-11-02_reel_kleinunternehmer/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

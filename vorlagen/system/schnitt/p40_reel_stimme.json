@@ -1,0 +1,542 @@
+{
+ "ausgabe": "../../posts/40_2026-10-28_reel_formeln/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/hintergrund.png",
+   "dauer": 4.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Die Formel, die deine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.82
+    },
+    {
+     "wort": "Excel sauber aussehen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.82,
+     "bis": 1.96
+    },
+    {
+     "wort": "lässt, macht deine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.96,
+     "bis": 2.9
+    },
+    {
+     "wort": "Steuerrückstellung",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.9,
+     "bis": 3.52
+    },
+    {
+     "wort": "falsch.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.52,
+     "bis": 4.3
+    },
+    {
+     "wort": "Formel macht",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "Rückstellung",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "falsch",
+     "farbe": "rot",
+     "groesse": 250,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_wennfehler.png",
+   "dauer": 3.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "falsch.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "WENNFEHLER mit Null",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.24
+    },
+    {
+     "wort": "verwandelt jeden",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.24,
+     "bis": 1.9
+    },
+    {
+     "wort": "Fehler in eine Null.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.9,
+     "bis": 3.3
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/hintergrund.png",
+   "dauer": 4.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Fehler in eine Null.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.08
+    },
+    {
+     "wort": "Die Tabelle sieht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.08,
+     "bis": 1.0
+    },
+    {
+     "wort": "sauber aus, die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.0,
+     "bis": 1.94
+    },
+    {
+     "wort": "Rückstellung ist zu",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.94,
+     "bis": 2.7
+    },
+    {
+     "wort": "niedrig und keiner",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.7,
+     "bis": 3.66
+    },
+    {
+     "wort": "merkt es.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.66,
+     "bis": 4.4
+    },
+    {
+     "wort": "Tabelle: sauber",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.22,
+     "bis": 4.4
+    },
+    {
+     "wort": "Rückstellung:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 1030,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.94,
+     "bis": 4.4
+    },
+    {
+     "wort": "zu niedrig",
+     "farbe": "rot",
+     "groesse": 190,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.6,
+     "bis": 4.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/hintergrund.png",
+   "dauer": 5.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "merkt es.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.04
+    },
+    {
+     "wort": "Besser Fehler sichtbar",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.04,
+     "bis": 1.58
+    },
+    {
+     "wort": "lassen und zwei Dinge,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 3.12
+    },
+    {
+     "wort": "die solche Fehler gar",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.12,
+     "bis": 3.94
+    },
+    {
+     "wort": "nicht erst entstehen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.94,
+     "bis": 4.64
+    },
+    {
+     "wort": "lassen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.64,
+     "bis": 5.2
+    },
+    {
+     "wort": "Besser:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.04,
+     "bis": 5.2
+    },
+    {
+     "wort": "Fehler sichtbar",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.38,
+     "bis": 5.2
+    },
+    {
+     "wort": "lassen",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.58,
+     "bis": 5.2
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_xverweis.png",
+   "dauer": 3.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "lassen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Steuersatz und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 0.72
+    },
+    {
+     "wort": "Hebesatz per XVERWEIS",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.72,
+     "bis": 1.96
+    },
+    {
+     "wort": "holen statt Eintippen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.96,
+     "bis": 3.3
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_namen.png",
+   "dauer": 3.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "holen statt Eintippen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.16
+    },
+    {
+     "wort": "Und Namen wie Hebesatz",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.16,
+     "bis": 1.58
+    },
+    {
+     "wort": "statt $C$12.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 3.7
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/hintergrund.png",
+   "dauer": 2.46,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wie sieht es bei euch",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.56
+    },
+    {
+     "wort": "aus?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.56,
+     "bis": 1.2
+    },
+    {
+     "wort": "Habt ihr WENNFEHLER?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 2.16
+    },
+    {
+     "wort": "Habt ihr",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.2,
+     "bis": 2.46
+    },
+    {
+     "wort": "WENNFEHLER?",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.62,
+     "bis": 2.46
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/40_2026-10-28_reel_formeln/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

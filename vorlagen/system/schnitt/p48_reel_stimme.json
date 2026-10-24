@@ -1,0 +1,542 @@
+{
+ "ausgabe": "../../posts/48_2026-11-02_reel_firmenwagen/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/hintergrund.png",
+   "dauer": 4.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du trägst jede Fahrt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.08
+    },
+    {
+     "wort": "sauber ein und der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.08,
+     "bis": 1.78
+    },
+    {
+     "wort": "Prüfer verwirft das",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.78,
+     "bis": 2.76
+    },
+    {
+     "wort": "Fahrtenbuch trotzdem,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.76,
+     "bis": 4.1
+    },
+    {
+     "wort": "Fahrtenbuch",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.1
+    },
+    {
+     "wort": "verworfen",
+     "farbe": "rot",
+     "groesse": 220,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.1
+    },
+    {
+     "wort": "trotz sauberer Einträge",
+     "farbe": "gelb",
+     "groesse": 80,
+     "y": 1250,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/hintergrund.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Fahrtenbuch trotzdem,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "weil es eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 0.46
+    },
+    {
+     "wort": "Excel-Liste ist, die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.46,
+     "bis": 1.58
+    },
+    {
+     "wort": "sich jederzeit ändern",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.28
+    },
+    {
+     "wort": "lässt.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.28,
+     "bis": 3.0
+    },
+    {
+     "wort": "Excel-Liste:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.46,
+     "bis": 3.0
+    },
+    {
+     "wort": "jederzeit änderbar",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.7,
+     "bis": 3.0
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/karte_fahrtenbuch.png",
+   "dauer": 7.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Ein Fahrtenbuch zählt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.8
+    },
+    {
+     "wort": "nur, wenn es zeitnah",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.8,
+     "bis": 1.88
+    },
+    {
+     "wort": "und in geschlossener",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.88,
+     "bis": 2.7
+    },
+    {
+     "wort": "Form geführt wird.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.7,
+     "bis": 4.1
+    },
+    {
+     "wort": "Nachträgliche",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.1,
+     "bis": 4.6
+    },
+    {
+     "wort": "Änderungen müssen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.6,
+     "bis": 5.22
+    },
+    {
+     "wort": "ausgeschlossen oder",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.22,
+     "bis": 6.38
+    },
+    {
+     "wort": "erkennbar sein, sonst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.38,
+     "bis": 7.5
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/hintergrund.png",
+   "dauer": 3.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "erkennbar sein, sonst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.2
+    },
+    {
+     "wort": "gilt die 1 %-Regel,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.2,
+     "bis": 1.68
+    },
+    {
+     "wort": "egal wie wenig du",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.68,
+     "bis": 2.52
+    },
+    {
+     "wort": "privat fährst.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.52,
+     "bis": 3.5
+    },
+    {
+     "wort": "Sonst gilt",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 3.5
+    },
+    {
+     "wort": "1 %-Regel",
+     "farbe": "gelb",
+     "groesse": 200,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.58,
+     "bis": 3.5
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/karte_arbeitsweg.png",
+   "dauer": 3.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "privat fährst.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.04
+    },
+    {
+     "wort": "Bei 50.000 Euro",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.04,
+     "bis": 0.96
+    },
+    {
+     "wort": "Listenpreis und 20",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.96,
+     "bis": 1.98
+    },
+    {
+     "wort": "Kilometern zur Arbeit,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.98,
+     "bis": 3.1
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/hintergrund.png",
+   "dauer": 1.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Kilometern zur Arbeit,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.14
+    },
+    {
+     "wort": "800 Euro im Monat.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.14,
+     "bis": 1.5
+    },
+    {
+     "wort": "800 €",
+     "farbe": "rot",
+     "groesse": 260,
+     "y": 900,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.14,
+     "bis": 1.5
+    },
+    {
+     "wort": "im Monat",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 1130,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.94,
+     "bis": 1.5
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/hintergrund.png",
+   "dauer": 2.78,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "800 Euro im Monat.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "Fahrtenbuch oder 1 %,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.24
+    },
+    {
+     "wort": "was nutzt ihr?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.24,
+     "bis": 2.48
+    },
+    {
+     "wort": "Fahrtenbuch",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 2.78
+    },
+    {
+     "wort": "oder 1 %?",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.52,
+     "bis": 2.78
+    },
+    {
+     "wort": "Was nutzt ihr?",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 1230,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.68,
+     "bis": 2.78
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/48_2026-11-02_reel_firmenwagen/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

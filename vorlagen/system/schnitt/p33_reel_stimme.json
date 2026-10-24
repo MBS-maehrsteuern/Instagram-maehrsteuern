@@ -1,0 +1,457 @@
+{
+ "ausgabe": "../../posts/33_2026-10-24_reel_paragraf_formel/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/hintergrund.png",
+   "dauer": 5.28,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du rechnest Paragrafen",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.2
+    },
+    {
+     "wort": "echt noch von Hand?",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 2.4
+    },
+    {
+     "wort": "Dabei passen drei",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.4,
+     "bis": 3.24
+    },
+    {
+     "wort": "davon in je eine",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.24,
+     "bis": 4.24
+    },
+    {
+     "wort": "Excel-Zeile.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.24,
+     "bis": 5.28
+    },
+    {
+     "wort": "3 Paragrafen",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 5.28
+    },
+    {
+     "wort": "= 3 Excel-Zeilen",
+     "farbe": "gelb",
+     "groesse": 120,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 5.28
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_hinzurechnung.png",
+   "dauer": 4.84,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "1.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.72
+    },
+    {
+     "wort": "Gewerbesteuer",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.72,
+     "bis": 1.28
+    },
+    {
+     "wort": "hinzurechnung.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.28,
+     "bis": 2.32
+    },
+    {
+     "wort": "Ein Viertel der Summe",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.32,
+     "bis": 3.22
+    },
+    {
+     "wort": "über 200.000 Euro.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.22,
+     "bis": 4.84
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_geschenke.png",
+   "dauer": 5.14,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "2.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.76
+    },
+    {
+     "wort": "Geschenke.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.76,
+     "bis": 1.58
+    },
+    {
+     "wort": "Bis 50 Euro je",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.54
+    },
+    {
+     "wort": "Empfänger und Jahr",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.54,
+     "bis": 3.32
+    },
+    {
+     "wort": "abziehbar.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.32,
+     "bis": 4.16
+    },
+    {
+     "wort": "Darüber gar nicht.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.16,
+     "bis": 5.14
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/karte_8b.png",
+   "dauer": 5.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "3.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.58
+    },
+    {
+     "wort": "Paragraf 8b KStG.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.58,
+     "bis": 2.36
+    },
+    {
+     "wort": "5 % der Dividende",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.36,
+     "bis": 3.5
+    },
+    {
+     "wort": "gelten jetzt nicht",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.5,
+     "bis": 4.14
+    },
+    {
+     "wort": "abziehbar.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.14,
+     "bis": 5.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/hintergrund.png",
+   "dauer": 4.14,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Aber Vorsicht.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.0
+    },
+    {
+     "wort": "Steuerfrei sind",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.0,
+     "bis": 1.7
+    },
+    {
+     "wort": "Dividenden nur ab 10 %",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.7,
+     "bis": 3.14
+    },
+    {
+     "wort": "Beteiligung.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.14,
+     "bis": 4.14
+    },
+    {
+     "wort": "Aber Vorsicht:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.14
+    },
+    {
+     "wort": "Steuerfrei erst",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.0,
+     "bis": 4.14
+    },
+    {
+     "wort": "ab 10 %",
+     "farbe": "gelb",
+     "groesse": 220,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.48,
+     "bis": 4.14
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/hintergrund.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Welche baust du zuerst",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.92
+    },
+    {
+     "wort": "nach?",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.92,
+     "bis": 1.58
+    },
+    {
+     "wort": "A, B oder C.",
+     "groesse": 78,
+     "y": 330,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.9
+    },
+    {
+     "wort": "Welche zuerst?",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.2
+    },
+    {
+     "wort": "A, B oder C?",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.58,
+     "bis": 3.2
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/33_2026-10-24_reel_paragraf_formel/bausteine/abspann.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/33_2026-10-24_reel_paragraf_formel/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

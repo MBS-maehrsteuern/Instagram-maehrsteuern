@@ -1,0 +1,475 @@
+{
+ "ausgabe": "../../posts/53_2026-11-04_iab/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/hintergrund.png",
+   "dauer": 3.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du kannst eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.58
+    },
+    {
+     "wort": "Maschine absetzen, die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.58,
+     "bis": 1.62
+    },
+    {
+     "wort": "du noch gar nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.62,
+     "bis": 2.12
+    },
+    {
+     "wort": "gekauft hast.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.12,
+     "bis": 3.12
+    },
+    {
+     "wort": "Maschine absetzen,",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.12
+    },
+    {
+     "wort": "noch vor dem Kauf.",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1020,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/karte_50.png",
+   "dauer": 4.88,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Mit dem",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.22
+    },
+    {
+     "wort": "Investitionsabzugsbetrag",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.22,
+     "bis": 1.58
+    },
+    {
+     "wort": "ziehst du bis zu 50 %",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.98
+    },
+    {
+     "wort": "der geplanten Kosten",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.98,
+     "bis": 3.82
+    },
+    {
+     "wort": "schon vorher ab, wenn",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.82,
+     "bis": 4.88
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/karte_200000.png",
+   "dauer": 2.52,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "schon vorher ab, wenn",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.12
+    },
+    {
+     "wort": "dein Gewinn höchstens",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.12,
+     "bis": 0.94
+    },
+    {
+     "wort": "200.000 Euro beträgt.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.94,
+     "bis": 2.52
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/hintergrund.png",
+   "dauer": 4.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Maschine für 60.000",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.18
+    },
+    {
+     "wort": "Euro geplant, 30.000",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.18,
+     "bis": 2.78
+    },
+    {
+     "wort": "Euro Abzug schon",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.78,
+     "bis": 3.56
+    },
+    {
+     "wort": "dieses Jahr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.56,
+     "bis": 4.5
+    },
+    {
+     "wort": "Maschine: 60.000 €",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.5
+    },
+    {
+     "wort": "Abzug: 30.000 €",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.1,
+     "bis": 4.5
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/hintergrund.png",
+   "dauer": 2.52,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Im Kaufjahr wird er",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.22
+    },
+    {
+     "wort": "wieder hinzugerechnet.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 2.52
+    },
+    {
+     "wort": "Im Kaufjahr:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.52
+    },
+    {
+     "wort": "wieder dazu.",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.36,
+     "bis": 2.52
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/haken_frist.png",
+   "dauer": 6.68,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Aber kaufst du nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.48
+    },
+    {
+     "wort": "bis Ende des dritten",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.48,
+     "bis": 2.7
+    },
+    {
+     "wort": "Folgejahres, wird der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.7,
+     "bis": 4.06
+    },
+    {
+     "wort": "Abzug rückwirkend",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.06,
+     "bis": 4.94
+    },
+    {
+     "wort": "gestrichen, mit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.94,
+     "bis": 5.86
+    },
+    {
+     "wort": "Zinsen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.86,
+     "bis": 6.68
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/hintergrund.png",
+   "dauer": 2.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Nutzt ihr denn die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.64
+    },
+    {
+     "wort": "IAB, ja oder nein?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.64,
+     "bis": 2.1
+    },
+    {
+     "wort": "Nutzt ihr",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.4
+    },
+    {
+     "wort": "die IAB?",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.64,
+     "bis": 2.4
+    },
+    {
+     "wort": "Ja oder nein?",
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.22,
+     "bis": 2.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/53_2026-11-04_iab/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

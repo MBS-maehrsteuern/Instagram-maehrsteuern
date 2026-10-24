@@ -1,0 +1,530 @@
+{
+ "ausgabe": "../../posts/55_2026-11-06_reel_thesaurierung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/hintergrund.png",
+   "dauer": 4.02,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Du zahlst bis zu 45 %",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.6
+    },
+    {
+     "wort": "Steuer auf Gewinn, den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.6,
+     "bis": 2.68
+    },
+    {
+     "wort": "du gar nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.68,
+     "bis": 3.16
+    },
+    {
+     "wort": "entnimmst.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.16,
+     "bis": 4.02
+    },
+    {
+     "wort": "Gewinn nicht entnommen.",
+     "farbe": "weiss",
+     "groesse": 100,
+     "y": 800,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.02
+    },
+    {
+     "wort": "Steuer bis zu",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 960,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.02
+    },
+    {
+     "wort": "45 %",
+     "farbe": "rot",
+     "groesse": 280,
+     "y": 1180,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.02
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/hintergrund.png",
+   "dauer": 1.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Muss nicht sein.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.12
+    },
+    {
+     "wort": "Muss nicht sein.",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 900,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 1.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_regel.png",
+   "dauer": 5.92,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Auf Antrag wird der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.8
+    },
+    {
+     "wort": "Gewinn, der in Betrieb",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.8,
+     "bis": 1.66
+    },
+    {
+     "wort": "bleibt, mit 28,25 %",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.66,
+     "bis": 3.98
+    },
+    {
+     "wort": "besteuert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.98,
+     "bis": 4.8
+    },
+    {
+     "wort": "Plus Soli.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.8,
+     "bis": 5.92
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/hintergrund.png",
+   "dauer": 5.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Ab 2028 sinkt der Satz",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.92
+    },
+    {
+     "wort": "schrittweise.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.92,
+     "bis": 2.88
+    },
+    {
+     "wort": "Ab 2032 auf 25%.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.88,
+     "bis": 5.6
+    },
+    {
+     "wort": "Ab 2028 sinkt",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 5.6
+    },
+    {
+     "wort": "der Satz.",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.54,
+     "bis": 5.6
+    },
+    {
+     "wort": "Ab 2032: 25 %",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1170,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.08,
+     "bis": 5.6
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_fuer_wen.png",
+   "dauer": 3.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Geht für",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.64
+    },
+    {
+     "wort": "Einzelunternehmer und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.64,
+     "bis": 1.64
+    },
+    {
+     "wort": "Mitunternehmer mit",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 2.42
+    },
+    {
+     "wort": "Bilanz.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.42,
+     "bis": 3.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_nachversteuerung.png",
+   "dauer": 5.22,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Aber, nimmst du den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.42
+    },
+    {
+     "wort": "Gewinn später, kommen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.42,
+     "bis": 2.64
+    },
+    {
+     "wort": "25 % Nachversteuerung",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.64,
+     "bis": 4.46
+    },
+    {
+     "wort": "dazu.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.46,
+     "bis": 5.22
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/hintergrund.png",
+   "dauer": 2.58,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Lohnt sich also nur,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.26
+    },
+    {
+     "wort": "wenn das Geld lange",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.26,
+     "bis": 2.02
+    },
+    {
+     "wort": "drin bleibt.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.02,
+     "bis": 2.58
+    },
+    {
+     "wort": "Lohnt sich nur,",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.58
+    },
+    {
+     "wort": "wenn das Geld",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.26,
+     "bis": 2.58
+    },
+    {
+     "wort": "lange drin bleibt.",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1160,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.68,
+     "bis": 2.58
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/hintergrund.png",
+   "dauer": 3.06,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Bleibt euer Gewinn",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.18
+    },
+    {
+     "wort": "eher drin oder geht er",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.18,
+     "bis": 2.24
+    },
+    {
+     "wort": "raus?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.24,
+     "bis": 2.76
+    },
+    {
+     "wort": "Gewinn bleibt",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.06
+    },
+    {
+     "wort": "drin – oder raus?",
+     "farbe": "gelb",
+     "groesse": 120,
+     "y": 1020,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.32,
+     "bis": 3.06
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/55_2026-11-06_reel_thesaurierung/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

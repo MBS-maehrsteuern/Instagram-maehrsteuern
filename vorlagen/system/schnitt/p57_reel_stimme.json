@@ -1,0 +1,591 @@
+{
+ "ausgabe": "../../posts/57_2026-11-07_reel_verlust_8c/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 3.82,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Ein Anteilsverkauf und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.2
+    },
+    {
+     "wort": "Jahre an Verlusten",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 2.28
+    },
+    {
+     "wort": "sind über Nacht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.28,
+     "bis": 2.96
+    },
+    {
+     "wort": "wertlos.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.96,
+     "bis": 3.82
+    },
+    {
+     "wort": "Anteilsverkauf:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.82
+    },
+    {
+     "wort": "Jahre an Verlusten",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.82
+    },
+    {
+     "wort": "über Nacht weg.",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 1160,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.82
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/karte_regel.png",
+   "dauer": 6.82,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Gehen innerhalb von",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.8
+    },
+    {
+     "wort": "fünf Jahren mehr als",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.8,
+     "bis": 1.82
+    },
+    {
+     "wort": "50 % der Anteile an",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.82,
+     "bis": 3.34
+    },
+    {
+     "wort": "einen Erwerber, sind",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.34,
+     "bis": 4.64
+    },
+    {
+     "wort": "die bisher nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.64,
+     "bis": 5.26
+    },
+    {
+     "wort": "genutzten Verluste",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.26,
+     "bis": 6.14
+    },
+    {
+     "wort": "weg.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.14,
+     "bis": 6.82
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 2.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Nahestehende Personen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.92
+    },
+    {
+     "wort": "zählen zusammen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.92,
+     "bis": 2.1
+    },
+    {
+     "wort": "Nahestehende Personen",
+     "farbe": "weiss",
+     "groesse": 100,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.1
+    },
+    {
+     "wort": "zählen zusammen.",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1020,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.92,
+     "bis": 2.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 3.62,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Und es trifft auch den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.88
+    },
+    {
+     "wort": "gewerbesteuerlichen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.88,
+     "bis": 1.7
+    },
+    {
+     "wort": "Fehlbetrag und den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.7,
+     "bis": 2.54
+    },
+    {
+     "wort": "Zinsvortrag.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.54,
+     "bis": 3.62
+    },
+    {
+     "wort": "Es trifft auch:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.62
+    },
+    {
+     "wort": "Fehlbetrag",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 980,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.7,
+     "bis": 3.62
+    },
+    {
+     "wort": "und Zinsvortrag",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1130,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.42,
+     "bis": 3.62
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 5.66,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zwei Rettungsanker",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.78
+    },
+    {
+     "wort": "habt ihr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.78,
+     "bis": 1.64
+    },
+    {
+     "wort": "Die Konzernklausel bei",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 2.76
+    },
+    {
+     "wort": "Übertragung im 100",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.76,
+     "bis": 4.12
+    },
+    {
+     "wort": "%-Konzern und die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.12,
+     "bis": 5.66
+    },
+    {
+     "wort": "Zwei Rettungsanker:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 5.66
+    },
+    {
+     "wort": "Konzernklausel",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.74,
+     "bis": 5.66
+    },
+    {
+     "wort": "im 100-%-Konzern",
+     "farbe": "weiss",
+     "groesse": 90,
+     "y": 1140,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.76,
+     "bis": 5.66
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 4.34,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "%-Konzern und die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.16
+    },
+    {
+     "wort": "Stille-",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.16,
+     "bis": 0.56
+    },
+    {
+     "wort": "Reserven-Klausel",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.56,
+     "bis": 1.62
+    },
+    {
+     "wort": "Verluste bleiben",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.62,
+     "bis": 2.4
+    },
+    {
+     "wort": "soweit stille Reserven",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.4,
+     "bis": 3.54
+    },
+    {
+     "wort": "da sind.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.54,
+     "bis": 4.34
+    },
+    {
+     "wort": "Stille Reserven:",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.34
+    },
+    {
+     "wort": "Verluste bleiben",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.62,
+     "bis": 4.34
+    },
+    {
+     "wort": "soweit Reserven da sind.",
+     "farbe": "weiss",
+     "groesse": 90,
+     "y": 1160,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.82,
+     "bis": 4.34
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/hintergrund.png",
+   "dauer": 2.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Schon mal geprüft?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.04
+    },
+    {
+     "wort": "Ja oder nein?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.04,
+     "bis": 1.78
+    },
+    {
+     "wort": "Schon mal",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.08
+    },
+    {
+     "wort": "geprüft?",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.28,
+     "bis": 2.08
+    },
+    {
+     "wort": "Ja oder nein?",
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.04,
+     "bis": 2.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/57_2026-11-07_reel_verlust_8c/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-Deine Steuer-Excel stimmt – und fällt in der Betriebsprüfung trotzdem durch. 🔍
+Deine Steuer-Excel stimmt – und fällt in der Prüfung trotzdem durch. 🔍
 
 Es hakt oft an drei Dingen: Änderungen müssen nachvollziehbar sein (eine überschriebene Zelle hinterlässt keine Spur), Buchungen müssen zeitnah erfasst sein, und es braucht eine Verfahrensdokumentation.
 

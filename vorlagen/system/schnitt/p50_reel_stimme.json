@@ -1,0 +1,477 @@
+{
+ "ausgabe": "../../posts/50_2026-11-03_reel_gebaeude_afa/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/hintergrund.png",
+   "dauer": 4.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Zwei Häuser, gleicher",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.14
+    },
+    {
+     "wort": "Preis.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.14,
+     "bis": 1.9
+    },
+    {
+     "wort": "Und eins darf mehr als",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.9,
+     "bis": 2.8
+    },
+    {
+     "wort": "doppelt so schnell",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.8,
+     "bis": 3.38
+    },
+    {
+     "wort": "abschreiben.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.38,
+     "bis": 4.3
+    },
+    {
+     "wort": "Gleicher Preis:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "doppelt so schnell",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "abgeschrieben",
+     "farbe": "rot",
+     "groesse": 130,
+     "y": 1150,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/hintergrund.png",
+   "dauer": 4.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zuerst Grund und Boden",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.22
+    },
+    {
+     "wort": "wird nie",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 1.6
+    },
+    {
+     "wort": "abgeschrieben, den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.6,
+     "bis": 2.52
+    },
+    {
+     "wort": "Kaufpreis also",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.52,
+     "bis": 3.26
+    },
+    {
+     "wort": "aufteilen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.26,
+     "bis": 4.1
+    },
+    {
+     "wort": "Grund und Boden:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.44,
+     "bis": 4.1
+    },
+    {
+     "wort": "nie abgeschrieben",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.6,
+     "bis": 4.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_linear.png",
+   "dauer": 8.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "aufteilen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Dann zählt das",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 0.6
+    },
+    {
+     "wort": "Baujahr, Wohngebäude",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.6,
+     "bis": 1.64
+    },
+    {
+     "wort": "ab 2023 fertig, 3 % im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 3.48
+    },
+    {
+     "wort": "Jahr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.48,
+     "bis": 4.14
+    },
+    {
+     "wort": "Von 1925 bis 2022,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.14,
+     "bis": 6.32
+    },
+    {
+     "wort": "2 %, ältere 2,5 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.32,
+     "bis": 8.4
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_degressiv.png",
+   "dauer": 5.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "2 %, ältere 2,5 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Baubeginn ab Oktober",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 1.06
+    },
+    {
+     "wort": "2023.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.06,
+     "bis": 2.64
+    },
+    {
+     "wort": "Degressiv:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.64,
+     "bis": 3.12
+    },
+    {
+     "wort": "5 % vom Restwert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.12,
+     "bis": 5.0
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_sonder.png",
+   "dauer": 3.5,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "5 % vom Restwert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "Und beim",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 0.32
+    },
+    {
+     "wort": "Mietwohnungsneubau",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.32,
+     "bis": 1.32
+    },
+    {
+     "wort": "kann eine Sonder-AfA",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.32,
+     "bis": 2.3
+    },
+    {
+     "wort": "oben drauf kommen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.3,
+     "bis": 3.5
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/hintergrund.png",
+   "dauer": 2.38,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "oben drauf kommen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.08
+    },
+    {
+     "wort": "Welcher Satz geht für",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.08,
+     "bis": 1.1
+    },
+    {
+     "wort": "euer Gebäude?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.1,
+     "bis": 2.08
+    },
+    {
+     "wort": "Welcher Satz",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 900,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.08,
+     "bis": 2.38
+    },
+    {
+     "wort": "für euer Gebäude?",
+     "farbe": "gelb",
+     "groesse": 100,
+     "y": 1070,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.92,
+     "bis": 2.38
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/50_2026-11-03_reel_gebaeude_afa/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

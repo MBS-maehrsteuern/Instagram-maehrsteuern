@@ -1,0 +1,459 @@
+{
+ "ausgabe": "../../posts/52_2026-11-04_reel_gobd/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/hintergrund.png",
+   "dauer": 3.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Deine Steuer-Excel",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.84
+    },
+    {
+     "wort": "stimmt und kann in der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.84,
+     "bis": 1.86
+    },
+    {
+     "wort": "Prüfung trotzdem",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.86,
+     "bis": 2.5
+    },
+    {
+     "wort": "durchfallen, weil der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.5,
+     "bis": 3.4
+    },
+    {
+     "wort": "Excel stimmt –",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    },
+    {
+     "wort": "trotzdem",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    },
+    {
+     "wort": "durchgefallen.",
+     "farbe": "rot",
+     "groesse": 135,
+     "y": 1170,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/hintergrund.png",
+   "dauer": 4.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "durchfallen, weil der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.22
+    },
+    {
+     "wort": "Prüfer nicht nur auf",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.22,
+     "bis": 1.12
+    },
+    {
+     "wort": "Zahlen schaut, sondern",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.12,
+     "bis": 2.22
+    },
+    {
+     "wort": "auf drei GoBD-Wörter.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.22,
+     "bis": 4.08
+    },
+    {
+     "wort": "Der Prüfer schaut",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.08
+    },
+    {
+     "wort": "auf 3 Wörter.",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.06,
+     "bis": 4.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/karte_unveraenderbar.png",
+   "dauer": 5.58,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Unveränderbar, eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.12
+    },
+    {
+     "wort": "überschriebene Zelle",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.12,
+     "bis": 2.16
+    },
+    {
+     "wort": "hinterlässt keine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.16,
+     "bis": 2.9
+    },
+    {
+     "wort": "Spur, genau das ist",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.9,
+     "bis": 4.12
+    },
+    {
+     "wort": "das Problem.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.12,
+     "bis": 5.58
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/karte_zeitgerecht.png",
+   "dauer": 5.98,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zeitgerecht,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.56
+    },
+    {
+     "wort": "kassentäglich, alles",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.56,
+     "bis": 1.58
+    },
+    {
+     "wort": "andere zeitnah, die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 3.02
+    },
+    {
+     "wort": "GoBD nennt etwa 10",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.02,
+     "bis": 4.36
+    },
+    {
+     "wort": "Tage, dokumentiert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.36,
+     "bis": 5.98
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/karte_dokumentiert.png",
+   "dauer": 4.16,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.14
+    },
+    {
+     "wort": "Verfahrensdokumentation",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.14,
+     "bis": 1.26
+    },
+    {
+     "wort": "beschreibt, wie die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.26,
+     "bis": 2.16
+    },
+    {
+     "wort": "Daten entstehen und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.16,
+     "bis": 2.96
+    },
+    {
+     "wort": "aufbewahrt werden.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.96,
+     "bis": 4.16
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/hintergrund.png",
+   "dauer": 3.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Habt ihr eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.5
+    },
+    {
+     "wort": "Verfahrensdokumentation?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.5,
+     "bis": 1.98
+    },
+    {
+     "wort": "Ja oder nein?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.98,
+     "bis": 2.78
+    },
+    {
+     "wort": "Habt ihr eine",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 800,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.08
+    },
+    {
+     "wort": "Verfahrens-",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 960,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.5,
+     "bis": 3.08
+    },
+    {
+     "wort": "dokumentation?",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1100,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.1,
+     "bis": 3.08
+    },
+    {
+     "wort": "Ja oder nein?",
+     "farbe": "rot",
+     "groesse": 140,
+     "y": 1320,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.98,
+     "bis": 3.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/52_2026-11-04_reel_gobd/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

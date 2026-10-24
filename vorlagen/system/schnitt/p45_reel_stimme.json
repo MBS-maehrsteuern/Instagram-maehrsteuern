@@ -1,0 +1,620 @@
+{
+ "ausgabe": "../../posts/45_2026-10-31_reel_vga/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 4.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Ein Darlehen an dich",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.86
+    },
+    {
+     "wort": "selbst und für den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.86,
+     "bis": 1.86
+    },
+    {
+     "wort": "Prüfer ist es eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.86,
+     "bis": 2.9
+    },
+    {
+     "wort": "Gewinnausschüttung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.9,
+     "bis": 4.0
+    },
+    {
+     "wort": "Darlehen an",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.0
+    },
+    {
+     "wort": "dich selbst =",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.0
+    },
+    {
+     "wort": "Ausschüttung",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.0
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 3.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Gewinnausschüttung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.02
+    },
+    {
+     "wort": "0 % Zinsen von der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.02,
+     "bis": 1.22
+    },
+    {
+     "wort": "eigenen GmbH, das",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 2.62
+    },
+    {
+     "wort": "bekäme kein Fremder.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.62,
+     "bis": 3.9
+    },
+    {
+     "wort": "0 % Zinsen",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.02,
+     "bis": 3.9
+    },
+    {
+     "wort": "von der eigenen GmbH",
+     "farbe": "weiss",
+     "groesse": 85,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.08,
+     "bis": 3.9
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 2.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "bekäme kein Fremder.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.08
+    },
+    {
+     "wort": "Folge, verdeckte",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.08,
+     "bis": 1.22
+    },
+    {
+     "wort": "Gewinnausschüttung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 2.1
+    },
+    {
+     "wort": "Folge:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.08,
+     "bis": 2.1
+    },
+    {
+     "wort": "verdeckte",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1030,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.84,
+     "bis": 2.1
+    },
+    {
+     "wort": "Gewinnausschüttung",
+     "farbe": "weiss",
+     "groesse": 90,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.22,
+     "bis": 2.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/karte_was_ist.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Gewinnausschüttung.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Der Gewinn der GmbH",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 1.04
+    },
+    {
+     "wort": "wird außerbilanziell",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.04,
+     "bis": 1.94
+    },
+    {
+     "wort": "erhöht und das ist nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.94,
+     "bis": 3.2
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 6.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "erhöht und das ist nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "einer der Klassiker.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 1.26
+    },
+    {
+     "wort": "Genauso überhöhtes",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.26,
+     "bis": 2.68
+    },
+    {
+     "wort": "Geschäftsführergehalt,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.68,
+     "bis": 3.78
+    },
+    {
+     "wort": "Privatnutzung ohne",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.78,
+     "bis": 4.56
+    },
+    {
+     "wort": "Vereinbarung, Miete",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.56,
+     "bis": 5.94
+    },
+    {
+     "wort": "über Marktwert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.94,
+     "bis": 6.9
+    },
+    {
+     "wort": "Nur einer der",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.08,
+     "bis": 6.9
+    },
+    {
+     "wort": "Klassiker:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 970,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.46,
+     "bis": 6.9
+    },
+    {
+     "wort": "Gehalt zu hoch",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 1130,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.66,
+     "bis": 6.9
+    },
+    {
+     "wort": "Privatnutzung",
+     "farbe": "gelb",
+     "groesse": 110,
+     "y": 1270,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.78,
+     "bis": 6.9
+    },
+    {
+     "wort": "Miete über Marktwert",
+     "farbe": "gelb",
+     "groesse": 85,
+     "y": 1410,
+     "x": 480,
+     "breite": 880,
+     "ab": 5.84,
+     "bis": 6.9
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 4.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "über Marktwert.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Beim beherrschenden",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 0.66
+    },
+    {
+     "wort": "Gesellschafter zählt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.66,
+     "bis": 1.52
+    },
+    {
+     "wort": "zusätzlich eine klare",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.52,
+     "bis": 2.76
+    },
+    {
+     "wort": "Vereinbarung im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.76,
+     "bis": 3.66
+    },
+    {
+     "wort": "Voraus.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.66,
+     "bis": 4.4
+    },
+    {
+     "wort": "Beherrschender",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.16,
+     "bis": 4.4
+    },
+    {
+     "wort": "Gesellschafter:",
+     "farbe": "weiss",
+     "groesse": 110,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.66,
+     "bis": 4.4
+    },
+    {
+     "wort": "Vereinbarung vorher",
+     "farbe": "gelb",
+     "groesse": 90,
+     "y": 1170,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.26,
+     "bis": 4.4
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/hintergrund.png",
+   "dauer": 2.92,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Voraus.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.14
+    },
+    {
+     "wort": "Was seht ihr häufiger,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.14,
+     "bis": 1.24
+    },
+    {
+     "wort": "Darlehen oder Gehalt?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.24,
+     "bis": 2.62
+    },
+    {
+     "wort": "Was seht ihr häufiger?",
+     "farbe": "weiss",
+     "groesse": 85,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.14,
+     "bis": 2.92
+    },
+    {
+     "wort": "Darlehen",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.24,
+     "bis": 2.92
+    },
+    {
+     "wort": "oder Gehalt?",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 1230,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.68,
+     "bis": 2.92
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/45_2026-10-31_reel_vga/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

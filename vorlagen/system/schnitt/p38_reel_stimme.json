@@ -1,0 +1,513 @@
+{
+ "ausgabe": "../../posts/38_2026-10-27_reel_pruefpfad/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/hintergrund.png",
+   "dauer": 3.28,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Eine Frage in der",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.76
+    },
+    {
+     "wort": "Betriebsprüfung und",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.76,
+     "bis": 1.72
+    },
+    {
+     "wort": "deine Excel hat keine",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.72,
+     "bis": 2.5
+    },
+    {
+     "wort": "Antwort.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.5,
+     "bis": 3.28
+    },
+    {
+     "wort": "Betriebsprüfung:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.28
+    },
+    {
+     "wort": "Excel hat",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.28
+    },
+    {
+     "wort": "keine Antwort.",
+     "farbe": "rot",
+     "groesse": 130,
+     "y": 1190,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 3.28
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/haken_pruefpfad.png",
+   "dauer": 4.22,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Woher kommt diese",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.06
+    },
+    {
+     "wort": "verdammte Zahl?",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.06,
+     "bis": 2.46
+    },
+    {
+     "wort": "Die Frage kommt in",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.46,
+     "bis": 3.2
+    },
+    {
+     "wort": "jeder Prüfung.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.2,
+     "bis": 4.22
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/karte_verfahrensdoku.png",
+   "dauer": 5.86,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Nach dem GoBD muss ein",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.28
+    },
+    {
+     "wort": "sachverständiger",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.28,
+     "bis": 2.0
+    },
+    {
+     "wort": "Dritter in",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.0,
+     "bis": 2.48
+    },
+    {
+     "wort": "angemessener Zeit",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.48,
+     "bis": 3.36
+    },
+    {
+     "wort": "nachvollziehen können,",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.36,
+     "bis": 4.36
+    },
+    {
+     "wort": "wie deine Zahlen",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.36,
+     "bis": 4.96
+    },
+    {
+     "wort": "entstehen.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.96,
+     "bis": 5.86
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/hintergrund.png",
+   "dauer": 2.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Vom Beleg bis zur",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.8
+    },
+    {
+     "wort": "Erklärung und zurück.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.8,
+     "bis": 2.08
+    },
+    {
+     "wort": "Vom Beleg",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 840,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.08
+    },
+    {
+     "wort": "zur Erklärung",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.8,
+     "bis": 2.08
+    },
+    {
+     "wort": "und zurück",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1180,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.32,
+     "bis": 2.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/hintergrund.png",
+   "dauer": 3.08,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "In 12 verknüpften",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.9
+    },
+    {
+     "wort": "Tabellenblättern heißt",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.9,
+     "bis": 1.78
+    },
+    {
+     "wort": "das Suchen.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.78,
+     "bis": 3.08
+    },
+    {
+     "wort": "12 Tabellenblätter:",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 3.08
+    },
+    {
+     "wort": "= Suchen",
+     "farbe": "rot",
+     "groesse": 200,
+     "y": 1050,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.58,
+     "bis": 3.08
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/titelbild.png",
+   "dauer": 2.84,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Mit Prüfpfad:",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.86
+    },
+    {
+     "wort": "auf die Zahl klicken,",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.86,
+     "bis": 1.64
+    },
+    {
+     "wort": "Quelle sehen.",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.64,
+     "bis": 2.84
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/hintergrund.png",
+   "dauer": 4.36,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wie beantwortet ihr",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.7
+    },
+    {
+     "wort": "die Frage heute?",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.7,
+     "bis": 1.74
+    },
+    {
+     "wort": "Spur in Excel oder",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.74,
+     "bis": 2.66
+    },
+    {
+     "wort": "Prüfpfad in einem",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.66,
+     "bis": 3.5
+    },
+    {
+     "wort": "Tool?",
+     "groesse": 78,
+     "y": 1560,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.5,
+     "bis": 4.06
+    },
+    {
+     "wort": "Und heute?",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.36
+    },
+    {
+     "wort": "Spur in Excel",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.74,
+     "bis": 4.36
+    },
+    {
+     "wort": "oder Prüfpfad?",
+     "farbe": "gelb",
+     "groesse": 130,
+     "y": 1210,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.66,
+     "bis": 4.36
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/38_2026-10-27_reel_pruefpfad/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/38_2026-10-27_reel_pruefpfad/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}
