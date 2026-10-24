@@ -4,8 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/titelbild.png",
-   "dauer": 2.6,
+   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_laufend.png",
+   "dauer": 3.2,
    "von": [
     540,
     960,
@@ -14,17 +14,25 @@
    "nach": [
     540,
     960,
-    1000
+    1030
    ],
    "text": [
     {
-     "wort": "Kleinunternehmer?",
-     "groesse": 90,
-     "y": 310,
+     "wort": "Kleinunternehmer:",
+     "groesse": 95,
+     "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
+     "ab": 0.0
+    },
+    {
+     "wort": "100.000 € = sofort USt",
+     "groesse": 100,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.0,
+     "farbe": "rot"
     }
    ]
   },
@@ -44,7 +52,7 @@
    "rein": "whip",
    "text": [
     {
-     "wort": "1 · Vorjahr",
+     "wort": "Vorjahr",
      "groesse": 95,
      "y": 330,
      "x": 500,
@@ -63,39 +71,6 @@
    ]
   },
   {
-   "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_laufend.png",
-   "dauer": 3.2,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1030
-   ],
-   "text": [
-    {
-     "wort": "2 · Laufendes Jahr",
-     "groesse": 95,
-     "y": 330,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.1
-    },
-    {
-     "wort": "über 100.000 € = sofort USt",
-     "groesse": 100,
-     "y": 500,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.6,
-     "farbe": "rot"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/49_2026-11-02_reel_kleinunternehmer/bausteine/karte_vorsteuer.png",
    "dauer": 3.0,
    "von": [
@@ -110,7 +85,7 @@
    ],
    "text": [
     {
-     "wort": "3 · Dafür:",
+     "wort": "Dafür:",
      "groesse": 95,
      "y": 330,
      "x": 500,
@@ -160,7 +135,7 @@
    "ab": 0,
    "start": 0,
    "lautstaerke": 0.59,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }

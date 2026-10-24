@@ -27,18 +27,18 @@
    ],
    "text": [
     {
-     "wort": "15 % Mindeststeuer –",
-     "ab": 0.3,
+     "wort": "Mindeststeuer erst ab",
+     "ab": 0.0,
      "groesse": 100,
      "y": 330,
      "x": 480,
      "breite": 800
     },
     {
-     "wort": "betrifft dich das?",
-     "ab": 0.9,
+     "wort": "750 Mio. €",
+     "ab": 0.0,
      "farbe": "gelb",
-     "groesse": 120,
+     "groesse": 150,
      "y": 470,
      "x": 480,
      "breite": 800

@@ -4,31 +4,6 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/45_2026-10-31_reel_vga/titelbild.png",
-   "dauer": 2.6,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Der Prüfer sieht's sofort.",
-     "groesse": 85,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/45_2026-10-31_reel_vga/bausteine/karte_was_ist.png",
    "dauer": 3.4,
    "von": [
@@ -41,23 +16,22 @@
     960,
     1030
    ],
-   "rein": "whip",
    "text": [
     {
-     "wort": "Was ist eine vGA?",
-     "groesse": 95,
+     "wort": "Darlehen an dich selbst:",
+     "groesse": 90,
      "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "Was Fremde nie bekämen",
-     "groesse": 110,
+     "wort": "= Gewinnausschüttung",
+     "groesse": 100,
      "y": 500,
      "x": 500,
      "breite": 860,
-     "ab": 0.8,
+     "ab": 0.0,
      "farbe": "rot"
     }
    ]
@@ -112,26 +86,17 @@
  ],
  "ton": [
   {
-   "datei": "../../musik/atmo/uhr_ticken.mp3",
-   "ab": 0,
-   "start": 0,
-   "dauer": 2.6,
-   "lautstaerke": 0.22,
-   "ein": 0.1,
-   "aus": 0.2
-  },
-  {
    "datei": "../../musik/atmo/fehlerton.mp3",
-   "ab": 0.3,
+   "ab": 0.25,
    "dauer": 0.8,
-   "lautstaerke": 0.33
+   "lautstaerke": 0.318
   },
   {
    "datei": "../../musik/06_runway_lofi_ruhig.mp3",
-   "ab": 2.6,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.59,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }

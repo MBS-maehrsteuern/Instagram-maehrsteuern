@@ -1,12 +1,10 @@
-Globale Mindeststeuer: Deutschland hat fast 30 % Steuern – und trotzdem kann hier Mindeststeuer anfallen. Warum? 🌍
+Globale Mindeststeuer: Sie greift erst ab 750 Mio. € Konzernumsatz. 🌍
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+Dann zählt der Steuersatz je Land: Liegt er unter 15 %, wird die Differenz als Ergänzungssteuer erhoben.
 
-Das Mindeststeuergesetz (Pillar Two) greift erst ab 750 Mio. € Konzernumsatz in mindestens zwei der vier Vorjahre (§ 1 MinStG). Dann zählt der Effektivsteuersatz je Land: Liegt er unter 15 %, wird die Differenz als Ergänzungssteuer erhoben. In Deutschland liegt der Gesamtsatz bei 400 % Hebesatz zwar bei 29,83 % – aber Sondereffekte und Vergünstigungen können die effektive Quote drücken. Rechnen muss man trotzdem. Erleichterungen: CbCR-Safe-Harbour in der Übergangszeit, De-minimis-Regel, substanzbasierter Freibetrag.
+Wie rechnet ihr den Steuersatz je Land: A) Excel oder B) Software? 👇
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Wie rechnet ihr den Effektivsteuersatz je Land: A) Excel oder B) Software? 👇
-📤 Schick das der Person, die bei euch Pillar Two auf dem Tisch hat.
+§ 1 MinStG · Alle Zahlen sind Demo-Zahlen · Stand 2026
 
-Alle Zahlen sind Demo-Zahlen.
-
-#steuerabteilung #mindeststeuer #pillartwo #taxtech
+#mindeststeuer #pillartwo #steuerabteilung

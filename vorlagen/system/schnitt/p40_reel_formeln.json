@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/40_2026-10-28_reel_formeln/titelbild.png",
-   "dauer": 2.3,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Formel-Check:",
-     "groesse": 90,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/40_2026-10-28_reel_formeln/bausteine/karte_wennfehler.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -49,7 +23,7 @@
      "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
      "wort": "versteckt.",
@@ -57,7 +31,7 @@
      "y": 500,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "rot"
     }
    ]
@@ -146,19 +120,17 @@
  ],
  "ton": [
   {
-   "datei": "../../musik/atmo/tippen_fehlerton.mp3",
-   "ab": 0,
-   "start": 0,
-   "dauer": 2.6,
-   "lautstaerke": 0.266,
-   "aus": 0.2
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 0.25,
+   "dauer": 0.8,
+   "lautstaerke": 0.318
   },
   {
    "datei": "../../musik/12_runway_pop_electronic.mp3",
-   "ab": 2.3,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.608,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }

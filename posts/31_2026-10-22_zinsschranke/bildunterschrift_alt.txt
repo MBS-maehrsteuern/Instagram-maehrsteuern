@@ -1,0 +1,14 @@
+Zinsschranke: Du hältst Zinsen für voll abziehbar – bis zu welcher Grenze stimmt das, und was passiert darüber? 🏦
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Liegt der Nettozinsaufwand (Zinsaufwand minus Zinsertrag) unter 3 Mio. €, greift die Zinsschranke nicht – Freigrenze, kein Freibetrag. Darüber ist er nur bis zur Höhe des verrechenbaren EBITDA (= 30 % des steuerlichen EBITDA) abziehbar (§ 4h Abs. 1 EStG, für Kapitalgesellschaften mit § 8a KStG). Der Rest wird zum Zinsvortrag, ungenutztes EBITDA zum EBITDA-Vortrag (5 Jahre).
+Wichtig: Der Zinsvortrag ist zeitlich unbegrenzt, kann aber untergehen – etwa bei einem schädlichen Anteilseignerwechsel (bei der Kapitalgesellschaft § 8a Abs. 1 Satz 3 KStG i. V. m. § 8c KStG) oder bei Aufgabe bzw. Übertragung des Betriebs (§ 4h Abs. 5 EStG).
+
+Habt ihr einen Zinsvortrag im Bestand: A) ja oder B) nein? 👇
+📌 Speichern für später.
+📤 Wer in deinem Team braucht das? Schick's der Person, die bei euch die Zinsschranke rechnet.
+
+Alle Zahlen sind Demo-Zahlen.
+
+#steuerabteilung #koerperschaftsteuer #zinsschranke #konzernsteuer

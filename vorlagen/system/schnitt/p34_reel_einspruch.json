@@ -35,19 +35,19 @@
    ],
    "text": [
     {
-     "wort": "Bescheid falsch?",
-     "ab": 0.3,
-     "groesse": 120,
+     "wort": "Bescheid am 05.10.:",
+     "ab": 0.0,
+     "groesse": 100,
      "y": 330,
      "x": 480,
      "breite": 800
     },
     {
-     "wort": "Die Uhr läuft.",
-     "ab": 1.0,
+     "wort": "Frist bis 09.11.",
+     "ab": 0.0,
      "farbe": "rot",
-     "groesse": 140,
-     "y": 480,
+     "groesse": 130,
+     "y": 470,
      "x": 480,
      "breite": 800
     }

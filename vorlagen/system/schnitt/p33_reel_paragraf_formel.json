@@ -35,18 +35,18 @@
    ],
    "text": [
     {
-     "wort": "Paragraf rein.",
-     "ab": 0.3,
-     "groesse": 120,
+     "wort": "Steuerregel in Excel:",
+     "ab": 0.0,
+     "groesse": 100,
      "y": 330,
      "x": 480,
      "breite": 800
     },
     {
-     "wort": "Formel raus.",
-     "ab": 0.9,
+     "wort": "nur 1 Zeile",
+     "ab": 0.0,
      "farbe": "gruen",
-     "groesse": 140,
+     "groesse": 150,
      "y": 480,
      "x": 480,
      "breite": 800

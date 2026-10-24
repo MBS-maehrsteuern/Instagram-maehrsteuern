@@ -4,31 +4,6 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/48_2026-11-02_reel_firmenwagen/titelbild.png",
-   "dauer": 2.6,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Excel-Fahrtenbuch?",
-     "groesse": 90,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/48_2026-11-02_reel_firmenwagen/bausteine/karte_fahrtenbuch.png",
    "dauer": 3.2,
    "von": [
@@ -41,24 +16,23 @@
     960,
     1030
    ],
-   "rein": "whip",
    "text": [
     {
-     "wort": "1 · Fahrtenbuch",
+     "wort": "Excel-Fahrtenbuch:",
      "groesse": 95,
      "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "zeitnah + geschlossen",
+     "wort": "Prüfer verwirft es",
      "groesse": 110,
      "y": 500,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
-     "farbe": "gelb"
+     "ab": 0.0,
+     "farbe": "rot"
     }
    ]
   },
@@ -77,7 +51,7 @@
    ],
    "text": [
     {
-     "wort": "2 · Sonst:",
+     "wort": "Sonst:",
      "groesse": 95,
      "y": 330,
      "x": 500,
@@ -110,7 +84,7 @@
    ],
    "text": [
     {
-     "wort": "3 · Plus Arbeitsweg:",
+     "wort": "Plus Arbeitsweg:",
      "groesse": 95,
      "y": 330,
      "x": 500,
@@ -145,26 +119,17 @@
  ],
  "ton": [
   {
-   "datei": "../../musik/atmo/uhr_ticken.mp3",
-   "ab": 0,
-   "start": 0,
-   "dauer": 2.6,
-   "lautstaerke": 0.22,
-   "ein": 0.1,
-   "aus": 0.2
-  },
-  {
    "datei": "../../musik/atmo/fehlerton.mp3",
-   "ab": 0.3,
+   "ab": 0.25,
    "dauer": 0.8,
-   "lautstaerke": 0.33
+   "lautstaerke": 0.318
   },
   {
    "datei": "../../musik/10_runway_spannung.mp3",
-   "ab": 2.6,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.71,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }

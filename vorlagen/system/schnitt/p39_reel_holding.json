@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/39_2026-10-28_reel_holding/titelbild.png",
-   "dauer": 2.2,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Rechnen wir nach:",
-     "groesse": 90,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_regel.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -44,12 +18,12 @@
    ],
    "text": [
     {
-     "wort": "Verkaufsgewinn:",
+     "wort": "Anteilsverkauf:",
      "groesse": 95,
      "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
      "wort": "95 % frei",
@@ -57,7 +31,7 @@
      "y": 500,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "gruen"
     }
    ]
@@ -131,7 +105,7 @@
    "ab": 0,
    "start": 0,
    "lautstaerke": 0.711,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }

@@ -4,27 +4,35 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/43_2026-10-30_reel_par35/titelbild.png",
-   "dauer": 2.2,
+   "karte": "../../posts/43_2026-10-30_reel_par35/bausteine/karte_400.png",
+   "dauer": 3.0,
    "von": [
     540,
     960,
     1080
    ],
    "nach": [
-    540,
+    525,
     960,
-    1000
+    1030
    ],
    "text": [
     {
-     "wort": "4,0 × Messbetrag:",
-     "groesse": 85,
-     "y": 300,
+     "wort": "Gewerbesteuer bis 400 %:",
+     "groesse": 90,
+     "y": 330,
      "x": 500,
      "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
+     "ab": 0.0
+    },
+    {
+     "wort": "fast 0 €",
+     "groesse": 200,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.0,
+     "farbe": "gruen"
     }
    ]
   },
@@ -96,39 +104,6 @@
    ]
   },
   {
-   "karte": "../../posts/43_2026-10-30_reel_par35/bausteine/karte_400.png",
-   "dauer": 3.0,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    525,
-    960,
-    1030
-   ],
-   "text": [
-    {
-     "wort": "Bis 400 % Hebesatz:",
-     "groesse": 95,
-     "y": 330,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.1
-    },
-    {
-     "wort": "fast neutral",
-     "groesse": 170,
-     "y": 500,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.6,
-     "farbe": "gruen"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/43_2026-10-30_reel_par35/bausteine/abspann_tool.png",
    "dauer": 3.2,
    "rein": "whip",
@@ -150,7 +125,7 @@
    "ab": 0,
    "start": 0,
    "lautstaerke": 0.59,
-   "ein": 0.3
+   "ein": 0.2
   }
  ]
 }
