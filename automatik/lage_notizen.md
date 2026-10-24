@@ -1,3 +1,7 @@
+- **Stand 24.10. vormittags (Sitzung mit Loris, go 1–3):**
+  - **Neues Wissen verbindlich:** `strategie/19_wissen_2026-10-24.md` – „Boring Content“: eine Idee pro Beitrag, einfache Wörter, festes Format, Pointe in 2 s, **4-Sekunden-Test vor jeder Freigabe**.
+  - **Online:** Reel 36 Bewirtung umgebaut („0 %“ ab Frame 1, Caption kurz) und Sa 24.10. ~11:02 per Sofort-Lauf gepostet (Branch `ccr-8ce2ce66-8i2ful`). Tipp-Story 12:15 wird per Sofort-Lauf nachgeschoben. Paragraf-Formel → Mo 26.10.
+  - **Umbau aller pausierten Feed-Beiträge** (32) nach Wissen 24.10. läuft; bleibt `pausiert`, bis Loris die Vorschau freigibt. Danach Branch nach `claude/instagram` übernehmen (Autopilot plant nur von dort).
 - **Stand 21.10. abends (Sitzung mit Loris):**
   - **Online heute:** Reel 42 AfA (manuell ~16:35, Stimme) und Reel 58 Vorsteuer (Autopilot 18:10, Stimme, Link im Plan). Nach 1 h AfA: 80 Aufrufe, Ø 16 s, 30 % geteilt, 18 % bis zum Ende → `strategie/06_auswertung.md`.
   - **Alle anderen Beiträge ab 21.10. sind `pausiert`** (Loris 21.10.; alter Status in `status_vorher`). Grund: Umbau aller Reels auf Loris' Stimme + neues Wissen. Wieder freigeben nur nach Loris' Ansage.
