@@ -1199,8 +1199,11 @@
       "bilder": [
         "story_mo_tipp.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "24.10.: Sofort-Post abgesagt (Reel archiviert), wartet mit dem Reel. · 24.10.: mit dem Reel auf Sa 12:15 vorgezogen (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen): storys/tipp_bewirtungsbeleg als Emoji-Tipp neu gerendert (👏/😮), ergänzt um „„Arbeitsgespräch“ reicht nicht“ (jobs/p36_reel_bewirtung.json)."
+      "status": "veroeffentlicht",
+      "hinweis": "24.10.: Sofort-Post abgesagt (Reel archiviert), wartet mit dem Reel. · 24.10.: mit dem Reel auf Sa 12:15 vorgezogen (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen): storys/tipp_bewirtungsbeleg als Emoji-Tipp neu gerendert (👏/😮), ergänzt um „„Arbeitsgespräch“ reicht nicht“ (jobs/p36_reel_bewirtung.json).",
+      "media_id": "18131174150508704",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4014930017247382776",
+      "veroeffentlicht_am": "2026-10-24 12:16"
     },
     {
       "id": "22-reel-steuersatz",
