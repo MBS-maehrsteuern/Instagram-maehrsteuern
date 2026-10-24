@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/54_2026-11-05_reel_reverse_charge/titelbild.png",
-   "dauer": 2.4,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Der Prüfer streicht:",
-     "groesse": 85,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "rot"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/54_2026-11-05_reel_reverse_charge/bausteine/haken_fall.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -41,6 +15,25 @@
     540,
     960,
     1020
+   ],
+   "text": [
+    {
+     "wort": "Vorsteuer aus der Rechnung:",
+     "groesse": 80,
+     "y": 320,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.0
+    },
+    {
+     "wort": "0 €",
+     "groesse": 260,
+     "y": 520,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.0,
+     "farbe": "rot"
+    }
    ]
   },
   {
@@ -143,7 +136,7 @@
   },
   {
    "datei": "../../musik/09_runway_lofi_piano.mp3",
-   "ab": 2.4,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.6,
    "ein": 0.3

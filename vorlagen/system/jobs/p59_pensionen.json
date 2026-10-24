@@ -2,6 +2,7 @@
  "titel": "Karussell 59 · Pensionsrückstellung 6 % vs. HGB (Nachtlauf 14.10., d3): Folie 6 Speichern + Weiterleiten + TOOL, Story-Teaser",
  "ausgabe": "../../posts/59_2026-11-08_pensionen",
  "bilder": [
+  {"vorlage":"karussell","datei":"folie_01.png","seite":1,"von":6,"typ":"titel","titel":"Steuerbilanz *6 %*. HGB deutlich weniger.","sub":"Pensionsrückstellung: dieselbe Zusage, zwei Zahlen.","saeule":"Wissen"},
   {
    "vorlage": "karussell",
    "datei": "folie_06.png",

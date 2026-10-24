@@ -1,16 +1,10 @@
-Reverse-Charge am Bau: Du hast die Umsatzsteuer bezahlt – und bekommst sie trotzdem nicht als Vorsteuer zurück. Warum? 🧾
+Reverse-Charge am Bau: Du hast 19.000 € Umsatzsteuer bezahlt – und bekommst daraus 0 € Vorsteuer. 🧾
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+Wer selbst Bauleistungen erbringt, schuldet die Steuer. Der Subunternehmer hätte netto abrechnen müssen, mit dem Hinweis „Steuerschuldnerschaft des Leistungsempfängers“. Die zu viel gezahlten 19.000 € holt ihr über eine berichtigte Rechnung zurück.
 
-Der Fall: Ein Subunternehmer stellt 100.000 € + 19.000 € USt in Rechnung. Ihr erbringt selbst Bauleistungen – also schuldet ihr die Steuer (§ 13b Abs. 2 Nr. 4, Abs. 5 UStG).
-→ Der Subunternehmer schuldet die ausgewiesenen 19.000 € trotzdem (§ 14c Abs. 1 UStG).
-→ Ihr dürft daraus keine Vorsteuer ziehen – abziehbar ist nur gesetzlich geschuldete Steuer (§ 15 Abs. 1 Satz 1 Nr. 1 UStG).
-→ Stattdessen schuldet ihr die 19.000 € nach § 13b und zieht sie als Vorsteuer wieder ab (§ 15 Abs. 1 Satz 1 Nr. 4 UStG). Die zu viel gezahlten 19.000 € holt ihr euch über eine berichtigte Rechnung vom Subunternehmer zurück.
-Richtig wäre gewesen: Nettorechnung mit dem Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG).
+Prüft ihr Eingangsrechnungen eher A) von Hand oder B) mit Regeln im System? 👇
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Prüft ihr Eingangsrechnungen auf § 13b eher A) von Hand oder B) mit Regeln im System? 👇
-📤 Schick das der Person, die bei euch die Eingangsrechnungen freigibt.
+§ 13b, § 14a Abs. 5, § 14c, § 15 UStG · Alle Zahlen sind Demo-Zahlen · typischer Fall, kein echter Mandant · Stand 2026
 
-Alle Zahlen sind Demo-Zahlen. Typischer Fall, kein echter Mandant.
-
-#steuern #steuerabteilung #umsatzsteuer #reversecharge
+#steuern #umsatzsteuer #reversecharge

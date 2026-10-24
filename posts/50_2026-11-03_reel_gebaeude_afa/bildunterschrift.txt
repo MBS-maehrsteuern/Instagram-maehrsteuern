@@ -1,16 +1,10 @@
-Gebäude-AfA: Zwei Häuser, gleicher Preis – und eines darf mehr als doppelt so schnell abschreiben. Warum? 🏢
+Gebäude-AfA: Gleicher Preis, aber 3 % oder 5 % im Jahr – je nach Haus. 🏢
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-Vorab: Grund und Boden wird nie abgeschrieben. Den Kaufpreis erst aufteilen.
-01 Linear nach Fertigstellung (§ 7 Abs. 4 EStG): Wohngebäude ab 2023 fertig 3 %, 1925–2022 2 %, vor 1925 2,5 %. Betriebsgebäude im Betriebsvermögen (nicht zu Wohnzwecken, Bauantrag nach 31.3.1985) 3 %.
-02 Degressiv 5 % vom Restwert für Wohngebäude mit Baubeginn 1.10.2023 bis 30.9.2029 (§ 7 Abs. 5a EStG). Späterer Wechsel zur linearen AfA möglich.
-03 Sonder-AfA zusätzlich 5 % für vier Jahre beim Mietwohnungsneubau (§ 7b EStG) – nur mit Baukosten-Obergrenze, Effizienzvorgaben und zehn Jahren Vermietung.
-Demo: Gebäudeanteil 400.000 €, volles Jahr → linear 3 % = 12.000 €, degressiv 5 % = 20.000 € (im Jahr danach 5 % von 380.000 € = 19.000 €). Im ersten Jahr zeitanteilig.
+Grund und Boden schreibst du nie ab. Beim Wohnungsneubau darf das Gebäude mit 5 % vom Restwert schneller abgeschrieben werden als mit den üblichen 3 %. Demo: 400.000 € Gebäudeanteil → 12.000 € linear, 20.000 € degressiv.
 
 Was rechnet ihr öfter: A) linear oder B) degressiv? 👇
-📤 Schick das dem Kollegen, der gerade einen Neubau im Bestand hat.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Alle Zahlen sind Demo-Zahlen. Gesetzeswerte, Stand 2026.
+§ 7 Abs. 4, Abs. 5a EStG, § 7b EStG · Alle Zahlen sind Demo-Zahlen · Stand 2026
 
-#steuern #steuerberatung #immobilien #abschreibung
+#steuern #immobilien #abschreibung

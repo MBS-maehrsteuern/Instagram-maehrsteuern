@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/52_2026-11-04_reel_gobd/titelbild.png",
-   "dauer": 2.4,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Betriebsprüfung, Tag 1:",
-     "groesse": 85,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/52_2026-11-04_reel_gobd/bausteine/karte_unveraenderbar.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -44,20 +18,20 @@
    ],
    "text": [
     {
-     "wort": "Unveränderbar",
-     "groesse": 95,
-     "y": 330,
+     "wort": "Excel stimmt – und",
+     "groesse": 80,
+     "y": 320,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "Überschrieben ohne Spur?",
+     "wort": "fällt durch",
      "groesse": 110,
-     "y": 500,
+     "y": 520,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "rot"
     }
    ]
@@ -162,7 +136,7 @@
   },
   {
    "datei": "../../musik/11_runway_future_garage.mp3",
-   "ab": 2.4,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.74,
    "ein": 0.3

@@ -1,19 +1,10 @@
-Kleinunternehmerregelung seit 2025: Ein einziger Auftrag kann dich sofort umsatzsteuerpflichtig machen – nicht erst ab Januar. Wann? 📈
+Kleinunternehmer: Über 100.000 € Umsatz im laufenden Jahr – und schon diese Rechnung braucht Umsatzsteuer. 📈
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-Zwei Grenzen, beide müssen passen (§ 19 Abs. 1 UStG):
-01 Vorjahr: Gesamtumsatz höchstens 25.000 €.
-02 Laufendes Jahr: höchstens 100.000 €. Wer darüber kommt, ist sofort raus – schon der Umsatz, mit dem die Grenze überschritten wird, ist regulär steuerpflichtig. Kein Abwarten bis zum Jahreswechsel mehr.
-03 Die Umsätze sind steuerfrei, dafür gibt es keinen Vorsteuerabzug. Wer verzichtet, ist fünf Jahre gebunden (§ 19 Abs. 3 UStG).
-Neu gegründet? Im Gründungsjahr gilt die 25.000-€-Grenze für das laufende Jahr.
-Demo: Vorjahr 24.000 €, bis Oktober 96.000 €. Die nächste Rechnung über 8.000 € netto hebt den Umsatz auf 104.000 € → schon diese Rechnung braucht Umsatzsteuer.
-
-Mein Tool zeigt monatlich, wie nah der laufende Umsatz an 100.000 € liegt. Kommentiere „TOOL“ und ich schick dir die Demo.
+Seit 2025 gibt es kein Abwarten bis Januar mehr: Wer die 100.000 € überschreitet, ist sofort raus. Zusätzlich darf der Vorjahresumsatz höchstens 25.000 € betragen. Demo: Vorjahr 24.000 €, bis Oktober 96.000 € – die nächste Rechnung über 8.000 € netto (→ 104.000 €) braucht schon Umsatzsteuer. Dafür gibt es ohne Regelung keinen Vorsteuerabzug.
 
 Wie behaltet ihr die Grenze im Blick: A) Excel-Liste oder B) gar nicht? 👇
-📤 Schick das dem Selbstständigen, der gerade richtig Fahrt aufnimmt.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Alle Zahlen sind Demo-Zahlen. Gesetzeswerte, Stand 2026.
+§ 19 Abs. 1, 3 UStG · Alle Zahlen sind Demo-Zahlen · Stand 2026
 
-#steuern #steuerberatung #umsatzsteuer #kleinunternehmer
+#steuern #umsatzsteuer #kleinunternehmer

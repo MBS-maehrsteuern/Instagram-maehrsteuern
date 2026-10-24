@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/titelbild.png",
-   "dauer": 2.2,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Gewinn bleibt im Betrieb?",
-     "groesse": 85,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_regel.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -44,20 +18,20 @@
    ],
    "text": [
     {
-     "wort": "Auf Antrag:",
-     "groesse": 95,
-     "y": 330,
+     "wort": "Gewinn im Betrieb:",
+     "groesse": 80,
+     "y": 320,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
      "wort": "28,25 %",
-     "groesse": 180,
-     "y": 500,
+     "groesse": 200,
+     "y": 520,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "gruen"
     }
    ]
@@ -141,6 +115,17 @@
     540,
     960,
     1040
+   ],
+   "text": [
+    {
+     "wort": "Lassen oder entnehmen?",
+     "groesse": 80,
+     "y": 320,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
    ]
   }
  ],

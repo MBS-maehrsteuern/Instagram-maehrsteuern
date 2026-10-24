@@ -1,17 +1,10 @@
-Jahresabschluss-Glossar: Messbetrag, Zerlegung, Einlagekonto – du nutzt sie jedes Jahr, aber kannst du alle 5 Begriffe erklären? 📖
+Jahresabschluss-Glossar: 5 Begriffe, die du jedes Jahr nutzt – kannst du alle erklären? 📖
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-01 Messbetrag: Gewerbeertrag (abgerundet auf volle 100 €, bei Personenunternehmen nach 24.500 € Freibetrag) × 3,5 % – mal Hebesatz ergibt die Gewerbesteuer (§§ 11, 14, 16 GewStG)
-02 Zerlegung: Aufteilung des Messbetrags auf die Gemeinden mit Betriebsstätten, in der Regel nach Arbeitslöhnen (§ 29 GewStG)
-03 Einlagekonto: hält Einlagen außerhalb des Nennkapitals fest; Leistungen daraus sind steuerfrei – aber erst nach dem ausschüttbaren Gewinn (§ 27 KStG)
-04 Schädlicher Beteiligungserwerb: mehr als 50 % der Anteile in fünf Jahren → Verlustvortrag geht grundsätzlich unter (§ 8c KStG; Ausnahmen u. a. Konzern- und Stille-Reserven-Klausel)
-05 Teilwert: was ein Erwerber des ganzen Betriebs für das einzelne Wirtschaftsgut ansetzen würde (§ 6 Abs. 1 Nr. 1 Satz 3 EStG)
+Messbetrag, Zerlegung, Einlagekonto, schädlicher Beteiligungserwerb und Teilwert – kurz erklärt, zum Nachschlagen.
 
 Welcher Begriff kostet bei euch mehr Zeit: A) Zerlegung oder B) Einlagekonto? 👇
-📌 Speichern für den Abschluss 2026.
-📤 Wer in deinem Team braucht das? Schick's der neuen Kollegin oder dem Werkstudenten.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Gesetzeswerte, Stand 2026.
+§§ 11, 14, 16, 29 GewStG, § 27 KStG, § 8c KStG, § 6 Abs. 1 Nr. 1 EStG · Gesetzeswerte, Stand 2026
 
-#steuern #steuerabteilung #jahresabschluss #steuerglossar
+#steuern #jahresabschluss #steuerglossar

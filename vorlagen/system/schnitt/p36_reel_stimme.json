@@ -1,0 +1,484 @@
+{
+ "ausgabe": "../../posts/36_2026-10-26_reel_bewirtung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/hintergrund.png",
+   "dauer": 4.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    960
+   ],
+   "text": [
+    {
+     "wort": "Beleg da, Betrag",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.92
+    },
+    {
+     "wort": "stimmt, Teilnehmer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.92,
+     "bis": 1.8
+    },
+    {
+     "wort": "stehen drauf und der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.8,
+     "bis": 2.66
+    },
+    {
+     "wort": "Prüfer streicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.66,
+     "bis": 3.26
+    },
+    {
+     "wort": "trotzdem alles.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.26,
+     "bis": 4.3
+    },
+    {
+     "wort": "Bewirtung",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "ohne Anlass:",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 990,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    },
+    {
+     "wort": "0 %",
+     "farbe": "rot",
+     "groesse": 260,
+     "y": 1220,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/hintergrund.png",
+   "dauer": 2.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "weil ein Wort fehlt:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.14
+    },
+    {
+     "wort": "der Anlass.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.14,
+     "bis": 2.12
+    },
+    {
+     "wort": "Ein Wort fehlt:",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 2.12
+    },
+    {
+     "wort": "Anlass.",
+     "farbe": "gelb",
+     "groesse": 190,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.2,
+     "bis": 2.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_70.png",
+   "dauer": 2.94,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Geschäftliche",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.52
+    },
+    {
+     "wort": "Bewirtungen sind zu 70",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.52,
+     "bis": 1.66
+    },
+    {
+     "wort": "% abziehbar, aber nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.66,
+     "bis": 2.94
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_angaben.png",
+   "dauer": 3.82,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "% abziehbar, aber nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.38
+    },
+    {
+     "wort": "mit Ort, Tag,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.38,
+     "bis": 1.58
+    },
+    {
+     "wort": "Teilnehmern, Anlass",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.92
+    },
+    {
+     "wort": "und Höhe.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.92,
+     "bis": 3.82
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/hintergrund.png",
+   "dauer": 4.48,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Steht da nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.56
+    },
+    {
+     "wort": "Arbeitsgespräch, ist",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.56,
+     "bis": 1.72
+    },
+    {
+     "wort": "der Nachweis nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.72,
+     "bis": 2.34
+    },
+    {
+     "wort": "erbracht:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.34,
+     "bis": 3.14
+    },
+    {
+     "wort": "0 statt 70 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.14,
+     "bis": 4.48
+    },
+    {
+     "wort": "„Arbeitsgespräch“",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.56,
+     "bis": 4.48
+    },
+    {
+     "wort": "= 0 %",
+     "farbe": "rot",
+     "groesse": 220,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.14,
+     "bis": 4.48
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_konto.png",
+   "dauer": 4.12,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Und der zweite Fehler:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 1.22
+    },
+    {
+     "wort": "Bewirtungen getrennt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 2.12
+    },
+    {
+     "wort": "buchen, sonst ist der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.12,
+     "bis": 2.98
+    },
+    {
+     "wort": "Abzug auch weg.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.98,
+     "bis": 4.12
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/hintergrund.png",
+   "dauer": 3.32,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Wo steht bei euch der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.88
+    },
+    {
+     "wort": "Anlass –",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.88,
+     "bis": 1.58
+    },
+    {
+     "wort": "auf dem Beleg oder",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.36
+    },
+    {
+     "wort": "digital?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.36,
+     "bis": 3.02
+    },
+    {
+     "wort": "Anlass: Beleg",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.88,
+     "bis": 3.32
+    },
+    {
+     "wort": "oder digital?",
+     "farbe": "gelb",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.36,
+     "bis": 3.32
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/36_2026-10-26_reel_bewirtung/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

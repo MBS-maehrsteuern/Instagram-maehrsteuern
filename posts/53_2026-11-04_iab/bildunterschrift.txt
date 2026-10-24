@@ -1,19 +1,10 @@
-Investitionsabzugsbetrag (§ 7g EStG): Du kannst eine Maschine absetzen, die du noch gar nicht gekauft hast. Der Haken? 📌
+Investitionsabzugsbetrag: Du kannst 50 % einer Maschine absetzen, bevor du sie kaufst. Der Haken: die Frist. 📌
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-01 Höhe: bis zu 50 % der geplanten Anschaffungskosten eines beweglichen Wirtschaftsguts (§ 7g Abs. 1 EStG).
-02 Grenzen: Gewinn höchstens 200.000 €, Abzugsbeträge insgesamt höchstens 200.000 € je Betrieb (§ 7g Abs. 1 Satz 2 und 4 EStG).
-03 Frist: Investition bis Ende des dritten Folgejahres – sonst Rückgängigmachung im Abzugsjahr, mit Zinsen (§ 7g Abs. 3 EStG).
-04 Dazu: 40 % Sonder-AfA im Kaufjahr und den vier Folgejahren, zusätzlich zur normalen AfA (§ 7g Abs. 5 EStG).
-05 Nutzung: mindestens 90 % betrieblich – im Kaufjahr und im Folgejahr (§ 7g Abs. 4 und 6 EStG).
-
-Demo: Maschine geplant für 2027, 60.000 € → IAB 2026: 30.000 €.
+Investierst du nicht bis Ende des dritten Folgejahres, wird der Abzug rückwirkend gestrichen – mit Zinsen. Demo: Maschine 2027, 60.000 € → 30.000 € Abzug in 2026.
 
 Was nutzt ihr häufiger: A) IAB oder B) Sonder-AfA? 👇
-📌 Speichern für die Investitionsplanung.
-📤 Wer in deinem Team braucht das? Schick's der Person, die die Fristen im Blick behalten muss.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Alle Zahlen sind Demo-Zahlen. Gesetzeswerte, Stand 2026.
+§ 7g EStG, § 233a AO · Alle Zahlen sind Demo-Zahlen · Stand 2026
 
-#steuern #steuerberatung #jahresabschluss #investitionsabzugsbetrag
+#steuern #investitionsabzugsbetrag #jahresabschluss

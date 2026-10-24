@@ -4,6 +4,16 @@
  "bilder": [
   {
    "vorlage": "karussell",
+   "datei": "folie_01.png",
+   "seite": 1,
+   "von": 6,
+   "typ": "titel",
+   "saeule": "Wissen",
+   "titel": "Unter *3 Mio. €* Zinsen: keine Zinsschranke.",
+   "sub": "Freigrenze, kein Freibetrag."
+  },
+  {
+   "vorlage": "karussell",
    "datei": "folie_03.png",
    "seite": 3,
    "von": 6,

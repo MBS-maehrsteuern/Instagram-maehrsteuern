@@ -1,17 +1,10 @@
-Firmenwagen: Du trägst jede Fahrt sauber ein – und der Prüfer verwirft das Fahrtenbuch trotzdem. Warum? 🚗
+Firmenwagen: Dein Excel-Fahrtenbuch wird verworfen – dann gilt 1 % vom Listenpreis, jeden Monat. 🚗
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-Typischer Prüfer-Fall: Das Fahrtenbuch ist eine Excel-Liste, die sich jederzeit ändern lässt. Der Prüfer verwirft es – und setzt die 1-%-Regel an.
-01 Fahrtenbuch nur, wenn es ordnungsgemäß ist (§ 8 Abs. 2 Satz 4 EStG) – also zeitnah und in geschlossener Form geführt (BFH-Rechtsprechung, R 8.1 Abs. 9 Nr. 2 LStR). Nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein.
-02 Sonst gilt pauschal 1 % vom Bruttolistenpreis pro Monat (§ 8 Abs. 2 Satz 2 i. V. m. § 6 Abs. 1 Nr. 4 Satz 2 EStG) – egal, wie wenig privat gefahren wird.
-03 Plus 0,03 % je Entfernungskilometer für den Arbeitsweg (§ 8 Abs. 2 Satz 3 EStG), alternativ 0,002 % je Entfernungskilometer und Fahrt bei höchstens 180 Fahrten im Jahr (BMF 03.03.2022).
-Demo: Listenpreis 50.000 €, 20 km Arbeitsweg → 500 € + 300 € = 800 € geldwerter Vorteil im Monat, 9.600 € im Jahr.
-E-Autos: 0,25 % bis 100.000 € Listenpreis (Anschaffung ab 1.7.2025), darüber 0,5 %.
+Ein Fahrtenbuch zählt nur, wenn es zeitnah und in geschlossener Form geführt wird; nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein. Demo: Listenpreis 50.000 €, 20 km Arbeitsweg → 500 € + 300 € = 800 € geldwerter Vorteil im Monat, 9.600 € im Jahr.
 
 Wie führt ihr Fahrtenbücher: A) App/elektronisch oder B) Papier? 👇
-📤 Schick das dem Kollegen, der bei euch die Dienstwagen abrechnet.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Typischer Fall, kein echter Mandant. Alle Zahlen sind Demo-Zahlen.
+§ 8 Abs. 2 EStG, § 6 Abs. 1 Nr. 4 S. 2 EStG, R 8.1 Abs. 9 Nr. 2 LStR (0,03 % je Entfernungskilometer; Alternative 0,002 % bei höchstens 180 Fahrten, BMF 03.03.2022; E-Autos 0,25 % bis 100.000 € Listenpreis bei Anschaffung ab 1.7.2025, darüber 0,5 %) · typischer Fall, kein echter Mandant · Alle Zahlen sind Demo-Zahlen · Stand 2026
 
-#steuern #steuerabteilung #lohnsteuer #firmenwagen
+#steuern #lohnsteuer #firmenwagen

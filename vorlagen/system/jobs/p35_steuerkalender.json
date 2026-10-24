@@ -4,6 +4,16 @@
  "bilder": [
   {
    "vorlage": "karussell",
+   "datei": "folie_01.png",
+   "seite": 1,
+   "von": 6,
+   "typ": "titel",
+   "saeule": "Praxis",
+   "titel": "GewSt am 15.11.: zahlen erst am *16.11.*",
+   "sub": "Der 15.11.2026 ist ein Sonntag."
+  },
+  {
+   "vorlage": "karussell",
    "datei": "folie_02.png",
    "seite": 2,
    "von": 6,

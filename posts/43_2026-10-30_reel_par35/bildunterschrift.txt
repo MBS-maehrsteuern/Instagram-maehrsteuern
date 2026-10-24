@@ -1,20 +1,10 @@
-§ 35 EStG: Du zahlst über 10.000 € Gewerbesteuer – und sie kann dich am Ende fast nichts kosten. Wie? 🔁
+Gewerbesteuer über 10.000 €? Bis 400 % Hebesatz kann sie dich fast nichts kosten. 🔁
 
-💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
-
-So läuft die Steuerermäßigung:
-01 Gewerbeertrag minus 24.500 € Freibetrag (§ 11 Abs. 1 Satz 3 Nr. 1 GewStG)
-02 × 3,5 % Steuermesszahl = Messbetrag (§ 11 Abs. 2 GewStG)
-03 Die Einkommensteuer sinkt um das 4,0-Fache des Messbetrags – höchstens um die tatsächlich zu zahlende Gewerbesteuer (§ 35 Abs. 1 EStG) und höchstens um die anteilige Einkommensteuer auf die gewerblichen Einkünfte.
-
-Demo: Gewerbeertrag 100.000 € → Messbetrag 2.642,50 €.
-Hebesatz 400 %: Gewerbesteuer 10.570 €, Ermäßigung 10.570 € → neutral (wenn genug Einkommensteuer anfällt).
-Hebesatz 450 %: Gewerbesteuer 11.891,25 €, Ermäßigung 10.570 € → 1.321,25 € bleiben als Belastung.
-Gilt nur für natürliche Personen und Mitunternehmer – nicht für die GmbH.
+Die Einkommensteuer sinkt um das 4,0-Fache des Gewerbesteuer-Messbetrags – höchstens um die gezahlte Gewerbesteuer. Demo: Gewerbeertrag 100.000 € → bei 400 % neutral, bei 450 % bleiben 1.321,25 € als Belastung. Gilt nur für natürliche Personen und Mitunternehmer, nicht für die GmbH.
 
 Wie hoch ist euer Hebesatz: A) bis 400 % oder B) darüber? 👇
-📤 Schick das dem Kollegen, der die Personengesellschaften betreut.
+💬 Kommentiere „TOOL“ – ich schick dir die Demo per DM.
 
-Alle Zahlen sind Demo-Zahlen. Ohne SolZ und Kirchensteuer, Stand 2026.
+§ 35 EStG, § 11 GewStG · Alle Zahlen sind Demo-Zahlen, ohne SolZ und Kirchensteuer · Stand 2026
 
-#steuern #steuerberatung #gewerbesteuer #einkommensteuer
+#steuern #gewerbesteuer #einkommensteuer

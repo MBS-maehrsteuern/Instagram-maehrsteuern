@@ -4,31 +4,6 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/57_2026-11-07_reel_verlust_8c/titelbild.png",
-   "dauer": 2.6,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Verlustvortrag: 0 €?",
-     "groesse": 90,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/57_2026-11-07_reel_verlust_8c/bausteine/karte_regel.png",
    "dauer": 3.6,
    "von": [
@@ -41,23 +16,22 @@
     960,
     1030
    ],
-   "rein": "whip",
    "text": [
     {
-     "wort": "Die Regel",
-     "groesse": 95,
-     "y": 330,
+     "wort": "Über 50 % verkauft:",
+     "groesse": 80,
+     "y": 320,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "> 50 % in 5 Jahren",
-     "groesse": 110,
-     "y": 500,
+     "wort": "Verlust: 0 €",
+     "groesse": 130,
+     "y": 520,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "rot"
     }
    ]
@@ -128,7 +102,7 @@
   },
   {
    "datei": "../../musik/10_runway_spannung.mp3",
-   "ab": 2.6,
+   "ab": 0,
    "start": 0,
    "lautstaerke": 0.74,
    "ein": 0.3

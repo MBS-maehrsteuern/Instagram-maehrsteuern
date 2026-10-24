@@ -4,31 +4,6 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/titelbild.png",
-   "dauer": 2.6,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Welcher AfA-Satz?",
-     "groesse": 90,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_linear.png",
    "dauer": 3.2,
    "von": [
@@ -41,23 +16,22 @@
     960,
     1030
    ],
-   "rein": "whip",
    "text": [
     {
-     "wort": "1 · Linear",
-     "groesse": 95,
-     "y": 330,
+     "wort": "Gebäude-AfA:",
+     "groesse": 80,
+     "y": 320,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "2 · 2,5 · 3 %",
-     "groesse": 130,
-     "y": 500,
+     "wort": "3 % oder 5 %",
+     "groesse": 120,
+     "y": 520,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "gelb"
     }
    ]

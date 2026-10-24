@@ -4,34 +4,8 @@
  "quellen": {},
  "szenen": [
   {
-   "karte": "../../posts/53_2026-11-04_iab/titelbild.png",
-   "dauer": 2.2,
-   "von": [
-    540,
-    960,
-    1080
-   ],
-   "nach": [
-    540,
-    960,
-    1000
-   ],
-   "text": [
-    {
-     "wort": "Investition 2027 geplant?",
-     "groesse": 85,
-     "y": 310,
-     "x": 500,
-     "breite": 860,
-     "ab": 0.3,
-     "farbe": "gelb"
-    }
-   ]
-  },
-  {
    "karte": "../../posts/53_2026-11-04_iab/bausteine/karte_50.png",
    "dauer": 3.0,
-   "rein": "whip",
    "von": [
     540,
     960,
@@ -44,20 +18,20 @@
    ],
    "text": [
     {
-     "wort": "Abzug schon 2026:",
-     "groesse": 95,
-     "y": 330,
+     "wort": "Vor dem Kauf abziehen:",
+     "groesse": 80,
+     "y": 320,
      "x": 500,
      "breite": 860,
-     "ab": 0.1
+     "ab": 0.0
     },
     {
-     "wort": "50 % der Kosten",
-     "groesse": 130,
-     "y": 500,
+     "wort": "50 %",
+     "groesse": 220,
+     "y": 520,
      "x": 500,
      "breite": 860,
-     "ab": 0.6,
+     "ab": 0.0,
      "farbe": "gruen"
     }
    ]

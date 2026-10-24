@@ -4,6 +4,16 @@
  "bilder": [
   {
    "vorlage": "karussell",
+   "datei": "folie_01.png",
+   "seite": 1,
+   "von": 6,
+   "typ": "titel",
+   "saeule": "Praxis",
+   "titel": "Betriebsprüfung: *4 Dinge* vorher klären.",
+   "sub": "Eine kurze Checkliste."
+  },
+  {
+   "vorlage": "karussell",
    "datei": "folie_03.png",
    "seite": 3,
    "von": 6,
