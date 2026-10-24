@@ -11,10 +11,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **7/14** (6 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **4/7** – ohne Reel: Fr 23.10., Sa 24.10., So 25.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
-- **Freie Slots nächste 7 Tage** (3):
+- **Freie Slots nächste 7 Tage** (5):
   - Sa 24.10.: Story 17:50
   - Mo 26.10.: Story 17:50
   - Do 29.10.: Feed 17:45
+  - Sa 31.10.: Feed 11:45 · Story 12:15
 
 ## 📝 Gerade in Arbeit
 
