@@ -1179,14 +1179,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "24.10.: go Loris für Fassung mit Stimme, sofort posten mit erstem Kommentar (erster_kommentar.txt). Zeile 1 der Caption leicht geändert, damit die Doppel-Post-Sperre das archivierte Reel nicht für diesen Beitrag hält. · 24.10. ~11:10: Loris hat die Fassung ohne Stimme archiviert (Fehler Claude: stimme_36.wav vom 21.10. übersehen). Neu gebaut mit Loris' Stimme (aufnahmen/2026-10-21/geschnitten/stimme_36.wav), 26,9 s, −18 LUFS, Hook „Bewirtung ohne Anlass: 0 %“ ab Frame 1, Bau: schnitt/p36_reel_stimme_bauen.py. Wartet auf go von Loris. · 24.10. (Loris: go, direkt nach Fertigstellung) umgebaut nach Wissen 24.10. (strategie/19_wissen_2026-10-24.md): Hook „Bewirtung ohne Anlass: 0 %“ ab Frame 1, Titel-Intro raus (zweite Idee), 11,4 s, −17,9 LUFS, Bildunterschrift gekürzt (alt: bildunterschrift_alt.txt, reel_alt.mp4); vorgezogen von Mo 26.10. 11:45, gepostet per Sofort-Lauf. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, „30 %“-Zweifel entschieden), Reel ohne Stimme 13,3 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Prüfer-Fall „Bewirtung ohne Anlass: 0 statt 70 %“: Karte aus karussell/bewirtung Folie 2 (schnitt/p36_40_karten_bauen.py), Titelbild, Pflichtangaben-Karte (§ 4 Abs. 5 Satz 1 Nr. 2 EStG), Getrennt-buchen-Karte (§ 4 Abs. 7 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p36_reel_bewirtung.json), Schnitt schnitt/p36_reel_bewirtung.json. Vorsteuer-Folge bei fehlendem Nachweis bewusst weggelassen (Rechtsprechung uneinheitlich).",
       "erster_kommentar_id": "18012338201996328",
       "link_archiviert": "https://www.instagram.com/reel/De3w_gsoISU/",
-      "media_id_archiviert": "17950919496342377"
+      "media_id_archiviert": "17950919496342377",
+      "media_id": "18026830385879457",
+      "link": "https://www.instagram.com/reel/De3yheAFKBg/",
+      "veroeffentlicht_am": "2026-10-24 11:17"
     },
     {
       "id": "36-story-tipp",
