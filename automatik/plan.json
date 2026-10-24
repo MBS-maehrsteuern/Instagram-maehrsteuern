@@ -1075,7 +1075,7 @@
     },
     {
       "id": "33-reel-paragraf-formel",
-      "zeit": "2026-10-24 11:45",
+      "zeit": "2026-10-26 11:45",
       "typ": "reel",
       "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
       "video": "reel.mp4",
@@ -1085,19 +1085,19 @@
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,4 s (3 Normen als Formel: § 8 Nr. 1 GewStG, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 8b Abs. 5 KStG; Abspann abspann_paragraf; Titelbild neu mit „Drei Normen“ statt „Fünf“). Raster Sa mittags = Stimme → Abweichung (keine Aufnahme). Schnitt: vorlagen/system/schnitt/p33_reel_paragraf_formel.json",
+      "hinweis": "24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,4 s (3 Normen als Formel: § 8 Nr. 1 GewStG, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 8b Abs. 5 KStG; Abspann abspann_paragraf; Titelbild neu mit „Drei Normen“ statt „Fünf“). Raster Sa mittags = Stimme → Abweichung (keine Aufnahme). Schnitt: vorlagen/system/schnitt/p33_reel_paragraf_formel.json",
       "status_vorher": "freigegeben"
     },
     {
       "id": "33-story-teaser",
-      "zeit": "2026-10-24 12:15",
+      "zeit": "2026-10-26 12:15",
       "typ": "story",
       "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
       "bilder": [
         "story_sa_teaser.png"
       ],
       "status": "pausiert",
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild",
+      "hinweis": "24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild",
       "status_vorher": "freigegeben"
     },
     {
@@ -1173,30 +1173,28 @@
     },
     {
       "id": "36-reel-bewirtung",
-      "zeit": "2026-10-26 11:45",
+      "zeit": "2026-10-24 11:00",
       "typ": "reel",
       "ordner": "posts/36_2026-10-26_reel_bewirtung",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, „30 %“-Zweifel entschieden), Reel ohne Stimme 13,3 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Prüfer-Fall „Bewirtung ohne Anlass: 0 statt 70 %“: Karte aus karussell/bewirtung Folie 2 (schnitt/p36_40_karten_bauen.py), Titelbild, Pflichtangaben-Karte (§ 4 Abs. 5 Satz 1 Nr. 2 EStG), Getrennt-buchen-Karte (§ 4 Abs. 7 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p36_reel_bewirtung.json), Schnitt schnitt/p36_reel_bewirtung.json. Vorsteuer-Folge bei fehlendem Nachweis bewusst weggelassen (Rechtsprechung uneinheitlich).",
-      "status_vorher": "freigegeben"
+      "hinweis": "24.10. (Loris: go, direkt nach Fertigstellung) umgebaut nach Wissen 24.10. (strategie/19_wissen_2026-10-24.md): Hook „Bewirtung ohne Anlass: 0 %“ ab Frame 1, Titel-Intro raus (zweite Idee), 11,4 s, −17,9 LUFS, Bildunterschrift gekürzt (alt: bildunterschrift_alt.txt, reel_alt.mp4); vorgezogen von Mo 26.10. 11:45, gepostet per Sofort-Lauf. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, „30 %“-Zweifel entschieden), Reel ohne Stimme 13,3 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Prüfer-Fall „Bewirtung ohne Anlass: 0 statt 70 %“: Karte aus karussell/bewirtung Folie 2 (schnitt/p36_40_karten_bauen.py), Titelbild, Pflichtangaben-Karte (§ 4 Abs. 5 Satz 1 Nr. 2 EStG), Getrennt-buchen-Karte (§ 4 Abs. 7 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p36_reel_bewirtung.json), Schnitt schnitt/p36_reel_bewirtung.json. Vorsteuer-Folge bei fehlendem Nachweis bewusst weggelassen (Rechtsprechung uneinheitlich)."
     },
     {
       "id": "36-story-tipp",
-      "zeit": "2026-10-26 12:15",
+      "zeit": "2026-10-24 12:15",
       "typ": "story",
       "ordner": "posts/36_2026-10-26_reel_bewirtung",
       "bilder": [
         "story_mo_tipp.png"
       ],
-      "status": "pausiert",
-      "hinweis": "14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen): storys/tipp_bewirtungsbeleg als Emoji-Tipp neu gerendert (👏/😮), ergänzt um „„Arbeitsgespräch“ reicht nicht“ (jobs/p36_reel_bewirtung.json).",
-      "status_vorher": "freigegeben"
+      "status": "freigegeben",
+      "hinweis": "24.10.: mit dem Reel auf Sa 12:15 vorgezogen (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen): storys/tipp_bewirtungsbeleg als Emoji-Tipp neu gerendert (👏/😮), ergänzt um „„Arbeitsgespräch“ reicht nicht“ (jobs/p36_reel_bewirtung.json)."
     },
     {
       "id": "22-reel-steuersatz",
