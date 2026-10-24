@@ -1179,11 +1179,15 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10. (Loris: go, direkt nach Fertigstellung) umgebaut nach Wissen 24.10. (strategie/19_wissen_2026-10-24.md): Hook „Bewirtung ohne Anlass: 0 %“ ab Frame 1, Titel-Intro raus (zweite Idee), 11,4 s, −17,9 LUFS, Bildunterschrift gekürzt (alt: bildunterschrift_alt.txt, reel_alt.mp4); vorgezogen von Mo 26.10. 11:45, gepostet per Sofort-Lauf. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, „30 %“-Zweifel entschieden), Reel ohne Stimme 13,3 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Prüfer-Fall „Bewirtung ohne Anlass: 0 statt 70 %“: Karte aus karussell/bewirtung Folie 2 (schnitt/p36_40_karten_bauen.py), Titelbild, Pflichtangaben-Karte (§ 4 Abs. 5 Satz 1 Nr. 2 EStG), Getrennt-buchen-Karte (§ 4 Abs. 7 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p36_reel_bewirtung.json), Schnitt schnitt/p36_reel_bewirtung.json. Vorsteuer-Folge bei fehlendem Nachweis bewusst weggelassen (Rechtsprechung uneinheitlich)."
+      "hinweis": "24.10. (Loris: go, direkt nach Fertigstellung) umgebaut nach Wissen 24.10. (strategie/19_wissen_2026-10-24.md): Hook „Bewirtung ohne Anlass: 0 %“ ab Frame 1, Titel-Intro raus (zweite Idee), 11,4 s, −17,9 LUFS, Bildunterschrift gekürzt (alt: bildunterschrift_alt.txt, reel_alt.mp4); vorgezogen von Mo 26.10. 11:45, gepostet per Sofort-Lauf. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, „30 %“-Zweifel entschieden), Reel ohne Stimme 13,3 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Prüfer-Fall „Bewirtung ohne Anlass: 0 statt 70 %“: Karte aus karussell/bewirtung Folie 2 (schnitt/p36_40_karten_bauen.py), Titelbild, Pflichtangaben-Karte (§ 4 Abs. 5 Satz 1 Nr. 2 EStG), Getrennt-buchen-Karte (§ 4 Abs. 7 EStG) und Abspann „Kommentiere TOOL“ neu (jobs/p36_reel_bewirtung.json), Schnitt schnitt/p36_reel_bewirtung.json. Vorsteuer-Folge bei fehlendem Nachweis bewusst weggelassen (Rechtsprechung uneinheitlich).",
+      "media_id": "17950919496342377",
+      "link": "https://www.instagram.com/reel/De3w_gsoISU/",
+      "veroeffentlicht_am": "2026-10-24 11:03",
+      "erster_kommentar_id": "18012338201996328"
     },
     {
       "id": "36-story-tipp",
