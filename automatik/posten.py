@@ -176,6 +176,8 @@ def pruefen(e):
             return "Video fehlt"
         if e.get("musik_fehlt"):
             return "Reel ist noch stumm (musik_fehlt) – erst Musik einbauen oder Feld entfernen"
+        if e.get("stimme") is not True:  # Loris 24.10.: nie wieder ein Reel ohne seine Stimme
+            return "Reel ohne Loris' Stimme (stimme muss true sein) – erst mit Aufnahme neu bauen"
     for n in e.get("bilder", []):
         if not (WURZEL / e["ordner"] / n).exists():
             return f"Bild fehlt: {n}"

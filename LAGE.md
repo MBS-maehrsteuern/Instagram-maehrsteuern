@@ -189,6 +189,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 24.10.2026**
+- 11:13 ✍️ Umbau Gruppe B: Bildunterschriften 38–49 nach Wissen 24.10., Schnitt-Hooks vorbereitet (Reels werden mit Stimme neu gebaut), Lage aktualisiert ([`fd54a02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fd54a022ddc7ad71f63cea67946eb28e7184e45a))
+  - `LAGE.html`
 - 11:13 ✍️ Reel Bewirtung mit Loris' Stimme neu gebaut (Fassung ohne Stimme archiviert), wartet auf go; Umbau Gruppe A+C: Bildunterschriften und Karussell-Folie 1 nach Wissen 24.10. ([`e1bd79b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e1bd79bccd1667a5325d85f47ccfaed1e8518c0f))
   - Plan: `36-reel-bewirtung` status: veroeffentlicht → pausiert; `36-story-tipp` status: freigegeben → pausiert
 - 11:04 ✍️ Umbau nach Wissen 24.10. (Zwischenstand): Bildunterschriften gekürzt, Reel-Hooks ab Frame 1 – alle Beiträge weiter pausiert ([`8f8f635`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8f8f635682a66b95ff08d16520d6f57e4f653f15))
