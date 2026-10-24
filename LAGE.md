@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 11:45 🎬 Reel `33-reel-paragraf-formel` (pausiert) · 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟡 17:45 🎬 Reel `17-reel-kommentare` (wartet auf sprachnachricht)
-- **Braucht dich:** 1 offen
+- **Heute online:** 🟡 11:45 🎬 Reel `34-reel-einspruch` (pausiert) · 🟡 12:15 📱 Story `34-story-tipp` (pausiert) · 🟡 17:45 🖼️ Karussell `35-karussell-steuerkalender` (pausiert) · 🟡 17:50 📱 Story `35-story-teaser` (pausiert)
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1543** (17.10.–23.10., -9 % zur Vorwoche) · Follower **+6** (jetzt 374) · 30 Tage: +30 Follows / −11 entfolgt
-- **Testmonat** (Tag 13/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 14/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **7/14** (6 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **4/7** – ohne Reel: Fr 23.10., Sa 24.10., So 25.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
@@ -58,13 +58,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- ⏳ **Wartet auf sprachnachricht** `17-reel-kommentare` (Sa 24.10. 17:45) – 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 24.10. 17:45 | 🎬 Reel `17-reel-kommentare` | ⏳ wartet auf sprachnachricht | 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md. |
 | So 25.10. 11:45 | 🎬 Reel `34-reel-einspruch` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json |
 | So 25.10. 12:15 | 📱 Story `34-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig |
 | So 25.10. 17:45 | 🖼️ Karussell `35-karussell-steuerkalender` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11. |
@@ -287,6 +286,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:15 📡 Radar 2026-10-19: 8 Beiträge, 0 DM-Entwürfe ([`f24b172`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f24b17280244cdb352b99cc0ea9ef3757ad69b91))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **So 18.10.2026**
 - 20:18 ✍️ Reel 61: Version mit Loris' Stimme (30 s, beste Takes, Untertitel Wort für Wort) – von Hand über Edits ([`d5ea58a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d5ea58a3621dbf603ff331527a0623c8e02bef9f))
   - `posts/61_2026-10-18_reel_rms_finanzamt`, `vorlagen/system/schnitt/p61_reel_stimme_bauen.py`
@@ -316,8 +317,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 08:34 📡 Radar 2026-10-18: 8 Beiträge, 0 DM-Entwürfe ([`202a9d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/202a9d53176496be4e01f10cff5a482fdc7f08f6))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Sa 17.10.2026**
 - 19:00 🤖 Autopilot: 25-story-teaser veroeffentlicht ([`68449e0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/68449e01da676d7b4c74238f4f307aa4c69f36d8))
