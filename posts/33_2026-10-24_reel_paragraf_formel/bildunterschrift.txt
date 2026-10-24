@@ -1,4 +1,4 @@
-Eine Steuerregel braucht in Excel nur eine Zeile. 🧮
+Du rechnest Paragrafen noch von Hand? Drei davon passen in je eine Excel-Zeile. 🧮
 
 Drei Beispiele: Hinzurechnung, Geschenke (50 € Freigrenze) und Dividenden. Vereinfacht zum Nachbauen.
 

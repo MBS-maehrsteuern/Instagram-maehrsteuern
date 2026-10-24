@@ -1,4 +1,4 @@
-Betriebsprüfung: „Woher kommt diese Zahl?“ – 12 Tabellenblätter, kein Pfad. 🔍
+Eine Frage in der Betriebsprüfung – und deine Excel hat keine Antwort: „Woher kommt diese Zahl?“ 🔍
 
 Die Frage kommt in jeder Prüfung. Ein sachverständiger Dritter muss in angemessener Zeit nachvollziehen können, wie eure Zahlen entstehen – vom Beleg bis zur Erklärung und zurück. Mit Prüfpfad: auf die Zahl klicken, Quelle sehen.
 

@@ -1,4 +1,4 @@
-Excel WENNFEHLER: Die Formel, die deine Tabelle sauber aussieht, macht die Steuerrückstellung zu niedrig. ⚠️
+Die Formel, die dein Excel sauber aussehen lässt, macht deine Steuerrückstellung falsch. ⚠️
 
 =WENNFEHLER(Formel; 0) macht aus jedem Fehler eine Null – und keiner merkt es. Besser: Fehler sichtbar lassen, Steuersatz und Hebesatz per XVERWEIS aus einer Tabelle holen und Namen statt Zellbezüge nutzen („Hebesatz“ statt $C$12).
 
