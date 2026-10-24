@@ -64,7 +64,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 24.10. 12:15 | 📱 Story `33-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild |
 | Sa 24.10. 17:45 | 🎬 Reel `17-reel-kommentare` | ⏳ wartet auf sprachnachricht | 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md. |
 | So 25.10. 11:45 | 🎬 Reel `34-reel-einspruch` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json |
 | So 25.10. 12:15 | 📱 Story `34-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig |
@@ -161,7 +160,6 @@ Reichweite pro Tag: 21.10. **164** · 22.10. **385** · 23.10. **380** · 24.10.
 | Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 154 (+6) | 66 | 4 | 0 | 2 | 0 |
 | Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 218 (+1) | 168 | 7 | 0 | 4 | 0 |
 | So 11.10. 19:30 [#BEZUG! – zwei Tage vor Abgabe. Kennst d](https://www.instagram.com/reel/DeXMtEnDn3I/) | 301 (+1) | 231 | 8 | 0 | 6 | 1 |
-| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 289 (+1) | 225 | 14 | 8 | 7 | 18 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
