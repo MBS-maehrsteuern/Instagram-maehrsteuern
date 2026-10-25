@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „gebaeude“ (Muster einspruch.html, Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.xt{font-family:var(--mono)}.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gel{color:var(--gelb)}
+.lbl{font-family:var(--mono);font-size:28px;letter-spacing:.14em;color:var(--text2);text-transform:uppercase}
+.card{border:2px solid #22352E;background:#0B1411;border-radius:26px;padding:30px}
+.card.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.card.rt{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.hd{background:linear-gradient(90deg,#1c4a3d,#123228);padding:24px 30px;font-family:var(--mono);font-size:30px;letter-spacing:.3em;color:var(--gruen2);display:flex;justify-content:space-between;align-items:center}
+.hd.rt{background:linear-gradient(90deg,#5a2a24,#3a1c18);color:#F2A99B}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.stamp{position:absolute;font-family:Outfit;border:7px solid var(--rot);color:var(--rot);border-radius:20px;padding:6px 34px 12px;letter-spacing:.03em;background:rgba(7,12,10,.55);box-shadow:0 0 40px rgba(224,122,107,.45);opacity:0}
+.stamp.g{border-color:var(--gruen2);color:var(--gruen2);box-shadow:0 0 40px rgba(83,195,162,.5)}
+.track{height:64px;border-radius:16px;background:#13211C;position:relative}
+.fill{height:100%;border-radius:16px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px rgba(83,195,162,.5)}
+.fill.r{background:linear-gradient(90deg,#b4554a,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.5)}
+.fill.y{background:linear-gradient(90deg,#c58f2d,var(--gelb));box-shadow:0 0 24px rgba(232,176,74,.4)}
+.mk{position:absolute;top:-16px;bottom:-16px;width:6px;border-radius:3px;background:var(--text);box-shadow:0 0 16px rgba(238,244,240,.7)}
+.mkl{position:absolute;font-family:var(--mono);font-size:24px;color:var(--text2);white-space:nowrap}
+.rr{display:flex;align-items:center;gap:22px}
+.pill{font-family:Outfit;border-radius:20px;padding:10px 28px;display:inline-block}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="4.3">
+ <div class="kicker e"><i></i>Gebäude · Demo</div>
+ <h1 class="e" style="font-size:112px">Gleicher Preis.</h1><h2 class="e" style="font-size:80px">Mehr Abschreibung.</h2>
+ <div class="panel e" id="p1" style="padding:0">
+  <div class="hd"><span>GEBÄUDEANTEIL</span><span>400.000 €</span></div>
+  <div style="position:relative;padding:40px 36px 44px;display:flex;gap:22px">
+   <div class="card" style="flex:1;text-align:center;padding:30px 10px"><div style="margin:0 auto;width:150px;height:130px;position:relative"><div style="position:absolute;left:0;top:0;width:0;height:0;border-left:75px solid transparent;border-right:75px solid transparent;border-bottom:56px solid #6F8279"></div><div style="position:absolute;left:20px;top:56px;width:110px;height:74px;background:#6F8279;opacity:.75;border-radius:0 0 8px 8px"></div><div style="position:absolute;left:62px;top:84px;width:26px;height:46px;background:#0B1411;border-radius:6px 6px 0 0"></div></div><div class="lbl" style="margin-top:22px;font-size:26px">linear 3 %</div>
+     <div id="na" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--grau)">– €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
+     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fa" style="width:0%;background:linear-gradient(90deg,#4a5f57,#7f948b);box-shadow:none"></div></div></div>
+   <div class="card" id="cb" style="flex:1;text-align:center;padding:30px 10px"><div style="margin:0 auto;width:150px;height:130px;position:relative"><div style="position:absolute;left:0;top:0;width:0;height:0;border-left:75px solid transparent;border-right:75px solid transparent;border-bottom:56px solid #53C3A2"></div><div style="position:absolute;left:20px;top:56px;width:110px;height:74px;background:#53C3A2;opacity:.75;border-radius:0 0 8px 8px"></div><div style="position:absolute;left:62px;top:84px;width:26px;height:46px;background:#0B1411;border-radius:6px 6px 0 0"></div></div><div class="lbl" style="margin-top:22px;font-size:26px">degressiv 5 %</div>
+     <div id="nb" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--grau)">– €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
+     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fb" style="width:0%"></div></div></div>
+   <div class="sweep" id="sweep"></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s2" data-von="4.3" data-bis="8.45">
+ <div class="kicker e"><i></i>Zuerst</div>
+ <h1 class="e">Kaufpreis</h1><h2 class="e">aufteilen.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="lbl">Kaufpreis</div>
+  <div style="display:flex;margin-top:24px;height:110px;gap:0" id="kb"><div id="ka" style="width:30%;border-radius:20px 0 0 20px;background:linear-gradient(90deg,var(--gruen),var(--gruen2))"></div><div id="kc" style="flex:1;border-radius:0 20px 20px 0;background:linear-gradient(90deg,var(--gruen),var(--gruen2))"></div></div>
+  <div style="display:flex;margin-top:30px;gap:20px"><div style="width:44%" id="la"><div class="pill" style="font-size:34px;padding:8px 16px;background:#22302a;color:var(--text2)">Grund + Boden</div><div id="lx" class="bad" style="font-size:40px;margin-top:20px;line-height:1.15">✕ nie abgeschrieben</div></div>
+   <div style="flex:1;text-align:right" id="lb"><div class="pill" style="font-size:44px;background:rgba(83,195,162,.2);color:var(--gruen2)">Gebäude</div><div class="ok" style="font-size:40px;margin-top:20px">✓ wird abgeschrieben</div></div></div></div>
+</section>
+
+<section class="szene" id="s3" data-von="8.45" data-bis="12.5">
+ <div class="kicker e"><i></i>Linear · Baujahr</div>
+ <h1 class="e">Wohngebäude</h1><h2 class="e">ab 2023 fertig.</h2>
+ <div class="panel e" style="padding:50px 46px;text-align:center">
+  <div id="c3" class="pill" style="font-size:44px;background:#13211C;color:var(--grau)">fertig ab 2023</div>
+  <div id="n3" class="big" style="font-family:Outfit;font-size:280px;margin-top:20px;color:var(--grau)">0 %</div>
+  <div id="l3" class="lbl" style="margin-top:10px">im Jahr</div></div>
+</section>
+
+<section class="szene" id="s4" data-von="12.5" data-bis="16.85">
+ <div class="kicker e"><i></i>Linear · älter</div>
+ <h1 class="e">Älter,</h1><h2 class="e">weniger Prozent.</h2>
+ <div class="panel e" style="padding:46px">
+  <div id="w1" class="card rr" style="justify-content:space-between;padding:34px 40px"><span style="font-size:48px">fertig 1925–2022</span><span id="v1" class="big" style="font-family:Outfit;font-size:90px;color:var(--grau)">?</span></div>
+  <div id="w2" class="card rr" style="justify-content:space-between;padding:34px 40px;margin-top:26px"><span style="font-size:48px">fertig vor 1925</span><span id="v2" class="big" style="font-family:Outfit;font-size:90px;color:var(--grau)">?</span></div></div>
+</section>
+
+<section class="szene" id="s5" data-von="16.85" data-bis="19.4">
+ <div class="kicker e"><i></i>Degressiv</div>
+ <h1 class="e">Baubeginn</h1><h2 class="e">ab Oktober 2023.</h2>
+ <div class="panel e" style="padding:0;text-align:center">
+  <div class="hd"><span>OKTOBER</span><span id="z5" style="letter-spacing:.1em;font-size:26px">BIS 30.9.2029</span></div>
+  <div style="padding:50px 0 54px"><div id="y5" class="big" style="font-family:Outfit;font-size:260px;color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.6)">2023</div></div></div>
+</section>
+
+<section class="szene" id="s6" data-von="19.4" data-bis="21.8">
+ <div class="kicker e"><i></i>Degressiv</div>
+ <h1 class="e">5 % vom</h1><h2 class="e">Restwert.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="rr" style="justify-content:space-between"><span id="p6" class="pill" style="font-size:70px;background:rgba(83,195,162,.2);color:var(--gruen2)">5 %</span><span class="lbl">Restwert sinkt</span></div>
+  <div style="display:flex;align-items:flex-end;gap:16px;height:260px;margin-top:34px"><div id="b0" style="flex:1;background:linear-gradient(180deg,var(--gruen2),var(--gruen));border-radius:14px 14px 0 0;height:100%"></div><div id="b1" style="flex:1;background:linear-gradient(180deg,var(--gruen2),var(--gruen));border-radius:14px 14px 0 0;height:95%"></div><div id="b2" style="flex:1;background:linear-gradient(180deg,var(--gruen2),var(--gruen));border-radius:14px 14px 0 0;height:90%"></div><div id="b3" style="flex:1;background:linear-gradient(180deg,var(--gruen2),var(--gruen));border-radius:14px 14px 0 0;height:86%"></div><div id="b4" style="flex:1;background:linear-gradient(180deg,var(--gruen2),var(--gruen));border-radius:14px 14px 0 0;height:81%"></div></div></div>
+</section>
+
+<section class="szene" id="s7" data-von="21.8" data-bis="25.3">
+ <div class="kicker e"><i></i>Mietwohnungsneubau</div>
+ <h1 class="e">Sonder-AfA</h1><h2 class="e">oben drauf.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="lbl">Abschreibung im Jahr</div>
+  <div class="track" style="margin-top:30px;height:96px;display:flex;overflow:hidden"><div class="fill" style="width:60%;border-radius:16px 0 0 16px"></div><div class="fill y" id="f7" style="width:0%;border-radius:0 16px 16px 0"></div></div>
+  <div class="rr" style="margin-top:30px;justify-content:space-between"><span class="pill" style="font-size:40px;background:rgba(83,195,162,.2);color:var(--gruen2)">degressiv</span><span id="t7" class="pill" style="font-size:40px;background:rgba(232,176,74,.2);color:var(--gelb)">+ Sonder-AfA</span></div></div>
+</section>
+
+<section class="szene" id="s8" data-von="25.3" data-bis="27.2">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Welcher Satz</h1><h2 class="e">für euer Gebäude?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">linear</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">degressiv</div></div></div></div>
+</section>
+
+
+<section class="szene" id="sc" data-von="27.2" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Abschreibungs-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+
+const W=[["Zwei", 0.0], ["Häuser,", 0.32], ["gleicher", 0.84], ["Preis.", 1.14], ["Und", 1.9], ["eins", 2.0], ["darf", 2.24], ["mehr", 2.42], ["als", 2.64], ["doppelt", 2.8], ["so", 3.1], ["schnell", 3.22], ["abschreiben.", 3.38], ["Zuerst", 4.3], ["Grund", 4.74], ["und", 5.08], ["Boden", 5.24], ["wird", 5.52], ["nie", 5.74], ["abgeschrieben,", 5.9], ["den", 6.72], ["Kaufpreis", 6.82], ["also", 7.36], ["aufteilen.", 7.56], ["Dann", 8.46], ["zählt", 8.6], ["das", 8.86], ["Baujahr,", 9.0], ["Wohngebäude", 9.54], ["ab", 10.04], ["2023", 10.18], ["fertig,", 10.66], ["3", 11.16], ["%", 11.34], ["im", 11.68], ["Jahr.", 11.88], ["Von", 12.54], ["1925", 12.7], ["bis", 13.38], ["2022,", 13.86], ["2 %,", 14.72], ["ältere", 15.52], ["2,5 %.", 15.96], ["Baubeginn", 16.86], ["ab", 17.36], ["Oktober", 17.46], ["2023.", 17.86], ["Degressiv:", 19.44], ["5", 19.92], ["%", 20.22], ["vom", 20.66], ["Restwert.", 20.9], ["Und", 21.82], ["beim", 21.96], ["Mietwohnungsneubau", 22.12], ["kann", 23.12], ["eine", 23.32], ["Sonder-AfA", 23.52], ["oben", 24.1], ["drauf", 24.32], ["kommen.", 24.54], ["Welcher", 25.38], ["Satz", 25.66], ["geht", 26.1], ["für", 26.22], ["euer", 26.4], ["Gebäude?", 26.72]];
+const TEND=27.3,CTA=27.2;
+function anim(t){
+  // Hook: zwei Häuser, gleicher Preis – B schreibt mehr ab
+  const pa=ease((t-1.9)/1.0),pb=ease((t-1.9)/1.0);
+  const na=$("na"),nb=$("nb");
+  if(t>=1.9){na.textContent=de(12000*pa)+" €";na.style.color="var(--text)";nb.textContent=de(20000*pb)+" €";nb.style.color="var(--gruen2)";nb.style.textShadow="0 0 40px rgba(83,195,162,.6)"}
+  $("fa").style.width=(60*pa)+"%";$("fb").style.width=(100*pb)+"%";
+  $("cb").className="card"+(t>=3.0?" an":"");
+  // Szene 2: Grund und Boden grau, Kaufpreis teilt sich
+  const g=ease((t-4.74)/0.4),ka=$("ka");ka.style.background=g>0.5?"repeating-linear-gradient(45deg,#2a3a34,#2a3a34 10px,#1a2823 10px,#1a2823 20px)":"linear-gradient(90deg,var(--gruen),var(--gruen2))";
+  show("la",tw(t,4.74,0.3));show("lx",tw(t,5.9,0.3));$("kb").style.gap=(30*ease((t-7.56)/0.4))+"px";show("lb",tw(t,7.56,0.3));$("lb").style.opacity=tw(t,7.56,0.3);
+  // Szene 3: 3 %
+  const c3=t>=10.18;$("c3").style.background=c3?"rgba(83,195,162,.2)":"#13211C";$("c3").style.color=c3?"var(--gruen2)":"var(--grau)";
+  const n3=$("n3");n3.textContent=t<11.16?"– %":"3 %";n3.style.color=t>=11.16?"var(--gruen2)":"var(--grau)";n3.style.textShadow=t>=11.16?"0 0 70px rgba(83,195,162,.6)":"none";
+  // Szene 4
+  show("w1",tw(t,12.7,0.3));show("w2",tw(t,15.4,0.3));
+  const a=t>=14.72,b=t>=15.96;$("v1").textContent=a?"2 %":"?";$("v1").style.color=a?"var(--gruen2)":"var(--grau)";$("w1").className="card rr"+(a?" an":"");
+  $("v2").textContent=b?"2,5 %":"?";$("v2").style.color=b?"var(--gruen2)":"var(--grau)";$("w2").className="card rr"+(b?" an":"");
+  // Szene 5
+  $("y5").style.transform=`scale(${1+0.025*Math.sin((t-16.85)*4)})`;show("z5",1);
+  // Szene 6: Restwert-Balken
+  show("p6",tw(t,19.92,0.3));[0,1,2,3,4].forEach(i=>{const p=tw(t,20.0+i*0.28,0.3),e=$("b"+i);e.style.opacity=p;e.style.transform=`scaleY(${0.3+0.7*p})`;e.style.transformOrigin="bottom"});
+  // Szene 7: Sonder-AfA obendrauf
+  $("f7").style.width=(30*ease((t-24.1)/0.6))+"%";show("t7",tw(t,24.2,0.3));
+  // Szene 8
+  show("oa",tw(t,25.9,0.3));show("ob",tw(t,26.3,0.3));
+}
+
+
+const $=id=>document.getElementById(id);
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=$("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const tw=(t,a,d)=>ease((t-a)/(d||0.35));
+const de=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const typ=(s,t,a,cps)=>s.slice(0,Math.max(0,Math.floor((t-a)*(cps||16))));
+const show=(id,p)=>{const e=$(id);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${0.94+0.06*p})`};
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  const sw=$("sweep");if(sw)sw.style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  anim(t);
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>TEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

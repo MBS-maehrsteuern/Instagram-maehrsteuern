@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „IAB“ (Motion-Design-Look, Muster einspruch.html). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden). Gesamtdauer 30.3 s. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.row{display:flex;align-items:center;gap:24px;padding:26px 32px;border-radius:24px;border:2px solid #22352E;background:#0B1411;margin-top:18px;font-family:"Outfit";font-size:54px;line-height:1.1}
+.row:first-of-type{margin-top:6px}
+.row small{white-space:nowrap;font-family:var(--mono);font-size:28px;color:var(--grau);margin-left:auto;letter-spacing:.08em;text-align:right}
+.row.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.3)}
+.row.rt{border-color:var(--rot);background:rgba(224,122,107,.12);box-shadow:0 0 40px rgba(224,122,107,.25)}
+.row.dim{opacity:.55}
+.row.an small{color:var(--gruen2)}.row.rt small{color:var(--rot)}
+.opt.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.stamp{display:inline-block;font-family:"Outfit";font-size:84px;letter-spacing:.04em;padding:8px 32px;border:6px solid var(--rot);color:var(--rot);border-radius:18px;background:rgba(7,12,10,.8);box-shadow:0 0 50px rgba(224,122,107,.35)}
+.stamp.g{border-color:var(--gruen);color:var(--gruen2);box-shadow:0 0 50px rgba(83,195,162,.4)}
+.bar{height:64px;border-radius:16px;background:#13211C;overflow:hidden;position:relative}
+.bar>i{display:block;height:100%;width:0;border-radius:16px}
+.bar>b{position:absolute;left:24px;top:0;height:100%;display:flex;align-items:center;font-family:var(--mono);font-size:28px;color:var(--text);letter-spacing:.06em;z-index:2}
+.gr{background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.rb{background:linear-gradient(90deg,#b85a4d,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.6)}
+.lab{font-family:var(--mono);font-size:28px;letter-spacing:.12em;color:var(--text2);margin:26px 0 12px}
+.big{font-family:"Outfit";font-weight:700;letter-spacing:-.03em;line-height:1}
+.ctr{text-align:center}
+.sq{width:78px;height:78px;border-radius:16px;border:2px solid #22352E;background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:28px;color:var(--grau)}
+.sq.an{border-color:var(--gruen);background:rgba(83,195,162,.2);color:var(--gruen2);box-shadow:0 0 24px rgba(83,195,162,.4)}
+.node{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:34px 26px;text-align:center;position:relative}
+.node .y{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.14em}
+.node .t{font-family:"Outfit";font-size:58px;margin-top:12px;line-height:1.1}
+.node.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.3)}
+.node.dash{border-style:dashed}
+.node.rt{border-color:var(--rot);background:rgba(224,122,107,.12)}
+.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gy{color:var(--grau)}.ge{color:var(--gelb)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="" data-von="0" data-bis="3.12">
+ <div class="kicker e"><i></i>Investitionsabzugsbetrag</div>
+ <h1 class="e" style="font-size:132px">Absetzen,</h1><h2 class="e" style="font-size:96px">bevor du kaufst.</h2>
+ <div class="panel e" style="margin-top:50px">
+ <div style="display:flex;gap:30px;align-items:stretch;position:relative">
+  <div class="node lt an" data-t="0"><div class="y">2026</div><div class="t">Abzug</div><div class="big ok" style="font-size:90px;margin-top:10px">✓</div></div>
+  <div class="node dash"><div class="y">2027</div><div class="t">Maschine</div><div class="lab at" data-t="2.0" style="color:var(--gelb);margin:14px 0 0;font-size:26px">NOCH NICHT GEKAUFT</div></div>
+ </div>
+ <div class="bar" style="margin-top:44px"><i id="tl" class="gr"></i><b>JETZT ABGESETZT</b></div>
+ <div class="pop" data-t="0.92" data-r="-5" style="position:absolute;left:0;right:0;top:230px;text-align:center"><span class="stamp g" style="font-size:60px">ABGESETZT</span></div></div>
+</section>
+<section class="szene" id="" data-von="3.12" data-bis="8.0">
+ <div class="kicker e"><i></i>Mit dem IAB</div>
+ <h1 class="e" style="">Bis zu 50 %</h1><h2 class="e" style="">vorher abziehen.</h2><div class="sub e">der <b>geplanten Kosten</b></div>
+ <div class="panel e" style=""><span class="norm">§ 7G ABS. 1 ESTG</span>
+ <div class="lab">GEPLANTE KOSTEN</div><div class="bar"><i class="gy" style="width:100%;background:#2a3d35"></i><b>100 %</b></div>
+ <div class="lab">ABZUG SCHON VORHER</div><div class="bar"><i id="b50" class="gr"></i><b id="b50l">50 %</b></div>
+ <div class="big ok ctr at" data-t="5.4" style="font-size:150px;margin-top:34px">50 %</div></div>
+</section>
+<section class="szene" id="" data-von="8.0" data-bis="10.52">
+ <div class="kicker e"><i></i>Bedingung</div>
+ <h1 class="e" style="">Gewinn bis</h1><h2 class="e" style="">200.000 €.</h2>
+ <div class="panel e" style=""><span class="norm">§ 7G ABS. 1 SATZ 2, 4 ESTG</span>
+ <div class="lab">DEIN GEWINN</div><div style="position:relative"><div class="bar"><i id="gb" class="gr"></i><b id="gbl">GEWINN</b></div>
+ <div style="position:absolute;left:100%;top:-14px;bottom:-14px;width:6px;background:var(--gelb);margin-left:-3px;box-shadow:0 0 18px var(--gelb)"></div></div>
+ <div class="lab ctr ge" style="text-align:right">GRENZE 200.000 €</div>
+ <div class="stamp g at" data-t="9.76" style="margin-top:20px;font-size:62px">✓ DARF ABZIEHEN</div></div>
+</section>
+<section class="szene" id="" data-von="10.52" data-bis="15.02">
+ <div class="kicker e"><i></i>Beispiel · Demo</div>
+ <h1 class="e" style="font-size:100px">60.000 € Maschine</h1><h2 class="e" style="font-size:88px">30.000 € Abzug.</h2>
+ <div class="panel e" style="">
+ <div style="display:flex;align-items:center;justify-content:space-between;gap:20px">
+  <div class="ctr"><div class="lab" style="margin-top:0">GEPLANT</div><div class="big at" data-t="11.06" style="font-size:74px">60.000 €</div></div>
+  <div class="big gy at" data-t="12.2" style="font-size:90px">→</div>
+  <div class="ctr"><div class="lab" style="margin-top:0">ABZUG</div><div class="big ok" id="n30" style="font-size:74px;text-shadow:0 0 50px rgba(83,195,162,.7)">0 €</div></div></div>
+ <div class="row at lt" data-t="14.08" style="margin-top:40px">schon dieses Jahr<small>2026</small></div></div>
+</section>
+<section class="szene" id="" data-von="15.02" data-bis="17.54">
+ <div class="kicker e"><i></i>Im Kaufjahr</div>
+ <h1 class="e" style="">Wieder</h1><h2 class="e" style="">hinzugerechnet.</h2>
+ <div class="panel e" style=""><span class="norm">§ 7G ABS. 2 ESTG</span><div class="row at lt " data-t="15.1" data-c="an" >Abzug<small>− 30.000 €</small></div><div class="row at lt " data-t="16.38" data-c="rt" >Kaufjahr<small>+ 30.000 €</small></div></div>
+</section>
+<section class="szene" id="" data-von="17.54" data-bis="21.32">
+ <div class="kicker e"><i></i>Die Frist</div>
+ <h1 class="e" style="">Gekauft bis</h1><h2 class="e" style="font-size:84px">Ende Folgejahr 3.</h2>
+ <div class="panel e" style=""><div class="lab">DREI FOLGEJAHRE</div><div style="display:flex;gap:18px"><div class="node lt" data-t="18.8"><div class="y">FOLGEJAHR</div><div class="t">1</div></div><div class="node lt" data-t="19.4"><div class="y">FOLGEJAHR</div><div class="t">2</div></div><div class="node lt" data-t="20.24"><div class="y">FOLGEJAHR</div><div class="t">3</div></div></div></div>
+</section>
+<section class="szene" id="" data-von="21.32" data-bis="24.22">
+ <div class="kicker e"><i></i>Nicht gekauft?</div>
+ <h1 class="e" style="">Abzug</h1><h2 class="e" style="font-size:88px;color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">rückwirkend weg.</h2>
+ <div class="panel e" style=""><span class="norm">§ 7G ABS. 3 ESTG · § 233A AO</span>
+ <div class="ctr"><div class="big gy" id="n30b" style="font-size:150px">30.000 €</div></div>
+ <div class="row at lt" data-t="23.4" data-c="rt" style="margin-top:30px;justify-content:center">+ Zinsen</div></div>
+</section>
+<section class="szene" id="" data-von="24.22" data-bis="26.3">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e" style="">Nutzt ihr</h1><h2 class="e" style="">die IAB?</h2>
+ <div class="panel e" style=""><div style="display:flex;gap:26px"><div class="opt lt" data-t="25.44"><div class="t ok">JA</div></div><div class="opt lt" data-t="25.78"><div class="t bad">NEIN</div></div></div></div>
+</section>
+<section class="szene" id="cta" data-von="26.3" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>IAB-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 09</span></div>
+<script>
+const W=[["Du", 0.0], ["kannst", 0.18], ["eine", 0.34], ["Maschine", 0.58], ["absetzen,", 0.92], ["die", 1.5], ["du", 1.62], ["noch", 1.66], ["gar", 1.82], ["nicht", 2.0], ["gekauft", 2.12], ["hast.", 2.46], ["Mit", 3.12], ["dem", 3.22], ["Investitionsabzugsbetrag", 3.34], ["ziehst", 4.7], ["du", 5.02], ["bis", 5.12], ["zu", 5.24], ["50", 5.42], ["%", 5.7], ["der", 6.1], ["geplanten", 6.28], ["Kosten", 6.68], ["schon", 6.94], ["vorher", 7.14], ["ab,", 7.48], ["wenn", 8.0], ["dein", 8.12], ["Gewinn", 8.22], ["höchstens", 8.56], ["200.000", 8.94], ["Euro", 9.54], ["beträgt.", 9.76], ["Maschine", 10.52], ["für", 10.9], ["60.000", 11.06], ["Euro", 11.7], ["geplant,", 11.88], ["30.000", 12.62], ["Euro", 13.3], ["Abzug", 13.52], ["schon", 13.9], ["dieses", 14.08], ["Jahr.", 14.32], ["Im", 15.02], ["Kaufjahr", 15.12], ["wird", 15.74], ["er", 16.16], ["wieder", 16.24], ["hinzugerechnet.", 16.38], ["Aber", 17.54], ["kaufst", 17.8], ["du", 18.62], ["nicht", 18.72], ["bis", 19.02], ["Ende", 19.38], ["des", 19.66], ["dritten", 19.9], ["Folgejahres,", 20.24], ["wird", 21.32], ["der", 21.5], ["Abzug", 21.6], ["rückwirkend", 21.96], ["gestrichen,", 22.48], ["mit", 23.28], ["Zinsen.", 23.4], ["Nutzt", 24.22], ["ihr", 24.5], ["denn", 24.6], ["die", 24.76], ["IAB,", 24.86], ["ja", 25.44], ["oder", 25.62], ["nein?", 25.78]];
+const CTA=26.3,VEND=26.1;
+function extra(t){
+  el("tl").style.width=(100*ease((t-0.3)/1.4))+"%";
+  const b=ease((t-5.42)/0.7);el("b50").style.width=(50*b)+"%";
+  el("gb").style.width=(90*ease((t-8.56)/1.1))+"%";el("gbl").textContent="GEWINN ≤ 200.000 €";
+  el("n30").textContent=fmt(roll(0,30000,12.62,13.6,t))+" €";
+  const x=el("n30b");x.style.color=t>=21.96?"var(--rot)":"var(--text)";x.style.textDecoration=t>=21.96?"line-through":"none";x.style.textDecorationColor="var(--rot)";x.style.textDecorationThickness="10px";
+}
+
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const el=id=>document.getElementById(id);
+const fmt=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const roll=(a,b,t0,t1,t)=>a+(b-a)*ease((t-t0)/(t1-t0));
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+function render(t){
+  el("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  el("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    // leichte Kamerafahrt: langsamer Zoom je Szene
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  document.querySelectorAll(".at").forEach(e=>{const d=+e.dataset.t;const p=d<=0?1:ease((t-d)/0.3);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*28}px)`});
+  document.querySelectorAll(".pop").forEach(e=>{const d=+e.dataset.t;const p=ease((t-d)/0.22);e.style.opacity=p;e.style.transform=`rotate(${e.dataset.r||-6}deg) scale(${1.7-0.7*p})`});
+  document.querySelectorAll(".lt").forEach(e=>{const d=+e.dataset.t,c=e.dataset.c||"an";e.classList.toggle(c,t>=d&&(!e.dataset.u||t<+e.dataset.u))});
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  el("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  // Schluss: TOOL pulsiert, Pfeil wippt
+  const tp=1+0.035*Math.sin((t-CTA)*5);el("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  el("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  extra(t);
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=el("ut");
+  if(gi<0||t>VEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+</script></body></html>

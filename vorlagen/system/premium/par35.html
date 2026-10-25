@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „par35“ (Muster einspruch.html, Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.xt{font-family:var(--mono)}.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gel{color:var(--gelb)}
+.lbl{font-family:var(--mono);font-size:28px;letter-spacing:.14em;color:var(--text2);text-transform:uppercase}
+.card{border:2px solid #22352E;background:#0B1411;border-radius:26px;padding:30px}
+.card.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.card.rt{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.hd{background:linear-gradient(90deg,#1c4a3d,#123228);padding:24px 30px;font-family:var(--mono);font-size:30px;letter-spacing:.3em;color:var(--gruen2);display:flex;justify-content:space-between;align-items:center}
+.hd.rt{background:linear-gradient(90deg,#5a2a24,#3a1c18);color:#F2A99B}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.stamp{position:absolute;font-family:Outfit;border:7px solid var(--rot);color:var(--rot);border-radius:20px;padding:6px 34px 12px;letter-spacing:.03em;background:rgba(7,12,10,.55);box-shadow:0 0 40px rgba(224,122,107,.45);opacity:0}
+.stamp.g{border-color:var(--gruen2);color:var(--gruen2);box-shadow:0 0 40px rgba(83,195,162,.5)}
+.track{height:64px;border-radius:16px;background:#13211C;position:relative}
+.fill{height:100%;border-radius:16px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px rgba(83,195,162,.5)}
+.fill.r{background:linear-gradient(90deg,#b4554a,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.5)}
+.fill.y{background:linear-gradient(90deg,#c58f2d,var(--gelb));box-shadow:0 0 24px rgba(232,176,74,.4)}
+.mk{position:absolute;top:-16px;bottom:-16px;width:6px;border-radius:3px;background:var(--text);box-shadow:0 0 16px rgba(238,244,240,.7)}
+.mkl{position:absolute;font-family:var(--mono);font-size:24px;color:var(--text2);white-space:nowrap}
+.rr{display:flex;align-items:center;gap:22px}
+.pill{font-family:Outfit;border-radius:20px;padding:10px 28px;display:inline-block}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="4.7">
+ <div class="kicker e"><i></i>Gewerbesteuer · Demo</div>
+ <h1 class="e" style="font-size:112px">10.570 € Steuer.</h1><h2 class="e" style="font-size:112px">Kostet fast 0 €.</h2>
+ <div class="panel e" style="padding:0">
+  <div class="hd"><span>DEIN STEUERBESCHEID</span></div>
+  <div style="position:relative;padding:40px 46px 46px">
+   <div class="rr" style="justify-content:space-between"><span style="font-size:44px;color:var(--text2)">Gewerbesteuer</span><span id="a1" class="big bad" style="font-family:Outfit;font-size:76px;white-space:nowrap">−0 €</span></div>
+   <div id="rb" class="rr" style="justify-content:space-between;margin-top:26px"><span style="font-size:44px;color:var(--text2)">Einkommensteuer</span><span id="a2" class="big ok" style="font-family:Outfit;font-size:76px;white-space:nowrap">+0 €</span></div>
+   <div style="height:4px;background:#22352E;margin:34px 0"></div>
+   <div id="rc" class="rr" style="justify-content:space-between"><span style="font-size:48px">Am Ende</span><span id="a3" class="big" style="font-family:Outfit;font-size:150px;color:var(--grau)">?</span></div>
+   <div class="stamp g" id="st1" style="font-size:40px;right:24px;top:-52px;padding:0 20px 4px;border-width:5px">NEUTRAL</div>
+   <div class="sweep" id="sweep"></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s2" data-von="4.7" data-bis="6.95">
+ <div class="kicker e"><i></i>Der Grund</div>
+ <h1 class="e" style="font-size:100px">Ermäßigung der</h1><h2 class="e">Einkommensteuer.</h2>
+ <div class="panel e" style="text-align:center;padding:70px 46px">
+  <div id="par" class="big" style="font-family:Outfit;font-size:300px;color:var(--gruen2);text-shadow:0 0 70px rgba(83,195,162,.7)">§ 35</div>
+  <div class="lbl" style="margin-top:20px">EStG</div></div>
+</section>
+
+<section class="szene" id="s3" data-von="6.95" data-bis="9.2">
+ <div class="kicker e"><i></i>Schritt 1</div>
+ <h1 class="e">Gewerbeertrag</h1><h2 class="e">100.000 €.</h2>
+ <div class="panel e" style="padding:60px 46px">
+  <div id="n3" class="big" style="font-family:Outfit;font-size:150px;text-align:center">0 €</div>
+  <div class="track" style="margin-top:60px"><div class="fill" id="f3" style="width:0%"></div></div></div>
+</section>
+
+<section class="szene" id="s4" data-von="9.2" data-bis="13.25">
+ <div class="kicker e"><i></i>Schritt 2</div>
+ <h1 class="e" style="font-size:104px">Minus Freibetrag</h1><h2 class="e">24.500 €.</h2>
+ <div class="panel e" style="padding:60px 46px">
+  <div class="rr" style="justify-content:space-between;font-size:40px;color:var(--text2)"><span>Gewerbeertrag</span><span id="n4" class="big" style="font-family:Outfit;font-size:84px;color:var(--text)">100.000 €</span></div>
+  <div class="track" style="margin-top:36px;overflow:hidden;display:flex"><div class="fill" id="f4" style="width:100%"></div><div id="g4" style="width:0%;background:repeating-linear-gradient(45deg,#2a3a34,#2a3a34 10px,#1a2823 10px,#1a2823 20px)"></div></div>
+  <div class="rr" style="justify-content:space-between;margin-top:30px"><span class="lbl" id="l4">Freibetrag</span><span class="pill" id="m4" style="font-size:60px;background:rgba(83,195,162,.2);color:var(--gruen2)">× 3,5 %</span></div></div>
+</section>
+
+<section class="szene" id="s5" data-von="13.25" data-bis="17.3">
+ <div class="kicker e"><i></i>Schritt 3</div>
+ <h1 class="e">Daraus der</h1><h2 class="e">Messbetrag.</h2>
+ <div class="panel e" style="padding:60px 46px;text-align:center">
+  <div class="lbl">Steuermesszahl 3,5 %</div>
+  <div id="n5" class="big gel" style="font-family:Outfit;font-size:132px;margin-top:30px;color:var(--gelb);text-shadow:0 0 50px rgba(232,176,74,.45)">0,00 €</div>
+  <div class="lbl" style="margin-top:24px">Messbetrag</div></div>
+</section>
+
+<section class="szene" id="s6" data-von="17.3" data-bis="22.0">
+ <div class="kicker e"><i></i>Bei dir vor Ort</div>
+ <h1 class="e" style="font-size:100px">Bei 400 % Hebesatz</h1><h2 class="e">10.570 € Steuer.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="rr" style="justify-content:center;gap:26px;font-size:54px;font-family:Outfit"><span>2.642,50 €</span><span style="color:var(--grau)">×</span><span id="h6" class="pill" style="background:#13211C;color:var(--grau);font-size:60px">400 %</span></div>
+  <div style="text-align:center;margin-top:40px"><div id="n6" class="big bad" style="font-family:Outfit;font-size:170px;color:var(--rot)">0 €</div><div id="l6" class="lbl" style="margin-top:20px">Gewerbesteuer</div></div></div>
+</section>
+
+<section class="szene" id="s7" data-von="22.0" data-bis="24.7">
+ <div class="kicker e"><i></i>Deine Einkommensteuer</div>
+ <h1 class="e">Sinkt um</h1><h2 class="e">das Vierfache.</h2>
+ <div class="panel e" style="padding:60px 46px;text-align:center">
+  <div class="lbl">Messbetrag</div>
+  <div class="rr" style="justify-content:center;gap:30px;margin-top:24px"><span class="big" style="font-family:Outfit;font-size:76px">2.642,50 €</span><span id="x7" class="pill" style="font-size:90px;background:rgba(83,195,162,.2);color:var(--gruen2);border:3px solid var(--gruen)">× 4</span></div>
+  <div id="d7" style="margin-top:30px;font-size:130px;color:var(--gruen2);line-height:1">↓</div></div>
+</section>
+
+<section class="szene" id="s8" data-von="24.7" data-bis="27.4">
+ <div class="kicker e"><i></i>Ergebnis</div>
+ <h1 class="e">Genau um</h1><h2 class="e">10.570 €.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="lbl">Gewerbesteuer</div><div class="track" style="margin:14px 0 36px"><div class="fill r" style="width:100%"></div></div>
+  <div class="lbl">Einkommensteuer sinkt</div><div class="track" style="margin-top:14px"><div class="fill" id="f8" style="width:0%"></div></div>
+  <div id="e8" style="text-align:center;margin-top:34px;font-family:Outfit;font-size:76px;color:var(--gruen2)">= gleich hoch</div></div>
+</section>
+
+<section class="szene" id="s9" data-von="27.4" data-bis="30.0">
+ <div class="kicker e"><i></i>Aber</div>
+ <h1 class="e">Höchstens um</h1><h2 class="e" style="font-size:80px">die Einkommensteuer.</h2>
+ <div class="panel e" style="padding:60px 46px">
+  <div class="lbl">Einkommensteuer auf den Gewinn</div>
+  <div class="track" style="margin-top:50px;overflow:visible"><div class="fill" id="f9" style="width:0%"></div><div class="mk" style="left:62%"></div><span class="mkl" style="left:62%;top:-52px;transform:translateX(-50%)">Obergrenze</span></div>
+  <div id="e9" style="text-align:center;margin-top:50px;font-family:Outfit;font-size:60px;color:var(--text2)">Ermäßigung <b style="color:var(--text)">stoppt hier</b></div></div>
+</section>
+
+<section class="szene" id="s10" data-von="30.0" data-bis="32.35">
+ <div class="kicker e"><i></i>Höherer Hebesatz</div>
+ <h1 class="e">Bei 450 %</h1><h2 class="e">bleibt etwas übrig.</h2>
+ <div class="panel e" style="padding:50px 46px">
+  <div class="lbl">Gewerbesteuer</div>
+  <div class="track" style="margin-top:14px;display:flex;overflow:hidden"><div class="fill" id="f10a" style="width:0%"></div><div class="fill y" id="f10b" style="width:0%;border-radius:0 16px 16px 0"></div></div>
+  <div id="n10" class="big gel" style="font-family:Outfit;font-size:100px;margin-top:40px;text-align:center;color:var(--gelb)">1.321,25 €</div>
+  <div class="lbl" style="text-align:center;margin-top:14px">bleiben als Belastung</div></div>
+</section>
+
+<section class="szene" id="s11" data-von="32.35" data-bis="35.35">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Euer Hebesatz?</h1><h2 class="e" style="font-size:80px">Unter oder über 400 %?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">bis 400 %</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">darüber</div></div></div></div>
+</section>
+
+
+<section class="szene" id="sc" data-von="35.35" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Rechner-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+
+const W=[["Du", 0.0], ["zahlst", 0.16], ["über", 0.46], ["10.000", 0.6], ["Euro", 1.36], ["Gewerbesteuer", 1.58], ["und", 2.26], ["am", 2.46], ["Ende", 2.58], ["kostet", 2.84], ["sie", 3.2], ["dich", 3.4], ["oft", 3.48], ["fast", 3.74], ["nichts.", 4.0], ["Der", 4.72], ["Grund,", 4.9], ["§ 35:", 5.46], ["Gewerbeertrag", 6.96], ["100.000", 7.94], ["Euro", 8.82], ["minus", 9.2], ["24.500", 9.46], ["Euro", 10.6], ["Freibetrag", 11.06], ["mal", 11.68], ["3,5", 12.22], ["%", 12.9], ["Messbetrag", 13.28], ["sind", 13.94], ["2.642,50", 14.46], ["Euro.", 16.7], ["Bei", 17.34], ["400", 17.56], ["%", 17.84], ["Hebesatz", 18.24], ["zahlst", 18.74], ["du", 19.06], ["10.570", 19.24], ["Euro", 20.46], ["Gewerbesteuer", 20.74], ["und", 21.48], ["deine", 22.0], ["Einkommensteuer", 22.2], ["sinkt", 22.88], ["um", 23.24], ["das", 23.34], ["Vierfache", 23.48], ["des", 23.84], ["Messbetrags", 24.04], ["genau", 24.74], ["um", 24.92], ["10.570", 25.18], ["Euro.", 26.38], ["Aber", 27.42], ["höchstens", 27.74], ["um", 28.18], ["die", 28.3], ["Einkommensteuer", 28.42], ["auf", 29.16], ["den", 29.3], ["Gewinn", 29.44], ["und", 29.78], ["bei", 30.02], ["höherem", 30.18], ["Hebesatz", 30.56], ["bleibt", 30.98], ["etwas", 31.24], ["übrig.", 31.5], ["Wie", 32.32], ["sieht", 32.46], ["euer", 32.6], ["Hebesatz", 32.8], ["aus?", 33.22], ["Unter", 33.66], ["oder", 33.86], ["über", 34.2], ["400", 34.46], ["%?", 34.84]];
+const TEND=35.4,CTA=35.35;
+const de2=n=>de(Math.floor(n))+","+String(Math.round((n-Math.floor(n))*100)).padStart(2,"0");
+function anim(t){
+  $("a1").textContent="−"+de(10570*ease((t-0.3)/1.5))+" €";
+  const p2=ease((t-2.3)/0.8);$("a2").textContent="+"+de(10570*p2)+" €";$("rb").style.opacity=0.25+0.75*cl((t-2.2)/0.3,0,1);
+  const done=t>=3.5,a3=$("a3");a3.textContent=done?"0 €":"?";a3.style.color=done?"var(--gruen2)":"var(--grau)";a3.style.textShadow=done?"0 0 60px rgba(83,195,162,.8)":"none";
+  const sp=ease((t-3.5)/0.2),st=$("st1");st.style.opacity=sp;st.style.transform=`rotate(-8deg) scale(${1.6-0.6*sp})`;
+  $("par").style.transform=`scale(${1+0.03*Math.sin((t-4.7)*4)})`;
+  $("n3").textContent=de(100000*ease((t-6.96)/1.3))+" €";$("f3").style.width=(100*ease((t-7.0)/1.4))+"%";
+  const p4=ease((t-9.46)/0.6);$("g4").style.width=(24.5*p4)+"%";$("f4").style.width=(100-24.5*p4)+"%";
+  $("n4").textContent=de(100000-24500*p4)+" €";$("n4").style.color=p4>0.99?"var(--gruen2)":"var(--text)";
+  show("m4",tw(t,12.2,0.3));
+  $("n5").textContent=de2(2642.5*ease((t-14.3)/2.4))+" €";
+  const h=t>=17.56;$("h6").style.background=h?"rgba(83,195,162,.2)":"#13211C";$("h6").style.color=h?"var(--gruen2)":"var(--grau)";
+  $("n6").textContent=de(10570*ease((t-19.2)/1.2))+" €";show("l6",tw(t,20.7,0.3));
+  show("x7",tw(t,23.0,0.3));$("d7").style.transform=`translateY(${12*Math.sin(t*6)}px)`;$("d7").style.opacity=tw(t,23.5,0.3);
+  $("f8").style.width=(100*ease((t-25.1)/1.2))+"%";show("e8",tw(t,26.4,0.3));
+  $("f9").style.width=(62*ease((t-28.0)/1.0))+"%";show("e9",tw(t,29.0,0.3));
+  const k=ease((t-30.3)/0.9);$("f10a").style.width=(88.9*k)+"%";$("f10b").style.width=(11.1*ease((t-30.9)/0.5))+"%";show("n10",tw(t,31.1,0.3));
+  show("oa",tw(t,33.4,0.3));show("ob",tw(t,33.8,0.3));
+}
+
+
+const $=id=>document.getElementById(id);
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=$("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const tw=(t,a,d)=>ease((t-a)/(d||0.35));
+const de=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const typ=(s,t,a,cps)=>s.slice(0,Math.max(0,Math.floor((t-a)*(cps||16))));
+const show=(id,p)=>{const e=$(id);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${0.94+0.06*p})`};
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  const sw=$("sweep");if(sw)sw.style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  anim(t);
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>TEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

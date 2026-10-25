@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „firmenwagen“ (Muster einspruch.html, Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.xt{font-family:var(--mono)}.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gel{color:var(--gelb)}
+.lbl{font-family:var(--mono);font-size:28px;letter-spacing:.14em;color:var(--text2);text-transform:uppercase}
+.card{border:2px solid #22352E;background:#0B1411;border-radius:26px;padding:30px}
+.card.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.card.rt{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.hd{background:linear-gradient(90deg,#1c4a3d,#123228);padding:24px 30px;font-family:var(--mono);font-size:30px;letter-spacing:.3em;color:var(--gruen2);display:flex;justify-content:space-between;align-items:center}
+.hd.rt{background:linear-gradient(90deg,#5a2a24,#3a1c18);color:#F2A99B}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.stamp{position:absolute;font-family:Outfit;border:7px solid var(--rot);color:var(--rot);border-radius:20px;padding:6px 34px 12px;letter-spacing:.03em;background:rgba(7,12,10,.55);box-shadow:0 0 40px rgba(224,122,107,.45);opacity:0}
+.stamp.g{border-color:var(--gruen2);color:var(--gruen2);box-shadow:0 0 40px rgba(83,195,162,.5)}
+.track{height:64px;border-radius:16px;background:#13211C;position:relative}
+.fill{height:100%;border-radius:16px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px rgba(83,195,162,.5)}
+.fill.r{background:linear-gradient(90deg,#b4554a,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.5)}
+.fill.y{background:linear-gradient(90deg,#c58f2d,var(--gelb));box-shadow:0 0 24px rgba(232,176,74,.4)}
+.mk{position:absolute;top:-16px;bottom:-16px;width:6px;border-radius:3px;background:var(--text);box-shadow:0 0 16px rgba(238,244,240,.7)}
+.mkl{position:absolute;font-family:var(--mono);font-size:24px;color:var(--text2);white-space:nowrap}
+.rr{display:flex;align-items:center;gap:22px}
+.pill{font-family:Outfit;border-radius:20px;padding:10px 28px;display:inline-block}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="4.1">
+ <div class="kicker e"><i></i>Fahrtenbuch · Prüfung</div>
+ <h1 class="e" style="font-size:100px">Alles eingetragen.</h1><h2 class="e bad" style="font-size:88px;color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">Trotzdem verworfen.</h2>
+ <div class="panel e" id="p1" style="padding:0">
+  <div class="hd" id="hd1"><span>FAHRTENBUCH</span><span id="hl1" style="font-size:28px;letter-spacing:.1em">SAUBER</span></div>
+  <div id="rows" style="position:relative;padding:14px 46px 20px"><div id="r0" class="rr" style="padding:20px 0;border-bottom:2px solid #1b2e27;gap:24px"><span class="lbl" style="width:140px;font-size:26px">Fahrt 1</span><div style="flex:1;height:18px;border-radius:9px;background:#22352E;max-width:330px"></div><span id="c0" class="ok" style="font-size:50px;margin-left:auto">✓</span></div><div id="r1" class="rr" style="padding:20px 0;border-bottom:2px solid #1b2e27;gap:24px"><span class="lbl" style="width:140px;font-size:26px">Fahrt 2</span><div style="flex:1;height:18px;border-radius:9px;background:#22352E;max-width:260px"></div><span id="c1" class="ok" style="font-size:50px;margin-left:auto">✓</span></div><div id="r2" class="rr" style="padding:20px 0;border-bottom:2px solid #1b2e27;gap:24px"><span class="lbl" style="width:140px;font-size:26px">Fahrt 3</span><div style="flex:1;height:18px;border-radius:9px;background:#22352E;max-width:380px"></div><span id="c2" class="ok" style="font-size:50px;margin-left:auto">✓</span></div><div id="r3" class="rr" style="padding:20px 0;border-bottom:2px solid #1b2e27;gap:24px"><span class="lbl" style="width:140px;font-size:26px">Fahrt 4</span><div style="flex:1;height:18px;border-radius:9px;background:#22352E;max-width:300px"></div><span id="c3" class="ok" style="font-size:50px;margin-left:auto">✓</span></div><div id="r4" class="rr" style="padding:20px 0;border-bottom:2px solid #1b2e27;gap:24px"><span class="lbl" style="width:140px;font-size:26px">Fahrt 5</span><div style="flex:1;height:18px;border-radius:9px;background:#22352E;max-width:340px"></div><span id="c4" class="ok" style="font-size:50px;margin-left:auto">✓</span></div>
+   <div class="stamp" id="st1" style="font-size:92px;left:80px;top:170px;padding:6px 36px 12px">VERWORFEN</div>
+   <div class="sweep" id="sweep"></div></div></div>
+</section>
+
+<section class="szene" id="s2" data-von="4.1" data-bis="7.1">
+ <div class="kicker e"><i></i>Der Grund</div>
+ <h1 class="e">Excel-Liste:</h1><h2 class="e">jederzeit änderbar.</h2>
+ <div class="panel e" style="padding:0">
+  <div class="hd"><span>EXCEL-LISTE</span><span>.xlsx</span></div>
+  <div style="padding:40px 46px">
+   <div class="rr" style="gap:20px"><div class="card" style="flex:1;padding:26px 30px;font-size:40px;color:var(--text2)">Montag</div><div class="card" style="flex:1;padding:26px 30px;font-size:40px;color:var(--text2)">Dienstfahrt</div></div>
+   <div class="rr" style="gap:20px;margin-top:20px"><div class="card" style="flex:1;padding:26px 30px;font-size:40px;color:var(--text2)">Dienstag</div><div class="card" id="cl" style="flex:1;padding:26px 30px;font-size:40px"><span id="clt">Dienstfahrt</span></div></div>
+   <div class="rr" style="gap:20px;margin-top:20px"><div class="card" style="flex:1;padding:26px 30px;font-size:40px;color:var(--text2)">Mittwoch</div><div class="card" style="flex:1;padding:26px 30px;font-size:40px;color:var(--text2)">Dienstfahrt</div></div>
+   <div id="tg" class="pill bad" style="margin-top:34px;font-size:48px;background:rgba(224,122,107,.18);color:var(--rot)">✎ nachträglich geändert</div></div></div>
+</section>
+
+<section class="szene" id="s3" data-von="7.1" data-bis="11.15">
+ <div class="kicker e"><i></i>Ordnungsgemäß heißt</div>
+ <h1 class="e">Zeitnah und</h1><h2 class="e">geschlossen.</h2>
+ <div class="panel e" style="padding:46px"><div style="display:flex;gap:26px">
+  <div class="card" id="k1" style="flex:1;text-align:center;padding:60px 10px"><div id="o1" class="ok" style="font-size:90px;line-height:1;opacity:.2">✓</div><div style="font-family:Outfit;font-size:56px;margin-top:20px">zeitnah</div></div>
+  <div class="card" id="k2" style="flex:1;text-align:center;padding:60px 10px"><div id="o2" class="ok" style="font-size:90px;line-height:1;opacity:.2">✓</div><div style="font-family:Outfit;font-size:56px;margin-top:20px">geschlossen</div></div></div></div>
+</section>
+
+<section class="szene" id="s4" data-von="11.15" data-bis="14.65">
+ <div class="kicker e"><i></i>Nachträgliche Änderungen</div>
+ <h1 class="e">Ausgeschlossen</h1><h2 class="e">oder erkennbar.</h2>
+ <div class="panel e" style="padding:46px">
+  <div class="card rt rr" style="justify-content:center;padding:34px;font-size:56px;gap:24px"><span class="bad">✎</span>Änderung</div>
+  <div style="text-align:center;font-size:80px;color:var(--grau);margin:10px 0">↓</div>
+  <div style="display:flex;gap:26px"><div class="card" id="m1" style="flex:1;text-align:center;padding:34px 8px;font-family:Outfit;font-size:46px">ausgeschlossen</div><div class="card" id="m2" style="flex:1;text-align:center;padding:34px 8px;font-family:Outfit;font-size:46px">erkennbar</div></div></div>
+</section>
+
+<section class="szene" id="s5" data-von="14.65" data-bis="18.1">
+ <div class="kicker e"><i></i>Sonst</div>
+ <h1 class="e">Dann gilt die</h1><h2 class="e">1 %-Regel.</h2>
+ <div class="panel e" style="padding:50px 46px;text-align:center">
+  <div class="big" id="b5" style="font-family:Outfit;font-size:230px;color:var(--gelb);text-shadow:0 0 60px rgba(232,176,74,.5)">1 %</div>
+  <div class="lbl" style="margin-top:12px">vom Bruttolistenpreis · pro Monat</div>
+  <div class="rr" style="margin-top:44px;gap:20px"><span class="lbl" style="font-size:21px;letter-spacing:.06em;width:230px;text-align:left">Privatfahrten</span><div class="track" style="flex:1;height:44px"><div class="fill" id="f5" style="width:90%;background:#3b514a;box-shadow:none"></div></div></div>
+  <div id="e5" style="margin-top:24px;font-size:44px;color:var(--text2)">1 % bleibt, <b style="color:var(--text)">egal wie wenig.</b></div></div>
+</section>
+
+<section class="szene" id="s6" data-von="18.1" data-bis="22.75">
+ <div class="kicker e"><i></i>Beispiel</div>
+ <h1 class="e">Listenpreis</h1><h2 class="e">50.000 €.</h2>
+ <div class="panel e" style="padding:46px">
+  <div id="x1" class="rr" style="justify-content:space-between;font-size:42px;color:var(--text2)"><span>1 % vom Listenpreis</span><span class="big" style="font-family:Outfit;font-size:66px;color:var(--text)">500 €</span></div>
+  <div id="x2" class="rr" style="justify-content:space-between;font-size:42px;color:var(--text2);margin-top:26px"><span>+ 20 km zur Arbeit</span><span class="big" style="font-family:Outfit;font-size:66px;color:var(--text)">300 €</span></div>
+  <div style="height:4px;background:#22352E;margin:30px 0"></div>
+  <div class="rr" style="justify-content:space-between"><span class="lbl" style="font-size:28px">Im Monat</span><span id="x3" class="big gel" style="font-family:Outfit;font-size:130px;color:var(--gelb);text-shadow:0 0 50px rgba(232,176,74,.45)">0 €</span></div></div>
+</section>
+
+<section class="szene" id="s7" data-von="22.75" data-bis="25.0">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Fahrtenbuch</h1><h2 class="e">oder 1 %?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">Fahrtenbuch</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">1 %</div></div></div></div>
+</section>
+
+
+<section class="szene" id="sc" data-von="25.0" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Firmenwagen-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+
+const W=[["Du", 0.0], ["trägst", 0.18], ["jede", 0.54], ["Fahrt", 0.68], ["sauber", 1.08], ["ein", 1.32], ["und", 1.54], ["der", 1.68], ["Prüfer", 1.78], ["verwirft", 2.14], ["das", 2.6], ["Fahrtenbuch", 2.76], ["trotzdem,", 3.22], ["weil", 4.12], ["es", 4.3], ["eine", 4.4], ["Excel-Liste", 4.56], ["ist,", 5.1], ["die", 5.54], ["sich", 5.68], ["jederzeit", 5.8], ["ändern", 6.14], ["lässt.", 6.38], ["Ein", 7.1], ["Fahrtenbuch", 7.24], ["zählt", 7.7], ["nur,", 7.9], ["wenn", 8.32], ["es", 8.4], ["zeitnah", 8.52], ["und", 8.98], ["in", 9.16], ["geschlossener", 9.28], ["Form", 9.8], ["geführt", 10.0], ["wird.", 10.34], ["Nachträgliche", 11.2], ["Änderungen", 11.7], ["müssen", 12.08], ["ausgeschlossen", 12.32], ["oder", 13.04], ["erkennbar", 13.48], ["sein,", 13.98], ["sonst", 14.7], ["gilt", 14.8], ["die", 15.04], ["1 %-Regel,", 15.18], ["egal", 16.28], ["wie", 16.56], ["wenig", 16.74], ["du", 16.98], ["privat", 17.12], ["fährst.", 17.42], ["Bei", 18.14], ["50.000", 18.26], ["Euro", 18.86], ["Listenpreis", 19.06], ["und", 19.66], ["20", 19.74], ["Kilometern", 20.08], ["zur", 20.56], ["Arbeit,", 20.72], ["800", 21.34], ["Euro", 21.6], ["im", 21.98], ["Monat.", 22.14], ["Fahrtenbuch", 22.8], ["oder", 23.22], ["1 %,", 23.4], ["was", 23.94], ["nutzt", 24.38], ["ihr?", 24.74]];
+const TEND=25.0,CTA=25.0;
+function anim(t){
+  // Hook: Fahrten werden sauber eingetragen, dann Stempel „VERWORFEN“
+  [0.2,0.6,1.0,1.4,1.8].forEach((z,i)=>{const c=$("c"+i),p=tw(t,z,0.2);c.style.opacity=p;c.style.transform=`scale(${0.5+0.5*p})`;$("r"+i).style.opacity=t>=2.3?0.35:1});
+  const f=t>=2.3;const sp=ease((t-2.3)/0.18),st=$("st1");st.style.opacity=sp;st.style.transform=`rotate(-9deg) scale(${1.7-0.7*sp})`;
+  $("p1").style.borderColor=f?"var(--rot)":"var(--rand)";$("hd1").className=f?"hd rt":"hd";$("hl1").textContent=f?"GEPRÜFT: ✕":"SAUBER";
+  // Szene 2: Eintrag wird nachträglich geändert
+  const c=t>=5.8;$("clt").textContent=c?"Privatfahrt":"Dienstfahrt";$("cl").className="card"+(c?" rt":"");$("clt").style.color=c?"var(--rot)":"var(--text2)";show("tg",tw(t,5.9,0.3));
+  // Szene 3
+  [["o1","k1",8.52],["o2","k2",9.4]].forEach(([o,k,z])=>{const on=t>=z;$(o).style.opacity=on?1:0.2;$(k).className="card"+(on?" an":"")});
+  // Szene 4
+  [["m1",12.32],["m2",13.48]].forEach(([id,z])=>{const on=t>=z;$(id).className="card"+(on?" an":"");$(id).style.color=on?"var(--gruen2)":"var(--text2)"});
+  // Szene 5: Privatfahrten schrumpfen, 1 % bleibt
+  $("f5").style.width=(90-75*ease((t-16.7)/0.8))+"%";$("b5").style.transform=`scale(${1+0.02*Math.sin(t*5)})`;show("e5",tw(t,17.2,0.3));
+  // Szene 6: Rechnung baut sich auf
+  show("x1",tw(t,19.0,0.3));show("x2",tw(t,19.74,0.3));$("x3").textContent=de(800*ease((t-21.34)/0.9))+" €";
+  // Szene 7
+  show("oa",tw(t,23.4,0.3));show("ob",tw(t,23.8,0.3));
+}
+
+
+const $=id=>document.getElementById(id);
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=$("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const tw=(t,a,d)=>ease((t-a)/(d||0.35));
+const de=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const typ=(s,t,a,cps)=>s.slice(0,Math.max(0,Math.floor((t-a)*(cps||16))));
+const show=(id,p)=>{const e=$(id);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${0.94+0.06*p})`};
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  const sw=$("sweep");if(sw)sw.style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  anim(t);
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>TEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

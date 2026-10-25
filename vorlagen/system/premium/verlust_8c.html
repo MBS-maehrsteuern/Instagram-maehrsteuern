@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „Verlust §8c“ (Motion-Design-Look, Muster einspruch.html). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden). Gesamtdauer 32.1 s. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.row{display:flex;align-items:center;gap:24px;padding:26px 32px;border-radius:24px;border:2px solid #22352E;background:#0B1411;margin-top:18px;font-family:"Outfit";font-size:54px;line-height:1.1}
+.row:first-of-type{margin-top:6px}
+.row small{white-space:nowrap;font-family:var(--mono);font-size:28px;color:var(--grau);margin-left:auto;letter-spacing:.08em;text-align:right}
+.row.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.3)}
+.row.rt{border-color:var(--rot);background:rgba(224,122,107,.12);box-shadow:0 0 40px rgba(224,122,107,.25)}
+.row.dim{opacity:.55}
+.row.an small{color:var(--gruen2)}.row.rt small{color:var(--rot)}
+.opt.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.stamp{display:inline-block;font-family:"Outfit";font-size:84px;letter-spacing:.04em;padding:8px 32px;border:6px solid var(--rot);color:var(--rot);border-radius:18px;background:rgba(7,12,10,.8);box-shadow:0 0 50px rgba(224,122,107,.35)}
+.stamp.g{border-color:var(--gruen);color:var(--gruen2);box-shadow:0 0 50px rgba(83,195,162,.4)}
+.bar{height:64px;border-radius:16px;background:#13211C;overflow:hidden;position:relative}
+.bar>i{display:block;height:100%;width:0;border-radius:16px}
+.bar>b{position:absolute;left:24px;top:0;height:100%;display:flex;align-items:center;font-family:var(--mono);font-size:28px;color:var(--text);letter-spacing:.06em;z-index:2}
+.gr{background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.rb{background:linear-gradient(90deg,#b85a4d,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.6)}
+.lab{font-family:var(--mono);font-size:28px;letter-spacing:.12em;color:var(--text2);margin:26px 0 12px}
+.big{font-family:"Outfit";font-weight:700;letter-spacing:-.03em;line-height:1}
+.ctr{text-align:center}
+.sq{width:78px;height:78px;border-radius:16px;border:2px solid #22352E;background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:28px;color:var(--grau)}
+.sq.an{border-color:var(--gruen);background:rgba(83,195,162,.2);color:var(--gruen2);box-shadow:0 0 24px rgba(83,195,162,.4)}
+.node{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:34px 26px;text-align:center;position:relative}
+.node .y{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.14em}
+.node .t{font-family:"Outfit";font-size:58px;margin-top:12px;line-height:1.1}
+.node.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.3)}
+.node.dash{border-style:dashed}
+.node.rt{border-color:var(--rot);background:rgba(224,122,107,.12)}
+.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gy{color:var(--grau)}.ge{color:var(--gelb)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="" data-von="0" data-bis="3.82">
+ <div class="kicker e"><i></i>Verlustvortrag</div>
+ <h1 class="e" style="font-size:122px">Anteilsverkauf:</h1><h2 class="e" style="font-size:104px;color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">Verluste wertlos.</h2>
+ <div class="panel e" style="margin-top:44px">
+ <div class="lab" id="vl">VERLUSTVORTRAG · JAHRE AN VERLUSTEN</div>
+ <div style="display:flex;gap:16px;align-items:flex-start;height:350px"><div style="flex:1;text-align:center"><div class="vb" style="height:120px;margin-top:180px;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),#2a7d66);box-shadow:0 0 24px rgba(83,195,162,.4);transform-origin:bottom"></div><div class="lab ctr" style="margin:10px 0 0;font-size:24px">J1</div></div><div style="flex:1;text-align:center"><div class="vb" style="height:170px;margin-top:130px;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),#2a7d66);box-shadow:0 0 24px rgba(83,195,162,.4);transform-origin:bottom"></div><div class="lab ctr" style="margin:10px 0 0;font-size:24px">J2</div></div><div style="flex:1;text-align:center"><div class="vb" style="height:220px;margin-top:80px;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),#2a7d66);box-shadow:0 0 24px rgba(83,195,162,.4);transform-origin:bottom"></div><div class="lab ctr" style="margin:10px 0 0;font-size:24px">J3</div></div><div style="flex:1;text-align:center"><div class="vb" style="height:260px;margin-top:40px;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),#2a7d66);box-shadow:0 0 24px rgba(83,195,162,.4);transform-origin:bottom"></div><div class="lab ctr" style="margin:10px 0 0;font-size:24px">J4</div></div><div style="flex:1;text-align:center"><div class="vb" style="height:300px;margin-top:0px;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),#2a7d66);box-shadow:0 0 24px rgba(83,195,162,.4);transform-origin:bottom"></div><div class="lab ctr" style="margin:10px 0 0;font-size:24px">J5</div></div></div>
+ <div class="pop" data-t="2.96" data-r="-5" style="position:absolute;left:0;right:0;top:150px;text-align:center"><span class="stamp" style="font-size:66px">ÜBER NACHT WEG</span></div></div>
+</section>
+<section class="szene" id="" data-von="3.82" data-bis="8.34">
+ <div class="kicker e"><i></i>Die Regel</div>
+ <h1 class="e" style="font-size:104px">Mehr als 50 %</h1><h2 class="e" style="">in 5 Jahren.</h2>
+ <div class="panel e" style=""><span class="norm">§ 8C ABS. 1 SATZ 1 KSTG</span>
+ <div class="lab">FÜNF JAHRE</div><div style="display:flex;gap:12px"><div class="sq lt" data-t="4.62" style="flex:1">1</div><div class="sq lt" data-t="4.75" style="flex:1">2</div><div class="sq lt" data-t="4.88" style="flex:1">3</div><div class="sq lt" data-t="5.0" style="flex:1">4</div><div class="sq lt" data-t="5.12" style="flex:1">5</div></div>
+ <div class="lab">ANTEILE AN EINEN ERWERBER</div><div style="position:relative"><div class="bar"><i id="an" class="gr"></i><b id="anl">0 %</b></div>
+ <div style="position:absolute;left:50%;top:-12px;bottom:-12px;width:6px;background:var(--gelb);box-shadow:0 0 18px var(--gelb)"></div></div></div>
+</section>
+<section class="szene" id="" data-von="8.34" data-bis="10.64">
+ <div class="kicker e"><i></i>Folge</div>
+ <h1 class="e" style="font-size:100px">Bisher ungenutzt:</h1><h2 class="e" style="font-size:96px;color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">Verluste weg.</h2>
+ <div class="panel e" style=""><div class="row at lt " data-t="8.6" data-c="an" >Nicht genutzte Verluste<small></small></div><div class="row at lt " data-t="9.96" data-c="rt" >Nach dem Anteilsverkauf<small>weg</small></div></div>
+</section>
+<section class="szene" id="" data-von="10.64" data-bis="12.74">
+ <div class="kicker e"><i></i>Nahestehende</div>
+ <h1 class="e" style="font-size:84px">Nahestehende Personen</h1><h2 class="e" style="font-size:84px">zählen zusammen.</h2>
+ <div class="panel e" style="">
+ <div style="display:flex;align-items:center;justify-content:center;gap:24px">
+  <div class="node lt an" data-t="10.64" style="flex:none;width:260px"><div class="t" style="font-size:44px">Person A</div></div><div class="big ok" style="font-size:90px">+</div>
+  <div class="node lt an" data-t="11.18" style="flex:none;width:260px"><div class="t" style="font-size:44px">Person B</div></div></div>
+ <div class="ctr at" data-t="11.9" style="margin-top:34px"><span class="stamp g" style="font-size:60px">= ZUSAMMEN</span></div></div>
+</section>
+<section class="szene" id="" data-von="12.74" data-bis="16.36">
+ <div class="kicker e"><i></i>Trifft auch</div>
+ <h1 class="e" style="">Es trifft auch</h1><h2 class="e" style="font-size:96px">diese Posten.</h2>
+ <div class="panel e" style=""><div class="row at lt " data-t="12.9" data-c="rt" >Verlustvortrag<small>✕</small></div><div class="row at lt " data-t="14.44" data-c="rt" style="font-size:44px">Gewerbesteuer-Fehlbetrag<small>✕</small></div><div class="row at lt " data-t="15.28" data-c="rt" >Zinsvortrag<small>✕</small></div></div>
+</section>
+<section class="szene" id="" data-von="16.36" data-bis="19.12">
+ <div class="kicker e"><i></i>Ausnahmen</div>
+ <h1 class="e" style="font-size:120px">Zwei</h1><h2 class="e" style="font-size:104px">Rettungsanker.</h2>
+ <div class="panel e" style="">
+ <div style="display:flex;gap:22px"><div class="node lt" data-t="18.1"><div class="y">ANKER 1</div><div class="t" style="font-size:38px">Konzernklausel</div></div>
+ <div class="node lt" data-t="22.18"><div class="y">ANKER 2</div><div class="t" style="font-size:44px">Stille Reserven</div></div></div></div>
+</section>
+<section class="szene" id="" data-von="19.12" data-bis="22.02">
+ <div class="kicker e"><i></i>Anker 1</div>
+ <h1 class="e" style="font-size:104px">Konzernklausel</h1><h2 class="e" style="font-size:80px">im 100-%-Konzern.</h2>
+ <div class="panel e" style="padding-top:84px"><span class="norm">§ 8C ABS. 1 SÄTZE 4–8 KSTG</span>
+ <div style="display:flex;align-items:center;gap:20px"><div class="node an"><div class="t" style="font-size:42px">Verkäufer</div></div>
+ <div class="big ok at" data-t="19.98" style="font-size:48px;white-space:nowrap">100 % →</div><div class="node an"><div class="t" style="font-size:42px">Erwerber</div></div></div></div>
+</section>
+<section class="szene" id="" data-von="22.02" data-bis="26.36">
+ <div class="kicker e"><i></i>Anker 2</div>
+ <h1 class="e" style="font-size:100px">Stille Reserven</h1><h2 class="e" style="font-size:92px">retten Verluste.</h2>
+ <div class="panel e" style="">
+ <div class="lab">VERLUSTE</div><div class="bar"><i class="gy" style="width:100%;background:#2a3d35"></i><i id="vb" class="gr" style="position:absolute;left:0;top:0"></i><b>BLEIBEN</b></div>
+ <div class="lab">STILLE RESERVEN</div><div class="bar"><i class="gr" id="rs" style="background:linear-gradient(90deg,var(--gelb),#f3cf85);box-shadow:0 0 24px rgba(232,176,74,.6)"></i><b>DA</b></div>
+ <div class="lab ok at" data-t="24.84">… SOWEIT RESERVEN DA SIND</div></div>
+</section>
+<section class="szene" id="" data-von="26.36" data-bis="28.1">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e" style="">Schon mal</h1><h2 class="e" style="">geprüft?</h2>
+ <div class="panel e" style=""><div style="display:flex;gap:26px"><div class="opt lt" data-t="27.4"><div class="t ok">JA</div></div><div class="opt lt" data-t="27.64"><div class="t bad">NEIN</div></div></div></div>
+</section>
+<section class="szene" id="cta" data-von="28.1" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>§-8c-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 010</span></div>
+<script>
+const W=[["Ein", 0.0], ["Anteilsverkauf", 0.2], ["und", 1.0], ["Jahre", 1.2], ["an", 1.46], ["Verlusten", 1.68], ["sind", 2.28], ["über", 2.52], ["Nacht", 2.74], ["wertlos.", 2.96], ["Gehen", 3.82], ["innerhalb", 4.02], ["von", 4.34], ["fünf", 4.62], ["Jahren", 4.88], ["mehr", 5.3], ["als", 5.5], ["50", 5.64], ["%", 5.96], ["der", 6.32], ["Anteile", 6.56], ["an", 7.02], ["einen", 7.16], ["Erwerber,", 7.44], ["sind", 8.34], ["die", 8.46], ["bisher", 8.6], ["nicht", 8.84], ["genutzten", 9.08], ["Verluste", 9.58], ["weg.", 9.96], ["Nahestehende", 10.64], ["Personen", 11.18], ["zählen", 11.56], ["zusammen.", 11.9], ["Und", 12.74], ["es", 12.9], ["trifft", 13.04], ["auch", 13.32], ["den", 13.46], ["gewerbesteuerlichen", 13.62], ["Fehlbetrag", 14.44], ["und", 14.98], ["den", 15.16], ["Zinsvortrag.", 15.28], ["Zwei", 16.36], ["Rettungsanker", 16.58], ["habt", 17.14], ["ihr.", 17.4], ["Die", 18.0], ["Konzernklausel", 18.1], ["bei", 18.98], ["Übertragung", 19.12], ["im", 19.76], ["100", 19.98], ["%-Konzern", 20.48], ["und", 21.4], ["die", 22.02], ["Stille-", 22.18], ["Reserven-Klausel", 22.58], ["Verluste", 23.64], ["bleiben", 24.12], ["soweit", 24.42], ["stille", 24.84], ["Reserven", 25.18], ["da", 25.56], ["sind.", 25.74], ["Schon", 26.36], ["mal", 26.48], ["geprüft?", 26.64], ["Ja", 27.4], ["oder", 27.46], ["nein?", 27.64]];
+const CTA=28.1,VEND=27.95;
+function extra(t){
+  const k=ease((t-2.74)/0.6);
+  document.querySelectorAll(".vb").forEach(v=>{v.style.transform=`scaleY(${1-0.9*k})`;v.style.background=k>0.5?"linear-gradient(180deg,#e9a094,var(--rot))":"linear-gradient(180deg,var(--gruen2),#2a7d66)";});
+  el("vl").style.color=k>0.5?"var(--rot)":"var(--text2)";
+  const a=roll(0,52,5.64,6.4,t);el("an").style.width=a+"%";el("anl").textContent=Math.round(a)+" %";el("an").className=a>50?"gr":"gr";
+  const v=ease((t-24.12)/1.6);el("vb").style.width=(100*Math.min(v,1)*0.62)+"%";el("rs").style.width=(62*ease((t-23.64)/0.6))+"%";
+}
+
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const el=id=>document.getElementById(id);
+const fmt=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const roll=(a,b,t0,t1,t)=>a+(b-a)*ease((t-t0)/(t1-t0));
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+function render(t){
+  el("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  el("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    // leichte Kamerafahrt: langsamer Zoom je Szene
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  document.querySelectorAll(".at").forEach(e=>{const d=+e.dataset.t;const p=d<=0?1:ease((t-d)/0.3);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*28}px)`});
+  document.querySelectorAll(".pop").forEach(e=>{const d=+e.dataset.t;const p=ease((t-d)/0.22);e.style.opacity=p;e.style.transform=`rotate(${e.dataset.r||-6}deg) scale(${1.7-0.7*p})`});
+  document.querySelectorAll(".lt").forEach(e=>{const d=+e.dataset.t,c=e.dataset.c||"an";e.classList.toggle(c,t>=d&&(!e.dataset.u||t<+e.dataset.u))});
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  el("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  // Schluss: TOOL pulsiert, Pfeil wippt
+  const tp=1+0.035*Math.sin((t-CTA)*5);el("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  el("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  extra(t);
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=el("ut");
+  if(gi<0||t>VEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+</script></body></html>

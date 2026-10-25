@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „GWG“ (Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. Wörter = Loris' gesprochener Text (Wortzeiten aus aufnahmen/2026-10-21/geschnitten_woerter.json, stimme_30). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+h2.rot{color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.chip.grau{background:rgba(111,130,121,.18);color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.out{font-family:"Outfit"}.mono{font-family:var(--mono)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:36px 26px;text-align:center;position:relative}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px;line-height:1.05}
+.opt.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.opt.rot{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.opt.rot .b{color:var(--rot)}
+.trk{height:60px;border-radius:16px;background:#13211C;position:relative;overflow:hidden;border:2px solid #22352E}
+.trk>i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.trk>i.r{background:linear-gradient(90deg,#b4503f,var(--rot));box-shadow:0 0 24px var(--rot)}
+.zeile{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:28px;color:var(--text2);margin-top:30px;letter-spacing:.06em}
+.zeile b{font-family:"Outfit";font-size:64px;color:var(--text);font-weight:700;letter-spacing:-.02em}
+.stamp{display:inline-block;border:7px solid;border-radius:18px;padding:6px 28px 10px;font-family:"Outfit";letter-spacing:.04em;transform-origin:center}
+.strk{position:relative;display:inline-block}
+.strk::after{content:"";position:absolute;left:-4%;top:54%;height:9px;width:var(--sw,0%);background:var(--rot);border-radius:5px;box-shadow:0 0 18px var(--rot)}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.gitter{display:flex;gap:14px;flex-wrap:wrap}
+.zelle{flex:1;min-width:0;height:96px;border-radius:18px;border:2px solid #22352E;background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:28px;color:var(--grau);letter-spacing:.08em}
+.zelle.an{border-color:var(--gruen);background:rgba(83,195,162,.16);color:var(--gruen2);box-shadow:0 0 26px rgba(83,195,162,.35)}
+.zelle.rot{border-color:var(--rot);background:rgba(224,122,107,.12);color:var(--rot);box-shadow:0 0 26px rgba(224,122,107,.3)}
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:8px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+
+<section class="szene" id="s1" data-von="0" data-bis="3.8">
+ <div class="kicker e"><i></i>Bürostuhl · netto</div>
+ <h1 class="e" style="font-size:112px">1 € entscheidet:</h1>
+ <h2 class="e" style="font-size:92px">sofort oder 5 Jahre.</h2>
+ <div class="panel e" style="padding:40px"><span class="norm">§ 6 ABS. 2 ESTG</span>
+  <div style="display:flex;gap:26px;margin-top:60px;position:relative">
+   <div class="opt" id="ca" style="padding:34px 20px"><div class="b">GWG</div><div class="t" style="font-size:112px;margin-top:20px">799 €</div>
+     <div class="trk" style="height:44px;margin-top:34px"><i id="ba"></i></div><div class="mono" style="font-size:28px;color:var(--text2);margin-top:20px;letter-spacing:.08em">SOFORT · 100 %</div></div>
+   <div class="opt" id="cb" style="padding:34px 20px"><div class="b">ABSCHREIBEN</div><div class="t" style="font-size:112px;margin-top:20px">801 €</div>
+     <div style="display:flex;gap:8px;margin-top:34px" id="bls"><div class="trk" style="height:44px;flex:1;border-radius:10px"><i></i></div><div class="trk" style="height:44px;flex:1;border-radius:10px"><i></i></div><div class="trk" style="height:44px;flex:1;border-radius:10px"><i></i></div><div class="trk" style="height:44px;flex:1;border-radius:10px"><i></i></div><div class="trk" style="height:44px;flex:1;border-radius:10px"><i></i></div></div>
+     <div class="mono" style="font-size:28px;color:var(--text2);margin-top:20px;letter-spacing:.08em">5 JAHRE · JE 20 %</div></div>
+   <div id="plus1" style="position:absolute;left:50%;top:0;transform:translate(-50%,-50%);font-family:Outfit;font-size:46px;padding:14px 26px;border-radius:999px;background:var(--text);color:#07100c;box-shadow:0 0 40px rgba(238,244,240,.4);z-index:3">+1 €</div>
+  </div><div class="sweep" id="sw1"></div></div>
+</section>
+<section class="szene" id="s2" data-von="3.8" data-bis="8.5">
+ <div class="kicker e"><i></i>Bürostuhl · 799 € netto</div>
+ <h1 class="e">Bis 800 €:</h1><h2 class="e">GWG – sofort.</h2>
+ <div class="panel e"><span class="norm">§ 6 ABS. 2 ESTG</span>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:14px">
+   <div><div class="chip">BÜROSTUHL</div><div class="gross" style="font-size:130px;margin-top:18px">799 €</div></div>
+   <div class="stamp" id="st2" style="color:var(--gruen2);border-color:var(--gruen);font-size:84px;box-shadow:0 0 50px rgba(83,195,162,.4);opacity:0">GWG</div></div>
+  <div class="zeile"><span>SOFORT VOLL ABZIEHBAR</span><b id="pz2" style="color:var(--gruen2)">0 %</b></div>
+  <div class="trk" style="margin-top:14px"><i id="b2"></i></div></div>
+</section>
+<section class="szene" id="s3a" data-von="8.5" data-bis="11.44">
+ <div class="kicker e"><i></i>Derselbe Stuhl</div>
+ <h1 class="e">801 € netto:</h1><h2 class="e rot">nicht sofort.</h2>
+ <div class="panel e"><span class="norm">§ 6 ABS. 2 ESTG</span>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:14px">
+   <div><div class="chip">BÜROSTUHL</div><div class="gross" style="font-size:130px;margin-top:18px">801 €</div></div>
+   <div class="out" style="font-size:66px;color:var(--grau)"><span class="strk" id="sk3">sofort</span></div></div>
+  <div class="zeile"><span>STATTDESSEN</span><b id="ab3" style="color:var(--gelb);font-size:60px;opacity:0">abschreiben</b></div>
+  <div class="trk" style="margin-top:14px"><i class="r" id="b3" style="background:linear-gradient(90deg,#b99133,var(--gelb));box-shadow:0 0 24px var(--gelb)"></i></div></div>
+</section>
+<section class="szene" id="s3b" data-von="11.44" data-bis="13.7">
+ <div class="kicker e"><i></i>Abschreiben</div>
+ <h1 class="e">Zwei Wege.</h1>
+ <div class="panel e" style="margin-top:50px"><div style="display:flex;gap:26px">
+  <div class="opt" id="w1" style="padding:46px 20px"><div class="b">1</div><div class="t" style="font-size:54px">Nutzungs&shy;dauer</div></div>
+  <div class="opt" id="w2" style="padding:46px 20px"><div class="b">2</div><div class="t" style="font-size:54px">Sammel&shy;posten</div></div></div></div>
+</section>
+<section class="szene" id="s4" data-von="13.7" data-bis="17.62">
+ <div class="kicker e"><i></i>Sammelposten</div>
+ <h1 class="e">5 Jahre</h1><h2 class="e">je 20 %.</h2>
+ <div class="panel e"><span class="norm">§ 6 ABS. 2A ESTG</span>
+  <div style="display:flex;gap:16px;align-items:flex-end;height:300px;margin-top:26px" id="jb">
+   <div style="flex:1;text-align:center"><div class="jb" style="height:0;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),var(--gruen));box-shadow:0 0 26px rgba(83,195,162,.5)"></div></div>
+   <div style="flex:1;text-align:center"><div class="jb" style="height:0;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),var(--gruen));box-shadow:0 0 26px rgba(83,195,162,.5)"></div></div>
+   <div style="flex:1;text-align:center"><div class="jb" style="height:0;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),var(--gruen));box-shadow:0 0 26px rgba(83,195,162,.5)"></div></div>
+   <div style="flex:1;text-align:center"><div class="jb" style="height:0;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),var(--gruen));box-shadow:0 0 26px rgba(83,195,162,.5)"></div></div>
+   <div style="flex:1;text-align:center"><div class="jb" style="height:0;border-radius:14px;background:linear-gradient(180deg,var(--gruen2),var(--gruen));box-shadow:0 0 26px rgba(83,195,162,.5)"></div></div></div>
+  <div style="display:flex;gap:16px;margin-top:16px;font-family:var(--mono);font-size:28px;color:var(--text2);text-align:center"><span style="flex:1">20 %</span><span style="flex:1">20 %</span><span style="flex:1">20 %</span><span style="flex:1">20 %</span><span style="flex:1">20 %</span></div>
+  <div style="position:absolute;right:30px;top:96px"><div class="stamp" id="st4" style="color:var(--rot);border-color:var(--rot);font-size:56px;opacity:0;background:rgba(7,12,10,.9)">DER FEHLER</div></div></div>
+</section>
+<section class="szene" id="s5" data-von="17.62" data-bis="21.46">
+ <div class="kicker e"><i></i>Wer den Pool wählt</div>
+ <h1 class="e">Für alles von</h1><h2 class="e">250 bis 1.000 €.</h2>
+ <div class="panel e"><span class="norm">§ 6 ABS. 2A ESTG</span>
+  <div style="margin-top:40px;position:relative;height:210px">
+   <div class="trk" style="position:absolute;left:0;right:0;top:20px;height:80px"><i id="b5" style="background:linear-gradient(90deg,rgba(83,195,162,.9),var(--gruen2))"></i></div>
+   <div class="mono" style="position:absolute;left:0;top:130px;font-size:28px;color:var(--text2)">0</div>
+   <div class="mono" style="position:absolute;left:25%;top:130px;font-size:28px;color:var(--text2);transform:translateX(-50%)" id="l250">250 €</div>
+      <div class="mono" style="position:absolute;right:0;top:130px;font-size:28px;color:var(--text2);" id="l1000">1.000 €</div>
+  </div>
+  <div style="margin-top:14px"><span class="chip" id="c5">POOL · EINHEITLICH</span></div></div>
+</section>
+<section class="szene" id="s6" data-von="21.46" data-bis="25.24">
+ <div class="kicker e"><i></i>Pool · im ganzen Jahr</div>
+ <h1 class="e">Dann gilt die</h1><h2 class="e rot">800-€-Grenze nicht.</h2>
+ <div class="panel e"><div class="gitter" style="margin-top:6px"><div class="zelle" id="m0" style="height:70px;flex:0 0 calc(16.66% - 12px)">JAN</div><div class="zelle" id="m1" style="height:70px;flex:0 0 calc(16.66% - 12px)">FEB</div><div class="zelle" id="m2" style="height:70px;flex:0 0 calc(16.66% - 12px)">MÄR</div><div class="zelle" id="m3" style="height:70px;flex:0 0 calc(16.66% - 12px)">APR</div><div class="zelle" id="m4" style="height:70px;flex:0 0 calc(16.66% - 12px)">MAI</div><div class="zelle" id="m5" style="height:70px;flex:0 0 calc(16.66% - 12px)">JUN</div><div class="zelle" id="m6" style="height:70px;flex:0 0 calc(16.66% - 12px)">JUL</div><div class="zelle" id="m7" style="height:70px;flex:0 0 calc(16.66% - 12px)">AUG</div><div class="zelle" id="m8" style="height:70px;flex:0 0 calc(16.66% - 12px)">SEP</div><div class="zelle" id="m9" style="height:70px;flex:0 0 calc(16.66% - 12px)">OKT</div><div class="zelle" id="m10" style="height:70px;flex:0 0 calc(16.66% - 12px)">NOV</div><div class="zelle" id="m11" style="height:70px;flex:0 0 calc(16.66% - 12px)">DEZ</div></div>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:34px">
+   <div class="mono" style="font-size:28px;color:var(--text2);letter-spacing:.1em">GWG-GRENZE</div>
+   <div class="gross" style="font-size:96px;color:var(--grau)"><span class="strk" id="sk6">800 €</span></div></div></div>
+</section>
+<section class="szene" id="s7" data-von="25.24" data-bis="27.2">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Was nehmt ihr?</h1>
+ <div class="panel e" style="margin-top:50px"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">GWG</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">Pool</div></div></div></div>
+</section>
+
+<section class="szene" id="scta" data-von="27.2" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>GWG-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 09</span></div>
+
+<script>
+const W=[["Ein", 0.0], ["einziger", 0.2], ["Euro", 0.52], ["entscheidet,", 0.76], ["ob", 1.28], ["du", 1.34], ["sofort", 1.44], ["absetzt", 1.68], ["oder", 2.18], ["fünf", 2.76], ["Jahre", 2.98], ["lang.", 3.18], ["Bürostuhl", 3.8], ["für", 4.34], ["799", 4.44], ["Euro", 5.2], ["netto:", 5.54], ["GWG,", 6.24], ["sofort", 6.94], ["voll", 7.22], ["abziehbar.", 7.58], ["Derselbe", 8.5], ["Stuhl", 8.88], ["für", 9.12], ["801", 9.18], ["Euro", 9.74], ["abschreiben:", 10.18], ["über", 11.44], ["die", 11.56], ["Nutzungsdauer", 11.68], ["oder", 12.22], ["Sammelposten.", 12.5], ["Fünf", 13.7], ["Jahre", 13.86], ["je", 14.1], ["20", 14.3], ["%", 14.58], ["und", 14.92], ["genau", 15.5], ["da", 15.82], ["passiert", 16.22], ["der", 16.76], ["Fehler.", 16.94], ["Wer", 17.62], ["den", 17.74], ["Pool", 17.88], ["wählt,", 18.14], ["muss", 18.76], ["ihn", 18.9], ["für", 19.04], ["alles", 19.2], ["zwischen", 19.48], ["250", 19.72], ["bis 1.000", 20.38], ["Euro", 21.14], ["im", 21.46], ["ganzen", 21.6], ["Jahr", 21.82], ["nutzen.", 22.1], ["Dann", 22.8], ["geht", 22.98], ["auch", 23.16], ["die", 23.32], ["800", 23.44], ["Euro", 23.68], ["Grenze", 24.12], ["nicht", 24.48], ["mehr.", 24.62], ["Was", 25.24], ["nehmt", 25.38], ["ihr?", 25.64], ["GWG", 26.04], ["oder", 26.5], ["Pool?", 26.66]];
+const CTA=27.2;
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+const P=(t,a,d=.35)=>ease((t-a)/d);
+const tg=(id,k,an)=>$(id).classList.toggle(k,!!an);
+function pop(id,t,a,d=.3){const p=P(t,a,d),e=$(id);e.style.opacity=p;e.style.transform=(e.dataset.tf||"")+` scale(${0.6+0.4*p})`}
+function stempel(id,t,a){const p=cl((t-a)/0.22,0,1),e=$(id);e.style.opacity=p>0?1:0;e.style.transform=`rotate(-5deg) scale(${p>=1?1:1.9-0.9*ease(p)})`}
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);   // erste Szene steht ab Frame 1 (Hook-Regel)
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  anim(t);
+  // Schluss: TOOL pulsiert, Pfeil wippt Richtung Kommentare
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  // Untertitel
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>CTA){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+function anim(t){
+
+  // Szene 1 (Hook): Lichtkante, +1 € pulsiert beim „Euro“, GWG leuchtet bei „sofort absetzt“, 5 Jahre füllen sich bei „fünf Jahre“
+  $("sw1").style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  const pp=Math.sin(Math.PI*cl((t-0.5)/0.45,0,1));$("plus1").style.transform=`translate(-50%,-50%) scale(${1+0.22*pp})`;
+  tg("ca","an",t>=1.44);tg("cb","rot",t>=2.18);
+  $("ba").style.width=(100*P(t,1.44,0.5))+"%";
+  [...document.querySelectorAll("#bls i")].forEach((e,i)=>{e.style.width=(100*P(t,2.5+i*0.13,0.2))+"%";e.className="r"});
+  // Szene 2: GWG-Stempel bei „GWG“, Balken 0→100 % bei „sofort voll abziehbar“
+  stempel("st2",t,6.24);
+  const f2=P(t,6.94,0.7);$("b2").style.width=(100*f2)+"%";$("pz2").textContent=Math.round(100*f2)+" %";
+  // Szene 3a: „sofort“ wird gestrichen, abschreiben erscheint
+  $("sk3").style.setProperty("--sw",(110*P(t,10.0,0.3))+"%");
+  $("ab3").style.opacity=P(t,10.18,0.3);$("b3").style.width=(100*P(t,10.4,0.9)*0.2)+"%";
+  // Szene 3b: zwei Wege leuchten
+  tg("w1","an",t>=11.68);tg("w2","an",t>=12.5);
+  // Szene 4: fünf Jahres-Säulen, dann „Der Fehler“
+  [...document.querySelectorAll(".jb")].forEach((e,i)=>e.style.height=(240*P(t,14.1+i*0.2,0.35))+"px");
+  stempel("st4",t,16.94);
+  // Szene 5: Band 250 → 1.000 € füllt sich bei „zwischen 250 bis 1.000“
+  $("b5").style.left=(25*P(t,19.72,0.01))+"%";$("b5").style.width=(75*P(t,19.72,1.3))+"%";
+  // Szene 6: zwölf Monate leuchten, 800 € wird gestrichen bei „nicht mehr“
+  for(let i=0;i<12;i++)tg("m"+i,"an",t>=21.62+i*0.075);
+  $("sk6").style.setProperty("--sw",(108*P(t,24.12,0.35))+"%");
+  // Szene 7: A/B
+  tg("oa","an",t>=26.04);tg("ob","an",t>=26.66);
+
+}
+</script></body></html>

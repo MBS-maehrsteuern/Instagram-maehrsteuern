@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „Prüfpfad“ (Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. Wörter = Loris' gesprochener Text (Wortzeiten aus aufnahmen/2026-10-21/geschnitten_woerter.json, stimme_38). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+h2.rot{color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.chip.grau{background:rgba(111,130,121,.18);color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.out{font-family:"Outfit"}.mono{font-family:var(--mono)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:36px 26px;text-align:center;position:relative}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px;line-height:1.05}
+.opt.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.opt.rot{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.opt.rot .b{color:var(--rot)}
+.trk{height:60px;border-radius:16px;background:#13211C;position:relative;overflow:hidden;border:2px solid #22352E}
+.trk>i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.trk>i.r{background:linear-gradient(90deg,#b4503f,var(--rot));box-shadow:0 0 24px var(--rot)}
+.zeile{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:28px;color:var(--text2);margin-top:30px;letter-spacing:.06em}
+.zeile b{font-family:"Outfit";font-size:64px;color:var(--text);font-weight:700;letter-spacing:-.02em}
+.stamp{display:inline-block;border:7px solid;border-radius:18px;padding:6px 28px 10px;font-family:"Outfit";letter-spacing:.04em;transform-origin:center}
+.strk{position:relative;display:inline-block}
+.strk::after{content:"";position:absolute;left:-4%;top:54%;height:9px;width:var(--sw,0%);background:var(--rot);border-radius:5px;box-shadow:0 0 18px var(--rot)}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.gitter{display:flex;gap:14px;flex-wrap:wrap}
+.zelle{flex:1;min-width:0;height:96px;border-radius:18px;border:2px solid #22352E;background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:28px;color:var(--grau);letter-spacing:.08em}
+.zelle.an{border-color:var(--gruen);background:rgba(83,195,162,.16);color:var(--gruen2);box-shadow:0 0 26px rgba(83,195,162,.35)}
+.zelle.rot{border-color:var(--rot);background:rgba(224,122,107,.12);color:var(--rot);box-shadow:0 0 26px rgba(224,122,107,.3)}
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:8px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+</style><style>
+.li{display:flex;align-items:center;gap:22px;border:2px solid #22352E;background:#0B1411;border-radius:20px;padding:22px 28px;margin-top:16px;font-family:Outfit;font-size:46px;color:var(--grau)}
+.li .ok{margin-left:auto;font-size:52px;color:var(--gruen2);opacity:0}
+.li.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 36px rgba(83,195,162,.35);color:var(--text)}
+.box{flex:1;border-radius:22px;border:2px solid #22352E;background:#0B1411;padding:30px 8px;text-align:center;font-family:Outfit;font-size:38px;color:var(--grau)}
+.box.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 36px rgba(83,195,162,.35);color:var(--text)}
+.pf{font-family:Outfit;font-size:70px;color:var(--grau);width:60px;text-align:center}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+
+<section class="szene" id="s1" data-von="0" data-bis="3.28">
+ <div class="kicker e"><i></i>Betriebsprüfung fragt</div>
+ <h1 class="e" style="font-size:118px">Woher kommt</h1><h2 class="e" style="font-size:104px">diese Zahl?</h2>
+ <div class="panel e" style="padding:34px 40px 40px"><div style="display:flex;justify-content:space-between;align-items:center"><span class="chip grau" id="ch1" style="font-size:28px">DEINE EXCEL</span><span class="chip rot" id="ch2" style="font-size:28px;opacity:0">KEINE ANTWORT</span></div>
+  <div style="display:flex;gap:12px;margin-top:12px"><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div></div><div style="display:flex;gap:12px;margin-top:12px"><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div><div class="zelle" id="xq" style="height:110px;font-size:80px;font-family:Outfit;border-color:var(--gruen);color:var(--gruen2);background:rgba(83,195,162,.13);box-shadow:0 0 30px rgba(83,195,162,.4)">?</div><div class="zelle" style="height:110px">–</div></div><div style="display:flex;gap:12px;margin-top:12px"><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div><div class="zelle" style="height:110px">–</div></div><div class="sweep" id="sw1"></div></div>
+</section>
+<section class="szene" id="s2" data-von="3.28" data-bis="7.5">
+ <div class="kicker e"><i></i>Die Frage</div>
+ <h1 class="e">Die Frage kommt</h1><h2 class="e">in jeder Prüfung.</h2>
+ <div class="panel e" style="text-align:center"><div class="gross" id="q2" style="font-size:300px;color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.6)">?</div>
+  <div class="stamp" id="st2" style="color:var(--gelb);border-color:var(--gelb);font-size:56px;opacity:0;position:absolute;right:30px;bottom:40px;background:rgba(7,12,10,.9)">JEDE PRÜFUNG</div></div>
+</section>
+<section class="szene" id="s3a" data-von="7.5" data-bis="11.86">
+ <div class="kicker e"><i></i>GoBD</div>
+ <h1 class="e">Ein Dritter muss</h1><h2 class="e">es nachvollziehen.</h2>
+ <div class="panel e"><span class="norm">GOBD</span>
+  <div class="li" id="l1" style="margin-top:30px">Sachverständiger Dritter<span class="ok" id="k1">✓</span></div>
+  <div class="li" id="l2">in angemessener Zeit<span class="ok" id="k2">✓</span></div>
+  <div class="li" id="l3">nachvollziehen können<span class="ok" id="k3">✓</span></div></div>
+</section>
+<section class="szene" id="s3b" data-von="11.86" data-bis="15.44">
+ <div class="kicker e"><i></i>Wie deine Zahlen entstehen</div>
+ <h1 class="e">Vom Beleg</h1><h2 class="e">zur Erklärung.</h2>
+ <div class="panel e"><div style="display:flex;align-items:center;gap:6px;margin-top:20px">
+  <div class="box" id="f1">Beleg</div><div class="pf" id="p1">→</div><div class="box" id="f2">Zahl</div><div class="pf" id="p2">→</div><div class="box" id="f3" style="font-size:32px;padding:34px 0">Erklärung</div></div>
+  <div class="out" id="zur" style="text-align:center;font-size:56px;color:var(--gruen2);margin-top:36px;opacity:0">↺ und zurück</div></div>
+</section>
+<section class="szene" id="s4" data-von="15.44" data-bis="18.52">
+ <div class="kicker e"><i></i>In der Praxis</div>
+ <h1 class="e" style="font-size:96px">12 Tabellenblätter</h1><h2 class="e rot">heißt: Suchen.</h2>
+ <div class="panel e"><div class="gitter"><div class="zelle" id="tb0" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 1</div><div class="zelle" id="tb1" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 2</div><div class="zelle" id="tb2" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 3</div><div class="zelle" id="tb3" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 4</div><div class="zelle" id="tb4" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 5</div><div class="zelle" id="tb5" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 6</div><div class="zelle" id="tb6" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 7</div><div class="zelle" id="tb7" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 8</div><div class="zelle" id="tb8" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 9</div><div class="zelle" id="tb9" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 10</div><div class="zelle" id="tb10" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 11</div><div class="zelle" id="tb11" style="flex:0 0 calc(25% - 11px);height:84px;font-size:26px">Tab 12</div></div>
+  <div class="stamp" id="st4" style="color:var(--rot);border-color:var(--rot);font-size:84px;opacity:0;position:absolute;left:50%;top:42%;margin-left:-190px;background:rgba(7,12,10,.92)">SUCHEN</div></div>
+</section>
+<section class="szene" id="s5" data-von="18.52" data-bis="21.36">
+ <div class="kicker e"><i></i>Mit Prüfpfad</div>
+ <h1 class="e">Ein Klick.</h1><h2 class="e">Eine Quelle.</h2>
+ <div class="panel e" style="min-height:430px"><span class="norm">PRÜFPFAD</span>
+  <div class="box" id="zb" style="margin-top:26px;font-size:70px;padding:30px 0;border-radius:22px">?</div>
+  <div style="height:70px;margin:0 auto;width:0;border-left:5px solid var(--gruen);opacity:0" id="ln"></div>
+  <div class="box an" id="qb" style="opacity:0;font-size:46px;padding:26px 0">Quelle · Beleg</div>
+  <svg id="cur" width="70" height="70" viewBox="0 0 24 24" style="position:absolute;left:560px;top:280px"><path d="M3 2 L3 20 L8 15 L11.5 22 L14 21 L10.5 14 L17 14 Z" fill="#EEF4F0" stroke="#070C0A" stroke-width="1.2"/></svg></div>
+</section>
+<section class="szene" id="s6" data-von="21.36" data-bis="25.4">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Wie beantwortet</h1><h2 class="e">ihr die Frage heute?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t" style="font-size:50px">Spur in Excel</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t" style="font-size:50px">Prüfpfad im Tool</div></div></div></div>
+</section>
+
+<section class="szene" id="scta" data-von="25.4" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Prüfpfad-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 08</span></div>
+
+<script>
+const W=[["Eine", 0.0], ["Frage", 0.28], ["in", 0.54], ["der", 0.68], ["Betriebsprüfung", 0.76], ["und", 1.54], ["deine", 1.72], ["Excel", 1.92], ["hat", 2.22], ["keine", 2.32], ["Antwort.", 2.5], ["Woher", 3.28], ["kommt", 3.66], ["diese", 3.92], ["verdammte", 4.34], ["Zahl?", 4.96], ["Die", 5.74], ["Frage", 5.86], ["kommt", 6.1], ["in", 6.36], ["jeder", 6.48], ["Prüfung.", 6.62], ["Nach", 7.5], ["dem", 7.66], ["GoBD", 7.8], ["muss", 8.3], ["ein", 8.6], ["sachverständiger", 8.78], ["Dritter", 9.5], ["in", 9.8], ["angemessener", 9.98], ["Zeit", 10.6], ["nachvollziehen", 10.86], ["können,", 11.42], ["wie", 11.86], ["deine", 11.98], ["Zahlen", 12.12], ["entstehen.", 12.46], ["Vom", 13.36], ["Beleg", 13.5], ["bis", 13.8], ["zur", 13.98], ["Erklärung", 14.16], ["und", 14.58], ["zurück.", 14.68], ["In", 15.44], ["12", 15.54], ["verknüpften", 15.8], ["Tabellenblättern", 16.34], ["heißt", 17.02], ["das", 17.22], ["Suchen.", 17.52], ["Mit", 18.52], ["Prüfpfad:", 18.68], ["auf", 19.38], ["die", 19.54], ["Zahl klicken,", 19.68], ["Quelle", 20.16], ["sehen.", 20.68], ["Wie", 21.36], ["beantwortet", 21.5], ["ihr", 21.98], ["die", 22.06], ["Frage", 22.18], ["heute?", 22.42], ["Spur", 23.1], ["in", 23.3], ["Excel", 23.42], ["oder", 23.78], ["Prüfpfad", 24.02], ["in", 24.58], ["einem", 24.66], ["Tool?", 24.86]];
+const CTA=25.4;
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+const P=(t,a,d=.35)=>ease((t-a)/d);
+const tg=(id,k,an)=>$(id).classList.toggle(k,!!an);
+function pop(id,t,a,d=.3){const p=P(t,a,d),e=$(id);e.style.opacity=p;e.style.transform=(e.dataset.tf||"")+` scale(${0.6+0.4*p})`}
+function stempel(id,t,a){const p=cl((t-a)/0.22,0,1),e=$(id);e.style.opacity=p>0?1:0;e.style.transform=`rotate(-5deg) scale(${p>=1?1:1.9-0.9*ease(p)})`}
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);   // erste Szene steht ab Frame 1 (Hook-Regel)
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  anim(t);
+  // Schluss: TOOL pulsiert, Pfeil wippt Richtung Kommentare
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  // Untertitel
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>CTA){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+function anim(t){
+
+  $("sw1").style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  $("xq").style.transform=`scale(${1+0.06*Math.sin(t*6)})`;
+  tg("ch1","an",0);$("ch1").className="chip"+(t>=1.92?"":" grau");$("ch2").style.opacity=P(t,2.5,0.3);
+  $("q2").style.transform=`scale(${1+0.05*Math.sin((t-3.28)*5)})`;stempel("st2",t,6.48);
+  [8.78,9.98,10.86].forEach((a,i)=>{tg("l"+(i+1),"an",t>=a);$("k"+(i+1)).style.opacity=P(t,a,0.25)});
+  tg("f1","an",t>=13.5);tg("f2","an",t>=13.8);tg("f3","an",t>=14.16);$("zur").style.opacity=P(t,14.68,0.35);
+  for(let i=0;i<12;i++)tg("tb"+i,"an",t>=15.54+i*0.11&&t<17.52);
+  for(let i=0;i<12;i++)tg("tb"+i,"rot",t>=17.52);
+  stempel("st4",t,17.52);
+  // Szene 5: Cursor klickt die Zahl, Quelle erscheint
+  const cx=P(t,19.2,0.5);$("cur").style.left=(700-330*cx)+"px";$("cur").style.top=(330-250*cx)+"px";$("cur").style.transform=`scale(${t>=19.68&&t<19.84?0.8:1})`;
+  tg("zb","an",t>=19.7);$("zb").textContent=t>=19.7?"Zahl":"?";$("ln").style.opacity=P(t,20.0,0.2);$("qb").style.opacity=P(t,20.16,0.3);
+  tg("oa","an",t>=23.1);tg("ob","an",t>=24.02);
+
+}
+</script></body></html>

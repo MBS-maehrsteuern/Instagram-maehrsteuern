@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „formeln“ (Muster einspruch.html, Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.xt{font-family:var(--mono)}.ok{color:var(--gruen2)}.bad{color:var(--rot)}.gel{color:var(--gelb)}
+.lbl{font-family:var(--mono);font-size:28px;letter-spacing:.14em;color:var(--text2);text-transform:uppercase}
+.card{border:2px solid #22352E;background:#0B1411;border-radius:26px;padding:30px}
+.card.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.card.rt{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.hd{background:linear-gradient(90deg,#1c4a3d,#123228);padding:24px 30px;font-family:var(--mono);font-size:30px;letter-spacing:.3em;color:var(--gruen2);display:flex;justify-content:space-between;align-items:center}
+.hd.rt{background:linear-gradient(90deg,#5a2a24,#3a1c18);color:#F2A99B}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.stamp{position:absolute;font-family:Outfit;border:7px solid var(--rot);color:var(--rot);border-radius:20px;padding:6px 34px 12px;letter-spacing:.03em;background:rgba(7,12,10,.55);box-shadow:0 0 40px rgba(224,122,107,.45);opacity:0}
+.stamp.g{border-color:var(--gruen2);color:var(--gruen2);box-shadow:0 0 40px rgba(83,195,162,.5)}
+.track{height:64px;border-radius:16px;background:#13211C;position:relative}
+.fill{height:100%;border-radius:16px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px rgba(83,195,162,.5)}
+.fill.r{background:linear-gradient(90deg,#b4554a,var(--rot));box-shadow:0 0 24px rgba(224,122,107,.5)}
+.fill.y{background:linear-gradient(90deg,#c58f2d,var(--gelb));box-shadow:0 0 24px rgba(232,176,74,.4)}
+.mk{position:absolute;top:-16px;bottom:-16px;width:6px;border-radius:3px;background:var(--text);box-shadow:0 0 16px rgba(238,244,240,.7)}
+.mkl{position:absolute;font-family:var(--mono);font-size:24px;color:var(--text2);white-space:nowrap}
+.rr{display:flex;align-items:center;gap:22px}
+.pill{font-family:Outfit;border-radius:20px;padding:10px 28px;display:inline-block}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="4.4">
+ <div class="kicker e"><i></i>Excel · Steuerrückstellung</div>
+ <h1 class="e" style="font-size:112px">Sieht sauber aus.</h1><h2 class="e bad" style="font-size:124px;color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">Ist falsch.</h2>
+ <div class="panel e" id="p1" style="padding:0;text-align:center">
+  <div class="hd" id="hd1"><span>RÜCKSTELLUNG</span><span id="fx1" style="letter-spacing:.04em;font-size:30px;text-transform:none">=WENNFEHLER( … ; 0 )</span></div>
+  <div style="position:relative;height:470px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px">
+   <div id="v1" style="font-family:Outfit;font-size:170px;line-height:1;letter-spacing:-.03em;color:var(--rot)">#BEZUG!</div>
+   <div id="b1" class="pill" style="font-size:50px;background:rgba(224,122,107,.2);color:var(--rot)">FEHLER</div>
+   <div class="stamp" id="st1" style="font-size:110px;right:40px;top:290px">FALSCH</div>
+   <div class="sweep" id="sweep"></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s2" data-von="4.4" data-bis="7.6">
+ <div class="kicker e"><i></i>WENNFEHLER(…; 0)</div>
+ <h1 class="e">Jeder Fehler</h1><h2 class="e">wird zur Null.</h2>
+ <div class="panel e" style="padding:50px 36px">
+  <div style="display:flex;gap:22px">
+   <div style="flex:1;text-align:center"><div class="card" id="er1"><div class="xt" style="font-size:44px">#BEZUG!</div></div><div style="font-size:70px;color:var(--grau);margin:10px 0">↓</div><div class="card" id="nu1" style="height:160px;display:flex;align-items:center;justify-content:center"><span class="big" style="font-family:Outfit;font-size:110px">0</span></div></div>
+   <div style="flex:1;text-align:center"><div class="card" id="er2"><div class="xt" style="font-size:44px">#DIV/0!</div></div><div style="font-size:70px;color:var(--grau);margin:10px 0">↓</div><div class="card" id="nu2" style="height:160px;display:flex;align-items:center;justify-content:center"><span class="big" style="font-family:Outfit;font-size:110px">0</span></div></div>
+   <div style="flex:1;text-align:center"><div class="card" id="er3"><div class="xt" style="font-size:44px">#NV</div></div><div style="font-size:70px;color:var(--grau);margin:10px 0">↓</div><div class="card" id="nu3" style="height:160px;display:flex;align-items:center;justify-content:center"><span class="big" style="font-family:Outfit;font-size:110px">0</span></div></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s3" data-von="7.6" data-bis="12.0">
+ <div class="kicker e"><i></i>Das Ergebnis</div>
+ <h1 class="e" id="h3a" style="font-size:108px">Die Tabelle</h1><h2 class="e" id="h3b">sieht sauber aus.</h2>
+ <div class="panel e" style="padding:40px 46px">
+  <div id="r1" class="rr" style="justify-content:space-between;font-size:44px;padding:18px 0;border-bottom:2px solid #1b2e27"><span>Position 1</span><span class="ok" style="font-size:54px">✓</span></div>
+  <div id="r2" class="rr" style="justify-content:space-between;font-size:44px;padding:18px 0;border-bottom:2px solid #1b2e27"><span>Position 2</span><span class="ok" style="font-size:54px">✓</span></div>
+  <div id="r3" class="rr" style="justify-content:space-between;font-size:44px;padding:18px 0;border-bottom:2px solid #1b2e27"><span>Position 3</span><span class="ok" style="font-size:54px">✓</span></div>
+  <div id="r4" style="padding-top:30px"><div class="rr" style="justify-content:space-between;font-size:44px;margin-bottom:20px"><span>Rückstellung</span><span id="r4l" class="bad xt" style="font-size:34px;letter-spacing:.12em"></span></div>
+   <div class="track" style="border:3px dashed var(--gruen);background:transparent"><div class="fill r" id="r4f" style="width:0%"></div><span class="mkl" style="right:12px;top:14px;color:var(--gruen2)" id="r4r">richtig</span></div></div>
+ </div>
+</section>
+
+<section class="szene" id="s4" data-von="12.0" data-bis="14.2">
+ <div class="kicker e"><i></i>Besser</div>
+ <h1 class="e">Fehler</h1><h2 class="e">sichtbar lassen.</h2>
+ <div class="panel e" style="text-align:center;padding:60px 46px">
+  <div class="card rt" id="c4" style="display:inline-block;padding:36px 70px"><span class="xt bad" style="font-size:100px">#BEZUG!</span></div>
+  <div style="margin-top:44px;font-size:40px;color:var(--text2)" id="t4">Ein Hinweis, <b style="color:var(--text)">kein Schönheitsfehler.</b></div>
+  <div class="pill" id="b4" style="margin-top:34px;font-size:46px;background:rgba(83,195,162,.2);color:var(--gruen2)">● SICHTBAR</div>
+ </div>
+</section>
+
+<section class="szene" id="s5" data-von="14.2" data-bis="17.2">
+ <div class="kicker e"><i></i>Dazu</div>
+ <h1 class="e">Zwei Dinge,</h1><h2 class="e">weniger Fehler.</h2>
+ <div class="panel e" style="padding:44px 46px">
+  <div class="rr card" id="t5a" style="gap:36px;padding:34px 40px"><span class="big" style="font-family:Outfit;font-size:100px;color:var(--gruen2)">1</span><span style="font-family:Outfit;font-size:72px">XVERWEIS</span></div>
+  <div class="rr card" id="t5b" style="gap:36px;padding:34px 40px;margin-top:26px"><span class="big" style="font-family:Outfit;font-size:100px;color:var(--gruen2)">2</span><span style="font-family:Outfit;font-size:72px">Namen</span></div>
+  <div id="t5c" class="rr" style="margin-top:34px;justify-content:center;font-size:44px;color:var(--text2)"><span class="ok" style="font-size:60px">✓</span> Fehler entstehen gar nicht erst</div>
+ </div>
+</section>
+
+<section class="szene" id="s6" data-von="17.2" data-bis="20.6">
+ <div class="kicker e"><i></i>1 · XVERWEIS</div>
+ <h1 class="e">Sätze holen,</h1><h2 class="e">nicht eintippen.</h2>
+ <div class="panel e" style="padding:44px 46px">
+  <div style="display:flex;gap:20px"><span id="ch1" class="pill" style="font-size:44px;background:#13211C;color:var(--grau)">Steuersatz</span><span id="ch2" class="pill" style="font-size:44px;background:#13211C;color:var(--grau)">Hebesatz</span></div>
+  <div class="card" style="margin-top:34px;padding:34px 34px"><div class="lbl" style="font-size:24px;color:var(--gruen)">Formel</div><div id="fm6" class="xt" style="font-size:44px;margin-top:14px;min-height:56px;white-space:nowrap;color:var(--gruen2)">=XVERWEIS(Jahr; Jahre; Sätze)</div></div>
+  <div class="rr" id="fw6" style="margin-top:34px;font-size:44px;color:var(--text2);gap:20px"><span class="lbl" style="color:var(--grau)">Festwert</span><span class="strike" id="fs6" style="font-size:52px;color:var(--text2)">eintippen</span></div>
+ </div>
+</section>
+
+<section class="szene" id="s7" data-von="20.6" data-bis="24.1">
+ <div class="kicker e"><i></i>2 · Namen</div>
+ <h1 class="e">Hebesatz</h1><h2 class="e">statt $C$12.</h2>
+ <div class="panel e" style="padding:50px 46px;text-align:center">
+  <div class="lbl" style="text-align:left">Namenfeld</div>
+  <div class="card" id="nf" style="margin-top:20px;text-align:left;padding:30px 40px"><span id="nft" class="xt" style="font-size:80px">C12</span></div>
+  <div style="margin-top:50px;display:flex;align-items:center;justify-content:center;gap:40px">
+   <div class="pill" id="pn" style="font-size:78px;background:rgba(83,195,162,.2);color:var(--gruen2);border:3px solid var(--gruen)">Hebesatz</div>
+   <div class="xt" id="pz" style="font-size:64px;color:var(--grau)"><span class="strike" id="pzs">$C$12</span></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s8" data-von="24.1" data-bis="26.4">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Wie oft steht</h1><h2 class="e" style="font-size:84px">WENNFEHLER drin?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">nie</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">überall</div></div></div></div>
+</section>
+
+
+<section class="szene" id="sc" data-von="26.4" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Formel-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+
+const W=[["Die", 0.0], ["Formel,", 0.16], ["die", 0.52], ["deine", 0.58], ["Excel", 0.82], ["sauber", 1.1], ["aussehen", 1.52], ["lässt,", 1.96], ["macht", 2.54], ["deine", 2.66], ["Steuerrückstellung", 2.9], ["falsch.", 3.52], ["WENNFEHLER", 4.4], ["mit", 5.2], ["Null", 5.28], ["verwandelt", 5.54], ["jeden", 6.02], ["Fehler", 6.2], ["in", 6.6], ["eine", 6.78], ["Null.", 6.98], ["Die", 7.68], ["Tabelle", 7.82], ["sieht", 8.22], ["sauber", 8.6], ["aus,", 9.0], ["die", 9.48], ["Rückstellung", 9.54], ["ist", 9.94], ["zu", 10.16], ["niedrig", 10.3], ["und", 10.68], ["keiner", 11.0], ["merkt", 11.26], ["es.", 11.58], ["Besser", 12.04], ["Fehler", 12.38], ["sichtbar", 13.06], ["lassen", 13.58], ["und", 13.84], ["zwei", 14.22], ["Dinge,", 14.48], ["die", 15.12], ["solche", 15.2], ["Fehler", 15.4], ["gar", 15.72], ["nicht", 15.94], ["erst", 16.12], ["entstehen", 16.26], ["lassen.", 16.64], ["Steuersatz", 17.26], ["und", 17.72], ["Hebesatz", 17.92], ["per", 18.32], ["XVERWEIS", 18.54], ["holen", 19.16], ["statt", 19.48], ["Eintippen.", 19.66], ["Und", 20.66], ["Namen", 20.82], ["wie", 21.14], ["Hebesatz", 21.58], ["statt", 22.08], ["$C$12.", 22.4], ["Wie", 24.2], ["sieht", 24.3], ["es", 24.44], ["bei", 24.54], ["euch", 24.64], ["aus?", 24.76], ["Habt", 25.4], ["ihr", 25.58], ["WENNFEHLER?", 25.66]];
+const TEND=26.4,CTA=26.4;
+function anim(t){
+  // Hook: #BEZUG! → 0 € („sauber“), bei „falsch“ rot + Stempel
+  const v=$("v1"),b=$("b1"),f=t>=3.2;
+  if(t<1.0){v.textContent="#BEZUG!";v.style.fontSize="170px";v.style.color="var(--rot)";b.textContent="FEHLER";b.style.background="rgba(224,122,107,.2)";b.style.color="var(--rot)"}
+  else{const r=f?"var(--rot)":"var(--gruen2)";v.textContent="0 €";v.style.fontSize="280px";v.style.color=r;v.style.textShadow=f?"0 0 60px rgba(224,122,107,.7)":"0 0 60px rgba(83,195,162,.7)";
+    b.textContent=f?"✕ FALSCH":"✓ SAUBER";b.style.background=f?"rgba(224,122,107,.2)":"rgba(83,195,162,.2)";b.style.color=r}
+  const sp=ease((t-3.2)/0.18),st=$("st1");st.style.opacity=sp;st.style.transform=`rotate(-8deg) scale(${1.7-0.7*sp})`;
+  $("p1").style.borderColor=f?"var(--rot)":"var(--rand)";$("hd1").className=f?"hd rt":"hd";
+  // Szene 2: Fehler werden zu Null
+  [6.0,6.35,6.75].forEach((z,i)=>{const e=$("er"+(i+1)),n=$("nu"+(i+1)),on=t>=z;e.style.opacity=on?0.3:1;e.className="card"+(on?"":" rt");
+    n.className="card"+(on?" rt":"");n.style.opacity=on?1:0.25;n.style.transform=`scale(${on?1+0.1*(1-ease((t-z)/0.3)):1})`});
+  // Szene 3: Positionen ✓, dann Rückstellung zu niedrig
+  [7.82,8.22,8.6].forEach((z,i)=>show("r"+(i+1),tw(t,z,0.3)));
+  const late=t>=9.4;$("h3a").textContent=late?"Die Rückstellung":"Die Tabelle";const h=$("h3b");h.textContent=late?"ist zu niedrig.":"sieht sauber aus.";
+  h.style.color=late?"var(--rot)":"var(--gruen)";h.style.textShadow=late?"0 0 40px rgba(224,122,107,.35)":"0 0 40px rgba(83,195,162,.35)";
+  show("r4",tw(t,9.5,0.3));$("r4f").style.width=(100*0.22*ease((t-10.2)/0.5))+"%";
+  $("r4l").textContent=t>=10.3?"ZU NIEDRIG":"";
+  // Szene 4: Fehler bleibt sichtbar
+  const g4=0.5+0.5*Math.sin(t*7);$("c4").style.boxShadow=`0 0 ${30+30*g4}px rgba(224,122,107,.45)`;
+  show("t4",tw(t,13.0,0.3));show("b4",tw(t,13.58,0.3));
+  // Szene 5: zwei Dinge
+  show("t5a",tw(t,14.6,0.35));show("t5b",tw(t,15.3,0.35));show("t5c",tw(t,16.5,0.35));
+  // Szene 6: Formel tippt sich, Eintippen wird gestrichen
+  $("fm6").textContent=typ("=XVERWEIS(Jahr; Jahre; Sätze)",t,17.45,15);
+  [["ch1",17.26],["ch2",17.92]].forEach(([id,z])=>{const e=$(id),on=t>=z;e.style.background=on?"rgba(83,195,162,.2)":"#13211C";e.style.color=on?"var(--gruen2)":"var(--grau)"});
+  $("fs6").style.setProperty("--sw",(110*ease((t-19.66)/0.3))+"%");
+  // Szene 7: C12 → Hebesatz, $C$12 durchgestrichen
+  const nm=t>=21.5;$("nft").textContent=nm?"Hebesatz":"C12";$("nft").style.color=nm?"var(--gruen2)":"var(--text)";$("nf").className="card"+(nm?" an":"");
+  show("pn",tw(t,21.5,0.3));show("pz",tw(t,22.2,0.3));$("pzs").style.setProperty("--sw",(110*ease((t-22.6)/0.3))+"%");
+  // Szene 8: A/B
+  show("oa",tw(t,24.6,0.3));show("ob",tw(t,25.0,0.3));
+}
+
+
+const $=id=>document.getElementById(id);
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=$("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const tw=(t,a,d)=>ease((t-a)/(d||0.35));
+const de=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,".");
+const typ=(s,t,a,cps)=>s.slice(0,Math.max(0,Math.floor((t-a)*(cps||16))));
+const show=(id,p)=>{const e=$(id);e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${0.94+0.06*p})`};
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  const sw=$("sweep");if(sw)sw.style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  anim(t);
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>TEND){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „Holding“ (Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. Wörter = Loris' gesprochener Text (Wortzeiten aus aufnahmen/2026-10-21/geschnitten_woerter.json, stimme_39). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+h2.rot{color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.chip.grau{background:rgba(111,130,121,.18);color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.out{font-family:"Outfit"}.mono{font-family:var(--mono)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:36px 26px;text-align:center;position:relative}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px;line-height:1.05}
+.opt.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.opt.rot{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.28)}
+.opt.rot .b{color:var(--rot)}
+.trk{height:60px;border-radius:16px;background:#13211C;position:relative;overflow:hidden;border:2px solid #22352E}
+.trk>i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.trk>i.r{background:linear-gradient(90deg,#b4503f,var(--rot));box-shadow:0 0 24px var(--rot)}
+.zeile{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:28px;color:var(--text2);margin-top:30px;letter-spacing:.06em}
+.zeile b{font-family:"Outfit";font-size:64px;color:var(--text);font-weight:700;letter-spacing:-.02em}
+.stamp{display:inline-block;border:7px solid;border-radius:18px;padding:6px 28px 10px;font-family:"Outfit";letter-spacing:.04em;transform-origin:center}
+.strk{position:relative;display:inline-block}
+.strk::after{content:"";position:absolute;left:-4%;top:54%;height:9px;width:var(--sw,0%);background:var(--rot);border-radius:5px;box-shadow:0 0 18px var(--rot)}
+.sweep{position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg);pointer-events:none}
+.gitter{display:flex;gap:14px;flex-wrap:wrap}
+.zelle{flex:1;min-width:0;height:96px;border-radius:18px;border:2px solid #22352E;background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:28px;color:var(--grau);letter-spacing:.08em}
+.zelle.an{border-color:var(--gruen);background:rgba(83,195,162,.16);color:var(--gruen2);box-shadow:0 0 26px rgba(83,195,162,.35)}
+.zelle.rot{border-color:var(--rot);background:rgba(224,122,107,.12);color:var(--rot);box-shadow:0 0 26px rgba(224,122,107,.3)}
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:8px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+</style><style>
+.li{display:flex;align-items:center;gap:22px;border:2px solid #22352E;background:#0B1411;border-radius:20px;padding:26px 28px;margin-top:16px;font-family:Outfit;font-size:46px;color:var(--grau)}
+.li b{font-weight:700;color:var(--text);min-width:230px;font-family:var(--mono);font-size:30px;letter-spacing:.1em}
+.li .ok{margin-left:auto;font-size:56px;opacity:0}
+.li.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 36px rgba(83,195,162,.35);color:var(--gruen2)}
+.li.rot{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 36px rgba(224,122,107,.3);color:var(--rot)}
+.gm{border-radius:22px;border:2px solid var(--gruen);background:rgba(83,195,162,.13);padding:34px 20px;text-align:center;font-family:var(--mono);font-size:26px;letter-spacing:.1em;color:var(--gruen2);font-weight:600;box-shadow:0 0 36px rgba(83,195,162,.3)}
+.sh{position:absolute;width:44px;height:44px;border-radius:10px;background:var(--gruen2);box-shadow:0 0 20px var(--gruen)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+
+<section class="szene" id="s1" data-von="0" data-bis="5.36">
+ <div class="kicker e"><i></i>GmbH · Beteiligungsverkauf</div>
+ <h1 class="e" style="font-size:108px">1 Mio. € Gewinn:</h1><h2 class="e" style="font-size:88px">unter 15.000 € Steuer.</h2>
+ <div class="panel e" style="padding:40px 44px 46px"><span class="norm">DEMO-ZAHLEN</span>
+  <div class="mono" style="font-size:28px;color:var(--text2);letter-spacing:.1em;margin-top:14px">GEWINN</div>
+  <div style="display:flex;align-items:baseline;justify-content:space-between"><div class="gross" style="font-size:96px">1.000.000 €</div></div>
+  <div class="trk" style="height:50px;margin-top:10px"><i style="width:100%;background:linear-gradient(90deg,#2f6f5b,var(--gruen))"></i></div>
+  <div class="mono" style="font-size:28px;color:var(--text2);letter-spacing:.1em;margin-top:34px">STEUER</div>
+  <div class="gross" id="z1" style="font-size:96px;color:var(--gruen2)">&lt; 15.000 €</div>
+  <div class="trk" style="height:50px;margin-top:10px"><i id="sl" style="width:1.8%"></i></div>
+  <div class="stamp" id="st1" style="color:var(--gruen2);border-color:var(--gruen);font-size:44px;opacity:0;position:absolute;right:26px;top:350px;background:rgba(7,12,10,.93);box-shadow:0 0 50px rgba(83,195,162,.5)">VÖLLIG LEGAL</div>
+  <div class="sweep" id="sw1"></div></div>
+</section>
+<section class="szene" id="s2a" data-von="5.36" data-bis="7.72">
+ <div class="kicker e"><i></i>Der Trick</div>
+ <h1 class="e">Eine GmbH</h1><h2 class="e">verkauft Anteile.</h2>
+ <div class="panel e" style="min-height:340px"><span class="norm">§ 8B KSTG</span>
+  <div style="position:relative;height:230px;margin-top:30px"><div class="gm" style="position:absolute;left:0;top:40px;width:240px;font-size:34px">GMBH</div>
+   <div class="sh" id="sa0" style="left:270px;top:80px"></div><div class="sh" id="sa1" style="left:270px;top:80px"></div><div class="sh" id="sa2" style="left:270px;top:80px"></div>
+   <div class="mono" id="la" style="position:absolute;left:300px;top:150px;font-size:28px;color:var(--text2);letter-spacing:.1em;opacity:0">ANTEILE ➜</div></div></div>
+</section>
+<section class="szene" id="s2b" data-von="7.72" data-bis="10.58">
+ <div class="kicker e"><i></i>An eine Kapitalgesellschaft</div>
+ <h1 class="e">Der Gewinn bleibt</h1><h2 class="e">steuerfrei.</h2>
+ <div class="panel e" style="min-height:340px"><span class="norm">§ 8B ABS. 2, 3 KSTG</span>
+  <div style="display:flex;align-items:center;gap:14px;margin-top:50px"><div class="gm" style="width:230px;font-size:34px">GMBH</div><div class="out" style="font-size:64px;color:var(--gruen2)">➜</div><div class="gm" style="flex:1;font-size:24px;padding:36px 8px" id="kg">KAPITAL&shy;GESELLSCHAFT</div></div>
+  <div class="stamp" id="st2" style="color:var(--gruen2);border-color:var(--gruen);font-size:64px;opacity:0;margin-top:34px;box-shadow:0 0 50px rgba(83,195,162,.4)">STEUERFREI</div></div>
+</section>
+<section class="szene" id="s3" data-von="10.58" data-bis="15.08">
+ <div class="kicker e"><i></i>Die Ausnahme</div>
+ <h1 class="e">Nur 5 %</h1><h2 class="e rot">nicht abziehbar.</h2>
+ <div class="panel e"><span class="norm">§ 8B ABS. 3 KSTG</span>
+  <div style="margin-top:34px"><div class="trk" style="height:70px"><i style="width:100%;background:linear-gradient(90deg,#2f6f5b,var(--gruen))"></i><i class="r" id="b3" style="left:95%;width:0"></i></div>
+   <div class="mono" style="font-size:26px;color:var(--text2);margin-top:14px;letter-spacing:.08em">1 MIO. € · DAVON 5 % BETRIEBSAUSGABEN</div></div>
+  <div style="display:flex;align-items:baseline;justify-content:space-between;margin-top:34px"><div class="gross" style="font-size:110px;color:var(--rot)" id="g3">5 %</div><div class="gross" id="e3" style="font-size:96px;color:var(--rot);opacity:0">50.000 €</div></div></div>
+</section>
+<section class="szene" id="s4" data-von="15.08" data-bis="18.16">
+ <div class="kicker e"><i></i>Darauf</div>
+ <h1 class="e">Rund 30 %</h1><h2 class="e">Steuer.</h2>
+ <div class="panel e"><div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+  <div class="gross" id="r1" style="font-size:96px">50.000 €</div><div class="out" id="r2" style="font-size:80px;color:var(--grau)">×</div><div class="gross" id="r3" style="font-size:96px;color:var(--gruen2)">~30 %</div></div>
+  <div style="display:flex;gap:14px;margin-top:40px"><span class="chip" id="ka" style="font-size:26px;opacity:0">KÖRPERSCHAFTSTEUER</span><span class="chip" id="kb" style="font-size:26px;opacity:0">GEWERBESTEUER</span></div></div>
+</section>
+<section class="szene" id="s5" data-von="18.16" data-bis="20.84">
+ <div class="kicker e"><i></i>Das Ergebnis</div>
+ <h1 class="e">Knapp 15.000 €</h1><h2 class="e">Steuer.</h2>
+ <div class="panel e"><div style="display:flex;align-items:baseline;justify-content:space-between;margin-top:6px"><div class="gross" id="z5" style="font-size:150px;color:var(--gruen2)">0 %</div><div class="mono" style="font-size:28px;color:var(--text2);letter-spacing:.1em;text-align:right">VOM GEWINN</div></div>
+  <div class="trk" style="margin-top:30px;height:50px"><i id="b5" style="width:0"></i></div></div>
+</section>
+<section class="szene" id="s6" data-von="20.84" data-bis="24.96">
+ <div class="kicker e"><i></i>Aber</div>
+ <h1 class="e">Verluste daraus</h1><h2 class="e rot">nicht abziehbar.</h2>
+ <div class="panel e"><span class="norm">§ 8B ABS. 3 KSTG</span>
+  <div class="li" id="v1" style="margin-top:34px"><b>GEWINN</b>steuerfrei<span class="ok" id="o1" style="color:var(--gruen2)">✓</span></div>
+  <div class="li" id="v2"><b>VERLUST</b>nicht abziehbar<span class="ok" id="o2" style="color:var(--rot)">✕</span></div></div>
+</section>
+<section class="szene" id="s7" data-von="24.96" data-bis="26.95">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Holding schon</h1><h2 class="e">im Einsatz?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="t">Ja</div></div><div class="opt" id="ob"><div class="t">Nein</div></div></div></div>
+</section>
+
+<section class="szene" id="scta" data-von="26.95" data-bis="99">
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Holding-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 09</span></div>
+
+<script>
+const W=[["Eine", 0.0], ["Million", 0.24], ["Euro", 0.52], ["Gewinn", 0.78], ["und", 1.14], ["die", 1.38], ["GmbH", 1.52], ["zahlt", 1.94], ["darauf", 2.24], ["keine", 2.42], ["15.000", 2.66], ["Euro", 3.34], ["Steuer.", 3.54], ["Völlig", 4.26], ["legal.", 4.56], ["Verkauft", 5.36], ["eine", 5.72], ["GmbH", 5.92], ["Anteile", 6.62], ["an", 7.08], ["einer", 7.24], ["anderen", 7.44], ["Kapitalgesellschaft", 7.72], ["bleibt", 8.68], ["der", 9.28], ["Gewinn", 9.44], ["steuerfrei.", 9.66], ["Nur", 10.58], ["5", 10.72], ["%", 10.98], ["gelten", 11.4], ["als", 11.72], ["nicht", 11.86], ["abziehbare", 12.04], ["Betriebsausgaben,", 12.54], ["also", 13.6], ["50.000", 13.78], ["Euro.", 14.34], ["Darauf", 15.08], ["rund", 15.36], ["30", 15.58], ["%", 15.9], ["Körperschaft", 16.28], ["und", 16.86], ["Gewerbesteuer.", 17.18], ["Knapp", 18.16], ["15.000", 18.4], ["Euro,", 19.0], ["rund", 19.5], ["1,5", 19.64], ["%.", 19.9], ["Aber", 20.84], ["Verluste", 21.2], ["aus", 22.12], ["so", 22.4], ["einem", 22.64], ["Verkauf", 22.84], ["darfst", 23.28], ["du", 23.62], ["dafür", 23.7], ["auch", 23.9], ["nicht", 24.06], ["abziehen.", 24.18], ["Holding", 24.96], ["schon", 25.26], ["im", 25.44], ["Einsatz?", 25.58], ["Ja", 26.26], ["oder", 26.36], ["nein?", 26.5]];
+const CTA=26.95;
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+const P=(t,a,d=.35)=>ease((t-a)/d);
+const tg=(id,k,an)=>$(id).classList.toggle(k,!!an);
+function pop(id,t,a,d=.3){const p=P(t,a,d),e=$(id);e.style.opacity=p;e.style.transform=(e.dataset.tf||"")+` scale(${0.6+0.4*p})`}
+function stempel(id,t,a){const p=cl((t-a)/0.22,0,1),e=$(id);e.style.opacity=p>0?1:0;e.style.transform=`rotate(-5deg) scale(${p>=1?1:1.9-0.9*ease(p)})`}
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);   // erste Szene steht ab Frame 1 (Hook-Regel)
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  anim(t);
+  // Schluss: TOOL pulsiert, Pfeil wippt Richtung Kommentare
+  const tp=1+0.035*Math.sin((t-CTA)*5);$("tool").style.transform+=` scale(${t>CTA+0.5?tp:1})`;
+  $("pfeil").style.transform+=` translateY(${t>CTA+0.5?18*Math.sin((t-CTA)*6):0}px)`;
+  // Untertitel
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>CTA){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+function anim(t){
+
+  $("sw1").style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  const pu=Math.exp(-5*Math.max(0,t-2.66))*(t>=2.66?1:0);$("sl").style.boxShadow=`0 0 ${24+60*pu}px rgba(83,195,162,${.6+.4*pu})`;$("z1").style.textShadow=`0 0 ${50*pu}px rgba(83,195,162,.9)`;
+  stempel("st1",t,4.26);
+  // Szene 2a: Anteile wandern nach rechts
+  for(let i=0;i<3;i++){const e=$("sa"+i),p=P(t,6.62+i*0.18,0.9);e.style.opacity=t>=6.62+i*0.18?1-0.7*p:0;e.style.transform=`translateX(${p*460}px)`}
+  $("la").style.opacity=P(t,6.62,0.3);
+  tg("kg","an",0);stempel("st2",t,9.66);
+  // Szene 3: 5-%-Scheibe, dann 50.000 €
+  $("b3").style.width=(5*P(t,10.72,0.4))+"%";$("g3").style.opacity=0.3+0.7*P(t,10.72,0.3);
+  $("e3").style.opacity=P(t,13.78,0.2);$("e3").textContent=Math.round(50000*P(t,13.78,0.7)).toLocaleString("de-DE")+" €";
+  // Szene 4
+  $("r1").style.opacity=P(t,15.2,0.3);$("r2").style.opacity=P(t,15.4,0.3);$("r3").style.opacity=P(t,15.58,0.3);$("ka").style.opacity=P(t,16.28,0.3);$("kb").style.opacity=P(t,17.18,0.3);
+  // Szene 5: 0 → 1,5 %
+  const k=P(t,19.5,0.6);$("z5").textContent=(1.5*k).toFixed(1).replace(".",",")+" %";$("b5").style.width=(1.5*k)+"%";
+  // Szene 6
+  tg("v1","an",t>=20.9);$("o1").style.opacity=P(t,20.9,0.25);tg("v2","rot",t>=21.2);$("o2").style.opacity=P(t,21.2,0.25);
+  tg("oa","an",t>=26.26);tg("ob","an",t>=26.5);
+
+}
+</script></body></html>
