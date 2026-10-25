@@ -965,11 +965,10 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke"
     },
     {
       "id": "10-story-umfrage",
@@ -1051,12 +1050,11 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
-      "hinweis": "25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
+      "status": "freigegeben",
+      "hinweis": "25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
       "issue": 31,
       "stimme": false,
-      "hook": "fall",
-      "status_vorher": "freigegeben"
+      "hook": "fall"
     },
     {
       "id": "10-story-teaser",
@@ -1148,11 +1146,10 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-11-01 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-11-01 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11."
     },
     {
       "id": "35-story-teaser",
@@ -1340,11 +1337,10 @@
         "folie_08.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json."
     },
     {
       "id": "41-story-tipp",
@@ -1426,11 +1422,10 @@
         "folie_07.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-10-31 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-10-31 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json."
     },
     {
       "id": "44-story-teaser",
@@ -1484,11 +1479,10 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-11-04 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/par8b Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p46_dividenden_8b.json). Bildunterschrift nennt laut Prüfbericht 10-%-Grenze (§ 8b Abs. 4 KStG, Beginn des Kalenderjahres) und 5 % nbBA (§ 8b Abs. 5 KStG); GewSt-Schachtel § 9 Nr. 2a GewStG ab 15 % zu Beginn des EZ, sonst § 8 Nr. 5 GewStG. Nachgerechnet: 5.000 × 15,825 % = 791 €, × 14 % = 700 €, Summe 1.491 €. Alt-Texte in alt_texte.json. Abgrenzung zum Kürzungen-Karussell (18.10.): dort nur Schachtel-Zeile.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-11-04 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/par8b Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p46_dividenden_8b.json). Bildunterschrift nennt laut Prüfbericht 10-%-Grenze (§ 8b Abs. 4 KStG, Beginn des Kalenderjahres) und 5 % nbBA (§ 8b Abs. 5 KStG); GewSt-Schachtel § 9 Nr. 2a GewStG ab 15 % zu Beginn des EZ, sonst § 8 Nr. 5 GewStG. Nachgerechnet: 5.000 × 15,825 % = 791 €, × 14 % = 700 €, Summe 1.491 €. Alt-Texte in alt_texte.json. Abgrenzung zum Kürzungen-Karussell (18.10.): dort nur Schachtel-Zeile."
     },
     {
       "id": "46-story-zdt",
@@ -1622,11 +1616,10 @@
         "folie_07.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-11-03 11:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), karussell/kapitalertraege Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Steuererklärung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p51_kapitalertraege.json). Nachgerechnet: (3.000 − 1.000) × 26,375 % = 527,50 €. Alt-Texte in alt_texte.json. KW 45 ungerade → Karussell abends.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-11-03 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), karussell/kapitalertraege Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Steuererklärung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p51_kapitalertraege.json). Nachgerechnet: (3.000 − 1.000) × 26,375 % = 527,50 €. Alt-Texte in alt_texte.json. KW 45 ungerade → Karussell abends."
     },
     {
       "id": "51-story-teaser",
@@ -1733,11 +1726,10 @@
         "folie_07.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-10-30 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich).",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-10-30 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich)."
     },
     {
       "id": "53-story-teaser-karussell",
@@ -1791,11 +1783,10 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "25.10.: Termin 2026-11-02 17:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, keine offenen Punkte), karussell/verjaehrung Folien 1–5 unverändert; Folie 6 neu: „Speichern für die nächste Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p56_verjaehrung.json). Alt-Texte in alt_texte.json. Geprüft: § 169 Abs. 2 Satz 1 Nr. 2 und Satz 2, § 170 Abs. 2 Satz 1 Nr. 1, § 171 AO; Demo Erklärung für 2022, Abgabe 2024 → Ende 31.12.2028.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-11-02 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, keine offenen Punkte), karussell/verjaehrung Folien 1–5 unverändert; Folie 6 neu: „Speichern für die nächste Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p56_verjaehrung.json). Alt-Texte in alt_texte.json. Geprüft: § 169 Abs. 2 Satz 1 Nr. 2 und Satz 2, § 170 Abs. 2 Satz 1 Nr. 1, § 171 AO; Demo Erklärung für 2022, Abgabe 2024 → Ende 31.12.2028."
     },
     {
       "id": "56-story-teaser",
@@ -1879,11 +1870,10 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "25.10.: Termin 2026-11-05 11:45 reserviert, Premium-Umbau läuft, Freigabe nach Fertigstellung (go Loris). · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen, keine offenen Punkte), karussell/pension Folien 1–5 unverändert; Folie 6 neu: „Speichern für die Gutachten-Saison“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p59_pensionen.json). Letzter Testmonat-Tag: Bildunterschrift mit Community-Auswahl „Welches Thema als Nächstes: A) Teilwertabschreibung oder B) Rechnungsabgrenzung?“. Fachlich: § 6a Abs. 1, Abs. 3 Satz 3 EStG (6 %), § 253 Abs. 2 und 6 HGB (10-Jahres-Durchschnitt, Ausschüttungssperre), § 274 HGB (Wahlrecht Aktivüberhang). Alt-Texte in alt_texte.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: Termin 2026-11-05 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen, keine offenen Punkte), karussell/pension Folien 1–5 unverändert; Folie 6 neu: „Speichern für die Gutachten-Saison“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p59_pensionen.json). Letzter Testmonat-Tag: Bildunterschrift mit Community-Auswahl „Welches Thema als Nächstes: A) Teilwertabschreibung oder B) Rechnungsabgrenzung?“. Fachlich: § 6a Abs. 1, Abs. 3 Satz 3 EStG (6 %), § 253 Abs. 2 und 6 HGB (10-Jahres-Durchschnitt, Ausschüttungssperre), § 274 HGB (Wahlrecht Aktivüberhang). Alt-Texte in alt_texte.json."
     },
     {
       "id": "59-story-teaser",
