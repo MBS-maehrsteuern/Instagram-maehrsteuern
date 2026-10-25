@@ -918,11 +918,15 @@
       "video": "reel_gwg.mp4",
       "titelbild": "titelbild_reel.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-25 17:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-29 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p30_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,8 s, −18,0 LUFS (Musik 08 Chill House + Fehlerton). 799 € netto sofort / 801 € abschreiben (§ 6 Abs. 2 EStG), Pool 250,01–1.000 € 5 Jahre, Wahl einheitlich pro Jahr (§ 6 Abs. 2a EStG). Material: karussell/gwg Folien 2+3, Abspann abspann_rechnet. Schnitt: vorlagen/system/schnitt/p30_reel_gwg.json"
+      "hinweis": "25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-25 17:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-29 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p30_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,8 s, −18,0 LUFS (Musik 08 Chill House + Fehlerton). 799 € netto sofort / 801 € abschreiben (§ 6 Abs. 2 EStG), Pool 250,01–1.000 € 5 Jahre, Wahl einheitlich pro Jahr (§ 6 Abs. 2a EStG). Material: karussell/gwg Folien 2+3, Abspann abspann_rechnet. Schnitt: vorlagen/system/schnitt/p30_reel_gwg.json",
+      "media_id": "18109242179189884",
+      "link": "https://www.instagram.com/reel/De7JF3cAGrX/",
+      "veroeffentlicht_am": "2026-10-25 17:45",
+      "erster_kommentar_id": "18137603887636303"
     },
     {
       "id": "30-story-quiz",
