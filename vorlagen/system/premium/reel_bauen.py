@@ -9,7 +9,7 @@ name, post, dauer = sys.argv[1], REPO / sys.argv[2], float(sys.argv[3])
 musik = REPO / (sys.argv[4] if len(sys.argv) > 4 else "musik/06_runway_lofi_ruhig.mp3")
 sfx = post / "ton/sfx.wav"
 eingaenge = ["-i", str(sfx)] if sfx.exists() else []
-mix = "[3:a]volume=0.55[s];[1:a][m][s]amix=inputs=3" if sfx.exists() else "[1:a][m]amix=inputs=2"
+mix = "[3:a]volume=0.35[s];[1:a][m][s]amix=inputs=3" if sfx.exists() else "[1:a][m]amix=inputs=2"
 with tempfile.TemporaryDirectory() as tmp:
     subprocess.run(["node", "rendern.mjs", f"{name}.html", str(dauer), tmp], check=True, cwd=hier)
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{tmp}/f00000.jpg", str(post / "titelbild.png")], check=True)

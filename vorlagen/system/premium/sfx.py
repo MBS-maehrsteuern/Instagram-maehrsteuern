@@ -1,7 +1,11 @@
 """Dezentes Sounddesign für Premium-Reels (kein Zirkus): Aufprall zum Hook, Ticks, Ding, Whoosh.
-    python3 sfx.py <ausgabe.wav> <dauer_s> "impact@0" "tick@3.88" "ding@4.42" "whoosh@24.5" …"""
-import sys, wave
+    python3 sfx.py <ausgabe.wav> <dauer_s> "impact@0" "tick@3.88" "ding@4.42" "whoosh@24.5" …
+Töne aus der Bibliothek: "musik/atmo/runway/137_swipe_karte.mp3@5.9@-24" (Datei@Sekunde@Pegel in dB, Spitze vorher auf 0 dB).
+Loris 25.10.: Töne leise und passend halten – Übergänge kaum hörbar, nie lauter als die Stimme."""
+import subprocess, sys, wave
+from pathlib import Path
 import numpy as np
+REPO = Path(__file__).resolve().parents[3]
 SR = 48000
 aus, dauer, *marken = sys.argv[1:]
 spur = np.zeros(int(float(dauer) * SR))
@@ -17,8 +21,15 @@ def whoosh():  # weicher Luftzug vor dem CTA
     x = t(0.7); n = np.random.default_rng(2).normal(0, 1, len(x))
     n = np.convolve(n, np.ones(24) / 24, mode="same"); return n * np.sin(np.pi * x / 0.7) ** 2 * 0.5
 ARTEN = {"impact": impact, "tick": tick, "ding": ding, "whoosh": whoosh}
+def datei(pfad, db):
+    roh = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(REPO / pfad), "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
+                         capture_output=True, check=True).stdout
+    s = np.frombuffer(roh, "<i2").astype(float) / 32768
+    return s / (np.abs(s).max() or 1) * 10 ** (float(db) / 20)
 for m in marken:
-    art, ab = m.split("@"); s = ARTEN[art](); i = int(float(ab) * SR)
+    teile = m.split("@")
+    s = datei(teile[0], teile[2]) if len(teile) == 3 else ARTEN[teile[0]]()
+    i = int(float(teile[1]) * SR)
     spur[i:i + len(s)] += s[:len(spur) - i]
 spur = np.clip(spur, -1, 1)
 with wave.open(aus, "wb") as w:
