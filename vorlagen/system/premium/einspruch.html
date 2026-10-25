@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „Einspruch“ (Wissen 25.10.: Motion-Design-Look). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Gerendert von premium/rendern.mjs, Ton (Loris' Stimme) kommt per ffmpeg dazu. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+
+<section class="szene" id="s1" data-von="0" data-bis="4.9">
+ <div class="kicker e"><i></i>Einspruch · Frist</div>
+ <h1 class="e">Bescheid am 5.10.</h1><h2 class="e">Einspruch bis 9.11.</h2>
+ <div class="sub e">Nicht bis 5.11. <b>Ein Tag verschiebt alles.</b></div>
+ <div class="panel e" style="text-align:center"><span class="norm">§ 355 AO</span>
+  <div style="display:flex;justify-content:space-around;align-items:center;margin-top:30px">
+   <div><div class="chip">FALSCH</div><div class="gross strike" id="s1x" style="margin-top:24px">05.11.</div></div>
+   <div><div class="chip">RICHTIG</div><div class="gross" style="margin-top:24px;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)" id="s1r">09.11.</div></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s2" data-von="4.9" data-bis="12.9">
+ <div class="kicker e"><i></i>Seit 2025 · Bekanntgabe</div>
+ <h1 class="e">Zur Post: Mo 5.10.</h1><h2 class="e">Bekannt: Fr 9.10.</h2>
+ <div class="sub e">Es zählt der <b>4. Tag</b> nach Aufgabe zur Post.</div>
+ <div class="panel e"><span class="norm">§ 122 ABS. 2 AO</span>
+  <div class="tage" id="tage2">
+   <div class="tag post"><span class="wt">MO</span><span class="dt">5</span><span class="nr">Post</span></div>
+   <div class="tag"><span class="wt">DI</span><span class="dt">6</span><span class="nr">1</span></div>
+   <div class="tag"><span class="wt">MI</span><span class="dt">7</span><span class="nr">2</span></div>
+   <div class="tag"><span class="wt">DO</span><span class="dt">8</span><span class="nr">3</span></div>
+   <div class="tag"><span class="wt">FR</span><span class="dt">9</span><span class="nr">4</span></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s3" data-von="12.9" data-bis="16.3">
+ <div class="kicker e"><i></i>Ab Bekanntgabe</div>
+ <h1 class="e">Ab da: ein Monat.</h1><h2 class="e">Frist: Mo 9.11.</h2>
+ <div class="sub e">Begründung darf <b>später</b> kommen.</div>
+ <div class="panel e"><span class="norm">§ 355 ABS. 1 AO</span>
+  <div class="leiste" style="margin-top:70px"><div id="bar3" style="width:0%"></div></div>
+  <div class="punkte"><span>Fr 09.10.</span><span id="end3" style="color:var(--gruen2);font-weight:600">Mo 09.11.</span></div></div>
+</section>
+
+<section class="szene" id="s4" data-von="16.3" data-bis="18.8">
+ <div class="kicker e"><i></i>Sonderfall</div>
+ <h1 class="e">Ende am Wochenende?</h1><h2 class="e">Nächster Werktag.</h2>
+ <div class="panel e"><span class="norm">§ 108 ABS. 3 AO</span>
+  <div class="tage" id="tage4">
+   <div class="tag"><span class="wt">SA</span><span class="dt">✕</span></div>
+   <div class="tag"><span class="wt">SO</span><span class="dt">✕</span></div>
+   <div class="tag"><span class="wt">MO</span><span class="dt">✓</span><span class="nr">Frist</span></div>
+  </div></div>
+</section>
+
+<section class="szene" id="s5" data-von="18.8" data-bis="21.9">
+ <div class="kicker e"><i></i>Zahlung</div>
+ <h1 class="e">Zahlen musst du</h1><h2 class="e" style="color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">trotzdem.</h2>
+ <div class="sub e">Außer mit <b>Aussetzung der Vollziehung.</b></div>
+ <div class="panel e"><span class="norm">§ 361 AO</span>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:26px">
+   <div><div class="chip">AdV-ANTRAG</div><div style="font-family:Outfit;font-size:58px;margin-top:20px" id="adv">Steuer fällig</div></div>
+   <div class="toggle" id="tog"><i></i></div></div></div>
+</section>
+
+<section class="szene" id="s6" data-von="21.9" data-bis="24.9">
+ <div class="kicker e"><i></i>Deine Frage</div>
+ <h1 class="e">Wie überwacht ihr</h1><h2 class="e">eure Fristen?</h2>
+ <div class="panel e"><div style="display:flex;gap:26px">
+  <div class="opt" id="oa"><div class="b">A</div><div class="t">Kalender</div></div>
+  <div class="opt" id="ob"><div class="b">B</div><div class="t">Software</div></div></div></div>
+</section>
+
+<section class="szene" id="s7" data-von="24.9" data-bis="99">
+ <div class="kicker e"><i></i>Steuern × Code</div>
+ <h1 class="e">Fristen nie</h1><h2 class="e">wieder von Hand.</h2>
+ <div class="sub e">Demo mit Beispieldaten – <b>per DM.</b></div>
+ <div class="cta e">Kommentiere „TOOL“ <span>→</span></div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+
+<script>
+const W=[["Dein",0],["Bescheid",.22],["geht",.56],["am",.68],["5.",.82],["Oktober",1.14],["zur",1.48],["Post.",1.64],["Deine",2.2],["Einspruchsfrist",2.36],["endet",2.96],["aber",3.32],["nicht",3.48],["am",3.66],["5.",3.82],["November.",4.16],
+["Seit",4.92],["2025",5.02],["geht",5.82],["ein",6.18],["Bescheid",6.34],["erst",6.78],["am",6.92],["4.",7.08],["Tag",7.38],["als",7.56],["bekannt",7.72],["gegeben.",8.04],
+["Abgeschickt",9.02],["Montag,",9.46],["5.",9.94],["Oktober,",10.22],["bekannt",10.82],["gegeben",11.02],["Freitag,",11.26],["9.",11.84],["Oktober.",12.04],
+["Ab",12.9],["da",13.04],["läuft",13.18],["ein",13.4],["Monat.",13.58],["Frist",14.22],["endet",14.52],["Montag,",14.86],["9.",15.34],["November.",15.56],
+["Für",16.32],["das",16.46],["Ende",16.62],["aufs",16.86],["Wochenende",17.12],["zählt",17.52],["der",17.78],["nächste",17.88],["Werktag.",18.06],
+["Und",18.86],["zahlen",18.96],["musst",19.16],["du",19.36],["trotzdem,",19.46],["außer",20.16],["mit",20.4],["Aussetzung",20.6],["der",20.96],["Vollziehung.",21.14],
+["Wie",22],["überwacht",22.12],["ihr",22.54],["eure",22.72],["Fristen?",22.96],["Kalender",23.64],["oder",23.96],["Software?",24.16]];
+// Untertitel-Gruppen: neue Gruppe nach Satzzeichen oder spätestens nach 4 Wörtern
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+function render(t){
+  document.getElementById("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  document.getElementById("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von===0?0:von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px)`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.09)/0.45);   // erste Szene steht ab Frame 1 (Hook-Regel)
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  document.getElementById("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  // Szene 1: 05.11. wird bei „nicht am 5. November“ durchgestrichen
+  document.getElementById("s1x").style.setProperty("--sw",(108*ease((t-3.5)/0.5))+"%");
+  // Szene 2: Tage leuchten im Takt auf, Fr 9 = bekannt gegeben
+  const tage=[...document.querySelectorAll("#tage2 .tag")],zt=[9.46,10.4,10.6,10.8,11.26];
+  tage.forEach((d,i)=>{if(i>0)d.classList.toggle("an",t>=zt[i]&&(i===4||t<11.26))});
+  // Szene 3: Monats-Balken
+  document.getElementById("bar3").style.width=(100*ease((t-13.2)/2.2))+"%";
+  // Szene 4: Sa/So grau, Mo leuchtet
+  const t4=[...document.querySelectorAll("#tage4 .tag")];
+  t4[0].classList.toggle("aus",t>=17.1);t4[1].classList.toggle("aus",t>=17.1);t4[2].classList.toggle("an",t>=17.9);
+  // Szene 5: AdV-Schalter
+  const on=t>=20.6,tg=document.querySelector("#tog i");
+  tg.style.left=(8+62*ease((t-20.6)/0.35))+"px";tg.style.background=on?"var(--gruen)":"#56685f";
+  document.getElementById("tog").style.borderColor=on?"var(--gruen)":"#2b443a";
+  document.getElementById("adv").textContent=on?"Zahlung ausgesetzt":"Steuer fällig";
+  // Szene 6: A/B leuchten bei Kalender/Software
+  document.getElementById("oa").classList.toggle("tag",false);
+  ["oa","ob"].forEach((id,i)=>{const z=[23.64,24.16][i],e=document.getElementById(id);const an=t>=z;
+    e.style.borderColor=an?"var(--gruen)":"#22352E";e.style.boxShadow=an?"0 0 40px rgba(83,195,162,.35)":"none"});
+  // Untertitel
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=document.getElementById("ut");
+  if(gi<0||t>25.2){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>
