@@ -1,0 +1,19 @@
+{ "titel": "Karussell 37 · Betriebsprüfung: 4 Dinge vorab – Premium-Look 25.10. (Inhalte unverändert aus jobs/p37 + Bibliothek r3_18)",
+  "ausgabe": "../../../../posts/37_2026-10-27_bp_vorbereitung",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Betriebsprüfung · Checkliste", "h1": "Prüfung angekündigt?", "h2": "4 Dinge vorher klären.",
+    "panel": { "typ": "check", "kopf": "Vor dem ersten Prüfertag", "kopf2": "4 / 4", "punkte": ["Prüfungsanordnung lesen", "Datenzugriff vorbereiten", "Verfahrensdokumentation", "Eine Ansprechperson"] },
+    "wisch": "Wisch für die Details" },
+  { "datei": "folie_02.png", "kicker": "01 · Prüfungsanordnung", "h1": "Erst lesen,", "h2": "dann vorbereiten.", "sub": "Die Anordnung legt den *Rahmen* fest.",
+    "panel": { "typ": "liste", "kopf": "Darin steht", "punkte": ["Steuerarten", "Zeiträume", "Beginn der Prüfung"] }, "norm": "§§ 196, 197 AO" },
+  { "datei": "folie_03.png", "kicker": "02 · Datenzugriff", "h1": "Der Prüfer darf", "h2": "in eure Daten.", "sub": "Digital, nicht nur auf Papier.",
+    "panel": { "typ": "liste", "kopf": "Drei Wege", "punkte": ["Einsicht", "Auswertung", ["Daten herausgeben", "in maschinell auswertbarem Format"]] }, "norm": "§ 147 Abs. 6 AO" },
+  { "datei": "folie_04.png", "kicker": "03 · Verfahrensdokumentation", "h1": "Wie entstehen", "h2": "eure Zahlen?",
+    "panel": { "typ": "zahl", "kopf": "Maßstab GoBD", "gross": "1 Dritter", "text": "Ein *sachverständiger Dritter* muss jede Zahl nachvollziehen können – in angemessener Zeit." }, "norm": "GoBD" },
+  { "datei": "folie_05.png", "kicker": "04 · Ansprechperson", "h1": "Eine Person.", "h2": "Ein Kanal.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Ohne", "wert": "Chaos", "text": "Anfragen laufen kreuz und quer.", "art": "schlecht" }, "rechts": { "titel": "Mit", "wert": "Ruhe", "text": "Eine Person koordiniert Anfragen und Unterlagen.", "art": "gut" } },
+    "norm": "Mitwirkungspflicht § 200 AO" },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "„Woher kommt diese Zahl?“ – mein Tool zeigt jede Zahl der Steuerrückstellung *bis zur Quelle.* Demo per DM.",
+    "extra": "📌 *Speichern* bis zur nächsten Prüfungsanordnung · 📤 *Schick's* an dein Team." }
+  ] }

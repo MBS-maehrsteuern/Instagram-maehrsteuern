@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Karussell (Wissen 25.10., Look wie die Premium-Reels): eine Folie 1080×1440, gezeichnet von zeichne(folie, nr, gesamt).
+     Gerendert von premium/karussell.mjs aus einer Job-Datei premium/karussells/<name>.json. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;--rot:#E07A6B;
+  --serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1440px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 650px at 25% 18%,rgba(83,195,162,.16),transparent 70%),radial-gradient(700px 600px at 90% 90%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 35%,#000 30%,transparent 80%)}
+#f{position:absolute;left:84px;right:84px;top:96px;bottom:175px;display:flex;flex-direction:column}
+.kicker{font-family:var(--mono);font-size:26px;letter-spacing:.2em;color:var(--text2);display:flex;align-items:center;gap:16px;text-transform:uppercase}
+.kicker i{width:14px;height:14px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+.kicker .chip{margin-left:6px}
+h1{font-family:"Outfit";font-weight:700;font-size:96px;line-height:1.02;letter-spacing:-.025em;margin-top:34px}
+h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.06;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+h1 b{color:var(--gruen2);font-weight:700}
+h2.rot{color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.3)}
+.titel h1{font-size:120px}.titel h2{font-size:104px}
+.sub{font-size:36px;color:var(--text2);margin-top:28px;line-height:1.35}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:44px;border:2px solid var(--rand);border-radius:30px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:40px;position:relative}
+.panel .kopf{font-family:var(--mono);font-size:22px;letter-spacing:.16em;color:var(--grau);display:flex;justify-content:space-between;margin-bottom:22px;text-transform:uppercase}
+.chip{display:inline-block;font-family:var(--mono);font-size:22px;letter-spacing:.14em;padding:7px 16px;border-radius:10px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600;text-transform:uppercase}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.zeile{display:flex;align-items:center;gap:26px;padding:22px 26px;border:2px solid #1d3029;border-radius:20px;background:#0B1411;margin-top:16px;font-size:34px;font-weight:600;line-height:1.25}
+.zeile:first-child{margin-top:0}
+.zeile .n{flex:none;width:54px;height:54px;border-radius:50%;background:var(--gruen);color:#07100c;font-family:Outfit;font-size:30px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 22px rgba(83,195,162,.5)}
+.zeile .box{flex:none;width:40px;height:40px;border-radius:8px;border:3px solid var(--gruen)}
+.zeile small{display:block;font-size:26px;font-weight:400;color:var(--text2);margin-top:6px}
+.gross{font-family:Outfit;font-size:200px;line-height:1;letter-spacing:-.03em;color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.55)}
+.gross.rot{color:var(--rot);text-shadow:0 0 60px rgba(224,122,107,.45)}
+.vgl{display:flex;gap:22px}.vgl>div{flex:1;border:2px solid #22352E;border-radius:24px;background:#0B1411;padding:32px}
+.vgl .gut{border-color:var(--gruen);background:rgba(83,195,162,.10);box-shadow:0 0 40px rgba(83,195,162,.25)}
+.vgl .schlecht{border-color:rgba(224,122,107,.6)}
+.vgl .t{font-family:var(--mono);font-size:24px;letter-spacing:.14em;color:var(--grau);text-transform:uppercase}
+.vgl .w{font-family:Outfit;font-size:64px;margin-top:14px;line-height:1.05}.vgl .gut .w{color:var(--gruen2)}.vgl .schlecht .w{color:var(--rot)}
+.vgl .x{font-size:28px;color:var(--text2);margin-top:12px;line-height:1.35}
+table{width:100%;border-collapse:collapse;font-size:30px}td,th{padding:16px 12px;border-bottom:1px solid #1d3029;text-align:left}
+th{font-family:var(--mono);font-size:22px;letter-spacing:.12em;color:var(--grau);font-weight:500;text-transform:uppercase}
+td.a{color:var(--gruen2);font-weight:600}
+.norm{margin-top:auto;display:flex;gap:22px;align-items:flex-start;border:2px solid var(--rand);border-radius:22px;padding:26px 30px;background:rgba(10,18,15,.7)}
+.norm .t{font-family:var(--mono);font-size:24px;line-height:1.5;color:var(--text2)}
+.text{font-size:34px;line-height:1.45;color:var(--text2)}.text b{color:var(--text)}
+.wisch{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:18px;background:var(--text);color:#07100c;font-family:Outfit;font-size:42px;padding:24px 42px;border-radius:999px;box-shadow:0 0 50px rgba(238,244,240,.2)}
+.tool{display:inline-block;font-family:Outfit;font-size:170px;line-height:1;padding:20px 50px 30px;border-radius:36px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35);margin-top:30px}
+#fuss{position:absolute;left:84px;right:84px;bottom:66px;display:flex;align-items:center;gap:24px;font-family:var(--mono);font-size:26px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:12px;color:var(--text);font-weight:600}#fuss .h i{width:26px;height:26px;border-radius:50%;background:var(--gruen);box-shadow:0 0 14px var(--gruen)}
+#seg{flex:1;display:flex;gap:9px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div><div id="f"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr"></span></div>
+<script>
+// *Wort* = Akzent (grün) in Texten
+const md=s=>(s||"").replace(/\*([^*]+)\*/g,"<b>$1</b>").replace(/\n/g,"<br>");
+const PANEL={
+  liste:p=>(p.kopf?`<div class="kopf"><span>${p.kopf}</span><span>${p.kopf2||""}</span></div>`:"")+p.punkte.map((x,i)=>{const[t,k]=[].concat(x);return`<div class="zeile"><span class="n">${i+1}</span><span>${md(t)}${k?`<small>${md(k)}</small>`:""}</span></div>`}).join(""),
+  check:p=>`<div class="kopf"><span>${p.kopf||"Vorher prüfen"}</span><span>${p.kopf2||""}</span></div>`+p.punkte.map(x=>{const[t,k]=[].concat(x);return`<div class="zeile"><span class="box"></span><span>${md(t)}${k?`<small>${md(k)}</small>`:""}</span></div>`}).join(""),
+  zahl:p=>`<div class="kopf"><span>${p.kopf||""}</span><span>${p.kopf2||""}</span></div><div class="gross ${p.rot?"rot":""}">${p.gross}</div><div class="text" style="margin-top:22px">${md(p.text)}</div>`,
+  vergleich:p=>(p.kopf?`<div class="kopf"><span>${p.kopf}</span><span>${p.kopf2||""}</span></div>`:"")+`<div class="vgl">`+[p.links,p.rechts].map(s=>`<div class="${s.art||""}"><div class="t">${s.titel}</div><div class="w">${s.wert}</div><div class="x">${md(s.text)}</div></div>`).join("")+`</div>`,
+  tabelle:p=>`<div class="kopf"><span>${p.kopf||""}</span><span>${p.kopf2||""}</span></div><table><tr>${p.spalten.map(s=>`<th>${s}</th>`).join("")}</tr>`+p.zeilen.map(z=>`<tr>${z.map((c,i)=>`<td class="${i===z.length-1?"a":""}">${md(c)}</td>`).join("")}</tr>`).join("")+`</table>`,
+  text:p=>`<div class="text">${md(p.text)}</div>`
+};
+window.zeichne=(f,nr,ges)=>{
+  const typ=f.typ||(nr===1?"titel":nr===ges?"cta":"inhalt");
+  let h=`<div class="kicker"><i></i>${f.kicker||""}${f.chip?`<span class="chip ${f.chipRot?"rot":""}">${f.chip}</span>`:""}</div>`;
+  if(typ==="cta"){
+    h+=`<h1>${f.h1||"Kommentiere"}</h1><div><span class="tool">${f.wort||"TOOL"}</span></div><div class="sub" style="margin-top:40px">${md(f.sub||"Ich schick dir die Demo per DM – *mit Beispieldaten.*")}</div>`;
+    if(f.extra)h+=`<div class="panel"><div class="text">${md(f.extra)}</div></div>`;
+  }else{
+    h+=`<h1>${md(f.h1)}</h1>`+(f.h2?`<h2 class="${f.h2rot?"rot":""}">${md(f.h2)}</h2>`:"")+(f.sub?`<div class="sub">${md(f.sub)}</div>`:"");
+    if(f.panel)h+=`<div class="panel">${PANEL[f.panel.typ](f.panel)}</div>`;
+    if(f.norm)h+=`<div class="norm"><span class="chip">Norm</span><span class="t">${md(f.norm)}</span></div>`;
+    else if(typ==="titel")h+=`<div class="wisch">${f.wisch||"Wisch für die Lösung"} <span>→</span></div>`;
+  }
+  const el=document.getElementById("f");el.className=typ;el.innerHTML=h;
+  document.getElementById("seg").innerHTML=Array.from({length:ges},(_,i)=>`<div class="${i<nr?"on":""}"></div>`).join("");
+  document.getElementById("nr").textContent=String(nr).padStart(2,"0")+" / "+String(ges).padStart(2,"0");
+  // zu hohe Folie melden (Text ragt in den Fuß)
+  return el.scrollHeight>el.clientHeight+2?"ZU_HOCH":"ok";
+};
+</script></body></html>
