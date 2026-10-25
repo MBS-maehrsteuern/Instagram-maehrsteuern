@@ -12,6 +12,7 @@ from pathlib import Path
 WURZEL = Path(__file__).resolve().parent.parent
 PLAN = WURZEL / "automatik" / "plan.json"
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 LABEL = "freigabe"
 
 
@@ -83,7 +84,7 @@ def anfragen():
             continue
         erster = min(e["zeit"] for e in offen)
         titel = f"Freigabe {nr}: {offen[0]['id'].split('-', 1)[1].replace('-', ' ')} – {erster}"
-        text = (f"@{REPO.split('/')[0]} bitte kurz prüfen.\n\n"
+        text = (f"@{MELDEN} bitte kurz prüfen.\n\n"
                 f"**Antworte mit `go`** → geht automatisch zu den Zeiten unten online.\n"
                 f"**Antworte mit `stop`** → wird pausiert. Änderungswünsche schreibst du Claude.\n\n"
                 + vorschau(offen))

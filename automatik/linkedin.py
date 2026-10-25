@@ -22,6 +22,7 @@ import ki
 WURZEL = Path(__file__).resolve().parent.parent
 PLAN = WURZEL / "automatik" / "plan.json"
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 LABEL = "linkedin"
 HEUTE = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d")
 WOCHENTAG = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
@@ -98,7 +99,7 @@ def main():
         pass
     for e in neu:
         basis = f"https://github.com/{REPO}/blob/claude/instagram/{e['ordner']}/linkedin"
-        text = (f"@{REPO.split('/')[0]} Karussell `{e['id']}` (Instagram {e['zeit']}) ist fertig für LinkedIn.\n\n"
+        text = (f"@{MELDEN} Karussell `{e['id']}` (Instagram {e['zeit']}) ist fertig für LinkedIn.\n\n"
                 f"**Posten:** {tag_fuer_linkedin(e['zeit'])} – LinkedIn → *Beitrag beginnen* → *Dokument hinzufügen* → "
                 f"PDF hochladen, Titel = erste Zeile, Text einfügen.\n\n"
                 f"- 📄 [karussell.pdf]({basis}/karussell.pdf) (auf GitHub → *Download raw file*)\n"
