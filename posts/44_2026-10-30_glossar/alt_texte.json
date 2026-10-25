@@ -1,9 +1,9 @@
 {
- "folie_01.png": "Titelfolie: Steuer-Glossar Teil 1 – 5 Begriffe für den Abschluss. Kurz erklärt, zum Nachschlagen.",
- "folie_02.png": "Glossar M, Messbetrag: Gewerbeertrag mal 3,5 Prozent. Multipliziert mit dem Hebesatz ergibt er die Gewerbesteuer. Norm: §§ 11, 14, 16 GewStG.",
- "folie_03.png": "Glossar Z, Zerlegung: Aufteilung des Messbetrags auf die Gemeinden mit Betriebsstätten, in der Regel nach Arbeitslöhnen. Norm: § 29 GewStG.",
- "folie_04.png": "Glossar E, Einlagekonto: Hält Einlagen fest, die nicht ins Nennkapital geleistet wurden. Leistungen daraus sind steuerfrei, aber erst nach dem ausschüttbaren Gewinn. Norm: § 27 KStG.",
- "folie_05.png": "Glossar S, Schädlicher Beteiligungserwerb: Werden innerhalb von fünf Jahren mehr als 50 Prozent der Anteile übertragen, geht der Verlustvortrag grundsätzlich unter. Norm: § 8c KStG.",
- "folie_06.png": "Glossar T, Teilwert: Der Betrag, den ein Erwerber des ganzen Betriebs für das einzelne Wirtschaftsgut ansetzen würde. Norm: § 6 Abs. 1 Nr. 1 Satz 3 EStG.",
- "folie_07.png": "Schlussfolie: Speichern für den Abschluss. Wer in deinem Team braucht das? Weiterleiten. Demo des Tools mit dem Wort TOOL anfragen."
+ "folie_01.png": "Titelfolie: Alle 5 erklärbar? Abschluss-Glossar mit den Begriffen Messbetrag, Zerlegung, Einlagekonto, Schädlicher Beteiligungserwerb und Teilwert.",
+ "folie_02.png": "Messbetrag: Gewerbeertrag mal 3,5 Prozent. Mal Hebesatz ergibt die Gewerbesteuer. Norm: §§ 11, 14, 16 GewStG.",
+ "folie_03.png": "Zerlegung: Aufteilung des Messbetrags auf die Gemeinden mit Betriebsstätten, in der Regel nach Arbeitslöhnen. Norm: § 29 GewStG.",
+ "folie_04.png": "Einlagekonto: Hält Einlagen fest, die nicht ins Nennkapital geleistet wurden. Leistungen daraus erst nach dem ausschüttbaren Gewinn, dann steuerfrei. Norm: § 27 KStG.",
+ "folie_05.png": "Schädlicher Beteiligungserwerb: Werden innerhalb von fünf Jahren mehr als 50 Prozent der Anteile übertragen, geht der Verlustvortrag grundsätzlich unter. Norm: § 8c KStG.",
+ "folie_06.png": "Teilwert: Der Betrag, den ein Erwerber des ganzen Betriebs für das einzelne Wirtschaftsgut ansetzen würde. Norm: § 6 Abs. 1 Nr. 1 Satz 3 EStG.",
+ "folie_07.png": "Schlussfolie: Kommentiere TOOL für die Demo per DM. Das Tool rechnet Messbetrag und Gewerbesteuer mit Norm je Posten. Speichern und weiterleiten."
 }
