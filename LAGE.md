@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:28 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -201,6 +201,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 12:29 ✍️ Plan: ab 26.10. täglich 1 Reel + 1 Karussell bis 08.11.; Karussell 37 (Premium) Mo 26.10. 17:45 freigegeben, übrige Karussell-Termine reserviert ([`acbb62e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/acbb62e825d65040adf8bbc4f16e1770c4973b8e))
+  - Plan: `31-karussell-zinsschranke` zeit: 2026-10-22 11:45 → 2026-10-28 17:45; `32-reel-mindeststeuer` zeit: 2026-11-02 11:45 → 2026-11-08 17:45; `10-e-rechnung` zeit: 2026-10-23 17:45 → 2026-10-27 11:45; `33-reel-paragraf-formel` zeit: 2026-11-02 17:45 → 2026-11-07 17:45; `35-karussell-steuerkalender` zeit: 2026-10-25 17:45 → 2026-11-01 17:45; `37-karussell-bp-vorbereitung` status: pausiert → freigegeben; `37-karussell-bp-vorbereitung` zeit: 2026-10-27 11:45 → 2026-10-26 17:45; `38-reel-pruefpfad` zeit: 2026-10-27 17:45 → 2026-11-02 11:45; `39-reel-holding` zeit: 2026-10-28 17:45 → 2026-11-03 17:45; `40-reel-formeln` zeit: 2026-10-27 11:45 → 2026-10-28 11:45; `43-reel-par35` zeit: 2026-10-29 17:45 → 2026-11-05 17:45; `44-karussell-glossar` zeit: 2026-10-30 17:45 → 2026-10-31 17:45; `45-reel-vga` zeit: 2026-10-28 11:45 → 2026-10-29 17:45; `46-karussell-dividenden-8b` zeit: 2026-11-01 11:45 → 2026-11-04 17:45; `51-karussell-kapitalertraege` zeit: 2026-11-03 17:45 → 2026-11-03 11:45; `52-reel-gobd` zeit: 2026-10-26 17:45 → 2026-10-27 17:45; `53-reel-iab` zeit: 2026-10-30 17:45 → 2026-11-06 11:45; `54-reel-reverse-charge` zeit: 2026-10-29 11:45 → 2026-11-04 11:45; `53-karussell-iab` zeit: 2026-11-05 17:45 → 2026-10-30 17:45; `55-reel-thesaurierung` zeit: 2026-10-31 17:45 → 2026-11-07 11:45; `56-karussell-verjaehrung` zeit: 2026-11-06 17:45 → 2026-11-02 17:45; `57-reel-verlust-8c` zeit: 2026-11-01 17:45 → 2026-11-06 17:45; `59-karussell-pensionen` zeit: 2026-11-08 17:45 → 2026-11-05 11:45
 - 12:28 ✍️ Premium-Karussell: Vorlage + Renderer (vorlagen/system/premium/karussell.*), erstes Karussell 37 Betriebsprüfung umgebaut ([`b201b83`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b201b83d9971896363cee7e1051403915f87b1d4))
   - `posts/37_2026-10-27_bp_vorbereitung`, `vorlagen/system/premium/karussell.html`, `vorlagen/system/premium/karussell.mjs`, `vorlagen/system/premium/karussells/p37_bp_vorbereitung.json`
 - 12:25 🔀 Merge claude/instagram ([`c228a9c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c228a9cc9db23f8650c4f5758af4031ba2cc3aff))
