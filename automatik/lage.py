@@ -22,9 +22,9 @@ ZIEL = WURZEL / "LAGE.md"
 ZONE = ZoneInfo("Europe/Berlin")
 NACHHOLEN = timedelta(hours=6)  # wie posten.py: danach wird ein verpasster Eintrag nicht mehr nachgeholt
 UEBERFAELLIG = timedelta(minutes=30)  # freigegeben, aber so lange nach der Zeit noch nicht online → rot
-RASTER = {"Feed": ("11:45", "17:45"), "Story": ("12:15", "17:50")}  # Slots laut strategie/15_plan_2_pro_tag.md
-TEST_START, TEST_ENDE = date(2026, 10, 12), date(2026, 11, 8)  # Testmonat: 14 Feed-Beiträge/Woche, täglich ≥ 1 Reel
-FEED_SOLL = 14
+RASTER = {"Feed": ("17:45",), "Story": ("12:15",)}  # ab 26.10.: 1 Feed-Beitrag/Tag (Loris 25.10., Auswertung: 2–3 Beiträge/Tag kannibalisieren)
+TEST_START, TEST_ENDE = date(2026, 10, 12), date(2026, 11, 8)  # Testmonat: ab 26.10. 7 Feed-Beiträge/Woche (1 Reel/Tag, Karussell statt Reel 2×/Woche)
+FEED_SOLL = 7
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LAGE_COMMIT = "Lage aktualisiert"
 
@@ -242,7 +242,7 @@ def sieben_tage_text(w):
 
 
 def testmonat(eintraege, n):
-    """Je Kalenderwoche des Testmonats: Feed-Beiträge (online/geplant/wartet) gegen Soll 14 und Tage mit Reel."""
+    """Je Kalenderwoche des Testmonats: Feed-Beiträge (online/geplant/wartet) gegen FEED_SOLL und Tage mit Reel."""
     if n.date() > TEST_ENDE + timedelta(days=7):
         return []
     aus = []
