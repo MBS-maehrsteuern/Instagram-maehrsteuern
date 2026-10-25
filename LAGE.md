@@ -1,23 +1,22 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 24.10. 11:59 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 24.10. 12:16 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 11:14 🎬 Reel `36-reel-bewirtung` (online) · 🟢 12:15 📱 Story `36-story-tipp` (läuft automatisch) · 🟡 17:45 🎬 Reel `17-reel-kommentare` (wartet auf sprachnachricht)
+- **Heute online:** 🟡 11:45 🎬 Reel `34-reel-einspruch` (pausiert) · ✋ 11:45 🎬 Reel `62-reel-glaesern` (von Hand) · 🟡 12:15 📱 Story `34-story-tipp` (pausiert) · 🟡 17:45 🖼️ Karussell `35-karussell-steuerkalender` (pausiert) · 🟡 17:50 📱 Story `35-story-teaser` (pausiert)
 - **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **1543** (17.10.–23.10., -9 % zur Vorwoche) · Follower **+6** (jetzt 374) · 30 Tage: +30 Follows / −11 entfolgt
-- **Testmonat** (Tag 13/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **8/14** (7 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **5/7** – ohne Reel: Fr 23.10., So 25.10.
+- **Testmonat** (Tag 14/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **8/14** (7 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **5/7** – ohne Reel: Do 22.10., Fr 23.10.
   - 🔴 **KW 44** (26.10.–01.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
 - **Freie Slots nächste 7 Tage** (4):
-  - Sa 24.10.: Story 17:50
   - Mo 26.10.: Story 17:50
   - Do 29.10.: Feed 17:45
-  - Sa 31.10.: Feed 11:45
+  - Sa 31.10.: Feed 11:45 · Story 12:15
 
-**Als Nächstes online:** 📱 Story `36-story-tipp` am **Sa 24.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `62-reel-glaesern` am **So 25.10. 11:45 Uhr** – ✋ manuell (postest du in der App)
 
 ## 📝 Gerade in Arbeit
 
@@ -65,15 +64,14 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- ⏳ **Wartet auf sprachnachricht** `17-reel-kommentare` (Sa 24.10. 17:45) – 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md.
+- ✋ **Von Hand posten** `62-reel-glaesern` (So 25.10. 11:45) – 25.10.: Loris postet So 25.10. mittags selbst (Test), Empfehlung 11:45. · 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt.
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 24.10. 12:15 | 📱 Story `36-story-tipp` | 🟢 freigegeben (geht automatisch online) | 24.10.: Sofort-Post abgesagt (Reel archiviert), wartet mit dem Reel. · 24.10.: mit dem Reel auf Sa 12:15 vorgezogen (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen): storys/tipp_bewirtungsbeleg als Emoji-Tipp neu gerendert (👏/😮), ergänzt um „„Arbeitsgespräch“ reicht nicht“ (jobs/p36_reel_bewirtung.json). |
-| Sa 24.10. 17:45 | 🎬 Reel `17-reel-kommentare` | ⏳ wartet auf sprachnachricht | 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Thema aus den Kommentaren der Serie (wird nach Auswertung bis ca. 20.10. festgelegt). Reel-Takt alle 2 Tage (06.10.). Upload über Edits: Claude baut das Reel komplett fertig (mit Musik, Untertiteln) und schickt es im Chat, Loris lädt es über Edits hoch und plant/postet selbst – der Autopilot postet NICHT (Status nach dem Schnitt: manuell). Sprechtext in posts/sprechtexte.md. |
-| So 25.10. 11:45 | 🎬 Reel `34-reel-einspruch` | pausiert | 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json |
+| So 25.10. 11:45 | 🎬 Reel `34-reel-einspruch` | pausiert | 25.10.: Hook auf Ergebnis umgestellt („Bescheid am 5.10. / Einspruch bis 9.11.“), 26,9 s, −18 LUFS; vorgeschlagen für So 25.10. 17:45 (Autopilot), wartet auf go. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json |
+| So 25.10. 11:45 | 🎬 Reel `62-reel-glaesern` | ✋ manuell (postest du in der App) | 25.10.: Loris postet So 25.10. mittags selbst (Test), Empfehlung 11:45. · 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt. |
 | So 25.10. 12:15 | 📱 Story `34-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig |
 | So 25.10. 17:45 | 🖼️ Karussell `35-karussell-steuerkalender` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11. |
 | So 25.10. 17:50 | 📱 Story `35-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Folie 1 |
@@ -95,13 +93,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
 | Fr 30.10. 17:45 | 🖼️ Karussell `44-karussell-glossar` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json. |
 | Fr 30.10. 17:50 | 📱 Story `44-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Glossar-Karussell (Folie 1), jobs/p44_glossar.json. |
+| Sa 31.10. 17:45 | 🎬 Reel `45-reel-vga` | pausiert | 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json. |
+| Sa 31.10. 17:50 | 📱 Story `45-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum vGA-Reel (Titelbild), jobs/p45_reel_vga.json. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 31.10. 17:45 | 🎬 Reel `45-reel-vga` | pausiert | 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json. |
-| Sa 31.10. 17:50 | 📱 Story `45-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum vGA-Reel (Titelbild), jobs/p45_reel_vga.json. |
 | So 01.11. 11:45 | 🖼️ Karussell `46-karussell-dividenden-8b` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/par8b Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p46_dividenden_8b.json). Bildunterschrift nennt laut Prüfbericht 10-%-Grenze (§ 8b Abs. 4 KStG, Beginn des Kalenderjahres) und 5 % nbBA (§ 8b Abs. 5 KStG); GewSt-Schachtel § 9 Nr. 2a GewStG ab 15 % zu Beginn des EZ, sonst § 8 Nr. 5 GewStG. Nachgerechnet: 5.000 × 15,825 % = 791 €, × 14 % = 700 €, Summe 1.491 €. Alt-Texte in alt_texte.json. Abgrenzung zum Kürzungen-Karussell (18.10.): dort nur Schachtel-Zeile. |
 | So 01.11. 12:15 | 📱 Story `46-story-zdt` | pausiert | 14.10. Nachtlauf: Tipp-Story Zahl des Tages storys/zdt_8b (R3 gegengelesen, „ab 10 % Beteiligung“ bereits korrigiert) zum § 8b-Karussell. |
 | So 01.11. 17:45 | 🎬 Reel `47-reel-betriebsaufspaltung` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi Piano. Titelbild neu als Fall „Halle an die eigene GmbH. Gewerblich.“, 3 Punkte = karussell/betriebsaufspaltung Folien 2–4 (sachliche + personelle Verflechtung, Folge), Betriebsaufgabe-Risiko in der Bildunterschrift. jobs/p47_reel_betriebsaufspaltung.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p47_reel_betriebsaufspaltung.json. |
@@ -134,6 +132,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Sa 24.10. 12:15 · 📱 Story `36-story-tipp` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4014930017247382776) (online 2026-10-24 12:16)
 - Sa 24.10. 11:14 · 🎬 Reel `36-reel-bewirtung` · [ansehen](https://www.instagram.com/reel/De3yheAFKBg/) (online 2026-10-24 11:17)
 - Mi 21.10. 18:00 · 🎬 Reel `58-reel-vorsteuer` · [ansehen](https://www.instagram.com/reel/Dewza8JCASO/) (online 2026-10-21 18:10)
 - Mi 21.10. 16:35 · 🎬 Reel `42-reel-afa` (online 2026-10-21 16:35)
@@ -143,7 +142,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Di 20.10. 11:45 · 🖼️ Karussell `29-karussell-verluste` · [ansehen](https://www.instagram.com/p/DetnHd6G82Y/) (online 2026-10-20 12:24)
 - Mo 19.10. 17:45 · 🎬 Reel `18-reel-aufbewahrung` · [ansehen](https://www.instagram.com/reel/DeryoWUE_Or/) (online 2026-10-19 19:26)
 - Mo 19.10. 12:15 · 📱 Story `28-story-quiz` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4011324194198123089) (online 2026-10-19 12:52)
-- Mo 19.10. 11:45 · 🎬 Reel `28-reel-zuschlaege` · [ansehen](https://www.instagram.com/reel/DerFcnnnTMT/) (online 2026-10-19 12:52)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -168,7 +166,6 @@ Reichweite pro Tag: 21.10. **164** · 22.10. **385** · 23.10. **380** · 24.10.
 | Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 154 (+6) | 66 | 4 | 0 | 2 | 0 |
 | Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 218 (+1) | 168 | 7 | 0 | 4 | 0 |
 | So 11.10. 19:30 [#BEZUG! – zwei Tage vor Abgabe. Kennst d](https://www.instagram.com/reel/DeXMtEnDn3I/) | 301 (+1) | 231 | 8 | 0 | 6 | 1 |
-| Sa 10.10. 19:30 [Latente Steuern: Ab 2028 ist ein fester ](https://www.instagram.com/reel/DeUn6ezCm7O/) | 289 (+1) | 225 | 14 | 8 | 7 | 18 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -191,6 +188,12 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 24.10.2026**
+- 12:16 🤖 Autopilot: 36-story-tipp veroeffentlicht ([`d016057`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d016057e025c11484907b76f7b767d8a6e3c9476))
+  - Plan: `36-story-tipp` status: freigegeben → veroeffentlicht; `36-story-tipp` online: https://www.instagram.com/stories/maehrsteuern/4014930017247382776
+- 12:15 🤖 Autopilot: Dateien fuer 36-story-tipp vorbereitet ([`db5c340`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/db5c3406d351ba97edaa13c60282141ca4129824))
+  - `posts/36_2026-10-26_reel_bewirtung`
+- 12:11 ✍️ Reels 40, 43, 45, 48, 49, 50 mit Loris' Stimme neu gebaut – alle 18 Stimm-Reels fertig, pausiert bis go ([`1da326d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1da326df5edcaefd12e158b39ecb8ec9845e4073))
+  - `LAGE.html`, `automatik/plan.json`, `posts/43_2026-10-30_reel_par35`, `posts/45_2026-10-31_reel_vga`, `posts/50_2026-11-03_reel_gebaeude_afa`
 - 11:59 ✍️ Stimm-Reels Gruppe B: Zwischenstand (in Arbeit, alles pausiert) ([`eb94cf3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/eb94cf3734c515a1c23baa98099a55b87b4245db))
   - `posts/45_2026-10-31_reel_vga`, `posts/50_2026-11-03_reel_gebaeude_afa`
 - 11:58 ✍️ Reels 30, 32, 33, 34, 38, 39 mit Loris' Stimme neu gebaut, weiter pausiert bis go ([`686d4f8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/686d4f882099196d84b99505116488de75406d14))

@@ -25,7 +25,7 @@ for i, (w, a, b, p) in enumerate(W):
 ende = woerter[-1][2] + 0.6
 UT = {"groesse": 78, "y": 400, "x": 480, "breite": 860}
 def g(wort, t, y, farbe="weiss", groesse=150): return dict(wort=wort, t=t, y=y, farbe=farbe, groesse=groesse)
-SZ = [(0.0, "bausteine/hintergrund.png", [g("Post am 5.10.:", 0.0, 840, "weiss", 130), g("Frist endet", 0.0, 1010, "gelb", 140), g("nicht 5.11.", 0.0, 1190, "rot", 200)]),
+SZ = [(0.0, "bausteine/hintergrund.png", [g("Bescheid am 5.10.", 0.0, 840, "weiss", 130), g("Einspruch bis", 0.0, 1010, "gelb", 140), g("9.11.", 0.0, 1200, "rot", 230)]),
       (4.92, "bausteine/hintergrund.png", [g("Seit 2025:", 4.92, 860, "weiss", 130), g("4. Tag", 7.08, 1040, "gelb", 220)]),
       (9.02, "bausteine/karte_post.png", []),
       (12.9, "bausteine/karte_frist.png", []),

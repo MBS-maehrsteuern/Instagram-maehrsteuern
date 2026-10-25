@@ -1124,7 +1124,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json",
+      "hinweis": "25.10.: Hook auf Ergebnis umgestellt („Bescheid am 5.10. / Einspruch bis 9.11.“), 26,9 s, −18 LUFS; vorgeschlagen für So 25.10. 17:45 (Autopilot), wartet auf go. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json",
       "status_vorher": "freigegeben"
     },
     {
@@ -1961,7 +1961,7 @@
     },
     {
       "id": "62-reel-glaesern",
-      "zeit": "2026-10-22 11:50",
+      "zeit": "2026-10-25 11:45",
       "typ": "reel",
       "ordner": "posts/62_2026-10-22_reel_glaesern",
       "video": "reel.mp4",
@@ -1971,7 +1971,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt."
+      "hinweis": "25.10.: Loris postet So 25.10. mittags selbst (Test), Empfehlung 11:45. · 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt."
     }
   ]
 }

@@ -72,7 +72,7 @@
      "bis": 4.92
     },
     {
-     "wort": "Post am 5.10.:",
+     "wort": "Bescheid am 5.10.",
      "farbe": "weiss",
      "groesse": 130,
      "y": 840,
@@ -82,7 +82,7 @@
      "bis": 4.92
     },
     {
-     "wort": "Frist endet",
+     "wort": "Einspruch bis",
      "farbe": "gelb",
      "groesse": 140,
      "y": 1010,
@@ -92,10 +92,10 @@
      "bis": 4.92
     },
     {
-     "wort": "nicht 5.11.",
+     "wort": "9.11.",
      "farbe": "rot",
-     "groesse": 200,
-     "y": 1190,
+     "groesse": 230,
+     "y": 1200,
      "x": 480,
      "breite": 880,
      "ab": 0.0,
