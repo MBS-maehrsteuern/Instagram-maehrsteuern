@@ -1,0 +1,208 @@
+{
+ "ausgabe": "../../posts/21_2026-10-22_reel_zinsschranke/reel_ohne_stimme.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.6,
+   "lautstaerke": 0.35,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 1.0,
+   "start": 0,
+   "dauer": 0.6,
+   "lautstaerke": 0.5,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/10_runway_spannung.mp3",
+   "ab": 2.45,
+   "start": 0.0,
+   "lautstaerke": 0.5,
+   "ein": 0.4
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_1.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zinsen voll abziehbar?",
+     "ab": 0.3,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "Nicht immer.",
+     "ab": 1.0,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "rot"
+    },
+    {
+     "wort": "30 % · 3 Mio.",
+     "ab": 0.3,
+     "groesse": 170,
+     "y": 960,
+     "x": 480,
+     "breite": 880,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_2.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Nettozinsaufwand: höchstens",
+     "ab": 0.1,
+     "groesse": 72,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "30 % vom steuerl. EBITDA.",
+     "ab": 0.8,
+     "groesse": 80,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gelb"
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_3.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Unter 3 Mio. € Nettozins",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "greift sie gar nicht.",
+     "ab": 0.7,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_4.png",
+   "dauer": 3.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Aber: Der Zinsvortrag geht bei",
+     "ab": 0.1,
+     "groesse": 70,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "schädlichem Anteilseigner-",
+     "ab": 0.7,
+     "groesse": 70,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "rot"
+    },
+    {
+     "wort": "wechsel unter (§ 8c KStG).",
+     "ab": 0.7,
+     "groesse": 70,
+     "y": 590,
+     "x": 480,
+     "breite": 860,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/abspann.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Speicher dir das.",
+     "ab": 0.1,
+     "groesse": 72,
+     "y": 1400,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  }
+ ]
+}

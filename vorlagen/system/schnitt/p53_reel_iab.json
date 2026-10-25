@@ -1,0 +1,138 @@
+{
+ "ausgabe": "../../posts/53_2026-11-04_iab/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/53_2026-11-04_iab/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Investition 2027 geplant?",
+     "groesse": 85,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/karte_50.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Abzug schon 2026:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "50 % der Kosten",
+     "groesse": 130,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/karte_200000.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Gewinn höchstens",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "200.000 €",
+     "groesse": 140,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/haken_frist.png",
+   "dauer": 2.8,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/53_2026-11-04_iab/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.96,
+   "ein": 0.3
+  }
+ ]
+}

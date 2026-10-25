@@ -1,0 +1,10 @@
+{
+ "titel": "Reel 45 · vGA-Klassiker (Nachtlauf 14.10.): Titelbild Prüfer-Fall, Klassiker-Folie mit 3 statt 5 Punkten (Reel-Regel, Text aus r2_06 Folie 3), Abspann TOOL, Story-Teaser",
+ "ausgabe": "../../posts/45_2026-10-31_reel_vga",
+ "bilder": [
+  {"vorlage": "reel_titel", "datei": "titelbild.png", "kicker": "Prüfer-Fall", "titel": "Darlehen,\n0 % Zinsen?\n*vGA.*", "sub": "3 Klassiker der Betriebsprüfung."},
+  {"vorlage": "karussell", "datei": "bausteine/folie_klassiker3.png", "seite": 3, "von": 7, "typ": "inhalt", "saeule": "Die Klassiker · 3 von 5", "titel": "Drei Fälle, *immer wieder*.", "punkte": ["Überhöhtes Geschäftsführer-Gehalt", "Zinsloses Darlehen an den Gesellschafter", "Private Nutzung ohne Vereinbarung"]},
+  {"vorlage": "einblendung", "datei": "bausteine/abspann_tool.png", "typ": "abspann", "kicker": "Steuern × Code", "titel": "Verträge prüfen.\n*Vor der Prüfung.*", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · mit Beispieldaten"},
+  {"vorlage": "story", "datei": "story_sa_teaser.png", "typ": "teaser", "kicker": "Neues Reel", "titel": "Darlehen, 0 % Zinsen? *vGA.*", "bild": "../../posts/45_2026-10-31_reel_vga/bausteine/teaser_karte.png"}
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "ausgabe": "../../posts/22_2026-10-18_reel_steuersatz/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/szene_1.png",
+   "dauer": 4.57,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "30 % an 12 Stellen?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.92
+    },
+    {
+     "wort": "Wie oft steht ein",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.92,
+     "bis": 2.74
+    },
+    {
+     "wort": "Steuersatz in deiner",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.74,
+     "bis": 3.78
+    },
+    {
+     "wort": "Excel?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.78,
+     "bis": 4.57
+    },
+    {
+     "wort": "30 % an",
+     "farbe": "weiss",
+     "groesse": 170,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.05,
+     "bis": 4.57
+    },
+    {
+     "wort": "12 Stellen?",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.81,
+     "bis": 4.57
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/szene_2.png",
+   "dauer": 5.49,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Excel?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Ab 2028 sinkt die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.93
+    },
+    {
+     "wort": "Körperschaftsteuer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.93,
+     "bis": 2.81
+    },
+    {
+     "wort": "jedes Jahr um 1 Punkt",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.81,
+     "bis": 4.23
+    },
+    {
+     "wort": "bis auf 10 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.23,
+     "bis": 5.49
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/szene_4.png",
+   "dauer": 2.81,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "bis auf 10 %.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Festwerte heißt:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.16
+    },
+    {
+     "wort": "Zelle für Zelle",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.16,
+     "bis": 2.02
+    },
+    {
+     "wort": "ändern.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.02,
+     "bis": 2.81
+    },
+    {
+     "wort": "Zelle für Zelle",
+     "farbe": "weiss",
+     "groesse": 140,
+     "y": 880,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.11,
+     "bis": 2.81
+    },
+    {
+     "wort": "ändern …",
+     "farbe": "gelb",
+     "groesse": 140,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.65,
+     "bis": 2.81
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/szene_4.png",
+   "dauer": 7.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "ändern.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Und auf Tab 13, in",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 2.49
+    },
+    {
+     "wort": "Zelle 384 vergisst du",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.49,
+     "bis": 5.76
+    },
+    {
+     "wort": "es zu ändern.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.76,
+     "bis": 7.3
+    },
+    {
+     "wort": "Tab 13,",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.26,
+     "bis": 7.3
+    },
+    {
+     "wort": "Zelle 384",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.1,
+     "bis": 7.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/szene_1.png",
+   "dauer": 5.54,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "es zu ändern.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Bei mir ist es eine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.76
+    },
+    {
+     "wort": "Zelle.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.76,
+     "bis": 2.51
+    },
+    {
+     "wort": "Kommentiere mit „TOOL“",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.51,
+     "bis": 3.75
+    },
+    {
+     "wort": "und ich schicke dir",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.75,
+     "bis": 4.71
+    },
+    {
+     "wort": "die Demo.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.71,
+     "bis": 5.34
+    },
+    {
+     "wort": "Bei mir:",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 5.54
+    },
+    {
+     "wort": "eine Zelle.",
+     "farbe": "gruen",
+     "groesse": 160,
+     "y": 1040,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.19,
+     "bis": 5.54
+    },
+    {
+     "wort": "Kommentiere „TOOL“",
+     "farbe": "gruen",
+     "groesse": 90,
+     "y": 1260,
+     "x": 480,
+     "breite": 880,
+     "ab": 2.46,
+     "bis": 5.54
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/22_2026-10-18_reel_steuersatz/_karten/abspann.png",
+   "dauer": 1.6,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/22_2026-10-18_reel_steuersatz/ton/stimme.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 4.569999999999999,
+   "lautstaerke": 0.12,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 4.47,
+   "start": 0,
+   "lautstaerke": 0.09,
+   "ein": 0.6
+  }
+ ]
+}

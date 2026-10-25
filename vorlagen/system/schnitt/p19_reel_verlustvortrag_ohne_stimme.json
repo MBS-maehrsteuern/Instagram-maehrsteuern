@@ -1,0 +1,231 @@
+{
+ "ausgabe": "../../posts/19_2026-10-20_reel_verlustvortrag/reel_ohne_stimme.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.7,
+   "lautstaerke": 0.35,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 1.0,
+   "start": 0,
+   "dauer": 0.6,
+   "lautstaerke": 0.5,
+   "aus": 0.1
+  },
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 2.5500000000000003,
+   "start": 0.0,
+   "lautstaerke": 0.5,
+   "ein": 0.4
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/19_2026-10-20_reel_verlustvortrag/_karten/szene_1.png",
+   "dauer": 2.7,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "3 Mio. Verlustvortrag,",
+     "ab": 0.3,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "2 Mio. Gewinn …",
+     "ab": 0.8,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "… trotzdem",
+     "ab": 0.3,
+     "groesse": 160,
+     "y": 860,
+     "x": 480,
+     "breite": 880
+    },
+    {
+     "wort": "Steuer?",
+     "ab": 1.0,
+     "groesse": 200,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/19_2026-10-20_reel_verlustvortrag/_karten/szene_2.png",
+   "dauer": 2.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Ja –",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gelb"
+    },
+    {
+     "wort": "Mindestbesteuerung.",
+     "ab": 0.5,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/19_2026-10-20_reel_verlustvortrag/_karten/szene_3.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Die erste Million voll,",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "vom Rest nur 70 %.",
+     "ab": 0.8,
+     "groesse": 94,
+     "y": 465,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/19_2026-10-20_reel_verlustvortrag/_karten/szene_4.png",
+   "dauer": 3.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Bleiben steuerpflichtig:",
+     "ab": 0.1,
+     "groesse": 94,
+     "y": 340,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "KSt: 300.000 €",
+     "ab": 0.4,
+     "groesse": 140,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "farbe": "gruen"
+    },
+    {
+     "wort": "GewSt: 400.000 €",
+     "ab": 1.6,
+     "groesse": 140,
+     "y": 1010,
+     "x": 480,
+     "breite": 880,
+     "farbe": "gelb"
+    },
+    {
+     "wort": "Demo-Zahlen · GewSt: 60 % statt 70 %",
+     "ab": 1.6,
+     "groesse": 52,
+     "y": 1170,
+     "x": 480,
+     "breite": 880
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/19_2026-10-20_reel_verlustvortrag/_karten/abspann.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Demo-Zahlen.",
+     "ab": 0.1,
+     "groesse": 66,
+     "y": 1350,
+     "x": 480,
+     "breite": 860
+    },
+    {
+     "wort": "Speicher dir das.",
+     "ab": 0.6,
+     "groesse": 80,
+     "y": 1450,
+     "x": 480,
+     "breite": 860,
+     "farbe": "gruen"
+    }
+   ]
+  }
+ ]
+}

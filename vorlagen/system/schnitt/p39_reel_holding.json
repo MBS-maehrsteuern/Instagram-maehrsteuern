@@ -1,0 +1,137 @@
+{
+ "ausgabe": "../../posts/39_2026-10-28_reel_holding/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Rechnen wir nach:",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_regel.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Verkaufsgewinn:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "95 % frei",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_rechnung.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Steuer auf 1 Mio. €:",
+     "groesse": 90,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "14.913 €",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/karte_grenze.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/39_2026-10-28_reel_holding/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.711,
+   "ein": 0.3
+  }
+ ]
+}

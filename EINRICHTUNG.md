@@ -1,7 +1,7 @@
 # Autopilot einrichten (einmalig, ca. 30 Minuten)
 
 ## 1 · Repo ✅ erledigt
-https://github.com/maehrsteuern/Instagram-maehrsteuern (öffentlich)
+https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern (öffentlich)
 
 ## 2 · Instagram-Schnittstelle freischalten (ca. 15 Min.)
 Dein Konto ist schon professionell, das ist die Voraussetzung.
@@ -37,7 +37,8 @@ GitHub führt Zeitpläne (`schedule`) bei kleinen Repos oft verspätet oder gar 
 
 **a) Eigenen GitHub-Schlüssel nur dafür anlegen** (nicht `GH_PAT` wiederverwenden – der darf Secrets ändern)
 1. https://github.com/settings/personal-access-tokens → **Generate new token** (fine-grained)
-2. Name `cron-posten`, Ablauf **1 Jahr** (Kalender-Erinnerung zum Erneuern setzen)
+2. **Resource owner: `MBS-maehrsteuern`** (die Organisation, nicht das persönliche Konto – das Repo gehört seit 15.10.2026 der Organisation). Voraussetzung: Die Organisation erlaubt Fine-grained Tokens (Org → Settings → Personal access tokens); ggf. muss ein Org-Owner den Schlüssel freigeben (Approval).
+   Name `cron-posten`, Ablauf **1 Jahr** (Kalender-Erinnerung zum Erneuern setzen)
 3. Repository access: **Only select repositories → Instagram-maehrsteuern**
 4. Permissions → Repository permissions → **Actions: Read and write** (sonst nichts)
 5. *Generate token* → Schlüssel kopieren (beginnt mit `github_pat_…`) – **nicht im Chat schicken**
@@ -45,7 +46,7 @@ GitHub führt Zeitpläne (`schedule`) bei kleinen Repos oft verspätet oder gar 
 **b) Takt bei cron-job.org einrichten**
 1. https://cron-job.org → kostenlos registrieren → **Create cronjob**
 2. Title `Instagram posten`, URL:
-   `https://api.github.com/repos/maehrsteuern/Instagram-maehrsteuern/actions/workflows/posten.yml/dispatches`
+   `https://api.github.com/repos/MBS-maehrsteuern/Instagram-maehrsteuern/actions/workflows/posten.yml/dispatches`
 3. Execution schedule: **Every 15 minutes**
 4. Reiter **Advanced**:
    - Request method: **POST**
@@ -59,9 +60,13 @@ GitHub führt Zeitpläne (`schedule`) bei kleinen Repos oft verspätet oder gar 
    - Request body: `{"ref":"claude/instagram"}`
 5. Speichern → **Test run**: Antwort **204** = passt. Unter Actions → *Instagram posten* erscheint ein neuer Lauf „workflow_dispatch“.
 
-✅ Eingerichtet am 30.09.2026 (Schlüssel gültig bis 29.09.2027). Die API-Version `2022-11-28` gilt laut GitHub noch bis März 2028 – vorher im Header auf eine neuere Version umstellen.
+✅ Neu eingerichtet am 15.10.2026 für die Organisation `MBS-maehrsteuern` (Ablauf beim Anlegen notieren). Erstmalig eingerichtet am 30.09.2026. Die API-Version `2022-11-28` gilt laut GitHub noch bis März 2028 – vorher im Header auf eine neuere Version umstellen.
 
-Bei Fehlern: 401 = Schlüssel falsch/abgelaufen · 403/404 = Berechtigung „Actions: Read and write“ oder Repo-Auswahl fehlt · 422 = Body/Branch falsch.
+**Stand 15.10.2026:** Das Repo ist in die Organisation `MBS-maehrsteuern` umgezogen. Der alte Schlüssel (persönliches Konto) hatte danach keinen Zugriff mehr, cron-job.org hat den Job nach zu vielen Fehlern deaktiviert. Neuer Schlüssel (Resource owner `MBS-maehrsteuern`) und neue URL sind eingetragen, der Job wurde wieder aktiviert.
+
+**Wichtig:** cron-job.org schaltet einen Job nach wiederholten Fehlern automatisch ab. Nach der Fehlerbehebung muss er von Hand wieder eingeschaltet werden („Enable job“).
+
+Bei Fehlern: 401 = Schlüssel falsch/abgelaufen · 403/404 = Berechtigung „Actions: Read and write“ oder Repo-Auswahl fehlt, oder das Repo ist umgezogen (URL und Resource owner des Schlüssels müssen `MBS-maehrsteuern` sein) · 422 = Body/Branch falsch.
 
 ## 6 · Instagram-Plan im Google Kalender ✅ eingerichtet (03.10.)
 Direkt-Sync statt Abo: Jeder Lage-Lauf (alle 15 Min.) schreibt die Termine aus dem Plan in den Google-Kalender **„maehrsteuern Autopilot“** (`automatik/kalender_sync.py`). Postzeiten sind „beschäftigt“ → Reclaim legt keine Demo darauf; To-dos (liefern, Musik, Dateien) und LinkedIn-Erinnerungen stehen als „frei“ drin und blocken keine Demo. Farbe und Pop-up-Erinnerung je Art: `ART` in `automatik/kalender.py`.
@@ -105,7 +110,7 @@ Die bisherige Instagram-Schnittstelle kann keine fremden Profile lesen. Dafür b
 | **So ca. 18:00** | Wochenbericht-Issue „📊 Woche KW xx“ – Demos und ManyChat-Zahlen per Kommentar nachtragen (`demos 2`, `manychat 14/6`, `herkunft …`) | Autopilot + du (2 Min.) |
 | **1. des Monats** | Monatsbericht, Instagram-Schlüssel wird verlängert (braucht `GH_PAT`) | Claude + Autopilot |
 
-**Freigaben:** https://github.com/maehrsteuern/Instagram-maehrsteuern/issues?q=is%3Aopen+label%3Afreigabe
+**Freigaben:** https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues?q=is%3Aopen+label%3Afreigabe
 Nur deine eigenen Kommentare zählen. `go` = einplanen, `stop` = pausieren, alles andere wird ignoriert.
 **Notbremse:** Actions → *Instagram posten* → ⋯ → *Disable workflow* (stoppt auch die Starts von cron-job.org).
 **Fehler:** stehen in `automatik/plan.json` beim Eintrag (`"status": "fehler"`), GitHub schickt dir eine Mail.

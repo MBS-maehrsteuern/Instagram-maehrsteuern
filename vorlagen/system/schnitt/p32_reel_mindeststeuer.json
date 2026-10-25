@@ -1,0 +1,96 @@
+{
+ "ausgabe": "../../posts/32_2026-10-23_reel_mindeststeuer/reel.mp4",
+ "fps": 30,
+ "ton": [
+  {
+   "datei": "../../musik/12_runway_pop_electronic.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.61,
+   "ein": 0.3
+  }
+ ],
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/titelbild.png",
+   "dauer": 2.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    960
+   ],
+   "text": [
+    {
+     "wort": "15 % Mindeststeuer –",
+     "ab": 0.3,
+     "groesse": 100,
+     "y": 330,
+     "x": 480,
+     "breite": 800
+    },
+    {
+     "wort": "betrifft dich das?",
+     "ab": 0.9,
+     "farbe": "gelb",
+     "groesse": 120,
+     "y": 470,
+     "x": 480,
+     "breite": 800
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_wer.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_land.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/karte_deutschland.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    940,
+    1000
+   ]
+  },
+  {
+   "karte": "../../posts/32_2026-10-23_reel_mindeststeuer/bausteine/abspann.png",
+   "dauer": 2.8
+  }
+ ]
+}

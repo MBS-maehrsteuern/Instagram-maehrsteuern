@@ -1,0 +1,14 @@
+{ "titel": "Reel 32 · Mindeststeuer 15 % (ohne Stimme) – Karten, Abspann, Story. Inhalt aus Bibliothek r3_12 (R3 gegengelesen)", "ausgabe": "../../posts/32_2026-10-23_reel_mindeststeuer",
+  "bilder": [
+    { "vorlage": "einblendung", "datei": "bausteine/karte_wer.png", "typ": "haken", "kicker": "Wer? · § 1 MinStG",
+      "titel": "Erst ab\n*750 Mio. €*\nUmsatz.", "sub": "Konzernumsatz in mindestens\nzwei der vier Vorjahre." },
+    { "vorlage": "einblendung", "datei": "bausteine/karte_land.png", "typ": "haken", "kicker": "Was?",
+      "titel": "15 %\n*je Land*.", "sub": "Effektiv unter 15 %?\nDie Differenz kommt als\nErgänzungssteuer obendrauf." },
+    { "vorlage": "einblendung", "datei": "bausteine/karte_deutschland.png", "typ": "haken", "kicker": "Deutschland",
+      "titel": "29,83 % –\n*trotzdem rechnen*.", "sub": "Sondereffekte und Vergünstigungen\ndrücken die effektive Quote.\n(Gesamtsatz bei 400 % Hebesatz)" },
+    { "vorlage": "einblendung", "datei": "bausteine/abspann.png", "typ": "abspann",
+      "titel": "Effektiv-\nsteuersatz\n*je Land*?", "chip": "💬 Kommentiere „TOOL“", "sub": "→ Demo per DM · @maehrsteuern" },
+    { "vorlage": "story", "datei": "story_fr_zahl.png", "typ": "antwort", "kicker": "Zahl des Tages",
+      "titel": "*15 %*\nMindeststeuer", "text": "Effektiv je Land – für Gruppen ab 750 Mio. € Umsatz (MinStG).",
+      "antwort": "Tipp unten auf ein Emoji:\n👏 = kannte ich · 😮 = neu für mich" }
+  ] }

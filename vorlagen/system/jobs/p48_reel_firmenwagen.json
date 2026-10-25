@@ -1,0 +1,10 @@
+{ "titel": "Reel 48 · Firmenwagen: Excel-Fahrtenbuch verworfen (Nachtlauf 14.10.): Titelbild Prüfer-Fall, Abspann TOOL, Story Emoji-Tipp; QA KW45: Reel-Folien mit Arbeitnehmer-Normen (§ 8 Abs. 2 Satz 2–4 EStG, BMF 03.03.2022) statt Bibliothek firmenwagen",
+  "ausgabe": "../../posts/48_2026-11-02_reel_firmenwagen",
+  "bilder": [
+    {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Prüfer-Fall","titel":"Fahrtenbuch\nin Excel.\n*Verworfen.*","sub":"Dann gilt die 1-%-Regel."},
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"1 % oder Fahrtenbuch\n*mit euren Zahlen?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"karussell","datei":"bausteine/folie_fahrtenbuch.png","seite":5,"von":7,"typ":"inhalt","saeule":"Fahrtenbuch","titel":"Echte Kosten statt *Pauschale*.","text":"Lohnt sich bei wenig Privatfahrten oder abgeschriebenem Wagen. Ordnungsgemäß heißt: zeitnah und geschlossen geführt.","boxTitel":"NORM","box":"§ 8 Abs. 2 Satz 4 EStG · R 8.1 Abs. 9 LStR"},
+    {"vorlage":"karussell","datei":"bausteine/folie_1prozent.png","seite":2,"von":7,"typ":"inhalt","saeule":"Pauschal","titel":"*1 %* vom Bruttolistenpreis.","text":"Pro Monat, unabhängig davon, wie viel privat gefahren wird.","boxTitel":"NORM","box":"§ 8 Abs. 2 Satz 2 EStG"},
+    {"vorlage":"karussell","datei":"bausteine/folie_arbeitsweg.png","seite":3,"von":7,"typ":"inhalt","saeule":"Arbeitsweg","titel":"Plus *0,03 %* je Entfernungs-km.","text":"Für Fahrten zur ersten Tätigkeitsstätte. Alternativ 0,002 % je km und Fahrt bei höchstens 180 Fahrten im Jahr.","boxTitel":"NORM","box":"§ 8 Abs. 2 Satz 3 EStG · BMF 03.03.2022"},
+    {"vorlage":"story","datei":"story_mo_tipp.png","typ":"antwort","kicker":"Firmenwagen · 1 Tipp","titel":"Fahrtenbuch: *zeitnah* und geschlossen.","text":"Eine Excel-Liste, die sich nachträglich ändern lässt, erkennt das Finanzamt nicht an. Dann gilt die 1-%-Regel.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }

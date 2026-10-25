@@ -1,0 +1,155 @@
+{
+ "ausgabe": "../../posts/50_2026-11-03_reel_gebaeude_afa/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/titelbild.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Welcher AfA-Satz?",
+     "groesse": 90,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_linear.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "rein": "whip",
+   "text": [
+    {
+     "wort": "1 · Linear",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "2 · 2,5 · 3 %",
+     "groesse": 130,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_degressiv.png",
+   "dauer": 3.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "2 · Wohnungsneubau",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "5 % degressiv",
+     "groesse": 120,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/karte_sonder.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "3 · Plus Sonder-AfA",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "5 % · 4 Jahre",
+     "groesse": 120,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/50_2026-11-03_reel_gebaeude_afa/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/08_runway_chill_house.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.97,
+   "ein": 0.3
+  }
+ ]
+}

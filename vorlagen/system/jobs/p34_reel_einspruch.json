@@ -1,0 +1,47 @@
+{
+ "titel": "Reel 34 · Einspruch: ein Monat (ohne Stimme) – Karten, Abspann, Tipp-Story. Inhalt aus Bibliothek r6_17/r6_25 (R6 gegengelesen, tipp_einspruch korrigiert)",
+ "ausgabe": "../../posts/34_2026-10-25_reel_einspruch",
+ "bilder": [
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_post.png",
+   "typ": "haken",
+   "kicker": "§ 122 Abs. 2 Nr. 1 AO",
+   "titel": "Bekannt\ngegeben:\n*Fr 09.10.*",
+   "sub": "Zur Post am Mo 05.10. –\nseit 2025 zählt der vierte Tag."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_frist.png",
+   "typ": "haken",
+   "kicker": "§ 355 Abs. 1 AO",
+   "titel": "Frist endet:\n*Mo 09.11.*",
+   "sub": "Ein Monat ab Bekanntgabe.\nDie Begründung darf später kommen."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/karte_zahlen.png",
+   "typ": "haken",
+   "kicker": "§ 361 AO",
+   "titel": "Zahlen?\n~Trotzdem~ fällig.",
+   "sub": "Ohne Aussetzung der Vollziehung\nbleibt die Steuer fällig."
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann.png",
+   "typ": "abspann",
+   "titel": "Jede Frist.\n*Im Blick.*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · @maehrsteuern"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_tipp.png",
+   "typ": "antwort",
+   "kicker": "Tipp",
+   "titel": "Einspruch: Frist *notieren*.",
+   "text": "Aufgabe zur Post plus vier Tage = Bekanntgabe. Ab dann ein Monat. Die Begründung kann später kommen (§§ 122, 355, 357 AO).",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = notiert · 😮 = neu für mich"
+  }
+ ]
+}

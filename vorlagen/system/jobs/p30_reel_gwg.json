@@ -1,0 +1,5 @@
+{ "titel": "30 · Reel „GWG: 800 € oder Pool?“ – Quiz (Emoji) und Auflösung", "ausgabe": "../../posts/30_2026-10-21_reel_gwg",
+  "bilder": [
+    {"vorlage":"story","datei":"story_mi_quiz.png","typ":"antwort","kicker":"Quiz · 1 Tipp","titel":"Monitor für 850 € netto – ist das ein *GWG*?","antwort":"Tipp unten auf ein Emoji:\n👏 = Ja · 😮 = Nein\nAuflösung morgen"},
+    {"vorlage":"story","datei":"story_do_aufloesung.png","typ":"info","kicker":"Auflösung Quiz","titel":"*Nein* – GWG nur bis 800 € netto.","text":"850 € → normale AfA oder Sammelposten (250,01 bis 1.000 €, 5 Jahre je 20 %). § 6 Abs. 2 und 2a EStG."}
+  ] }

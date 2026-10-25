@@ -1,0 +1,384 @@
+{
+ "ausgabe": "../../posts/01_2026-10-04_reel_ampel/reel_kurz.mp4",
+ "fps": 30,
+ "quellen": {
+  "buero": {
+   "video": "../hooks/bausteine/ki_buero_abend.mp4"
+  },
+  "schulter": {
+   "video": "../hooks/bausteine/ki_ueber_schulter.mp4"
+  },
+  "tabelle": {
+   "video": "../hooks/bausteine/karte_oben_tabelle.mp4"
+  },
+  "ampel": {
+   "video": "../../posts/01_2026-10-04_reel_ampel/bausteine/aufnahme_gelb_gruen_neutral.mp4"
+  }
+ },
+ "szenen": [
+  {
+   "quelle": "buero",
+   "dauer": 3.17,
+   "text": [
+    {
+     "wort": "Du bist zwei Tage vor",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.1,
+     "bis": 2.21
+    },
+    {
+     "wort": "Fristende und hast",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 2.21,
+     "bis": 3.41
+    },
+    {
+     "wort": "2 Tage vor Frist",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 520,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.02,
+     "bis": 3.17
+    }
+   ],
+   "ab": 0.2,
+   "tempo": 0.9,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    900,
+    900
+   ]
+  },
+  {
+   "quelle": "tabelle",
+   "dauer": 2.24,
+   "text": [
+    {
+     "wort": "Fristende und hast",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.24
+    },
+    {
+     "wort": "dann irgendwelche",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.24,
+     "bis": 1.58
+    },
+    {
+     "wort": "Bezugsfehler oder",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.58,
+     "bis": 2.7
+    },
+    {
+     "wort": "#BEZUG!",
+     "farbe": "rot",
+     "groesse": 230,
+     "y": 520,
+     "x": 470,
+     "breite": 820,
+     "ab": 1.5,
+     "bis": 2.24
+    }
+   ],
+   "ab": 1.25
+  },
+  {
+   "quelle": "schulter",
+   "dauer": 3.3,
+   "text": [
+    {
+     "wort": "Bezugsfehler oder",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.46
+    },
+    {
+     "wort": "Namensfehler oder",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.46,
+     "bis": 2.2
+    },
+    {
+     "wort": "Formelfehler und",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 2.2,
+     "bis": 3.49
+    },
+    {
+     "wort": "#NAME?",
+     "farbe": "rot",
+     "groesse": 230,
+     "y": 520,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.38,
+     "bis": 3.3
+    },
+    {
+     "wort": "#WERT!",
+     "farbe": "rot",
+     "groesse": 230,
+     "y": 520,
+     "x": 470,
+     "breite": 820,
+     "ab": 2.12,
+     "bis": 3.3
+    }
+   ],
+   "ab": 1.8,
+   "von": [
+    540,
+    800,
+    1000
+   ],
+   "nach": [
+    560,
+    760,
+    820
+   ]
+  },
+  {
+   "quelle": "tabelle",
+   "dauer": 1.53,
+   "text": [
+    {
+     "wort": "Formelfehler und",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.19
+    },
+    {
+     "wort": "suchst dich dumm und",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.19,
+     "bis": 0.87
+    },
+    {
+     "wort": "dämlich.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.87,
+     "bis": 1.61
+    },
+    {
+     "wort": "Quelle nicht gefunden.",
+     "farbe": "rot",
+     "groesse": 95,
+     "y": 470,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.11,
+     "bis": 1.53
+    }
+   ],
+   "ab": 7.0
+  },
+  {
+   "quelle": "ampel",
+   "dauer": 2.85,
+   "text": [
+    {
+     "wort": "dämlich.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.08
+    },
+    {
+     "wort": "Aber dafür gibt es",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.08,
+     "bis": 1.26
+    },
+    {
+     "wort": "jetzt endlich eine",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.26,
+     "bis": 1.64
+    },
+    {
+     "wort": "Lösung und das ist",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.64,
+     "bis": 2.34
+    },
+    {
+     "wort": "Code.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 2.34,
+     "bis": 2.93
+    },
+    {
+     "wort": "Code.",
+     "farbe": "gruen",
+     "groesse": 200,
+     "y": 380,
+     "x": 470,
+     "breite": 820,
+     "ab": 2.26,
+     "bis": 2.85
+    }
+   ],
+   "ab": 8.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    1000,
+    1000
+   ]
+  },
+  {
+   "quelle": "ampel",
+   "dauer": 2.26,
+   "text": [
+    {
+     "wort": "Code.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.08
+    },
+    {
+     "wort": "Schreib mir eine DM",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.08,
+     "bis": 0.68
+    },
+    {
+     "wort": "mit „TOOL“.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.68,
+     "bis": 1.71
+    },
+    {
+     "wort": "„TOOL“ per DM",
+     "farbe": "gruen",
+     "groesse": 160,
+     "y": 380,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.92,
+     "bis": 2.26,
+     "kasten": true
+    }
+   ],
+   "ab": 13.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    410,
+    900,
+    820
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/01_2026-10-04_reel_ampel/ton/stimme_kurz.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.02,
+   "aus": 0.3
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0.3,
+   "start": 0.3,
+   "dauer": 9.94,
+   "lautstaerke": 0.18,
+   "ein": 0.05,
+   "aus": 0.3
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 4.67,
+   "dauer": 0.6,
+   "lautstaerke": 0.3
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 5.79,
+   "dauer": 0.6,
+   "lautstaerke": 0.22
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 7.53,
+   "dauer": 0.6,
+   "lautstaerke": 0.22
+  },
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 10.24,
+   "start": 0.4,
+   "lautstaerke": 0.11,
+   "ein": 0.8
+  }
+ ]
+}

@@ -8,7 +8,7 @@ Handnotizen („gerade in Arbeit“, Entscheidungen) stehen in automatik/lage_no
 Schreibt außerdem LAGE.html (automatik/lage_html.py) – dieselbe Lage als grafische Seite (GitHub Pages).
 """
 import csv, json, os, re, subprocess
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -21,7 +21,11 @@ ERINNERUNGEN = WURZEL / "automatik" / "erinnerungen.json"
 ZIEL = WURZEL / "LAGE.md"
 ZONE = ZoneInfo("Europe/Berlin")
 NACHHOLEN = timedelta(hours=6)  # wie posten.py: danach wird ein verpasster Eintrag nicht mehr nachgeholt
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+UEBERFAELLIG = timedelta(minutes=30)  # freigegeben, aber so lange nach der Zeit noch nicht online → rot
+RASTER = {"Feed": ("11:45", "17:45"), "Story": ("12:15", "17:50")}  # Slots laut strategie/15_plan_2_pro_tag.md
+TEST_START, TEST_ENDE = date(2026, 10, 12), date(2026, 11, 8)  # Testmonat: 14 Feed-Beiträge/Woche, täglich ≥ 1 Reel
+FEED_SOLL = 14
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 LAGE_COMMIT = "Lage aktualisiert"
 
 TYP = {"karussell": "🖼️ Karussell", "reel": "🎬 Reel", "story": "📱 Story", "bild": "🖼️ Bild"}
@@ -33,6 +37,7 @@ STATUS = {
     "fehler": "🔴 Fehler",
     "entfaellt": "⚪ entfällt",
 }
+AUS = ("entfaellt", "pause")  # zählen weder als geplant noch als belegt
 WORKFLOWS = [  # Datei, Name, wann
     ("lage.yml", "Lage + Google-Kalender", "alle 15 Min. (LAGE.md, Kalender-Sync, Wächter)"),
     ("posten.yml", "Posten", "alle 15 Min. (postet freigegebene Einträge)"),
@@ -66,6 +71,19 @@ def status(e):
 
 def issue_link(e):
     return f" · [Freigabe #{e['issue']}](https://github.com/{REPO}/issues/{e['issue']})" if e.get("issue") else ""
+
+
+def slot_art(e):
+    return "Story" if e["typ"] == "story" else "Feed"
+
+
+def ersatz_text(e):
+    """Feld `ersatz_video`: fertiges Notlösungs-Video ohne Stimme, falls die Sprachnachricht nicht kommt."""
+    if not e.get("ersatz_video"):
+        return ""
+    da = (WURZEL / e["ordner"] / e["ersatz_video"]).exists()
+    return (f"🎞️ **Ersatz ohne Stimme liegt bereit** (`{e['ersatz_video']}`)" if da
+            else f"⚠️ Ersatz ohne Stimme eingetragen, Datei fehlt (`{e['ersatz_video']}`)")
 
 
 def dateien_fehlen(e):
@@ -119,6 +137,9 @@ def offene_punkte(eintraege, n):
             punkte.append(f"🔴 **Fehler beim Posten** {name}: {e.get('fehler', '')[:200]}")
         elif s == "freigegeben" and t < n - NACHHOLEN:
             punkte.append(f"🔴 **Verpasst** {name}: war freigegeben, ist aber nicht online gegangen – Zeit neu setzen oder von Hand posten")
+        elif s == "freigegeben" and t < n - UEBERFAELLIG:
+            punkte.append(f"🔴 **Überfällig** {name}: freigegeben, seit {(n - t).seconds // 60} Min. über der Zeit und nicht online – "
+                          "Posten-Lauf/Wächter in Actions prüfen")
         elif s == "entwurf" and t > n - NACHHOLEN:
             gruppe = [x for x in eintraege if x["id"].split("-")[0] == e["id"].split("-")[0]]
             wartet = next((x["id"] for x in gruppe if x["status"].startswith("wartet")), None)
@@ -126,7 +147,9 @@ def offene_punkte(eintraege, n):
                                                    else "Issue wird automatisch angelegt"))
             punkte.append(f"🟡 **Freigeben** {name} – „go“ oder „stop“ im Issue ({wie})")
         elif s.startswith("wartet") and t > n - NACHHOLEN:
-            punkte.append(f"⏳ **{s.replace('_', ' ').capitalize()}** {name}" + (f" – {e['hinweis']}" if e.get("hinweis") else ""))
+            punkte.append(f"⏳ **{s.replace('_', ' ').capitalize()}** {name}"
+                          + (f" – {ersatz}" if (ersatz := ersatz_text(e)) else "")
+                          + (f" – {e['hinweis']}" if e.get("hinweis") else ""))
         elif s == "manuell" and t > n - timedelta(days=1):
             punkte.append(f"✋ **Von Hand posten** {name}" + (f" – {e['hinweis']}" if e.get("hinweis") else ""))
         if s in ("freigegeben", "entwurf", "manuell") and t > n and (fehlt := dateien_fehlen(e)):
@@ -142,6 +165,155 @@ def offene_punkte(eintraege, n):
             punkte.append(f"⏰ **{r['titel']}** ({tag(r['start'])}) – {r.get('text', '').splitlines()[0]}")
     punkte += stichwort_abgleich(eintraege)
     return punkte or ["Nichts offen. 🎉"]
+
+
+# ---------- 30-Sekunden-Briefing ----------
+
+def heute_ampel(eintraege, n):
+    """[(Ampel, Kurztext, Eintrag)] für alles, was heute online gehen soll."""
+    aus = []
+    for e in sorted((x for x in eintraege if zeit(x).date() == n.date() and x["status"] not in AUS), key=zeit):
+        t, s = zeit(e), e["status"]
+        if s == "veroeffentlicht":
+            a, txt = "✅", "online"
+        elif s == "fehler":
+            a, txt = "🔴", "Fehler"
+        elif s == "freigegeben" and t < n - UEBERFAELLIG:
+            a, txt = "🔴", "überfällig"
+        elif s == "freigegeben" and dateien_fehlen(e):
+            a, txt = "🔴", "Dateien fehlen"
+        elif s == "freigegeben":
+            a, txt = "🟢", "läuft automatisch"
+        elif s == "manuell":
+            a, txt = "✋", "von Hand"
+        elif s == "entwurf":
+            a, txt = "🟡", "wartet auf go"
+        else:
+            a, txt = "🟡", s.replace("_", " ")
+        aus.append((a, txt, e))
+    return aus
+
+
+def sieben_tage(n):
+    """Letzte 7 abgeschlossene Tage: Reichweite (Summe, Vorwoche), Follower ±, Follows/Entfolgt (30 Tage, API)."""
+    zeilen = list(csv.DictReader(KONTO.open())) if KONTO.exists() else []
+    dateien = insights_dateien()
+    w = {}
+    if dateien:
+        d = json.loads(dateien[-1].read_text())
+        # Tag des Abrufs (und später) ist noch nicht vorbei → nicht mitzählen
+        grenze = min(n.strftime("%Y-%m-%d"), d.get("abgerufen", "9999")[:10])
+        fertig = [(t, v) for t, v in sorted((d.get("tageswerte_reichweite") or {}).items()) if t < grenze]
+        if fertig:
+            w.update(von=fertig[-7:][0][0], bis=fertig[-1][0], reichweite=sum(v for _, v in fertig[-7:]),
+                     tage=len(fertig[-7:]))
+            if len(fertig) >= 14:
+                w["vorwoche"] = sum(v for _, v in fertig[-14:-7])
+        fu = ((d.get("konto_verlauf") or [{}])[0].get("follows_and_unfollows") or {}).get("aufgeteilt") or {}
+        if fu:  # laut API: FOLLOWER = neue Follows, NON_FOLLOWER = Entfolgungen (30 Tage)
+            w.update(follows30=fu.get("FOLLOWER"), entfolgt30=fu.get("NON_FOLLOWER"))
+    if zeilen:
+        letzte = zeilen[-1]
+        stichtag = (datetime.strptime(letzte["datum"], "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
+        vorher = next((z for z in reversed(zeilen) if z["datum"] <= stichtag), None)
+        if vorher:
+            w.update(follower=int(letzte["followers_count"]),
+                     follower_diff=int(letzte["followers_count"]) - int(vorher["followers_count"]),
+                     follower_seit=vorher["datum"])
+    return w
+
+
+def vorwoche_prozent(w):
+    return f"{round(100 * (w['reichweite'] - w['vorwoche']) / max(w['vorwoche'], 1)):+d} %"
+
+
+def sieben_tage_text(w):
+    if not w:
+        return "noch keine Statistik"
+    teile = []
+    if "reichweite" in w:
+        vw = f", {vorwoche_prozent(w)} zur Vorwoche" if "vorwoche" in w else ""
+        teile.append(f"Reichweite **{w['reichweite']}** ({w['von'][8:10]}.{w['von'][5:7]}.–{w['bis'][8:10]}.{w['bis'][5:7]}.{vw})")
+    if "follower_diff" in w:
+        teile.append(f"Follower **{w['follower_diff']:+d}** (jetzt {w['follower']})" + (" ⚠️" if w["follower_diff"] < 0 else ""))
+    if w.get("follows30") is not None:
+        teile.append(f"30 Tage: +{w['follows30']} Follows / −{w.get('entfolgt30', '–')} entfolgt")
+    return " · ".join(teile)
+
+
+def testmonat(eintraege, n):
+    """Je Kalenderwoche des Testmonats: Feed-Beiträge (online/geplant/wartet) gegen Soll 14 und Tage mit Reel."""
+    if n.date() > TEST_ENDE + timedelta(days=7):
+        return []
+    aus = []
+    start = TEST_START - timedelta(days=TEST_START.weekday())
+    while start <= TEST_ENDE:
+        tage = [start + timedelta(days=i) for i in range(7)]
+        woche = [e for e in eintraege if e["status"] not in AUS and zeit(e).date() in tage]
+        feed = [e for e in woche if e["typ"] != "story"]
+        online = sum(e["status"] == "veroeffentlicht" for e in feed)
+        geplant = sum(e["status"] in ("freigegeben", "manuell", "entwurf") for e in feed)
+        wartet = sum(e["status"].startswith("wartet") for e in feed)
+        fehler = sum(e["status"] == "fehler" for e in feed)
+        # Reel-Tag zählt, wenn ein Reel online oder sicher geplant ist (wartet_* zählt nicht)
+        reel_tage = {zeit(e).date() for e in feed if e["typ"] == "reel" and e["status"] in ("veroeffentlicht", "freigegeben", "manuell", "entwurf")}
+        im_test = [d for d in tage if TEST_START <= d <= TEST_ENDE]
+        ohne_reel = [d for d in im_test if d not in reel_tage]
+        aus.append({"kw": start.isocalendar()[1], "von": start, "bis": start + timedelta(days=6), "online": online,
+                    "geplant": geplant, "wartet": wartet, "fehler": fehler, "summe": online + geplant + wartet + fehler,
+                    "reel_tage": len(im_test) - len(ohne_reel), "test_tage": len(im_test), "ohne_reel": ohne_reel, "aktuell": start <= n.date() <= start + timedelta(days=6),
+                    "vorbei": start + timedelta(days=6) < n.date()})
+        start += timedelta(days=7)
+    return aus
+
+
+def testmonat_text(w):
+    ampel = "✅" if w["online"] + w["geplant"] >= FEED_SOLL and not w["ohne_reel"] else ("🔴" if w["online"] + w["geplant"] < FEED_SOLL / 2 else "🟡")
+    t = (f"{ampel} **KW {w['kw']}** ({w['von']:%d.%m.}–{w['bis']:%d.%m.}){' ← jetzt' if w['aktuell'] else ''}: "
+         f"Feed **{w['online'] + w['geplant']}/{FEED_SOLL}** ({w['online']} online · {w['geplant']} geplant"
+         + (f" · {w['wartet']} wartet" if w["wartet"] else "") + (f" · {w['fehler']} Fehler" if w["fehler"] else "") + ")"
+         + f" · Reel-Tage (sicher) **{w['reel_tage']}/{w['test_tage']}**")
+    if w["ohne_reel"] and not w["vorbei"] and len(w["ohne_reel"]) <= 3:
+        t += " – ohne Reel: " + ", ".join(f"{WOCHENTAG[d.weekday()]} {d:%d.%m.}" for d in w["ohne_reel"])
+    return t
+
+
+def freie_slots(eintraege, n, tage=7):
+    """{Datum: [„Feed 11:45“, …]} – Raster-Slots von jetzt bis +7 Tage, an denen nichts gleicher Art steht."""
+    belegt = {(zeit(e).date(), slot_art(e), e["zeit"][11:]) for e in eintraege if e["status"] not in AUS}
+    frei = {}
+    for i in range(tage + 1):
+        d = (n + timedelta(days=i)).date()
+        for art, zeiten in RASTER.items():
+            for z in zeiten:
+                beginn = datetime.strptime(f"{d} {z}", "%Y-%m-%d %H:%M").replace(tzinfo=ZONE)
+                if n < beginn <= n + timedelta(days=tage) and (d, art, z) not in belegt:
+                    frei.setdefault(d, []).append(f"{art} {z}")
+    return frei
+
+
+def briefing(eintraege, n, punkte):
+    """Kurzblock ganz oben in LAGE.md – was der Lage-Skill Loris zuerst sagt."""
+    heute = heute_ampel(eintraege, n)
+    zeilen = ["## ⏱️ 30-Sekunden-Briefing", ""]
+    zeilen.append("- **Heute online:** " + (" · ".join(f"{a} {zeit(e):%H:%M} {TYP.get(e['typ'], e['typ'])} `{e['id']}` ({t})"
+                                                        for a, t, e in heute) or "nichts geplant"))
+    offen = [p for p in punkte if not p.startswith("Nichts")]
+    rot = sum(p.startswith("🔴") for p in offen)
+    zeilen.append(f"- **Braucht dich:** {len(offen)} offen" + (f", davon **{rot} rot** 🔴" if rot else "") if offen else "- **Braucht dich:** nichts 🎉")
+    zeilen.append(f"- **Letzte 7 Tage:** {sieben_tage_text(sieben_tage(n))}")
+    wochen = [w for w in testmonat(eintraege, n) if not w["vorbei"] or w["aktuell"]]
+    if wochen:
+        zeilen.append(f"- **Testmonat** (Tag {max(0, min((n.date() - TEST_START).days + 1, 28))}/28, Soll {FEED_SOLL} Feed/Woche, täglich ≥ 1 Reel):")
+        zeilen += [f"  - {testmonat_text(w)}" for w in wochen]
+    frei = freie_slots(eintraege, n)
+    if frei:
+        zeilen.append(f"- **Freie Slots nächste 7 Tage** ({sum(map(len, frei.values()))}):")
+        zeilen += [f"  - {WOCHENTAG[d.weekday()]} {d:%d.%m.}: {' · '.join(s)}" + (" – **ganzer Tag leer**" if len(s) == 4 else "")
+                   for d, s in sorted(frei.items())]
+    else:
+        zeilen.append("- **Freie Slots nächste 7 Tage:** keine")
+    return zeilen + [""]
 
 
 def tabelle(eintraege, mit_status=True):
@@ -335,12 +507,14 @@ def main():
         f"Stand: letzte Änderung {tag(stand)} Uhr._",
         "",
     ]
+    punkte = offene_punkte(eintraege, n)
+    teile += briefing(eintraege, n, punkte)
     if naechster:
         teile += [f"**Als Nächstes online:** {TYP.get(naechster['typ'])} `{naechster['id']}` am **{tag(zeit(naechster))} Uhr** "
-                  f"– {status(naechster)}", ""]
+                  f"– {status(naechster)}"
+                  + (" – 🔴 **überfällig**" if naechster["status"] == "freigegeben" and zeit(naechster) < n - UEBERFAELLIG else ""), ""]
     if NOTIZEN.exists() and (notiz := NOTIZEN.read_text().strip()):
         teile += ["## 📝 Gerade in Arbeit", "", notiz, ""]
-    punkte = offene_punkte(eintraege, n)
     teile += ["## 👉 Braucht dich", "", *[f"- {p}" for p in punkte], ""]
     woche = [e for e in kommend if zeit(e) <= n + timedelta(days=7)]
     spaeter = [e for e in kommend if zeit(e) > n + timedelta(days=7)]

@@ -15,6 +15,41 @@ Option für mehr Suchtreffer: `Loris | KI für Steuern`.
 ```
 Link: https://app.reclaim.ai/m/maehrsteuern/demo
 
+### Vorschlag 08.10.: Nutzen-Satz statt Leitspruch (noch nicht in der App · Stand 11.10.: weiter offen, 0 Bio-Link-Klicks, 1 Follow bei 10 Besuchen)
+Anlass: 0 von 7 Profilbesuchen wurden zu Follows. Die Bio sagt, *wer* du bist, aber nicht, *was der Besucher davon hat*.
+Die erste Zeile entscheidet, und sie ist heute ein Motto.
+```
+📊 Steuerrückstellung & Co. ohne Excel-Chaos
+⚙️ Ich baue Tools, die für deine Steuerabteilung rechnen
+🎓 Diplom-Finanzwirt · KI-Manager (IHK)
+💬 „TOOL“ kommentieren → 15-Min-Demo, kostenlos
+```
+Neu 11.10.: Aufruf auf „kommentieren“ angeglichen (CTA-Reels sagen „Schreib TOOL in die Kommentare“; ManyChat reagiert auf Kommentar und DM). Highlight „Start 👋“ legt Loris von Hand an (Erinnerung Di 13.10.). Story zum Bio-Link: `23-story-biolink` (Di 13.10. 19:35, Entwurf).
+- Zeile 1 = Nutzen + Suchbegriff („Steuerrückstellung“, „Excel“) für die Instagram-Suche.
+- Zeile 2 = wer profitiert (Steuerabteilung/Kanzlei) und was du tust.
+- Zeile 4 = konkreter Schritt mit Zeitangabe statt „gratis Demo“. Die Dauer an den Reclaim-Termin anpassen.
+- „Steuern × Code“ bleibt im Namensfeld bzw. im Markenauftritt und braucht in der Bio keine Zeile.
+- Prüfen nach 2 Wochen: Follows ÷ Profilbesuche im Tagesbericht (Ziel ≥ 10 %).
+
+### Vorschlag 14.10. (Nachtlauf, ersetzt den vom 08.10. – braucht Loris in der App)
+Grundlage: 91 % der Reichweite sind Nicht-Follower, Profilbesuch → Follow 1 von 10, Bio-Link-Metrik zählt nur Kontakt-Buttons.
+Bio (146 Zeichen):
+```
+📊 Steuer-Tools für Steuerabteilung & Kanzlei
+Rückstellung · GewSt · latente Steuern
+Diplom-Finanzwirt · KI-Manager (IHK)
+💬 DM „TOOL“ → 20-Min-Demo
+```
+Namensfeld (durchsuchbar): `Loris | Steuer-Tools & Excel für Steuerabteilungen`
+Angepinnt (statt Neuvorstellung: 7 Profilbesuche, 0 Follows): 5-Dinge-Reel · Excel-Fehler-Karussell · Latente-Steuern-Karussell.
+Highlights von links: Start 👋 · Demo ⚙️ (Ausschnitte Split/Hinzurechnung/Listen + Link-Sticker Demo) · Wissen 📚 (Karussell-Teaser) · FAQ ❓. „Feedbacks“ erst ab 2 echten Rückmeldungen.
+Folge-Liste schrittweise von 292 auf < 200 (inaktive/fachfremde Konten).
+
+### Highlight „Start 👋“ fehlt noch
+Die 3 Start-Storys (`assets/storys/start/start_1–3.png`) sind seit 30.09. online gewesen, das Highlight wurde nie angelegt.
+In der App: Profil → **+ Neu** → die 3 Storys vom 30.09. aus dem Archiv wählen → Titel „Start 👋“ →
+Titelbild `assets/highlights/hl_start.png` → als **erstes** Highlight ganz links.
+
 Warum „Code“ statt „KI“ im Leitspruch: KI und Steuern sagen gerade alle. Der Unterschied ist, dass hier Lösungen gebaut werden, die laufen.
 
 ## Kategorie

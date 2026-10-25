@@ -1,0 +1,43 @@
+{
+ "titel": "Reel 43 · § 35 EStG: ESt-Ermäßigung um das 4,0-Fache des Messbetrags (Nachtlauf 14.10., QA KW44: Titelbild + Karte Schritt 3 neu, kein „zurück“ mehr): Abspann TOOL, Story Emoji-Tipp",
+ "ausgabe": "../../posts/43_2026-10-30_reel_par35",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Wissen · Steuern × Code",
+   "titel": "Gewerbesteuer\n*angerechnet*",
+   "sub": "Auf die ESt · § 35 EStG in 15 Sekunden."
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_schritt3.png",
+   "seite": 4,
+   "von": 6,
+   "typ": "inhalt",
+   "saeule": "Schritt 3",
+   "titel": "Die ESt sinkt um\ndas *4,0-Fache*.",
+   "text": "Ermäßigung um das Vierfache des Messbetrags – höchstens um die tatsächlich zu zahlende Gewerbesteuer.",
+   "boxTitel": "NORM",
+   "box": "§ 35 Abs. 1 EStG"
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Entlastung für\n*euren Hebesatz?*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · mit Beispieldaten"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_fr_tipp.png",
+   "typ": "antwort",
+   "kicker": "Zahl des Tages · 1 Tipp",
+   "titel": "*4,0 ×* Messbetrag.",
+   "text": "Um so viel sinkt die Einkommensteuer von Einzelunternehmern und Mitunternehmern – höchstens um die tatsächlich zu zahlende Gewerbesteuer (§ 35 EStG).",
+   "antwort": "Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"
+  }
+ ]
+}

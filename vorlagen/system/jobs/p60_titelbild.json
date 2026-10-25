@@ -1,0 +1,16 @@
+{
+ "ausgabe": "../../posts/60_2026-10-15_reel_geld_verschenkt",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Steuern × Code",
+   "titel": "Geld *verschenkt* –\nnur weil du\nnichts abgibst?",
+   "bild": "../../posts/60_2026-10-15_reel_geld_verschenkt/bausteine/bg_titel.png",
+   "scharf": true,
+   "oben": 300,
+   "chip": false,
+   "groesse": 92
+  }
+ ]
+}

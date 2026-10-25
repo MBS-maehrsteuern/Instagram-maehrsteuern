@@ -1,0 +1,133 @@
+{
+ "ausgabe": "../../posts/36_2026-10-26_reel_bewirtung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/titelbild.png",
+   "dauer": 2.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Der Prüfer liest mit.",
+     "groesse": 85,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_70.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Mit Anlass: 70 %",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "Ohne: 0 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_angaben.png",
+   "dauer": 2.6,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/karte_konto.png",
+   "dauer": 2.4,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/36_2026-10-26_reel_bewirtung/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.3,
+   "lautstaerke": 0.212,
+   "ein": 0.1,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/fehlerton.mp3",
+   "ab": 2.9,
+   "dauer": 0.8,
+   "lautstaerke": 0.318
+  },
+  {
+   "datei": "../../musik/06_runway_lofi_ruhig.mp3",
+   "ab": 2.3,
+   "start": 0,
+   "lautstaerke": 0.599,
+   "ein": 0.3
+  }
+ ]
+}

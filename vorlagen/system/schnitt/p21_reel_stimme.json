@@ -1,0 +1,385 @@
+{
+ "ausgabe": "../../posts/21_2026-10-22_reel_zinsschranke/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_1.png",
+   "dauer": 2.97,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Zinsen voll abziehbar?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 1.35
+    },
+    {
+     "wort": "Ne, so einfach ist es",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.35,
+     "bis": 2.68
+    },
+    {
+     "wort": "nicht.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.68,
+     "bis": 2.97
+    },
+    {
+     "wort": "Voll abziehbar?",
+     "farbe": "weiss",
+     "groesse": 130,
+     "y": 900,
+     "x": 480,
+     "breite": 880,
+     "ab": 0,
+     "bis": 2.97
+    },
+    {
+     "wort": "Nicht immer.",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 1080,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.3,
+     "bis": 2.97
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_2.png",
+   "dauer": 5.21,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "nicht.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Die Zinsschranke",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.22
+    },
+    {
+     "wort": "deckelt den",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.22,
+     "bis": 1.72
+    },
+    {
+     "wort": "Nettozinsaufwand bei",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.72,
+     "bis": 2.86
+    },
+    {
+     "wort": "30 % vom steuerlichen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.86,
+     "bis": 4.4
+    },
+    {
+     "wort": "EBITDA.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.4,
+     "bis": 5.21
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_3.png",
+   "dauer": 4.67,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "EBITDA.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Aber unter 3 Millionen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.62
+    },
+    {
+     "wort": "Euro Nettozinsaufwand",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.62,
+     "bis": 3.63
+    },
+    {
+     "wort": "greift sie gar nicht.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.63,
+     "bis": 4.67
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_1.png",
+   "dauer": 2.95,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "greift sie gar nicht.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Zwei Zahlen:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 0.97
+    },
+    {
+     "wort": "30 %, 3 Millionen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.97,
+     "bis": 2.95
+    },
+    {
+     "wort": "30 %",
+     "farbe": "gelb",
+     "groesse": 200,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.92,
+     "bis": 2.95
+    },
+    {
+     "wort": "3 Mio.",
+     "farbe": "gruen",
+     "groesse": 200,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.99,
+     "bis": 2.95
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/szene_1.png",
+   "dauer": 4.47,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "30 %, 3 Millionen.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Das ist Regel Nr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.18
+    },
+    {
+     "wort": "1.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.18,
+     "bis": 1.58
+    },
+    {
+     "wort": "Es gibt aber noch 5",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.58,
+     "bis": 2.6
+    },
+    {
+     "wort": "andere.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.6,
+     "bis": 3.34
+    },
+    {
+     "wort": "Speichert ihr das.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.34,
+     "bis": 4.27
+    },
+    {
+     "wort": "Regel 1",
+     "farbe": "gruen",
+     "groesse": 190,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.0,
+     "bis": 4.47
+    },
+    {
+     "wort": "von 6",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.53,
+     "bis": 4.47
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/21_2026-10-22_reel_zinsschranke/_karten/abspann.png",
+   "dauer": 1.6,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/21_2026-10-22_reel_zinsschranke/ton/stimme.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 2.97,
+   "lautstaerke": 0.12,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/10_runway_spannung.mp3",
+   "ab": 2.87,
+   "start": 0,
+   "lautstaerke": 0.09,
+   "ein": 0.6
+  }
+ ]
+}

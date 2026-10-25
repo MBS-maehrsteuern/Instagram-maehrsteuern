@@ -1,0 +1,324 @@
+{
+ "ausgabe": "../../posts/14_2026-10-12_reel_versionen/reel.mp4",
+ "fps": 30,
+ "quellen": {
+  "3a": {
+   "datei": "../../posts/14_2026-10-12_reel_versionen/bausteine/3a.png"
+  },
+  "3b": {
+   "datei": "../../posts/14_2026-10-12_reel_versionen/bausteine/3b.png"
+  },
+  "s_ende3": {
+   "datei": "../../posts/14_2026-10-12_reel_versionen/bausteine/s_ende3.png"
+  }
+ },
+ "szenen": [
+  {
+   "quelle": "3a",
+   "dauer": 5.84,
+   "text": [
+    {
+     "wort": "Final.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.1,
+     "bis": 0.88
+    },
+    {
+     "wort": "Final final.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.88,
+     "bis": 2.46
+    },
+    {
+     "wort": "Final final final",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 2.46,
+     "bis": 3.46
+    },
+    {
+     "wort": "final –",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 3.46,
+     "bis": 3.66
+    },
+    {
+     "wort": "und keiner weiß,",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 3.66,
+     "bis": 4.48
+    },
+    {
+     "wort": "welche die richtige",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 4.48,
+     "bis": 5.32
+    },
+    {
+     "wort": "ist.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 5.32,
+     "bis": 5.92
+    },
+    {
+     "wort": "final_final_v3.xlsx",
+     "farbe": "rot",
+     "groesse": 118,
+     "y": 700,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.3,
+     "bis": 3.6
+    },
+    {
+     "wort": "Welche gilt?",
+     "farbe": "gelb",
+     "groesse": 118,
+     "y": 850,
+     "x": 470,
+     "breite": 820,
+     "ab": 0.8999999999999999,
+     "bis": 3.6
+    }
+   ],
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    560,
+    940,
+    980
+   ],
+   "abdunkeln": 0.25
+  },
+  {
+   "quelle": "3b",
+   "dauer": 4.17,
+   "text": [
+    {
+     "wort": "ist.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.08
+    },
+    {
+     "wort": "Heute gibt es eine",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.08,
+     "bis": 0.72
+    },
+    {
+     "wort": "Datei und jede",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.72,
+     "bis": 1.62
+    },
+    {
+     "wort": "Änderung wird",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.62,
+     "bis": 2.22
+    },
+    {
+     "wort": "gespeichert.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 2.22,
+     "bis": 3.04
+    },
+    {
+     "wort": "Wer, wann, was.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 3.04,
+     "bis": 4.25
+    }
+   ],
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    930,
+    1010
+   ],
+   "rein": "whip"
+  },
+  {
+   "quelle": "3b",
+   "dauer": 2.6,
+   "text": [
+    {
+     "wort": "Wer, wann, was.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.08
+    },
+    {
+     "wort": "Und wenn was",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.08,
+     "bis": 0.46
+    },
+    {
+     "wort": "schiefgeht, gehe ich",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.46,
+     "bis": 1.34
+    },
+    {
+     "wort": "einfach einen Schritt",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.34,
+     "bis": 1.98
+    },
+    {
+     "wort": "zurück.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 1.98,
+     "bis": 2.68
+    },
+    {
+     "wort": "1 Schritt zurück",
+     "farbe": "gruen",
+     "groesse": 104,
+     "y": 1180,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.0,
+     "bis": 1.6
+    }
+   ],
+   "von": [
+    540,
+    930,
+    1010
+   ],
+   "nach": [
+    540,
+    960,
+    1080
+   ]
+  },
+  {
+   "quelle": "s_ende3",
+   "dauer": 2.4,
+   "text": [
+    {
+     "wort": "zurück.",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "bis": 0.08
+    },
+    {
+     "wort": "Wie heißt eure",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.08,
+     "bis": 0.76
+    },
+    {
+     "wort": "schlimmste Datei?",
+     "groesse": 62,
+     "y": 1330,
+     "x": 470,
+     "breite": 780,
+     "ab": 0.76,
+     "bis": 2.05
+    }
+   ],
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    930,
+    1010
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/14_2026-10-12_reel_versionen/ton/stimme.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.02,
+   "aus": 0.3
+  },
+  {
+   "datei": "../../musik/11_runway_future_garage.mp3",
+   "ab": 5.84,
+   "start": 0.4,
+   "lautstaerke": 0.1,
+   "ein": 0.8
+  },
+  {
+   "datei": "../../musik/atmo/tippen_fehlerton.mp3",
+   "ab": 0.02,
+   "start": 0.8,
+   "dauer": 3.0,
+   "lautstaerke": 0.5,
+   "ein": 0.05,
+   "aus": 0.3
+  }
+ ]
+}

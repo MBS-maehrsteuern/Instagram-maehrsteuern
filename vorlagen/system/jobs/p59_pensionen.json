@@ -1,0 +1,25 @@
+{
+ "titel": "Karussell 59 · Pensionsrückstellung 6 % vs. HGB (Nachtlauf 14.10., d3): Folie 6 Speichern + Weiterleiten + TOOL, Story-Teaser",
+ "ausgabe": "../../posts/59_2026-11-08_pensionen",
+ "bilder": [
+  {
+   "vorlage": "karussell",
+   "datei": "folie_06.png",
+   "seite": 6,
+   "von": 6,
+   "typ": "cta",
+   "saeule": "Wissen",
+   "titel": "*Speichern* für die Gutachten-Saison.",
+   "text": "Wer in deinem Team braucht das? Schick's weiter.\nOder rechnen lassen: Mein Tool zeigt die Differenz HGB/Steuerbilanz und die latente Steuer dazu. Schreib „TOOL“.",
+   "chip": "📌 Speichern · 📤 Senden"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neuer Beitrag",
+   "titel": "Pensionen: *6 %* vs. HGB.",
+   "bild": "../../posts/59_2026-11-08_pensionen/bausteine/teaser_karte.png"
+  }
+ ]
+}

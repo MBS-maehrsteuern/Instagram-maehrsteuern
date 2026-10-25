@@ -1,0 +1,45 @@
+{
+ "titel": "Reel 58 · Vorsteuer: Rechnung unvollständig (Nachtlauf 14.10., d3): Titelbild Prüfer-Fall, Pflichtangaben-Folie mit 3 statt 5 Punkten (Reel-Regel, Inhalt aus r4_11 Folie 6 gebündelt), Abspann TOOL, Tipp-Story 250 €",
+ "ausgabe": "../../posts/58_2026-11-08_reel_vorsteuer",
+ "bilder": [
+  {
+   "vorlage": "reel_titel",
+   "datei": "titelbild.png",
+   "kicker": "Prüfer-Fall",
+   "titel": "Rechnung\nlückenhaft?\n*Vorsteuer wackelt.*",
+   "sub": "Was § 15 UStG verlangt."
+  },
+  {
+   "vorlage": "karussell",
+   "datei": "bausteine/folie_pflicht3.png",
+   "seite": 6,
+   "von": 7,
+   "typ": "inhalt",
+   "saeule": "Pflichtangaben · § 14 Abs. 4 UStG",
+   "titel": "Was auf die *Rechnung* muss.",
+   "punkte": [
+    "Name, Anschrift, Steuernummer oder USt-IdNr.",
+    "Datum, fortlaufende Nummer, Leistung und Zeitpunkt",
+    "Entgelt, Steuersatz, Steuerbetrag"
+   ]
+  },
+  {
+   "vorlage": "einblendung",
+   "datei": "bausteine/abspann_tool.png",
+   "typ": "abspann",
+   "kicker": "Steuern × Code",
+   "titel": "Rechnungen prüfen.\n*Vor dem Prüfer.*",
+   "chip": "💬 Kommentiere „TOOL“",
+   "sub": "→ Demo per DM · mit Beispieldaten"
+  },
+  {
+   "vorlage": "story",
+   "datei": "story_so_tipp.png",
+   "typ": "antwort",
+   "kicker": "Umsatzsteuer · 1 Tipp",
+   "titel": "Bis *250 €* brutto reicht eine Kleinbetrags­rechnung.",
+   "text": "Weniger Pflichtangaben, Vorsteuer trotzdem möglich (§ 33 UStDV). Die 4 Voraussetzungen im neuen Reel.",
+   "antwort": "Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"
+  }
+ ]
+}

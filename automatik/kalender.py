@@ -15,7 +15,7 @@ import os
 
 from lage import WURZEL, TYP, zeit, dateien_fehlen, erinnerungen
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 FEED = ("reel", "karussell", "bild")
 CHROME = f"https://github.com/{REPO}/blob/claude/instagram/strategie/14_chrome_module.md"
 FREIGABEN = f"https://github.com/{REPO}/issues?q=is%3Aopen+label%3Afreigabe"

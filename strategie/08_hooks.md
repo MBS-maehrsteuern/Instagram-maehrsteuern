@@ -9,6 +9,9 @@ Quelle der Grundmuster: Lisa Hu, „33 geniale Hooks für Social Media“ (lisah
 4. **Eine Zeile, ein Gedanke.** Auf Folie 1 / im Reel-Einblender höchstens ~8 Wörter; ein Wort grün (`*Wort*`).
 5. **Folie 2 löst ein.** Die zweite Folie bzw. Sekunde 2–3 muss den Hook sofort bedienen.
 6. **Testen.** Pro Beitrag eine Hook-Art notieren und nach 4 Wochen in `06_auswertung.md` vergleichen (Reichweite, Verweildauer, Speicherungen).
+7. **Kommentar-Frage als Auswahl, nicht offen.** „A oder B?“, „vor oder nach 2028?“, „1 bis 5“ – antwortet man mit einem Wort/einer Zahl. Offene Fragen („Wie oft passiert dir das?“) brachten 0 Kommentare (3 Reels), Fragen nur für Kenner 0–2 (Stand 13.10.). Keine Frage, die ein früheres Reel voraussetzt – 91 % der Zuschauer sind Nicht-Follower.
+
+8. **Großartig statt gut (ab 21.10., Pflicht):** Hook = Kontext + Neugier + offene Schleife, widerspricht einer Überzeugung oder öffnet eine unbeantwortete Frage. Prüffrage mit 5 Punkten und Beispiele: `18_wissen_2026-10-21.md` Abschnitt 1.
 
 ## Die 6 Bausteine
 | Baustein | Wirkung | Passt bei uns für |
@@ -86,3 +89,9 @@ Der aktuelle Haken bleibt Standard. Die Varianten sind Optionen für die Content
 | 08 Feature-Reel (17.11.) | „Ihr habt abgestimmt – ich baue das Feature“ | „Ihr wolltet es. *Hier ist es.*“ | „Ich habe versucht, *euer Feature* an einem Wochenende zu bauen.“ |
 
 **Storys vor Beiträgen:** Frage-Hooks (Baustein „Frage“) behalten – sie liefern die Antworten, auf die der Beitrag dann eingeht. Am Folgetag die Auflösung mit Teaser-Hook („Warte kurz – gleich kommt die Lösung …“).
+
+## Hook-Kürzel im Plan (ab 11.10.)
+Jeder Feed-Beitrag bekommt in `automatik/plan.json` `"hook": "fall"` (konkreter Fall aus der Steuerabteilung oder Prüfer-/Finanzamt-Perspektive)
+oder `"hook": "zahl"` (These mit Zahl/Frist). Pro Fabrik-Lauf mindestens ein *fall*-Hook. Der Tagesbericht vergleicht beide Gruppen ab n ≥ 3.
+
+**Zwischenstand 13.10. (n = 4 zahl / 3 fall, Hinweis, kein Beweis):** zahl-Reels werden ~4× so oft geteilt (5,1 % vs. 0,8 % der Erreichten), Überspringrate gleich. Darum: Jedes fall-Reel bekommt in der Bildunterschrift einen Teilen-Aufruf („Schick das dem Kollegen, der …“) und im Hook eine prüfbare These oder Zahl, nicht nur die Ich-Geschichte. Neu bewerten am 26.10.

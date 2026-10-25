@@ -1,0 +1,15 @@
+Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV“. Nochmal. 😮‍💨
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Hat mich früher einen halben Nachmittag gekostet.
+Heute: drei Zeilen Code. Er legt Kreditoren und Buchhaltung nebeneinander und zeigt, was nur in einer Liste steht. 10.000 Zeilen? Unter einer Sekunde.
+
+Womit gleichst du Listen ab: SVERWEIS, XVERWEIS oder Code? 👇
+Du kennst die Serie schon? Dann gern auch: Welche Nummer war die beste – 1 bis 5?
+📤 Schick das dem Kollegen, der gerade wieder runterzieht.
+
+Alle Zahlen im Video sind Beispieldaten.
+Teil 5 meiner Excel-Serie – alle Teile im Profil.
+
+#steuern #excel #automatisierung #sverweis

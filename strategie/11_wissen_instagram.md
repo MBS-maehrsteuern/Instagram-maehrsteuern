@@ -2,7 +2,8 @@
 
 Gesammelt aus Artikeln und einem Video, die Loris geschickt hat (Quellen unten). Übernommen ist **nur, was zu @maehrsteuern passt**
 (Steuern × Code, kleine Fachnische, ~350 Follower). Gilt für die Content-Fabrik zusätzlich zu
-`08_hooks.md`, `09_reel_regeln.md` und `10_software_reel_konzept.md`. Bei Widerspruch gewinnen unsere eigenen Regeln
+`08_hooks.md`, `09_reel_regeln.md` und `10_software_reel_konzept.md`. **Karussells: zusätzlich `17_karussell_design.md`
+(Leseführung, Kontrast, 10-Folien-Raster, Prüfliste, Baustein).** Bei Widerspruch gewinnen unsere eigenen Regeln
 und Zahlen aus `06_auswertung.md`.
 
 ## Wie der Algorithmus bewertet (Reels)
@@ -116,6 +117,17 @@ und Zahlen aus `06_auswertung.md`.
 - Neuvorstellung 01.10. bleibt **Karussell** (richtet sich an bestehende Follower; Reichweiten-Reel gab es schon am 29.09.).
 - **2–3 Reels pro Woche** zusätzlich zu den Karussells (Reels = Reichweite, Karussells = Vertrauen).
 - **Werbebudget:** kein Dauerbudget. Läuft ein Beitrag organisch gut, bewirbt Loris genau diesen (enge Zielgruppe).
+
+## Google-KI-Antwort „neue Instagram-Regeln Oktober 2026“ (Input Loris, 20.10.; Herkunft KI-Zusammenfassung, **ungeprüft**)
+Screenshots der Google-KI-Antwort (Quellen darin: Instagram-Beiträge, YouTube „Instagram Algorithmus 2026“ von Distart, 06.10.2026). Nicht gegengelesen, daher nur als Hinweis; gegen Insights (`06_auswertung.md`) prüfen.
+- **Originalität:** Austauschbarer Content wird abgestraft, originelle Interaktion belohnt; selbst erstellter Content schlägt Reposts und stark editierte Fremdinhalte. → Deckt sich mit unserer Linie (eigene Stimme, eigene Demo-Daten).
+- **Saves & Shares** zählen deutlich mehr als Likes/Views. → bestätigt „Für Teilen und Speichern bauen“ oben.
+- **Bewertungszeitraum:** Inhalte würden über etwa einen Monat laufend bewertet, nicht nur in den ersten Stunden. ⚠️ Widerspricht unserer Annahme „erste Stunde zählt“ (Postzeiten 11:45/17:45) – **nicht ändern**, aber im Testmonat (bis 08.11.) mit Reichweite nach 24 h / 7 Tage / 30 Tage vergleichen.
+- **Hashtags vs. Suche:** höchstens 3–5 Hashtags; stattdessen Keywords in der Caption und **Alt-Text** (erweiterte Einstellungen). → Hashtags: wir nutzen 4 (passt). **Neu für uns: Alt-Text je Bild pflegen, mit dem Suchbegriff** (`content_fabrik.md` Schritt 4; vorerst Vorschlag, Umsetzung per Hand in der App oder über die API prüfen).
+- **Test-Ausspielung:** Neue Inhalte gehen zuerst gezielt an Nicht-Follower; läuft es dort gut, wird weiter ausgespielt (gut für kleine Accounts). → deckt sich mit dem Ablauf oben.
+- **Frequenz/Formate:** Mix aus Reels und Karussells erhöht die Chance, die richtige Testgruppe zu treffen. → passt zum Testmonat (2 Feed-Beiträge pro Tag).
+- **Format-Update:** neues Hochformat **3:4 (1080×1440)** löst 4:5 ab; **Safe Zone 1080×1350 in der Mitte**, weil das Profilraster oben und unten je **45 px** abschneidet. → siehe `17_karussell_design.md` Abschnitt 2 (zweite Quelle für 1440, aber **andere Randwerte** als die Karussell-Quelle).
+- Anbieter-Hinweis der KI: Updates von Instagram-Chef Adam Mosseri beobachten (als Aufgabe einrichtbar) – bei uns nicht eingerichtet.
 
 ## Bewusst nicht übernommen
 - Trends und Trend-Sounds **ohne Bezug zur Nische** – nur, wenn sie sich sauber auf Steuern übertragen lassen.

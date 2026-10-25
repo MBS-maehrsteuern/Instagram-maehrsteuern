@@ -1,0 +1,17 @@
+Dividenden nach § 8b KStG: 95 % steuerfrei – aber nur, wenn eine Zahl stimmt. Welche? 💶
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+So rechnet die empfangende GmbH:
+01 Die Dividende bleibt außer Ansatz (§ 8b Abs. 1 KStG) – 5 % gelten aber als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 KStG). Daher „95 % steuerfrei“.
+02 Streubesitz: Beteiligung unter 10 % zu Beginn des Kalenderjahres → die Dividende ist voll steuerpflichtig (§ 8b Abs. 4 KStG).
+03 Gewerbesteuer: Kürzung nur mit Schachtelprivileg ab 15 % zu Beginn des Erhebungszeitraums (§ 9 Nr. 2a GewStG), sonst Hinzurechnung (§ 8 Nr. 5 GewStG). Die 5 % nach § 8b Abs. 5 KStG bleiben auch hier im Gewerbeertrag.
+Beispiel mit 20 % Beteiligung: 100.000 € Dividende → 5.000 € steuerpflichtig → 791 € KSt + SolZ und 700 € GewSt (Hebesatz 400 %) = 1.491 €.
+
+Wo prüft ihr die Quote zum Stichtag: A) Beteiligungsliste in Excel oder B) im Tool? 👇
+📌 Speichern für die nächste Ausschüttung.
+📤 Wer in deinem Team braucht das? Schick's der Person, die bei euch die Beteiligungen betreut.
+
+Alle Zahlen sind Demo-Zahlen. Gesetzeswerte, Stand 2026.
+
+#steuern #steuerabteilung #koerperschaftsteuer #dividenden

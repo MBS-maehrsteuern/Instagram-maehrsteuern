@@ -1,0 +1,6 @@
+{ "titel": "Reel 55 · Thesaurierung § 34a EStG – 28,25 % statt bis 45 % (Nachtlauf 14.10., d2): Titelbild, Abspann TOOL, Story Emoji-Tipp", "ausgabe": "../../posts/55_2026-11-06_reel_thesaurierung",
+  "bilder": [
+    {"vorlage":"reel_titel","datei":"titelbild.png","kicker":"Wissen · Steuern × Code","titel":"*28,25 %*\nstatt bis 45 %.","sub":"Gewinn im Betrieb lassen – § 34a EStG."},
+    {"vorlage":"einblendung","datei":"bausteine/abspann_tool.png","typ":"abspann","kicker":"Steuern × Code","titel":"Belastung\n*durchrechnen?*","chip":"💬 Kommentiere „TOOL“","sub":"→ Demo per DM · mit Beispieldaten"},
+    {"vorlage":"story","datei":"story_fr_tipp.png","typ":"antwort","kicker":"Zahl des Tages","titel":"*28,25 %* auf Gewinn, der im Betrieb bleibt.","text":"Auf Antrag, zzgl. SolZ (§ 34a Abs. 1 EStG). Wird später entnommen: 25 % Nachversteuerung. Mehr im neuen Reel.","antwort":"Wusstest du's? Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = neu für mich"}
+  ] }

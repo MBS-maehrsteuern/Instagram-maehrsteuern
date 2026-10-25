@@ -14,6 +14,8 @@ Umgebung: FB_TOKEN + FB_IG_USER_ID (Zugang über Facebook-Login, nötig für fre
 Schritt 7), ANTHROPIC_API_KEY (optional, für Vorschläge), GH_TOKEN, GITHUB_REPOSITORY.
   python automatik/radar.py          – normaler Lauf
   python automatik/radar.py --probe  – nur abfragen und Issue-Text ausgeben, nichts speichern
+  python automatik/radar.py --erzwingen – auch dann laufen, wenn es heute schon ein Radar-Issue gibt
+    (sonst: Doppellauf am selben Tag wird übersprungen, das Morgen-Issue bleibt offen)
 """
 import json, os, re, subprocess, sys, time
 from datetime import datetime, timedelta
@@ -54,7 +56,7 @@ ART_WOERTER = (("kanzlei", "kanzlei"), ("steuerberat", "kanzlei"), ("steuerabtei
                ("hochschule", "uni"), ("verband", "uni"))
 ARTEN_ERLAUBT = {"kanzlei", "creator", "steuerabteilung", "software", "uni"}
 FEHLERHAFT = {}  # Konto → Fehlertext, nur bei dauerhaften Fehlern (umbenannt, privat, gelöscht …)
-REPO = os.environ.get("GITHUB_REPOSITORY", "maehrsteuern/Instagram-maehrsteuern")
+REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
 API = "https://graph.facebook.com/v23.0"
 LABEL = "radar"
 ZONE = ZoneInfo("Europe/Berlin")
@@ -301,11 +303,17 @@ def auswaehlen(profile, hashtag_beitraege, kontakte, gesehen):
         p, treffer = punkte(m, kontakte.get(m.get("konto", "")))
         wertung.append((p, treffer, m))
     wertung.sort(key=lambda x: -x[0])
-    auswahl, je_konto = [], {}
+    auswahl, je_konto, schon = [], {}, set()
     for p, treffer, m in wertung:  # höchstens 2 Beiträge pro Konto, damit die Liste breit bleibt
         schluessel = m.get("konto") or m["id"]
         if je_konto.get(schluessel, 0) >= 2:
             continue
+        # Derselbe Beitrag kommt über mehrere Hashtags/Läufe mehrfach; Hashtag-Beiträge haben keinen Kontonamen, und
+        # Kanzlei-Content-Dienste verteilen denselben Text an viele Konten → nach ID UND Textanfang nur einmal zeigen
+        kopf = " ".join((m.get("caption") or "").lower().split())[:120]
+        if m["id"] in schon or (kopf and kopf in schon):
+            continue
+        schon.update({m["id"], kopf} - {""})
         je_konto[schluessel] = je_konto.get(schluessel, 0) + 1
         m["treffer"] = treffer
         auswahl.append(m)
@@ -461,9 +469,34 @@ def speichern(nachricht):
     raise RuntimeError("Radar-Daten konnten nicht gespeichert werden (push 5× fehlgeschlagen)")
 
 
+def heute_schon_gelaufen():
+    """Gibt es schon ein Radar-Issue von heute (deutsche Zeit)? Dann wäre ein weiterer Lauf ein Doppellauf (z. B.
+    der GitHub-Reserve-Zeitplan, der oft 6–9 h zu spät startet): er würde das Morgen-Issue schließen, während Loris
+    es noch abarbeitet, und ein zweites anlegen. Ist GitHub nicht erreichbar, läuft der Radar normal."""
+    if "--erzwingen" in sys.argv or os.environ.get("RADAR_ERZWINGEN"):
+        return False
+    try:
+        issues = json.loads(gh("issue", "list", "--label", LABEL, "--state", "all", "--limit", "5", "--json", "createdAt"))
+    except (subprocess.CalledProcessError, OSError, ValueError):
+        return False
+    heute = JETZT.strftime("%Y-%m-%d")
+    for i in issues:
+        try:
+            erstellt = datetime.fromisoformat(i["createdAt"].replace("Z", "+00:00")).astimezone(ZONE)
+        except (KeyError, ValueError, AttributeError):
+            continue
+        if erstellt.strftime("%Y-%m-%d") == heute:
+            return True
+    return False
+
+
 def main():
     if not os.environ.get("FB_TOKEN") or not os.environ.get("FB_IG_USER_ID"):
         print("Radar: FB_TOKEN / FB_IG_USER_ID fehlen – Einrichtung siehe EINRICHTUNG.md Schritt 7. Nichts zu tun.")
+        return
+    if not PROBE and heute_schon_gelaufen():
+        print(f"Radar: Für {JETZT:%d.%m.} gibt es schon ein Radar-Issue – kein zweites, das Morgen-Issue bleibt offen. "
+              "(Erzwingen: --erzwingen bzw. RADAR_ERZWINGEN=1)")
         return
     ORDNER.mkdir(parents=True, exist_ok=True)
     kontakte, gesehen = laden(KONTAKTE, {}), laden(GESEHEN, {})

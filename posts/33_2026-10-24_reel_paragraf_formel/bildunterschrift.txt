@@ -1,0 +1,16 @@
+Paragrafen als Excel-Formel: Du rechnest noch von Hand – dabei passen drei Normen in je eine Zeile. Welche zuerst? 🧮
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Drei Normen, drei Zeilen:
+→ § 8 Nr. 1 GewStG: =MAX(0; Summe-200000)/4 – ein Viertel der Finanzierungsanteile über 200.000 €
+→ § 4 Abs. 5 Satz 1 Nr. 1 EStG: =WENN(Summe<=50; Summe; 0) – Freigrenze 50 € je Empfänger und Jahr
+→ § 8b Abs. 5 KStG: =Dividende*5% – nicht abziehbare Betriebsausgaben, Dividende steuerfrei nur ab 10 % Beteiligung (§ 8b Abs. 4 KStG)
+Vereinfacht zum Nachbauen – Sonderfälle (z. B. Vorsteuer bei Geschenken) prüft das Tool mit.
+
+Welche Formel baust du zuerst nach: A) Hinzurechnung, B) Geschenke oder C) § 8b? 👇
+📤 Schick das dem Kollegen, der jede Norm als Excel-Zeile denkt.
+
+Alle Zahlen sind Demo-Zahlen.
+
+#steuerabteilung #excel #steuerrecht #gewerbesteuer

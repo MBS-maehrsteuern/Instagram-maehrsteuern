@@ -1,0 +1,621 @@
+{
+ "tag": "2026-10-13",
+ "follower": 362,
+ "follower_vortag": 360,
+ "reichweite_gestern": 195,
+ "reichweite_vortag": 243,
+ "nicht_follower_quote": 0.9107656879677605,
+ "link_klicks": 0,
+ "beitraege": [
+  {
+   "name": "14-reel-versionen",
+   "typ": "Reel",
+   "zeit": "Mo 12.10. 19:30",
+   "link": "https://www.instagram.com/reel/DeZxf9AEy9p/",
+   "views": 179,
+   "reach": 135,
+   "likes": 3,
+   "comments": 0,
+   "saved": 0,
+   "shares": 0,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 5.27,
+   "skip": 69.1,
+   "alter_h": 15.4,
+   "laenge": 15.0,
+   "stimme": true,
+   "hook": "fall",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     13,
+     69.1
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": null,
+   "v_reach": null,
+   "v_saved": null,
+   "v_shares": null,
+   "v_comments": null,
+   "anteil": 0.35133333333333333
+  },
+  {
+   "name": "13-reel-verknuepfung",
+   "typ": "Reel",
+   "zeit": "So 11.10. 19:30",
+   "link": "https://www.instagram.com/reel/DeXMtEnDn3I/",
+   "views": 278,
+   "reach": 216,
+   "likes": 6,
+   "comments": 0,
+   "saved": 4,
+   "shares": 1,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 3.936,
+   "skip": 77.6,
+   "alter_h": 39.4,
+   "laenge": 13.2,
+   "stimme": true,
+   "hook": "fall",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     13,
+     75.3
+    ],
+    [
+     37,
+     77.6
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 230,
+   "v_reach": 175,
+   "v_saved": 3,
+   "v_shares": 1,
+   "v_comments": 0,
+   "anteil": 0.2981818181818182
+  },
+  {
+   "name": "08-reel-kst-staffel",
+   "typ": "Reel",
+   "zeit": "Sa 10.10. 19:30",
+   "link": "https://www.instagram.com/reel/DeUn6ezCm7O/",
+   "views": 250,
+   "reach": 197,
+   "likes": 9,
+   "comments": 8,
+   "saved": 5,
+   "shares": 9,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 5.734,
+   "skip": 78.5,
+   "alter_h": 63.4,
+   "laenge": 26.9,
+   "stimme": true,
+   "hook": "zahl",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     13,
+     82.5
+    ],
+    [
+     37,
+     80.5
+    ],
+    [
+     61,
+     78.5
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 234,
+   "v_reach": 184,
+   "v_saved": 4,
+   "v_shares": 9,
+   "v_comments": 8,
+   "anteil": 0.21315985130111526
+  },
+  {
+   "name": "12-reel-zeile",
+   "typ": "Reel",
+   "zeit": "Sa 10.10. 09:23",
+   "link": "https://www.instagram.com/reel/DeTiK24NyJt/",
+   "views": 337,
+   "reach": 279,
+   "likes": 11,
+   "comments": 0,
+   "saved": 5,
+   "shares": 5,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 4.939,
+   "skip": 69.6,
+   "alter_h": 73.5,
+   "laenge": 22.7,
+   "stimme": true,
+   "hook": "fall",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     24,
+     69.7
+    ],
+    [
+     48,
+     69.8
+    ],
+    [
+     72,
+     69.6
+    ]
+   ],
+   "slot": "12:15",
+   "nf_reach": null,
+   "v_views": 331,
+   "v_reach": 275,
+   "v_saved": 5,
+   "v_shares": 5,
+   "v_comments": 0,
+   "anteil": 0.21757709251101323
+  },
+  {
+   "name": "05-latente-steuern",
+   "typ": "Karussell",
+   "zeit": "Fr 09.10. 12:31",
+   "link": "https://www.instagram.com/p/DeRTLb4EYwd/",
+   "views": 162,
+   "reach": 60,
+   "likes": 8,
+   "comments": 1,
+   "saved": 6,
+   "shares": 84,
+   "profil": 0,
+   "follows": 0,
+   "sehdauer": null,
+   "skip": null,
+   "alter_h": 94.4,
+   "laenge": null,
+   "stimme": false,
+   "hook": "zahl",
+   "teilen_ueber": true,
+   "skip_verlauf": [],
+   "slot": "12:15",
+   "nf_reach": null,
+   "v_views": 155,
+   "v_reach": 58,
+   "v_saved": 6,
+   "v_shares": 84,
+   "v_comments": 1,
+   "anteil": null
+  },
+  {
+   "name": "06-reel-split",
+   "typ": "Reel",
+   "zeit": "Do 08.10. 19:30",
+   "link": "https://www.instagram.com/reel/DePeYymNG2K/",
+   "views": 305,
+   "reach": 229,
+   "likes": 8,
+   "comments": 0,
+   "saved": 8,
+   "shares": 25,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 5.568,
+   "skip": 75.4,
+   "alter_h": 111.4,
+   "laenge": 15.2,
+   "stimme": true,
+   "hook": "zahl",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     61,
+     75.7
+    ],
+    [
+     85,
+     75.6
+    ],
+    [
+     109,
+     75.4
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 301,
+   "v_reach": 227,
+   "v_saved": 8,
+   "v_shares": 25,
+   "v_comments": 0,
+   "anteil": 0.3663157894736842
+  },
+  {
+   "name": "02-excel-fehler",
+   "typ": "Karussell",
+   "zeit": "Mi 07.10. 19:32",
+   "link": "https://www.instagram.com/p/DeM5u1vGLsR/",
+   "views": 210,
+   "reach": 80,
+   "likes": 6,
+   "comments": 0,
+   "saved": 4,
+   "shares": 0,
+   "profil": 3,
+   "follows": 1,
+   "sehdauer": null,
+   "skip": null,
+   "alter_h": 135.4,
+   "laenge": null,
+   "stimme": false,
+   "hook": "zahl",
+   "teilen_ueber": false,
+   "skip_verlauf": [],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 206,
+   "v_reach": 78,
+   "v_saved": 4,
+   "v_shares": 0,
+   "v_comments": 0,
+   "anteil": null
+  },
+  {
+   "name": "11-reel-monatsbericht",
+   "typ": "Reel",
+   "zeit": "Di 06.10. 19:30",
+   "link": "https://www.instagram.com/reel/DeKUuvPgA1W/",
+   "views": 392,
+   "reach": 296,
+   "likes": 11,
+   "comments": 2,
+   "saved": 10,
+   "shares": 8,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 7.211,
+   "skip": 66.3,
+   "alter_h": 159.4,
+   "laenge": 30.1,
+   "stimme": true,
+   "hook": "zahl",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     109,
+     66.4
+    ],
+    [
+     133,
+     66.6
+    ],
+    [
+     157,
+     66.3
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 390,
+   "v_reach": 292,
+   "v_saved": 10,
+   "v_shares": 8,
+   "v_comments": 2,
+   "anteil": 0.23956810631229236
+  },
+  {
+   "name": "01-reel-5dinge",
+   "typ": "Reel",
+   "zeit": "So 04.10. 19:30",
+   "link": "https://www.instagram.com/reel/DeFLK53ALSs/",
+   "views": 932,
+   "reach": 690,
+   "likes": 13,
+   "comments": 10,
+   "saved": 15,
+   "shares": 16,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 9.649,
+   "skip": 64.8,
+   "alter_h": 207.4,
+   "laenge": 41.2,
+   "stimme": true,
+   "hook": "zahl",
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     157,
+     64.8
+    ],
+    [
+     181,
+     64.8
+    ],
+    [
+     205,
+     64.8
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 928,
+   "v_reach": 686,
+   "v_saved": 15,
+   "v_shares": 16,
+   "v_comments": 10,
+   "anteil": 0.23419902912621354
+  },
+  {
+   "name": "00-neuvorstellung",
+   "typ": "Karussell",
+   "zeit": "Do 01.10. 18:30",
+   "link": "https://www.instagram.com/p/Dd9V5HAAhcL/",
+   "views": 377,
+   "reach": 143,
+   "likes": 10,
+   "comments": 2,
+   "saved": 2,
+   "shares": 17,
+   "profil": 7,
+   "follows": 0,
+   "sehdauer": null,
+   "skip": null,
+   "alter_h": 280.4,
+   "laenge": null,
+   "stimme": false,
+   "hook": "fall",
+   "teilen_ueber": false,
+   "skip_verlauf": [],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 371,
+   "v_reach": 140,
+   "v_saved": 2,
+   "v_shares": 17,
+   "v_comments": 2,
+   "anteil": null
+  },
+  {
+   "name": "Steuern × Code. ⚡",
+   "typ": "Reel",
+   "zeit": "Di 29.09. 15:42",
+   "link": "https://www.instagram.com/reel/Dd34F9RtucT/",
+   "views": 337,
+   "reach": 195,
+   "likes": 10,
+   "comments": 2,
+   "saved": 4,
+   "shares": 7,
+   "profil": null,
+   "follows": null,
+   "sehdauer": 7.296,
+   "skip": 61.8,
+   "alter_h": 331.2,
+   "laenge": 15.2,
+   "stimme": null,
+   "hook": null,
+   "teilen_ueber": false,
+   "skip_verlauf": [
+    [
+     281,
+     61.7
+    ],
+    [
+     305,
+     62
+    ],
+    [
+     329,
+     61.8
+    ]
+   ],
+   "slot": "19:30",
+   "nf_reach": null,
+   "v_views": 333,
+   "v_reach": 192,
+   "v_saved": 4,
+   "v_shares": 7,
+   "v_comments": 2,
+   "anteil": 0.48000000000000004
+  }
+ ],
+ "storys": [
+  {
+   "id": "17887520328620377",
+   "zeit": "2026-10-12T10:45:15+0000",
+   "views": 39,
+   "reach": 33,
+   "_fehlt": [
+    "likes",
+    "comments",
+    "saved",
+    "ig_reels_avg_watch_time",
+    "ig_reels_video_view_total_time",
+    "reels_skip_rate",
+    "reach_aufgeteilt"
+   ],
+   "shares": 0,
+   "total_interactions": 1,
+   "profile_visits": 1,
+   "profile_activity": 1,
+   "follows": 0,
+   "navigation": 35,
+   "replies": 0,
+   "kommentare_text": []
+  }
+ ],
+ "methoden": [
+  {
+   "methode": "Reels bringen Nicht-Follower",
+   "kennzahl": "Anteil Nicht-Follower an der Reichweite (30 Tage)",
+   "ist": "91 %",
+   "ziel": "≥ 50 %",
+   "status": "✅",
+   "n": null
+  },
+  {
+   "methode": "Hook in den ersten 1,5 s",
+   "kennzahl": "Median Überspringrate Reels ab 48 h (Ziel s. 06_auswertung) · zu früh: Reel 15 h, Reel 39 h",
+   "ist": "68 %",
+   "ziel": "< 65 %",
+   "status": "⚠️",
+   "n": 6
+  },
+  {
+   "methode": "Ø Sehdauer ÷ Länge",
+   "kennzahl": "Anteil gesehen, Reels ab 48 h · zu früh: Reel 15 h, Reel 39 h",
+   "ist": "29 %",
+   "ziel": "≥ 40 %",
+   "status": "⚠️",
+   "n": 6
+  },
+  {
+   "methode": "„Wer schickt das an wen?“",
+   "kennzahl": "Geteilt ÷ Erreicht, Karussells + Reels ab 48 h, ohne Geteilt > Erreicht · zu früh: Reel 15 h, Reel 39 h",
+   "ist": "4,1 %",
+   "ziel": "≥ 3 %",
+   "status": "✅",
+   "n": 9
+  },
+  {
+   "methode": "Speicherbare Inhalte",
+   "kennzahl": "Gespeichert ÷ Erreicht, Karussells ab 48 h",
+   "ist": "4,2 %",
+   "ziel": "≥ 2 %",
+   "status": "✅",
+   "n": 3
+  },
+  {
+   "methode": "Mittags-Story mit Frage",
+   "kennzahl": "Story-Reichweite ÷ Follower · Antworten (letzte 24 h)",
+   "ist": "9 % · 0 Antw.",
+   "ziel": "≥ 15 % · ≥ 1",
+   "status": "⚠️",
+   "n": 1
+  },
+  {
+   "methode": "Profil verwandelt Besucher",
+   "kennzahl": "Follows ÷ Profilbesuche, Karussells ab 48 h (für Reels liefert die API nichts)",
+   "ist": "1 / 10 · 10 %",
+   "ziel": "≥ 10 %",
+   "status": "✅",
+   "n": 3
+  },
+  {
+   "methode": "TOOL-Aufruf / Bio-Link",
+   "kennzahl": "Link-Klicks in der Bio (30 Tage)",
+   "ist": "0",
+   "ziel": "≥ 1 pro Woche",
+   "status": "❌",
+   "n": null
+  },
+  {
+   "methode": "Posten um 19:30",
+   "kennzahl": "Follower online 19–20 Uhr ÷ Spitzenstunde",
+   "ist": "91 %",
+   "ziel": "≥ 85 %",
+   "status": "✅",
+   "n": null
+  }
+ ],
+ "heute_online": [
+  "12:15 karussell 03-gewst-hinzurechnung – geht automatisch online",
+  "12:45 story 03-story-teaser – geht automatisch online",
+  "19:30 reel 15-reel-rechnungsnummern – geht automatisch online",
+  "19:35 story 23-story-biolink – geht automatisch online"
+ ],
+ "fehler": [],
+ "reif_ab_h": 48,
+ "testmonat": [
+  {
+   "format": "Karussell",
+   "slot": "12:15",
+   "stimme": "nein",
+   "hook": "zahl",
+   "n": 1,
+   "reichweite": 60.0,
+   "speichern": 0.1,
+   "teilen": null,
+   "skip": null,
+   "follows_profil": null,
+   "urteil": "zu wenig Daten"
+  },
+  {
+   "format": "Karussell",
+   "slot": "19:30",
+   "stimme": "nein",
+   "hook": "fall",
+   "n": 1,
+   "reichweite": 143.0,
+   "speichern": 0.013986013986013986,
+   "teilen": 0.11888111888111888,
+   "skip": null,
+   "follows_profil": 0.0,
+   "urteil": "zu wenig Daten"
+  },
+  {
+   "format": "Karussell",
+   "slot": "19:30",
+   "stimme": "nein",
+   "hook": "zahl",
+   "n": 1,
+   "reichweite": 80.0,
+   "speichern": 0.05,
+   "teilen": 0.0,
+   "skip": null,
+   "follows_profil": 0.3333333333333333,
+   "urteil": "zu wenig Daten"
+  },
+  {
+   "format": "Reel",
+   "slot": "12:15",
+   "stimme": "ja",
+   "hook": "fall",
+   "n": 1,
+   "reichweite": 279.0,
+   "speichern": 0.017921146953405017,
+   "teilen": 0.017921146953405017,
+   "skip": 69.6,
+   "follows_profil": null,
+   "urteil": "zu wenig Daten"
+  },
+  {
+   "format": "Reel",
+   "slot": "19:30",
+   "stimme": "?",
+   "hook": "?",
+   "n": 1,
+   "reichweite": 195.0,
+   "speichern": 0.020512820512820513,
+   "teilen": 0.035897435897435895,
+   "skip": 61.8,
+   "follows_profil": null,
+   "urteil": "zu wenig Daten"
+  },
+  {
+   "format": "Reel",
+   "slot": "19:30",
+   "stimme": "ja",
+   "hook": "zahl",
+   "n": 4,
+   "reichweite": 353.0,
+   "speichern": 0.026912181303116147,
+   "teilen": 0.04107648725212465,
+   "skip": 71.25,
+   "follows_profil": null,
+   "urteil": "über Schnitt"
+  }
+ ],
+ "nicht_erschienen": []
+}

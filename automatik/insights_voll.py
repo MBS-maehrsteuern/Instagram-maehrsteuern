@@ -4,6 +4,10 @@ Holt: Konto-Kennzahlen (30-Tage-Blöcke, so weit Instagram zurückliefert), Ziel
 Städte, Länder – Follower, erreichte und interagierende Konten), aktive Zeiten der Follower,
 alle Beiträge mit allen erlaubten Kennzahlen und die Kommentartexte (ohne Nutzernamen, das Repo ist öffentlich).
 Nicht erlaubte Metriken werden übersprungen und unter "_fehlt" vermerkt.
+
+Läuft der Abruf am selben Tag ein zweites Mal (Reserve-Zeitplan, Handstart), bleibt der Morgen-Schnappschuss
+erhalten: vorhandene Werte werden nicht überschrieben, nur Fehlendes ergänzt (neue Beiträge/Storys, leere
+Felder, Tage ohne Online-Follower-Werte). Komplett neu schreiben: ERZWINGEN=1 python automatik/insights_voll.py
 """
 import json, os
 from datetime import datetime, timedelta, timezone
@@ -22,7 +26,10 @@ MEDIA_METRIKEN = ["views", "reach", "likes", "comments", "saved", "shares", "tot
                   "ig_reels_avg_watch_time", "ig_reels_video_view_total_time", "reels_skip_rate",
                   "profile_visits", "profile_activity", "follows", "navigation", "replies"]
 KONTO_METRIKEN = ["reach", "views", "accounts_engaged", "total_interactions", "likes", "comments", "shares",
-                  "saves", "replies", "profile_links_taps", "follows_and_unfollows"]
+                  "saves", "replies", "profile_links_taps", "follows_and_unfollows",
+                  # profile_links_taps zählt nur Kontakt-Buttons, nicht den Website-Link in der Bio – darum testweise
+                  # auch diese beiden; lehnt die API sie ab, landen sie wie jede andere Metrik unter "_fehlt"
+                  "website_clicks", "profile_views"]
 AUFSCHLUESSELUNG = {"reach": "follow_type", "views": "follow_type", "follows_and_unfollows": "follow_type",
                     "profile_links_taps": "contact_button_type"}
 
@@ -53,6 +60,12 @@ def media_insights(m):
                 werte[d["name"]] = wert(d)
         except (RuntimeError, KeyError, TypeError):
             werte.setdefault("_fehlt", []).append(metrik)
+    # Reichweite nach Follower/Nicht-Follower (für den Testmonat); liefert Instagram das nicht, nur vermerken
+    try:
+        for d in get(f"{m['id']}/insights", metric="reach", breakdown="follow_type", metric_type="total_value")["data"]:
+            werte["reach_aufgeteilt"] = wert(d)
+    except (RuntimeError, KeyError, TypeError):
+        werte.setdefault("_fehlt", []).append("reach_aufgeteilt")
     try:
         werte["kommentare_text"] = [
             {"text": c.get("text"), "zeit": c.get("timestamp"), "von_mir": c.get("username") == konto.get("username"),
@@ -123,7 +136,7 @@ except RuntimeError as e:
 
 # Alle Beiträge
 beitraege, weiter = [], None
-felder = "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count"
+felder = "id,caption,media_type,media_product_type,timestamp,permalink,like_count,comments_count,media_url"
 seite = get(f"{USER}/media", fields=felder, limit=50)
 while True:
     beitraege += seite.get("data", [])
@@ -131,7 +144,7 @@ while True:
     if not weiter:
         break
     seite = requests.get(weiter, timeout=60).json()
-ergebnis["beitraege"] = [{**{k: m.get(k) for k in ("id", "media_product_type", "media_type", "timestamp", "permalink",
+ergebnis["beitraege"] = [{**{k: m.get(k) for k in ("id", "media_product_type", "media_type", "timestamp", "permalink", "media_url",
                                                    "like_count", "comments_count", "caption")},
                           **media_insights(m)} for m in beitraege]
 
@@ -143,8 +156,56 @@ except RuntimeError as e:
     fehlt.append(f"stories: {e}")
 
 ergebnis["_fehlt"] = fehlt
+
+
+def leer(x):
+    return x is None or x == {} or x == [] or x == ""
+
+
+def zusammenfuehren(alt, neu):
+    """Zweiter Lauf am selben Tag: Morgen-Schnappschuss behalten, nur ergänzen.
+    - Felder, die es schon (nicht leer) gibt, bleiben unverändert (Konto, Blöcke, Zielgruppe …).
+    - online_follower: Tage ohne Werte (leer) werden mit neuen Werten gefüllt, neue Tage kommen dazu.
+    - tageswerte_reichweite: nur fehlende, abgeschlossene Tage dazu – der laufende Tag (Teilwert) nicht.
+    - beitraege / storys_aktiv: neue IDs dazu, bekannte bleiben auf dem Morgenstand."""
+    erg = dict(alt)
+    ergaenzt = []
+    for feld, wert_neu in neu.items():
+        if feld not in ("online_follower", "tageswerte_reichweite", "beitraege", "storys_aktiv", "_fehlt") \
+                and leer(erg.get(feld)) and not leer(wert_neu):
+            erg[feld] = wert_neu
+            ergaenzt.append(feld)
+    on = dict(alt.get("online_follower") or {})
+    for t, w in (neu.get("online_follower") or {}).items():
+        if not on.get(t) and w:
+            on[t] = w
+            ergaenzt.append(f"online_follower {t}")
+    erg["online_follower"] = on
+    tw = dict(alt.get("tageswerte_reichweite") or {})
+    for t, w in (neu.get("tageswerte_reichweite") or {}).items():
+        if t not in tw and t < alt.get("abgerufen", heute):
+            tw[t] = w
+            ergaenzt.append(f"tageswerte_reichweite {t}")
+    erg["tageswerte_reichweite"] = tw
+    for feld in ("beitraege", "storys_aktiv"):
+        bekannt = {x.get("id") for x in alt.get(feld) or []}
+        dazu = [x for x in neu.get(feld) or [] if x.get("id") not in bekannt]
+        erg[feld] = list(alt.get(feld) or []) + dazu
+        ergaenzt += [f"{feld} {x.get('id')}" for x in dazu]
+    erg["_nachtraege"] = list(alt.get("_nachtraege") or []) + [
+        {"zeit": datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M"), "ergaenzt": ergaenzt}]
+    return erg, ergaenzt
+
+
 ziel = WURZEL / "automatik" / "statistik" / f"insights_{heute}.json"
 ziel.parent.mkdir(parents=True, exist_ok=True)
+if ziel.exists() and not os.environ.get("ERZWINGEN"):
+    try:
+        ergebnis, ergaenzt = zusammenfuehren(json.loads(ziel.read_text()), ergebnis)
+        print(f"{ziel.name} gab es schon – Morgen-Schnappschuss bleibt, ergänzt: {len(ergaenzt)} "
+              f"({'; '.join(ergaenzt[:6]) or 'nichts'})")
+    except (OSError, ValueError) as e:
+        print(f"Hinweis: {ziel.name} nicht lesbar ({e}) – wird neu geschrieben")
 ziel.write_text(json.dumps(ergebnis, ensure_ascii=False, indent=1) + "\n")
 print(f"✓ {len(ergebnis['beitraege'])} Beiträge, {len(bloecke)} Monatsblöcke, Zielgruppe: {list(zielgruppe)}")
 print(f"  nicht verfügbar: {len(fehlt)} ({'; '.join(fehlt[:5])})")

@@ -1,0 +1,439 @@
+{
+ "ausgabe": "../../posts/42_2026-10-29_reel_afa/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/hintergrund.png",
+   "dauer": 5.3,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Du kaufst die Maschine",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.0,
+     "bis": 0.92
+    },
+    {
+     "wort": "im Dezember für die",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.92,
+     "bis": 1.7
+    },
+    {
+     "wort": "30 % AfA und bekommst",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.7,
+     "bis": 3.2
+    },
+    {
+     "wort": "nur 2.500 Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.2,
+     "bis": 5.3
+    },
+    {
+     "wort": "Kauf im Dezember.",
+     "farbe": "weiss",
+     "groesse": 120,
+     "y": 820,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 5.3
+    },
+    {
+     "wort": "30 % AfA?",
+     "farbe": "gelb",
+     "groesse": 190,
+     "y": 1000,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.7,
+     "bis": 5.3
+    },
+    {
+     "wort": "Nur 2.500 €.",
+     "farbe": "rot",
+     "groesse": 150,
+     "y": 1200,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.3,
+     "bis": 5.3
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/karte_regeln.png",
+   "dauer": 11.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "nur 2.500 Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.04
+    },
+    {
+     "wort": "Die degressive AfA",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.04,
+     "bis": 1.2
+    },
+    {
+     "wort": "gibt es wieder, bis",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.2,
+     "bis": 2.22
+    },
+    {
+     "wort": "zum dreifachen der",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.22,
+     "bis": 3.14
+    },
+    {
+     "wort": "linearen, höchstens",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.14,
+     "bis": 4.44
+    },
+    {
+     "wort": "30%.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.44,
+     "bis": 5.44
+    },
+    {
+     "wort": "Für bewegliche",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.44,
+     "bis": 6.38
+    },
+    {
+     "wort": "Wirtschaftsgüter",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.38,
+     "bis": 7.0
+    },
+    {
+     "wort": "angeschafft von Juli",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 7.0,
+     "bis": 8.06
+    },
+    {
+     "wort": "2025 bis Ende 2027.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 8.06,
+     "bis": 11.0
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/karte_beispiel.png",
+   "dauer": 5.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "2025 bis Ende 2027.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "Maschine 100.000 Euro,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.78
+    },
+    {
+     "wort": "10 Jahre Nutzungsdauer",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.78,
+     "bis": 2.84
+    },
+    {
+     "wort": "im vollen Jahr 30.000",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.84,
+     "bis": 4.34
+    },
+    {
+     "wort": "Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.34,
+     "bis": 5.0
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/haken_dezember.png",
+   "dauer": 6.1,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Euro.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.1
+    },
+    {
+     "wort": "Aber im ersten Jahr",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 0.98
+    },
+    {
+     "wort": "zeitanteilig.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.98,
+     "bis": 2.12
+    },
+    {
+     "wort": "Dezember heißt ein",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.12,
+     "bis": 3.02
+    },
+    {
+     "wort": "Zwölftel.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.02,
+     "bis": 3.4
+    },
+    {
+     "wort": "Später darfst du auf",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.4,
+     "bis": 5.0
+    },
+    {
+     "wort": "linear wechseln.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.0,
+     "bis": 6.1
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/hintergrund.png",
+   "dauer": 2.98,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "linear wechseln.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.06
+    },
+    {
+     "wort": "Investiert ihr eher im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.06,
+     "bis": 1.02
+    },
+    {
+     "wort": "Dezember oder im",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.02,
+     "bis": 2.02
+    },
+    {
+     "wort": "Januar.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.02,
+     "bis": 2.68
+    },
+    {
+     "wort": "Dezember",
+     "farbe": "gelb",
+     "groesse": 170,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.1,
+     "bis": 2.98
+    },
+    {
+     "wort": "oder Januar?",
+     "farbe": "weiss",
+     "groesse": 150,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 1.0,
+     "bis": 2.98
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/abspann_tool.png",
+   "dauer": 1.8,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/42_2026-10-29_reel_afa/ton/stimme.wav",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 0.0,
+   "start": 0,
+   "lautstaerke": 0.08,
+   "ein": 0.8
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+Excel WENNFEHLER: Die Formel, die deine Tabelle sauber aussehen lässt, macht die Steuerrückstellung falsch. Warum? ⚠️
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+=WENNFEHLER(Formel; 0) macht aus jedem Fehlerwert eine Null. Die Tabelle sieht sauber aus, die Rückstellung ist zu niedrig – und keiner merkt es.
+Besser: Fehler sichtbar lassen und gezielt prüfen. Zwei Formeln, die solche Fehler gar nicht erst entstehen lassen:
+01 XVERWEIS statt Festwert: Steuersatz, Hebesatz, Quote aus einer Tabelle holen, nicht eintippen.
+02 Namen statt Zellbezüge: „Hebesatz“ liest sich besser als $C$12 – und gilt in der ganzen Mappe.
+
+Wie oft steht WENNFEHLER in eurer Datei: A) nie oder B) überall? 👇
+📤 Schick das dem Kollegen, dessen Steuer-Datei schon 20 Blätter hat.
+
+Demo-Beispiel, keine echte Datei.
+
+#steuern #steuerabteilung #excel #steuerrueckstellung

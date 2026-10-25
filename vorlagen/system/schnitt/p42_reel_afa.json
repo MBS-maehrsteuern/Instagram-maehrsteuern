@@ -1,0 +1,138 @@
+{
+ "ausgabe": "../../posts/42_2026-10-29_reel_afa/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Nur noch bis Ende 2027:",
+     "groesse": 80,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/karte_regeln.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "3 × linear",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "max. 30 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/karte_beispiel.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Maschine 100.000 €:",
+     "groesse": 90,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "30.000 € statt 10.000 €",
+     "groesse": 110,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/haken_dezember.png",
+   "dauer": 2.8,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1020
+   ]
+  },
+  {
+   "karte": "../../posts/42_2026-10-29_reel_afa/bausteine/abspann_tool.png",
+   "dauer": 3.2,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/07_runway_minimal_tech.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.71,
+   "ein": 0.3
+  }
+ ]
+}

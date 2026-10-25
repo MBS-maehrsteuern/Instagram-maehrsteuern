@@ -1,0 +1,347 @@
+{
+ "ausgabe": "../../posts/18_2026-10-19_reel_aufbewahrung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/18_2026-10-19_reel_aufbewahrung/_karten/szene_1.png",
+   "dauer": 4.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "Du willst deine Belege",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.1,
+     "bis": 1.19
+    },
+    {
+     "wort": "wirklich 10 Jahre",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.19,
+     "bis": 1.95
+    },
+    {
+     "wort": "aufbewahren?",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.95,
+     "bis": 3.09
+    },
+    {
+     "wort": "Das brauchst du nicht",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.09,
+     "bis": 3.73
+    },
+    {
+     "wort": "mehr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.73,
+     "bis": 4.2
+    },
+    {
+     "wort": "10 Jahre?",
+     "farbe": "gelb",
+     "groesse": 190,
+     "y": 860,
+     "x": 480,
+     "breite": 880,
+     "ab": 0.05,
+     "bis": 4.2
+    },
+    {
+     "wort": "Nicht mehr.",
+     "farbe": "rot",
+     "groesse": 170,
+     "y": 1060,
+     "x": 480,
+     "breite": 880,
+     "ab": 3.04,
+     "bis": 4.2
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/18_2026-10-19_reel_aufbewahrung/_karten/szene_2.png",
+   "dauer": 5.25,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "mehr.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Seit 2025 musst du",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 2.49
+    },
+    {
+     "wort": "Buchungsbelege nur",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.49,
+     "bis": 3.43
+    },
+    {
+     "wort": "noch 8 Jahre",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.43,
+     "bis": 4.21
+    },
+    {
+     "wort": "aufbewahren.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.21,
+     "bis": 5.25
+    }
+   ],
+   "rein": "whip"
+  },
+  {
+   "karte": "../../posts/18_2026-10-19_reel_aufbewahrung/_karten/szene_3.png",
+   "dauer": 2.88,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "aufbewahren.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Bücher und",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 0.57
+    },
+    {
+     "wort": "Jahresabschlüsse",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.57,
+     "bis": 1.48
+    },
+    {
+     "wort": "bleiben bei 10 Jahren.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.48,
+     "bis": 2.88
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/18_2026-10-19_reel_aufbewahrung/_karten/szene_4.png",
+   "dauer": 9.81,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ],
+   "text": [
+    {
+     "wort": "bleiben bei 10 Jahren.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0,
+     "bis": 0.05
+    },
+    {
+     "wort": "Aber ein Problem:",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 0.05,
+     "bis": 1.92
+    },
+    {
+     "wort": "Solange das Jahr",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 1.92,
+     "bis": 2.91
+    },
+    {
+     "wort": "steuerlich noch offen",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 2.91,
+     "bis": 3.94
+    },
+    {
+     "wort": "ist, bleibt der Beleg",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 3.94,
+     "bis": 4.94
+    },
+    {
+     "wort": "im Archiv.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 4.94,
+     "bis": 5.8
+    },
+    {
+     "wort": "Speicher dir das,",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 5.8,
+     "bis": 6.73
+    },
+    {
+     "wort": "bevor du den Keller",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 6.73,
+     "bis": 7.61
+    },
+    {
+     "wort": "ausmistest.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 7.61,
+     "bis": 8.47
+    },
+    {
+     "wort": "Danach ist zu spät.",
+     "groesse": 78,
+     "y": 400,
+     "x": 480,
+     "breite": 860,
+     "ab": 8.47,
+     "bis": 9.61
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/18_2026-10-19_reel_aufbewahrung/_karten/abspann.png",
+   "dauer": 1.6,
+   "von": [
+    540,
+    960,
+    1040
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": []
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../posts/18_2026-10-19_reel_aufbewahrung/ton/stimme.flac",
+   "ab": 0,
+   "lautstaerke": 1.0,
+   "ein": 0.01,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/atmo/uhr_ticken.mp3",
+   "ab": 0,
+   "start": 0,
+   "dauer": 4.2,
+   "lautstaerke": 0.12,
+   "aus": 0.2
+  },
+  {
+   "datei": "../../musik/09_runway_lofi_piano.mp3",
+   "ab": 4.1000000000000005,
+   "start": 0,
+   "lautstaerke": 0.09,
+   "ein": 0.6
+  }
+ ]
+}

@@ -1,45 +1,45 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="basis.css"><script src="text.js"></script>
-<!-- Karussell-Folie 1080×1350 (4:5). Typen: titel | inhalt | cta
+<!-- Karussell-Folie 1080×1440 (3:4); Sicherheitsrand ≥ 50 px seitlich, ≥ 180 px oben/unten. Typen: titel | inhalt | cta
      inhalt: text, punkte (nummern:true → 01, 02 …), zeilen (Tabelle, 3. Wert 'summe'), vergleich {kopf:[…], zeilen:[[…]]}, box/boxTitel (boxMono:true für Formeln) -->
 <style>
-html,body{width:1080px;height:1350px}
+html,body{width:1080px;height:1440px}
 body{background:radial-gradient(110% 70% at 80% 0%,var(--glow) 0%,var(--bg) 60%)}
-.pad{position:absolute;inset:96px 96px 150px}
+.pad{position:absolute;inset:180px 96px 270px}
 .kicker{font-size:28px}
-h1{font-family:var(--serif);font-weight:600;font-size:112px;line-height:1.02;margin:40px 0 0;letter-spacing:-.01em}
-h2{font-family:var(--serif);font-weight:600;font-size:72px;line-height:1.08;margin:28px 0 0}
-.sub{font-size:40px;line-height:1.4;color:var(--text2);margin-top:44px;max-width:860px}
-.nr{font-family:var(--mono);font-weight:600;font-size:150px;line-height:1;color:var(--gruen);opacity:.9}
-.txt{font-size:38px;line-height:1.5;color:var(--text2);margin-top:36px}
+h1{font-family:var(--serif);font-weight:600;font-size:124px;line-height:1.02;margin:40px 0 0;letter-spacing:-.01em}
+h2{font-family:var(--serif);font-weight:600;font-size:80px;line-height:1.08;margin:28px 0 0}
+.sub{font-size:44px;line-height:1.4;color:var(--text2);margin-top:44px;max-width:860px}
+.nr{font-family:var(--mono);font-weight:600;font-size:164px;line-height:1;color:var(--gruen);opacity:.9}
+.txt{font-size:42px;line-height:1.5;color:var(--text2);margin-top:36px}
 .box{margin-top:44px;padding:34px 40px;border-left:6px solid var(--gruen);background:var(--gruen-soft);border-radius:0 18px 18px 0;
-  font-size:34px;line-height:1.45;color:var(--text)}
+  font-size:38px;line-height:1.45;color:var(--text)}
 .box b{font-family:var(--mono);font-size:24px;letter-spacing:.2em;color:var(--gruen);display:block;margin-bottom:10px}
 ul{list-style:none;padding:0;margin:40px 0 0}
-li{font-size:38px;line-height:1.35;margin:0 0 26px;padding-left:58px;position:relative;color:var(--text2)}
+li{font-size:42px;line-height:1.35;margin:0 0 26px;padding-left:58px;position:relative;color:var(--text2)}
 li:before{content:"→";position:absolute;left:0;color:var(--gruen);font-family:var(--mono);font-weight:600}
-table{width:100%;border-collapse:collapse;margin-top:40px;font-size:34px}
+table{width:100%;border-collapse:collapse;margin-top:40px;font-size:38px}
 td{padding:18px 0;border-bottom:2px solid rgba(143,163,152,.25);color:var(--text2)}
 td:last-child{text-align:right;font-family:var(--mono);font-weight:600;color:var(--text);white-space:nowrap;padding-left:24px}
 tr.summe td{border-bottom:none;border-top:4px solid var(--gruen);color:var(--text);font-weight:600}
 tr.summe td:last-child{color:var(--gruen)}
 ul.num{display:flex;flex-direction:column;gap:22px}
-ul.num li{display:flex;gap:28px;padding:0;margin:0;font-size:36px;line-height:1.3}
+ul.num li{display:flex;gap:28px;padding:0;margin:0;font-size:40px;line-height:1.3}
 ul.num li:before{content:none}
 ul.num li b{font-family:var(--mono);font-weight:600;color:var(--gruen)}
-.box.mono span{font-family:var(--mono);font-size:32px}
-.vgl{display:grid;margin-top:40px;font-size:34px;color:var(--text2)}
+.box.mono span{font-family:var(--mono);font-size:35px}
+.vgl{display:grid;margin-top:40px;font-size:38px;color:var(--text2)}
 .vgl>div{padding:22px 0;border-bottom:2px solid rgba(143,163,152,.25)}
 .vgl>div.w{text-align:right;font-family:var(--mono);font-weight:600;color:var(--text)}
 .vgl>div.w.l{color:var(--gruen)}
 .vgl>div.w .r{color:var(--rot)}
 .vgl>div.k{text-transform:uppercase;padding:18px 0;font-family:var(--mono);font-size:24px;letter-spacing:.2em;color:var(--grau);border-bottom:4px solid var(--gruen);text-align:right}
 .vgl>div.ende{border-bottom:none}
-.foot{position:absolute;left:96px;right:96px;bottom:64px;display:flex;justify-content:space-between;align-items:center;
+.foot{position:absolute;left:96px;right:96px;bottom:180px;display:flex;justify-content:space-between;align-items:center;
   font-family:var(--mono);font-size:26px;color:var(--grau)}
 .bar{position:absolute;left:0;bottom:0;height:8px;background:var(--gruen)}
 .swipe{color:var(--gruen);font-weight:600}
 .cta .chip{font-size:46px;margin-top:64px}
-.center{display:flex;flex-direction:column;justify-content:center;height:100%}
+.center{display:flex;flex-direction:column;justify-content:center}
 </style></head><body>
 <div class="pad" id="pad"></div>
 <div class="foot"><span>@maehrsteuern</span><span id="seite"></span></div>
@@ -69,7 +69,7 @@ if (d.typ==='titel') {
    ${d.box?`<div class="box${d.boxMono?' mono':''}"><b>${fmt(d.boxTitel||'LÖSUNG')}</b><span>${fmt(d.box)}</span></div>`:''}`;
 } else {
   p.className='pad center cta';
-  p.innerHTML = `<div class="kicker">${fmt(d.saeule||'Steuern × Code')}</div><h2 style="font-size:88px">${fmt(d.titel)}</h2>
+  p.innerHTML = `<div class="kicker">${fmt(d.saeule||'Steuern × Code')}</div><h2 style="font-size:96px">${fmt(d.titel)}</h2>
    ${d.text?`<div class="txt">${fmt(d.text)}</div>`:''}<div><span class="chip">${fmt(d.chip||'💬 Schreib „TOOL“ per DM')}</span></div>`;
 }
 $('seite').innerHTML = d.seite===1 ? `<span class="swipe">Wischen →</span>` : `${d.seite}/${d.von}`;

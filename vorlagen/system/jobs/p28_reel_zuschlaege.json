@@ -1,0 +1,5 @@
+{ "titel": "28 · Reel „Eine Woche zu spät“ – Quiz (Emoji) und Auflösung", "ausgabe": "../../posts/28_2026-10-19_reel_zuschlaege",
+  "bilder": [
+    {"vorlage":"story","datei":"story_mo_quiz.png","typ":"antwort","kicker":"Quiz · 1 Tipp","titel":"Steuer *eine Woche* zu spät überwiesen – kostet das Säumniszuschlag?","antwort":"Tipp unten auf ein Emoji:\n👏 = Ja · 😮 = Nein\nAuflösung morgen"},
+    {"vorlage":"story","datei":"story_di_aufloesung.png","typ":"info","kicker":"Auflösung Quiz","titel":"*Ja* – 1 % für den ganzen Monat.","text":"Die Schonfrist gilt nur 3 Tage und nur bei Überweisung. Danach 1 % je angefangenen Monat auf die abgerundete Steuer (§ 240 AO).\nDemo: 50.000 € → 500 €."}
+  ] }

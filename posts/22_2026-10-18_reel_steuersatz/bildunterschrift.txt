@@ -1,0 +1,15 @@
+Steuersatz in Excel: Die Körperschaftsteuer sinkt ab 2028 – und eine vergessene Zelle macht dein Ergebnis falsch. Welche? 🔢
+
+💬 Kommentiere „TOOL“ (oder schreib's mir per DM) – ich schick dir die Demo mit Beispieldaten.
+
+Die Körperschaftsteuer sinkt: 15 % bis 2027, dann jedes Jahr ein Punkt weniger – 14, 13, 12, 11 % und ab 2032 10 % (§ 23 Abs. 1 KStG). Mit SolZ und Gewerbesteuer bei 400 % Hebesatz heißt das: 29,825 % heute, 24,55 % ab 2032.
+
+Steht der Satz als Festwert in zwölf Zellen, änderst du zwölf Zellen – und eine vergisst du. Im Tool ist es eine Zelle: eine Staffel, die das Jahr selbst erkennt.
+
+Wie steht der Satz bei euch drin: A) als Festwert oder B) als Staffel nach Jahren? 👇
+📤 Schick das der Person, die bei euch die latenten Steuern rechnet.
+
+Der Hebesatz 400 % ist eine Demo-Annahme.
+Teil 2 zum KSt-Reel vom 10.10. – diesmal mit Tool. Teil 1 im Profil.
+
+#steuern #steuerabteilung #taxtech #koerperschaftsteuer

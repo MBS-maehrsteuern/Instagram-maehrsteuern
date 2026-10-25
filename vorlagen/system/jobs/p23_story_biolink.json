@@ -1,0 +1,9 @@
+{
+ "ausgabe": "../../posts/23_2026-10-13_story_biolink",
+ "bilder": [
+  {"vorlage": "story", "datei": "story_biolink.png", "typ": "antwort", "kicker": "Kurz erklärt",
+   "titel": "Was steckt hinter dem *Link* in meiner Bio?",
+   "punkte": ["15 Minuten Demo, kostenlos", "Ich zeige dir das Tool mit Demo-Zahlen", "Termin selbst wählen – kein Verkaufsgespräch"],
+   "antwort": "👆 Profil antippen → Link in der Bio"}
+ ]
+}

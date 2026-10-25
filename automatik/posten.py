@@ -9,6 +9,9 @@ Aufruf (läuft stündlich per GitHub Actions):
 Umgebung: IG_TOKEN, IG_USER_ID (GitHub-Secrets), GITHUB_REPOSITORY (setzt GitHub automatisch).
 Instagram holt die Dateien über öffentliche Links ab; Bilder müssen JPEG sein – das Skript wandelt PNG um,
 committet die JPEGs und verlinkt sie über den Commit-Stand (raw.githubusercontent.com/<repo>/<sha>/...).
+Schutz vor Doppel-Posts: Status nach dem Posten über status_sichern (frischer Stand, kein Rebase-Konflikt) und vor
+jedem Feed-Post der Abgleich mit den letzten Beiträgen des Kontos (schon_online). Teaser-Storys warten auf ihren
+Feed-Beitrag (vorgaenger_fehlt). Tests: python3 -m unittest discover automatik/tests
 """
 import json, os, subprocess, sys, time
 from datetime import datetime, timedelta
@@ -57,6 +60,32 @@ def speichern(plan, nachricht):
         else:
             raise RuntimeError(f"plan.json nicht gepusht ({nachricht}) – Beitrag ist ggf. schon online, Plan prüfen!")
     return git("rev-parse", "HEAD")
+
+
+def status_sichern(eid, felder, nachricht, versuche=8):
+    """Status EINES Eintrags robust ins Repo bringen (nach dem Posten): immer den frischen GitHub-Stand holen und nur
+    dessen Felder setzen – ein Rebase-Konflikt (z. B. Claude ändert gerade „hinweis“ daneben) kann so nicht entstehen.
+    Lokale, nicht gepushte Commits fallen dabei weg; die JPGs sind zu diesem Zeitpunkt längst gepusht.
+    Gibt den neuen Plan zurück."""
+    for versuch in range(versuche):
+        try:
+            git("fetch", "-q")
+            git("reset", "-q", "--hard", "@{u}")
+            plan = json.loads(PLAN.read_text())
+            eintrag = next((x for x in plan["eintraege"] if x["id"] == eid), None)
+            if eintrag is None:  # inzwischen umbenannt/gelöscht – nichts zu schreiben, aber laut melden
+                print(f"⚠ {eid} steht nicht mehr im Plan – Status {felder.get('status')} NICHT gespeichert")
+                return plan
+            eintrag.update(felder)
+            PLAN.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n")
+            if git("status", "--porcelain", "--", str(PLAN)):
+                git("commit", "-q", "-m", nachricht, "--", str(PLAN))
+                git("push", "-q")
+            return plan
+        except subprocess.CalledProcessError as fehler:
+            print(f"Status-Versuch {versuch + 1} fehlgeschlagen: {(fehler.stderr or '').strip()[:200]}")
+            time.sleep(5 * (versuch + 1))
+    raise RuntimeError(f"Status {felder.get('status')} für {eid} nicht gepusht – Beitrag ist ggf. schon online, Plan prüfen!")
 
 
 def als_jpeg(ordner, namen):
@@ -122,6 +151,23 @@ class Instagram:
             print(f"Hinweis: Link zu {mid} nicht abrufbar ({fehler})")
             return mid, None
 
+    def kommentieren(self, mid, text):
+        return self._post(f"{mid}/comments", message=text)["id"]
+
+
+def erster_kommentar(ig, e, mid):
+    """Direkt nach einem Feed-Beitrag den ersten Kommentar (posts/<ordner>/erster_kommentar.txt) setzen. Gibt die
+    Kommentar-ID zurück oder None. Fehler hier verändern den Beitrag nie – nur eine Warnung."""
+    if e["typ"] == "story" or not mid or e.get("erster_kommentar_id"):
+        return None
+    try:
+        datei = WURZEL / e["ordner"] / "erster_kommentar.txt"
+        text = datei.read_text().strip() if datei.is_file() else ""
+        return ig.kommentieren(mid, text) if text else None
+    except Exception as fehler:
+        print(f"⚠ {e['id']}: erster Kommentar nicht gesetzt ({str(fehler).replace(ig.token, '***')[:200]})")
+        return None
+
 
 def pruefen(e):
     """Gibt einen Grund zurück, warum der Eintrag (noch) nicht gepostet werden darf – oder None."""
@@ -136,8 +182,49 @@ def pruefen(e):
     return None
 
 
+def beitragstext(e):
+    return (WURZEL / e["ordner"] / e["text"]).read_text().strip() if e.get("text") else ""
+
+
+def inhalt(e):
+    """Was sich während des Wartens ändern kann (v. a. die Bildunterschrift) – dann wird der Container neu angelegt.
+    Die JPGs bleiben wie bisher die vom Vorbereiten."""
+    return (e["typ"], e.get("ordner"), e.get("video"), beitragstext(e))
+
+
+def schon_online(ig, e):
+    """Ist der Feed-Beitrag schon auf dem Konto (z. B. Status nach dem Posten nicht gepusht)? Vergleicht den Anfang der
+    Bildunterschrift mit den letzten 10 Beiträgen der letzten 3 Tage. Gibt den Treffer (id, permalink, timestamp) oder None.
+    Storys haben keine Bildunterschrift – dort greift nur der robuste Status-Push (status_sichern)."""
+    kopf = " ".join(beitragstext(e).split())[:80]
+    if e["typ"] == "story" or len(kopf) < 20:
+        return None
+    grenze = min(zeit(e), jetzt()) - timedelta(days=3)
+    for m in ig._get(f"{ig.user}/media", fields="id,caption,permalink,timestamp", limit=10).get("data", []):
+        try:
+            am = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
+        except (KeyError, ValueError):
+            continue
+        if am >= grenze and " ".join((m.get("caption") or "").split()).startswith(kopf):
+            return m
+    return None
+
+
+def vorgaenger_fehlt(e, plan):
+    """Teaser-/Folge-Story: gehört zum Feed-Beitrag mit derselben Nummer NN, der am selben Tag früher geplant ist.
+    Ist der nicht veröffentlicht (fehler, gestoppt, noch offen), darf die Story nicht raus („Neues Reel ist da“ ohne Reel)."""
+    if e["typ"] != "story":
+        return None
+    nr = e["id"].split("-")[0]
+    for x in plan["eintraege"]:
+        if (x["typ"] != "story" and x["id"].split("-")[0] == nr and x["zeit"][:10] == e["zeit"][:10]
+                and x["zeit"] < e["zeit"] and x["status"] != "veroeffentlicht"):
+            return f"Feed-Beitrag {x['id']} ist nicht online (Status {x['status']})"
+    return None
+
+
 def posten(ig, e, sha, veroeffentlichen=True):
-    text = (WURZEL / e["ordner"] / e["text"]).read_text().strip() if e.get("text") else ""
+    text = beitragstext(e)
     if e["typ"] == "karussell":
         kinder = [ig.container(image_url=link(sha, p), is_carousel_item="true") for p in e["_jpg"]]
         cid = ig.container(media_type="CAROUSEL", children=",".join(kinder), caption=text)
@@ -195,15 +282,30 @@ def main():
         if grund:
             print(f"✗ {e['id']}: {grund}")
             continue
+        # Teaser ohne Feed-Beitrag: schon hier aussteigen (spart Commit und Container); geprüft wird direkt vor dem
+        # Posten noch einmal mit dem frischen Plan
+        grund = vorgaenger_fehlt(e, plan)
+        if grund:
+            print(f"↷ {e['id']}: {grund} – Story übersprungen (holt ein späterer Lauf nach, sobald er online ist)")
+            continue
         bilder = e.get("bilder") or ([e["titelbild"]] if e.get("titelbild") else [])
         if probe:
             print(f"• {e['id']} ({e['typ']}) um {e['zeit']}: {len(bilder)} Bild(er)", e.get("video", ""))
             continue
-        e["_jpg"] = als_jpeg(e["ordner"], bilder)
-        sha = speichern(plan_ohne_intern(plan), f"Autopilot: Dateien fuer {e['id']} vorbereitet")
+        # Vorbereiten: JPGs committen, dann Container anlegen (Upload + Verarbeitung) – schon VOR dem Warten,
+        # damit um die geplante Minute nur noch media_publish läuft (Container gelten 24 h). Ein Fehler hier trifft
+        # nur diesen Eintrag, nicht den ganzen Lauf.
+        try:
+            e["_jpg"] = als_jpeg(e["ordner"], bilder)
+            sha = speichern(plan_ohne_intern(plan), f"Autopilot: Dateien fuer {e['id']} vorbereitet")
+            vorbereitet = inhalt(e)
+            cid, _ = posten(ig, e, sha, veroeffentlichen=False)
+        except Exception as fehler:
+            plan = fehler_sichern(ig, e["id"], fehler, fehlgeschlagen, "Vorbereitung") or plan
+            continue
         warten = (zeit(e) - jetzt()).total_seconds()
         if warten > 0 and not sofort:
-            print(f"… warte {int(warten // 60)} Min. bis {e['zeit']} für {e['id']}")
+            print(f"… warte {int(warten // 60)} Min. bis {e['zeit']} für {e['id']} (Container {cid} liegt bereit)")
             time.sleep(warten)
         # Direkt vor dem Posten IMMER den neuesten Plan holen – nicht nur nach dem Warten: Ein Lauf startet mit dem
         # Stand vom Start-Zeitpunkt; hat ein früherer Lauf den Beitrag inzwischen gepostet, steht das nur auf GitHub
@@ -219,22 +321,63 @@ def main():
         if not aktuell or aktuell["status"] != "freigegeben" or aktuell["zeit"] != e["zeit"]:
             print(f"↷ {e['id']}: Plan hat sich geändert (schon gepostet, gestoppt oder verschoben) – übersprungen")
             continue
+        grund = vorgaenger_fehlt(aktuell, plan)
+        if grund:
+            print(f"↷ {e['id']}: {grund} – Story übersprungen (holt ein späterer Lauf nach, sobald er online ist)")
+            continue
         aktuell["_jpg"], e = e["_jpg"], aktuell
         try:
-            mid, permalink = posten(ig, e, sha)
-            e.update(status="veroeffentlicht", media_id=mid, link=permalink, veroeffentlicht_am=jetzt().strftime("%Y-%m-%d %H:%M"))
-            print(f"✓ {e['id']} online: {permalink}")
-            erste_stunde(e)
-        except Exception as fehler:  # Fehler im Plan vermerken, damit er im Repo sichtbar ist
-            # Verbindungsfehler enthalten die URL samt access_token – nie ins öffentliche Repo schreiben
-            meldung = str(fehler).replace(ig.token, "***")
-            e.update(status="fehler", fehler=meldung[:500])
+            treffer = schon_online_sicher(ig, e)
+            if treffer:  # früherer Lauf hat gepostet, der Status ging verloren → nur nachtragen, NICHT erneut posten
+                am = datetime.strptime(treffer["timestamp"], "%Y-%m-%dT%H:%M:%S%z").astimezone(ZONE)
+                felder = dict(status="veroeffentlicht", media_id=treffer["id"], link=treffer.get("permalink"),
+                              veroeffentlicht_am=am.strftime("%Y-%m-%d %H:%M"))
+                print(f"↷ {e['id']} war schon online ({treffer.get('permalink')}) – Doppel-Post verhindert, Status nachgetragen")
+            else:
+                if inhalt(e) != vorbereitet:  # Text/Dateien während des Wartens geändert → frischer Container
+                    print(f"… {e['id']}: Inhalt geändert – Container wird neu angelegt")
+                    cid, _ = posten(ig, e, sha, veroeffentlichen=False)
+                mid, permalink = ig.veroeffentlichen(cid)
+                felder = dict(status="veroeffentlicht", media_id=mid, link=permalink,
+                              veroeffentlicht_am=jetzt().strftime("%Y-%m-%d %H:%M"))
+                print(f"✓ {e['id']} online: {permalink}")
+                kid = erster_kommentar(ig, e, mid)
+                if kid:
+                    felder["erster_kommentar_id"] = kid
+                erste_stunde({**e, **felder})
+        except Exception as fehler:
+            plan = fehler_sichern(ig, e["id"], fehler, fehlgeschlagen) or plan
+            continue
+        try:
+            plan = status_sichern(e["id"], felder, f"Autopilot: {e['id']} veroeffentlicht")
+        except Exception as fehler:  # Beitrag ist online; der nächste Lauf erkennt ihn über schon_online()
+            print(f"✗ {e['id']}: {fehler}")
             fehlgeschlagen.append(e["id"])
-            print(f"✗ {e['id']}: {meldung}")
-        e.pop("_jpg", None)
-        speichern(plan, f"Autopilot: {e['id']} {e['status']}")
     if fehlgeschlagen:
         sys.exit(1)
+
+
+def schon_online_sicher(ig, e):
+    """schon_online(), aber ein Fehler bei der Abfrage verhindert das Posten nicht (Verhalten wie bisher)."""
+    try:
+        return schon_online(ig, e)
+    except Exception as fehler:
+        print(f"Hinweis: Prüfung „schon online?“ für {e['id']} nicht möglich ({str(fehler).replace(ig.token, '***')[:200]})")
+        return None
+
+
+def fehler_sichern(ig, eid, fehler, fehlgeschlagen, schritt="Posten"):
+    """Fehler im Plan vermerken, damit er im Repo sichtbar ist – nur für diesen Eintrag. Gibt den neuen Plan zurück
+    (oder None, wenn auch das nicht ging)."""
+    # Verbindungsfehler enthalten die URL samt access_token – nie ins öffentliche Repo schreiben
+    meldung = f"{schritt}: {fehler}".replace(ig.token, "***")
+    fehlgeschlagen.append(eid)
+    print(f"✗ {eid}: {meldung}")
+    try:
+        return status_sichern(eid, dict(status="fehler", fehler=meldung[:500]), f"Autopilot: {eid} fehler")
+    except Exception as weiterer:
+        print(f"✗ {eid}: Fehler-Status nicht gespeichert ({weiterer})")
+        return None
 
 
 def erste_stunde(e):

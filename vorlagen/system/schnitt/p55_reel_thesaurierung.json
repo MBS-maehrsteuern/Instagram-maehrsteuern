@@ -1,0 +1,156 @@
+{
+ "ausgabe": "../../posts/55_2026-11-06_reel_thesaurierung/reel.mp4",
+ "fps": 30,
+ "quellen": {},
+ "szenen": [
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/titelbild.png",
+   "dauer": 2.2,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1000
+   ],
+   "text": [
+    {
+     "wort": "Gewinn bleibt im Betrieb?",
+     "groesse": 85,
+     "y": 310,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.3,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_regel.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Auf Antrag:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "28,25 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "gruen"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_nachversteuerung.png",
+   "dauer": 3.0,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Später entnommen:",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "+ 25 %",
+     "groesse": 180,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.6,
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/karte_fuer_wen.png",
+   "dauer": 2.8,
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    525,
+    960,
+    1030
+   ],
+   "text": [
+    {
+     "wort": "Lohnt sich meist",
+     "groesse": 95,
+     "y": 330,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.1
+    },
+    {
+     "wort": "nahe am Spitzensatz",
+     "groesse": 110,
+     "y": 500,
+     "x": 500,
+     "breite": 860,
+     "ab": 0.5,
+     "farbe": "gelb"
+    }
+   ]
+  },
+  {
+   "karte": "../../posts/55_2026-11-06_reel_thesaurierung/bausteine/abspann_tool.png",
+   "dauer": 3.0,
+   "rein": "whip",
+   "von": [
+    540,
+    960,
+    1080
+   ],
+   "nach": [
+    540,
+    960,
+    1040
+   ]
+  }
+ ],
+ "ton": [
+  {
+   "datei": "../../musik/12_runway_pop_electronic.mp3",
+   "ab": 0,
+   "start": 0,
+   "lautstaerke": 0.6,
+   "ein": 0.3
+  }
+ ]
+}

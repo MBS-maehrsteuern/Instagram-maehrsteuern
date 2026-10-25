@@ -1,8 +1,10 @@
-<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="basis.css"><script src="text.js"></script>
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="basis.css"><script src="text.js">if (d.groesse) document.querySelector('h1').style.fontSize = d.groesse + 'px';
+</script>
 <!-- Reel-Titelbild 1080×1920. Text bleibt im mittleren 3:4-Bereich (1080×1440), damit er im Profilraster nicht abgeschnitten wird -->
 <style>
 html,body{width:1080px;height:1920px}
 .bg{position:absolute;inset:0;background:center/cover;filter:blur(9px) brightness(.5) saturate(1.1);transform:scale(1.04)}
+.bg.scharf{filter:none;transform:none}
 .shade{position:absolute;inset:0;background:radial-gradient(90% 55% at 50% 50%,rgba(8,20,16,.35),rgba(8,14,11,.92))}
 .box{position:absolute;left:70px;right:70px;top:50%;transform:translateY(-50%);text-align:center}
 .kicker{font-size:38px;margin-bottom:40px}
@@ -13,7 +15,11 @@ h1{font-family:var(--serif);font-weight:600;font-size:140px;line-height:1.0;marg
 <div class="box" id="box"></div>
 <script>
 const d = window.DATA || {saeule:'Demo',titel:'Ertragsteuer-\n*Ampel*',sub:'3 Sekunden statt 3 Stunden.'};
+if (d.scharf) $('bg').className = 'bg scharf';  // scharfes Foto statt unscharfem Hintergrund (Text steht dann oben, Gesicht frei)
+if (d.groesse) $('box').dataset.g = d.groesse;
+if (d.oben) { $('box').style.top = d.oben + 'px'; $('box').style.transform = 'none'; }
 $('bg').style.backgroundImage = `url(${d.bild||'../app_9x16.png'})`;
 $('box').innerHTML = `<div class="kicker">${fmt(d.kicker ?? d.saeule+' · Steuern × Code')}</div><h1>${fmt(d.titel)}</h1>
- ${d.sub?`<div class="sub">${fmt(d.sub)}</div>`:''}<span class="chip">@maehrsteuern</span>`;
+ ${d.sub?`<div class="sub">${fmt(d.sub)}</div>`:''}${d.chip===false?'':'<span class="chip">@maehrsteuern</span>'}`;
+if (d.groesse) document.querySelector('h1').style.fontSize = d.groesse + 'px';
 </script></body></html>
