@@ -912,18 +912,17 @@
     },
     {
       "id": "30-reel-gwg",
-      "zeit": "2026-10-21 11:45",
+      "zeit": "2026-10-29 11:45",
       "typ": "reel",
       "ordner": "posts/30_2026-10-21_reel_gwg",
       "video": "reel_gwg.mp4",
       "titelbild": "titelbild_reel.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p30_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,8 s, −18,0 LUFS (Musik 08 Chill House + Fehlerton). 799 € netto sofort / 801 € abschreiben (§ 6 Abs. 2 EStG), Pool 250,01–1.000 € 5 Jahre, Wahl einheitlich pro Jahr (§ 6 Abs. 2a EStG). Material: karussell/gwg Folien 2+3, Abspann abspann_rechnet. Schnitt: vorlagen/system/schnitt/p30_reel_gwg.json",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-29 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p30_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,8 s, −18,0 LUFS (Musik 08 Chill House + Fehlerton). 799 € netto sofort / 801 € abschreiben (§ 6 Abs. 2 EStG), Pool 250,01–1.000 € 5 Jahre, Wahl einheitlich pro Jahr (§ 6 Abs. 2a EStG). Material: karussell/gwg Folien 2+3, Abspann abspann_rechnet. Schnitt: vorlagen/system/schnitt/p30_reel_gwg.json"
     },
     {
       "id": "30-story-quiz",
@@ -1014,18 +1013,17 @@
     },
     {
       "id": "32-reel-mindeststeuer",
-      "zeit": "2026-10-23 11:45",
+      "zeit": "2026-11-02 11:45",
       "typ": "reel",
       "ordner": "posts/32_2026-10-23_reel_mindeststeuer",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p32_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s (Titelbild reel_mindeststeuer + 3 Karten nach karussell/mindeststeuer + Abspann TOOL), Musik 12_pop_electronic. Schnitt: vorlagen/system/schnitt/p32_reel_mindeststeuer.json",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-11-02 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p32_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Reel ohne Stimme 14,6 s (Titelbild reel_mindeststeuer + 3 Karten nach karussell/mindeststeuer + Abspann TOOL), Musik 12_pop_electronic. Schnitt: vorlagen/system/schnitt/p32_reel_mindeststeuer.json"
     },
     {
       "id": "32-story-zahl",
@@ -1075,18 +1073,17 @@
     },
     {
       "id": "33-reel-paragraf-formel",
-      "zeit": "2026-10-26 11:45",
+      "zeit": "2026-11-01 11:45",
       "typ": "reel",
       "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p33_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,4 s (3 Normen als Formel: § 8 Nr. 1 GewStG, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 8b Abs. 5 KStG; Abspann abspann_paragraf; Titelbild neu mit „Drei Normen“ statt „Fünf“). Raster Sa mittags = Stimme → Abweichung (keine Aufnahme). Schnitt: vorlagen/system/schnitt/p33_reel_paragraf_formel.json",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-11-01 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p33_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 14,4 s (3 Normen als Formel: § 8 Nr. 1 GewStG, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 8b Abs. 5 KStG; Abspann abspann_paragraf; Titelbild neu mit „Drei Normen“ statt „Fünf“). Raster Sa mittags = Stimme → Abweichung (keine Aufnahme). Schnitt: vorlagen/system/schnitt/p33_reel_paragraf_formel.json"
     },
     {
       "id": "33-story-teaser",
@@ -1252,18 +1249,17 @@
     },
     {
       "id": "38-reel-pruefpfad",
-      "zeit": "2026-10-27 17:45",
+      "zeit": "2026-10-27 11:45",
       "typ": "reel",
       "ordner": "posts/38_2026-10-27_reel_pruefpfad",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": true,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p38_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R1/R2 gegengelesen), Begleit-Reel zu Karussell 37, ohne Stimme 13,7 s, −18,0 LUFS, Atmo Uhr im Hook, Musik 09 Lofi-Piano ab der Lösung. Als Betriebsprüfungs-Thema gerahmt („Woher kommt diese Zahl?“, GoBD-Nachvollziehbarkeit), nicht als #BEZUG/Excel-Fehler. Titelbild „Betriebsprüfung – Jede Zahl bis zur Quelle“ und Abspann „Kommentiere TOOL“ neu (jobs/p38_reel_pruefpfad.json); bausteine/haken_pruefpfad, leiste_pruefpfad, haken_ueber_pruefpfad auf Folien 3/4 von bp_vorbereitung (schnitt/p36_40_karten_bauen.py), Schnitt schnitt/p38_reel_pruefpfad.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p38_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R1/R2 gegengelesen), Begleit-Reel zu Karussell 37, ohne Stimme 13,7 s, −18,0 LUFS, Atmo Uhr im Hook, Musik 09 Lofi-Piano ab der Lösung. Als Betriebsprüfungs-Thema gerahmt („Woher kommt diese Zahl?“, GoBD-Nachvollziehbarkeit), nicht als #BEZUG/Excel-Fehler. Titelbild „Betriebsprüfung – Jede Zahl bis zur Quelle“ und Abspann „Kommentiere TOOL“ neu (jobs/p38_reel_pruefpfad.json); bausteine/haken_pruefpfad, leiste_pruefpfad, haken_ueber_pruefpfad auf Folien 3/4 von bp_vorbereitung (schnitt/p36_40_karten_bauen.py), Schnitt schnitt/p38_reel_pruefpfad.json."
     },
     {
       "id": "38-story-teaser",
@@ -1279,18 +1275,17 @@
     },
     {
       "id": "39-reel-holding",
-      "zeit": "2026-10-28 11:45",
+      "zeit": "2026-10-28 17:45",
       "typ": "reel",
       "ordner": "posts/39_2026-10-28_reel_holding",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p39_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,8 s, −18,0 LUFS, Musik 07 Minimal Tech. Veräußerungsgewinn GmbH an GmbH: 1 Mio. € × 5 % nbBA (§ 8b Abs. 2, 3 KStG) × 29,825 % (Hebesatz 400 %) = 14.913 € = 1,49 % – nachgerechnet. Karten aus karussell/holding Folien 2+3 (schnitt/p36_40_karten_bauen.py); Titelbild „1 Mio. € Gewinn. 1,5 % Steuer.“, Karte „Dividenden erst ab 10 % (§ 8b Abs. 4 KStG)“ und Abspann TOOL neu (jobs/p39_reel_holding.json). Bildunterschrift: Dividenden § 8b Abs. 1/5, 10-%-Grenze Abs. 4, GewSt-Schachtel 15 % (§ 9 Nr. 2a GewStG), Verluste nicht abziehbar (Abs. 3 Satz 3), Ausnahmen Abs. 7/8. Abgrenzung zum Karussell par8b (Dividenden, 01.11.).",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-28 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p39_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,8 s, −18,0 LUFS, Musik 07 Minimal Tech. Veräußerungsgewinn GmbH an GmbH: 1 Mio. € × 5 % nbBA (§ 8b Abs. 2, 3 KStG) × 29,825 % (Hebesatz 400 %) = 14.913 € = 1,49 % – nachgerechnet. Karten aus karussell/holding Folien 2+3 (schnitt/p36_40_karten_bauen.py); Titelbild „1 Mio. € Gewinn. 1,5 % Steuer.“, Karte „Dividenden erst ab 10 % (§ 8b Abs. 4 KStG)“ und Abspann TOOL neu (jobs/p39_reel_holding.json). Bildunterschrift: Dividenden § 8b Abs. 1/5, 10-%-Grenze Abs. 4, GewSt-Schachtel 15 % (§ 9 Nr. 2a GewStG), Verluste nicht abziehbar (Abs. 3 Satz 3), Ausnahmen Abs. 7/8. Abgrenzung zum Karussell par8b (Dividenden, 01.11.)."
     },
     {
       "id": "39-story-quiz",
@@ -1306,18 +1301,17 @@
     },
     {
       "id": "40-reel-formeln",
-      "zeit": "2026-10-28 17:45",
+      "zeit": "2026-10-28 11:45",
       "typ": "reel",
       "ordner": "posts/40_2026-10-28_reel_formeln",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p40_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme).",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-28 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p40_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme)."
     },
     {
       "id": "40-story-teaser",
@@ -1394,18 +1388,17 @@
     },
     {
       "id": "43-reel-par35",
-      "zeit": "2026-10-30 11:45",
+      "zeit": "2026-10-30 17:45",
       "typ": "reel",
       "ordner": "posts/43_2026-10-30_reel_par35",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p43_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p43_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift."
     },
     {
       "id": "43-story-tipp",
@@ -1454,18 +1447,17 @@
     },
     {
       "id": "45-reel-vga",
-      "zeit": "2026-10-31 17:45",
+      "zeit": "2026-10-27 17:45",
       "typ": "reel",
       "ordner": "posts/45_2026-10-31_reel_vga",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json."
     },
     {
       "id": "45-story-teaser",
@@ -1540,18 +1532,17 @@
     },
     {
       "id": "48-reel-firmenwagen",
-      "zeit": "2026-11-02 11:45",
+      "zeit": "2026-10-30 11:45",
       "typ": "reel",
       "ordner": "posts/48_2026-11-02_reel_firmenwagen",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json."
     },
     {
       "id": "48-story-tipp",
@@ -1567,18 +1558,17 @@
     },
     {
       "id": "49-reel-kleinunternehmer",
-      "zeit": "2026-11-02 17:45",
+      "zeit": "2026-10-26 17:45",
       "typ": "reel",
       "ordner": "posts/49_2026-11-02_reel_kleinunternehmer",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json."
     },
     {
       "id": "49-story-teaser",
@@ -1594,18 +1584,17 @@
     },
     {
       "id": "50-reel-gebaeude-afa",
-      "zeit": "2026-11-03 11:45",
+      "zeit": "2026-11-02 17:45",
       "typ": "reel",
       "ordner": "posts/50_2026-11-03_reel_gebaeude_afa",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p50_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Musik 08 Chill House. Titelbild = reels/reel_gebaeude (unverändert), 3 Punkte = karussell/gebaeude_afa Folien 3–5 (linear § 7 Abs. 4, degressiv 5 % § 7 Abs. 5a, Sonder-AfA § 7b EStG). Demo 400.000 € → 12.000 € / 20.000 € / 19.000 € nachgerechnet. Grund und Boden + Voraussetzungen Betriebsgebäude in der Bildunterschrift. jobs/p50_reel_gebaeude_afa.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p50_reel_gebaeude_afa.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-11-02 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p50_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Musik 08 Chill House. Titelbild = reels/reel_gebaeude (unverändert), 3 Punkte = karussell/gebaeude_afa Folien 3–5 (linear § 7 Abs. 4, degressiv 5 % § 7 Abs. 5a, Sonder-AfA § 7b EStG). Demo 400.000 € → 12.000 € / 20.000 € / 19.000 € nachgerechnet. Grund und Boden + Voraussetzungen Betriebsgebäude in der Bildunterschrift. jobs/p50_reel_gebaeude_afa.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p50_reel_gebaeude_afa.json."
     },
     {
       "id": "50-story-tipp",
@@ -1654,18 +1643,17 @@
     },
     {
       "id": "52-reel-gobd",
-      "zeit": "2026-11-04 11:45",
+      "zeit": "2026-10-26 11:45",
       "typ": "reel",
       "ordner": "posts/52_2026-11-04_reel_gobd",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p52_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p52_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge."
     },
     {
       "id": "52-story-tipp",
@@ -1681,18 +1669,17 @@
     },
     {
       "id": "53-reel-iab",
-      "zeit": "2026-11-04 17:45",
+      "zeit": "2026-10-31 11:45",
       "typ": "reel",
       "ordner": "posts/53_2026-11-04_iab",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift_reel.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": true,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p53_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-31 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p53_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €."
     },
     {
       "id": "53-story-teaser",
@@ -1708,18 +1695,17 @@
     },
     {
       "id": "54-reel-reverse-charge",
-      "zeit": "2026-11-05 11:45",
+      "zeit": "2026-10-29 17:45",
       "typ": "reel",
       "ordner": "posts/54_2026-11-05_reel_reverse_charge",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p54_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-29 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p54_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall."
     },
     {
       "id": "54-story-tipp",
@@ -1768,18 +1754,17 @@
     },
     {
       "id": "55-reel-thesaurierung",
-      "zeit": "2026-11-06 11:45",
+      "zeit": "2026-10-31 17:45",
       "typ": "reel",
       "ordner": "posts/55_2026-11-06_reel_thesaurierung",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p55_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/thesaurierung), Reel ohne Stimme 14,0 s, −18,0 LUFS (Peak −4,2 dBFS), Musik 12 Pop Electronic. Titelbild neu „28,25 % statt bis 45 %.“, Karten aus thesaurierung Folien 2/3/4 (Folie 5 Option § 1a KStG bewusst nicht genutzt, Antragsfrist nicht nachgeprüft), Abspann TOOL (jobs/p55_reel_thesaurierung.json), Schnitt schnitt/p55_reel_thesaurierung.json. Geprüft: § 34a Abs. 1 (28,25 % zzgl. SolZ, Antrag, Bilanzierer) und Abs. 4 (25 % Nachversteuerung); Bildunterschrift: Gesamtbelastung bei baldiger Entnahme oft höher.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-31 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p55_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/thesaurierung), Reel ohne Stimme 14,0 s, −18,0 LUFS (Peak −4,2 dBFS), Musik 12 Pop Electronic. Titelbild neu „28,25 % statt bis 45 %.“, Karten aus thesaurierung Folien 2/3/4 (Folie 5 Option § 1a KStG bewusst nicht genutzt, Antragsfrist nicht nachgeprüft), Abspann TOOL (jobs/p55_reel_thesaurierung.json), Schnitt schnitt/p55_reel_thesaurierung.json. Geprüft: § 34a Abs. 1 (28,25 % zzgl. SolZ, Antrag, Bilanzierer) und Abs. 4 (25 % Nachversteuerung); Bildunterschrift: Gesamtbelastung bei baldiger Entnahme oft höher."
     },
     {
       "id": "55-story-tipp",
@@ -1827,18 +1812,17 @@
     },
     {
       "id": "57-reel-verlust-8c",
-      "zeit": "2026-11-07 17:45",
+      "zeit": "2026-11-01 17:45",
       "typ": "reel",
       "ordner": "posts/57_2026-11-07_reel_verlust_8c",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p57_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,8 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Zahl-Hook „51 % verkauft? Verluste weg.“, Karten aus karussell/par8c Folie 2 (Regel) und 3 (Rettungsanker), ampel_8c_* (Demo-Quoten) bewusst nicht genutzt. Bildunterschrift: § 8c Abs. 1 Satz 1/4/5–8, Abs. 1a, § 8d KStG, § 10a Satz 10 GewStG, Zinsvortrag § 8a Abs. 1 Satz 3 KStG. Sa 11:45 bleibt frei (Stimm-Slot). jobs/p57_reel_verlust_8c.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p57_reel_verlust_8c.json.",
-      "status_vorher": "freigegeben"
+      "hinweis": "25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-11-01 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p57_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,6 s, −17,8 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Zahl-Hook „51 % verkauft? Verluste weg.“, Karten aus karussell/par8c Folie 2 (Regel) und 3 (Rettungsanker), ampel_8c_* (Demo-Quoten) bewusst nicht genutzt. Bildunterschrift: § 8c Abs. 1 Satz 1/4/5–8, Abs. 1a, § 8d KStG, § 10a Satz 10 GewStG, Zinsvortrag § 8a Abs. 1 Satz 3 KStG. Sa 11:45 bleibt frei (Stimm-Slot). jobs/p57_reel_verlust_8c.json, Karten schnitt/p57_58_karten_bauen.py, Schnitt schnitt/p57_reel_verlust_8c.json."
     },
     {
       "id": "57-story-teaser",
