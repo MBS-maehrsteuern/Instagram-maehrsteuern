@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 10:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 10:40 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -188,6 +188,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 10:40 ✍️ Reel Einspruch als Premium-Fassung (Motion-Design-Look, HTML-Animation mit Loris' Stimme), Baukasten vorlagen/system/premium ([`15668cb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/15668cb013bac86f7140cefac215b60540b9023c))
+  - `LAGE.html`, `automatik/plan.json`, `posts/34_2026-10-25_reel_einspruch`, `vorlagen/system/premium/einspruch.html`, `vorlagen/system/premium/reel_bauen.py`, `vorlagen/system/premium/rendern.mjs`
 - 10:24 ✍️ Reel Einspruch: Hook auf Ergebnis (Einspruch bis 9.11.), Gläsern-Test So 25.10. 11:45 von Hand ([`03ff980`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/03ff980bfb5d8beb99fe7a26fb17c888001624d9))
   - Plan: `62-reel-glaesern` zeit: 2026-10-22 11:50 → 2026-10-25 11:45
 

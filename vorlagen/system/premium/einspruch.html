@@ -51,18 +51,20 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
 </style></head><body>
 <div id="bg"></div><div id="raster"></div>
 
-<section class="szene" id="s1" data-von="0" data-bis="4.9">
- <div class="kicker e"><i></i>Einspruch · Frist</div>
- <h1 class="e">Bescheid am 5.10.</h1><h2 class="e">Einspruch bis 9.11.</h2>
- <div class="sub e">Nicht bis 5.11. <b>Ein Tag verschiebt alles.</b></div>
- <div class="panel e" style="text-align:center"><span class="norm">§ 355 AO</span>
-  <div style="display:flex;justify-content:space-around;align-items:center;margin-top:30px">
-   <div><div class="chip">FALSCH</div><div class="gross strike" id="s1x" style="margin-top:24px">05.11.</div></div>
-   <div><div class="chip">RICHTIG</div><div class="gross" style="margin-top:24px;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)" id="s1r">09.11.</div></div>
+<section class="szene" id="s1" data-von="0" data-bis="5.9">
+ <div class="kicker e"><i></i>Einspruchsfrist · seit 2025</div>
+ <h1 class="e" style="font-size:132px">Deine Frist ist</h1><h2 class="e" style="font-size:124px">4 Tage länger.</h2>
+ <div class="sub e">Als fast jeder <b>in den Kalender schreibt.</b></div>
+ <div class="panel e" id="kal" style="padding:0;text-align:center">  <div style="background:linear-gradient(90deg,#1c4a3d,#123228);padding:26px;font-family:var(--mono);font-size:34px;letter-spacing:.4em;color:var(--gruen2);display:flex;justify-content:space-between"><span>NOVEMBER</span><span id="kallab" style="letter-spacing:.15em">IN DEINEM KALENDER</span></div>
+  <div style="position:relative;height:430px;display:flex;align-items:center;justify-content:center;gap:40px">
+   <div id="tagz" style="font-family:Outfit;font-size:330px;line-height:1;letter-spacing:-.04em">05</div>
+   <div style="text-align:left"><div id="wtag" style="font-family:var(--mono);font-size:54px;color:var(--text2);letter-spacing:.2em">DO</div>
+    <div id="plus" style="margin-top:26px;font-family:Outfit;font-size:58px;padding:12px 28px;border-radius:18px;background:var(--gruen);color:#07100c;box-shadow:0 0 50px rgba(83,195,162,.7)">+4 Tage</div></div>
+   <div id="sweep" style="position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg)"></div>
   </div></div>
 </section>
 
-<section class="szene" id="s2" data-von="4.9" data-bis="12.9">
+<section class="szene" id="s2" data-von="5.9" data-bis="12.9">
  <div class="kicker e"><i></i>Seit 2025 · Bekanntgabe</div>
  <h1 class="e">Zur Post: Mo 5.10.</h1><h2 class="e">Bekannt: Fr 9.10.</h2>
  <div class="sub e">Es zählt der <b>4. Tag</b> nach Aufgabe zur Post.</div>
@@ -115,10 +117,11 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
 </section>
 
 <section class="szene" id="s7" data-von="24.9" data-bis="99">
- <div class="kicker e"><i></i>Steuern × Code</div>
- <h1 class="e">Fristen nie</h1><h2 class="e">wieder von Hand.</h2>
- <div class="sub e">Demo mit Beispieldaten – <b>per DM.</b></div>
- <div class="cta e">Kommentiere „TOOL“ <span>→</span></div>
+ <div class="kicker e"><i></i>Dein nächster Schritt</div>
+ <h1 class="e">Kommentiere</h1>
+ <div class="e" id="tool" style="margin-top:30px;display:inline-block;font-family:Outfit;font-size:230px;line-height:1;letter-spacing:-.02em;padding:24px 60px 34px;border-radius:40px;border:4px solid var(--gruen);background:rgba(83,195,162,.14);color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7);box-shadow:0 0 80px rgba(83,195,162,.35)">TOOL</div>
+ <div class="sub e" style="font-size:48px;margin-top:50px">Ich schick dir die <b>Fristen-Demo per DM</b> – mit Beispieldaten.</div>
+ <div class="e" id="pfeil" style="margin-top:60px;font-family:Outfit;font-size:150px;color:var(--gruen2);text-shadow:0 0 40px var(--gruen)">↓</div>
 </section>
 
 <div id="ut"></div>
@@ -156,8 +159,18 @@ function render(t){
   });
   [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
   document.getElementById("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
-  // Szene 1: 05.11. wird bei „nicht am 5. November“ durchgestrichen
-  document.getElementById("s1x").style.setProperty("--sw",(108*ease((t-3.5)/0.5))+"%");
+  // Szene 1 (Hook): leichte Kamerafahrt, Lichtkante über den Kalender, Datum rollt 05→09 bei „nicht am 5. November“
+  document.getElementById("s1").style.transform=`scale(${1+0.045*cl(t/4.9,0,1)})`;
+  document.getElementById("sweep").style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
+  const schritt=Math.floor(cl((t-3.7)/0.18,0,4)),z=document.getElementById("tagz");
+  z.textContent="0"+(5+schritt);z.style.color=schritt===4?"var(--gruen2)":schritt===0?"var(--rot)":"var(--text)";
+  document.getElementById("kallab").textContent=schritt===4?"TATSÄCHLICH":"IN DEINEM KALENDER";
+  z.style.textShadow=schritt===4?"0 0 70px rgba(83,195,162,.8)":"none";
+  document.getElementById("wtag").textContent=schritt===4?"MO":["DO","FR","SA","SO"][schritt];
+  const pl=ease((t-4.45)/0.25),pe=document.getElementById("plus");pe.style.opacity=pl;pe.style.transform=`scale(${0.6+0.4*pl})`;
+  // Schluss: TOOL pulsiert, Pfeil wippt Richtung Kommentare
+  const tp=1+0.035*Math.sin((t-24.9)*5);document.getElementById("tool").style.transform+=` scale(${t>25.4?tp:1})`;
+  document.getElementById("pfeil").style.transform+=` translateY(${t>25.4?18*Math.sin((t-24.9)*6):0}px)`;
   // Szene 2: Tage leuchten im Takt auf, Fr 9 = bekannt gegeben
   const tage=[...document.querySelectorAll("#tage2 .tag")],zt=[9.46,10.4,10.6,10.8,11.26];
   tage.forEach((d,i)=>{if(i>0)d.classList.toggle("an",t>=zt[i]&&(i===4||t<11.26))});
