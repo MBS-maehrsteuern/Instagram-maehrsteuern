@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:57 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 13:00 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -57,6 +57,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Tax-Calc-Repo: PR #2 (Delta-Plakette beim Tippen) und PR #3 (Reel-Datensatz `?demo=reel`) warten auf Review.
 - **Chrome-Claude-Module** (`strategie/14_chrome_module.md`): Erinnerungen im Kalender „maehrsteuern Autopilot“ – So 04.10. 11:00 einmalig A·2·3, jeden So 18:45 Modul 1 (ManyChat → Wochenbericht), 1. Mo im Monat 18:00 Module 4+6, LinkedIn-Upload (Modul 5) automatisch je Karussell am Werktag danach 08:00.
 - **Wochenbericht KW 40 ist da ([#29](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/29), So 18:01, Reserve-Lauf 21:26 hat dasselbe Issue nur aktualisiert):** Zahlen geprüft (575 Aufrufe = Zuwachs der 2 neuen Beiträge, Radar 2 Kommentare aus #22, Kalender verbunden – 0 Demos). **Offen: ManyChat-Zeile fehlt** (Chrome Modul 1 lief nicht) → im Issue `manychat x/y` + Zeile `Gesamtstand ManyChat: gesendet X / Klicks Y` kommentieren. Behoben (05.10.): Sonntags-Reels (19:30, nach dem Bericht) zählen jetzt im Bericht der Folgewoche als neu – „neu“ = gepostet So–Sa.
+- **Benachrichtigungen repariert (25.10.):** Radar-, Kommentar-, Freigabe-, LinkedIn-, Wächter- und Wochenbericht-Issues erwähnten `@MBS-maehrsteuern` (Organisation → niemand wird benachrichtigt). Jetzt `@maehrsteuern` (änderbar per Env `GH_MELDEN`). Greift ab dem nächsten Lauf; in GitHub unter Settings → Notifications muss „Participating, @mentions“ an sein.
 - **Radar-Nachträge (03.10.):** Meta-Drosselung (429/Code 4, 17, 32, 613) → Backoff 30/90/270 s, bei anhaltender Drosselung wird abgebrochen. Gedrosselte oder kurz gestörte Konten landen nicht mehr als 🧹 „nicht abrufbar“ in der Pflege; aufgeräumt werden nur dauerhaft kaputte Konten oder Konten ohne Beitrag seit 30 Tagen (montags, nur abgehakt). Art neuer Konten wird auch aus Wörtern wie „Steuerberaterin“, „Prüfung“, „Akademie“ erkannt; fehlende oder unbekannte Art erscheint als Hinweis im Radar-Issue.
 - **Fristen** (`automatik/erinnerungen.json` → „Braucht dich“ + Kalender): LinkedIn #18 Mi 07.10. 08:00 (Termin kommt schon automatisch) · Reel-Vergleich „5 Dinge“/Split → Anzeigen-Start ca. Mo 12.10. (Chrome Modul 2 am 04.10. nur vorbereiten) · **ManyChat-Trial endet Fr 16.10.** → Entscheidung Loris (Erinnerung Mi 14.10.).
 - **Meta-App „maehrsteuern Autopilot“** bleibt im Entwicklungsmodus. Die laufenden IG-Schlüssel und die Statistik sind davon nicht betroffen (eigenes Konto mit App-Rolle). Nur die Hashtag-Suche braucht die Freigabe → Checkliste [#26](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/26).
@@ -201,7 +202,14 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 13:00 🔀 Merge pull request #87 from MBS-maehrsteuern/claude/instagram-radar-fix-27vc78 ([`72804de`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/72804de651e3402354f1745c3ef092444654bbfa))
+- 12:59 ✍️ LAGE: Stand von claude/instagram übernehmen (volle Historie) ([`447f7b4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/447f7b4d0a5a298f811f93f3cf8bc94924c270aa))
+  - `LAGE.html`
+- 12:59 🔀 Merge claude/instagram in Radar-Fix ([`06b8d49`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/06b8d495682517b58a54b0584b984f60028517a9))
+- 12:59 🔀 Merge claude/instagram in Radar-Fix ([`62be6f9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/62be6f94a125008672de04c70ac59e2c55aad059))
 - 12:57 🔀 Merge claude/instagram ([`b7a4354`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b7a4354cee3f1a01623665fbb8264ac06583240b))
+- 12:57 ✍️ Benachrichtigungen: Issues erwähnen @maehrsteuern statt der Organisation ([`4081a21`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4081a219cafdf06f930625a5deddc319d844a76b))
+  - `LAGE.html`, `automatik/freigabe.py`, `automatik/kommentare.py`, `automatik/lage_notizen.md`, `automatik/linkedin.py`, `automatik/radar.py`, `…`
 - 12:57 ✍️ Erinnerung: Reel-Aufnahme Sa 07.11. 10:00 (Kalender), Sprechtexte bis Do 05.11.; Reel 50 von Loris bestätigt ([`de2f0ee`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/de2f0ee2565658be04791374f5bf71b6f34abae6))
   - `LAGE.html`, `automatik/erinnerungen.json`, `automatik/plan.json`
 - 12:47 🔀 Merge claude/instagram ([`d04efe7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d04efe7b1e6f8d159253839b51fccac96c731b6d))
