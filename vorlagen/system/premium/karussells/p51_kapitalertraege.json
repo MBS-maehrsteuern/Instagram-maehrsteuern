@@ -1,0 +1,20 @@
+{ "titel": "Karussell 51 · Kapitalerträge: fünf Regeln – Premium-Look 25.10.",
+  "ausgabe": "../../../../posts/51_2026-11-03_kapitalertraege",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Kapitalerträge privat", "h1": "Bank behält 25 % ein.", "h2": "Du zahlst oft weniger.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Die Bank behält", "wert": "25 %", "text": "Abgeltungsteuer, direkt einbehalten.", "art": "schlecht" }, "rechts": { "titel": "Du zahlst oft", "wert": "weniger", "text": "Zinsen, Dividenden, Fonds: 5 Regeln.", "art": "gut" } },
+    "wisch": "Wisch für die 5 Regeln" },
+  { "datei": "folie_02.png", "kicker": "01 · Freibetrag", "h1": "Sparer-Pauschbetrag", "h2": "bleibt steuerfrei.", "sub": "Tatsächliche Werbungskosten sind daneben nicht abziehbar.",
+    "panel": { "typ": "zahl", "kopf": "Pro Person", "kopf2": "Zusammenveranlagt 2.000 €", "gross": "1.000 €", "text": "Für Zusammenveranlagte *2.000 €.*" }, "norm": "§ 20 Abs. 9 EStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Steuersatz", "h1": "25 % plus SolZ.", "h2": "Direkt von der Bank.",
+    "panel": { "typ": "liste", "kopf": "Abgeltungsteuer", "punkte": ["*25 %* Steuer", "plus *Solidaritätszuschlag*", ["Bank behält direkt ein", "Damit ist die Steuer in der Regel erledigt"]] }, "norm": "§ 32d Abs. 1, § 43 EStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Aktienfonds", "h1": "30 % bleiben", "h2": "steuerfrei.", "sub": "Teilfreistellung für Fonds mit mehr als 50 % Aktien laut Anlagebedingungen.",
+    "panel": { "typ": "zahl", "kopf": "Teilfreistellung", "gross": "30 %", "text": "der Erträge bleiben *steuerfrei.*" }, "norm": "§ 20 Abs. 1, § 2 Abs. 6 InvStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Günstigerprüfung", "h1": "Persönlicher Satz", "h2": "niedriger?",
+    "panel": { "typ": "vergleich", "links": { "titel": "Standard", "wert": "25 %", "text": "Abgeltungsteuer der Bank.", "art": "schlecht" }, "rechts": { "titel": "Auf Antrag", "wert": "Dein Satz", "text": "Individueller Steuersatz über die *Steuererklärung.*", "art": "gut" } }, "norm": "§ 32d Abs. 6 EStG" },
+  { "datei": "folie_06.png", "kicker": "05 · Verluste", "h1": "Aktienverluste nur mit", "h2": "Aktiengewinnen.",
+    "panel": { "typ": "text", "text": "Sie werden in einem *eigenen Verlusttopf* gesammelt und vorgetragen." }, "norm": "§ 20 Abs. 6 Satz 4 EStG" },
+  { "datei": "folie_07.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Mein Tool ordnet *Bankbescheinigungen* den richtigen Töpfen zu. Demo per DM.",
+    "extra": "📌 *Speichern* für die Steuererklärung · 📤 *Schick's* an dein Team." }
+  ] }

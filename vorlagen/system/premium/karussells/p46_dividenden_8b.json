@@ -1,0 +1,18 @@
+{ "titel": "Karussell 46 · Dividenden § 8b KStG – Premium-Look 25.10.",
+  "ausgabe": "../../../../posts/46_2026-11-01_dividenden_8b",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Dividenden unter GmbHs", "h1": "95 % steuerfrei?", "h2": "Nur, wenn die Beteiligung stimmt.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Unter 10 %", "wert": "Voll", "text": "steuerpflichtig.", "art": "schlecht" }, "rechts": { "titel": "Ab 10 %", "wert": "95 %", "text": "steuerfrei bei der KSt.", "art": "gut" } },
+    "wisch": "Wisch für § 8b KStG" },
+  { "datei": "folie_02.png", "kicker": "01 · Die Regel", "h1": "5 % bleiben", "h2": "steuerpflichtig.",
+    "panel": { "typ": "liste", "kopf": "Bei der empfangenden GmbH", "punkte": ["Dividende bleibt *außer Ansatz*", "5 % gelten als *nicht abziehbare* Betriebsausgaben"] }, "norm": "§ 8b Abs. 1 und 5 KStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Die Ausnahme", "h1": "Unter 10 %:", "h2": "voll steuerpflichtig.", "h2rot": true,
+    "panel": { "typ": "zahl", "kopf": "Streubesitz", "gross": "< 10 %", "rot": true, "text": "Beteiligung zu *Beginn des Kalenderjahres* unter 10 %: Die Steuerfreiheit greift nicht." }, "norm": "§ 8b Abs. 4 KStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Gewerbesteuer", "h1": "Hier zählen", "h2": "15 %.", "sub": "Zu Beginn des Erhebungszeitraums.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Unter 15 %", "wert": "Dazu", "text": "Dividende wird *hinzugerechnet.*", "art": "schlecht" }, "rechts": { "titel": "Ab 15 %", "wert": "Kürzung", "text": "Die Dividende wird *gekürzt.*", "art": "gut" } }, "norm": "§ 9 Nr. 2a, § 8 Nr. 5 GewStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Rechenbeispiel", "h1": "100.000 € Dividende,", "h2": "20 % Beteiligung.", "chip": "Demo-Zahlen",
+    "panel": { "typ": "tabelle", "kopf": "Steuerlast", "spalten": ["Posten", "Betrag"], "zeilen": [["5 % nicht abziehbar", "5.000 €"], ["KSt + SolZ 15,825 %", "791 €"], ["GewSt 14 % (Hebesatz 400 %)", "700 €"], ["*Steuerlast*", "1.491 €"]] } },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Mein Tool zeigt, ob *10 % (KSt) und 15 % (GewSt)* erreicht sind. Demo per DM.",
+    "extra": "📌 *Speichern* für später · 📤 *Schick's* an dein Team." }
+  ] }

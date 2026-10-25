@@ -1,0 +1,20 @@
+{ "titel": "Karussell 44 · Glossar Jahresabschluss – Premium-Look 25.10.",
+  "ausgabe": "../../../../posts/44_2026-10-30_glossar",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Steuer-Glossar · Teil 1", "h1": "Alle 5 erklärbar?", "h2": "Abschluss-Glossar.",
+    "panel": { "typ": "liste", "kopf": "Kurz erklärt", "kopf2": "5 Begriffe", "punkte": ["Messbetrag", "Zerlegung", "Einlagekonto", "Schädlicher Beteiligungserwerb", "Teilwert"] },
+    "wisch": "Wisch zum Nachschlagen" },
+  { "datei": "folie_02.png", "kicker": "01 · Messbetrag", "h1": "Gewerbeertrag", "h2": "mal 3,5 %.", "sub": "Mal Hebesatz ergibt die *Gewerbesteuer.*",
+    "panel": { "typ": "zahl", "kopf": "Steuermesszahl", "gross": "3,5 %", "text": "Gewerbeertrag × 3,5 % = *Messbetrag*" }, "norm": "§§ 11, 14, 16 GewStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Zerlegung", "h1": "Wer bekommt", "h2": "welchen Anteil?", "sub": "Aufteilung des Messbetrags auf die Gemeinden.",
+    "panel": { "typ": "liste", "kopf": "So wird verteilt", "punkte": ["Auf Gemeinden mit *Betriebsstätten*", "In der Regel nach *Arbeitslöhnen*"] }, "norm": "§ 29 GewStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Einlagekonto", "h1": "Einlagen", "h2": "ohne Nennkapital.", "sub": "Es hält Einlagen fest, die nicht ins Nennkapital geleistet wurden.",
+    "panel": { "typ": "liste", "kopf": "Leistungen daraus", "punkte": [["Erst der ausschüttbare Gewinn", "kommt zuerst dran"], ["Dann das Einlagekonto", "steuerfrei"]] }, "norm": "§ 27 KStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Schädlicher Beteiligungserwerb", "h1": "Anteile weg,", "h2": "Verlustvortrag weg.",
+    "panel": { "typ": "zahl", "kopf": "Innerhalb von 5 Jahren", "gross": "> 50 %", "rot": true, "text": "Werden mehr als 50 % der Anteile übertragen, geht der *Verlustvortrag* grundsätzlich unter." }, "norm": "§ 8c KStG" },
+  { "datei": "folie_06.png", "kicker": "05 · Teilwert", "h1": "Was ist ein", "h2": "Wirtschaftsgut wert?",
+    "panel": { "typ": "text", "text": "Der Betrag, den ein *Erwerber des ganzen Betriebs* für das einzelne Wirtschaftsgut ansetzen würde." }, "norm": "§ 6 Abs. 1 Nr. 1 Satz 3 EStG" },
+  { "datei": "folie_07.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Mein Tool rechnet *Messbetrag und Gewerbesteuer* – mit Norm je Posten. Demo per DM.",
+    "extra": "📌 *Speichern* für den Abschluss · 📤 *Schick's* an dein Team." }
+  ] }

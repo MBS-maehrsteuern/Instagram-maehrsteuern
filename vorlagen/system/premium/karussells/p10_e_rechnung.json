@@ -1,0 +1,18 @@
+{ "titel": "Karussell 10 · E-Rechnung – Premium-Look 25.10. (Inhalte unverändert)",
+  "ausgabe": "../../../../posts/10_2026-10-22_e_rechnung",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "E-Rechnung · Praxis", "h1": "Ein PDF per Mail:", "h2": "keine E-Rechnung.", "h2rot": true,
+    "panel": { "typ": "vergleich", "kopf": "Ausstellen wird ab 2027 Pflicht", "links": { "titel": "PDF per Mail", "wert": "Nein", "text": "Kein strukturiertes Format.", "art": "schlecht" }, "rechts": { "titel": "XRechnung · ZUGFeRD", "wert": "Ja", "text": "Strukturiertes Format.", "art": "gut" } },
+    "wisch": "Wisch für den Fahrplan" },
+  { "datei": "folie_02.png", "kicker": "01 · Seit 2025", "h1": "Alle müssen", "h2": "empfangen können.", "sub": "Ein E-Mail-Postfach reicht.",
+    "panel": { "typ": "zahl", "kopf": "Empfang im B2B-Bereich", "gross": "2025", "text": "Seit dem 01.01.2025 müssen *inländische Unternehmen* E-Rechnungen annehmen können." }, "norm": "§ 14 UStG · § 27 Abs. 38 UStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Übergang", "h1": "Wann du", "h2": "ausstellen musst.", "sub": "* PDF nur mit Zustimmung des Empfängers.",
+    "panel": { "typ": "tabelle", "kopf": "Fahrplan bis 2028", "spalten": ["Wann", "Ausstellen"], "zeilen": [["bis Ende 2026", "Papier/PDF*"], ["2027: Umsatz 2026 ≤ 800.000 €", "Papier/PDF*"], ["2027: Umsatz 2026 > 800.000 €", "E-Rechnung"], ["ab 2028", "E-Rechnung für alle"]] } },
+  { "datei": "folie_04.png", "kicker": "03 · Was zählt", "h1": "Nur ein Format", "h2": "nach EN 16931.", "sub": "Die ZUGFeRD-Profile MINIMUM und BASIC-WL reichen *nicht*.",
+    "panel": { "typ": "liste", "kopf": "Zum Beispiel", "punkte": ["XRechnung", "ZUGFeRD ab Version 2.0.1"] }, "norm": "EN 16931" },
+  { "datei": "folie_05.png", "kicker": "04 · Jetzt angehen", "h1": "Was zu", "h2": "tun ist.",
+    "panel": { "typ": "check", "kopf": "Bis 2027", "kopf2": "3 Schritte", "punkte": ["Eingangskanal festlegen", "Lesbarkeit und GoBD-Archiv klären", "Ausgangsrechnungen bis 2027 umstellen"] } },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "E-Rechnungsdaten *auswerten statt abtippen.* Demo per DM.",
+    "extra": "📌 *Speichern* für später · 📤 *Schick's* an eure Buchhaltung, bevor 2027 losgeht." }
+  ] }

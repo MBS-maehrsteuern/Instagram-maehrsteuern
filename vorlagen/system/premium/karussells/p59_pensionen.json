@@ -1,0 +1,18 @@
+{ "titel": "Karussell 59 · Pensionsrückstellung 6 % vs. HGB – Premium-Look 25.10. (Inhalte unverändert aus jobs/p59)",
+  "ausgabe": "../../../../posts/59_2026-11-08_pensionen",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Pensionsrückstellung", "h1": "Dieselbe Zusage.", "h2": "Zwei Zahlen.",
+    "panel": { "typ": "vergleich", "kopf": "Rechnungszins", "links": { "titel": "Steuerbilanz", "wert": "6 %", "text": "Fest, seit Jahrzehnten.", "art": "gut" }, "rechts": { "titel": "HGB", "wert": "< 6 %", "text": "Deutlich weniger.", "art": "schlecht" } },
+    "wisch": "Wisch für den Grund" },
+  { "datei": "folie_02.png", "kicker": "01 · Steuerbilanz", "h1": "Rechnungszins", "h2": "*6 %.*", "sub": "Hoher Zins heißt niedrige Rückstellung.",
+    "panel": { "typ": "zahl", "kopf": "Seit Jahrzehnten unverändert", "gross": "6 %", "text": "Steuerlich wird mit *6 %* abgezinst." }, "norm": "§ 6a Abs. 3 Satz 3 EStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Handelsbilanz", "h1": "Durchschnitt", "h2": "aus *10 Jahren.*",
+    "panel": { "typ": "liste", "kopf": "Im HGB", "punkte": ["Durchschnittlicher Marktzins", "Der letzten zehn Jahre (Bundesbank)", "Deutlich unter 6 %"] }, "norm": "§ 253 Abs. 2 HGB" },
+  { "datei": "folie_04.png", "kicker": "03 · Voraussetzungen", "h1": "Steuerlich nur", "h2": "mit *Form.*",
+    "panel": { "typ": "check", "kopf": "Steuerlich nötig", "punkte": ["Schriftliche Zusage", "Kein schädlicher Widerrufsvorbehalt", "Eindeutige Angaben zu Art, Form und Höhe"] }, "norm": "§ 6a Abs. 1 EStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Folge", "h1": "Fast immer", "h2": "*aktive* latente Steuern.", "sub": "Bewertet mit dem Steuersatz des Abbaujahres.",
+    "panel": { "typ": "tabelle", "kopf": "Rückstellung", "spalten": ["Bilanz", "Höhe"], "zeilen": [["Steuerbilanz", "niedriger"], ["HGB", "höher"], ["Differenz", "aktive latente Steuer"]] } },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "„TOOL“ – mein Tool zeigt die Differenz *HGB/Steuerbilanz* und die latente Steuer dazu. Demo per DM.",
+    "extra": "📌 *Speichern* für die Gutachten-Saison · 📤 *Schick's* an dein Team." }
+  ] }

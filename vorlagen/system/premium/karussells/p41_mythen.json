@@ -1,0 +1,22 @@
+{ "titel": "Karussell 41 · 6 Steuer-Irrtümer – Premium-Look 25.10. (Inhalte unverändert)",
+  "ausgabe": "../../../../posts/41_2026-10-29_mythen",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Mythos oder Fakt", "h1": "6 Steuer-Irrtümer.", "h2": "Glaubst du auch einen?",
+    "panel": { "typ": "check", "kopf": "Klingt richtig, stimmt nicht (mehr)", "kopf2": "6 Irrtümer", "punkte": ["Gewerbesteuer ist Betriebsausgabe", "Belege 10 Jahre aufheben", "Ein PDF ist eine E-Rechnung"] },
+    "wisch": "Wisch für die Fakten" },
+  { "datei": "folie_02.png", "kicker": "Mythos 01 · Gewerbesteuer", "h1": "„Die Gewerbesteuer ist *Betriebsausgabe.*“", "h2": "Nein.",
+    "panel": { "typ": "zahl", "kopf": "Fakt", "gross": "2008", "rot": true, "text": "Seit 2008 steuerlich *nicht abziehbar.*" }, "norm": "§ 4 Abs. 5b EStG" },
+  { "datei": "folie_03.png", "kicker": "Mythos 02 · Geschenke", "h1": "„Geschenke bis *35 €* sind abziehbar.“",
+    "panel": { "typ": "vergleich", "links": { "titel": "Mythos", "wert": "35 €", "text": "Alte Grenze.", "art": "schlecht" }, "rechts": { "titel": "Fakt seit 2024", "wert": "50 €", "text": "Grenze je Empfänger und Jahr.", "art": "gut" } }, "norm": "§ 4 Abs. 5 S. 1 Nr. 1 EStG" },
+  { "datei": "folie_04.png", "kicker": "Mythos 03 · Aufbewahrung", "h1": "„Belege muss ich *10 Jahre* aufheben.“", "h2": "Nur noch 8.",
+    "panel": { "typ": "zahl", "kopf": "Fakt · Buchungsbelege seit 2025", "gross": "8 Jahre", "text": "Länger nur, solange die *Festsetzungsfrist* läuft." }, "norm": "§ 147 Abs. 3 AO" },
+  { "datei": "folie_05.png", "kicker": "Mythos 04 · E-Rechnung", "h1": "„Ein PDF ist eine *E-Rechnung.*“",
+    "panel": { "typ": "vergleich", "links": { "titel": "Mythos", "wert": "PDF", "text": "Reicht nicht.", "art": "schlecht" }, "rechts": { "titel": "Fakt", "wert": "EN 16931", "text": "Gefordert ist ein *strukturiertes Format.*", "art": "gut" } }, "norm": "EN 16931" },
+  { "datei": "folie_06.png", "kicker": "Mythos 05 · Latente Steuern", "h1": "„Latente Steuern muss *jeder* bilanzieren.“", "h2": "Nein.",
+    "panel": { "typ": "text", "text": "*Kleine Kapitalgesellschaften* sind von der Pflicht befreit." }, "norm": "§ 274a HGB" },
+  { "datei": "folie_07.png", "kicker": "Mythos 06 · Drohverluste", "h1": "„Drohverluste zählen *auch steuerlich.*“", "h2": "Nein.", "h2rot": true,
+    "panel": { "typ": "zahl", "kopf": "Fakt", "gross": "Verboten", "rot": true, "text": "Die Rückstellung ist *steuerlich verboten.*" }, "norm": "§ 5 Abs. 4a EStG" },
+  { "datei": "folie_08.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Mein Tool rechnet *Gewerbesteuer und Steuerrückstellung* – mit Norm je Posten. Demo per DM.",
+    "extra": "📌 *Speichern* für später · 📤 *Schick's* an dein Team." }
+  ] }

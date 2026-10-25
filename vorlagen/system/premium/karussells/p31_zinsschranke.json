@@ -1,0 +1,19 @@
+{ "titel": "Karussell 31 · Zinsschranke – Premium-Look 25.10. (Inhalte unverändert)",
+  "ausgabe": "../../../../posts/31_2026-10-22_zinsschranke",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Zinsschranke · Wissen", "h1": "Unter *3 Mio. €* Zinsen:", "h2": "keine Zinsschranke.",
+    "panel": { "typ": "vergleich", "kopf": "Freigrenze, kein Freibetrag", "links": { "titel": "Unter 3 Mio. €", "wert": "Frei", "text": "Keine Beschränkung.", "art": "gut" }, "rechts": { "titel": "Ab 3 Mio. €", "wert": "Alles", "text": "Der *ganze* Betrag zählt.", "art": "schlecht" } },
+    "wisch": "Wisch für die Details" },
+  { "datei": "folie_02.png", "kicker": "01 · Die Grenze", "h1": "Freigrenze", "h2": "3 Mio. €.", "sub": "Nettozinsaufwand = Zinsaufwand minus Zinsertrag.",
+    "panel": { "typ": "tabelle", "kopf": "Nettozinsaufwand", "spalten": ["Höhe", "Folge"], "zeilen": [["unter 3 Mio. €", "keine Beschränkung"], ["ab 3 Mio. €", "der *ganze* Betrag zählt"]] } },
+  { "datei": "folie_03.png", "kicker": "02 · Die Quote", "h1": "Darüber zählt", "h2": "die 30 %-Grenze.", "sub": "Abziehbar nur bis zum verrechenbaren EBITDA.",
+    "panel": { "typ": "zahl", "kopf": "Verrechenbares EBITDA", "gross": "30 %", "text": "des *steuerlichen EBITDA* – nur so viel Nettozinsaufwand ist abziehbar." }, "norm": "§ 4h Abs. 1 EStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Rechenbeispiel · Demo-Zahlen", "h1": "EBITDA 10 Mio. €,", "h2": "Nettozins 4 Mio. €.",
+    "panel": { "typ": "tabelle", "kopf": "Rechnung", "spalten": ["Posten", "Betrag"], "zeilen": [["30 % von 10.000.000 €", "3.000.000 €"], ["Nettozinsaufwand", "4.000.000 €"], ["*Nicht abziehbar*", "1.000.000 €"]] },
+    "sub": "Die 1 Mio. € gehen in den *Zinsvortrag* – zeitlich unbegrenzt." },
+  { "datei": "folie_05.png", "kicker": "04 · Ausnahmen", "h1": "Drei", "h2": "Auswege.",
+    "panel": { "typ": "liste", "kopf": "Zinsschranke greift nicht, wenn", "punkte": [["Nettozinsaufwand unter 3 Mio. €"], ["Kein Konzern, keine nahestehende Person", "Stand-alone-Klausel"], ["Eigenkapitalquote höchstens 2 Prozentpunkte unter der des Konzerns", "Escape"]] }, "norm": "§ 4h Abs. 2 EStG · § 8a KStG" },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Mein Tool führt *EBITDA-Vortrag und Zinsvortrag* fort. Demo per DM.",
+    "extra": "📌 *Speichern* für später · 📤 *Schick's* an die Kollegen, die das braucht." }
+  ] }

@@ -1,0 +1,18 @@
+{ "titel": "Karussell 35 · Steuerkalender – Premium-Look 25.10. (Inhalte unverändert)",
+  "ausgabe": "../../../../posts/35_2026-10-25_steuerkalender",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Steuerkalender · Praxis", "h1": "GewSt am 15.11.?", "h2": "Zahlen erst am 16.11.",
+    "panel": { "typ": "zahl", "kopf": "Gewerbesteuer-Vorauszahlung", "gross": "16.11.", "text": "Der 15.11.2026 ist ein *Sonntag* – es gilt der nächste Werktag." },
+    "wisch": "Wisch für die Termine" },
+  { "datei": "folie_02.png", "kicker": "01 · Monatlich", "h1": "Am *10.*", "h2": "jedes Monats.",
+    "panel": { "typ": "check", "kopf": "Bis zum 10.", "punkte": [["Umsatzsteuer-Voranmeldung", "§ 18 UStG"], ["Lohnsteuer-Anmeldung", "§ 41a EStG"], ["USt mit Dauerfristverlängerung: einen Monat später", "§ 46 UStDV"]] } },
+  { "datei": "folie_03.png", "kicker": "02 · ESt und KSt", "h1": "Vier Termine", "h2": "Vorauszahlung.",
+    "panel": { "typ": "tabelle", "kopf": "Einkommen- und Körperschaftsteuer", "spalten": ["Termin", "Quartal"], "zeilen": [["10. März", "Q1"], ["10. Juni", "Q2"], ["10. September", "Q3"], ["10. Dezember", "Q4"]] }, "norm": "§ 37 Abs. 1 EStG · § 31 KStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Gewerbesteuer", "h1": "Immer am *15.*", "h2": "Vorauszahlung.",
+    "panel": { "typ": "liste", "kopf": "Gewerbesteuer-Vorauszahlung", "punkte": [["15. Februar", "Q1"], ["15. Mai", "Q2"], ["15. August", "Q3"], ["15. November", "Q4"]] }, "norm": "§ 19 Abs. 1 GewStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Schonfrist", "h1": "3 Tage", "h2": "bei Überweisung.", "sub": "Säumniszuschlag erst nach drei Tagen.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Überweisung", "wert": "3 Tage", "text": "Schonfrist.", "art": "gut" }, "rechts": { "titel": "Scheck", "wert": "0 Tage", "text": "Keine Schonfrist.", "art": "schlecht" } }, "norm": "§ 240 Abs. 3 AO" },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "Fristen *automatisch im Blick.* Demo per DM.",
+    "extra": "📌 *Speichern* und Termine eintragen · 📤 *Schick's* an die Kollegen, die das braucht." }
+  ] }

@@ -1,0 +1,20 @@
+{ "titel": "Karussell 53 · Investitionsabzugsbetrag – Premium-Look 25.10. (Inhalte unverändert aus jobs/p53)",
+  "ausgabe": "../../../../posts/53_2026-11-04_iab",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Investitionsabzugsbetrag", "h1": "*50 %* vorab.", "h2": "Später kaufen.",
+    "panel": { "typ": "check", "kopf": "Die 5 Regeln", "punkte": ["50 % der Kosten", "200.000 € – zweimal", "3 Jahre Frist", "40 % Sonder-AfA", "90 % betrieblich"] },
+    "wisch": "Wisch für die Regeln" },
+  { "datei": "folie_02.png", "kicker": "01 · Höhe", "h1": "50 % der Kosten.", "h2": "", "sub": "Vom geplanten Kauf eines beweglichen Wirtschaftsguts.",
+    "panel": { "typ": "zahl", "kopf": "Abzug vorab", "gross": "50 %", "text": "der geplanten *Anschaffungskosten*." }, "norm": "§ 7g Abs. 1 EStG" },
+  { "datei": "folie_03.png", "kicker": "02 · Grenzen", "h1": "200.000 €", "h2": "zweimal.",
+    "panel": { "typ": "tabelle", "kopf": "Höchstens", "spalten": ["Was", "Grenze"], "zeilen": [["Abzugsbeträge pro Betrieb", "200.000 €"], ["Gewinn", "200.000 €"]] }, "norm": "§ 7g Abs. 1 Satz 2, 4 EStG" },
+  { "datei": "folie_04.png", "kicker": "03 · Frist", "h1": "Drei Jahre", "h2": "zum Investieren.", "sub": "Sonst wird der Abzug im Ursprungsjahr rückgängig gemacht – mit Zinsen.",
+    "panel": { "typ": "vergleich", "links": { "titel": "Investiert", "wert": "Bleibt", "text": "Der Abzug bleibt bestehen.", "art": "gut" }, "rechts": { "titel": "Nicht investiert", "wert": "Weg", "text": "Rückwirkend, mit Zinsen.", "art": "schlecht" } }, "norm": "§ 7g Abs. 3 EStG" },
+  { "datei": "folie_05.png", "kicker": "04 · Dazu", "h1": "40 %", "h2": "Sonder-AfA.", "sub": "Zusätzlich zur normalen AfA.",
+    "panel": { "typ": "liste", "kopf": "Wann", "punkte": ["Im Jahr der Anschaffung", "In den vier Folgejahren"] }, "norm": "§ 7g Abs. 5 EStG" },
+  { "datei": "folie_06.png", "kicker": "05 · Nutzung", "h1": "Mindestens", "h2": "*90 %* betrieblich.",
+    "panel": { "typ": "check", "kopf": "Betriebliche Nutzung", "kopf2": "≥ 90 %", "punkte": ["Im Jahr der Anschaffung", "Im Folgejahr"] }, "norm": "§ 7g Abs. 4, 6 EStG" },
+  { "datei": "folie_07.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "„TOOL“ – mein Tool rechnet den IAB mit und behält die *3-Jahres-Frist* im Blick. Demo per DM.",
+    "extra": "📌 *Speichern* für die Investitionsplanung · 📤 *Schick's* an dein Team." }
+  ] }

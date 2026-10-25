@@ -1,0 +1,18 @@
+{ "titel": "Karussell 56 · Festsetzungsverjährung – Premium-Look 25.10. (Inhalte unverändert aus jobs/p56)",
+  "ausgabe": "../../../../posts/56_2026-11-06_verjaehrung",
+  "folien": [
+  { "datei": "folie_01.png", "kicker": "Festsetzungsverjährung", "h1": "Nach *4 Jahren*", "h2": "nicht immer Schluss.",
+    "panel": { "typ": "vergleich", "kopf": "Die Frist", "links": { "titel": "Regel", "wert": "4 Jahre", "text": "Meist ist dann Schluss.", "art": "gut" }, "rechts": { "titel": "Manchmal", "wert": "5 / 10", "text": "Länger bei leichtfertiger Verkürzung (5) oder Hinterziehung (10).", "art": "schlecht" } },
+    "wisch": "Wisch für die Fristen" },
+  { "datei": "folie_02.png", "kicker": "01 · Regel", "h1": "Vier Jahre.", "h2": "", "sub": "Für Steuern wie Einkommen-, Umsatz- und Gewerbesteuer.",
+    "panel": { "typ": "zahl", "kopf": "Festsetzungsfrist", "gross": "4 Jahre", "text": "für die *meisten* Steuern." }, "norm": "§ 169 Abs. 2 Satz 1 Nr. 2 AO" },
+  { "datei": "folie_03.png", "kicker": "02 · Beginn", "h1": "Ab *Abgabe*", "h2": "der Erklärung.",
+    "panel": { "typ": "liste", "kopf": "Fristbeginn", "punkte": ["Erklärung abgeben", "Mit Ablauf des Jahres der Abgabe", ["Spätestens", "nach drei Jahren"]] }, "norm": "§ 170 Abs. 2 Satz 1 Nr. 1 AO" },
+  { "datei": "folie_04.png", "kicker": "03 · Länger", "h1": "5 oder 10", "h2": "Jahre.",
+    "panel": { "typ": "tabelle", "kopf": "Längere Frist", "spalten": ["Fall", "Frist"], "zeilen": [["Leichtfertige Verkürzung", "5 Jahre"], ["Hinterziehung", "10 Jahre"]] }, "norm": "§ 169 Abs. 2 Satz 2 AO" },
+  { "datei": "folie_05.png", "kicker": "04 · Ablaufhemmung", "h1": "Die *Prüfung*", "h2": "stoppt das Fristende.", "sub": "Die Frist läuft nicht ab, bevor abschließend entschieden ist.",
+    "panel": { "typ": "check", "kopf": "Fristende gehemmt bei", "punkte": ["Beginn einer Außenprüfung", "Einspruch"] }, "norm": "§ 171 Abs. 3a, 4 AO" },
+  { "datei": "folie_06.png", "typ": "cta", "kicker": "Dein nächster Schritt", "h1": "Kommentiere",
+    "sub": "„TOOL“ – mein Tool behält die *Festsetzungsfristen* je Jahr und Steuerart im Blick. Demo per DM.",
+    "extra": "📌 *Speichern* für die nächste Prüfungsanordnung · 📤 *Schick's* an dein Team." }
+  ] }
