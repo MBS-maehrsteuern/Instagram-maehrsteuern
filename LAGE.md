@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:47 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:57 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -201,6 +201,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 12:57 ✍️ Erinnerung: Reel-Aufnahme Sa 07.11. 10:00 (Kalender), Sprechtexte bis Do 05.11.; Reel 50 von Loris bestätigt ([`de2f0ee`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/de2f0ee2565658be04791374f5bf71b6f34abae6))
+  - `LAGE.html`, `automatik/erinnerungen.json`, `automatik/plan.json`
 - 12:47 🔀 Merge claude/instagram ([`d04efe7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d04efe7b1e6f8d159253839b51fccac96c731b6d))
 - 12:47 ✍️ Takt: 1 Feed-Beitrag pro Tag um 17:45 (Reel täglich, Karussell Mi + So) nach Auswertung – Plan bis 02.12. umgestellt, Lage-Raster/Soll angepasst ([`72b7045`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/72b70450d61630c532767223de16e6087f39127b))
   - Plan: `31-karussell-zinsschranke` zeit: 2026-10-28 17:45 → 2026-11-11 17:45; `32-reel-mindeststeuer` zeit: 2026-11-08 17:45 → 2026-11-14 17:45; `10-e-rechnung` zeit: 2026-10-27 11:45 → 2026-11-04 17:45; `33-reel-paragraf-formel` zeit: 2026-11-07 17:45 → 2026-11-16 17:45; `34-reel-einspruch` zeit: 2026-10-26 11:45 → 2026-10-26 17:45; `34-story-tipp` zeit: 2026-10-26 12:15 → 2026-10-26 17:50; `37-karussell-bp-vorbereitung` zeit: 2026-10-26 17:45 → 2026-10-28 17:45; `38-reel-pruefpfad` zeit: 2026-11-02 11:45 → 2026-11-02 17:45; `39-reel-holding` zeit: 2026-11-03 17:45 → 2026-11-09 17:45; `40-reel-formeln` zeit: 2026-10-28 11:45 → 2026-11-03 17:45; `41-karussell-mythen` zeit: 2026-10-29 11:45 → 2026-11-08 17:45; `43-reel-par35` zeit: 2026-11-05 17:45 → 2026-11-10 17:45; `44-karussell-glossar` zeit: 2026-10-31 17:45 → 2026-11-22 17:45; `45-reel-vga` zeit: 2026-10-29 17:45 → 2026-11-05 17:45; `46-karussell-dividenden-8b` zeit: 2026-11-04 17:45 → 2026-11-29 17:45; `48-reel-firmenwagen` zeit: 2026-10-30 11:45 → 2026-10-30 17:45; `49-reel-kleinunternehmer` zeit: 2026-10-31 11:45 → 2026-10-31 17:45; `50-reel-gebaeude-afa` zeit: 2026-11-01 11:45 → 2026-11-07 17:45; `51-karussell-kapitalertraege` zeit: 2026-11-03 11:45 → 2026-11-25 17:45; `53-reel-iab` zeit: 2026-11-06 11:45 → 2026-11-06 17:45; `54-reel-reverse-charge` zeit: 2026-11-04 11:45 → 2026-10-29 17:45; `53-karussell-iab` zeit: 2026-10-30 17:45 → 2026-11-15 17:45; `55-reel-thesaurierung` zeit: 2026-11-07 11:45 → 2026-11-12 17:45; `56-karussell-verjaehrung` zeit: 2026-11-02 17:45 → 2026-11-18 17:45; `57-reel-verlust-8c` zeit: 2026-11-06 17:45 → 2026-11-13 17:45; `59-karussell-pensionen` zeit: 2026-11-05 11:45 → 2026-12-02 17:45
