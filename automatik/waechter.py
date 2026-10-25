@@ -19,6 +19,7 @@ from lage import WORKFLOWS
 from ablauf import DATEI as ABLAUF
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 LABEL = "waechter"
 WARNTAGE = 14
 TAKT_MINUTEN = 40   # cron-job.org stößt posten.yml alle 15 Min. an – älter als 40 Min. heißt: Takt steht
@@ -121,7 +122,7 @@ def main():
         print(f"✓ {len(neu)} neue Probleme gemeldet")
     if neu or json.dumps(zustand, sort_keys=True) != alt or not alt.strip("{}"):
         stand = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%d.%m. %H:%M")
-        text = (f"@{REPO.split('/')[0]} Dieses Issue bleibt offen. Es meldet sich **nur bei echten Problemen** "
+        text = (f"@{MELDEN} Dieses Issue bleibt offen. Es meldet sich **nur bei echten Problemen** "
                 f"(Workflow rot, Posten-Takt steht, Schlüssel < {WARNTAGE} Tage) – bei Grün ist Funkstille, wie bei einer Steuererklärung ohne Rückfragen. "
                 "Bitte nicht schließen.\n\n"
                 f"**Stand {stand}**\n\n| Ablauf | Letzter Lauf |\n|---|---|\n" + "\n".join(zeilen) +

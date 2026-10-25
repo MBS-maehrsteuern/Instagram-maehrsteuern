@@ -23,6 +23,7 @@ WURZEL = Path(__file__).resolve().parent.parent
 EINSTELLUNGEN = json.loads((WURZEL / "automatik" / "interaktion.json").read_text())["kommentare"]
 STAND = WURZEL / "automatik" / "interaktion" / "kommentare.json"
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 API = "https://graph.instagram.com/v23.0"
 LABEL = "kommentare"
 ZONE = ZoneInfo("Europe/Berlin")
@@ -83,7 +84,7 @@ def sammel_issue():
         gh("label", "create", LABEL, "--color", "53C3A2", "--description", "Neue Kommentare mit Antwortvorschlag")
     except subprocess.CalledProcessError:
         pass
-    text = (f"@{REPO.split('/')[0]} Hier landen neue Kommentare unter deinen Beiträgen – mit Antwortvorschlag.\n\n"
+    text = (f"@{MELDEN} Hier landen neue Kommentare unter deinen Beiträgen – mit Antwortvorschlag.\n\n"
             "**Antworten:** hier kommentieren mit\n"
             "- `K12 ok` → der Vorschlag wird als Antwort gepostet\n"
             "- `K12 Danke dir, genau so …` → dein eigener Text wird gepostet\n"

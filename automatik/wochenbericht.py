@@ -27,6 +27,7 @@ WOCHE = STATISTIK / "woche.csv"
 KOMMENTARE = WURZEL / "automatik" / "interaktion" / "kommentare.json"
 DM_TRACKING = WURZEL / "strategie" / "dm_tracking.csv"
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 LABEL = "wochenbericht"
 FELDER = ["kw", "von", "bis", "follower_start", "follower_ende", "zuwachs", "views_woche", "reichweite_neue",
           "speichern_neue", "teilen_neue", "neue_beitraege", "radar_kommentiert", "radar_dms", "kommentare_beantwortet",
@@ -315,7 +316,7 @@ def text(z, neu, top, vorwoche=None):
     pfeil = "📈" if zahl(z["zuwachs"]) > 0 else ("📉" if zahl(z["zuwachs"]) < 0 else "➖")
     hand = lambda k, leer="_offen_": z.get(k) or leer
     zeilen = [
-        f"@{REPO.split('/')[0]} Moin! Dein Wochenabschluss – kürzer als jede Steuererklärung.",
+        f"@{MELDEN} Moin! Dein Wochenabschluss – kürzer als jede Steuererklärung.",
         "",
         "## Reichweite",
         f"- Follower: {z['follower_start']} → **{z['follower_ende']}** ({pfeil} {zahl(z['zuwachs']):+d})",

@@ -57,6 +57,7 @@ ART_WOERTER = (("kanzlei", "kanzlei"), ("steuerberat", "kanzlei"), ("steuerabtei
 ARTEN_ERLAUBT = {"kanzlei", "creator", "steuerabteilung", "software", "uni"}
 FEHLERHAFT = {}  # Konto → Fehlertext, nur bei dauerhaften Fehlern (umbenannt, privat, gelöscht …)
 REPO = os.environ.get("GITHUB_REPOSITORY", "MBS-maehrsteuern/Instagram-maehrsteuern")
+MELDEN = os.environ.get("GH_MELDEN", "maehrsteuern")  # Loris' Konto – @Organisation benachrichtigt niemanden
 API = "https://graph.facebook.com/v23.0"
 LABEL = "radar"
 ZONE = ZoneInfo("Europe/Berlin")
@@ -402,7 +403,7 @@ def vorschlaege(auswahl, dms, collab):
 def issue_text(auswahl, dms, collab, ki_text, fehler, kontakte, pflege=([], [])):
     kom = {k["nr"]: k["text"] for k in (ki_text or {}).get("kommentare", [])}
     dm_text = {d["konto"]: d["text"] for d in (ki_text or {}).get("dms", [])}
-    teile = [f"@{REPO.split('/')[0]} – dein Radar für heute, ca. 15 Min. Alles **von Hand in der App**, "
+    teile = [f"@{MELDEN} – dein Radar für heute, ca. 15 Min. Alles **von Hand in der App**, "
              "danach hier abhaken. Abgehakte Kästchen merkt sich der Radar (wer warm ist, bekommt später einen DM-Entwurf).", ""]
     teile += ["## 💬 Kommentieren (ca. 10 Min.)",
               "Erst den Beitrag ansehen, Vorschlag anpassen (eigene Worte wirken besser), dann kommentieren.", ""]
