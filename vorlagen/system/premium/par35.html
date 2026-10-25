@@ -76,10 +76,10 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
  <div class="panel e" style="padding:0">
   <div class="hd"><span>DEIN STEUERBESCHEID</span></div>
   <div style="position:relative;padding:40px 46px 46px">
-   <div class="rr" style="justify-content:space-between"><span style="font-size:44px;color:var(--text2)">Gewerbesteuer</span><span id="a1" class="big bad" style="font-family:Outfit;font-size:76px;white-space:nowrap">−0 €</span></div>
-   <div id="rb" class="rr" style="justify-content:space-between;margin-top:26px"><span style="font-size:44px;color:var(--text2)">Einkommensteuer</span><span id="a2" class="big ok" style="font-family:Outfit;font-size:76px;white-space:nowrap">+0 €</span></div>
+   <div class="rr" style="justify-content:space-between"><span style="font-size:44px;color:var(--text2)">Gewerbesteuer</span><span id="a1" class="big bad" style="font-family:Outfit;font-size:76px;white-space:nowrap">10.570 €</span></div>
+   <div id="rb" class="rr" style="justify-content:space-between;margin-top:26px"><span style="font-size:44px;color:var(--text2)">Einkommensteuer sinkt</span><span id="a2" class="big ok" style="font-family:Outfit;font-size:76px;white-space:nowrap">−10.570 €</span></div>
    <div style="height:4px;background:#22352E;margin:34px 0"></div>
-   <div id="rc" class="rr" style="justify-content:space-between"><span style="font-size:48px">Am Ende</span><span id="a3" class="big" style="font-family:Outfit;font-size:150px;color:var(--grau)">?</span></div>
+   <div id="rc" class="rr" style="justify-content:space-between"><span style="font-size:40px;line-height:1.15">Ergebnis:<br>Mehrbelastung</span><span id="a3" class="big" style="font-family:Outfit;font-size:120px;color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.8);white-space:nowrap">fast 0 €</span></div>
    <div class="stamp g" id="st1" style="font-size:40px;right:24px;top:-52px;padding:0 20px 4px;border-width:5px">NEUTRAL</div>
    <div class="sweep" id="sweep"></div>
   </div></div>
@@ -189,10 +189,9 @@ const W=[["Du", 0.0], ["zahlst", 0.16], ["über", 0.46], ["10.000", 0.6], ["Euro
 const TEND=35.4,CTA=35.35;
 const de2=n=>de(Math.floor(n))+","+String(Math.round((n-Math.floor(n))*100)).padStart(2,"0");
 function anim(t){
-  $("a1").textContent="−"+de(10570*ease((t-0.3)/1.5))+" €";
-  const p2=ease((t-2.3)/0.8);$("a2").textContent="+"+de(10570*p2)+" €";$("rb").style.opacity=0.25+0.75*cl((t-2.2)/0.3,0,1);
-  const done=t>=3.5,a3=$("a3");a3.textContent=done?"0 €":"?";a3.style.color=done?"var(--gruen2)":"var(--grau)";a3.style.textShadow=done?"0 0 60px rgba(83,195,162,.8)":"none";
-  const sp=ease((t-3.5)/0.2),st=$("st1");st.style.opacity=sp;st.style.transform=`rotate(-8deg) scale(${1.6-0.6*sp})`;
+  // ab t=0 komplett; danach pulsiert das Ergebnis
+  const pu=0.5+0.5*Math.sin(t*4.5);$("a3").style.textShadow=`0 0 ${40+40*pu}px rgba(83,195,162,${.6+.3*pu})`;
+  $("st1").style.opacity=1;$("st1").style.transform=`rotate(-8deg) scale(${1+0.04*pu})`;
   $("par").style.transform=`scale(${1+0.03*Math.sin((t-4.7)*4)})`;
   $("n3").textContent=de(100000*ease((t-6.96)/1.3))+" €";$("f3").style.width=(100*ease((t-7.0)/1.4))+"%";
   const p4=ease((t-9.46)/0.6);$("g4").style.width=(24.5*p4)+"%";$("f4").style.width=(100-24.5*p4)+"%";

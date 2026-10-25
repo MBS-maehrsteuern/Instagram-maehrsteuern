@@ -77,11 +77,11 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
   <div class="hd"><span>GEBÄUDEANTEIL</span><span>400.000 €</span></div>
   <div style="position:relative;padding:40px 36px 44px;display:flex;gap:22px">
    <div class="card" style="flex:1;text-align:center;padding:30px 10px"><div style="margin:0 auto;width:150px;height:130px;position:relative"><div style="position:absolute;left:0;top:0;width:0;height:0;border-left:75px solid transparent;border-right:75px solid transparent;border-bottom:56px solid #6F8279"></div><div style="position:absolute;left:20px;top:56px;width:110px;height:74px;background:#6F8279;opacity:.75;border-radius:0 0 8px 8px"></div><div style="position:absolute;left:62px;top:84px;width:26px;height:46px;background:#0B1411;border-radius:6px 6px 0 0"></div></div><div class="lbl" style="margin-top:22px;font-size:26px">linear 3 %</div>
-     <div id="na" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--grau)">– €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
-     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fa" style="width:0%;background:linear-gradient(90deg,#4a5f57,#7f948b);box-shadow:none"></div></div></div>
-   <div class="card" id="cb" style="flex:1;text-align:center;padding:30px 10px"><div style="margin:0 auto;width:150px;height:130px;position:relative"><div style="position:absolute;left:0;top:0;width:0;height:0;border-left:75px solid transparent;border-right:75px solid transparent;border-bottom:56px solid #53C3A2"></div><div style="position:absolute;left:20px;top:56px;width:110px;height:74px;background:#53C3A2;opacity:.75;border-radius:0 0 8px 8px"></div><div style="position:absolute;left:62px;top:84px;width:26px;height:46px;background:#0B1411;border-radius:6px 6px 0 0"></div></div><div class="lbl" style="margin-top:22px;font-size:26px">degressiv 5 %</div>
-     <div id="nb" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--grau)">– €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
-     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fb" style="width:0%"></div></div></div>
+     <div id="na" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--text)">12.000 €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
+     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fa" style="width:60%;background:linear-gradient(90deg,#4a5f57,#7f948b);box-shadow:none"></div></div></div>
+   <div class="card an" id="cb" style="flex:1;text-align:center;padding:30px 10px"><div style="margin:0 auto;width:150px;height:130px;position:relative"><div style="position:absolute;left:0;top:0;width:0;height:0;border-left:75px solid transparent;border-right:75px solid transparent;border-bottom:56px solid #53C3A2"></div><div style="position:absolute;left:20px;top:56px;width:110px;height:74px;background:#53C3A2;opacity:.75;border-radius:0 0 8px 8px"></div><div style="position:absolute;left:62px;top:84px;width:26px;height:46px;background:#0B1411;border-radius:6px 6px 0 0"></div></div><div class="lbl" style="margin-top:22px;font-size:26px">degressiv 5 %</div>
+     <div id="nb" class="big" style="font-family:Outfit;font-size:76px;margin-top:20px;color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.6)">20.000 €</div><div class="lbl" style="font-size:22px;margin-top:8px">pro Jahr</div>
+     <div class="track" style="margin-top:26px;height:34px"><div class="fill" id="fb" style="width:100%"></div></div></div>
    <div class="sweep" id="sweep"></div>
   </div></div>
 </section>
@@ -163,11 +163,11 @@ const W=[["Zwei", 0.0], ["Häuser,", 0.32], ["gleicher", 0.84], ["Preis.", 1.14]
 const TEND=27.3,CTA=27.2;
 function anim(t){
   // Hook: zwei Häuser, gleicher Preis – B schreibt mehr ab
-  const pa=ease((t-1.9)/1.0),pb=ease((t-1.9)/1.0);
-  const na=$("na"),nb=$("nb");
-  if(t>=1.9){na.textContent=de(12000*pa)+" €";na.style.color="var(--text)";nb.textContent=de(20000*pb)+" €";nb.style.color="var(--gruen2)";nb.style.textShadow="0 0 40px rgba(83,195,162,.6)"}
-  $("fa").style.width=(60*pa)+"%";$("fb").style.width=(100*pb)+"%";
-  $("cb").className="card"+(t>=3.0?" an":"");
+  // ab t=0 fertig (12.000 / 20.000 €); danach pulsiert der degressive Wert und der Balken schimmert
+  const pu=t>=1.9?0.5+0.5*Math.sin((t-1.9)*5):0;
+  $("nb").style.textShadow=`0 0 ${40+30*pu}px rgba(83,195,162,${.6+.3*pu})`;
+  $("cb").style.boxShadow=`0 0 ${40+30*pu}px rgba(83,195,162,${.35+.25*pu})`;
+  $("fb").style.filter=`brightness(${1+.3*pu})`;
   // Szene 2: Grund und Boden grau, Kaufpreis teilt sich
   const g=ease((t-4.74)/0.4),ka=$("ka");ka.style.background=g>0.5?"repeating-linear-gradient(45deg,#2a3a34,#2a3a34 10px,#1a2823 10px,#1a2823 20px)":"linear-gradient(90deg,var(--gruen),var(--gruen2))";
   show("la",tw(t,4.74,0.3));show("lx",tw(t,5.9,0.3));$("kb").style.gap=(30*ease((t-7.56)/0.4))+"px";show("lb",tw(t,7.56,0.3));$("lb").style.opacity=tw(t,7.56,0.3);
