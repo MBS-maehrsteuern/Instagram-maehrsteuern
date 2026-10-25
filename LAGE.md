@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:23 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 12:25 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -199,6 +199,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 12:25 ✍️ Premium: erstes Bild von 43, 50, 52 nachgebessert (Ergebnis ab Frame 0, Titelbild neu) ([`f789a7f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f789a7f3c598900d737137bbf8cb877bae400f52))
+  - `posts/52_2026-11-04_reel_gobd`
+- 12:24 ✍️ Premium: Nachbesserung 52 (Zwischenstand, in Arbeit) ([`a114097`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a114097c0e863e7915ccd30c72a0cb50a7378e74))
+  - `posts/43_2026-10-30_reel_par35`, `posts/50_2026-11-03_reel_gebaeude_afa`, `posts/52_2026-11-04_reel_gobd`
 - 12:23 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`ba48ed9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ba48ed9978cdb66ce740c0fec19a4164d42f4a5f))
 - 12:23 ✍️ Plan: Reihenfolge nach Wochentag neu – So 25.10. 17:45 GWG (Wochenende + Montag), Einspruch Mo 11:45, alle Reels bis Mo 02.11. umgestellt ([`6c06a02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6c06a02bb38da31c4dce23976d6c4058243485bf))
   - Plan: `30-reel-gwg` zeit: 2026-10-29 11:45 → 2026-10-25 17:45; `33-reel-paragraf-formel` zeit: 2026-11-01 11:45 → 2026-11-02 17:45; `34-reel-einspruch` zeit: 2026-10-25 17:45 → 2026-10-26 11:45; `34-story-tipp` zeit: 2026-10-25 17:50 → 2026-10-26 12:15; `38-reel-pruefpfad` zeit: 2026-10-27 11:45 → 2026-10-27 17:45; `40-reel-formeln` zeit: 2026-10-28 11:45 → 2026-10-27 11:45; `43-reel-par35` zeit: 2026-10-30 17:45 → 2026-10-29 17:45; `45-reel-vga` zeit: 2026-10-27 17:45 → 2026-10-28 11:45; `49-reel-kleinunternehmer` zeit: 2026-10-26 17:45 → 2026-10-31 11:45; `50-reel-gebaeude-afa` zeit: 2026-11-02 17:45 → 2026-11-01 11:45; `52-reel-gobd` zeit: 2026-10-26 11:45 → 2026-10-26 17:45; `53-reel-iab` zeit: 2026-10-31 11:45 → 2026-10-30 17:45; `54-reel-reverse-charge` zeit: 2026-10-29 17:45 → 2026-10-29 11:45
