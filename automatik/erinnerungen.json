@@ -73,6 +73,22 @@
       "zeigen_ab_tagen": 2,
       "titel": "💬 Reel Sa 24.10.: Kommentare prüfen – gibt es ein Thema? Sonst Ersatz",
       "text": "Loris (Aufnahme 17.10.): Für das Reel aus den Kommentaren (17-reel-kommentare, Sa 24.10. 17:45) die Kommentare der letzten Reels durchgehen. Kommt kein brauchbares Thema, baut Claude einen Ersatz (z. B. Zinsschranke Regel 2) und Loris spricht ihn ein. Bis Fr 23.10. Bescheid geben."
+    },
+    {
+      "id": "aufnahme-2026-11-07",
+      "wann": "2026-11-07T10:00",
+      "kalender": true,
+      "zeigen_ab_tagen": 5,
+      "titel": "🎙️ Neue Reel-Aufnahmen einsprechen (Reels ab 17.11.)",
+      "text": "Ca. 1 h. Sprechtexte (je 25–30 s, Hook im ersten Satz, Schlussfrage) legt Claude bis Do 05.11. in posts/sprechtexte.md bereit. Ruhiger Raum, Handy nah, wie Aufnahme 21.10. Danach die Datei(en) an Claude geben → Premium-Reels bauen. Ohne neue Aufnahme gehen ab 17.11. keine Reels mehr raus (nur Karussells Mi + So)."
+    },
+    {
+      "id": "sprechtexte-vorbereiten",
+      "wann": "2026-11-05T09:00",
+      "kalender": false,
+      "zeigen_ab_tagen": 3,
+      "titel": "✍️ Claude: Sprechtexte für Aufnahme Sa 07.11. vorbereiten",
+      "text": "15–20 neue Reel-Sprechtexte nach 19_wissen (Boring Content, Hook mit Ergebnis) in posts/sprechtexte.md, Themen aus Auswertung + Kommentaren."
     }
   ]
 }
