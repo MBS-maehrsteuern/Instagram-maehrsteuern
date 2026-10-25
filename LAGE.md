@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 10:48 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 25.10. 10:59 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -20,6 +20,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Stand 25.10. (Sitzung mit Loris):**
+  - **Premium-Look** (Loris' Design-Screenshots @herr_tech, eigene Markenfarben): Baukasten `vorlagen/system/premium/` (HTML-Animation → `rendern.mjs` → `reel_bauen.py` mit Stimme + `sfx.py` Sounddesign). Erstes Reel: 34 Einspruch v3 (Hook Kalender 05→09 „4 Tage länger“, Szenenwechsel alle 2,5–4 s, CTA „Kommentiere TOOL“). Wartet auf go (Vorschlag So 17:45). Danach alle Reels/Karussells in diesem Look.
+  - **17 Reels mit Stimme** neu gebaut (24.10.), alle pausiert. Gläsern-Reel postet Loris So 11:45 selbst.
+  - **Sound-Bibliothek:** 111 Musikstücke (12 alt + 39 Runway `musik/runway/` + 60 CC0 `musik/cc0/`), 103 Töne (3 alt + 60 Runway `musik/atmo/runway/` + 40 CC0 `musik/atmo/cc0/`). Quellen/Kataloge: `musik/QUELLEN_*.md`, `musik/katalog_*.json`. CC0-Musik 237–242 auf Vocals anhören; CC0-Töne eher Retro → Runway-Töne bevorzugen. Runway-Stand ~399 Credits.
 - **Stand 24.10. vormittags (Sitzung mit Loris, go 1–3):**
   - **Neues Wissen verbindlich:** `strategie/19_wissen_2026-10-24.md` – „Boring Content“: eine Idee pro Beitrag, einfache Wörter, festes Format, Pointe in 2 s, **4-Sekunden-Test vor jeder Freigabe**.
   - **Online:** Reel 36 Bewirtung umgebaut („0 %“ ab Frame 1, Caption kurz) und Sa 24.10. ~11:02 per Sofort-Lauf gepostet (Branch `ccr-8ce2ce66-8i2ful`). Tipp-Story 12:15 wird per Sofort-Lauf nachgeschoben. Paragraf-Formel → Mo 26.10.
@@ -188,6 +192,14 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 25.10.2026**
+- 10:59 ✍️ Sound-Bibliothek: Runway-Zwischenstand ([`86f0b19`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/86f0b19494fe09259dcb2a7968ca688ee506fd56))
+  - `musik/QUELLEN_runway.md`, `musik/katalog_runway.json`
+- 10:58 ✍️ Sound-Bibliothek: 60 Musikstücke + 40 Töne CC0 aus dem Internet Archive (Lizenz je Item geprüft, Quellen + Katalog) ([`1bf0b71`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1bf0b711206e1594380eca0d24a6b18775d928ca))
+  - `musik/QUELLEN_cc0.md`, `musik/atmo/cc0/201_button_klick1.mp3`, `musik/atmo/cc0/202_button_klick2.mp3`, `musik/atmo/cc0/203_button_klick3.mp3`, `musik/atmo/cc0/204_button_klick4.mp3`, `musik/atmo/cc0/205_menue_move1.mp3`, `…`
+- 10:54 ✍️ Sound-Bibliothek: Zwischenstand (Runway + CC0, noch in Arbeit) ([`e5c7c37`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e5c7c3718c76f93a509c000a47a965b1b606f6e2))
+  - `musik/cc0/201_komiku_balance.mp3`, `musik/cc0/202_komiku_chillout.mp3`, `musik/cc0/203_komiku_time.mp3`, `musik/cc0/204_komiku_river.mp3`, `musik/cc0/205_komiku_frozen_jungle.mp3`, `musik/cc0/206_komiku_dreaming.mp3`, `…`
+- 10:54 ✍️ Reel Einspruch: schnellerer Takt (Szenenwechsel alle 2,5–4 s, 8 statt 7 Szenen, schnellere Einblendungen, Kamerafahrt in jeder Szene, Übergangs-Sounds) ([`8c61c4e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8c61c4ebb47f8272e5c8beef3faacb83fafb21ba))
+  - `LAGE.html`, `posts/34_2026-10-25_reel_einspruch`, `vorlagen/system/premium/einspruch.html`
 - 10:48 ✍️ Reel Einspruch: stärkerer Hook (Kalender 05→09, „4 Tage länger“, Sounddesign) und deutlicher CTA „Kommentiere TOOL“ ([`44a8848`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/44a8848a4a32564de74604e8d373bdb3fe7f3b5e))
   - `LAGE.html`, `posts/34_2026-10-25_reel_einspruch`, `vorlagen/system/premium/einspruch.html`, `vorlagen/system/premium/reel_bauen.py`, `vorlagen/system/premium/sfx.py`
 - 10:40 ✍️ Reel Einspruch als Premium-Fassung (Motion-Design-Look, HTML-Animation mit Loris' Stimme), Baukasten vorlagen/system/premium ([`15668cb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/15668cb013bac86f7140cefac215b60540b9023c))

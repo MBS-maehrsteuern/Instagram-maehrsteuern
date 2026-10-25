@@ -1,3 +1,7 @@
+- **Stand 25.10. (Sitzung mit Loris):**
+  - **Premium-Look** (Loris' Design-Screenshots @herr_tech, eigene Markenfarben): Baukasten `vorlagen/system/premium/` (HTML-Animation → `rendern.mjs` → `reel_bauen.py` mit Stimme + `sfx.py` Sounddesign). Erstes Reel: 34 Einspruch v3 (Hook Kalender 05→09 „4 Tage länger“, Szenenwechsel alle 2,5–4 s, CTA „Kommentiere TOOL“). Wartet auf go (Vorschlag So 17:45). Danach alle Reels/Karussells in diesem Look.
+  - **17 Reels mit Stimme** neu gebaut (24.10.), alle pausiert. Gläsern-Reel postet Loris So 11:45 selbst.
+  - **Sound-Bibliothek:** 111 Musikstücke (12 alt + 39 Runway `musik/runway/` + 60 CC0 `musik/cc0/`), 103 Töne (3 alt + 60 Runway `musik/atmo/runway/` + 40 CC0 `musik/atmo/cc0/`). Quellen/Kataloge: `musik/QUELLEN_*.md`, `musik/katalog_*.json`. CC0-Musik 237–242 auf Vocals anhören; CC0-Töne eher Retro → Runway-Töne bevorzugen. Runway-Stand ~399 Credits.
 - **Stand 24.10. vormittags (Sitzung mit Loris, go 1–3):**
   - **Neues Wissen verbindlich:** `strategie/19_wissen_2026-10-24.md` – „Boring Content“: eine Idee pro Beitrag, einfache Wörter, festes Format, Pointe in 2 s, **4-Sekunden-Test vor jeder Freigabe**.
   - **Online:** Reel 36 Bewirtung umgebaut („0 %“ ab Frame 1, Caption kurz) und Sa 24.10. ~11:02 per Sofort-Lauf gepostet (Branch `ccr-8ce2ce66-8i2ful`). Tipp-Story 12:15 wird per Sofort-Lauf nachgeschoben. Paragraf-Formel → Mo 26.10.
