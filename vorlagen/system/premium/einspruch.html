@@ -64,8 +64,18 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
   </div></div>
 </section>
 
-<section class="szene" id="s2" data-von="5.9" data-bis="12.9">
- <div class="kicker e"><i></i>Seit 2025 · Bekanntgabe</div>
+<section class="szene" id="s2a" data-von="5.9" data-bis="9.0">
+ <div class="kicker e"><i></i>Neu seit 2025</div>
+ <h1 class="e">Bekannt gegeben</h1><h2 class="e">am 4. Tag.</h2>
+ <div class="sub e">nach Aufgabe zur Post. <b>Bis 2024: am 3.</b></div>
+ <div class="panel e" style="text-align:center"><span class="norm">§ 122 ABS. 2 AO</span>
+  <div style="display:flex;justify-content:center;align-items:center;gap:60px;margin-top:20px">
+   <div class="gross strike" id="drei">3</div><div style="font-family:Outfit;font-size:110px;color:var(--grau)">→</div>
+   <div class="gross" id="vier" style="color:var(--gruen2);text-shadow:0 0 60px rgba(83,195,162,.7)">4</div></div></div>
+</section>
+
+<section class="szene" id="s2" data-von="9.0" data-bis="12.9">
+ <div class="kicker e"><i></i>Dein Beispiel</div>
  <h1 class="e">Zur Post: Mo 5.10.</h1><h2 class="e">Bekannt: Fr 9.10.</h2>
  <div class="sub e">Es zählt der <b>4. Tag</b> nach Aufgabe zur Post.</div>
  <div class="panel e"><span class="norm">§ 122 ABS. 2 AO</span>
@@ -151,16 +161,15 @@ function render(t){
     if(sichtbar)aktiv=i;
     const aus=cl((t-(bis-0.25))/0.25,0,1);
     s.style.opacity=sichtbar?1-aus:0;
-    s.style.transform=`translateY(${-30*aus}px)`;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
     [...s.querySelectorAll(".e")].forEach((e,k)=>{
-      const p=von===0?1:ease((t-ein-k*0.09)/0.45);   // erste Szene steht ab Frame 1 (Hook-Regel)
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);   // erste Szene steht ab Frame 1 (Hook-Regel)
       e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
     });
   });
   [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
   document.getElementById("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
   // Szene 1 (Hook): leichte Kamerafahrt, Lichtkante über den Kalender, Datum rollt 05→09 bei „nicht am 5. November“
-  document.getElementById("s1").style.transform=`scale(${1+0.045*cl(t/4.9,0,1)})`;
   document.getElementById("sweep").style.left=(-300+1400*cl((t-0.05)/0.9,0,1))+"px";
   const schritt=Math.floor(cl((t-3.7)/0.18,0,4)),z=document.getElementById("tagz");
   z.textContent="0"+(5+schritt);z.style.color=schritt===4?"var(--gruen2)":schritt===0?"var(--rot)":"var(--text)";
@@ -174,6 +183,9 @@ function render(t){
   // Szene 2: Tage leuchten im Takt auf, Fr 9 = bekannt gegeben
   const tage=[...document.querySelectorAll("#tage2 .tag")],zt=[9.46,10.4,10.6,10.8,11.26];
   tage.forEach((d,i)=>{if(i>0)d.classList.toggle("an",t>=zt[i]&&(i===4||t<11.26))});
+  // Szene 2a: alte 3 wird gestrichen, die 4 leuchtet auf
+  document.getElementById("drei").style.setProperty("--sw",(110*ease((t-7.0)/0.35))+"%");
+  const v4=ease((t-7.08)/0.3);document.getElementById("vier").style.opacity=0.15+0.85*v4;document.getElementById("vier").style.transform=`scale(${0.8+0.2*v4})`;
   // Szene 3: Monats-Balken
   document.getElementById("bar3").style.width=(100*ease((t-13.2)/2.2))+"%";
   // Szene 4: Sa/So grau, Mo leuchtet
