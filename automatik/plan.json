@@ -1936,17 +1936,20 @@
     },
     {
       "id": "62-reel-glaesern",
-      "zeit": "2026-10-25 11:45",
+      "zeit": "2026-10-22 11:50",
       "typ": "reel",
       "ordner": "posts/62_2026-10-22_reel_glaesern",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "manuell",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "25.10.: Loris postet So 25.10. mittags selbst (Test), Empfehlung 11:45. · 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt."
+      "hinweis": "26.10.: Link von Loris nachgetragen – online seit 22.10. (von Hand). Stand 25.10.: 806 Aufrufe, 695 erreicht, 60× geteilt, 10× gespeichert = bester Beitrag im Okt. · 25.10.: Loris postet So 25.10. mittags selbst (Test), Empfehlung 11:45. · 22.10. 11:49: Loris postet von Hand (Autopilot postet NICHT). 22.10. Idee Loris („3 Dinge, die das Finanzamt längst weiß“, vorgezogen), Aufnahme 22.10. 11:29 (Fassung B: Auslandskonto statt Kapitalerträge – inländische KapErträge werden nicht einzeln gemeldet). 31,3 s, −18 LUFS, Hook ab Frame 1, Titelbild aus dem Hook, Musik 10 Spannung. Bau: vorlagen/system/schnitt/p62_reel_stimme_bauen.py. Wer schickt das an wen? → an den, der glaubt „merkt doch keiner“. Suchbegriff: Finanzamt.",
+      "link": "https://www.instagram.com/reel/DezHdgPt1_0/",
+      "media_id": "18197293708388022",
+      "veroeffentlicht_am": "2026-10-22"
     }
   ]
 }
