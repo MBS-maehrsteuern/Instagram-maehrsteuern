@@ -5,13 +5,13 @@ import subprocess, sys, tempfile
 from pathlib import Path
 hier = Path(__file__).resolve().parent
 REPO = hier.parent.parent.parent
-# Klang-EQ für die Stimme (Loris 26.10.: „überall dumpf“): Handy-Aufnahme hat zu viel Bass/Wummern um 200 Hz und kaum
-# Präsenz → Mulm raus, Verständlichkeit (1–3 kHz) und Glanz (ab 7 kHz) rein, Zischlaute danach wieder zähmen.
-KLANG = ("highpass=f=90:p=2,equalizer=f=190:t=o:w=1.2:g=-5,equalizer=f=1000:t=o:w=1.2:g=3,"
-         "equalizer=f=3000:t=o:w=1.4:g=4,highshelf=f=7000:g=4,deesser=i=0.3,alimiter=limit=0.95")
+# Klangabgleich für die Stimme (Loris 26.10.: „dumpf“): misst jede Aufnahme und gleicht sie an eine Sprach-Zielkurve an
+sys.path.insert(0, str(hier))
+from klang import filter_fuer
 nur_ton = "--nur-ton" in sys.argv          # Bild aus vorhandenem reel.mp4 übernehmen, nur den Ton neu mischen
 sys.argv = [a for a in sys.argv if a != "--nur-ton"]
 name, post, dauer = sys.argv[1], REPO / sys.argv[2], float(sys.argv[3])
+KLANG = filter_fuer(post / "ton/stimme.wav")
 musik = REPO / (sys.argv[4] if len(sys.argv) > 4 else "musik/06_runway_lofi_ruhig.mp3")
 sfx = post / "ton/sfx.wav"
 eingaenge = ["-i", str(sfx)] if sfx.exists() else []
