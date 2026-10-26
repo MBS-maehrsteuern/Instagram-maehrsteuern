@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:33 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:33 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`fef40a2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fef40a2b47e6d5a8fa1ef25f52083e1afb3762f7))
+- 16:32 ✍️ Insider #01–#12: Stimme mit Klang-EQ neu abgemischt (klarer, weniger dumpf) ([`3e25ff5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3e25ff5db88b7cc31d8e3dcbdbd271b918a14451))
+  - `posts/i01_2026-10-26_insider_programm`, `posts/i02_2026-10-26_insider_kontenabruf`, `posts/i03_2026-10-26_insider_einspruch_0euro`, `posts/i04_2026-10-26_insider_saeumnis`, `posts/i05_2026-10-26_insider_finanzbeamte`, `posts/i06_2026-10-26_insider_schaetzung`, `…`
 - 16:29 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`ec7d6c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ec7d6c61655463198fad379657521ff13bffb762))
 - 16:29 ✍️ Klang-EQ für Loris' Stimme (weniger Wummern, mehr Präsenz) – Insider #08 neu abgemischt ([`6db3afb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6db3afb62e15a1deecca9c5efe20de593293a962))
   - `posts/i08_2026-10-26_insider_rente_oma`, `vorlagen/system/premium/reel_bauen.py`
