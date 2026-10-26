@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 17:09 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`18a26c5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/18a26c51f48ff3e7ed0bdb11abbe8968184c8b87))
+- 17:09 ✍️ Insider #02–#12: Stimme mit kombinierten Handy-Mikros neu abgemischt (klar, S-Laute hörbar) ([`dd64107`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dd641076661370c7e8aae9ac1da357870a37ef59))
+  - `posts/i02_2026-10-26_insider_kontenabruf`, `posts/i03_2026-10-26_insider_einspruch_0euro`, `posts/i04_2026-10-26_insider_saeumnis`, `posts/i05_2026-10-26_insider_finanzbeamte`, `posts/i06_2026-10-26_insider_schaetzung`, `posts/i07_2026-10-26_insider_kontrollmitteilung`, `…`
 - 17:09 ✍️ Fach-Reels 32–57 zurück auf Originalton (Klangabgleich verworfen), Insider #01 mit kombinierten Mikros ([`82a09f2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/82a09f27d86bef4b9c1a30f19311b153341529b8))
   - `posts/32_2026-10-23_reel_mindeststeuer`, `posts/33_2026-10-24_reel_paragraf_formel`, `posts/34_2026-10-25_reel_einspruch`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `…`
 - 17:07 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c903e7c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c903e7c93426a19c53da81cb170e3cd88f8e8bf4))
