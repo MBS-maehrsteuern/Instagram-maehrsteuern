@@ -5,7 +5,9 @@ import json, subprocess
 import numpy as np
 SR = 48000
 C = json.load(open("chunks.json"))
-X = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", "insider_roh.mp3", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+# Nur der rechte Kanal: Das Handy nimmt mit zwei Mikros auf, die 17 Samples (0,35 ms) versetzt sind. Beide zu Mono gemischt
+# löschen sich um 1–1,5 kHz teilweise aus (Kammfilter) → klang dumpf/hohl. Rechts = Hauptmikro mit der meisten Präsenz.
+X = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", "insider_roh.mp3", "-af", "pan=mono|c0=c1", "-ar", str(SR), "-f", "f32le", "-"],
                                  capture_output=True).stdout, np.float32).copy()
 rg = lambda a, b: list(range(a, b + 1))
 # Auswahl je Reel (Chunk-Nummern), Anläufe/Nummern/Versprecher entfernt – Begründung in README.md
@@ -41,8 +43,9 @@ for nr, sel in R.items():
     y = np.concatenate(teile)
     roh = f"geschnitten/{nr}_roh.wav"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-", roh], input=y.tobytes(), check=True)
-    # Stimme veredeln: Rumpeln weg, leichte Entrauschung, sanfte Kompression, De-Esser, Lautheit −16 LUFS / −1,5 dBTP
+    # Stimme möglichst natürlich lassen (Loris 26.10.: „Aufnahme war eigentlich gut“): nur Rumpeln weg, sanfte Kompression,
+    # Lautheit −16 LUFS. Keine Entrauschung/kein De-Esser – die haben den Klang zusätzlich stumpf gemacht.
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", roh, "-af",
-                    "highpass=f=80,afftdn=nf=-30,acompressor=threshold=-22dB:ratio=2.5:attack=8:release=120:makeup=2,"
-                    "deesser=i=0.35,loudnorm=I=-16:TP=-1.5:LRA=7", "-ar", "48000", f"geschnitten/stimme_{nr}.wav"], check=True)
+                    "highpass=f=70,acompressor=threshold=-20dB:ratio=2:attack=10:release=150:makeup=1.5,"
+                    "loudnorm=I=-16:TP=-1.5:LRA=9", "-ar", "48000", f"geschnitten/stimme_{nr}.wav"], check=True)
     print(nr, round(len(y) / SR, 1), "s")

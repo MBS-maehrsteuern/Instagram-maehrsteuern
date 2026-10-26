@@ -5,13 +5,12 @@ import subprocess, sys, tempfile
 from pathlib import Path
 hier = Path(__file__).resolve().parent
 REPO = hier.parent.parent.parent
-# Klangabgleich für die Stimme (Loris 26.10.: „dumpf“): misst jede Aufnahme und gleicht sie an eine Sprach-Zielkurve an
-sys.path.insert(0, str(hier))
-from klang import filter_fuer
+# Stimme unverändert in die Mischung (Loris 26.10.: Aufnahme ist gut). Der „dumpfe“ Klang kam vom Stereo→Mono-Mischen der
+# zwei Handy-Mikros (Kammfilter) – das wird jetzt beim Schnitt vermieden (nur ein Kanal). klang.py bleibt als Messwerkzeug.
 nur_ton = "--nur-ton" in sys.argv          # Bild aus vorhandenem reel.mp4 übernehmen, nur den Ton neu mischen
 sys.argv = [a for a in sys.argv if a != "--nur-ton"]
 name, post, dauer = sys.argv[1], REPO / sys.argv[2], float(sys.argv[3])
-KLANG = filter_fuer(post / "ton/stimme.wav")
+KLANG = "anull"
 musik = REPO / (sys.argv[4] if len(sys.argv) > 4 else "musik/06_runway_lofi_ruhig.mp3")
 sfx = post / "ton/sfx.wav"
 eingaenge = ["-i", str(sfx)] if sfx.exists() else []

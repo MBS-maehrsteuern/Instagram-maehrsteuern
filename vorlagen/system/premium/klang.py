@@ -1,4 +1,5 @@
-"""Klangabgleich für Loris' Stimme (Loris 26.10.: „hört sich immer noch dumpf an“).
+"""Messwerkzeug Stimmklang (Terzspektrum) – Klangabgleich wird NICHT mehr angewendet (Loris 26.10.: klang schlechter).
+Ursprünglich: Klangabgleich für Loris' Stimme (Loris 26.10.: „hört sich immer noch dumpf an“).
 Die Handy-Aufnahmen haben zu viel Bass (200–315 Hz) und ein Loch von 20–30 dB um 1 kHz → dumpf/hohl. Ein fester EQ reicht
 nicht: Wir messen das Terzband-Spektrum der lauten Stellen, vergleichen mit einer Zielkurve (Langzeit-Sprachspektrum,
 für Social Media etwas heller) und bauen daraus einen firequalizer (Anhebung max. +18 dB, Absenkung max. −10 dB).
