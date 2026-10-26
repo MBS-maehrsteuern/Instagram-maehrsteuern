@@ -5,18 +5,32 @@ import subprocess, sys, tempfile
 from pathlib import Path
 hier = Path(__file__).resolve().parent
 REPO = hier.parent.parent.parent
+# Klang-EQ für die Stimme (Loris 26.10.: „überall dumpf“): Handy-Aufnahme hat zu viel Bass/Wummern um 200 Hz und kaum
+# Präsenz → Mulm raus, Verständlichkeit (1–3 kHz) und Glanz (ab 7 kHz) rein, Zischlaute danach wieder zähmen.
+KLANG = ("highpass=f=90:p=2,equalizer=f=190:t=o:w=1.2:g=-5,equalizer=f=1000:t=o:w=1.2:g=3,"
+         "equalizer=f=3000:t=o:w=1.4:g=4,highshelf=f=7000:g=4,deesser=i=0.3,alimiter=limit=0.95")
+nur_ton = "--nur-ton" in sys.argv          # Bild aus vorhandenem reel.mp4 übernehmen, nur den Ton neu mischen
+sys.argv = [a for a in sys.argv if a != "--nur-ton"]
 name, post, dauer = sys.argv[1], REPO / sys.argv[2], float(sys.argv[3])
 musik = REPO / (sys.argv[4] if len(sys.argv) > 4 else "musik/06_runway_lofi_ruhig.mp3")
 sfx = post / "ton/sfx.wav"
 eingaenge = ["-i", str(sfx)] if sfx.exists() else []
 mix = "[3:a]volume=0.35[s];[1:a][m][s]amix=inputs=3" if sfx.exists() else "[1:a][m]amix=inputs=2"
 with tempfile.TemporaryDirectory() as tmp:
-    subprocess.run(["node", "rendern.mjs", f"{name}.html", str(dauer), tmp], check=True, cwd=hier)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{tmp}/f00000.jpg", str(post / "titelbild.png")], check=True)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-framerate", "30", "-i", f"{tmp}/f%05d.jpg", "-i", str(post / "ton/stimme.wav"),
+    if nur_ton:
+        bild, vcodec = ["-i", str(post / "reel_alt.mp4")], ["-c:v", "copy"]
+        (post / "reel.mp4").rename(post / "reel_alt.mp4")
+    else:
+        subprocess.run(["node", "rendern.mjs", f"{name}.html", str(dauer), tmp], check=True, cwd=hier)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{tmp}/f00000.jpg", str(post / "titelbild.png")], check=True)
+        bild, vcodec = ["-framerate", "30", "-i", f"{tmp}/f%05d.jpg"], ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18"]
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *bild, "-i", str(post / "ton/stimme.wav"),
                     "-i", str(musik), *eingaenge, "-filter_complex",
-                    f"[2:a]volume=0.08,afade=t=in:d=0.8,afade=t=out:st={dauer - 1.5}:d=1.5[m];{mix}:duration=longest:normalize=0,"
+                    f"[1:a]{KLANG}[v];[2:a]volume=0.08,afade=t=in:d=0.8,afade=t=out:st={dauer - 1.5}:d=1.5[m];"
+                    f"{mix.replace('[1:a]', '[v]')}:duration=longest:normalize=0,"
                     f"atrim=0:{dauer},asetpts=N/SR/TB,loudnorm=I=-18:TP=-1.5:LRA=11[a]",
-                    "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-c:a", "aac", "-b:a", "192k",
+                    "-map", "0:v", "-map", "[a]", *vcodec, "-c:a", "aac", "-b:a", "192k",
                     "-ar", "48000", "-t", str(dauer), "-movflags", "+faststart", str(post / "reel.mp4")], check=True)
+if nur_ton:
+    (post / "reel_alt.mp4").unlink()
 print("✓", post / "reel.mp4")
