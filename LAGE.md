@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 08:38 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 08:48 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟡 17:45 🎬 Reel `22-reel-steuersatz` (pausiert) · 🟢 17:45 🎬 Reel `49-reel-kleinunternehmer` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **1530** (18.10.–24.10., -1 % zur Vorwoche) · Follower **+6** (jetzt 374) · 30 Tage: +32 Follows / −11 entfolgt
+- **Letzte 7 Tage:** Reichweite **1918** (19.10.–25.10., +27 % zur Vorwoche) · Follower **+8** (jetzt 376) · 30 Tage: +32 Follows / −11 entfolgt
 - **Testmonat** (Tag 15/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
@@ -149,32 +149,32 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**374 Follower** · 25 Beiträge im Profil (Abruf 2026-10-25) · **+0** seit 2026-10-24
-Reichweite pro Tag: 22.10. **385** · 23.10. **380** · 24.10. **201** · 25.10. **1**
+**376 Follower** · 26 Beiträge im Profil (Abruf 2026-10-26) · **+2** seit 2026-10-25
+Reichweite pro Tag: 23.10. **380** · 24.10. **201** · 25.10. **584** · 26.10. **13**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Sa 24.10. 11:21 | 67 | 58 | 0 | 0 | 0 |
-| Sa 24.10. 12:16 | 65 | 52 | 0 | 1 | 0 |
+| So 25.10. 11:00 | 39 | 36 | 0 | 0 | 0 |
+| So 25.10. 19:23 | 23 | 21 | 0 | 0 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 240 | 198 | 4 | 1 | 2 | 0 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 806 (+1) | 695 | 10 | 10 | 10 | 60 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 158 (+2) | 131 | 3 | 1 | 2 | 0 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 162 (+3) | 115 | 9 | 4 | 7 | 14 |
-| Di 20.10. 17:45 [Verlustvortrag 2026: 3 Mio. € Verlust – ](https://www.instagram.com/reel/DeuJJHoDXkl/) | 129 (+3) | 85 | 2 | 0 | 0 | 0 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 124 (+11) | 40 | 2 | 0 | 1 | 0 |
-| Mo 19.10. 19:26 [Aufbewahrungsfristen: Buchungsbelege nur](https://www.instagram.com/reel/DeryoWUE_Or/) | 85 (+1) | 65 | 5 | 0 | 1 | 0 |
-| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 186 (+6) | 78 | 4 | 0 | 5 | 0 |
-| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 180 (+7) | 111 | 15 | 0 | 4 | 0 |
-| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 277 (+1) | 230 | 6 | 0 | 5 | 0 |
-| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 284 (+6) | 180 | 10 | 0 | 5 | 0 |
-| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 171 (+8) | 80 | 1 | 0 | 1 | 0 |
-| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 256 (+2) | 203 | 6 | 0 | 3 | 0 |
-| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 302 (+0) | 233 | 5 | 2 | 5 | 1 |
-| Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 158 (+4) | 67 | 4 | 0 | 2 | 0 |
-| Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 218 (+0) | 168 | 7 | 0 | 4 | 0 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 657 | 580 | 10 | 1 | 9 | 68 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 251 (+11) | 204 | 4 | 1 | 2 | 0 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 882 (+76) | 740 | 13 | 10 | 12 | 60 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 162 (+4) | 134 | 4 | 1 | 2 | 0 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 165 (+3) | 116 | 10 | 4 | 7 | 14 |
+| Di 20.10. 17:45 [Verlustvortrag 2026: 3 Mio. € Verlust – ](https://www.instagram.com/reel/DeuJJHoDXkl/) | 131 (+2) | 85 | 3 | 0 | 0 | 0 |
+| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 126 (+2) | 41 | 2 | 0 | 1 | 0 |
+| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 192 (+6) | 79 | 4 | 0 | 5 | 0 |
+| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 183 (+3) | 113 | 16 | 0 | 4 | 0 |
+| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 278 (+1) | 231 | 7 | 0 | 5 | 0 |
+| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 285 (+1) | 181 | 11 | 0 | 5 | 0 |
+| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 173 (+2) | 82 | 1 | 0 | 1 | 0 |
+| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 257 (+1) | 204 | 7 | 0 | 3 | 0 |
+| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 303 (+1) | 234 | 6 | 2 | 5 | 1 |
+| Di 13.10. 12:16 [Werden Mieten voll hinzugerechnet? 🤔](https://www.instagram.com/p/Debkp_3m1WY/) | 158 (+0) | 67 | 4 | 0 | 2 | 0 |
+| Mo 12.10. 19:30 [final.xlsx · final_final.xlsx · final_fi](https://www.instagram.com/reel/DeZxf9AEy9p/) | 219 (+1) | 169 | 8 | 0 | 4 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -197,6 +197,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 08:48 📈 Statistik 2026-10-26 ([`d7efd2a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d7efd2a4a3aefe3291f2506eb1891091b50dea3e))
+  - `automatik/statistik`
+- 08:43 📡 Radar 2026-10-26: 8 Beiträge, 0 DM-Entwürfe ([`ac086f8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ac086f8093203858f0fc334d76adc99653e36ed8))
+  - `automatik/interaktion`
 - 08:38 ✍️ Plan: heute 17:45 Kleinunternehmer statt Einspruch (breiteres Publikum), Einspruch auf Mo 02.11., Prüfpfad auf Sa 31.10. (Platzhalter für Insider-Reel) ([`c4a35ae`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c4a35aece96fe6724e1ebe5f8e6ba75a0d834732))
   - Plan: `34-reel-einspruch` zeit: 2026-10-26 17:45 → 2026-11-02 17:45; `34-story-tipp` zeit: 2026-10-26 17:50 → 2026-11-02 17:50; `38-reel-pruefpfad` zeit: 2026-11-02 17:45 → 2026-10-31 17:45; `49-reel-kleinunternehmer` zeit: 2026-10-31 17:45 → 2026-10-26 17:45
 - 08:38 ✍️ Sprechtexte: Serie „Finanzamt-Insider“ I1–I12 (breites Publikum, Teilen-CTA, Normen geprüft 26.10.) für Aufnahme heute ([`e66c71e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e66c71eb4c1fe717ef7e64d8bd1b1d22b774d7fa))
