@@ -16,12 +16,14 @@ MONO = lade(["-i", Q, "-ac", "1"])                                   # so wurde 
 NEU = lade(["-i", Q, "-filter_complex", WEICHE, "-map", "[a]"])
 D = 6; m8 = MONO[::D] - MONO[::D].mean()                              # 8 kHz für die Grobsuche
 def ncc(x, y): return float(np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y) + 1e-9))
-def suche(w):                                                         # globale Suche (FFT), dann fein auf 48 kHz
-    w8 = w[::D]; n = len(m8) + len(w8)
-    c = np.fft.irfft(np.fft.rfft(m8, n) * np.conj(np.fft.rfft(w8, n)), n)[:len(m8) - len(w8)]
-    grob = int(np.argmax(c)) * D
+def suche(w, um=None, weite=60 * SR):                                 # Suche per FFT (erst in der Nähe), dann fein auf 48 kHz
+    a = 0 if um is None else max(0, (um - weite) // D); b = len(m8) if um is None else min(len(m8), (um + weite) // D)
+    w8 = w[::D]; ref = m8[a:b]; n = len(ref) + len(w8)
+    c = np.fft.irfft(np.fft.rfft(ref, n) * np.conj(np.fft.rfft(w8, n)), n)[:len(ref) - len(w8)]
+    c = c / np.sqrt(np.convolve(ref ** 2, np.ones(len(w8)), "valid")[:len(c)] + 1e-9)   # normiert, sonst gewinnen laute Stellen
+    grob = (a + int(np.argmax(c))) * D
     return max(range(grob - 2 * D, grob + 2 * D + 1), key=lambda o: ncc(MONO[o:o + len(w)], w) if 0 <= o <= len(MONO) - len(w) else -1)
-FEN, XF = 2400, int(0.025 * SR)                                       # 50-ms-Fenster
+FEN, XF = 4800, int(0.025 * SR)                                       # 100-ms-Fenster
 (Path("geschnitten/alt")).mkdir(exist_ok=True)
 for nr in sys.argv[1:]:
     f = Path(f"geschnitten/stimme_{nr}.wav"); alt = Path(f"geschnitten/alt/stimme_{nr}.wav")
@@ -32,7 +34,8 @@ for nr in sys.argv[1:]:
         w = S[k * FEN:(k + 1) * FEN]
         if np.sqrt(np.mean(w ** 2)) < 1e-3: ruhig.append(k); continue  # Stille: Versatz vom Nachbarn
         if o is None or ncc(MONO[o + k * FEN:o + (k + 1) * FEN], w) < 0.8:
-            o2 = suche(w) - k * FEN
+            o2 = suche(w, None if o is None else o + k * FEN) - k * FEN
+            if ncc(MONO[o2 + k * FEN:o2 + (k + 1) * FEN], w) < 0.8: o2 = suche(w) - k * FEN
             if o is None or ncc(MONO[o2 + k * FEN:o2 + (k + 1) * FEN], w) > ncc(MONO[o + k * FEN:o + (k + 1) * FEN], w): o = o2
         off[k] = o
     for k in range(len(off)):                                          # Lücken (Stille) auffüllen
