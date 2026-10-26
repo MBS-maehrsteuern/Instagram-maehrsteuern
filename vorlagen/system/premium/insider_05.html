@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.kicker{font-size:26px;letter-spacing:.16em;white-space:nowrap;gap:14px}.kicker .chip{font-size:21px;letter-spacing:.06em;padding:7px 14px}
+.dl{display:block;height:10px;border-radius:5px;background:#22352E;margin-bottom:20px}
+.folge{display:inline-block;padding:22px 40px;border:2px solid var(--rand);border-radius:999px;background:rgba(13,22,19,.8)}
+.ring{width:400px;height:400px;border-radius:50%;border:3px solid var(--gruen);background:radial-gradient(circle,rgba(83,195,162,.25),rgba(83,195,162,.04) 70%);box-shadow:0 0 90px rgba(83,195,162,.35);display:flex;align-items:center;justify-content:center;margin:50px auto 0}
+.md{width:150px;height:190px;border-radius:16px;border:2px solid #2b443a;background:#0B1411;position:relative;padding:24px 20px}
+.md i{display:block;height:10px;border-radius:5px;background:#22352E;margin-bottom:14px}
+.md.ok{border-color:var(--gruen);box-shadow:0 0 30px rgba(83,195,162,.35)}
+.md.flag{border-color:var(--gelb);box-shadow:0 0 40px rgba(232,176,74,.5);background:rgba(232,176,74,.08)}
+.md.dim{opacity:.3}
+.mono{font-family:var(--mono);font-size:26px;letter-spacing:.14em;color:var(--grau)}
+.row{display:flex;align-items:center;gap:26px;border:2px solid #22352E;border-radius:22px;background:#0B1411;padding:24px 30px;font-family:"Outfit";font-size:50px;margin-top:18px}
+.row .k{width:58px;height:58px;border-radius:50%;border:3px solid #2b443a;display:flex;align-items:center;justify-content:center;font-size:36px;color:transparent;flex:none}
+.row.an{border-color:var(--gruen);background:rgba(83,195,162,.12);box-shadow:0 0 36px rgba(83,195,162,.3)}
+.row.an .k{background:var(--gruen);border-color:var(--gruen);color:#07100c}
+.row.nein.an{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 36px rgba(224,122,107,.3)}
+.row.nein.an .k{background:var(--rot);border-color:var(--rot)}
+.folge{font-family:var(--mono);font-size:36px;letter-spacing:.06em;color:var(--text2);margin-top:60px}.folge b{color:var(--gruen2)}
+.big{font-family:"Outfit";letter-spacing:-.03em;line-height:1}
+.glow{filter:drop-shadow(0 0 28px rgba(83,195,162,.8))}
+.kachel{flex:1;border-radius:34px;border:4px solid var(--gruen);background:rgba(83,195,162,.12);text-align:center;font-family:"Outfit";font-size:128px;padding:56px 0 64px;line-height:1;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6);box-shadow:0 0 70px rgba(83,195,162,.25)}
+.kachel.n{border-color:var(--rot);background:rgba(224,122,107,.10);color:var(--rot);text-shadow:0 0 50px rgba(224,122,107,.5);box-shadow:0 0 70px rgba(224,122,107,.2)}
+</style><title>Finanzamt-Insider 05</title></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="4.3">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05<span class="chip" style="margin-left:auto">Diplom-Finanzwirt</span></div>
+
+ <h1 class="e" style="font-size:104px">Das trägt fast jeder</h1><h2 class="e" style="font-size:96px">Finanzbeamte ein.</h2>
+ <div class="panel e" style="padding:34px 46px 40px"><span class="norm">EIGENE STEUERERKLÄRUNG</span>
+  <div class="row" id="h1r" style="margin-top:34px"><span class="k">1</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:80%"></div></div></div>
+  <div class="row" id="h2r"><span class="k">2</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:62%"></div></div></div>
+  <div class="row" id="h3r"><span class="k">3</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:72%"></div></div></div></div>
+</section>
+<section class="szene" id="s2" data-von="4.3" data-bis="9.46">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
+
+ <h1 class="e">Eins: Homeoffice</h1><h2 class="e">6 Euro pro Tag.</h2>
+ <div class="panel e" style="height:420px"><span class="norm">§ 4 ABS. 5 NR. 6C ESTG</span>
+  <div style="display:flex;align-items:baseline;gap:24px;margin-top:24px"><div class="big" id="h6" style="font-size:170px;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)">6 €</div><div style="font-size:52px;color:var(--text2)">pro Tag</div></div>
+  <div class="leiste" style="margin-top:46px"><div id="hbar" style="width:0%"></div></div>
+  <div class="punkte"><span>im Jahr</span><span id="hmax" style="color:var(--gruen2);font-weight:600">bis 1.260 €</span></div></div>
+</section>
+<section class="szene" id="s3" data-von="9.46" data-bis="15.56">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
+
+ <h1 class="e">Zwei: Fahrten</h1><h2 class="e">zur Arbeit.</h2>
+ <div class="panel e" style="padding-bottom:40px"><span class="norm">§ 9 ABS. 1 NR. 4 ESTG</span>
+  <div style="display:flex;align-items:center;gap:30px;margin-top:20px"><div class="big" id="cent" style="font-size:150px;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)">38 Cent</div><span class="chip" id="seit">SEIT 2026</span></div>
+  <div style="position:relative;margin-top:60px;height:180px">
+   <div style="position:absolute;left:0;right:0;top:52px;height:10px;border-radius:5px;background:#22352E"></div>
+   <div id="road" style="position:absolute;left:0;top:52px;height:10px;border-radius:5px;background:var(--gruen);box-shadow:0 0 20px var(--gruen);width:0"></div>
+   <div id="km1" style="position:absolute;left:0;top:0;width:110px;height:110px;border-radius:50%;border:4px solid var(--gruen);background:#0B1411;display:flex;align-items:center;justify-content:center;font-family:Outfit;font-size:38px;color:var(--gruen2);box-shadow:0 0 40px rgba(83,195,162,.5)">KM 1</div>
+   <div class="mono" style="position:absolute;left:0;top:130px;font-size:30px;color:var(--text2)" id="abkm">AB DEM ERSTEN KILOMETER</div></div></div>
+</section>
+<section class="szene" id="s4" data-von="15.56" data-bis="19.24">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
+
+ <h1 class="e" style="font-size:98px">Drei: Arbeitsmittel</h1><h2 class="e" style="font-size:78px">Laptop, Schreibtisch.</h2>
+ <div class="panel e" style="height:380px"><div style="display:flex;justify-content:space-around;align-items:center;height:100%">
+  <div id="ic1" style="opacity:0"><svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="#7FE0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="11" rx="1.2"/><path d="M2 19h20"/></svg><div class="mono" style="text-align:center;font-size:30px;color:var(--text2)">LAPTOP</div></div>
+  <div id="ic2" style="opacity:0"><svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="#7FE0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="8" width="19" height="2.4" rx=".6"/><path d="M4.5 10.4V19M19.5 10.4V19M9 10.4v4h6v-4"/></svg><div class="mono" style="text-align:center;font-size:30px;color:var(--text2)">SCHREIBTISCH</div></div></div></div>
+</section>
+<section class="szene" id="s5" data-von="19.24" data-bis="24.02">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
+
+ <h1 class="e">Lohnt sich erst</h1><h2 class="e">über 1.230 Euro.</h2>
+ <div class="sub e">Darunter zählt eh der <b>Pauschbetrag.</b></div>
+ <div class="panel e" style="height:360px"><span class="norm">§ 9A ESTG</span>
+  <div style="position:relative;height:150px;margin-top:40px;display:flex">
+   <div id="zone1" style="width:50%;border:2px solid #2b443a;border-radius:20px 0 0 20px;display:flex;align-items:center;justify-content:center;font-family:Outfit;font-size:40px;color:var(--grau);text-align:center">Pauschbetrag</div>
+   <div id="zone2" style="width:50%;border:2px solid #2b443a;border-left:none;border-radius:0 20px 20px 0;display:flex;align-items:center;justify-content:center;font-family:Outfit;font-size:40px;color:var(--grau);text-align:center">lohnt sich</div>
+   <div id="mark" style="position:absolute;left:50%;top:-16px;bottom:-16px;width:6px;margin-left:-3px;background:var(--gelb);box-shadow:0 0 24px var(--gelb);opacity:0"></div></div>
+  <div class="mono" id="marklab" style="margin-top:34px;text-align:center;font-size:40px;color:var(--gelb);opacity:0">1.230 €</div></div>
+</section>
+<section class="szene" id="s6" data-von="24.02" data-bis="99">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
+
+ <h1 class="e" style="font-size:104px">Speichern für deine</h1><h2 class="e" style="font-size:96px">nächste Erklärung.</h2>
+ <div class="ring e"><div id="mk" class="glow"><svg viewBox="0 0 24 24" width="280" height="280" fill="rgba(83,195,162,.18)" stroke="#7FE0C2" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"><path d="M6 3h12v18l-6-4.2L6 21z"/></svg></div></div>
+ <div style="text-align:center"><div class="folge e">Folge <b>@maehrsteuern</b> für #06</div></div>
+</section>
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+const W=[["Das", 0.0], ["hier", 0.44], ["trägt", 0.74], ["fast", 0.96], ["jeder", 1.26], ["Finanzbeamte", 1.44], ["in", 2.2], ["seine", 2.32], ["eigene", 2.52], ["Steuererklärung", 2.9], ["ein.", 3.56], ["Eins:", 4.3], ["Homeoffice,", 4.74], ["6", 5.54], ["Euro", 5.84], ["pro", 6.12], ["Tag,", 6.32], ["bis", 7.1], ["1.260", 7.26], ["Euro", 8.3], ["im", 8.6], ["Jahr.", 8.76], ["Zwei:", 9.46], ["Fahrten", 10.36], ["zur", 10.58], ["Arbeit,", 10.78], ["seit", 11.54], ["2026", 11.62], ["38", 12.8], ["Cent", 13.42], ["ab", 13.82], ["dem", 14.04], ["ersten", 14.26], ["Kilometer.", 14.62], ["Und", 15.56], ["Drei:", 15.72], ["Arbeitsmittel", 16.6], ["wie", 17.12], ["Laptop", 17.3], ["oder", 17.82], ["Schreibtisch.", 18.08], ["Lohnt", 19.24], ["sich", 19.38], ["aber", 19.56], ["erst", 19.76], ["über", 19.98], ["1.230", 20.3], ["Euro,", 21.32], ["darunter", 22.18], ["zählt", 22.52], ["eh", 22.74], ["der", 22.94], ["Pauschbetrag.", 23.06], ["Speichern", 24.02], ["für", 24.42], ["deine", 24.64], ["nächste", 24.78], ["Erklärung.", 25.12]];
+const UT_END=26.0;
+
+function extra(t){
+  [[.6,"h1r"],[1.7,"h2r"],[2.8,"h3r"]].forEach(([z,id])=>{const e=$(id);e.classList.toggle("an",t>=z);e.querySelector(".k").style.color=t>=z?"#07100c":"var(--grau)"});
+  const hb=ease((t-7.1)/1.2);$("hbar").style.width=(100*hb)+"%";
+  const hs=ease((t-5.4)/.3);$("h6").style.transform=`scale(${.85+.15*hs})`;$("h6").style.transformOrigin="left";
+  $("hmax").style.opacity=t>=7.26?1:.2;
+  $("road").style.width=(100*ease((t-10.4)/2.4))+"%";$("seit").style.opacity=t>=11.54?1:0;
+  $("cent").style.opacity=t>=12.8?1:.15;$("abkm").style.opacity=t>=13.82?1:.2;
+  $("km1").style.transform=`scale(${t>=14.04&&t<14.5?1.15:1})`;
+  $("ic1").style.opacity=ease((t-17.3)/.3);$("ic1").style.transform=`scale(${.8+.2*ease((t-17.3)/.3)})`;
+  $("ic2").style.opacity=ease((t-18.08)/.3);$("ic2").style.transform=`scale(${.8+.2*ease((t-18.08)/.3)})`;
+  const m=ease((t-20.3)/.4);$("mark").style.opacity=m;$("marklab").style.opacity=m;
+  const z1=t>=22.5;$("zone1").style.color=z1?"var(--text)":"var(--grau)";$("zone1").style.background=z1?"rgba(139,150,145,.15)":"transparent";
+  const z2=t>=21.76;$("zone2").style.color=z2?"var(--gruen2)":"var(--grau)";$("zone2").style.background=z2?"rgba(83,195,162,.14)":"transparent";$("zone2").style.borderColor=z2?"var(--gruen)":"#2b443a";
+  if($("mk")){const q=t-24.02,k=t>24.5?1:0;$("mk").style.transform=`translateY(${k*-10*Math.sin(q*3)}px) scale(${1+k*.03*Math.sin(q*4)})`}
+}
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=bis>90?0:cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  extra(t);
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>UT_END){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

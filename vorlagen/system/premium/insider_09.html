@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Premium-Reel „Finanzamt-Insider #09“ – Elterngeld. Zeitgesteuert: render(t) zeichnet Frame t (Sekunden). Bauweg wie einspruch.html (rendern.mjs, reel_bauen.py). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--gold:#F2C979;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:230px;opacity:0}
+.kicker{font-family:var(--mono);font-size:29px;letter-spacing:.2em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen),0 0 36px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:38px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+h2.rot{color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:30px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:54px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:22px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600;text-transform:uppercase}
+.chip.gold{background:rgba(232,176,74,.2);color:var(--gold);border:2px solid rgba(232,176,74,.6);box-shadow:0 0 40px rgba(232,176,74,.35);font-size:34px;padding:12px 26px;letter-spacing:.16em}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.stp{position:absolute;border:7px solid var(--rot);color:var(--rot);font-family:"Outfit";font-size:70px;padding:8px 30px;border-radius:16px;letter-spacing:.06em;opacity:0;white-space:nowrap;text-shadow:0 0 30px rgba(224,122,107,.5);box-shadow:0 0 40px rgba(224,122,107,.3)}
+.karte{border:2px solid #22352E;background:#0B1411;border-radius:26px;position:relative}
+.zeile{height:24px;border-radius:12px;background:#1a2a24}
+.lbl{font-family:var(--mono);font-size:28px;color:var(--text2);letter-spacing:.12em;text-transform:uppercase}
+.track{height:26px;border-radius:13px;background:#13211C;position:relative}
+.track>div{height:100%;border-radius:13px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen);width:0}
+.kachel{flex:1;border-radius:30px;border:3px solid #22352E;background:#0B1411;padding:46px 20px;text-align:center;font-family:"Outfit";font-size:120px;line-height:1}
+#ut{position:absolute;left:90px;right:90px;top:1410px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.folge{display:inline-flex;align-items:center;gap:18px;margin-top:50px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:44px;padding:24px 46px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+.plane{width:300px;height:300px;border-radius:50%;border:4px solid var(--gruen);background:rgba(83,195,162,.12);display:flex;align-items:center;justify-content:center;box-shadow:0 0 90px rgba(83,195,162,.45);margin-top:50px}
+.plane svg{width:170px;height:170px;filter:drop-shadow(0 0 22px rgba(127,224,194,.9))}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div>
+
+<section class="szene" id="s1" data-von="0" data-bis="4.2">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><div class="chip e" style="margin-top:22px">Diplom-Finanzwirt</div><h1 class="e" style="font-size:112px;margin-top:30px">Elterngeld:</h1><h2 class="e" style="font-size:108px">steuerfrei <span style="color:var(--gruen2)">✓</span></h2><div class="sub e" style="font-size:50px;margin-top:22px"><b style="color:var(--rot)">Trotzdem Steuern?</b></div><div class="panel e" id="p1" style="height:600px;padding:0;margin-top:40px"><div class="karte" id="k1" style="position:absolute;left:70px;right:70px;top:60px;bottom:60px;padding:40px"><div class="lbl" style="font-size:34px;color:var(--text)">Elterngeld</div><div class="zeile" style="width:70%;margin-top:34px"></div><div class="zeile" style="width:45%;margin-top:18px"></div><div id="b1" style="position:absolute;left:50%;top:56%;transform:translate(-50%,-50%);font-family:Outfit;font-size:70px;padding:16px 40px;border-radius:20px;background:rgba(83,195,162,.2);color:var(--gruen2);border:4px solid var(--gruen);box-shadow:0 0 50px rgba(83,195,162,.5);white-space:nowrap">STEUERFREI ✓</div><div class="stp" id="st1" style="left:50%;top:56%;font-size:78px">NACHZAHLUNG</div></div><div id="sw1" style="position:absolute;top:0;bottom:0;width:260px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-14deg)"></div></div>
+</section>
+<section class="szene" id="s2" data-von="4.2" data-bis="7.5">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><h1 class="e">Dein Steuersatz</h1><h2 class="e">steigt.</h2><div class="sub e">auf dein <b>übriges Einkommen.</b></div><div class="panel e" style="height:470px"><span class="norm">§ 32b ABS. 1 NR. 1 EStG</span><div class="lbl" style="margin-top:34px">Steuersatz</div><div class="track" style="margin-top:50px;height:34px"><div id="m2" style="width:30%"></div><div id="mk" style="position:absolute;top:-30px;left:30%;width:10px;height:94px;border-radius:5px;background:var(--text);box-shadow:0 0 24px #fff"></div></div><div style="display:flex;justify-content:space-between;margin-top:56px"><span class="chip">übriges Einkommen</span><span class="chip gold" id="eg" style="font-size:24px;padding:8px 18px;opacity:0">+ Elterngeld</span></div></div>
+</section>
+<section class="szene" id="s3" data-von="7.5" data-bis="9.3">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><h1 class="e">Das heißt:</h1><h2 class="e" style="font-size:78px">Progressions&shy;vorbehalt</h2><div class="panel e" style="height:430px"><span class="norm">§ 32b EStG</span><div style="display:flex;align-items:flex-end;gap:22px;height:300px;margin-top:40px" id="tr"><div style="flex:1;height:30%;border-radius:14px;background:#1a2a24"></div><div style="flex:1;height:48%;border-radius:14px;background:#1a2a24"></div><div style="flex:1;height:68%;border-radius:14px;background:#1a2a24"></div><div style="flex:1;height:92%;border-radius:14px;background:#1a2a24"></div></div></div>
+</section>
+<section class="szene" id="s4" data-von="9.3" data-bis="13.3">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><h1 class="e">Ab 410 Euro:</h1><h2 class="e" style="font-size:90px">Steuererklärung Pflicht.</h2><div class="panel e" style="height:540px"><span class="norm">§ 46 ABS. 2 NR. 1 EStG</span><div style="display:flex;align-items:center;justify-content:space-between;margin-top:40px"><div><div class="lbl">Elterngeld</div><div class="gross" id="z4" style="font-size:190px;margin-top:10px">0 €</div></div><div class="karte" id="f4" style="width:300px;height:330px;padding:28px"><div class="zeile" style="width:80%"></div><div class="zeile" style="width:60%;margin-top:18px"></div><div class="zeile" style="width:70%;margin-top:18px"></div><div class="stp" id="st4" style="left:50%;top:70%;font-size:34px;border-width:5px;padding:6px 14px;color:var(--gruen2);border-color:var(--gruen);text-shadow:none">ABGABE ✓</div></div></div></div>
+</section>
+<section class="szene" id="s5" data-von="13.3" data-bis="15.6">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><h1 class="e">Viele Eltern:</h1><h2 class="e rot" style="color:var(--rot);text-shadow:0 0 40px rgba(224,122,107,.35)">Nachzahlung.</h2><div class="panel e" style="height:470px"><div class="karte" style="position:absolute;left:70px;right:70px;top:60px;bottom:60px;padding:36px"><div class="lbl" style="color:var(--text)">Steuerbescheid</div><div class="zeile" style="width:65%;margin-top:30px"></div><div class="zeile" style="width:40%;margin-top:18px"></div><div class="stp" id="st5" style="left:50%;top:68%;font-size:70px">NACHZAHLUNG</div></div></div>
+</section>
+<section class="szene" id="cta" data-von="15.6" data-bis="99">
+<div class="kicker e"><i></i>Finanzamt-Insider · #09</div><h1 class="e" style="font-size:96px;line-height:1.08">Schick das an werdende Eltern.</h1><div class="e" style="display:flex;justify-content:center"><div class="plane" id="plane"><svg viewBox="0 0 24 24" fill="none" stroke="#7FE0C2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2.5L2.5 10l7.2 3 3 7.2z"/><path d="M9.7 13L21.5 2.5"/></svg></div></div><div class="e" style="text-align:center"><div class="folge">Folge <b>@maehrsteuern</b> für #10</div></div>
+</section>
+
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 01</span></div>
+
+<script>
+const VOICE_END=17.45;
+const W=[["Elterngeld", 0.0], ["ist", 0.68], ["steuerfrei", 0.88], ["und", 1.52], ["kann", 2.24], ["dich", 2.58], ["trotzdem", 2.78], ["steuern", 3.14], ["kosten.", 3.5], ["Es", 4.42], ["erhöht", 4.54], ["den", 4.86], ["Steuersatz", 5.06], ["auf", 5.48], ["dein", 5.7], ["übriges", 5.84], ["Einkommen.", 6.32], ["Progressionsvorbehalt", 7.66], ["nennt", 8.34], ["man", 8.5], ["das.", 8.68], ["Und", 9.38], ["ab", 9.56], ["410", 9.72], ["Euro", 10.32], ["musst", 10.94], ["du", 11.36], ["eine", 11.56], ["Steuererklärung", 11.76], ["abgeben.", 12.4], ["Viele", 13.5], ["Eltern", 13.62], ["bekommen", 13.86], ["deshalb", 14.2], ["eine", 14.54], ["Nachzahlung.", 14.8], ["Schick", 15.66], ["das", 15.86], ["an", 16.26], ["werdende", 16.54], ["Eltern.", 16.92]];
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,?:]$/.test(w[0])||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+const ramp=(t,a,d)=>ease((t-a)/d);
+function stempel(id,t,a,rot){const p=ramp(t,a,0.2);const e=$(id);e.style.opacity=p;e.style.transform=`translate(-50%,-50%) rotate(${rot}deg) scale(${1.8-0.8*p})`}
+function sweep(id,t,a){$(id).style.left=(-300+1500*cl((t-a)/0.9,0,1))+"px"}
+
+function anim(t){
+
+sweep("sw1",t,0.05);
+const a=ramp(t,3.14,0.2);
+$("b1").style.opacity=1-a;$("b1").style.transform=`translate(-50%,-50%) scale(${1-0.15*a})`;
+stempel("st1",t,3.14,-8);
+$("k1").style.borderColor=t>=3.14?"var(--rot)":"#22352E";$("k1").style.boxShadow=t>=3.14?"0 0 50px rgba(224,122,107,.35)":"none";
+const k=ramp(t,4.54,0.9);$("m2").style.width=(30+45*k)+"%";$("mk").style.left=(30+45*k)+"%";
+$("m2").style.background=k>.5?"linear-gradient(90deg,var(--gruen),var(--rot))":"";$("eg").style.opacity=ramp(t,4.5,0.3);
+[...$("tr").children].forEach((d,i)=>{const on=t>=7.66+i*0.28;d.style.background=on?(i===3?"var(--rot)":"var(--gruen)"):"#1a2a24";d.style.boxShadow=on?"0 0 30px rgba(83,195,162,.4)":"none"});
+const c=ramp(t,9.4,0.9);$("z4").textContent=Math.round(410*c)+" €";$("z4").style.color=c>=1?"var(--gruen2)":"var(--text)";
+stempel("st4",t,11.76,-8);$("f4").style.borderColor=t>=11.76?"var(--gruen)":"#22352E";
+stempel("st5",t,14.8,-6);
+$("plane").style.transform=`translateY(${t>16?-14*Math.sin((t-16)*3):0}px) scale(${1+0.04*Math.sin((t-16)*5)})`;
+
+}
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=bis>90?0:cl((t-(bis-0.2))/0.2,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-von-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  anim(t);
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>VOICE_END+0.4){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+
+</script></body></html>
