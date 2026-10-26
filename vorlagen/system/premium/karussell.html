@@ -50,6 +50,10 @@ td.a{color:var(--gruen2);font-weight:600}
 #fuss{position:absolute;left:84px;right:84px;bottom:66px;display:flex;align-items:center;gap:24px;font-family:var(--mono);font-size:26px;color:var(--text2)}
 #fuss .h{display:flex;align-items:center;gap:12px;color:var(--text);font-weight:600}#fuss .h i{width:26px;height:26px;border-radius:50%;background:var(--gruen);box-shadow:0 0 14px var(--gruen)}
 #seg{flex:1;display:flex;gap:9px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.vn{border:2px solid #22352E;border-radius:22px;padding:22px 28px;margin-top:16px;background:#0B1411}.vn.jetzt{border-color:var(--gruen);background:rgba(83,195,162,.08);box-shadow:0 0 40px rgba(83,195,162,.22)}
+.vn .z{display:flex;gap:18px;align-items:baseline;padding:10px 0;border-top:1px solid #1d3029;font-size:30px}.vn .z:first-of-type{border-top:0}.vn .z b{min-width:280px}.vn .z span{color:var(--text2)}
+.mono{font-family:var(--mono);font-size:27px;line-height:1.55;color:var(--text)}
+.speichern{margin-top:auto;display:flex;align-items:center;gap:16px;font-family:Outfit;font-size:34px;color:var(--text)}.speichern i{width:30px;height:40px;background:var(--gruen);clip-path:polygon(0 0,100% 0,100% 100%,50% 75%,0 100%);box-shadow:0 0 20px var(--gruen)}
 </style></head><body>
 <div id="bg"></div><div id="raster"></div><div id="f"></div>
 <div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr"></span></div>
@@ -62,7 +66,11 @@ const PANEL={
   zahl:p=>`<div class="kopf"><span>${p.kopf||""}</span><span>${p.kopf2||""}</span></div><div class="gross ${p.rot?"rot":""}">${p.gross}</div><div class="text" style="margin-top:22px">${md(p.text)}</div>`,
   vergleich:p=>(p.kopf?`<div class="kopf"><span>${p.kopf}</span><span>${p.kopf2||""}</span></div>`:"")+`<div class="vgl">`+[p.links,p.rechts].map(s=>`<div class="${s.art||""}"><div class="t">${s.titel}</div><div class="w">${s.wert}</div><div class="x">${md(s.text)}</div></div>`).join("")+`</div>`,
   tabelle:p=>`<div class="kopf"><span>${p.kopf||""}</span><span>${p.kopf2||""}</span></div><table><tr>${p.spalten.map(s=>`<th>${s}</th>`).join("")}</tr>`+p.zeilen.map(z=>`<tr>${z.map((c,i)=>`<td class="${i===z.length-1?"a":""}">${md(c)}</td>`).join("")}</tr>`).join("")+`</table>`,
-  text:p=>`<div class="text">${md(p.text)}</div>`
+  text:p=>`<div class="text">${md(p.text)}</div>`,
+  // 20_wissen_motion: Vorher/Nachher, „Der alte Weg“, Mono-Box (Formel/Musterformulierung)
+  vorher_nachher:p=>[["vorher",p.vorher,p.kopfVorher||"Vorher"],["jetzt",p.jetzt,p.kopfJetzt||"Jetzt"]].map(([k,z,kopf])=>`<div class="vn ${k}"><span class="chip ${k==="vorher"?"":""}">${kopf}</span>`+z.map(([a,b])=>`<div class="z"><b>${md(a)}</b><span>› ${md(b)}</span></div>`).join("")+`</div>`).join(""),
+  alter_weg:p=>(p.kopf?`<div class="kopf"><span>${p.kopf}</span><span>${p.kopf2||""}</span></div>`:"")+p.punkte.map(x=>{const[a,b]=[].concat(x);return`<div class="zeile" style="border-left:6px solid var(--rot)"><span>${md(a)}${b?`<small>${md(b)}</small>`:""}</span></div>`}).join("")+(p.schluss?`<div class="text" style="margin-top:22px;color:var(--gruen2)">${md(p.schluss)}</div>`:""),
+  box:p=>`<div class="kopf"><span class="chip">${p.label||"Muster"}</span><span>${p.kopf2||""}</span></div><div class="mono">${md(p.text)}</div>`
 };
 window.zeichne=(f,nr,ges)=>{
   const typ=f.typ||(nr===1?"titel":nr===ges?"cta":"inhalt");
@@ -75,6 +83,7 @@ window.zeichne=(f,nr,ges)=>{
     if(f.panel)h+=`<div class="panel">${PANEL[f.panel.typ](f.panel)}</div>`;
     if(f.norm)h+=`<div class="norm"><span class="chip">Norm</span><span class="t">${md(f.norm)}</span></div>`;
     else if(typ==="titel")h+=`<div class="wisch">${f.wisch||"Wisch für die Lösung"} <span>→</span></div>`;
+    if(f.speichern)h+=`<div class="speichern" style="${typ==="titel"?"margin-top:28px":""}"><i></i>${md(f.speichern)}</div>`;
   }
   const el=document.getElementById("f");el.className=typ;el.innerHTML=h;
   document.getElementById("seg").innerHTML=Array.from({length:ges},(_,i)=>`<div class="${i<nr?"on":""}"></div>`).join("");
