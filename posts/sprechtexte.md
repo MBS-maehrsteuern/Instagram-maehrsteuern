@@ -210,3 +210,19 @@ Bild: Gesicht + Bildschirm (Format C), am Ende Prüfpfad-Klick im Tool. Hook-Tex
 > Schreib TOOL per DM.
 
 Bild: nur die Karten aus `assets/marke/` (Drehbuch `posts/04_2026-10-20_reel_mein_weg/drehbuch_markenweg.md`), kein eigener Clip nötig. Ca. 18 s, gern in deinen Worten. Hook-Text: „Das bin ich. Heute.“
+
+## Serie „Mein Weg“ (Trichter Mitte, Selfie + Motion-Overlays) – Entwurf 26.10.
+
+### M1 – „Warum ich das Finanzamt verlassen habe“ (~30 s)
+Aufnahme: Handy hochkant, Frontkamera, Augen auf Höhe der Linse, Fenster vor dir (Licht von vorn), ruhiger Raum.
+Ganzer Text in einem Durchgang, 2–3 Anläufe. Danach 3 s still in die Kamera schauen (Puffer für Schnitt).
+
+| Zeit | Sprechtext | Bild / Overlay (baut Claude) |
+|---|---|---|
+| 0–3 s | „Ich hab jahrelang im Finanzamt gesessen. Auf der anderen Seite.“ | Gesicht groß · Kicker oben „EX-FINANZAMT“ (Pop-in) |
+| 3–9 s | „Und der häufigste Fehler, den ich gesehen hab, war nie Betrug. Es war Excel.“ | „Betrug“ durchgestrichen → „Excel“ leuchtet (Text-Swap) |
+| 9–16 s | „Falsche Formel, alte Version, eine Zelle verrutscht – und am Ende stimmt die Steuer nicht.“ | Split: oben Gesicht, unten Excel-Zelle, Zahl springt rot |
+| 16–23 s | „Darum bau ich heute Tools, die genau das abfangen. Damit niemand mehr wegen einer Zelle Ärger bekommt.“ | Haken-Animation, kleines Tool-Mockup |
+| 23–30 s | „Wenn du wissen willst, wie das Finanzamt wirklich denkt – folg mir. Ich erzähl's dir.“ | Abspann-Karte „Folge @maehrsteuern“ |
+
+Regeln: keine echten Fälle, keine Namen, nichts Internes (§ 37 BeamtStG), nichts von CATL. Nur allgemeine Erfahrung.
