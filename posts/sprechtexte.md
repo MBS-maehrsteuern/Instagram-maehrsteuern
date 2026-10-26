@@ -217,7 +217,7 @@ Bild: nur die Karten aus `assets/marke/` (Drehbuch `posts/04_2026-10-20_reel_mei
 Kern: Scheinsicherheit. Eigene Erfahrung, **ohne Betrag**, kein Bundesland.
 Quelle: § 59 Abs. 5 BBesG (gesetze-im-internet.de, abgerufen 26.10.2026) – Anwärterbezüge bei Vorbereitungsdienst mit Studium
 können an Auflagen geknüpft werden; die Länder regeln das entsprechend. „5 Jahre“ und „anteilig“ = übliche Auflage
-(Verwaltungsvorschriften, je nach Land) → im Text bewusst „in vielen Bundesländern“ / „ganz oder anteilig“. [PRÜFEN: Loris bestätigt aus eigener Erfahrung]
+(Verwaltungsvorschriften, je nach Land) → im Text bewusst „in vielen Bundesländern“ / „ganz oder anteilig“. ✓ 5 Jahre von Loris aus eigener Erfahrung bestätigt (26.10.)
 
 | Zeit | Sprechtext | Bild / Overlay |
 |---|---|---|
