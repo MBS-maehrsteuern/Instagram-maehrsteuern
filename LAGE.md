@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:05 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:16 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:16 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`97d1611`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/97d161192e513c18431f94119dced33f65bd7e74))
+- 16:16 ✍️ Insider #08: Pfeilspitze sitzt auf der Linie, Meldung läuft als Datenpaket zum Finanzamt (Bewegung im Hook) ([`07d3b1b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/07d3b1b284aa1f7ce7f3c71a69d6b1e28a6559d8))
+  - `posts/i08_2026-10-26_insider_rente_oma`, `vorlagen/system/premium/insider_08.html`
 - 16:05 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`73ae8b7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/73ae8b72239b4001b25235c4c4a92b7ed7cef511))
 - 16:05 ✍️ Sprechtexte: Serie „Steuer-Spickzettel“ S1–S5 als Reels (Zahlen 2026 geprüft); neue herr_tech-Beispiele kritisch bewertet (20_wissen) ([`fafdcb5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fafdcb56aad68e65628fd4bc372ab9243660506a))
   - `posts/sprechtexte.md`, `strategie/20_wissen_motion.md`
