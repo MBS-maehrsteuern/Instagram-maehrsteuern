@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:48 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 17:02 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 17:02 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`b49f4f4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b49f4f40f6814734f15e52f393410456f7792135))
+- 17:02 ✍️ Stimme klingt wieder natürlich: nur Hauptmikro statt Stereo→Mono (Kammfilter um 1–1,5 kHz), keine Entrauschung/De-Esser/EQ – Insider #08 neu ([`1c1a12d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1c1a12ddc3bc2c3794a2b0b7e84f2bfc393bb5f8))
+  - `aufnahmen/2026-10-26/geschnitten/I10_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I11_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I12_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I1_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I2_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I3_roh.wav`, `…`
 - 16:48 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`02b8737`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/02b87376363065ba03360a0782856730e35d4181))
 - 16:48 ✍️ Fach-Reels 32–57: Stimme mit Klangabgleich neu abgemischt (Bild unverändert, −18 LUFS) ([`0411999`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/04119991d85e0b9a355eac89f3f401b66da6598f))
   - `posts/32_2026-10-23_reel_mindeststeuer`, `posts/33_2026-10-24_reel_paragraf_formel`, `posts/34_2026-10-25_reel_einspruch`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `…`
