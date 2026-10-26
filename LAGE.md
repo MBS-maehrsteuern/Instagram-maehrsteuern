@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 17:02 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 17:09 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 17:09 ✍️ Fach-Reels 32–57 zurück auf Originalton (Klangabgleich verworfen), Insider #01 mit kombinierten Mikros ([`82a09f2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/82a09f27d86bef4b9c1a30f19311b153341529b8))
+  - `posts/32_2026-10-23_reel_mindeststeuer`, `posts/33_2026-10-24_reel_paragraf_formel`, `posts/34_2026-10-25_reel_einspruch`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `…`
+- 17:07 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c903e7c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c903e7c93426a19c53da81cb170e3cd88f8e8bf4))
+- 17:07 ✍️ Stimme: beide Handy-Mikros per Frequenzweiche kombiniert (rechts Präsenz, links S-Laute/Höhen ab 7 kHz) – Insider #08 neu ([`edb226d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/edb226d36d8615190f1de83a5aeec7d0ade6f88d))
+  - `aufnahmen/2026-10-26/geschnitten/I10_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I11_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I12_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I1_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I2_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I3_roh.wav`, `…`
 - 17:02 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`b49f4f4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b49f4f40f6814734f15e52f393410456f7792135))
 - 17:02 ✍️ Stimme klingt wieder natürlich: nur Hauptmikro statt Stereo→Mono (Kammfilter um 1–1,5 kHz), keine Entrauschung/De-Esser/EQ – Insider #08 neu ([`1c1a12d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1c1a12ddc3bc2c3794a2b0b7e84f2bfc393bb5f8))
   - `aufnahmen/2026-10-26/geschnitten/I10_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I11_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I12_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I1_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I2_roh.wav`, `aufnahmen/2026-10-26/geschnitten/I3_roh.wav`, `…`
