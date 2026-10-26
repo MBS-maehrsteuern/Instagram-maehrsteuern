@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:16 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:29 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`ec7d6c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ec7d6c61655463198fad379657521ff13bffb762))
+- 16:29 ✍️ Klang-EQ für Loris' Stimme (weniger Wummern, mehr Präsenz) – Insider #08 neu abgemischt ([`6db3afb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6db3afb62e15a1deecca9c5efe20de593293a962))
+  - `posts/i08_2026-10-26_insider_rente_oma`, `vorlagen/system/premium/reel_bauen.py`
 - 16:16 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`97d1611`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/97d161192e513c18431f94119dced33f65bd7e74))
 - 16:16 ✍️ Insider #08: Pfeilspitze sitzt auf der Linie, Meldung läuft als Datenpaket zum Finanzamt (Bewegung im Hook) ([`07d3b1b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/07d3b1b284aa1f7ce7f3c71a69d6b1e28a6559d8))
   - `posts/i08_2026-10-26_insider_rente_oma`, `vorlagen/system/premium/insider_08.html`
