@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 03:54 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 05:02 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -17,6 +17,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Skill `loris-stimme` (26.10.):** Bildunterschriften, erste Kommentare, DM-Antworten und Mails klingen nach Loris (`.claude/skills/loris-stimme/SKILL.md`). Regeln in `strategie/` gehen vor; nur Entwürfe.
 - **Takt ab 26.10. (Loris 25.10. nach Auswertung):** 1 Feed-Beitrag/Tag um 17:45 – Reel täglich, Karussell statt Reel Mi + So. Grund: an Tagen mit 2–3 Beiträgen Ø ~180 statt ~440 Aufrufe (`19_wissen` Abschnitt 7). Plan steht bis 16.11. (Reels) bzw. 02.12. (Karussells); ab 17.11. braucht es neue Reels (Aufnahmen!).
 - **Stand 25.10. (Sitzung mit Loris):**
   - **Premium-Look** (Loris' Design-Screenshots @herr_tech, eigene Markenfarben): Baukasten `vorlagen/system/premium/` (HTML-Animation → `rendern.mjs` → `reel_bauen.py` mit Stimme + `sfx.py` Sounddesign). Erstes Reel: 34 Einspruch v3 (Hook Kalender 05→09 „4 Tage länger“, Szenenwechsel alle 2,5–4 s, CTA „Kommentiere TOOL“). Wartet auf go (Vorschlag So 17:45). Danach alle Reels/Karussells in diesem Look.
@@ -197,6 +198,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 05:02 ✍️ Lage: Skill loris-stimme notiert ([`7366def`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7366defde81363c6eaf54ea32dc211d5a7a4f6b4))
+  - `LAGE.html`, `automatik/lage_notizen.md`
+- 05:02 ✍️ Skill loris-stimme: Mails und Texte in Loris' Schreibstil ([`55b8547`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/55b854748f7fce0bb7b9e2fc5d0832ae6c590c90))
+  - `.claude/skills/loris-stimme/SKILL.md`
 - 03:54 ✍️ Plan: Gläsern-Reel als veröffentlicht nachgetragen (online seit 22.10., Link von Loris) ([`f4a6fa7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f4a6fa72b7bed214dee8ebac0997bf9a0bbadf4c))
   - Plan: `62-reel-glaesern` status: manuell → veroeffentlicht; `62-reel-glaesern` zeit: 2026-10-25 11:45 → 2026-10-22 11:50; `62-reel-glaesern` online: https://www.instagram.com/reel/DezHdgPt1_0/
 

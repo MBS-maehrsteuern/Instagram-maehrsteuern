@@ -1,3 +1,4 @@
+- **Skill `loris-stimme` (26.10.):** Bildunterschriften, erste Kommentare, DM-Antworten und Mails klingen nach Loris (`.claude/skills/loris-stimme/SKILL.md`). Regeln in `strategie/` gehen vor; nur Entwürfe.
 - **Takt ab 26.10. (Loris 25.10. nach Auswertung):** 1 Feed-Beitrag/Tag um 17:45 – Reel täglich, Karussell statt Reel Mi + So. Grund: an Tagen mit 2–3 Beiträgen Ø ~180 statt ~440 Aufrufe (`19_wissen` Abschnitt 7). Plan steht bis 16.11. (Reels) bzw. 02.12. (Karussells); ab 17.11. braucht es neue Reels (Aufnahmen!).
 - **Stand 25.10. (Sitzung mit Loris):**
   - **Premium-Look** (Loris' Design-Screenshots @herr_tech, eigene Markenfarben): Baukasten `vorlagen/system/premium/` (HTML-Animation → `rendern.mjs` → `reel_bauen.py` mit Stimme + `sfx.py` Sounddesign). Erstes Reel: 34 Einspruch v3 (Hook Kalender 05→09 „4 Tage länger“, Szenenwechsel alle 2,5–4 s, CTA „Kommentiere TOOL“). Wartet auf go (Vorschlag So 17:45). Danach alle Reels/Karussells in diesem Look.
