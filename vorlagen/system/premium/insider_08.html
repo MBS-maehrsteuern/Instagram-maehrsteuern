@@ -147,7 +147,7 @@ function extra(t){
   const eh=ease((t-8.2)/1.0)*(t<9.26?0.55:0.55+0.05);
   const hh=t<8.2?0:ease((t-8.0)/1.4)*300;$("eb").style.height=hh+"px";
   const over=hh>150;$("gl").style.borderColor=over?"var(--gelb)":"var(--gelb)";$("eb").style.background=over?"linear-gradient(180deg,var(--gelb),rgba(232,176,74,.3))":"linear-gradient(180deg,var(--gruen2),rgba(83,195,162,.35))";
-  const v=Math.round(12348*ease((t-11.76)/1.68)),s=String(v).replace(/\B(?=(\d{3})+(?!\d))/g,".");$("zahl").textContent=(t<11.76?"0":s)+" €";
+  const v=Math.round(12348*ease((t-10.2)/0.9)),s=String(v).replace(/\B(?=(\d{3})+(?!\d))/g,".");$("zahl").textContent=s+" €";
   const st=ease((t-14.94)/.25);$("stamp").style.opacity=st;$("stamp").style.transform=`rotate(-6deg) scale(${1.5-.5*st})`;
   const ev=ease((t-16.66)/.4);$("env").style.opacity=ev;$("env").style.transform=`translateY(${(1-ev)*-60}px)`;
   if($("plane")){const q=t-17.8,k=t>18.3?1:0;$("plane").style.transform=`translate(${k*14*Math.sin(q*3)}px,${k*-18*Math.sin(q*2.4)}px) rotate(${k*4*Math.sin(q*2)}deg)`}

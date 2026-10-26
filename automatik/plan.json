@@ -1055,7 +1055,7 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
       "issue": 31,
       "stimme": false,
       "hook": "fall"
@@ -1153,7 +1153,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-01. · 25.10.: Termin 2026-11-01 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-01. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-01. · 25.10.: Termin 2026-11-01 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11."
     },
     {
       "id": "35-story-teaser",
@@ -1218,7 +1218,7 @@
     },
     {
       "id": "37-karussell-bp-vorbereitung",
-      "zeit": "2026-10-28 17:45",
+      "zeit": "2026-11-08 17:45",
       "typ": "karussell",
       "ordner": "posts/37_2026-10-27_bp_vorbereitung",
       "bilder": [
@@ -1233,7 +1233,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend."
     },
     {
       "id": "37-story-tipp",
@@ -1327,7 +1327,7 @@
     },
     {
       "id": "41-karussell-mythen",
-      "zeit": "2026-11-08 17:45",
+      "zeit": "2026-10-28 17:45",
       "typ": "karussell",
       "ordner": "posts/41_2026-10-29_mythen",
       "bilder": [
@@ -1344,7 +1344,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json."
     },
     {
       "id": "41-story-tipp",
@@ -1953,7 +1953,7 @@
     },
     {
       "id": "i01-reel-insider-programm",
-      "zeit": "2026-10-26 17:45",
+      "zeit": "2026-10-30 17:45",
       "typ": "reel",
       "ordner": "posts/i01_2026-10-26_insider_programm",
       "video": "reel.mp4",
@@ -1963,11 +1963,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10.: Serie Finanzamt-Insider #01 (Aufnahme 26.10., Schnitt aufnahmen/2026-10-26/geschnitten), Premium-Look premium/insider_01.html, 27,5 s, −18 LUFS, Hook „Kein Mensch. Ein Programm.“ ab Frame 1. Freigabe Loris („Freigabe für alles mit Sprachnachricht“, Reihenfolge ab heute)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-30. · 26.10.: Serie Finanzamt-Insider #01 (Aufnahme 26.10., Schnitt aufnahmen/2026-10-26/geschnitten), Premium-Look premium/insider_01.html, 27,5 s, −18 LUFS, Hook „Kein Mensch. Ein Programm.“ ab Frame 1. Freigabe Loris („Freigabe für alles mit Sprachnachricht“, Reihenfolge ab heute)."
     },
     {
       "id": "i02-reel-insider-kontenabruf",
-      "zeit": "2026-10-30 17:45",
+      "zeit": "2026-11-03 17:45",
       "typ": "reel",
       "ordner": "posts/i02_2026-10-26_insider_kontenabruf",
       "video": "reel.mp4",
@@ -1977,7 +1977,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-03. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i03-reel-insider-einspruch-0euro",
@@ -1991,11 +1991,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i04-reel-insider-saeumnis",
-      "zeit": "2026-11-03 17:45",
+      "zeit": "2026-11-05 17:45",
       "typ": "reel",
       "ordner": "posts/i04_2026-10-26_insider_saeumnis",
       "video": "reel.mp4",
@@ -2005,7 +2005,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-05. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i05-reel-insider-finanzbeamte",
@@ -2019,11 +2019,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i06-reel-insider-schaetzung",
-      "zeit": "2026-11-05 17:45",
+      "zeit": "2026-10-31 17:45",
       "typ": "reel",
       "ordner": "posts/i06_2026-10-26_insider_schaetzung",
       "video": "reel.mp4",
@@ -2033,11 +2033,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #06 (Aufnahme 26.10.), Premium-Look premium/insider_06.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-31. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #06 (Aufnahme 26.10.), Premium-Look premium/insider_06.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i07-reel-insider-kontrollmitteilung",
-      "zeit": "2026-11-06 17:45",
+      "zeit": "2026-11-07 17:45",
       "typ": "reel",
       "ordner": "posts/i07_2026-10-26_insider_kontrollmitteilung",
       "video": "reel.mp4",
@@ -2047,11 +2047,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #07 (Aufnahme 26.10.), Premium-Look premium/insider_07.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-07. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #07 (Aufnahme 26.10.), Premium-Look premium/insider_07.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i08-reel-insider-rente-oma",
-      "zeit": "2026-10-29 17:45",
+      "zeit": "2026-10-26 17:45",
       "typ": "reel",
       "ordner": "posts/i08_2026-10-26_insider_rente_oma",
       "video": "reel.mp4",
@@ -2061,11 +2061,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #08 (Aufnahme 26.10.), Premium-Look premium/insider_08.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-26. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #08 (Aufnahme 26.10.), Premium-Look premium/insider_08.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i09-reel-insider-elterngeld",
-      "zeit": "2026-10-31 17:45",
+      "zeit": "2026-10-29 17:45",
       "typ": "reel",
       "ordner": "posts/i09_2026-10-26_insider_elterngeld",
       "video": "reel.mp4",
@@ -2075,11 +2075,11 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #09 (Aufnahme 26.10.), Premium-Look premium/insider_09.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-29. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #09 (Aufnahme 26.10.), Premium-Look premium/insider_09.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i10-reel-insider-belege",
-      "zeit": "2026-11-07 17:45",
+      "zeit": "2026-11-06 17:45",
       "typ": "reel",
       "ordner": "posts/i10_2026-10-26_insider_belege",
       "video": "reel.mp4",
@@ -2089,7 +2089,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #10 (Aufnahme 26.10.), Premium-Look premium/insider_10.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-06. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #10 (Aufnahme 26.10.), Premium-Look premium/insider_10.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i11-reel-insider-anrufen",
@@ -2103,7 +2103,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #11 (Aufnahme 26.10.), Premium-Look premium/insider_11.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-09. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #11 (Aufnahme 26.10.), Premium-Look premium/insider_11.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     },
     {
       "id": "i12-reel-insider-mbs-excel",
@@ -2117,7 +2117,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #12 (Aufnahme 26.10.), Premium-Look premium/insider_12.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-10. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #12 (Aufnahme 26.10.), Premium-Look premium/insider_12.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
     }
   ]
 }
