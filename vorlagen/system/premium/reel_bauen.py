@@ -18,8 +18,9 @@ eingaenge = ["-i", str(sfx)] if sfx.exists() else []
 mix = "[3:a]volume=0.35[s];[1:a][m][s]amix=inputs=3" if sfx.exists() else "[1:a][m]amix=inputs=2"
 with tempfile.TemporaryDirectory() as tmp:
     if nur_ton:
-        bild, vcodec = ["-i", str(post / "reel_alt.mp4")], ["-c:v", "copy"]
-        (post / "reel.mp4").rename(post / "reel_alt.mp4")
+        alt = Path(tmp) / "bild.mp4"          # nicht im Post-Ordner: dort liegt teils ein versioniertes reel_alt.mp4
+        (post / "reel.mp4").rename(alt)
+        bild, vcodec = ["-i", str(alt)], ["-c:v", "copy"]
     else:
         subprocess.run(["node", "rendern.mjs", f"{name}.html", str(dauer), tmp], check=True, cwd=hier)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{tmp}/f00000.jpg", str(post / "titelbild.png")], check=True)
@@ -31,6 +32,4 @@ with tempfile.TemporaryDirectory() as tmp:
                     f"atrim=0:{dauer},asetpts=N/SR/TB,loudnorm=I=-18:TP=-1.5:LRA=11[a]",
                     "-map", "0:v", "-map", "[a]", *vcodec, "-c:a", "aac", "-b:a", "192k",
                     "-ar", "48000", "-t", str(dauer), "-movflags", "+faststart", str(post / "reel.mp4")], check=True)
-if nur_ton:
-    (post / "reel_alt.mp4").unlink()
 print("✓", post / "reel.mp4")
