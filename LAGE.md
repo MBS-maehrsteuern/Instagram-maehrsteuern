@@ -1,19 +1,19 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 17:09 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 17:45 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟡 17:45 🎬 Reel `22-reel-steuersatz` (pausiert) · 🟢 17:45 🎬 Reel `i08-reel-insider-rente-oma` (läuft automatisch)
+- **Heute online:** 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟡 17:45 🎬 Reel `22-reel-steuersatz` (pausiert) · ✅ 17:45 🎬 Reel `i08-reel-insider-rente-oma` (online)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1918** (19.10.–25.10., +27 % zur Vorwoche) · Follower **+8** (jetzt 376) · 30 Tage: +32 Follows / −11 entfolgt
 - **Testmonat** (Tag 15/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
+  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (1 online · 6 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
   - Sa 31.10.: Story 12:15
 
-**Als Nächstes online:** 🎬 Reel `i08-reel-insider-rente-oma` am **Mo 26.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `i05-reel-insider-finanzbeamte` am **Di 27.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -76,7 +76,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 |---|---|---|---|
 | Mo 26.10. 12:15 | 📱 Story `33-story-teaser` | pausiert | 24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild |
 | Mo 26.10. 17:45 | 🎬 Reel `22-reel-steuersatz` | pausiert | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 27,3 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf Mo 26.10. (KW 44) geschoben (go Loris) – sonst Themen-Dopplung mit dem KSt-Reel vom 10.10.; CTA der KW 42 kommt vom Ampel-Reel (TOOL per DM). So 18.10. 19:30 frei für die Fabrik · CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
-| Mo 26.10. 17:45 | 🎬 Reel `i08-reel-insider-rente-oma` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-26. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #08 (Aufnahme 26.10.), Premium-Look premium/insider_08.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
 | Di 27.10. 12:15 | 📱 Story `37-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek Tipp-Story neu (statt frage_pruefung = offene Frage): „Prüfungsanordnung zuerst lesen“, Verlegung des Beginns auf Antrag aus wichtigem Grund (§ 197 Abs. 2 AO), Emoji-Reaktion 👏/😮 (jobs/p37_bp_vorbereitung.json). |
 | Di 27.10. 17:45 | 🎬 Reel `i05-reel-insider-finanzbeamte` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
 | Di 27.10. 17:50 | 📱 Story `38-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Prüfpfad-Reel (Titelbild), jobs/p38_reel_pruefpfad.json. |
@@ -96,12 +95,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | So 01.11. 17:45 | 🎬 Reel `47-reel-betriebsaufspaltung` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi Piano. Titelbild neu als Fall „Halle an die eigene GmbH. Gewerblich.“, 3 Punkte = karussell/betriebsaufspaltung Folien 2–4 (sachliche + personelle Verflechtung, Folge), Betriebsaufgabe-Risiko in der Bildunterschrift. jobs/p47_reel_betriebsaufspaltung.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p47_reel_betriebsaufspaltung.json. |
 | So 01.11. 17:50 | 📱 Story `47-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Betriebsaufspaltungs-Reel (Titelbild), jobs/p47_reel_betriebsaufspaltung.json. |
 | Mo 02.11. 12:15 | 📱 Story `48-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp-Story „Fahrtenbuch: zeitnah und geschlossen“ (nach storys/tipp_fahrtenbuch, R5) zum Firmenwagen-Reel, jobs/p48_reel_firmenwagen.json. |
+| Mo 02.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mo 02.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
 | Mo 02.11. 17:50 | 📱 Story `49-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kleinunternehmer-CTA-Reel (Titelbild), jobs/p49_reel_kleinunternehmer.json. |
 | Di 03.11. 12:15 | 📱 Story `50-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp-Story „5 % degressiv für Wohnungsneubau“ (§ 7 Abs. 5a EStG) zum Gebäude-AfA-Reel, jobs/p50_reel_gebaeude_afa.json. |
 | Di 03.11. 17:45 | 🎬 Reel `i02-reel-insider-kontenabruf` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-03. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
@@ -149,6 +148,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Mo 26.10. 17:45 · 🎬 Reel `i08-reel-insider-rente-oma` · [ansehen](https://www.instagram.com/reel/De9tD9vj4EH/) (online 2026-10-26 17:45)
 - So 25.10. 17:45 · 🎬 Reel `30-reel-gwg` · [ansehen](https://www.instagram.com/reel/De7JF3cAGrX/) (online 2026-10-25 17:45)
 - Sa 24.10. 12:15 · 📱 Story `36-story-tipp` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4014930017247382776) (online 2026-10-24 12:16)
 - Sa 24.10. 11:14 · 🎬 Reel `36-reel-bewirtung` · [ansehen](https://www.instagram.com/reel/De3yheAFKBg/) (online 2026-10-24 11:17)
@@ -158,7 +158,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Di 20.10. 17:50 · 📱 Story `28-story-aufloesung` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012196501812014820) (online 2026-10-20 17:50)
 - Di 20.10. 17:45 · 🎬 Reel `19-reel-verlustvortrag` · [ansehen](https://www.instagram.com/reel/DeuJJHoDXkl/) (online 2026-10-20 17:45)
 - Di 20.10. 12:15 · 📱 Story `29-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012035073688455220) (online 2026-10-20 12:24)
-- Di 20.10. 11:45 · 🖼️ Karussell `29-karussell-verluste` · [ansehen](https://www.instagram.com/p/DetnHd6G82Y/) (online 2026-10-20 12:24)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -210,6 +209,13 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 17:45 🤖 Autopilot: i08-reel-insider-rente-oma veroeffentlicht ([`280c91c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/280c91c7930790a8046ba268ee648d17bc43d045))
+  - Plan: `i08-reel-insider-rente-oma` status: freigegeben → veroeffentlicht; `i08-reel-insider-rente-oma` online: https://www.instagram.com/reel/De9tD9vj4EH/
+- 17:22 🤖 Autopilot: Dateien fuer i08-reel-insider-rente-oma vorbereitet ([`aa8badd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/aa8baddb9d5d35975c3b9d62e7c39465fc99c5ee))
+  - `posts/i08_2026-10-26_insider_rente_oma`
+- 17:09 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`18a26c5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/18a26c51f48ff3e7ed0bdb11abbe8968184c8b87))
+- 17:09 ✍️ Insider #02–#12: Stimme mit kombinierten Handy-Mikros neu abgemischt (klar, S-Laute hörbar) ([`dd64107`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dd641076661370c7e8aae9ac1da357870a37ef59))
+  - `posts/i02_2026-10-26_insider_kontenabruf`, `posts/i03_2026-10-26_insider_einspruch_0euro`, `posts/i04_2026-10-26_insider_saeumnis`, `posts/i05_2026-10-26_insider_finanzbeamte`, `posts/i06_2026-10-26_insider_schaetzung`, `posts/i07_2026-10-26_insider_kontrollmitteilung`, `…`
 - 17:09 ✍️ Fach-Reels 32–57 zurück auf Originalton (Klangabgleich verworfen), Insider #01 mit kombinierten Mikros ([`82a09f2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/82a09f27d86bef4b9c1a30f19311b153341529b8))
   - `posts/32_2026-10-23_reel_mindeststeuer`, `posts/33_2026-10-24_reel_paragraf_formel`, `posts/34_2026-10-25_reel_einspruch`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `…`
 - 17:07 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c903e7c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c903e7c93426a19c53da81cb170e3cd88f8e8bf4))

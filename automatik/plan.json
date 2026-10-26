@@ -2057,11 +2057,15 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-26. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #08 (Aufnahme 26.10.), Premium-Look premium/insider_08.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“)."
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-26. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #08 (Aufnahme 26.10.), Premium-Look premium/insider_08.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“).",
+      "media_id": "18053817629597117",
+      "link": "https://www.instagram.com/reel/De9tD9vj4EH/",
+      "veroeffentlicht_am": "2026-10-26 17:45",
+      "erster_kommentar_id": "17960963355257833"
     },
     {
       "id": "i09-reel-insider-elterngeld",
