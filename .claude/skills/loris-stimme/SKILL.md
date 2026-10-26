@@ -1,6 +1,6 @@
 ---
 name: loris-stimme
-description: Schreibstil von Loris für alles, was in seinem Namen rausgeht – E-Mails (Kunden, Partner, Behörden, Mahnungen, Bewerbungen), Instagram-Bildunterschriften, erste Kommentare, DM-Antworten, Mailvorlagen im Backoffice (`backoffice/mails/`), Texte für Vela. IMMER nutzen, wenn Claude einen Text entwirft, den Loris verschickt oder postet. Auch bei „schreib eine Mail“, „antworte“, „Entwurf“, „Bildunterschrift“, „Caption“, „DM“, „Mahnung“, „Angebot“, „klingt wie ich“.
+description: Schreibstil von Loris für alles, was in seinem Namen rausgeht – E-Mails (Kunden, Partner, Behörden, Mahnungen, Bewerbungen), Instagram-Bildunterschriften, erste Kommentare, DM-Antworten, Mailvorlagen, Texte für Vela. IMMER nutzen, wenn Claude einen Text entwirft, den Loris verschickt oder postet. Auch bei „schreib eine Mail“, „antworte“, „Entwurf“, „Bildunterschrift“, „Caption“, „DM“, „Mahnung“, „Angebot“, „klingt wie ich“.
 ---
 
 # Loris' Stimme
@@ -91,4 +91,4 @@ Gleiche Haltung, noch kürzer: `Hi Name,` – ein Satz Anliegen – nötige Anga
 5. Keine CATL-Daten, keine fremden echten Beträge in Instagram-Texten?
 
 Stil anpassen: Loris sagt „Stimme aktualisieren“ → 10–20 neue gesendete Mails lesen (ohne CATL), Abweichungen
-hier nachtragen, in allen Repos gleich halten (Instagram, MBS, Vela).
+hier nachtragen, in beiden Repos gleich halten (Instagram, Vela).
