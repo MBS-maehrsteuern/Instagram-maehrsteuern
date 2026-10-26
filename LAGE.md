@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 20:10 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 20:14 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 20:14 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`67a5204`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/67a520452f717f93234143ad7a92907e58611439))
+- 20:13 ✍️ Sprechtext M1: 5-Jahres-Bindung von Loris bestätigt, Aufnahme 27.10. ([`0676dbc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0676dbc1fbe3ab599cac21c2c5e0dc43d24fa96b))
+  - `posts/sprechtexte.md`
 - 20:10 ✍️ Sprechtexte „Mein Weg“: M1 Scheinsicherheit/Rückzahlung Anwärterbezüge (Idee Loris), bisheriges M1 → M2 ([`960abb9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/960abb915e9722e76041209a96bbb89a9db30365))
   - `posts/sprechtexte.md`
 - 20:07 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c2fa585`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c2fa58553d3eb7ddc04613e877b40f864e13962e))
