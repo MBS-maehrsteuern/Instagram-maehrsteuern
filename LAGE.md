@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:33 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:38 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:38 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`d6eff0a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d6eff0a694fdaa4a71e4e14d75fbc78323a7806b))
+- 16:38 ✍️ Klangabgleich statt festem EQ: Stimme wird pro Aufnahme an eine Sprach-Zielkurve angeglichen (Loch um 1 kHz gefüllt, Bass-Wummern raus) – Insider #08 neu ([`ba85d3f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ba85d3f222e5070e6b54864314d929c2db5f4224))
+  - `posts/i08_2026-10-26_insider_rente_oma`, `vorlagen/system/premium/klang.py`, `vorlagen/system/premium/reel_bauen.py`
 - 16:33 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`fef40a2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fef40a2b47e6d5a8fa1ef25f52083e1afb3762f7))
 - 16:32 ✍️ Insider #01–#12: Stimme mit Klang-EQ neu abgemischt (klarer, weniger dumpf) ([`3e25ff5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3e25ff5db88b7cc31d8e3dcbdbd271b918a14451))
   - `posts/i01_2026-10-26_insider_programm`, `posts/i02_2026-10-26_insider_kontenabruf`, `posts/i03_2026-10-26_insider_einspruch_0euro`, `posts/i04_2026-10-26_insider_saeumnis`, `posts/i05_2026-10-26_insider_finanzbeamte`, `posts/i06_2026-10-26_insider_schaetzung`, `…`
