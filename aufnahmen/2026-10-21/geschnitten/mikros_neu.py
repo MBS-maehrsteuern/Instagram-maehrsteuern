@@ -61,3 +61,22 @@ for nr in sys.argv[1:]:
     N = lade(["-i", str(f), "-ac", "1"])
     test = [ncc(MONO[off[k] + k * FEN:off[k] + (k + 1) * FEN], S[k * FEN:(k + 1) * FEN]) for k in range(len(off)) if k not in ruhig]
     print(nr, f"{len(S) / SR:.2f}s→{len(N) / SR:.2f}s", "Abschnitte", len(grenzen) - 1, "Treffer≥0.9:", f"{np.mean(np.array(test) > .9):.0%}")
+
+
+def absichern(nr, W=4800, XF=480):
+    """Sicherheitsnetz: Wo die neue Spur (bis 5 kHz verglichen) nicht zur alten passt (Korrelation < 0,6 – z. B. ein
+    falsch gefundener Schnipsel), wird für diese 100 ms die alte Spur eingeblendet (pegelangepasst, 10-ms-Blenden)."""
+    a = lade(["-i", f"geschnitten/alt/stimme_{nr}.wav", "-ac", "1"]); b = lade(["-i", f"geschnitten/stimme_{nr}.wav", "-ac", "1"])
+    n = min(len(a), len(b)); X = np.fft.rfftfreq(n, 1 / SR)
+    def band(x): Y = np.fft.rfft(x[:n]); Y[(X > 5000) | (X < 150)] = 0; return np.fft.irfft(Y, n)
+    A, B = band(a), band(b); maske = np.zeros(n, np.float32); schlecht = 0
+    for i in range(0, n - W, W):
+        if np.sqrt(np.mean(a[i:i + W] ** 2)) > 0.01 and ncc(A[i:i + W], B[i:i + W]) < 0.6:
+            maske[i:i + W] = 1; schlecht += 1
+    if schlecht:
+        maske = np.convolve(maske, np.ones(XF) / XF, "same")
+        g = np.sqrt(np.convolve(b[:n] ** 2, np.ones(W), "same") / (np.convolve(a[:n] ** 2, np.ones(W), "same") + 1e-9))
+        y = b[:n] * (1 - maske) + a[:n] * np.clip(g, .5, 2) * maske
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-",
+                        f"geschnitten/stimme_{nr}.wav"], input=y.astype(np.float32).tobytes(), check=True)
+    return schlecht
