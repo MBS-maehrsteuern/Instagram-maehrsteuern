@@ -5,6 +5,17 @@ etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertit
 Aufnahme-Fassung für Fr 16.10. als Google Doc im Drive-Ordner „Maehrsteuern audios“ (Sprechtexte zum Aufnehmen – Fr 16.10.).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
+## 📌 Serie „Steuer-Spickzettel“ als Reels – Aufnahme folgt (Loris 26.10.: „als Reels, ich spreche neu ein“)
+Format: Kicker „STEUER-SPICKZETTEL · 2026“, erster Satz = Versprechen + „Speicher dir das“, dann 4–5 Zahlen nacheinander (je eine Szene,
+große Zahl zählt hoch), Schluss = Speichern/Teilen. 22–30 s. Zahlen am 26.10. gegen gesetze-im-internet.de geprüft (Stand 2026).
+Aufnahme wie 26.10.: eine Datei, vor jedem Text „S1“, „S2“ … sagen, 2 s Pause.
+
+- **S1 Arbeitnehmer:** Fünf Zahlen für deine Steuererklärung 2026. Speicher dir das. Eins: 1.230 Euro Arbeitnehmer-Pauschbetrag – erst darüber zählen deine Werbungskosten. Zwei: 38 Cent pro Kilometer zur Arbeit, ab dem ersten. Drei: 6 Euro Homeoffice pro Tag, bis 1.260 Euro im Jahr. Vier: 28 Euro Verpflegung pro vollem Reisetag, 14 Euro bei An- und Abreise. Fünf: 1.000 Euro Sparer-Pauschbetrag, zusammen veranlagt 2.000. Schick das dem, der bei euch immer die Steuer macht. *(§ 9a, § 9 Abs. 1 Nr. 4, § 4 Abs. 5 Nr. 6c, § 9 Abs. 4a, § 20 Abs. 9 EStG)*
+- **S2 Selbstständige:** Selbstständig? Diese fünf Grenzen musst du 2026 kennen. Eins: 25.000 Euro Umsatz im Vorjahr – bis dahin Kleinunternehmer, im laufenden Jahr höchstens 100.000. Zwei: 800 Euro netto – bis dahin sofort absetzen. Drei: 50 Euro für Geschenke, pro Person und Jahr. Vier: Bewirtung zählt nur zu 70 Prozent. Fünf: Ab 800.000 Euro Umsatz oder 80.000 Euro Gewinn kann das Finanzamt dich zur Bilanz verpflichten. Speichern für deine nächste Buchhaltung. *(§ 19 UStG, § 6 Abs. 2, § 4 Abs. 5 Nr. 1 und 2 EStG, § 141 AO)*
+- **S3 Fristen:** Diese Fristen solltest du nie verpassen. Steuererklärung ohne Berater: 31. Juli des Folgejahres. Mit Steuerberater: Ende Februar im übernächsten Jahr – für 2025 also der 1. März 2027, weil der 28. Februar ein Sonntag ist. Einspruch: ein Monat ab Bekanntgabe. Und Unterlagen: Belege acht Jahre aufheben, Bücher zehn Jahre. Speichern, bevor die nächste Frist kommt. *(§ 149 Abs. 2 und 3, § 108 Abs. 3, § 355, § 147 Abs. 3 AO)*
+- **S4 Familie:** Kinder 2026 – diese Zahlen musst du kennen. Kindergeld: 259 Euro pro Monat und Kind. Kinderfreibetrag: 3.414 Euro pro Elternteil, dazu 1.464 Euro für Betreuung und Ausbildung. Das Finanzamt rechnet automatisch, was für dich günstiger ist. Und der Grundfreibetrag für jeden Erwachsenen: 12.348 Euro. Schick das an alle Eltern in deinen Kontakten. *(§ 66, § 32 Abs. 6, § 31, § 32a EStG)*
+- **S5 Steuerabteilung (MBS):** Der Spickzettel für jede Steuerrückstellung. Körperschaftsteuer: 15 Prozent. Darauf Soli: 5,5 Prozent – macht 15,825. Gewerbesteuer: 3,5 Prozent Messzahl mal Hebesatz, mindestens 200 Prozent. Bei 400 Prozent sind das 14. Zusammen rund 30 Prozent. Und ab 2028 sinkt die Körperschaftsteuer jedes Jahr um einen Punkt. Kommentiere TOOL – ich zeig dir, wie die MBS das automatisch rechnet. *(§ 23 KStG, § 4 SolZG, § 11 Abs. 2, § 16 Abs. 4 GewStG)*
+
 ## 🕵️ Serie „Finanzamt-Insider“ – Aufnahme Mo 26.10. (Idee Loris: Insiderwissen + Diplom-Finanzwirt = Trust, breites Publikum)
 Format (immer gleich = wiedererkennbar): Kicker „FINANZAMT-INSIDER #N“, erster Satz = Hook mit Ergebnis (steht ab Frame 1 groß),
 2–3 kurze Sätze Erklärung, 1 Insider-Tipp, Schluss = **Teilen-Aufruf** (Gläsern: 60× geteilt!) oder Auswahlfrage. 20–30 s, locker sprechen.

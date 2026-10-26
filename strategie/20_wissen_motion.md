@@ -37,3 +37,13 @@ Bewegung startet mit dem gesprochenen Wort (Wortzeiten), nicht vorher. Kein Zirk
 - Karussells: neue Panel-Typen `vorher_nachher`, `alter_weg`, `box` (Mono-Box) und Feld `speichern` (Hinweis unten links auf Folie 1) in `karussell.html`.
 - Reels: `motion.js` in neue Szenen einbinden; Agenten-Brief verweist darauf.
 - Idee Serie: **„Steuer-Spickzettel“**-Karussells (z. B. „Pauschalen 2026 auf einen Blick“, „Fristen-Spickzettel“) – reine Speicher-Formate.
+
+## 4. Neue Beispiele 26.10. (herr_tech) – kritisch geprüft
+| Idee | Nutzen für uns | Risiko / Entscheidung |
+|---|---|---|
+| „Reels floppen? Zeig ChatGPT dein Profil“ – Prompt mit Hook (2 s), 1 Szene, Caption, 1 Frage | Bestätigt unseren Ablauf (19_wissen, Content-Fabrik) – nichts Neues | Generische KI-Ideen sind nicht fachgeprüft → bei uns weiter: Normen prüfen, Loris' Stimme. Kein Umbau. |
+| Event-CTA („Webinar Di 10:00 – Jetzt anmelden, Link in Bio“) | Später sinnvoll: Live-Termin „Finanzamt-Insider fragt zurück“ als Lead-Magnet | Nicht mit TOOL-CTA mischen (ein CTA pro Beitrag). Erst wenn es ein echtes Angebot/Termin gibt. |
+| Mega-Infografik „Claude im Überblick“ (100 Punkte, 1.492 Likes, 419× geteilt) | Speicher-/Teil-Magnet: 1× pro Monat „Steuer-Spickzettel 2026 – alles auf einer Seite“ als Bild/Karussell | Widerspricht „eine Idee“ → nur als Ausnahme-Format, nie als Reel; auf dem Handy lesbar halten (max. ~40 Einträge). |
+| Heller Glas-/Lila-Look | – | Nicht übernehmen: Marke bleibt Grün auf Dunkel (Wiedererkennung). |
+
+**Umgesetzt:** Serie „Steuer-Spickzettel“ als **Reels** (Loris spricht ein) – Sprechtexte S1–S5 in `posts/sprechtexte.md`.
