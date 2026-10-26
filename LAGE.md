@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 15:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:05 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:05 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`73ae8b7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/73ae8b72239b4001b25235c4c4a92b7ed7cef511))
+- 16:05 ✍️ Sprechtexte: Serie „Steuer-Spickzettel“ S1–S5 als Reels (Zahlen 2026 geprüft); neue herr_tech-Beispiele kritisch bewertet (20_wissen) ([`fafdcb5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fafdcb56aad68e65628fd4bc372ab9243660506a))
+  - `posts/sprechtexte.md`, `strategie/20_wissen_motion.md`
 - 15:24 ✍️ Plan: heute 17:45 Insider #08 Oma-Rente (viralstes Thema zuerst), Reihenfolge nach Viral-Potenzial; #08 Zähler 12.348 € rechtzeitig fertig ([`4ca6c15`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4ca6c15e41d972449461fe185ebe379ce7ec6669))
   - Plan: `37-karussell-bp-vorbereitung` zeit: 2026-10-28 17:45 → 2026-11-08 17:45; `41-karussell-mythen` zeit: 2026-11-08 17:45 → 2026-10-28 17:45; `i01-reel-insider-programm` zeit: 2026-10-26 17:45 → 2026-10-30 17:45; `i02-reel-insider-kontenabruf` zeit: 2026-10-30 17:45 → 2026-11-03 17:45; `i04-reel-insider-saeumnis` zeit: 2026-11-03 17:45 → 2026-11-05 17:45; `i06-reel-insider-schaetzung` zeit: 2026-11-05 17:45 → 2026-10-31 17:45; `i07-reel-insider-kontrollmitteilung` zeit: 2026-11-06 17:45 → 2026-11-07 17:45; `i08-reel-insider-rente-oma` zeit: 2026-10-29 17:45 → 2026-10-26 17:45; `i09-reel-insider-elterngeld` zeit: 2026-10-31 17:45 → 2026-10-29 17:45; `i10-reel-insider-belege` zeit: 2026-11-07 17:45 → 2026-11-06 17:45
 - 15:20 🔀 Merge claude/instagram ([`c2f3688`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c2f3688f6604299e5f9fb629a87bc13a42afbb8d))
