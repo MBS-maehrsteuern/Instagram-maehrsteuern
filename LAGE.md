@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:40 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 16:48 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 16:48 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`02b8737`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/02b87376363065ba03360a0782856730e35d4181))
+- 16:48 ✍️ Fach-Reels 32–57: Stimme mit Klangabgleich neu abgemischt (Bild unverändert, −18 LUFS) ([`0411999`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/04119991d85e0b9a355eac89f3f401b66da6598f))
+  - `posts/32_2026-10-23_reel_mindeststeuer`, `posts/33_2026-10-24_reel_paragraf_formel`, `posts/34_2026-10-25_reel_einspruch`, `posts/38_2026-10-27_reel_pruefpfad`, `posts/39_2026-10-28_reel_holding`, `posts/40_2026-10-28_reel_formeln`, `…`
+- 16:46 ✍️ reel_bauen --nur-ton: Bild-Zwischenkopie im Temp-Ordner statt reel_alt.mp4 (versionierte Sicherungen bleiben erhalten) ([`125c0ab`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/125c0abf883f2ce4cdb069db4aff01b64e7cbb35))
+  - `vorlagen/system/premium/reel_bauen.py`
 - 16:40 🔀 Merge claude/instagram ([`8141ba6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8141ba63549bc0bb44e5a2ea8feaef56b91b883e))
 - 16:40 ✍️ Insider #01–#12: Stimme mit Klangabgleich neu abgemischt (klar statt dumpf), Lage aktualisiert ([`a147798`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a147798754ae475a670d17d33de0c7cdab7fa52b))
   - `LAGE.html`, `posts/i01_2026-10-26_insider_programm`, `posts/i02_2026-10-26_insider_kontenabruf`, `posts/i03_2026-10-26_insider_einspruch_0euro`, `posts/i04_2026-10-26_insider_saeumnis`, `posts/i05_2026-10-26_insider_finanzbeamte`, `…`
