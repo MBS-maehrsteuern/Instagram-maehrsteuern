@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 700px at var(--bx,30%) var(--by,25%),rgba(83,195,162,.16),transparent 70%),
+  radial-gradient(700px 600px at 85% 80%,rgba(83,195,162,.07),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 30%,transparent 80%)}
+.szene{position:absolute;left:90px;right:90px;top:250px;opacity:0}
+.kicker{font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:18px;text-transform:uppercase}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+h1{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.02;letter-spacing:-.025em;margin-top:44px}
+h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;letter-spacing:-.02em;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.35)}
+.sub{font-size:42px;color:var(--text2);margin-top:34px;line-height:1.3}.sub b{color:var(--text);font-weight:700}
+.panel{margin-top:60px;border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.65),rgba(10,18,15,.85));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);padding:46px;position:relative;overflow:hidden}
+.norm{position:absolute;right:30px;top:24px;font-family:var(--mono);font-size:24px;color:var(--grau);letter-spacing:.12em}
+.chip{display:inline-block;font-family:var(--mono);font-size:24px;letter-spacing:.14em;padding:8px 18px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+/* Kalender-Leiste */
+.tage{display:flex;gap:18px;margin-top:20px}
+.tag{flex:1;height:210px;border-radius:24px;border:2px solid #22352E;background:#0B1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.tag .wt{font-family:var(--mono);font-size:30px;color:var(--grau);letter-spacing:.1em}
+.tag .dt{font-family:"Outfit";font-size:64px}
+.tag .nr{position:absolute;bottom:14px;font-family:var(--mono);font-size:22px;color:var(--gruen)}
+.tag.an{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.35)}
+.tag.post{border-color:#3a4a44}
+.tag.aus{opacity:.35}
+.leiste{height:16px;border-radius:9px;background:#13211C;margin-top:40px;position:relative;overflow:visible}
+.leiste>div{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 24px var(--gruen)}
+.punkte{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+.gross{font-family:"Outfit";font-size:150px;letter-spacing:-.03em;line-height:1}
+.strike{position:relative;display:inline-block;color:var(--grau)}
+.strike::after{content:"";position:absolute;left:-4%;top:52%;height:8px;width:var(--sw,0%);background:var(--rot);border-radius:4px;box-shadow:0 0 18px var(--rot)}
+.opt{flex:1;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:40px 30px;text-align:center}
+.opt .b{font-family:var(--mono);font-size:30px;color:var(--gruen);font-weight:600}.opt .t{font-family:"Outfit";font-size:62px;margin-top:14px}
+.toggle{width:150px;height:80px;border-radius:40px;background:#1a2a24;position:relative;border:2px solid #2b443a}
+.toggle i{position:absolute;top:8px;left:8px;width:60px;height:60px;border-radius:50%;background:#56685f;transition:none}
+/* Untertitel + Fuß */
+#ut{position:absolute;left:90px;right:90px;top:1400px;font-family:"Outfit";font-size:60px;line-height:1.2;text-align:left;color:rgba(238,244,240,.55);min-height:150px}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6)}
+#fuss{position:absolute;left:90px;right:90px;bottom:120px;display:flex;align-items:center;gap:26px;font-family:var(--mono);font-size:28px;color:var(--text2)}
+#fuss .h{display:flex;align-items:center;gap:14px;color:var(--text);font-weight:600}#fuss .h i{width:30px;height:30px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+#seg{flex:1;display:flex;gap:10px}#seg div{flex:1;height:6px;border-radius:3px;background:#22352E}#seg div.on{background:var(--gruen);box-shadow:0 0 10px var(--gruen)}
+.cta{display:inline-flex;align-items:center;gap:22px;margin-top:70px;background:var(--text);color:#07100c;font-family:"Outfit";font-size:54px;padding:30px 52px;border-radius:999px;box-shadow:0 0 60px rgba(238,244,240,.25)}
+
+.kicker{font-size:26px;letter-spacing:.16em;white-space:nowrap;gap:14px}.kicker .chip{font-size:21px;letter-spacing:.06em;padding:7px 14px}
+.dl{display:block;height:10px;border-radius:5px;background:#22352E;margin-bottom:20px}
+.folge{display:inline-block;padding:22px 40px;border:2px solid var(--rand);border-radius:999px;background:rgba(13,22,19,.8)}
+.ring{width:400px;height:400px;border-radius:50%;border:3px solid var(--gruen);background:radial-gradient(circle,rgba(83,195,162,.25),rgba(83,195,162,.04) 70%);box-shadow:0 0 90px rgba(83,195,162,.35);display:flex;align-items:center;justify-content:center;margin:50px auto 0}
+.md{width:150px;height:190px;border-radius:16px;border:2px solid #2b443a;background:#0B1411;position:relative;padding:24px 20px}
+.md i{display:block;height:10px;border-radius:5px;background:#22352E;margin-bottom:14px}
+.md.ok{border-color:var(--gruen);box-shadow:0 0 30px rgba(83,195,162,.35)}
+.md.flag{border-color:var(--gelb);box-shadow:0 0 40px rgba(232,176,74,.5);background:rgba(232,176,74,.08)}
+.md.dim{opacity:.3}
+.mono{font-family:var(--mono);font-size:26px;letter-spacing:.14em;color:var(--grau)}
+.row{display:flex;align-items:center;gap:26px;border:2px solid #22352E;border-radius:22px;background:#0B1411;padding:24px 30px;font-family:"Outfit";font-size:50px;margin-top:18px}
+.row .k{width:58px;height:58px;border-radius:50%;border:3px solid #2b443a;display:flex;align-items:center;justify-content:center;font-size:36px;color:transparent;flex:none}
+.row.an{border-color:var(--gruen);background:rgba(83,195,162,.12);box-shadow:0 0 36px rgba(83,195,162,.3)}
+.row.an .k{background:var(--gruen);border-color:var(--gruen);color:#07100c}
+.row.nein.an{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 36px rgba(224,122,107,.3)}
+.row.nein.an .k{background:var(--rot);border-color:var(--rot)}
+.folge{font-family:var(--mono);font-size:36px;letter-spacing:.06em;color:var(--text2);margin-top:60px}.folge b{color:var(--gruen2)}
+.big{font-family:"Outfit";letter-spacing:-.03em;line-height:1}
+.glow{filter:drop-shadow(0 0 28px rgba(83,195,162,.8))}
+.kachel{flex:1;border-radius:34px;border:4px solid var(--gruen);background:rgba(83,195,162,.12);text-align:center;font-family:"Outfit";font-size:170px;padding:50px 0 60px;line-height:1;color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6);box-shadow:0 0 70px rgba(83,195,162,.25)}
+.kachel.n{border-color:var(--rot);background:rgba(224,122,107,.10);color:var(--rot);text-shadow:0 0 50px rgba(224,122,107,.5);box-shadow:0 0 70px rgba(224,122,107,.2)}
+</style><title>Finanzamt-Insider 01</title></head><body>
+<div id="bg"></div><div id="raster"></div>
+<section class="szene" id="s1" data-von="0" data-bis="3.94">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01<span class="chip" style="margin-left:auto">Diplom-Finanzwirt</span></div>
+
+ <h1 class="e" style="font-size:124px">Kein Mensch.</h1><h2 class="e" style="font-size:124px">Ein Programm.</h2>
+ <div class="panel e" style="height:500px;display:flex;align-items:center;gap:56px;padding:40px 46px">
+  <div id="doc" style="position:relative;width:310px;height:400px;border:2px solid #2b443a;border-radius:20px;background:#0B1411;padding:34px 30px;overflow:hidden">
+   <div class="mono" style="font-size:20px;margin-bottom:26px">STEUERERKLÄRUNG</div><i class="dl" style="width:92%"></i><i class="dl" style="width:78%"></i><i class="dl" style="width:86%"></i><i class="dl" style="width:60%"></i><i class="dl" style="width:90%"></i><i class="dl" style="width:70%"></i><i class="dl" style="width:84%"></i><i class="dl" style="width:55%"></i><i class="dl" style="width:76%"></i>
+   <div id="scan" style="position:absolute;left:0;right:0;top:0;height:6px;background:var(--gruen2);box-shadow:0 0 30px 10px rgba(83,195,162,.6)"></div></div>
+  <div style="flex:1"><div class="mono">LIEST ZUERST:</div>
+   <div style="position:relative;height:120px;margin-top:20px">
+    <div id="l1" class="big strike" style="position:absolute;left:0;top:0;font-size:84px">Mensch</div>
+    <div id="l2" class="big" style="position:absolute;left:0;top:0;font-size:80px;color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.7)">Programm</div></div></div>
+ </div>
+</section>
+<section class="szene" id="s2" data-von="3.94" data-bis="9.18">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01</div>
+
+ <h1 class="e">Ich habe im</h1><h2 class="e" style="font-size:84px">Finanzamt gearbeitet.</h2>
+ <div class="sub e">Das Risikomanagement prüft <b>jede Erklärung automatisch.</b></div>
+ <div class="panel e" style="height:340px"><span class="norm">§ 88 ABS. 5 AO</span>
+  <div style="display:flex;gap:26px;justify-content:space-between;margin-top:20px"><div class="md" id="p0"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i><i style="width:55%"></i><div class="big" id="c0" style="position:absolute;right:-8px;bottom:-14px;font-size:70px;color:var(--gruen2);opacity:0;text-shadow:0 0 20px var(--gruen)">✓</div></div><div class="md" id="p1"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i><i style="width:55%"></i><div class="big" id="c1" style="position:absolute;right:-8px;bottom:-14px;font-size:70px;color:var(--gruen2);opacity:0;text-shadow:0 0 20px var(--gruen)">✓</div></div><div class="md" id="p2"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i><i style="width:55%"></i><div class="big" id="c2" style="position:absolute;right:-8px;bottom:-14px;font-size:70px;color:var(--gruen2);opacity:0;text-shadow:0 0 20px var(--gruen)">✓</div></div><div class="md" id="p3"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i><i style="width:55%"></i><div class="big" id="c3" style="position:absolute;right:-8px;bottom:-14px;font-size:70px;color:var(--gruen2);opacity:0;text-shadow:0 0 20px var(--gruen)">✓</div></div>
+  </div></div>
+</section>
+<section class="szene" id="s3" data-von="9.18" data-bis="14.0">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01</div>
+
+ <h1 class="e">Passt das</h1><h2 class="e">zum Vorjahr?</h2>
+ <div class="panel e" style="padding:30px 46px 40px"><span class="norm">DER ABGLEICH</span>
+  <div class="row" id="r1" style="margin-top:36px"><span class="k">✓</span>Vorjahr</div>
+  <div class="row" id="r2"><span class="k">✓</span>Meldung Arbeitgeber</div>
+  <div class="row" id="r3"><span class="k">✓</span>Meldung Krankenkasse</div></div>
+</section>
+<section class="szene" id="s4" data-von="14.0" data-bis="16.68">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01</div>
+
+ <h1 class="e">Nur was auffällt</h1><h2 class="e" style="font-size:84px">landet beim Sachbearbeiter.</h2>
+ <div class="panel e" style="height:430px">
+  <div style="display:flex;gap:16px;justify-content:space-between;margin-top:6px"><div class="md" id="q0" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div><div class="md" id="q1" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div><div class="md" id="q2" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div><div class="md" id="q3" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div><div class="md" id="q4" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div><div class="md" id="q5" style="width:118px;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:70%"></i><i style="width:80%"></i></div>
+  </div>
+  <div id="sb" style="margin:50px auto 0;width:640px;text-align:center;border:2px solid #2b443a;border-radius:24px;padding:30px;font-family:Outfit;font-size:52px;color:var(--grau)">Sachbearbeiter</div></div>
+</section>
+<section class="szene" id="s5" data-von="16.68" data-bis="21.0">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01</div>
+
+ <h1 class="e">Per Zufall</h1><h2 class="e">komplett geprüft.</h2>
+ <div class="sub e">Egal wie <b>sauber.</b></div>
+ <div class="panel e" style="padding-bottom:36px"><span class="norm">§ 88 ABS. 5 AO</span>
+  <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:20px"><div class="md" id="z0" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc0" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z1" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc1" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z2" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc2" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z3" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc3" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z4" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc4" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z5" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc5" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z6" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc6" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z7" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc7" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z8" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc8" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z9" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc9" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z10" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc10" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div><div class="md" id="z11" style="width:auto;height:150px;padding:20px 14px"><i style="width:90%"></i><i style="width:65%"></i><i style="width:80%"></i><div class="big" id="zc11" style="position:absolute;right:-6px;bottom:-12px;font-size:60px;color:var(--gruen2);opacity:0">✓</div></div>
+  </div><div id="zl" class="mono" style="margin-top:30px;text-align:center;font-size:30px;color:var(--gelb)">ZUFALLSAUSWAHL</div></div>
+</section>
+<section class="szene" id="s6" data-von="21.0" data-bis="99">
+ <div class="kicker e"><i></i>Finanzamt-Insider · #01</div>
+
+ <h1 class="e" style="font-size:104px">Schick das dem,</h1><h2 class="e" style="font-size:88px">der sagt: „Da schaut doch eh keiner drauf.“</h2>
+ <div class="ring e"><div id="plane" class="glow"><svg viewBox="0 0 24 24" width="280" height="280" fill="none" stroke="#7FE0C2" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"><path d="M2.5 11.2 21.5 2.5 15.2 21.5 11.4 14z"/><path d="M11.4 14 21.5 2.5"/><path d="M11.4 14v5.2l2.6-3"/></svg></div></div>
+ <div style="text-align:center"><div class="folge e">Folge <b>@maehrsteuern</b> für #02</div></div>
+</section>
+<div id="ut"></div>
+<div id="fuss"><span class="h"><i></i>maehrsteuern</span><div id="seg"></div><span id="nr">01 / 07</span></div>
+<script>
+const W=[["Deine", 0.0], ["Steuererklärung", 0.4], ["liest", 1.22], ["zuerst", 1.5], ["kein", 1.82], ["Mensch,", 2.1], ["sondern", 2.74], ["ein", 2.88], ["Programm.", 3.1], ["Ich", 3.94], ["habe", 4.0], ["im", 4.16], ["Finanzamt", 4.3], ["gearbeitet.", 4.66], ["Das", 5.76], ["Risikomanagement", 5.94], ["prüft", 7.0], ["jede", 7.34], ["Erklärung", 7.54], ["automatisch.", 8.04], ["Passt", 9.18], ["das", 9.38], ["zum", 9.5], ["Vorjahr?", 9.7], ["Passt", 10.52], ["das", 10.8], ["zu", 10.96], ["dem,", 11.14], ["was", 11.36], ["Arbeitgeber", 11.56], ["und", 12.14], ["Krankenkasse", 12.3], ["gemeldet", 12.88], ["haben?", 13.42], ["Nur", 14.08], ["was", 14.2], ["auffällt,", 14.4], ["landet", 15.06], ["beim", 15.22], ["Sachbearbeiter.", 15.4], ["Und", 16.68], ["ein", 16.8], ["paar", 16.96], ["Erklärungen", 17.16], ["werden", 17.66], ["per", 17.9], ["Zufall", 18.16], ["komplett", 18.5], ["geprüft.", 18.86], ["Egal", 19.8], ["wie", 20.06], ["sauber.", 20.24], ["Schick", 21.0], ["das", 21.16], ["dem,", 21.36], ["der", 21.58], ["sagt,", 21.7], ["da", 22.18], ["schaut", 22.28], ["doch", 22.46], ["eh", 22.66], ["keiner", 22.84], ["mehr", 22.98], ["drauf.", 23.2]];
+const UT_END=23.8;
+
+function extra(t){
+  const f=cl((t-0.15)/2.95,0,1);$("scan").style.top=(f*396)+"px";$("scan").style.opacity=f<1?1:0;
+  document.querySelectorAll(".dl").forEach((d,k)=>{const on=f>(k+.6)/10;d.style.background=on?"var(--gruen)":"#22352E";d.style.opacity=on?.7:1});
+  $("l1").style.setProperty("--sw","110%");  // Hook-Regel: Ergebnis ab Frame 1
+  const p=1;$("l2").style.opacity=p;$("l2").style.transform=`translateY(${(1-p)*30}px)`;
+  $("l1").style.opacity=.35;$("l1").style.transform="translateY(95px)";
+  $("l2").style.top="-10px";
+  for(let i=0;i<4;i++){const on=t>=7.1+i*.45;$("p"+i).classList.toggle("ok",on);$("c"+i).style.opacity=on?1:0}
+  [[10.26,"r1"],[12.14,"r2"],[13.42,"r3"]].forEach(([z,id])=>$(id).classList.toggle("an",t>=z));
+  for(let i=0;i<6;i++){const e=$("q"+i);if(t<14.9){e.className="md"}else if(i===2){e.className="md flag";e.style.transform=`translateY(${60*ease((t-15.2)/.5)}px)`}else e.className="md dim"}
+  const sb=$("sb"),a=t>=15.45;sb.style.borderColor=a?"var(--gelb)":"#2b443a";sb.style.color=a?"var(--gelb)":"var(--grau)";sb.style.boxShadow=a?"0 0 40px rgba(232,176,74,.4)":"none";
+  const seq=[3,8,1,10,5,0,7,4,9,6];const st=Math.floor(cl((t-17.7)/.08,0,seq.length-1));const lock=t>=18.5;
+  for(let i=0;i<12;i++){const e=$("z"+i);const hit=lock?i===6:(t>=17.7&&seq[st]===i&&t<18.5);e.className="md"+(hit?(lock?" flag":" ok"):"");$("zc"+i).style.opacity=(lock&&i===6&&t>=20.24)?1:0}
+  $("zl").textContent=t>=20.24?"SAUBER – TROTZDEM GEPRÜFT":(lock?"KOMPLETT GEPRÜFT":"ZUFALLSAUSWAHL");
+  const q=t-21.0;if($("plane")){const k=t>21.5?1:0;$("plane").style.transform=` translate(${k*14*Math.sin(q*3)}px,${k*-18*Math.sin(q*2.4)}px) rotate(${k*4*Math.sin(q*2)}deg)`}
+}
+
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if((/[.,?]$/.test(w[0])&&!/^\d+\.$/.test(w[0]))||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const S=[...document.querySelectorAll(".szene")];
+const seg=document.getElementById("seg");S.forEach(()=>seg.appendChild(document.createElement("div")));
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const cl=(x,a,b)=>Math.min(b,Math.max(a,x));
+const $=id=>document.getElementById(id);
+function render(t){
+  $("bg").style.setProperty("--bx",(30+10*Math.sin(t/4))+"%");
+  $("bg").style.setProperty("--by",(25+6*Math.cos(t/5))+"%");
+  let aktiv=0;
+  S.forEach((s,i)=>{
+    const von=+s.dataset.von,bis=+s.dataset.bis,ein=von;
+    const sichtbar=t>=von-0.001&&t<bis;
+    if(sichtbar)aktiv=i;
+    const aus=bis>90?0:cl((t-(bis-0.25))/0.25,0,1);
+    s.style.opacity=sichtbar?1-aus:0;
+    s.style.transform=`translateY(${-30*aus}px) scale(${1+0.035*cl((t-von)/Math.min(bis-von,6),0,1)})`;
+    [...s.querySelectorAll(".e")].forEach((e,k)=>{
+      const p=von===0?1:ease((t-ein-k*0.07)/0.35);
+      e.style.opacity=p;e.style.transform=`translateY(${(1-p)*50}px)`;e.style.filter=`blur(${(1-p)*10}px)`;
+    });
+  });
+  [...seg.children].forEach((d,i)=>d.className=i<=aktiv?"on":"");
+  $("nr").textContent=String(aktiv+1).padStart(2,"0")+" / "+String(S.length).padStart(2,"0");
+  extra(t);
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");
+  if(gi<0||t>UT_END){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>
