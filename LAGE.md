@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 20:05 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 26.10. 20:10 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -210,6 +210,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 26.10.2026**
+- 20:10 ✍️ Sprechtexte „Mein Weg“: M1 Scheinsicherheit/Rückzahlung Anwärterbezüge (Idee Loris), bisheriges M1 → M2 ([`960abb9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/960abb915e9722e76041209a96bbb89a9db30365))
+  - `posts/sprechtexte.md`
+- 20:07 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c2fa585`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c2fa58553d3eb7ddc04613e877b40f864e13962e))
+- 20:07 ✍️ Sprechtexte: Serie „Mein Weg“ M1 (Selfie + Motion-Overlays, Trichter Mitte) ([`09cc654`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/09cc65441db8a3ede27c2c2df6893a4411a03b3b))
+  - `posts/sprechtexte.md`
 - 20:05 ✍️ Wissen 21: Content-Trichter (oben/mitte/unten), Ziel Follower – Reihenfolge ab 27.10. gemischt statt in Blöcken ([`2b68a7a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2b68a7abd69410633426d7e40138e5393957729d))
   - Plan: `33-reel-paragraf-formel` zeit: 2026-12-01 17:45 → 2026-12-03 17:45; `34-reel-einspruch` zeit: 2026-12-03 17:45 → 2026-12-01 17:45; `34-story-tipp` zeit: 2026-12-03 17:50 → 2026-12-01 17:50; `38-reel-pruefpfad` zeit: 2026-11-20 17:45 → 2026-11-10 17:45; `39-reel-holding` zeit: 2026-11-21 17:45 → 2026-11-13 17:45; `40-reel-formeln` zeit: 2026-11-13 17:45 → 2026-11-07 17:45; `43-reel-par35` zeit: 2026-11-24 17:45 → 2026-11-20 17:45; `45-reel-vga` zeit: 2026-11-14 17:45 → 2026-11-03 17:45; `48-reel-firmenwagen` zeit: 2026-11-16 17:45 → 2026-11-21 17:45; `49-reel-kleinunternehmer` zeit: 2026-11-17 17:45 → 2026-11-24 17:45; `50-reel-gebaeude-afa` zeit: 2026-11-19 17:45 → 2026-11-27 17:45; `52-reel-gobd` zeit: 2026-11-12 17:45 → 2026-10-31 17:45; `53-reel-iab` zeit: 2026-11-26 17:45 → 2026-11-28 17:45; `54-reel-reverse-charge` zeit: 2026-11-23 17:45 → 2026-11-16 17:45; `55-reel-thesaurierung` zeit: 2026-11-27 17:45 → 2026-11-23 17:45; `57-reel-verlust-8c` zeit: 2026-11-28 17:45 → 2026-11-26 17:45; `i02-reel-insider-kontenabruf` zeit: 2026-11-03 17:45 → 2026-11-06 17:45; `i03-reel-insider-einspruch-0euro` zeit: 2026-11-02 17:45 → 2026-11-05 17:45; `i04-reel-insider-saeumnis` zeit: 2026-11-05 17:45 → 2026-11-09 17:45; `i06-reel-insider-schaetzung` zeit: 2026-10-31 17:45 → 2026-11-02 17:45; `i07-reel-insider-kontrollmitteilung` zeit: 2026-11-07 17:45 → 2026-11-14 17:45; `i10-reel-insider-belege` zeit: 2026-11-06 17:45 → 2026-11-12 17:45; `i11-reel-insider-anrufen` zeit: 2026-11-09 17:45 → 2026-11-17 17:45; `i12-reel-insider-mbs-excel` zeit: 2026-11-10 17:45 → 2026-11-19 17:45
 - 19:01 ✍️ Fach-Reels 32/33/39/40/45/48/50/52/54/55: Stimme aus beiden Handy-Mikros (klar), Bild unverändert ([`4777a8d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4777a8da51b89edc3f59a902ecfc8424e867d0be))
