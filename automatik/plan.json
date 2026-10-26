@@ -1113,7 +1113,7 @@
     },
     {
       "id": "34-reel-einspruch",
-      "zeit": "2026-10-26 17:45",
+      "zeit": "2026-11-02 17:45",
       "typ": "reel",
       "ordner": "posts/34_2026-10-25_reel_einspruch",
       "video": "reel.mp4",
@@ -1123,18 +1123,18 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-26. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-26 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-26 11:45. · 25.10.: go Loris für Premium-Fassung v4 (leisere Töne), So 17:45 per Lauf auf Arbeitsbranch. · 25.10.: Premium-Fassung im Motion-Design-Look (Loris' Design-Screenshots): HTML-Animation vorlagen/system/premium/einspruch.html, Bau premium/reel_bauen.py, 27 s, −18 LUFS, Loris' Stimme, Titelbild = Frame 1; klassische Fassung reel_stimme_klassisch.mp4. Vorschlag So 25.10. 17:45, wartet auf go. · 25.10.: Hook auf Ergebnis umgestellt („Bescheid am 5.10. / Einspruch bis 9.11.“), 26,9 s, −18 LUFS; vorgeschlagen für So 25.10. 17:45 (Autopilot), wartet auf go. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json"
+      "hinweis": "26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-11-02 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-26. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-26 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-26 11:45. · 25.10.: go Loris für Premium-Fassung v4 (leisere Töne), So 17:45 per Lauf auf Arbeitsbranch. · 25.10.: Premium-Fassung im Motion-Design-Look (Loris' Design-Screenshots): HTML-Animation vorlagen/system/premium/einspruch.html, Bau premium/reel_bauen.py, 27 s, −18 LUFS, Loris' Stimme, Titelbild = Frame 1; klassische Fassung reel_stimme_klassisch.mp4. Vorschlag So 25.10. 17:45, wartet auf go. · 25.10.: Hook auf Ergebnis umgestellt („Bescheid am 5.10. / Einspruch bis 9.11.“), 26,9 s, −18 LUFS; vorgeschlagen für So 25.10. 17:45 (Autopilot), wartet auf go. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json"
     },
     {
       "id": "34-story-tipp",
-      "zeit": "2026-10-26 17:50",
+      "zeit": "2026-11-02 17:50",
       "typ": "story",
       "ordner": "posts/34_2026-10-25_reel_einspruch",
       "bilder": [
         "story_so_tipp.png"
       ],
       "status": "freigegeben",
-      "hinweis": "25.10.: mit dem Einspruch-Reel auf Mo 12:15. · 25.10.: mit dem Reel auf 17:50 (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig"
+      "hinweis": "26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-11-02 17:50. · 25.10.: mit dem Einspruch-Reel auf Mo 12:15. · 25.10.: mit dem Reel auf 17:50 (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Tipp-Story nach tipp_einspruch (korrigierte Fassung: Aufgabe zur Post + 4 Tage) mit Emoji-Reaktion 👏/😮 – kein Quiz, damit keine Auflösung Mo nötig"
     },
     {
       "id": "35-karussell-steuerkalender",
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "38-reel-pruefpfad",
-      "zeit": "2026-11-02 17:45",
+      "zeit": "2026-10-31 17:45",
       "typ": "reel",
       "ordner": "posts/38_2026-10-27_reel_pruefpfad",
       "video": "reel.mp4",
@@ -1259,7 +1259,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": true,
-      "hinweis": "25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-02. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-11-02 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-27 17:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p38_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R1/R2 gegengelesen), Begleit-Reel zu Karussell 37, ohne Stimme 13,7 s, −18,0 LUFS, Atmo Uhr im Hook, Musik 09 Lofi-Piano ab der Lösung. Als Betriebsprüfungs-Thema gerahmt („Woher kommt diese Zahl?“, GoBD-Nachvollziehbarkeit), nicht als #BEZUG/Excel-Fehler. Titelbild „Betriebsprüfung – Jede Zahl bis zur Quelle“ und Abspann „Kommentiere TOOL“ neu (jobs/p38_reel_pruefpfad.json); bausteine/haken_pruefpfad, leiste_pruefpfad, haken_ueber_pruefpfad auf Folien 3/4 von bp_vorbereitung (schnitt/p36_40_karten_bauen.py), Schnitt schnitt/p38_reel_pruefpfad.json."
+      "hinweis": "26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-10-31 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-02. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-11-02 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-27 17:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p38_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R1/R2 gegengelesen), Begleit-Reel zu Karussell 37, ohne Stimme 13,7 s, −18,0 LUFS, Atmo Uhr im Hook, Musik 09 Lofi-Piano ab der Lösung. Als Betriebsprüfungs-Thema gerahmt („Woher kommt diese Zahl?“, GoBD-Nachvollziehbarkeit), nicht als #BEZUG/Excel-Fehler. Titelbild „Betriebsprüfung – Jede Zahl bis zur Quelle“ und Abspann „Kommentiere TOOL“ neu (jobs/p38_reel_pruefpfad.json); bausteine/haken_pruefpfad, leiste_pruefpfad, haken_ueber_pruefpfad auf Folien 3/4 von bp_vorbereitung (schnitt/p36_40_karten_bauen.py), Schnitt schnitt/p38_reel_pruefpfad.json."
     },
     {
       "id": "38-story-teaser",
@@ -1555,7 +1555,7 @@
     },
     {
       "id": "49-reel-kleinunternehmer",
-      "zeit": "2026-10-31 17:45",
+      "zeit": "2026-10-26 17:45",
       "typ": "reel",
       "ordner": "posts/49_2026-11-02_reel_kleinunternehmer",
       "video": "reel.mp4",
@@ -1565,7 +1565,7 @@
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
-      "hinweis": "25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-31. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-31 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-31 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json."
+      "hinweis": "26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-10-26 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-31. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-31 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-31 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json."
     },
     {
       "id": "49-story-teaser",
