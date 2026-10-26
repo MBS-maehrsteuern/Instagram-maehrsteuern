@@ -20,7 +20,8 @@ def suche(w, um=None, weite=60 * SR):                                 # Suche pe
     a = 0 if um is None else max(0, (um - weite) // D); b = len(m8) if um is None else min(len(m8), (um + weite) // D)
     w8 = w[::D]; ref = m8[a:b]; n = len(ref) + len(w8)
     c = np.fft.irfft(np.fft.rfft(ref, n) * np.conj(np.fft.rfft(w8, n)), n)[:len(ref) - len(w8)]
-    c = c / np.sqrt(np.convolve(ref ** 2, np.ones(len(w8)), "valid")[:len(c)] + 1e-9)   # normiert, sonst gewinnen laute Stellen
+    cs = np.concatenate([[0], np.cumsum(ref.astype(np.float64) ** 2)])
+    c = c / np.sqrt((cs[len(w8):] - cs[:-len(w8)])[:len(c)] + 1e-9)   # normiert, sonst gewinnen laute Stellen
     grob = (a + int(np.argmax(c))) * D
     return max(range(grob - 2 * D, grob + 2 * D + 1), key=lambda o: ncc(MONO[o:o + len(w)], w) if 0 <= o <= len(MONO) - len(w) else -1)
 FEN, XF = 4800, int(0.025 * SR)                                       # 100-ms-Fenster
