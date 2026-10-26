@@ -213,7 +213,26 @@ Bild: nur die Karten aus `assets/marke/` (Drehbuch `posts/04_2026-10-20_reel_mei
 
 ## Serie „Mein Weg“ (Trichter Mitte, Selfie + Motion-Overlays) – Entwurf 26.10.
 
-### M1 – „Warum ich das Finanzamt verlassen habe“ (~30 s)
+### M1 – „Der sicherste Job Deutschlands – mit Haken“ (~35 s, Idee Loris 26.10.)
+Kern: Scheinsicherheit. Eigene Erfahrung, **ohne Betrag**, kein Bundesland.
+Quelle: § 59 Abs. 5 BBesG (gesetze-im-internet.de, abgerufen 26.10.2026) – Anwärterbezüge bei Vorbereitungsdienst mit Studium
+können an Auflagen geknüpft werden; die Länder regeln das entsprechend. „5 Jahre“ und „anteilig“ = übliche Auflage
+(Verwaltungsvorschriften, je nach Land) → im Text bewusst „in vielen Bundesländern“ / „ganz oder anteilig“. [PRÜFEN: Loris bestätigt aus eigener Erfahrung]
+
+| Zeit | Sprechtext | Bild / Overlay |
+|---|---|---|
+| 0–3 s | „Ich hab gezahlt, um aus dem sichersten Job Deutschlands rauszukommen.“ | Gesicht groß · Kicker „EX-FINANZAMT“ · Schloss-Icon klickt zu |
+| 3–9 s | „Finanzamt. Verbeamtet. Unkündbar. Alle sagen: Da bist du safe.“ | Drei Wörter poppen nacheinander rein (Stagger), Haken dahinter |
+| 9–17 s | „Was keiner erzählt: Dein Studium wird bezahlt. Gehst du in den ersten fünf Jahren danach, willst du raus – zahlst du einen Teil zurück.“ | Split: unten Zeitstrahl 0–5 Jahre, Balken schrumpft anteilig (Bar-Grow rückwärts) |
+| 17–24 s | „Sicher heißt eben auch: festgebunden. Und das hab ich gemerkt, als ich was Eigenes machen wollte.“ | „SICHER“ → Text-Swap → „FESTGEBUNDEN“ |
+| 24–31 s | „Ich bin trotzdem gegangen. Und hab's keinen Tag bereut – weil ich heute baue, was mir damals gefehlt hat.“ | Kurzer Einblender Tool-Mockup, Haken |
+| 31–35 s | „Wenn du wissen willst, wie das Finanzamt von innen tickt: Folg mir.“ | Abspann „Folge @maehrsteuern“ |
+
+Bildunterschrift (Entwurf): Der sicherste Job hat einen Haken, über den kaum jemand spricht. Wer nach dem Studium im
+Finanzamt zu früh geht, zahlt zurück – ganz oder anteilig, je nach Bundesland. Würdest du für deine Freiheit zahlen?
+· Folge @maehrsteuern für mehr Finanzamt-Insider · § 59 Abs. 5 BBesG, Ländergesetze entsprechend · Stand 2026
+
+### M2 – „Der häufigste Fehler war nie Betrug“ (~30 s)
 Aufnahme: Handy hochkant, Frontkamera, Augen auf Höhe der Linse, Fenster vor dir (Licht von vorn), ruhiger Raum.
 Ganzer Text in einem Durchgang, 2–3 Anläufe. Danach 3 s still in die Kamera schauen (Puffer für Schnitt).
 
