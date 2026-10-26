@@ -5,9 +5,13 @@ import json, subprocess
 import numpy as np
 SR = 48000
 C = json.load(open("chunks.json"))
-# Nur der rechte Kanal: Das Handy nimmt mit zwei Mikros auf, die 17 Samples (0,35 ms) versetzt sind. Beide zu Mono gemischt
-# löschen sich um 1–1,5 kHz teilweise aus (Kammfilter) → klang dumpf/hohl. Rechts = Hauptmikro mit der meisten Präsenz.
-X = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", "insider_roh.mp3", "-af", "pan=mono|c0=c1", "-ar", str(SR), "-f", "f32le", "-"],
+# Zwei Handy-Mikros, 17 Samples (0,35 ms) versetzt: einfach zu Mono gemischt löschen sie sich um 1–1,5 kHz aus (dumpf).
+# Rechts hat die Präsenz (3–8 kHz), links die S-Laute/Brillanz (8–16 kHz, +8…11 dB). Darum Frequenzweiche bei 7 kHz
+# (Linkwitz-Riley 4. Ordnung, summiert phasenrichtig): rechts unten + links oben, rechts um 17 Samples verzögert.
+WEICHE = ("[0:a]channelsplit=channel_layout=stereo[l][r];"
+          "[r]adelay=17S,lowpass=f=7000,lowpass=f=7000[ru];[l]highpass=f=7000,highpass=f=7000[lo];"
+          "[ru][lo]amix=inputs=2:normalize=0[a]")
+X = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", "insider_roh.mp3", "-filter_complex", WEICHE, "-map", "[a]", "-ar", str(SR), "-f", "f32le", "-"],
                                  capture_output=True).stdout, np.float32).copy()
 rg = lambda a, b: list(range(a, b + 1))
 # Auswahl je Reel (Chunk-Nummern), Anläufe/Nummern/Versprecher entfernt – Begründung in README.md
