@@ -122,7 +122,7 @@ const W=[["Das", 0.0], ["Finanzamt", 0.4], ["sieht", 0.86], ["deine", 1.02], ["B
 const UT_END=16.9;
 
 function extra(t){
-  [[1.24,"a1"],[1.9,"a2"],[2.9,"a3"],[6.56,"b1"],[7.68,"b2"],[8.58,"b3"],[9.66,"c1"],[10.56,"c2"]].forEach(([z,id])=>{const e=$(id);if(e)e.classList.toggle("an",t>=z)});
+  [[0,"a1"],[0,"a2"],[0,"a3"],[6.56,"b1"],[7.68,"b2"],[8.58,"b3"],[9.66,"c1"],[10.56,"c2"]].forEach(([z,id])=>{const e=$(id);if(e)e.classList.toggle("an",t>=z)});
   const f=t>=12.0;$("ar1").style.color=t>=12.8?"var(--gruen2)":"var(--grau)";$("bx1").style.borderColor=t>=13.16?"var(--gruen)":"#2b443a";$("bx1").style.color=t>=13.16?"var(--text)":"var(--grau)";
   $("ar2").style.color=t>=14.0?"var(--gruen2)":"var(--grau)";$("bx2").style.borderColor=t>=14.26?"var(--gruen)":"#2b443a";$("bx2").style.color=t>=14.26?"var(--text)":"var(--grau)";
   const pj=t>=16.14&&t<16.6,pn=t>=16.42;

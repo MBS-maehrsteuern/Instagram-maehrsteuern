@@ -76,9 +76,9 @@ h2{font-family:var(--serif);font-weight:500;font-size:96px;line-height:1.05;lett
 
  <h1 class="e" style="font-size:104px">Das trägt fast jeder</h1><h2 class="e" style="font-size:96px">Finanzbeamte ein.</h2>
  <div class="panel e" style="padding:34px 46px 40px"><span class="norm">EIGENE STEUERERKLÄRUNG</span>
-  <div class="row" id="h1r" style="margin-top:34px"><span class="k">1</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:80%"></div></div></div>
-  <div class="row" id="h2r"><span class="k">2</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:62%"></div></div></div>
-  <div class="row" id="h3r"><span class="k">3</span><div style="flex:1"><div style="height:14px;border-radius:7px;background:#22352E;width:72%"></div></div></div></div>
+  <div class="row" id="h1r" style="margin-top:34px"><span class="k">1</span>Homeoffice</div>
+  <div class="row" id="h2r"><span class="k">2</span>Fahrten zur Arbeit</div>
+  <div class="row" id="h3r"><span class="k">3</span>Arbeitsmittel</div></div>
 </section>
 <section class="szene" id="s2" data-von="4.3" data-bis="9.46">
  <div class="kicker e"><i></i>Finanzamt-Insider · #05</div>
@@ -135,7 +135,7 @@ const W=[["Das", 0.0], ["hier", 0.44], ["trägt", 0.74], ["fast", 0.96], ["jeder
 const UT_END=26.0;
 
 function extra(t){
-  [[.6,"h1r"],[1.7,"h2r"],[2.8,"h3r"]].forEach(([z,id])=>{const e=$(id);e.classList.toggle("an",t>=z);e.querySelector(".k").style.color=t>=z?"#07100c":"var(--grau)"});
+  ["h1r","h2r","h3r"].forEach((id,i)=>{const e=$(id);e.classList.add("an");e.querySelector(".k").style.color="#07100c";e.style.transform=`scale(${1+.02*Math.max(0,Math.sin((t-.6*i-.3)*3))*(t>.3?1:0)})`});
   const hb=ease((t-7.1)/1.2);$("hbar").style.width=(100*hb)+"%";
   const hs=ease((t-5.4)/.3);$("h6").style.transform=`scale(${.85+.15*hs})`;$("h6").style.transformOrigin="left";
   $("hmax").style.opacity=t>=7.26?1:.2;

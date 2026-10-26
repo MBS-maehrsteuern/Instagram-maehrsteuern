@@ -137,10 +137,10 @@ const W=[["Die", 0.0], ["Rente", 0.32], ["deiner", 0.54], ["Oma", 0.82], ["kann"
 const UT_END=19.6;
 
 function extra(t){
-  $("arr").style.width=(100*ease((t-2.0)/1.8))+"%";
-  const ah=ease((t-2.0)/1.8);$("arrh").style.opacity=ah>0?1:0;$("arrh").style.left=`calc(${ah*100}% - 40px)`;
-  $("meld").style.opacity=t>=2.9?1:0;
-  const fo=t>=3.86;$("fa").style.color=fo?"var(--gelb)":"var(--grau)";$("fa").style.borderColor=fo?"var(--gelb)":"#2b443a";$("fa").style.boxShadow=fo?"0 0 40px rgba(232,176,74,.45)":"none";
+  $("arr").style.width="100%";
+  $("arrh").style.opacity=1;$("arrh").style.left="calc(100% - 40px)";
+  $("meld").style.opacity=1;
+  const fo=true;$("fa").style.color=fo?"var(--gelb)":"var(--grau)";$("fa").style.borderColor=fo?"var(--gelb)":"#2b443a";$("fa").style.boxShadow=fo?"0 0 40px rgba(232,176,74,.45)":"none";
   $("rdoc").classList.toggle("ok",t>=0.5);
   [5.4,5.98,6.28].forEach((z,i)=>{const p=cl((t-z)/.9,0,1);const e=$("pk"+i);e.style.opacity=p>0&&p<1?1:0;e.style.left=`calc(${p*100}% - ${p*38}px)`});
   const rv=t>=5.0;$("rv").style.borderColor=rv?"var(--gruen)":"#2b443a";const f2=t>=6.6;$("fa2").style.color=f2?"var(--gelb)":"var(--grau)";$("fa2").style.borderColor=f2?"var(--gelb)":"#2b443a";
