@@ -4,12 +4,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✋ 11:45 🎬 Reel `62-reel-glaesern` (von Hand) · ✅ 17:45 🎬 Reel `30-reel-gwg` (online) · 🟡 17:50 📱 Story `35-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟢 17:45 🎬 Reel `34-reel-einspruch` (läuft automatisch) · 🟡 17:45 🎬 Reel `22-reel-steuersatz` (pausiert) · 🟢 17:50 📱 Story `34-story-tipp` (läuft automatisch)
 - **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **1530** (18.10.–24.10., -1 % zur Vorwoche) · Follower **+6** (jetzt 374) · 30 Tage: +32 Follows / −11 entfolgt
-- **Testmonat** (Tag 14/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 43** (19.10.–25.10.) ← jetzt: Feed **9/7** (8 online · 1 geplant · 1 wartet) · Reel-Tage (sicher) **5/7** – ohne Reel: Do 22.10., Fr 23.10.
-  - 🟡 **KW 44** (26.10.–01.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
+- **Testmonat** (Tag 15/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
   - Sa 31.10.: Story 12:15
@@ -74,7 +73,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 25.10. 17:50 | 📱 Story `35-story-teaser` | pausiert | 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Folie 1 |
 | Mo 26.10. 12:15 | 📱 Story `33-story-teaser` | pausiert | 24.10.: auf Mo 26.10. getauscht mit Bewirtung (go Loris), Umbau nach Wissen 24.10. offen. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Teaser „Jetzt neu im Profil“ mit Reel-Titelbild |
 | Mo 26.10. 17:45 | 🎬 Reel `34-reel-einspruch` | 🟢 freigegeben (geht automatisch online) | 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-26. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-26 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-26 11:45. · 25.10.: go Loris für Premium-Fassung v4 (leisere Töne), So 17:45 per Lauf auf Arbeitsbranch. · 25.10.: Premium-Fassung im Motion-Design-Look (Loris' Design-Screenshots): HTML-Animation vorlagen/system/premium/einspruch.html, Bau premium/reel_bauen.py, 27 s, −18 LUFS, Loris' Stimme, Titelbild = Frame 1; klassische Fassung reel_stimme_klassisch.mp4. Vorschlag So 25.10. 17:45, wartet auf go. · 25.10.: Hook auf Ergebnis umgestellt („Bescheid am 5.10. / Einspruch bis 9.11.“), 26,9 s, −18 LUFS; vorgeschlagen für So 25.10. 17:45 (Autopilot), wartet auf go. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p34_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), Reel ohne Stimme 14,6 s, Fall: zur Post Mo 05.10. → bekannt Fr 09.10. (§ 122 Abs. 2 Nr. 1 AO, 4 Tage seit 2025) → Frist Mo 09.11. (§ 355 AO), § 361 AO. Uhr-Atmo + 07_minimal_tech. Schnitt: vorlagen/system/schnitt/p34_reel_einspruch.json |
 | Mo 26.10. 17:45 | 🎬 Reel `22-reel-steuersatz` | pausiert | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 27,3 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf Mo 26.10. (KW 44) geschoben (go Loris) – sonst Themen-Dopplung mit dem KSt-Reel vom 10.10.; CTA der KW 42 kommt vom Ampel-Reel (TOOL per DM). So 18.10. 19:30 frei für die Fabrik · CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
@@ -401,6 +399,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:28 📡 Radar 2026-10-20: 8 Beiträge, 0 DM-Entwürfe ([`aba45c8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/aba45c8dfd569198a5c5929be3f2b8668d6aa705))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 19.10.2026**
 - 19:26 🤖 Autopilot: 18-reel-aufbewahrung veroeffentlicht ([`0e93a0d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0e93a0d136d815e4bb611d9ef14e9513d3fb00e6))
   - Plan: `18-reel-aufbewahrung` status: freigegeben → veroeffentlicht; `18-reel-aufbewahrung` online: https://www.instagram.com/reel/DeryoWUE_Or/
@@ -418,8 +418,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `posts/28_2026-10-19_reel_zuschlaege`
 - 07:15 📡 Radar 2026-10-19: 8 Beiträge, 0 DM-Entwürfe ([`f24b172`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f24b17280244cdb352b99cc0ea9ef3757ad69b91))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 18.10.2026**
 - 20:18 ✍️ Reel 61: Version mit Loris' Stimme (30 s, beste Takes, Untertitel Wort für Wort) – von Hand über Edits ([`d5ea58a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d5ea58a3621dbf603ff331527a0623c8e02bef9f))
