@@ -184,7 +184,6 @@ Reichweite pro Tag: 24.10. **201** · 25.10. **584** · 26.10. **347** · 27.10.
 | Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 286 (+1) | 182 | 11 | 0 | 5 | 0 |
 | Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 176 (+3) | 84 | 1 | 0 | 1 | 0 |
 | Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 258 (+1) | 205 | 7 | 0 | 3 | 0 |
-| Di 13.10. 19:30 [Eine Rechnungsnummer doppelt. Der Prüfer](https://www.instagram.com/reel/DecWVZwgpOC/) | 304 (+1) | 235 | 6 | 2 | 5 | 1 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
