@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:47 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -100,12 +100,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mo 02.11. 17:50 | 📱 Story `49-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kleinunternehmer-CTA-Reel (Titelbild), jobs/p49_reel_kleinunternehmer.json. |
 | Di 03.11. 12:15 | 📱 Story `50-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp-Story „5 % degressiv für Wohnungsneubau“ (§ 7 Abs. 5a EStG) zum Gebäude-AfA-Reel, jobs/p50_reel_gebaeude_afa.json. |
 | Di 03.11. 17:45 | 🎬 Reel `45-reel-vga` | 🟢 freigegeben (geht automatisch online) | 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-05. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-29 17:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-28 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-03. |
+| Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
 | Mi 04.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
@@ -209,6 +209,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 17:47 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`6836f0b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6836f0bb2f564041d07b8091192c00b21ea83ca0))
+- 17:46 ✍️ Insider #14 „Ferrari über die Firma?“ gebaut (Stimme 27.10., 38,7 s) – noch nicht eingeplant, wartet auf Loris ([`01c23a3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/01c23a33909c6bae8ff5291b048cd3b895ac06a7))
+  - `posts/i14_2026-10-27_insider_ferrari`, `vorlagen/system/premium/insider_14.html`
 - 17:45 ✍️ Mein Weg #01 „Scheinsicherheit“: Foto-Montage Diplomierung (Loris' Bilder + Stimme 27.10.), heute 18:00 statt Insider #05 (→ 04.12.) ([`db3c6ab`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/db3c6ab953460ca881a44ae13d322ca04826ecb9))
   - Plan: neu `m01-reel-mein-weg-scheinsicherheit` (2026-10-27 18:00, freigegeben); `i05-reel-insider-finanzbeamte` zeit: 2026-10-27 17:45 → 2026-12-04 17:45
 - 17:17 🤖 Autopilot: Dateien fuer i05-reel-insider-finanzbeamte vorbereitet ([`9bc3fd3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9bc3fd32defa874216039c8f2ce321bc8d6047ec))
