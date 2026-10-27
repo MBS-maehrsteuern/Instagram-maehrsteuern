@@ -1337,7 +1337,7 @@
     },
     {
       "id": "41-karussell-mythen",
-      "zeit": "2026-10-28 17:45",
+      "zeit": "2026-12-06 17:45",
       "typ": "karussell",
       "ordner": "posts/41_2026-10-29_mythen",
       "bilder": [
@@ -1354,7 +1354,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json.",
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. · 28.10.→06.12. (Platz an Insider #14 Ferrari).",
       "trichter": "oben"
     },
     {
@@ -2103,7 +2103,7 @@
     },
     {
       "id": "i09-reel-insider-elterngeld",
-      "zeit": "2026-10-29 17:45",
+      "zeit": "2026-12-05 17:45",
       "typ": "reel",
       "ordner": "posts/i09_2026-10-26_insider_elterngeld",
       "video": "reel.mp4",
@@ -2113,7 +2113,7 @@
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-29. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #09 (Aufnahme 26.10.), Premium-Look premium/insider_09.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“).",
+      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-29. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #09 (Aufnahme 26.10.), Premium-Look premium/insider_09.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 29.10.→05.12. (Platz an Mein Weg #02, Welle nach #01 nutzen).",
       "trichter": "oben"
     },
     {
@@ -2179,6 +2179,23 @@
       "link": "https://www.instagram.com/reel/DfAWBBflLkW/",
       "veroeffentlicht_am": "2026-10-27 18:01",
       "erster_kommentar_id": "18091082651294983"
+    },
+    {
+      "typ": "reel",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "media_id": "18056364005588411",
+      "veroeffentlicht_am": "2026-10-27 18:01",
+      "id": "i14-reel-insider-ferrari",
+      "ordner": "posts/i14_2026-10-27_insider_ferrari",
+      "zeit": "2026-10-28 17:45",
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "27.10.: Insider #14 (Stimme 27.10.), Thema aus Vorbilder-Radar; ersetzt Karussell 41 am Mi (Loris: „alle Punkte umsetzen“)."
     }
   ]
 }

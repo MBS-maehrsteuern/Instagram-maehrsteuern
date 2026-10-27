@@ -72,3 +72,10 @@ selben Thema suchen und je **1–2 Bausteine** übernehmen (nie das ganze Video 
   Top 5–10 je Creator mit Hook (gesprochen/geschrieben/visuell), Format, Unterthema, Aufrufe → Spalte „verwendet“.
   Automatisch: `automatik/vorbilder.py` (wöchentlich im Radar, Ausreißer nach Likes/Kommentaren; Konten in
   `automatik/interaktion.json` → "vorbilder").
+
+## 8. Erster Beleg (27./28.10.): Mein Weg #01 „Scheinsicherheit“
+Nach ~7 h 1.182 Aufrufe (übliche Reels ~150 nach 12 h), 91 % Nicht-Follower, 59 % Reels-Tab + 16 % Explore,
+Übersprungen-Rate 66,9 % (besser als üblich), Ø 8 s, 20 % bei 0:15, 9× gespeichert, 33 Profilaufrufe → nur 3 Follower.
+Folgerungen: persönliche Story (Mitte) mit Foto-Montage zieht → Serie „Mein Weg“ fortsetzen (#02 am 29.10.);
+erste Sekunde braucht Bewegung (Punch-in, Text gleitet) – ~55 % springen in 1–2 s ab; Profil wandelt schwach um →
+Bio nach 4-Zeilen-Formel (§6), Story-Teilen mit Umfrage, Kommentare schnell beantworten.

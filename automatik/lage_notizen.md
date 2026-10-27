@@ -49,3 +49,6 @@
 - 26.10. abends: Ton aller Stimm-Reels neu (beide Handy-Mikros per Frequenzweiche statt Stereo→Mono – war dumpf; Loris: „perfekt“).
   Wissen 21 (Trichter oben/mitte/unten, Ziel Follower 15/7/8): Reihenfolge ab 27.10. gemischt, Feld `trichter` im Plan.
   Offen: Story-Sprechtexte (Mitte) für Aufnahme 07.11.; GitHub-Zeitplan unzuverlässig → 17:20-Check per Erinnerung.
+- 27.10.: Mein Weg #01 (Foto-Montage Diplomierung, 18:00) eskaliert: 1.182 Aufrufe in ~7 h, 91 % Nicht-Follower (Wissen 21 §8).
+  Plan: Mi 28.10. Insider #14 Ferrari (statt K41 → 06.12.), Do 29.10. Mein Weg #02 (statt i09 → 05.12.), i05 → 04.12.
+  Insider #13 Betriebsprüfung gebaut, noch nicht eingeplant. Offen: Bio-Umbau (Loris), S4 neu einsprechen.
