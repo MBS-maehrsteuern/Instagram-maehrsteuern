@@ -11,7 +11,286 @@ Aufbau: Hook 0–3 s · Autorität 3–5 s · Mehrwert · Ergebnis · CTA (`stra
 
 Quellen geprüft 27.10.2026: § 9 Abs. 1 Nr. 4, § 9 Abs. 4a, § 9a, § 20 Abs. 9, § 32 Abs. 6, § 32a, § 66, § 4 Abs. 5 Nr. 1, 2, 6c, 7, § 6 Abs. 2 EStG; § 19 UStG; § 141, § 147 Abs. 3, § 149 Abs. 2 und 3, § 108 Abs. 3, § 355, § 371 Abs. 2, § 197, § 200 AO; § 23 KStG; § 4 SolZG; § 11 Abs. 2, § 16 Abs. 4 GewStG (gesetze-im-internet.de, Stand 2026).
 
-### I5 Finanzbeamte (heute, komplett neu)
+### ✍️ Überarbeitete Sprechtexte 27.10. – Rest (I1–I12 ohne I5, Fach 30–58, 62) · Fakten aus den geprüften Originalen
+Korrekturen Faktencheck 27.10. für den Abschnitt darüber: S2 „bis 25.000 / höchstens 100.000“ · S3 „bis 31. Juli des Folgejahres“, Aufbewahrung „Als Selbstständiger“ · I13 „mit Vorlauf“ ohne Wochenzahl, Selbstanzeige „für Zeitraum und Steuerarten aus dem Brief“ · M1 „je nach Bundesland“.
+
+**I1 – Kein Mensch liest zuerst**
+> Deine Steuererklärung liest zuerst kein Mensch.
+> Ich war jahrelang im Finanzamt – und da prüft erst mal ein Programm.
+> Das Risikomanagement checkt jede Erklärung automatisch. Passt das zum Vorjahr? Passt das zu dem, was Arbeitgeber und Krankenkasse gemeldet haben?
+> Nur was auffällt, landet beim Sachbearbeiter.
+> Und ein paar Erklärungen werden per Zufall komplett geprüft, egal wie sauber.
+> Also: Da schaut doch eh keiner drauf, stimmt nicht.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I2 – Konten ja, Kontostand nein**
+> Das Finanzamt sieht deine Konten. Aber nicht deinen Kontostand.
+> Ich war jahrelang im Finanzamt – und kenne den Kontenabruf.
+> Da sieht es nur: welche Konten du hast, bei welcher Bank, seit wann.
+> Keine Umsätze, kein Guthaben.
+> Will das Finanzamt mehr wissen, muss es dich fragen. Oder die Bank.
+> Also: Es sieht, dass du ein Konto hast, aber nicht, was drauf liegt.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I3 – Einspruch kostet null Euro**
+> Ein Einspruch gegen deinen Steuerbescheid kostet dich null Euro.
+> Ich war jahrelang im Finanzamt – und weiß, wie einfach das geht.
+> Kein Anwalt, kein Formular. Ein Satz reicht: „Hiermit lege ich Einspruch gegen den Bescheid vom … ein.“
+> Du hast dafür einen Monat ab Bekanntgabe.
+> Das Finanzamt prüft dann den ganzen Bescheid neu. Will es dich schlechterstellen, muss es dich vorher warnen – dann kannst du zurücknehmen.
+> Also: kein Risiko, ohne dass du gewarnt wirst.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I4 – 12 Prozent im Jahr**
+> Zu spät gezahlt? Das Finanzamt nimmt dafür 12 Prozent im Jahr.
+> Ich war jahrelang im Finanzamt – und hab gesehen, wie schnell das teuer wird.
+> Der Säumniszuschlag: ein Prozent pro angefangenem Monat.
+> Wenn du weißt, dass es knapp wird: vorher Stundung beantragen.
+> Stundungszinsen sind nur ein halbes Prozent im Monat, und nur für volle Monate.
+> Also halb so teuer.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I6 – Keine Erklärung abgegeben?**
+> Keine Steuererklärung abgegeben? Dann schreibt das Finanzamt sie für dich.
+> Ich war jahrelang im Finanzamt – und das nennt sich Schätzung.
+> Das Finanzamt schätzt lieber zu hoch als zu niedrig.
+> Dazu kommt ein Verspätungszuschlag, mindestens 25 Euro pro angefangenem Monat.
+> Gegen die Schätzung hilft ein Einspruch, mit der Erklärung dabei.
+> Also: Abgeben ist immer günstiger als warten.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I7 – Dein Geschäftspartner wird geprüft**
+> Dein Geschäftspartner wird geprüft – und plötzlich schreibt dir das Finanzamt.
+> Ich war jahrelang im Finanzamt – das passiert öfter, als du denkst.
+> Prüfer dürfen alles, was sie dort über dich finden, an dein Finanzamt melden: Rechnungen, Zahlungen, Barbelege.
+> Das heißt Kontrollmitteilung.
+> Deshalb müssen deine Unterlagen zu denen deiner Partner passen.
+> Also: Dein Finanzamt kann dich prüfen, ohne dass du geprüft wirst.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I8 – Die Rente von Oma**
+> Die Rente deiner Oma kann steuerpflichtig sein. Und das Finanzamt weiß es längst.
+> Ich war jahrelang im Finanzamt – die Rentenversicherung meldet jede Rente automatisch.
+> Liegt das zu versteuernde Einkommen über dem Grundfreibetrag – 2026 sind das 12.348 Euro –, wird eine Erklärung fällig.
+> Viele merken es erst, wenn der Brief kommt.
+> Also: lieber vorher nachsehen.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I9 – Elterngeld kostet Steuern**
+> Elterngeld ist steuerfrei. Und kann dich trotzdem Steuern kosten.
+> Ich war jahrelang im Finanzamt – und das überrascht jedes Jahr viele Eltern.
+> Es erhöht den Steuersatz auf dein übriges Einkommen. Das heißt Progressionsvorbehalt.
+> Und ab 410 Euro musst du eine Steuererklärung abgeben.
+> Viele Eltern bekommen deshalb eine Nachzahlung.
+> Also: Steuerfrei heißt nicht steuerfolgenfrei.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I10 – Hör auf, Belege zu schicken**
+> Hör auf, Belege ans Finanzamt zu schicken.
+> Ich war jahrelang im Finanzamt – und bekam sie trotzdem ständig.
+> Seit 2017 musst du sie nur aufheben. Eingereicht wird nur, wenn das Finanzamt danach fragt.
+> Fragt es nach, schick genau das Angeforderte. Nicht mehr.
+> Das spart dir Porto und dem Sachbearbeiter Arbeit.
+> Also: aufheben, nicht abschicken.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I11 – Ruf einfach an**
+> Ruf beim Finanzamt an. Ernsthaft.
+> Ich war jahrelang im Finanzamt – und Anrufe waren oft der schnellste Weg.
+> Die Durchwahl deines Sachbearbeiters steht oben auf dem Bescheid.
+> Viele Fragen sind am Telefon in fünf Minuten geklärt, statt in fünf Wochen Briefwechsel.
+> Halte die Steuernummer bereit und notier dir Datum und Namen.
+> Also: Einfach mal trauen.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**I12 – Finanzamt vs. Excel (MBS)**
+> Das Finanzamt rechnet jede Erklärung automatisch gegen. Deine Steuerabteilung rechnet mit Excel.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und kenne beide Seiten.
+> Merkt ihr den Unterschied?
+> Deshalb hab ich die MAEHR Business Suite gebaut: Steuerrückstellung, Zinsschranke, latente Steuern, direkt aus der Saldenliste.
+> Jede Zahl mit Prüfpfad.
+> Kommentiere TOOL – ich zeig dir die Demo mit Beispieldaten.
+
+**30 – GWG**
+> Ein einziger Euro entscheidet, ob du sofort absetzt – oder fünf Jahre lang.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und diese Grenze sehe ich ständig.
+> Bürostuhl für 799 Euro netto: GWG, sofort voll abziehbar.
+> Derselbe Stuhl für 801 Euro: Nutzungsdauer oder Sammelposten, fünf Jahre je 20 Prozent.
+> Und wer den Pool wählt, muss ihn für alles zwischen 250 und 1.000 Euro im ganzen Jahr nutzen. Dann gilt auch die 800-Euro-Grenze nicht mehr.
+> Kommentiere TOOL – ich zeig dir, wie das im Tool aussieht.
+
+**32 – Mindeststeuer**
+> Deutschland hat fast 30 Prozent Steuern – und trotzdem kann hier Mindeststeuer anfallen.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und da ist das ein Dauerthema.
+> Es zählt nicht der Nominalsatz, sondern der Effektivsteuersatz pro Land.
+> Vergünstigungen und Sondereffekte können ihn unter 15 Prozent drücken. Dann wird die Differenz als Ergänzungssteuer erhoben.
+> Betroffen sind nur Gruppen ab 750 Millionen Euro Konzernumsatz in zwei der letzten vier Jahre.
+> Kommentiere TOOL – ich zeig dir die Rechnung im Tool.
+
+**33 – Paragraf-Formel**
+> Du rechnest Paragrafen noch von Hand – dabei passen drei davon in je eine Excel-Zeile.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und baue genau das nach.
+> Erstens: Gewerbesteuer-Hinzurechnung, ein Viertel der Summe über 200.000 Euro.
+> Zweitens: Geschenke, bis 50 Euro je Empfänger und Jahr abziehbar, darüber gar nicht.
+> Drittens: Paragraf 8b, fünf Prozent der Dividende gelten als nicht abziehbar. Steuerfrei sind Dividenden nur ab zehn Prozent Beteiligung.
+> Kommentiere TOOL – ich schick dir die Formeln.
+
+**34 – Einspruch**
+> Dein Bescheid geht am 5. Oktober zur Post – aber deine Einspruchsfrist endet nicht am 5. November.
+> Ich war jahrelang im Finanzamt – und diese Frist wird oft falsch gerechnet.
+> Seit 2025 gilt ein Bescheid erst am vierten Tag als bekannt gegeben. Also Freitag, 9. Oktober.
+> Ab da läuft ein Monat: Frist endet Montag, 9. November. Fällt das Ende aufs Wochenende, zählt der nächste Werktag.
+> Und zahlen musst du trotzdem – außer mit Aussetzung der Vollziehung.
+> Kommentiere TOOL – ich zeig dir die Fristenrechnung.
+
+**36 – Bewirtung**
+> Beleg da, Betrag stimmt, Teilnehmer stehen drauf – und der Prüfer streicht trotzdem alles.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und der Grund ist fast immer derselbe.
+> Es fehlt der Anlass.
+> Geschäftliche Bewirtungen sind zu 70 Prozent abziehbar, aber nur mit Ort, Tag, Teilnehmern, Anlass und Höhe.
+> Steht da nur „Arbeitsgespräch“, ist der Nachweis nicht erbracht: null statt 70 Prozent.
+> Und Bewirtungen immer getrennt buchen, sonst ist der Abzug auch weg.
+> Kommentiere TOOL – ich zeig dir die Checkliste.
+
+**38 – Prüfpfad**
+> Eine Frage in der Betriebsprüfung, und deine Excel hat keine Antwort: „Woher kommt diese Zahl?“
+> Ich mach Steuern in einer Konzern-Steuerabteilung – die Frage kommt in jeder Prüfung.
+> Nach den GoBD muss ein sachverständiger Dritter in angemessener Zeit nachvollziehen können, wie deine Zahlen entstehen. Vom Beleg bis zur Erklärung und zurück.
+> In zwölf verknüpften Tabellenblättern heißt das: suchen.
+> Mit Prüfpfad: auf die Zahl klicken, Quelle sehen.
+> Kommentiere TOOL – ich zeig dir den Prüfpfad.
+
+**39 – Holding**
+> Eine Million Euro Gewinn – und die GmbH zahlt darauf keine 15.000 Euro Steuer. Völlig legal.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und das ist das Holding-Prinzip.
+> Verkauft eine GmbH Anteile an einer anderen Kapitalgesellschaft, bleibt der Gewinn steuerfrei.
+> Nur fünf Prozent gelten als nicht abziehbare Betriebsausgaben, also 50.000 Euro. Darauf rund 30 Prozent Steuer: knapp 15.000 Euro, rund 1,5 Prozent.
+> Aber Verluste aus so einem Verkauf darfst du dafür auch nicht abziehen.
+> Kommentiere TOOL – ich zeig dir die Rechnung.
+
+**40 – Formeln**
+> Die Formel, die deine Excel sauber aussehen lässt, macht deine Steuerrückstellung falsch.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und sehe diesen Fehler ständig.
+> WENNFEHLER mit Null verwandelt jeden Fehler in eine Null.
+> Die Tabelle sieht sauber aus, die Rückstellung ist zu niedrig, und keiner merkt es.
+> Besser: Fehler sichtbar lassen. Steuersatz und Hebesatz per XVERWEIS holen statt eintippen. Und Namen wie „Hebesatz“ statt Dollar C Dollar 12.
+> Kommentiere TOOL – ich zeig dir die saubere Version.
+
+**42 – AfA**
+> Du kaufst die Maschine im Dezember für die 30 Prozent AfA – und bekommst nur 2.500 Euro.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und der Dezember ist die Falle.
+> Die degressive AfA gibt es wieder: bis zum Dreifachen der linearen, höchstens 30 Prozent. Für bewegliche Wirtschaftsgüter, angeschafft von Juli 2025 bis Ende 2027.
+> Maschine 100.000 Euro, zehn Jahre Nutzungsdauer: im vollen Jahr 30.000 Euro. Im ersten Jahr nur zeitanteilig. Dezember heißt: ein Zwölftel.
+> Später darfst du auf linear wechseln.
+> Kommentiere TOOL – ich zeig dir den AfA-Rechner.
+
+**43 – Paragraf 35**
+> Du zahlst über 10.000 Euro Gewerbesteuer – und am Ende kostet sie dich oft fast nichts.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – der Grund ist Paragraf 35.
+> Gewerbeertrag 100.000 Euro, minus 24.500 Euro Freibetrag, mal 3,5 Prozent: Messbetrag 2.642,50 Euro. Bei 400 Prozent Hebesatz zahlst du 10.570 Euro.
+> Deine Einkommensteuer sinkt um das Vierfache des Messbetrags: genau 10.570 Euro.
+> Aber höchstens um die Einkommensteuer auf den Gewinn – und bei höherem Hebesatz bleibt etwas übrig.
+> Kommentiere TOOL – ich zeig dir die Rechnung.
+
+**45 – vGA**
+> Ein Darlehen an dich selbst – und für den Prüfer ist es eine Gewinnausschüttung.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – und das ist ein Klassiker.
+> Null Prozent Zinsen von der eigenen GmbH? Das bekäme kein Fremder. Folge: verdeckte Gewinnausschüttung, der Gewinn wird außerbilanziell erhöht.
+> Genauso: überhöhtes Geschäftsführergehalt, Privatnutzung ohne Vereinbarung, Miete über Marktwert.
+> Beim beherrschenden Gesellschafter zählt zusätzlich eine klare Vereinbarung im Voraus.
+> Kommentiere TOOL – ich zeig dir die Prüfliste.
+
+**47 – Betriebsaufspaltung**
+> Du vermietest nur eine Halle – und plötzlich ist die Miete gewerblich.
+> Ich war jahrelang im Finanzamt – und das ist die Betriebsaufspaltung.
+> Zwei Dinge kommen zusammen. Erstens: Die Halle ist eine wesentliche Betriebsgrundlage deiner GmbH. Zweitens: Du beherrschst beide Seiten.
+> Folge: Die Miete ist gewerblich, Halle und GmbH-Anteile werden Betriebsvermögen.
+> Fällt später eine Voraussetzung weg, droht die Aufdeckung der stillen Reserven.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**48 – Firmenwagen**
+> Du trägst jede Fahrt sauber ein – und der Prüfer verwirft das Fahrtenbuch trotzdem.
+> Ich war jahrelang im Finanzamt – und die Excel-Liste fliegt oft raus.
+> Sie lässt sich jederzeit ändern. Ein Fahrtenbuch zählt nur, wenn es zeitnah und in geschlossener Form geführt wird. Nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein.
+> Sonst gilt die 1-Prozent-Regel, egal wie wenig du privat fährst.
+> Bei 50.000 Euro Listenpreis und 20 Kilometern zur Arbeit: 800 Euro im Monat.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**49 – Kleinunternehmer**
+> Ein einziger Auftrag kann dich sofort umsatzsteuerpflichtig machen – nicht erst ab Januar.
+> Ich war jahrelang im Finanzamt – und kenne diese Grenze.
+> Seit 2025 gelten zwei Grenzen: Vorjahr höchstens 25.000 Euro, laufendes Jahr höchstens 100.000 Euro.
+> Wer die 100.000 überschreitet, ist sofort raus. Schon der Umsatz, mit dem die Grenze überschritten wird, ist steuerpflichtig.
+> Früher hatte man bis Silvester Zeit, heute nicht mehr. Und wer freiwillig verzichtet, ist fünf Jahre gebunden.
+> Kommentiere „TOOL“ – ich schick dir den Grenz-Monitor.
+
+**50 – Gebäude-AfA**
+> Zwei Häuser, gleicher Preis – und eins darf mehr als doppelt so schnell abschreiben.
+> Ich war jahrelang im Finanzamt – und es kommt aufs Baujahr an.
+> Grund und Boden wird nie abgeschrieben, den Kaufpreis also aufteilen.
+> Wohngebäude ab 2023 fertig: drei Prozent linear. Von 1925 bis 2022: zwei Prozent. Ältere: zweieinhalb.
+> Baubeginn ab Oktober 2023: degressiv fünf Prozent vom Restwert. Beim Mietwohnungsneubau kann eine Sonder-AfA obendrauf kommen.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**52 – GoBD**
+> Deine Steuer-Excel stimmt – und kann in der Prüfung trotzdem durchfallen.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – der Prüfer schaut auf drei GoBD-Wörter.
+> Unveränderbar: Eine überschriebene Zelle hinterlässt keine Spur, genau das ist das Problem.
+> Zeitgerecht: Kasse täglich, alles andere zeitnah, die GoBD nennen etwa zehn Tage.
+> Dokumentiert: Eine Verfahrensdokumentation beschreibt, wie die Daten entstehen und aufbewahrt werden.
+> Kommentiere TOOL – ich schick dir die GoBD-Checkliste.
+
+**53 – IAB**
+> Du kannst eine Maschine absetzen, die du noch gar nicht gekauft hast.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – das ist der Investitionsabzugsbetrag.
+> Du ziehst bis zu 50 Prozent der geplanten Kosten schon vorher ab, wenn dein Gewinn höchstens 200.000 Euro beträgt.
+> Maschine für 60.000 Euro geplant: 30.000 Euro Abzug schon dieses Jahr. Im Kaufjahr wird er wieder hinzugerechnet.
+> Kaufst du nicht bis Ende des dritten Folgejahres, wird der Abzug rückwirkend gestrichen, mit Zinsen.
+> Kommentiere TOOL – ich zeig dir die Rechnung.
+
+**54 – Reverse Charge**
+> Du hast die Umsatzsteuer bezahlt – und bekommst sie trotzdem nicht als Vorsteuer zurück.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – das ist ein Reverse-Charge-Klassiker.
+> Ein Subunternehmer stellt dir 100.000 Euro plus 19.000 Euro Umsatzsteuer in Rechnung. Du erbringst selbst Bauleistungen, also schuldest du die Steuer.
+> Der Subunternehmer schuldet die 19.000 trotzdem, und du darfst sie nicht als Vorsteuer ziehen.
+> Stattdessen schuldest du die Steuer nach 13b und ziehst sie dort wieder ab. Das zu viel Gezahlte forderst du zurück.
+> Kommentiere TOOL – ich zeig dir den Ablauf.
+
+**55 – Thesaurierung**
+> Du zahlst bis zu 45 Prozent Steuer – auf Gewinn, den du gar nicht entnimmst.
+> Ich war jahrelang im Finanzamt – und das muss nicht sein.
+> Auf Antrag wird der Gewinn, der im Betrieb bleibt, mit 28,25 Prozent besteuert, plus Soli. Ab 2028 sinkt der Satz schrittweise, ab 2032 auf 25 Prozent.
+> Das gilt für Einzelunternehmer und Mitunternehmer mit Bilanz.
+> Entnimmst du später, kommen 25 Prozent Nachversteuerung dazu. Es lohnt sich nur, wenn das Geld lange drin bleibt.
+> Kommentiere TOOL – ich zeig dir den Vergleich.
+
+**57 – Verlust § 8c**
+> Ein Anteilsverkauf – und Jahre an Verlusten sind über Nacht wertlos.
+> Ich mach Steuern in einer Konzern-Steuerabteilung – das ist Paragraf 8c.
+> Gehen innerhalb von fünf Jahren mehr als 50 Prozent der Anteile an einen Erwerber, sind die bisher nicht genutzten Verluste weg. Nahestehende Personen zählen zusammen.
+> Es trifft auch den gewerbesteuerlichen Fehlbetrag und den Zinsvortrag.
+> Zwei Rettungsanker: die Konzernklausel im 100-Prozent-Konzern und die Stille-Reserven-Klausel.
+> Kommentiere TOOL – ich zeig dir die Prüfung.
+
+**58 – Vorsteuer**
+> Rechnung bezahlt, Leistung erhalten – und die Vorsteuer ist trotzdem weg.
+> Ich war jahrelang im Finanzamt – und das passiert an Pflichtangaben.
+> Vorsteuer gibt es nur mit einer ordnungsgemäßen Rechnung: Steuernummer, fortlaufende Rechnungsnummer, Leistungszeitpunkt und so weiter. Fehlt eine, kann der Prüfer den Abzug versagen.
+> Bis 250 Euro brutto reicht eine Kleinbetragsrechnung mit weniger Angaben.
+> Eine Berichtigung durch den Lieferanten kann zurückwirken. Darum: Rechnungen beim Eingang prüfen.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+**62 – 3 Dinge, die das Finanzamt längst weiß**
+> Das Finanzamt weiß es schon.
+> Ich war jahrelang im Finanzamt – die wissen es oft vorher.
+> Erstens: deine Kranken- und Pflegeversicherung. Die Krankenkasse meldet die Beiträge direkt.
+> Zweitens: deinen Freistellungsauftrag. Die Bank meldet, wie viel Zinsen und Dividenden steuerfrei geblieben sind.
+> Drittens, das Wichtigste: dein Gehalt. Dein Arbeitgeber schickt die Lohnsteuerbescheinigung, bevor du überhaupt anfängst.
+> Gläsern bist du also längst.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+
+## I5 Finanzbeamte (heute, komplett neu)
 Das hier trägt fast jeder Finanzbeamte in seine eigene Steuererklärung ein.
 Ich war selbst jahrelang im Finanzamt.
 Eins: Homeoffice. 6 Euro pro Tag, bis 1.260 Euro im Jahr.
