@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:41 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:59 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 10:59 ✍️ Vorbilder-Radar: 30 deutsche Steuer-Accounts (Auswahl Loris), Bericht mit Follower-Übersicht ([`2f12a02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2f12a0240072e98d702cb6cb7b1fb9de36669ebe))
+  - `automatik/interaktion.json`, `automatik/vorbilder.py`, `recherche/vorbilder.json`
+- 10:43 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`e4a3613`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e4a3613faf9ccbb2fffa5741a80dd9e0689f94f4))
+  - `recherche/viral_liste.csv`, `recherche/vorbilder.json`, `recherche/vorbilder_bericht.md`
 - 10:41 🔀 Merge claude/instagram ([`b0010f8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b0010f8e9c19678a3727ac53f5e01bad5979a3d5))
 - 10:40 ✍️ Vorbilder-Radar: wöchentlich Ausreißer-Beiträge von Steuer-Accounts sammeln (Start: lauras_taxdiary); Wissen 21 §7 Stufen-Formate + Recherche-Methode ([`a3594a3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a3594a368c0424cdc0775194b38ebac04ac84699))
   - `.github/workflows`, `LAGE.html`, `automatik/interaktion.json`, `automatik/vorbilder.py`, `recherche/viral_liste.csv`, `strategie/21_wissen_trichter.md`
