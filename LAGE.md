@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:59 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 11:03 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 11:03 ✍️ Vorbilder-Radar: robustere Auswahl (≥100 Interaktionen, 12 Monate, max. 3 je Konto), ungültige Konten raus, Probelauf zurückgesetzt ([`8b940a2`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8b940a265d93ac4c95e2ae319e89326a61b06679))
+  - `automatik/interaktion.json`, `automatik/vorbilder.py`, `recherche/viral_liste.csv`, `recherche/vorbilder.json`
+- 11:02 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`a38c368`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a38c3688a226b5fee642d7e1e72094c999f1e924))
+  - `recherche/viral_liste.csv`, `recherche/vorbilder.json`, `recherche/vorbilder_bericht.md`
 - 10:59 ✍️ Vorbilder-Radar: 30 deutsche Steuer-Accounts (Auswahl Loris), Bericht mit Follower-Übersicht ([`2f12a02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2f12a0240072e98d702cb6cb7b1fb9de36669ebe))
   - `automatik/interaktion.json`, `automatik/vorbilder.py`, `recherche/vorbilder.json`
 - 10:43 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`e4a3613`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e4a3613faf9ccbb2fffa5741a80dd9e0689f94f4))
