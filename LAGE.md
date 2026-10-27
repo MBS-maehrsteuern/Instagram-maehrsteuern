@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 12:48 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 16:43 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -208,6 +208,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 16:43 ✍️ Insider #05: Hook geschärft (Text im Bild „Finanzbeamte setzen das selbst ab.“ statt Wiederholung, Autoritäts-Badge EX-FINANZAMT · DIPLOM-FINANZWIRT ab Frame 0) ([`58b53d8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/58b53d82486e0d2ff59cff14b78bac24f1f950d0))
+  - `posts/i05_2026-10-26_insider_finanzbeamte`, `vorlagen/system/premium/insider_05.html`
 - 12:48 ✍️ Sprechtexte Insider #13 Betriebsprüfung + #14 Ferrari über die Firma (Ideen Vorbilder-Radar, Normen geprüft) für Aufnahme 07.11. ([`6e69471`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6e69471f0fab05451b5f7443fb6a6c660a775b61))
   - `posts/sprechtexte.md`
 - 11:05 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`a8231c0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a8231c07b66ac690d2cdb528d22b608407b97899))
