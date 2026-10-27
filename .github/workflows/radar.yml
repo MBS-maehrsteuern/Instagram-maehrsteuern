@@ -37,6 +37,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RADAR_ERZWINGEN: ${{ inputs.erzwingen && '1' || '' }}
         run: python automatik/radar.py
+      - name: Vorbilder (1× pro Woche, nur lesen)
+        if: always()
+        env:
+          FB_TOKEN: ${{ secrets.FB_TOKEN }}
+          FB_IG_USER_ID: ${{ secrets.FB_IG_USER_ID }}
+        run: |
+          python automatik/vorbilder.py
+          git add recherche
+          git diff --cached --quiet && exit 0
+          git commit -qm "Vorbilder-Radar: Ausreißer der Woche"
+          for i in 1 2 3 4; do git pull -q --rebase origin claude/instagram && git push -q origin HEAD:claude/instagram && exit 0; sleep $((i*5)); done
+          exit 1
       - name: LinkedIn-Pakete
         if: always()
         env:

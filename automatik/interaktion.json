@@ -1,5 +1,6 @@
 {
   "_hinweis": "Einstellungen für die zweite Säule (Interaktion). Konten: Instagram-Namen ohne @, nur Business- oder Creator-Konten (private Konten liefert die Schnittstelle nicht). art: kanzlei | creator | steuerabteilung | software | uni. DMs verschickt nur ManyChat – die Skripte hier schicken nie eine DM. Erklärung: strategie/12_interaktion.md",
+  "vorbilder": ["lauras_taxdiary"],
   "radar": {
     "konten": [
       {"name": "vrt_steuerberater", "art": "kanzlei"},

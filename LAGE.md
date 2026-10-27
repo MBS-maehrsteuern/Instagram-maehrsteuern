@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:38 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 10:38 ✍️ Wissen 21 §6: Zeitachse mit Autoritäts-Satz, 4 Story-Vorlagen, Bio-Formel, Nischen-Recherche (Vorlage recherche/) ([`5f6a1fc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5f6a1fc6abac3e163299d17887b10202bc7b982c))
+  - `LAGE.html`, `recherche/README.md`, `recherche/viral_liste.csv`, `strategie/21_wissen_trichter.md`
 - 10:29 ✍️ Wissen 21 §5: 7 Bausteine viraler Videos, Hook dreifach, Punch-in-Schnitt für Selfie-Reels, Skript-Strukturen; M1 entsprechend ergänzt ([`e98645a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e98645a4c6af2528f9baa9172edb531f50ccb414))
   - `LAGE.html`, `posts/sprechtexte.md`, `strategie/21_wissen_trichter.md`
 - 09:20 📈 Statistik 2026-10-27 ([`b08c4bb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b08c4bbc44e80e5e7fe7736cd612d5243fe8eb57))

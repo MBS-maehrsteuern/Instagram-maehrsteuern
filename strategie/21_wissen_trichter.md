@@ -56,3 +56,19 @@ selben Thema suchen und je **1–2 Bausteine** übernehmen (nie das ganze Video 
 - **Nischen-Recherche:** 5–10 Unterthemen → je Unterthema Reels-Tab durchsuchen → Ausreißer sammeln (dt. Steuer-Nische:
   ab ~100.000 Aufrufen) → Liste `recherche/viral_liste.csv` (Hook · Unterthema · Format · Aufrufe · Link) → Hooks, Themen
   und Formate auswerten, beste Bausteine in die nächsten Sprechtexte.
+
+## 7. Was in welche Stufe gehört + Recherche-Methode (@personalbrandlaunch „Short Form Content 101“, 27.10.)
+- **oben (Aufrufe):** Bewertungen („Steuer-Tipps auf einer Skala von 1–10“), Tier-Listen („Absetzbar: S bis F“),
+  Frage-Antwort („wichtig vs. unwichtig“), kurze Story-Videos, leichtes Wissen (Insider-Serie).
+- **mitte (Follower):** Schritt-für-Schritt-Anleitungen in die Tiefe (Spickzettel, „So prüft das Finanzamt“) und
+  Storys über Gewinne, Verluste, Erfahrungen (Serie „Mein Weg“).
+- **unten (Anfragen):** Vorher/Nachher (Excel-Chaos → Tool, nur Demo-Zahlen) · Kunden-Ergebnisse (erst wenn es echte,
+  freigegebene gibt) · „Was ich täte, wenn ich in Situation X wäre“ („…wenn ich heute Steuerabteilung im Mittelstand
+  aufbauen müsste“) · Fallstudie zu einer bekannten Marke nur mit öffentlich bekannten Zahlen, ohne Wertung.
+- **Marke als Held:** In Storys ist maehrsteuern/das Tool die Lösung der Geschichte (laut zitierter Studie mehr
+  Hook-Kraft und Kaufabsicht) – nie Werbespot, immer Erlebnis.
+- **Recherche:** Nische in 3–5 Unterthemen → je Unterthema die 5 stärksten Creator → deren Reels nach Aufrufen sortieren
+  (Desktop: Chrome-Erweiterung „Sort Feed“, CSV-Export möglich → Datei in `recherche/` legen, Claude wertet aus) →
+  Top 5–10 je Creator mit Hook (gesprochen/geschrieben/visuell), Format, Unterthema, Aufrufe → Spalte „verwendet“.
+  Automatisch: `automatik/vorbilder.py` (wöchentlich im Radar, Ausreißer nach Likes/Kommentaren; Konten in
+  `automatik/interaktion.json` → "vorbilder").
