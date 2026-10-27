@@ -1,19 +1,19 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:59 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 18:03 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `37-story-tipp` (pausiert) · 🟡 17:50 📱 Story `38-story-teaser` (pausiert) · 🟢 18:00 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` (läuft automatisch)
+- **Heute online:** 🟡 12:15 📱 Story `37-story-tipp` (pausiert) · 🟡 17:50 📱 Story `38-story-teaser` (pausiert) · ✅ 18:00 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` (online)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **2149** (20.10.–26.10., +51 % zur Vorwoche) · Follower **+9** (jetzt 377) · 30 Tage: +34 Follows / −11 entfolgt
 - **Testmonat** (Tag 16/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (1 online · 6 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
+  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (2 online · 5 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
   - Sa 31.10.: Story 12:15
 
-**Als Nächstes online:** 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` am **Di 27.10. 18:00 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🖼️ Karussell `41-karussell-mythen` am **Mi 28.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -79,7 +79,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 |---|---|---|---|
 | Di 27.10. 12:15 | 📱 Story `37-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek Tipp-Story neu (statt frage_pruefung = offene Frage): „Prüfungsanordnung zuerst lesen“, Verlegung des Beginns auf Antrag aus wichtigem Grund (§ 197 Abs. 2 AO), Emoji-Reaktion 👏/😮 (jobs/p37_bp_vorbereitung.json). |
 | Di 27.10. 17:50 | 📱 Story `38-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Prüfpfad-Reel (Titelbild), jobs/p38_reel_pruefpfad.json. |
-| Di 27.10. 18:00 | 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` | 🟢 freigegeben (geht automatisch online) | 27.10.: Mein Weg #01, Foto-Montage Diplomierung (Bilder Loris), Stimme 27.10.; Loris: „poste erst 18 Uhr wenn's passt“. |
 | Mi 28.10. 12:15 | 📱 Story `39-story-quiz` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen): quiz_holding als Emoji-Tipp neu gerendert (👏 = rund 1,5 % · 😮 = rund 30 %, richtig: 👏), statt „Antworte in Prozent“; Auflösung im Bild: „Die Antwort steht im neuen Reel“ (Reel 39 lief um 11:45). Keine Auflösungs-Story: Do 29.10. 12:15/17:50 sind von Agent c2 belegt (story_do_tipp Mythen, story_do_teaser AfA). Optional in der App Quiz-Sticker setzen. |
 | Mi 28.10. 17:45 | 🖼️ Karussell `41-karussell-mythen` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
@@ -150,6 +149,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Di 27.10. 18:00 · 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` · [ansehen](https://www.instagram.com/reel/DfAWBBflLkW/) (online 2026-10-27 18:01)
 - Mo 26.10. 17:45 · 🎬 Reel `i08-reel-insider-rente-oma` · [ansehen](https://www.instagram.com/reel/De9tD9vj4EH/) (online 2026-10-26 17:45)
 - So 25.10. 17:45 · 🎬 Reel `30-reel-gwg` · [ansehen](https://www.instagram.com/reel/De7JF3cAGrX/) (online 2026-10-25 17:45)
 - Sa 24.10. 12:15 · 📱 Story `36-story-tipp` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4014930017247382776) (online 2026-10-24 12:16)
@@ -159,7 +159,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Mi 21.10. 16:35 · 🎬 Reel `42-reel-afa` (online 2026-10-21 16:35)
 - Di 20.10. 17:50 · 📱 Story `28-story-aufloesung` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012196501812014820) (online 2026-10-20 17:50)
 - Di 20.10. 17:45 · 🎬 Reel `19-reel-verlustvortrag` · [ansehen](https://www.instagram.com/reel/DeuJJHoDXkl/) (online 2026-10-20 17:45)
-- Di 20.10. 12:15 · 📱 Story `29-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012035073688455220) (online 2026-10-20 12:24)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -209,6 +208,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 18:03 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`9845b76`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9845b769ca9624230876b449b9f31db18c6526e0))
+- 18:03 ✍️ Insider #13 „Brief vom Finanzamt: Betriebsprüfung“ – Zwischenstand (Stimme 27.10.), noch nicht eingeplant ([`1da0d82`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1da0d82554b0a86900a1dc350f2613152cb91229))
+  - `posts/i13_2026-10-27_insider_betriebspruefung`, `vorlagen/system/premium/insider_13.html`
+- 18:01 🤖 Autopilot: m01-reel-mein-weg-scheinsicherheit veroeffentlicht ([`313c0d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/313c0d5755ad3c3e8edbcf20cf13d8ac056d9725))
+  - Plan: `m01-reel-mein-weg-scheinsicherheit` status: freigegeben → veroeffentlicht; `m01-reel-mein-weg-scheinsicherheit` online: https://www.instagram.com/reel/DfAWBBflLkW/
 - 17:59 🤖 Autopilot: Dateien fuer m01-reel-mein-weg-scheinsicherheit vorbereitet ([`7f8b3b8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8b3b834d04ac812544f110d15e9525ff475be0))
   - `posts/m01_2026-10-27_mein_weg_scheinsicherheit`
 - 17:47 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`6836f0b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6836f0bb2f564041d07b8091192c00b21ea83ca0))
