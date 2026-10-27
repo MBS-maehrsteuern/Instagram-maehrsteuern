@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `33-story-teaser` (pausiert) · 🟡 17:45 🎬 Reel `22-reel-steuersatz` (pausiert) · ✅ 17:45 🎬 Reel `i08-reel-insider-rente-oma` (online)
+- **Heute online:** 🟡 12:15 📱 Story `37-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `i05-reel-insider-finanzbeamte` (läuft automatisch) · 🟡 17:50 📱 Story `38-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1918** (19.10.–25.10., +27 % zur Vorwoche) · Follower **+8** (jetzt 376) · 30 Tage: +32 Follows / −11 entfolgt
-- **Testmonat** (Tag 15/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 16/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (1 online · 6 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 28.10., So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
@@ -77,7 +77,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mo 26.10. 17:45 | 🎬 Reel `22-reel-steuersatz` | pausiert | 17.10.: Stimm-Fassung aus Loris' Sammelaufnahme (beste Sätze aus mehreren Fassungen, wörtliche Untertitel, 27,3 s, −18 LUFS) – ersetzt die Notlösung ohne Stimme (bleibt als reel_ohne_stimme.mp4) · 15.10. 12:00: keine Aufnahme → Fassung ohne Stimme (Notlösung, go Loris 13.10.) · 14.10. Nachtlauf: Ersatz ohne Stimme liegt bereit (reel_ohne_stimme.mp4, Titelbild, Bildunterschrift). Kommt bis Do 15.10. 12:00 keine Sprachnachricht, wird video auf die Ersatzdatei gestellt, stimme=false, freigegeben · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · 13.10.: auf Mo 26.10. (KW 44) geschoben (go Loris) – sonst Themen-Dopplung mit dem KSt-Reel vom 10.10.; CTA der KW 42 kommt vom Ampel-Reel (TOOL per DM). So 18.10. 19:30 frei für die Fabrik · CTA-Reel der Woche: „Schreib TOOL in die Kommentare“ (Auswertung 11.10.: bisher kein Beitrag mit klarem Aufruf). Sprechtext in posts/sprechtexte.md (≤ 15 s, Rechtsstand geprüft 11.10.). Loris spricht ein, Claude schneidet (12–15 s, Pointe in den ersten 5 s), danach freigegeben/Autopilot. · 13.10.: Notlösung (go Loris): Liegt bis Do 15.10. 12:00 keine Sprachnachricht vor, wird im selben Slot ein Reel OHNE Stimme zum selben Thema gebaut (stimme=false, Status entwurf → Freigabe). |
 | Di 27.10. 12:15 | 📱 Story `37-story-tipp` | pausiert | 14.10. Nachtlauf: aus Bibliothek Tipp-Story neu (statt frage_pruefung = offene Frage): „Prüfungsanordnung zuerst lesen“, Verlegung des Beginns auf Antrag aus wichtigem Grund (§ 197 Abs. 2 AO), Emoji-Reaktion 👏/😮 (jobs/p37_bp_vorbereitung.json). |
 | Di 27.10. 17:45 | 🎬 Reel `i05-reel-insider-finanzbeamte` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). |
 | Di 27.10. 17:50 | 📱 Story `38-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Prüfpfad-Reel (Titelbild), jobs/p38_reel_pruefpfad.json. |
@@ -483,6 +482,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 08:00 📡 Radar 2026-10-21: 8 Beiträge, 0 DM-Entwürfe ([`55c2c36`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/55c2c360a480fbbde486b749d04d7df1922b11e9))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Di 20.10.2026**
 - 17:50 🤖 Autopilot: 28-story-aufloesung veroeffentlicht ([`73152cc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/73152cc6473f5066c434511b2e849c18052fcc76))
   - Plan: `28-story-aufloesung` status: freigegeben → veroeffentlicht; `28-story-aufloesung` online: https://www.instagram.com/stories/maehrsteuern/4012196501812014820
@@ -508,8 +509,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `posts/29_2026-10-20_verluste_70`
 - 07:28 📡 Radar 2026-10-20: 8 Beiträge, 0 DM-Entwürfe ([`aba45c8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/aba45c8dfd569198a5c5929be3f2b8668d6aa705))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mo 19.10.2026**
 - 19:26 🤖 Autopilot: 18-reel-aufbewahrung veroeffentlicht ([`0e93a0d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0e93a0d136d815e4bb611d9ef14e9513d3fb00e6))
