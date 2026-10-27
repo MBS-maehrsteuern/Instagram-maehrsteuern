@@ -1,44 +1,38 @@
 # Vorbilder-Radar 2026-W44 (27.10.2026)
 
-Ausreißer = Likes + 3×Kommentare ≥ 2× Median des Kontos (Aufrufe liefert die API für fremde Konten nicht).
+Ausreißer = Likes + 3×Kommentare ≥ 2× Median des Kontos und ≥ 100, letzte 12 Monate, max. 3 je Konto (Aufrufe liefert die API für fremde Konten nicht).
 Nur Muster übernehmen (Hook, Thema, Format) – Inhalt immer selbst prüfen.
 
+- **4.1×** @karriere.steuern.hessen · Reel · 2026-10-14 · ❤ 693 · 💬 6  
+  „Post vom Finanzamt - eine Betriebsprüfung steht an? Keine Sorge!“ – https://www.instagram.com/reel/DeexGmkIiLw/
+- **3.7×** @karriere.steuern.hessen · Reel · 2026-07-26 · ❤ 645 · 💬 0  
+  „Ein besonderer Tag und ein großer Meilenstein!“ – https://www.instagram.com/reel/DbQnn3xIWC9/
+- **3.3×** @karriere.steuern.hessen · Reel · 2026-08-04 · ❤ 556 · 💬 8  
+  „Herzlichen Glückwunsch, Darja!“ – https://www.instagram.com/reel/Dbny-W8oz8x/
+- **3.9×** @wirliebensteuern · Beitrag · 2026-07-23 · ❤ 282 · 💬 50  
+  „Wir beide sind ja nicht nur knallharte Geschäftspartner, sondern auch gute Freundinnen.“ – https://www.instagram.com/p/DbIuTZGjZ30/
+- **3.6×** @examio.steuern · Beitrag · 2026-10-11 · ❤ 310 · 💬 9  
+  „Das kam dran: die Steuerberaterprüfung 2026 in 81 Themen.“ – https://www.instagram.com/p/DeWJhm-iuna/
+- **2.9×** @wirliebensteuern · Beitrag · 2026-07-13 · ❤ 260 · 💬 21  
+  „Kurze Frage in die Runde: Ist eure Arbeitsmotivation heute genau so groß wie Helens?“ – https://www.instagram.com/p/Dau2UB4Dm0y/
+- **3.5×** @examio.steuern · Reel · 2026-09-24 · ❤ 102 · 💬 73  
+  „Gewinnspiel – Platz im Crashkurs! 🎉🎁“ – https://www.instagram.com/reel/DdrVe2rKnFT/
+- **3.3×** @examio.steuern · Beitrag · 2026-08-21 · ❤ 294 · 💬 4  
+  „2.255 haben es geschafft. 🎉“ – https://www.instagram.com/p/DcTDFqCCjvU/
+- **2.1×** @wirliebensteuern · Reel · 2026-08-04 · ❤ 173 · 💬 20  
+  „#steuerklasse #gehalt #steuertipps #gehaltsabrechnung #steuererklärung“ – https://www.instagram.com/reel/Dbn8t58EmbF/
+- **10.0×** @steuern_mit_system · Reel · 2026-06-04 · ❤ 156 · 💬 21  
+  „Türkei statt Dubai? 🇹🇷👀“ – https://www.instagram.com/reel/DZKQjc0gXI_/
+- **6.4×** @steuern.steuern · Reel · 2026-09-09 · ❤ 184 · 💬 5  
+  „Ferrari & Rolex von der Steuer absetzen? 🏎️❌“ – https://www.instagram.com/reel/DdE1SjqMZJx/
+- **7.1×** @msc_steuern · Reel · 2026-07-14 · ❤ 158 · 💬 9  
+  „Hast du auch so einen Gen-Z-Kollegen oder so eine Gen-Z-Kollegin? 😄“ – https://www.instagram.com/reel/DaxJoo0t1fq/
 - **118.0×** @steuern_machen_zukunft · Beitrag · 2026-09-28 · ❤ 177 · 💬 0  
   „Heute war wieder ein besonderer Tag für unsere neuen Steueranwärter:innen! Mit der Ernennungsurkunde zum …“ – https://www.instagram.com/p/Dd1J1HgCGLR/
 - **104.7×** @steuern_machen_zukunft · Reel · 2025-12-18 · ❤ 145 · 💬 4  
   „✨ Das Finanzamt Saarlouis wünscht euch allen ein frohes Weihnachtsfest ❄️☃️ 🎄“ – https://www.instagram.com/reel/DSaQYI4CDkK/
-- **86.7×** @steuern_machen_zukunft · Reel · 2024-10-31 · ❤ 130 · 💬 0  
-  „🕷️🕸️🧙‍♀️HAPPY HALLOWEEN 🦇 👻“ – https://www.instagram.com/reel/DByFAE6NLI8/
-- **53.3×** @steuern_machen_zukunft · Reel · 2026-02-13 · ❤ 77 · 💬 1  
-  „🎉🥳 Wenn im Finanzamt Saarlouis die Akten Pause haben, zeigt sich: Wir können nicht nur „Steuern“ – wir können auch …“ – https://www.instagram.com/reel/DUtNOHUCH3w/
-- **51.3×** @steuern_machen_zukunft · Reel · 2024-10-24 · ❤ 71 · 💬 2  
-  „#tbt“ – https://www.instagram.com/reel/DBgS2pjtUZ8/
-- **42.7×** @steuern_machen_zukunft · Beitrag · 2024-10-10 · ❤ 61 · 💬 1  
-  „#tbt“ – https://www.instagram.com/p/DA8TSz-NAsl/
-- **42.0×** @steuern_machen_zukunft · Beitrag · 2025-04-02 · ❤ 63 · 💬 0  
-  „Und zack🫰“ – https://www.instagram.com/p/DH7mR6JtM8b/
-- **39.3×** @steuern_machen_zukunft · Beitrag · 2025-07-10 · ❤ 59 · 💬 0  
-  „#tht#throwbackthursday“ – https://www.instagram.com/p/DL6zooSNfl0/
-- **36.7×** @steuern_machen_zukunft · Reel · 2025-12-23 · ❤ 52 · 💬 1  
-  „✨ Worte bewegen. Doch Taten verändern. Gemeinsam zur Weihnachtszeit. ✨“ – https://www.instagram.com/reel/DSm7C9yiNch/
-- **32.7×** @steuern_machen_zukunft · Reel · 2026-10-16 · ❤ 49 · 💬 0  
-  „Du willst deine Zukunft STEUERN? 🚀“ – https://www.instagram.com/reel/DejZJgYo-I7/
-- **32.0×** @steuern_machen_zukunft · Beitrag · 2024-11-15 · ❤ 48 · 💬 0  
-  „#fridaystattthursday#latetotheparty“ – https://www.instagram.com/p/DCd8nDFtxG1/
-- **26.7×** @steuern_machen_zukunft · Beitrag · 2024-09-19 · ❤ 40 · 💬 0  
-  „#tbt“ – https://www.instagram.com/p/DAGBDJCtOcE/
-- **15.3×** @steuern_machen_zukunft · Reel · 2025-12-24 · ❤ 23 · 💬 0  
-  „🎄👋🏻😃“ – https://www.instagram.com/reel/DSpypOgCM8n/
-- **14.0×** @steuern_machen_zukunft · Beitrag · 2024-11-29 · ❤ 21 · 💬 0  
-  „🍀“ – https://www.instagram.com/p/DC8idkJoK0S/
-- **12.7×** @steuern_machen_zukunft · Beitrag · 2025-01-30 · ❤ 19 · 💬 0  
-  „Hello everyone! Hello 2025! #littlelatetotheparty#ok#✌🏻“ – https://www.instagram.com/p/DFcoTM7IHTw/
+- **6.5×** @wlw.steuern · Beitrag · 2026-07-04 · ❤ 149 · 💬 1  
+  „Klettere auch du an die Spitze des Steuerrechts – wie diese zwei an die Spitze des Empire State Buildings 🏙️📈“ – https://www.instagram.com/p/DaXW_0OgQJj/
 
 Abgefragte Konten (Follower): @steuernmitkopf_official 61.800, @wirliebensteuern 59.125, @examio.steuern 15.261, @steuern.steuern 11.923, @steuern_mit_system 8.517, @karriere.steuern.hessen 8.119, @steuernlernen 7.716, @wlw.steuern 3.894, @steuern_fuer_unternehmen 1.110, @planaris.de 935, @steuern_machen_zukunft 929, @lauras_taxdiary 826, @pohlmann_steuern 624, @steuern.leicht.gemacht 526, @msc_steuern 346, @hpy.steuern 268, @steuernundich 240, @ph_steuern 190, @steuernnachmaas 187, @steuern_gestalten 182, @steuernklaeren 116, @steuernmitkaja 88, @steuern.infinity 78, @kjg_steuern 65
 
-⚠ @steuer_nerdy: 110: Invalid user id
-⚠ @steuern_lernen_: 110: Invalid user id
-⚠ @steuern_zwischen_liebe_u_hass: 110: Invalid user id
-⚠ @st_euern: 110: Invalid user id
-⚠ @st_euern2021: 110: Invalid user id
-⚠ @steuernavi: 110: Invalid user id
