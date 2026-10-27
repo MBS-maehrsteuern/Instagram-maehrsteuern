@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 16:43 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 16:55 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -208,6 +208,13 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 16:55 ✍️ Sprechtexte: alle übrigen Reels überarbeitet (Autoritäts-Satz, CTA nach Trichter) + Korrekturen aus Faktencheck ([`15108dc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/15108dc026e74eb2bfbebe4b3be5d5704b67469f))
+  - `posts/sprechtexte.md`
+- 16:55 ✍️ Insider #05: Autoritäts-Satz „Ich war selbst jahrelang im Finanzamt.“ eingesprochen (27.10.) und nach dem Hook eingesetzt, 32,1 s ([`8617138`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/86171386a687d86d76fb015197c89cd0d859dc2f))
+  - `aufnahmen/2026-10-27/i05_autoritaet_roh.mp3`, `posts/i05_2026-10-26_insider_finanzbeamte`, `vorlagen/system/premium/insider_05.html`
+- 16:52 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`ef5079f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ef5079f8ea72ef09153039467d20bfb0ec0cee0f))
+- 16:52 ✍️ Sprechtexte 27.10. überarbeitet (Wissen 21), Zahlen gegen Gesetze geprüft ([`692aee8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/692aee8176c631e426833e8805b02a647013245c))
+  - `posts/sprechtexte.md`
 - 16:43 ✍️ Insider #05: Hook geschärft (Text im Bild „Finanzbeamte setzen das selbst ab.“ statt Wiederholung, Autoritäts-Badge EX-FINANZAMT · DIPLOM-FINANZWIRT ab Frame 0) ([`58b53d8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/58b53d82486e0d2ff59cff14b78bac24f1f950d0))
   - `posts/i05_2026-10-26_insider_finanzbeamte`, `vorlagen/system/premium/insider_05.html`
 - 12:48 ✍️ Sprechtexte Insider #13 Betriebsprüfung + #14 Ferrari über die Firma (Ideen Vorbilder-Radar, Normen geprüft) für Aufnahme 07.11. ([`6e69471`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6e69471f0fab05451b5f7443fb6a6c660a775b61))
