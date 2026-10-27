@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:47 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:59 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 17:59 🤖 Autopilot: Dateien fuer m01-reel-mein-weg-scheinsicherheit vorbereitet ([`7f8b3b8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8b3b834d04ac812544f110d15e9525ff475be0))
+  - `posts/m01_2026-10-27_mein_weg_scheinsicherheit`
 - 17:47 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`6836f0b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6836f0bb2f564041d07b8091192c00b21ea83ca0))
 - 17:46 ✍️ Insider #14 „Ferrari über die Firma?“ gebaut (Stimme 27.10., 38,7 s) – noch nicht eingeplant, wartet auf Loris ([`01c23a3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/01c23a33909c6bae8ff5291b048cd3b895ac06a7))
   - `posts/i14_2026-10-27_insider_ferrari`, `vorlagen/system/premium/insider_14.html`
