@@ -215,6 +215,8 @@ Bild: nur die Karten aus `assets/marke/` (Drehbuch `posts/04_2026-10-20_reel_mei
 
 ### M1 – „Der sicherste Job Deutschlands – mit Haken“ (~35 s, Idee Loris 26.10.)
 Kern: Scheinsicherheit. Eigene Erfahrung, **ohne Betrag**, kein Bundesland.
+Struktur (Story, Wissen 21 §5): Intro 0–3 s · Wendepunkt 3–9 s · Versuche/Haken 9–17 s · Höhepunkt 17–24 s · Ergebnis 24–31 s · CTA.
+Hook dreifach: gesprochen „Ich hab gezahlt …“ · geschrieben „Der sicherste Job – mit Haken“ · visuell Schloss klickt zu. Schnitt: Punch-in-Zoom auf jeden Satzanfang.
 Quelle: § 59 Abs. 5 BBesG (gesetze-im-internet.de, abgerufen 26.10.2026) – Anwärterbezüge bei Vorbereitungsdienst mit Studium
 können an Auflagen geknüpft werden; die Länder regeln das entsprechend. „5 Jahre“ und „anteilig“ = übliche Auflage
 (Verwaltungsvorschriften, je nach Land) → im Text bewusst „in vielen Bundesländern“ / „ganz oder anteilig“. ✓ 5 Jahre von Loris aus eigener Erfahrung bestätigt (26.10.)
