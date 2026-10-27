@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Mein Weg #01 „Scheinsicherheit“ (Loris 27.10.): Foto-Montage aus der Diplomierung + Selfies, Kontrast „sicher = festgebunden“.
+     Bilder: posts/m01_2026-10-27_mein_weg_scheinsicherheit/bilder (nur Loris zu sehen, Ränder mit anderen Personen weggeschnitten). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;--gelb:#E8B04A;
+  --serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+.bild{position:absolute;inset:0;opacity:0;overflow:hidden}
+.bild .hg{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(40px) brightness(.45)}
+.bild img{position:absolute;left:50%;top:50%;transform-origin:center}
+#verlauf{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,12,10,.88) 0%,rgba(7,12,10,.15) 30%,rgba(7,12,10,0) 52%,rgba(7,12,10,.55) 72%,rgba(7,12,10,.95) 100%)}
+.kicker{position:absolute;left:80px;top:150px;font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:16px}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+.titel{position:absolute;left:80px;right:80px;top:215px;opacity:0}
+h1{font-family:"Outfit";font-weight:700;font-size:100px;line-height:1.02;letter-spacing:-.025em;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.05;color:var(--gruen2);text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.wort{font-family:"Outfit";font-weight:700;font-size:104px;letter-spacing:-.02em;line-height:1.08;text-shadow:0 4px 30px rgba(0,0,0,.7)}
+#ut{position:absolute;left:80px;right:80px;top:1440px;font-family:"Outfit";font-weight:700;font-size:58px;line-height:1.2;text-shadow:0 3px 18px rgba(0,0,0,.8)}
+#ut span{color:rgba(238,244,240,.45)} #ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2)}
+#leiste{position:absolute;left:80px;right:80px;top:1240px;opacity:0}
+#leiste .bar{height:26px;border-radius:13px;background:rgba(255,255,255,.12);overflow:hidden;border:1px solid rgba(127,224,194,.4)}
+#leiste .fill{height:100%;background:linear-gradient(90deg,var(--gelb),#E07A6B);width:100%}
+#leiste .lab{display:flex;justify-content:space-between;font-family:var(--mono);font-size:30px;color:var(--text2);margin-top:14px}
+#tool{position:absolute;inset:0;opacity:0;background:radial-gradient(900px 700px at 40% 30%,rgba(83,195,162,.18),transparent 70%),var(--bg)}
+.karte{position:absolute;left:110px;right:110px;top:700px;border:1px solid #1E3A31;border-radius:30px;background:#0D1613;padding:44px 50px;box-shadow:0 0 60px rgba(83,195,162,.15)}
+.zeile{display:flex;justify-content:space-between;font-family:var(--mono);font-size:34px;padding:16px 0;border-bottom:1px solid #1E3A31;color:var(--text2)}
+.zeile b{color:var(--gruen2);font-weight:600}
+#fuss{position:absolute;left:80px;right:80px;bottom:90px;display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:30px;color:var(--text2)}
+#fuss i{width:22px;height:22px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+</style></head><body>
+<div class="bild" id="b1"><div class="hg"></div><img></div>
+<div class="bild" id="b2"><div class="hg"></div><img></div>
+<div class="bild" id="b3"><div class="hg"></div><img></div>
+<div class="bild" id="b4"><div class="hg"></div><img></div>
+<div class="bild" id="b5"><div class="hg"></div><img></div>
+<div class="bild" id="b6"><div class="hg"></div><img></div>
+<div class="bild" id="b7"><div class="hg"></div><img></div>
+<div id="tool">
+ <div class="karte"><div class="zeile"><span>STEUERRÜCKSTELLUNG</span><b>✓ geprüft</b></div><div class="zeile"><span>ZINSSCHRANKE</span><b>✓ geprüft</b></div>
+ <div class="zeile"><span>LATENTE STEUERN</span><b>✓ geprüft</b></div><div class="zeile" style="border:0"><span>PRÜFPFAD</span><b>Quelle ↗</b></div></div>
+</div>
+<div id="verlauf"></div>
+<div class="kicker" id="kick"><i></i>MEIN WEG · #01</div>
+<div class="titel" id="t1" style="top:1000px"><h1>Ich hab gezahlt,</h1><h2>um hier rauszukommen.</h2></div>
+<div class="titel" id="t2" style="top:220px"><div class="wort" id="w1">Finanzamt.</div><div class="wort" id="w2">Verbeamtet.</div><div class="wort" id="w3" style="color:var(--gruen2)">Unkündbar.</div></div>
+<div class="titel" id="t3"><h1>„Da bist du safe.“</h1></div>
+<div class="titel" id="t4"><h1>Was keiner erzählt:</h1><h2>Gehen kostet.</h2></div>
+<div id="leiste"><div class="bar"><div class="fill" id="fill"></div></div><div class="lab"><span>STUDIUM BEZAHLT</span><span id="jahre">5 JAHRE GEBUNDEN</span></div></div>
+<div class="titel" id="t5"><h1 id="swap">SICHER</h1><h2 id="swap2">heißt auch …</h2></div>
+<div class="titel" id="t6"><h1>Etwas Eigenes.</h1></div>
+<div class="titel" id="t7"><h1>Trotzdem gegangen.</h1><h2>Keinen Tag bereut.</h2></div>
+<div class="titel" id="t8"><h1>Heute baue ich,</h1><h2>was mir damals fehlte.</h2></div>
+<div class="titel" id="t9" style="top:620px;text-align:center"><h2 style="font-size:70px">Wie das Finanzamt von innen tickt:</h2><h1 style="font-size:96px;margin-top:30px">Folge @maehrsteuern</h1></div>
+<div id="ut"></div>
+<div id="fuss"><i></i>maehrsteuern</div>
+<script>
+const B="../../../posts/m01_2026-10-27_mein_weg_scheinsicherheit/bilder/";
+// Bild: Datei, Bildgröße, Fokus (fx,fy 0..1), Zoom-Start, Zoom-Ende, Graustufen-Wechsel
+const BILD={b1:["1_urkunde.jpg",900,2001,.57,.2,1.24,1.32],b2:["2_emotion.jpg",614,614,.5,.45,1.0,1.08],b3:["3_lehrgang.jpg",900,2000,.5,.24,1.7,1.8],
+ b4:["4_selfie.jpg",900,2000,.5,.45,1.25,1.35],b5:["5_draussen.jpg",305,842,.62,.42,1.25,1.35],b6:["6_maske.jpg",900,2000,.5,.5,1.75,1.85],b7:["1_urkunde.jpg",900,2001,.57,.14,1.5,1.62]};
+Object.entries(BILD).forEach(([id,[f]])=>{const e=document.getElementById(id);e.querySelector("img").src=B+f;e.querySelector(".hg").style.backgroundImage=`url(${B+f})`});
+// Zeitplan (Sekunden, Wortzeiten Aufnahme 27.10.)
+const ABL=[["b1",0,4.4],["b2",4.4,7.1],["b3",7.1,9.0],["b4",9.0,15.25],["b7",15.25,17.75],["b5",17.75,21.0],["b6",21.0,24.1],["tool",24.1,26.45],["b4",26.45,31.5]];
+const TXT=[["t1",0,4.4],["t2",4.4,7.1],["t3",7.1,9.0],["t4",9.0,15.25],["t5",15.25,17.75],["t6",17.75,21.0],["t7",21.0,24.1],["t8",24.1,26.45],["t9",26.45,31.5]];
+const W=[["Ich",0.0],["hab",0.7],["gezahlt,",0.82],["um",1.6],["aus",1.8],["dem",2.0],["sichersten",2.14],["Job",2.58],["Deutschlands",2.84],["rauszukommen.",3.3],["Finanzamt.",4.42],["Verbeamtet.",5.36],["Unkündbar.",6.26],["Alle",7.16],["sagen:",7.38],["Da",8.0],["bist",8.08],["du",8.26],["safe.",8.36],["Was",9.02],["keiner",9.14],["erzählt:",9.4],["Du",10.22],["wirst",10.34],["im",10.46],["Studium",10.6],["bezahlt.",10.92],["Gehst",11.84],["du",12.02],["in",12.12],["den",12.2],["ersten",12.3],["fünf",12.54],["Jahren",12.78],["danach,",13.06],["zahlst",13.94],["du",14.16],["einen",14.24],["Teil",14.38],["zurück.",14.58],["Sicher",15.3],["heißt",15.54],["eben",15.86],["auch",16.12],["festgebunden.",16.34],["Und",17.82],["das",17.92],["hab",18.06],["ich",18.18],["gemerkt,",18.3],["als",18.88],["ich",19.02],["was",19.16],["Eigenes",19.28],["machen",19.66],["wollte.",19.84],["Und",21.04],["ich",21.26],["bin",21.36],["trotzdem",21.48],["gegangen",21.86],["und",22.28],["hab's",22.82],["keinen",23.06],["Tag",23.24],["bereut,",23.48],["weil",24.14],["ich",24.28],["heute",24.38],["baue,",24.56],["was",25.38],["mir",25.46],["damals",25.62],["gefehlt",25.86],["hat.",26.28],["Wenn",26.5],["du",27.14],["wissen",27.24],["willst,",27.46],["wie",28.04],["das",28.12],["Finanzamt",28.24],["von",28.68],["innen",28.82],["tickt:",29.2],["Folg",29.6],["mir.",29.96]];
+const UT_END=30.6;
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,:?]$/.test(w[0])||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const $=id=>document.getElementById(id);
+function bildStil(id,t,von,bis){
+  const [f,bw,bh,fx,fy,z0,z1]=BILD[id];const img=$(id).querySelector("img");
+  const cov=Math.max(1080/bw,1920/bh);const p=Math.min(1,Math.max(0,(t-von)/Math.max(.1,bis-von)));
+  const z=cov*(z0+(z1-z0)*p);const w=bw*z,h=bh*z;
+  // Fokuspunkt in die Mitte, Ränder dürfen nicht ins Bild laufen
+  let dx=(0.5-fx)*w, dy=(0.5-fy)*h; dx=Math.max(Math.min(dx,(w-1080)/2),-(w-1080)/2); dy=Math.max(Math.min(dy,(h-1920)/2),-(h-1920)/2);
+  if(id==="b2"){const s=900/bw*(z0+(z1-z0)*p);img.style.width=bw*s+"px";img.style.height=bh*s+"px";img.style.transform=`translate(-50%,-30%)`;img.style.borderRadius="36px";img.style.boxShadow="0 30px 80px rgba(0,0,0,.6)";return}
+  img.style.width=w+"px";img.style.height=h+"px";img.style.transform=`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`;
+}
+function render(t){
+  ["b1","b2","b3","b4","b5","b6","b7","tool"].forEach(id=>$(id).style.opacity=0);
+  ABL.forEach(([id,von,bis])=>{if(t>=von-0.001&&t<bis){const ein=von===0?1:ease((t-von)/0.35);$(id).style.opacity=ein;if(id!=="tool")bildStil(id,t,von,bis)}
+    else if(t>=bis&&t<bis+0.35&&id!=="tool"){$(id).style.opacity=1-ease((t-bis)/0.35);bildStil(id,t,von,bis)}});
+  // Wendepunkt „festgebunden“: Bild wird grau und dunkler
+  const grau=t>=15.25&&t<17.75?Math.min(1,(t-15.25)/0.6):0;$("b7").style.filter=`grayscale(${grau}) brightness(${1-.35*grau})`;
+  if(t>=26.45){$("b4").style.filter=`brightness(${1-.6*Math.min(1,(t-26.45)/0.5)})`}else{$("b4").style.filter=""}
+  TXT.forEach(([id,von,bis])=>{const s=t>=von-0.001&&t<bis;const e=$(id);const p=von===0?1:ease((t-von)/0.4);e.style.opacity=s?p:0;e.style.transform=`translateY(${(1-p)*40}px)`});
+  ["w1","w2","w3"].forEach((id,i)=>{const z=[4.42,5.36,6.26][i];const p=ease((t-z)/0.3);$(id).style.opacity=p;$(id).style.transform=`scale(${.85+.15*p})`;$(id).style.transformOrigin="left"});
+  const lp=t>=11.84&&t<15.25;$("leiste").style.opacity=lp?ease((t-11.84)/0.4):0;$("fill").style.width=(100-55*ease((t-13.94)/0.8))+"%";
+  const sw=t>=16.34;$("swap").textContent=sw?"FESTGEBUNDEN.":"SICHER";$("swap").style.color=sw?"var(--gelb)":"var(--text)";$("swap2").textContent=sw?"":"heißt auch …";
+  $("kick").style.opacity=t<26.45?1:0;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");if(gi<0||t>UT_END||(t>=4.4&&t<7.1)){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>
