@@ -20,6 +20,8 @@ KONTEN = json.loads((WURZEL / "automatik" / "interaktion.json").read_text()).get
 FELDER = "id,caption,permalink,timestamp,like_count,comments_count,media_type,media_product_type"
 PROBE = "--probe" in sys.argv
 WOCHE = JETZT.strftime("%G-W%V")
+MIN_INTERAKTION = 100                                      # darunter ist ein „Ausreißer“ nur Rauschen
+SEIT = (JETZT.replace(year=JETZT.year - 1)).strftime("%Y-%m-%d")  # nur Beiträge der letzten 12 Monate
 FORMATE = {"REELS": "Reel", "FEED": "Beitrag"}
 
 
@@ -57,12 +59,15 @@ def main():
                        "likes": m.get("like_count"), "kommentare": m.get("comments_count"), "hook": hook(m.get("caption")),
                        "faktor": round(wert(m) / median, 1), "gemeldet": alt.get("gemeldet")}
             daten["beitraege"][m["id"]] = eintrag
-            if eintrag["faktor"] >= 2 and not eintrag["gemeldet"]:
+            if eintrag["faktor"] >= 2 and wert(m) >= MIN_INTERAKTION and m["timestamp"][:10] >= SEIT and not eintrag["gemeldet"]:
                 neu.append(eintrag)
         time.sleep(1)
-    top = sorted(neu, key=lambda e: -e["faktor"])[:15]
+    top, je_konto = [], {}
+    for e in sorted(neu, key=lambda e: -(e["likes"] or 0) - 3 * (e["kommentare"] or 0)):  # stärkste zuerst
+        if je_konto.get(e["konto"], 0) < 3 and len(top) < 15:  # max. 3 je Konto, sonst dominiert ein Kleinst-Konto
+            top.append(e); je_konto[e["konto"]] = je_konto.get(e["konto"], 0) + 1
     zeilen = [f"# Vorbilder-Radar {WOCHE} ({JETZT:%d.%m.%Y})", "",
-              "Ausreißer = Likes + 3×Kommentare ≥ 2× Median des Kontos (Aufrufe liefert die API für fremde Konten nicht).",
+              "Ausreißer = Likes + 3×Kommentare ≥ 2× Median des Kontos und ≥ 100, letzte 12 Monate, max. 3 je Konto (Aufrufe liefert die API für fremde Konten nicht).",
               "Nur Muster übernehmen (Hook, Thema, Format) – Inhalt immer selbst prüfen.", ""]
     zeilen += [f"- **{e['faktor']}×** @{e['konto']} · {e['format']} · {e['datum']} · ❤ {e['likes']} · 💬 {e['kommentare']}"
                f"  \n  „{e['hook']}“ – {e['link']}" for e in top] or ["Keine neuen Ausreißer diese Woche."]

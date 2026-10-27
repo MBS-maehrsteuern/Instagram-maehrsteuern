@@ -1,6 +1,6 @@
 {
   "_hinweis": "Einstellungen für die zweite Säule (Interaktion). Konten: Instagram-Namen ohne @, nur Business- oder Creator-Konten (private Konten liefert die Schnittstelle nicht). art: kanzlei | creator | steuerabteilung | software | uni. DMs verschickt nur ManyChat – die Skripte hier schicken nie eine DM. Erklärung: strategie/12_interaktion.md",
-  "vorbilder": ["lauras_taxdiary", "steuern.steuern", "steuernmitkopf_official", "wirliebensteuern", "steuernmitkaja", "steuer_nerdy", "steuern.leicht.gemacht", "steuern_fuer_unternehmen", "steuernundich", "steuernnachmaas", "wlw.steuern", "examio.steuern", "steuern_mit_system", "steuernlernen", "steuern_lernen_", "steuern_zwischen_liebe_u_hass", "steuern_machen_zukunft", "karriere.steuern.hessen", "st_euern", "st_euern2021", "steuernavi", "ph_steuern", "steuern.infinity", "steuern_gestalten", "planaris.de", "msc_steuern", "hpy.steuern", "kjg_steuern", "pohlmann_steuern", "steuernklaeren"],
+  "vorbilder": ["lauras_taxdiary", "steuern.steuern", "steuernmitkopf_official", "wirliebensteuern", "steuernmitkaja", "steuern.leicht.gemacht", "steuern_fuer_unternehmen", "steuernundich", "steuernnachmaas", "wlw.steuern", "examio.steuern", "steuern_mit_system", "steuernlernen", "steuern_machen_zukunft", "karriere.steuern.hessen", "ph_steuern", "steuern.infinity", "steuern_gestalten", "planaris.de", "msc_steuern", "hpy.steuern", "kjg_steuern", "pohlmann_steuern", "steuernklaeren"],
   "radar": {
     "konten": [
       {"name": "vrt_steuerberater", "art": "kanzlei"},
