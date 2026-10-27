@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 16:55 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:11 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -208,6 +208,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 17:11 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`087c031`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/087c031a2bfb9e2f761c2bc414b5011245c1a285))
+- 17:11 ✍️ Aufnahme 27.10.: Transkript mit Wortzeiten ([`6892def`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6892def20c64973a0f2a9d4525f5de3c165aaf4b))
+  - `aufnahmen/2026-10-27/woerter.json`
+- 17:10 ✍️ Aufnahme 27.10.: überarbeitete Sprechtexte (I5, I13, I14, M1, M2, S1–S5), roh ([`7c39aab`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7c39aab010f9a0a93fcc0642a2edc8d55d46d7da))
+  - `aufnahmen/2026-10-27/alle_reels_roh.mp3`
 - 16:55 ✍️ Sprechtexte: alle übrigen Reels überarbeitet (Autoritäts-Satz, CTA nach Trichter) + Korrekturen aus Faktencheck ([`15108dc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/15108dc026e74eb2bfbebe4b3be5d5704b67469f))
   - `posts/sprechtexte.md`
 - 16:55 ✍️ Insider #05: Autoritäts-Satz „Ich war selbst jahrelang im Finanzamt.“ eingesprochen (27.10.) und nach dem Hook eingesetzt, 32,1 s ([`8617138`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/86171386a687d86d76fb015197c89cd0d859dc2f))
