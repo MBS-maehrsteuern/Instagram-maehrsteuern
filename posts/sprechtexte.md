@@ -5,6 +5,108 @@ etwas Abstand zum Mikro). Schicken → Claude schneidet mit wörtlichen Untertit
 Aufnahme-Fassung für Fr 16.10. als Google Doc im Drive-Ordner „Maehrsteuern audios“ (Sprechtexte zum Aufnehmen – Fr 16.10.).
 Keine echten Zahlen oder Fälle vom Arbeitgeber – nur Demo-Zahlen.
 
+## ✍️ Überarbeitete Sprechtexte 27.10. (Wissen 21)
+
+Aufbau: Hook 0–3 s · Autorität 3–5 s · Mehrwert · Ergebnis · CTA (`strategie/21_*`).
+
+Quellen geprüft 27.10.2026: § 9 Abs. 1 Nr. 4, § 9 Abs. 4a, § 9a, § 20 Abs. 9, § 32 Abs. 6, § 32a, § 66, § 4 Abs. 5 Nr. 1, 2, 6c, 7, § 6 Abs. 2 EStG; § 19 UStG; § 141, § 147 Abs. 3, § 149 Abs. 2 und 3, § 108 Abs. 3, § 355, § 371 Abs. 2, § 197, § 200 AO; § 23 KStG; § 4 SolZG; § 11 Abs. 2, § 16 Abs. 4 GewStG (gesetze-im-internet.de, Stand 2026).
+
+### I5 Finanzbeamte (heute, komplett neu)
+Das hier trägt fast jeder Finanzbeamte in seine eigene Steuererklärung ein.
+Ich war selbst jahrelang im Finanzamt.
+Eins: Homeoffice. 6 Euro pro Tag, bis 1.260 Euro im Jahr.
+Zwei: Fahrten zur Arbeit. Seit 2026 38 Cent ab dem ersten Kilometer.
+Und drei: Arbeitsmittel wie Laptop oder Schreibtisch.
+Lohnt sich aber erst über 1.230 Euro – darunter zählt eh der Pauschbetrag.
+Speichern für deine nächste Erklärung. Und folg mir für mehr Insider aus dem Finanzamt.
+
+### I13 Betriebsprüfung
+Brief vom Finanzamt: Betriebsprüfung. Erst mal durchatmen.
+Ich saß jahrelang auf der anderen Seite – so läuft das wirklich.
+Der Brief heißt Prüfungsanordnung und kommt mit Vorlauf, meistens zwei bis vier Wochen.
+Passt der Termin gar nicht, kannst du mit gutem Grund eine Verschiebung beantragen.
+Wichtig: Ab diesem Brief ist eine Selbstanzeige für den angekündigten Zeitraum gesperrt.
+Und du musst mitwirken – Unterlagen zeigen, Fragen beantworten.
+Der Prüfer will vor allem eins: Zahlen, die er nachvollziehen kann.
+Wer sortiert ist, ist meistens schneller durch, als er denkt.
+Folg mir für mehr Insider aus dem Finanzamt.
+
+### I14 Ferrari über die Firma
+Ferrari über die Firma? Das Finanzamt stellt genau eine Frage.
+Ich war jahrelang im Finanzamt – und die Frage ist immer dieselbe:
+Würde ein normaler Unternehmer das auch so ausgeben?
+Das Gesetz sagt: Was dein Privatleben berührt und unangemessen ist, ist keine Betriebsausgabe.
+Heißt: Der Ferrari ist nicht verboten.
+Aber der Teil, der über das Angemessene hinausgeht, zählt nicht.
+Und was angemessen ist, hängt an deinem Betrieb: Umsatz, Gewinn, wofür du das Auto wirklich brauchst.
+Luxus geht – nur nicht komplett auf Kosten des Finanzamts.
+Folg mir für mehr Insider aus dem Finanzamt.
+
+### M1 Mein Weg – Scheinsicherheit (Selfie)
+Ich hab gezahlt, um aus dem sichersten Job Deutschlands rauszukommen.
+Finanzamt. Verbeamtet. Unkündbar. Alle sagen: Da bist du safe.
+Was keiner erzählt: Du wirst im Studium bezahlt. Gehst du in den ersten fünf Jahren danach, zahlst du einen Teil zurück.
+Sicher heißt eben auch: festgebunden. Und das hab ich gemerkt, als ich was Eigenes machen wollte.
+Ich bin trotzdem gegangen. Und hab's keinen Tag bereut – weil ich heute baue, was mir damals gefehlt hat.
+Wenn du wissen willst, wie das Finanzamt von innen tickt: Folg mir.
+
+### M2 Mein Weg – Der häufigste Fehler (Selfie)
+Der häufigste Fehler, den ich im Finanzamt gesehen hab, war nie Betrug.
+Ich war jahrelang auf der anderen Seite – und es war fast immer: Excel.
+Falsche Formel, alte Version, eine Zelle verrutscht – und am Ende stimmt die Steuer nicht.
+Niemand wollte tricksen. Die Datei hat einfach nicht aufgepasst.
+Darum bau ich heute Tools, die genau das abfangen.
+Damit niemand mehr wegen einer Zelle Ärger bekommt.
+Folg mir, wenn du wissen willst, wie das Finanzamt wirklich denkt.
+
+### S1 Spickzettel Arbeitnehmer
+Speicher dir das: alle Zahlen für Arbeitnehmer 2026 in 20 Sekunden.
+Ich war jahrelang im Finanzamt – das sind die, die wirklich zählen.
+1.230 Euro Werbungskosten zieht das Finanzamt sowieso ab.
+Fahrten zur Arbeit: 38 Cent ab dem ersten Kilometer.
+Homeoffice: 6 Euro pro Tag, bis 1.260 Euro.
+Dienstreise: 28 Euro Verpflegung für volle Tage, 14 für An- und Abreise.
+Und Zinsen bis 1.000 Euro bleiben steuerfrei, verheiratet 2.000.
+Speichern, teilen – und folg mir für den nächsten Spickzettel.
+
+### S2 Spickzettel Selbstständige
+Speicher dir das: die fünf Zahlen, die jeder Selbstständige 2026 kennen muss.
+Ich war jahrelang im Finanzamt – genau die werden geprüft.
+Kleinunternehmer: Vorjahr unter 25.000 Euro Umsatz, laufendes Jahr unter 100.000.
+Geringwertige Wirtschaftsgüter: bis 800 Euro netto sofort absetzen.
+Geschenke an Kunden: höchstens 50 Euro pro Person und Jahr.
+Bewirtung: 70 Prozent sind Betriebsausgabe.
+Und ab 800.000 Euro Umsatz oder 80.000 Euro Gewinn musst du bilanzieren.
+Speichern, teilen – und folg mir für den nächsten Spickzettel.
+
+### S3 Spickzettel Fristen
+Speicher dir das: alle Steuerfristen für 2026 auf einen Blick.
+Ich war jahrelang im Finanzamt – hier verpassen die meisten etwas.
+Steuererklärung 2025 ohne Berater: bis 31. Juli 2026.
+Mit Berater: bis 1. März 2027.
+Gegen einen Bescheid hast du einen Monat für den Einspruch.
+Belege 8 Jahre aufbewahren, Bücher und Abschlüsse 10 Jahre.
+Speichern, teilen – und folg mir für den nächsten Spickzettel.
+
+### S4 Spickzettel Familie
+Speicher dir das: die Familien-Zahlen 2026.
+Ich war jahrelang im Finanzamt – und das Finanzamt rechnet hier für dich mit.
+Kindergeld: 259 Euro pro Kind und Monat.
+Kinderfreibetrag: 3.414 Euro, dazu 1.464 Euro für Betreuung und Ausbildung – je Elternteil.
+Das Finanzamt prüft automatisch, ob Kindergeld oder Freibetrag besser für dich ist.
+Und bis 12.348 Euro Einkommen zahlst du gar keine Einkommensteuer.
+Speichern, teilen – und folg mir für den nächsten Spickzettel.
+
+### S5 Spickzettel Unternehmenssteuern (Trichter unten)
+Speicher dir das: So viel Steuer zahlt eine GmbH in Deutschland wirklich.
+Ich mach seit Jahren Steuern – im Finanzamt und heute in einer Steuerabteilung.
+Körperschaftsteuer 15 Prozent, mit Soli 15,825.
+Dazu Gewerbesteuer: 3,5 Prozent mal Hebesatz der Gemeinde, mindestens 200 Prozent.
+Bei 400 Prozent sind das 14 Prozent.
+Zusammen also rund 30 Prozent.
+Und ab 2028 sinkt die Körperschaftsteuer Schritt für Schritt.
+Wer das für mehrere Gesellschaften durchrechnen will: Kommentiere TOOL.
+
 ## 📌 Serie „Steuer-Spickzettel“ als Reels – Aufnahme folgt (Loris 26.10.: „als Reels, ich spreche neu ein“)
 Format: Kicker „STEUER-SPICKZETTEL · 2026“, erster Satz = Versprechen + „Speicher dir das“, dann 4–5 Zahlen nacheinander (je eine Szene,
 große Zahl zählt hoch), Schluss = Speichern/Teilen. 22–30 s. Zahlen am 26.10. gegen gesetze-im-internet.de geprüft (Stand 2026).
