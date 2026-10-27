@@ -182,4 +182,10 @@ function render(t){
   ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
 }
 window.render=render;render(0);
-</script></body></html>
+</script><script>
+(()=>{const A=4.05,D=2.360,NW=[["Ich", 0.12], ["war", 0.32], ["selbst", 0.46], ["jahrelang", 0.68], ["im", 1.12], ["Finanzamt.", 1.26]];const r0=window.render;
+window.render=function(t){if(t<A)return r0(t);if(t>=A+D)return r0(t-D);r0(A-0.01);const q=t-A;
+const b=document.getElementById("auth");if(b){const p=Math.min(1,q/0.3);b.style.transform=`scale(${1+0.06*Math.sin(Math.PI*Math.min(1,q/0.5))})`;b.style.boxShadow=`0 0 ${34+40*p}px rgba(83,195,162,${.35+.3*p})`}
+document.getElementById("ut").innerHTML=NW.map((w,i)=>`<span class="${q>=w[1]?(i===NW.filter(x=>q>=x[1]).length-1?"jetzt":"on"):""}">${w[0]}</span>`).join(" ")};window.render(0)})();
+</script>
+</body></html>
