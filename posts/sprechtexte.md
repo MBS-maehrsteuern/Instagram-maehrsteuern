@@ -35,6 +35,44 @@ Aufnahme: eine Datei, vor jedem Text die Nummer sagen, 2 s Pause. Nur allgemein 
 - **I11 Ruf einfach an:** Ruf beim Finanzamt an. Ernsthaft. Die Durchwahl deines Sachbearbeiters steht oben auf dem Bescheid. Viele Fragen sind am Telefon in fünf Minuten geklärt – statt in fünf Wochen Briefwechsel. Insider-Tipp: Halte die Steuernummer bereit und notier dir Datum und Namen. Hast du dich schon mal getraut: ja oder nein?
 - **I12 Finanzamt vs. Excel (MBS):** Das Finanzamt rechnet jede Erklärung automatisch gegen. Deine Steuerabteilung rechnet mit Excel. Merkt ihr den Unterschied? Deshalb hab ich die MAEHR Business Suite gebaut: Steuerrückstellung, Zinsschranke, latente Steuern – direkt aus der Saldenliste, jede Zahl mit Prüfpfad. Kommentiere TOOL – ich zeig dir die Demo mit Beispieldaten.
 
+## 🕵️ Finanzamt-Insider – Fortsetzung für Aufnahme Sa 07.11. (Ideen aus Vorbilder-Radar 27.10., go Loris)
+Aufbau nach Wissen 21: Hook 0–3 s (gesprochen + geschrieben + visuell) → Autoritäts-Satz 3–5 s → Mehrwert → Ergebnis → CTA. Trichter: oben.
+
+### I13 – „Brief vom Finanzamt: Betriebsprüfung“ (~30 s)
+Vorbild: @karriere.steuern.hessen „Post vom Finanzamt – Betriebsprüfung steht an? Keine Sorge!“ (693 Likes, 4,1× Median).
+Quellen: § 197 Abs. 1 + 2 AO (Bekanntgabe angemessene Zeit vorher, Verlegung auf Antrag aus wichtigem Grund), § 371 Abs. 2
+S. 1 Nr. 1 Buchst. a AO (Sperre Selbstanzeige ab Bekanntgabe der Prüfungsanordnung, beschränkt auf den angekündigten Umfang),
+§ 200 Abs. 1 AO (Mitwirkung) – gesetze-im-internet.de, abgerufen 27.10.2026. „Meist zwei bis vier Wochen“ = § 5 Abs. 4 BpO 2000
+(in der Regel 4 Wochen Großbetriebe, 2 Wochen übrige) [PRÜFEN: Loris bestätigt aus Praxis].
+Hook geschrieben: „BETRIEBSPRÜFUNG – erst mal atmen“ · visuell: Briefumschlag klappt auf, Stempel „PRÜFUNGSANORDNUNG“.
+
+> Brief vom Finanzamt: Betriebsprüfung. Erst mal durchatmen.
+> Ich saß jahrelang auf der anderen Seite – so läuft das wirklich.
+> Der Brief heißt Prüfungsanordnung und kommt mit Vorlauf, meistens zwei bis vier Wochen.
+> Passt der Termin gar nicht, kannst du mit gutem Grund eine Verschiebung beantragen.
+> Wichtig: Ab diesem Brief ist eine Selbstanzeige für den angekündigten Zeitraum gesperrt.
+> Und du musst mitwirken – Unterlagen zeigen, Fragen beantworten.
+> Der Prüfer will vor allem eins: Zahlen, die er nachvollziehen kann.
+> Wer sortiert ist, ist meistens schneller durch, als er denkt.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
+### I14 – „Ferrari über die Firma?“ (~28 s)
+Vorbild: @steuern.steuern „Ferrari & Rolex von der Steuer absetzen? 🏎️❌“ (6,4× Median).
+Quelle: § 4 Abs. 5 Satz 1 Nr. 7 EStG (Aufwendungen, die die Lebensführung berühren und nach allgemeiner Verkehrsauffassung
+unangemessen sind → nicht abziehbar, „soweit“) – gesetze-im-internet.de, abgerufen 27.10.2026. Maßstäbe Umsatz/Gewinn/
+Bedeutung für den Betrieb = BFH-Rechtsprechung [PRÜFEN: Urteil benennen, z. B. BFH VIII R 20/12].
+Hook geschrieben: „FERRARI ÜBER DIE FIRMA?“ · visuell: Sportwagen-Silhouette, Stempel „ANGEMESSEN?“ wippt.
+
+> Ferrari über die Firma? Das Finanzamt stellt genau eine Frage.
+> Im Finanzamt lernst du schnell: Es geht nicht ums Auto.
+> Es geht darum, ob ein normaler Unternehmer das auch so ausgeben würde.
+> Das Gesetz sagt: Was dein Privatleben berührt und unangemessen ist, ist keine Betriebsausgabe.
+> Heißt: Der Ferrari ist nicht verboten.
+> Aber der Teil, der über das Angemessene hinausgeht, zählt nicht.
+> Und was angemessen ist, hängt an deinem Betrieb: Umsatz, Gewinn, wofür du das Auto wirklich brauchst.
+> Luxus geht – nur nicht komplett auf Kosten des Finanzamts.
+> Folg mir für mehr Insider aus dem Finanzamt.
+
 ## 🔍 Do 22.10. · „3 Dinge, die das Finanzamt längst weiß“ (`62-reel-glaesern`, ~30 s, vorgezogen, Idee Loris 22.10.)
 Hook-Text ab Frame 1: **„Das Finanzamt weiß es schon.“** · Teilen-Aufruf am Ende. Rechtsstand 22.10.2026.
 Fassung A (Loris' Reihenfolge, Punkt 2 fachlich korrigiert):
