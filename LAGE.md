@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:11 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 17:17 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -208,6 +208,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 17:17 🤖 Autopilot: Dateien fuer i05-reel-insider-finanzbeamte vorbereitet ([`9bc3fd3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9bc3fd32defa874216039c8f2ce321bc8d6047ec))
+  - `posts/i05_2026-10-26_insider_finanzbeamte`
+- 17:17 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`7a81371`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7a813714917f8e1e2b0d9a5ddbc523813c5d2c52))
+- 17:17 ✍️ Aufnahme 27.10. geschnitten: I13, I14, M1, M2, S1–S5 (beide Mikros, Wiederholungen raus; I13 ohne unbelegte Wochenangabe) ([`f6786a5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f6786a54d0090dc4e151a7c05ecb5b2f0dc00ab6))
+  - `aufnahmen/2026-10-27/geschnitten/schnitt.py`, `aufnahmen/2026-10-27/geschnitten/stimme_I13.wav`, `aufnahmen/2026-10-27/geschnitten/stimme_I14.wav`, `aufnahmen/2026-10-27/geschnitten/stimme_M1.wav`, `aufnahmen/2026-10-27/geschnitten/stimme_M2.wav`, `aufnahmen/2026-10-27/geschnitten/stimme_S1.wav`, `…`
 - 17:11 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`087c031`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/087c031a2bfb9e2f761c2bc414b5011245c1a285))
 - 17:11 ✍️ Aufnahme 27.10.: Transkript mit Wortzeiten ([`6892def`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6892def20c64973a0f2a9d4525f5de3c165aaf4b))
   - `aufnahmen/2026-10-27/woerter.json`
