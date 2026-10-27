@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:38 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 10:40 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 27.10.2026**
+- 10:40 ✍️ Vorbilder-Radar: wöchentlich Ausreißer-Beiträge von Steuer-Accounts sammeln (Start: lauras_taxdiary); Wissen 21 §7 Stufen-Formate + Recherche-Methode ([`a3594a3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a3594a368c0424cdc0775194b38ebac04ac84699))
+  - `.github/workflows`, `LAGE.html`, `automatik/interaktion.json`, `automatik/vorbilder.py`, `recherche/viral_liste.csv`, `strategie/21_wissen_trichter.md`
 - 10:38 ✍️ Wissen 21 §6: Zeitachse mit Autoritäts-Satz, 4 Story-Vorlagen, Bio-Formel, Nischen-Recherche (Vorlage recherche/) ([`5f6a1fc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5f6a1fc6abac3e163299d17887b10202bc7b982c))
   - `LAGE.html`, `recherche/README.md`, `recherche/viral_liste.csv`, `strategie/21_wissen_trichter.md`
 - 10:29 ✍️ Wissen 21 §5: 7 Bausteine viraler Videos, Hook dreifach, Punch-in-Schnitt für Selfie-Reels, Skript-Strukturen; M1 entsprechend ergänzt ([`e98645a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e98645a4c6af2528f9baa9172edb531f50ccb414))
