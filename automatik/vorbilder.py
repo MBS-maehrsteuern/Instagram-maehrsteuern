@@ -66,6 +66,8 @@ def main():
               "Nur Muster übernehmen (Hook, Thema, Format) – Inhalt immer selbst prüfen.", ""]
     zeilen += [f"- **{e['faktor']}×** @{e['konto']} · {e['format']} · {e['datum']} · ❤ {e['likes']} · 💬 {e['kommentare']}"
                f"  \n  „{e['hook']}“ – {e['link']}" for e in top] or ["Keine neuen Ausreißer diese Woche."]
+    konten = sorted({(v["konto"], v.get("follower") or 0) for v in daten["beitraege"].values()}, key=lambda k: -k[1])
+    zeilen += ["", "Abgefragte Konten (Follower): " + ", ".join(f"@{k} {f:,}".replace(",", ".") for k, f in konten)]
     zeilen += [""] + [f"⚠ {f}" for f in fehler]
     text = "\n".join(zeilen) + "\n"
     print(text)
