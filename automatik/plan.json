@@ -2169,12 +2169,16 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "trichter": "mitte",
-      "hinweis": "27.10.: Mein Weg #01, Foto-Montage Diplomierung (Bilder Loris), Stimme 27.10.; Loris: „poste erst 18 Uhr wenn's passt“."
+      "hinweis": "27.10.: Mein Weg #01, Foto-Montage Diplomierung (Bilder Loris), Stimme 27.10.; Loris: „poste erst 18 Uhr wenn's passt“.",
+      "media_id": "18056364005588411",
+      "link": "https://www.instagram.com/reel/DfAWBBflLkW/",
+      "veroeffentlicht_am": "2026-10-27 18:01",
+      "erster_kommentar_id": "18091082651294983"
     }
   ]
 }
