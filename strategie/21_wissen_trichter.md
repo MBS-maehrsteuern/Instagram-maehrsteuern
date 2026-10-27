@@ -43,3 +43,16 @@ selben Thema suchen und je **1–2 Bausteine** übernehmen (nie das ganze Video 
   jeden Tag so etwas – folg mir“ (oben) bzw. „Kommentiere TOOL“ (unten).
 - **Ausreißer-Quelle:** deutsche Steuer-Accounts (z. B. aus Loris' Feed) – Loris schickt Screenshots/Links auffälliger
   Reels, Claude zerlegt sie in die 7 Bausteine und übernimmt passende in die nächsten Sprechtexte.
+
+## 6. Skript-Zeitachse, Story-Vorlagen, Bio, Recherche (@personalbrandlaunch, 27.10.)
+- **Zeitachse jedes Reels:** Hook 0–3 s → **Autoritäts-Satz 3–5 s** („Ich war Jahre im Finanzamt – auf der anderen
+  Seite“ / „Ich mach Steuern in einer Konzern-Steuerabteilung“, ohne Arbeitgeber) → Mehrwert bis ~30 s → Ergebnis
+  ~30–35 s → CTA. Der Autoritäts-Satz ist neu und ab jetzt Pflicht in Insider- und Fach-Sprechtexten.
+- **Story-Vorlagen (Mitte):** *Held-Reise* (Alltag → Prüfungen → Krise → Rückkehr) · *Mann im Loch* (Komfortzone →
+  Auslöser → Krise → Neustart → besserer Ort; = M1 Scheinsicherheit) · *Durchbruch* (Problem → Erkenntnis → Lösung zum
+  Mitnehmen; = M2 Excel) · *Zweifel zum Sieg* (Zweifel → Mühe → Wendepunkt → Methode → Vorher/Nachher → Mythos widerlegt).
+- **Bio in 4 Zeilen:** Was ich mache + für wen · wie man mit mir arbeitet · Glaubwürdigkeit · CTA (+ Link). Profilbild:
+  klares Foto von Loris. Benutzername/Name: Name + Beruf.
+- **Nischen-Recherche:** 5–10 Unterthemen → je Unterthema Reels-Tab durchsuchen → Ausreißer sammeln (dt. Steuer-Nische:
+  ab ~100.000 Aufrufen) → Liste `recherche/viral_liste.csv` (Hook · Unterthema · Format · Aufrufe · Link) → Hooks, Themen
+  und Formate auswerten, beste Bausteine in die nächsten Sprechtexte.
