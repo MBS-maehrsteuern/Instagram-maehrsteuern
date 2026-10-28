@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 01:11 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 01:15 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 01:15 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`a4dfb19`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a4dfb1982142aed9205359b2c83d346a365c039a))
+- 01:15 ✍️ Mein Weg #02: nur noch ein Foto (Selfie), übrige Szenen als Motion-Grafik (Loris: nicht dieselben Bilder wie #01), Excel-Summe sichtbar falsch ([`74576b9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/74576b9b5f6a243d3749a5db2227e452241acf26))
+  - `posts/m02_2026-10-29_mein_weg_haeufigster_fehler`, `vorlagen/system/premium/mein_weg_02.html`
 - 01:11 ✍️ 5 eigene Steuer-Memes als Storys (12:15, 28.10.–01.11.), Generator memes.py – eigene Texte/Fotos, keine fremden Figuren ([`3e0137a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3e0137ab2aa2bbea1388b607ea6ebce85e0c6f61))
   - Plan: neu `meme1-story` (2026-10-28 12:15, freigegeben); neu `meme2-story` (2026-10-29 12:15, freigegeben); neu `meme3-story` (2026-10-30 12:15, freigegeben); neu `meme4-story` (2026-10-31 12:15, freigegeben); neu `meme5-story` (2026-11-01 12:15, freigegeben)
 - 01:02 ✍️ Mein Weg #02 „Der häufigste Fehler war nie Betrug“ gebaut (Montage, Bewegung ab Sekunde 1) und für Do 29.10. 17:45 eingeplant ([`fc6aa4d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fc6aa4d22db9506de614e951dbd17f9742f89a1e))
