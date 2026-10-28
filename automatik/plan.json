@@ -2213,6 +2213,66 @@
       "zeit": "2026-10-29 17:45",
       "status": "freigegeben",
       "hinweis": "28.10.: Mein Weg #02 (Stimme 27.10.), Montage wie #01 + Bewegung in Sekunde 1; Welle nach #01 nutzen (Loris: „alle Punkte umsetzen“)."
+    },
+    {
+      "id": "meme1-story",
+      "zeit": "2026-10-28 12:15",
+      "typ": "story",
+      "ordner": "posts/memes_2026-10",
+      "bilder": [
+        "meme_1.png"
+      ],
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "28.10.: eigenes Steuer-Meme (FINANZAMT – passt zu Insider #14 Ferrari), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“."
+    },
+    {
+      "id": "meme2-story",
+      "zeit": "2026-10-29 12:15",
+      "typ": "story",
+      "ordner": "posts/memes_2026-10",
+      "bilder": [
+        "meme_2.png"
+      ],
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "28.10.: eigenes Steuer-Meme (MEIN WEG – passt zu Mein Weg #02), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“."
+    },
+    {
+      "id": "meme3-story",
+      "zeit": "2026-10-30 12:15",
+      "typ": "story",
+      "ordner": "posts/memes_2026-10",
+      "bilder": [
+        "meme_3.png"
+      ],
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "28.10.: eigenes Steuer-Meme (EXCEL), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“."
+    },
+    {
+      "id": "meme4-story",
+      "zeit": "2026-10-31 12:15",
+      "typ": "story",
+      "ordner": "posts/memes_2026-10",
+      "bilder": [
+        "meme_4.png"
+      ],
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "28.10.: eigenes Steuer-Meme (BESCHEID), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“."
+    },
+    {
+      "id": "meme5-story",
+      "zeit": "2026-11-01 12:15",
+      "typ": "story",
+      "ordner": "posts/memes_2026-10",
+      "bilder": [
+        "meme_5.png"
+      ],
+      "status": "freigegeben",
+      "trichter": "oben",
+      "hinweis": "28.10.: eigenes Steuer-Meme (BELEGE), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“."
     }
   ]
 }
