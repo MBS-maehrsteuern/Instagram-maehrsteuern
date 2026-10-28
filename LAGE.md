@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 01:15 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 06:23 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 06:23 ✍️ Markenbilder: Übersicht und Einsatzregeln (assets/marke/README.md) ([`572331b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/572331b47745a57a4d64c3728d305df82b8f0d05))
+  - `assets/marke/README.md`
+- 06:22 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`6596fb7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6596fb7d4c6dffa94d4ffcc11b289d146eba5a57))
+- 06:21 ✍️ Markenbilder 28.10.: Portrait Loris (neutral + lächelnd, grüner Hintergrund), MBS-Logo ([`0fdc4ed`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0fdc4ed555675693c3586c44f087e5e62839cac0))
+  - `assets/marke/loris_portrait.jpg`, `assets/marke/loris_portrait_laecheln.jpg`, `assets/marke/mbs_logo.jpg`
 - 01:15 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`a4dfb19`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a4dfb1982142aed9205359b2c83d346a365c039a))
 - 01:15 ✍️ Mein Weg #02: nur noch ein Foto (Selfie), übrige Szenen als Motion-Grafik (Loris: nicht dieselben Bilder wie #01), Excel-Summe sichtbar falsch ([`74576b9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/74576b9b5f6a243d3749a5db2227e452241acf26))
   - `posts/m02_2026-10-29_mein_weg_haeufigster_fehler`, `vorlagen/system/premium/mein_weg_02.html`
