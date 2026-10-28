@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 22:28 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 22:31 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -212,6 +212,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 22:31 ✍️ Auswertung Mein Weg #01 nach 28 h ergänzt (Wissen 21 §8) ([`abeef1a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/abeef1a679b58ba5b89ca95229f62cbf2bf03aca))
+  - `LAGE.html`, `strategie/21_wissen_trichter.md`
 - 22:28 ✍️ Memes gestrichen (Loris), restliche Meme-Storys nicht mehr posten ([`9ace857`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9ace85793f13ff6124916a9d59eaef16f1449fb3))
   - Plan: `meme1-story` status: freigegeben → gestrichen; `meme3-story` status: freigegeben → gestrichen; `meme4-story` status: freigegeben → gestrichen; `meme5-story` status: freigegeben → gestrichen
 - 17:45 🤖 Autopilot: m02-reel-mein-weg-haeufigster-fehler veroeffentlicht ([`61c8fff`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/61c8fff6efb00abd3eaaf16e311f3d065a7d8995))
