@@ -79,3 +79,10 @@ Nach ~7 h 1.182 Aufrufe (übliche Reels ~150 nach 12 h), 91 % Nicht-Follower, 59
 Folgerungen: persönliche Story (Mitte) mit Foto-Montage zieht → Serie „Mein Weg“ fortsetzen (#02 am 29.10.);
 erste Sekunde braucht Bewegung (Punch-in, Text gleitet) – ~55 % springen in 1–2 s ab; Profil wandelt schwach um →
 Bio nach 4-Zeilen-Formel (§6), Story-Teilen mit Umfrage, Kommentare schnell beantworten.
+
+**Stand 28.10. 22:28 (~28 h):** 1.859 Aufrufe / 1.442 Betrachter, 90,7 % Nicht-Follower, Ø 10 s bei 31 s,
+Übersprungen 60,1 % (besser als üblich), Kurve: ~50 % weg nach 2 s, dann stabil ~25–30 %, 20 % bei 0:22, ~10 % am Ende.
+64 Profilaufrufe (4,4 % der Betrachter) → 6 Follower (9 % der Profilbesucher), 5 Link-Klicks, 22 Likes, 9 Speicherungen,
+2 Reposts. Likes ballen sich am Ende (Schluss „keinen Tag bereut“). Quellen: Reels-Tab 52 %, Feed 23 %, Explore 13 %.
+Zielgruppe: 25–34 J. 51 %, Männer 63 %, DE 76 % (TR 16 %). Wachstum flacht ab (~+700 Aufrufe in 21 h).
+Engpass = Profil (64 → 6), nicht Reichweite. Hebel: Bio entscheiden, M1 anpinnen, erste Sekunde mit Bewegung.
