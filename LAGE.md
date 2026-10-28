@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 08:34 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 08:36 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 08:36 📡 Radar 2026-10-28: 8 Beiträge, 0 DM-Entwürfe ([`0b56bc7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0b56bc7b328ddc500b55139801b9f16eb97f26c5))
+  - `automatik/interaktion`
 - 08:34 ✍️ Tausch: Mein Weg #02 heute Mi 28.10. 17:45, Ferrari Do 29.10.; Meme-Storys passend getauscht (Loris: ja) ([`483fd51`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/483fd5170f0ffd27151f1138738702ad2283f6f6))
   - Plan: `i14-reel-insider-ferrari` zeit: 2026-10-28 17:45 → 2026-10-29 17:45; `m02-reel-mein-weg-haeufigster-fehler` zeit: 2026-10-29 17:45 → 2026-10-28 17:45; `meme1-story` zeit: 2026-10-28 12:15 → 2026-10-29 12:15; `meme2-story` zeit: 2026-10-29 12:15 → 2026-10-28 12:15
 - 06:26 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`34cde22`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/34cde225374d741ef45bed7ed4e988f6ef889aac))
