@@ -52,3 +52,4 @@
 - 27.10.: Mein Weg #01 (Foto-Montage Diplomierung, 18:00) eskaliert: 1.182 Aufrufe in ~7 h, 91 % Nicht-Follower (Wissen 21 §8).
   Plan: Mi 28.10. Insider #14 Ferrari (statt K41 → 06.12.), Do 29.10. Mein Weg #02 (statt i09 → 05.12.), i05 → 04.12.
   Insider #13 Betriebsprüfung gebaut, noch nicht eingeplant. Offen: Bio-Umbau (Loris), S4 neu einsprechen.
+- 28.10. abends: Memes komplett gestrichen (Loris: „blöd“) – keine Meme-Formate mehr vorschlagen. meme2 lief bereits als Story (verschwindet nach 24 h).
