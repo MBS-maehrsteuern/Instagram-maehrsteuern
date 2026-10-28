@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 06:23 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 06:26 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 06:26 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`34cde22`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/34cde225374d741ef45bed7ed4e988f6ef889aac))
+- 06:26 ✍️ Mein Weg #02: Fotos Selfie + Lehrgang + Markenportrait (lächelnd), MBS-Logo in der Tool-Szene ([`37bb51a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/37bb51a339afa3795901d03da5b82466c166e09c))
+  - `posts/m02_2026-10-29_mein_weg_haeufigster_fehler`, `vorlagen/system/premium/mein_weg_02.html`
 - 06:23 ✍️ Markenbilder: Übersicht und Einsatzregeln (assets/marke/README.md) ([`572331b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/572331b47745a57a4d64c3728d305df82b8f0d05))
   - `assets/marke/README.md`
 - 06:22 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`6596fb7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6596fb7d4c6dffa94d4ffcc11b289d146eba5a57))
