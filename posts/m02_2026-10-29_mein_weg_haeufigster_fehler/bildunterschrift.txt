@@ -1,0 +1,11 @@
+Der häufigste Fehler, den ich im Finanzamt gesehen hab, war nie Betrug.
+
+Es war fast immer Excel: eine falsche Formel, eine alte Version, eine verrutschte Zelle – und am Ende stimmt die Steuer nicht. Niemand wollte tricksen. Die Datei hat einfach nicht aufgepasst.
+
+Darum baue ich heute Tools, die genau das abfangen – damit niemand wegen einer Zelle Ärger bekommt.
+
+Welcher Excel-Moment hat dich schon mal Nerven gekostet?
+
+Folge @maehrsteuern für mehr Finanzamt-Insider.
+
+#meinweg #finanzamt #steuern

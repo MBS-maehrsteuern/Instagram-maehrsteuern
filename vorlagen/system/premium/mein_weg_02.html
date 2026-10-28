@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Mein Weg #02 „Der häufigste Fehler war nie Betrug“ (Loris 29.10.): gleiche Optik wie #01 (Foto-Montage, Wort-Untertitel),
+     neu: Hook mit Punch-In + Durchstreichen in den ersten 0,5 s, animierter Excel-Mock (verrutschte Zelle), Werkzeug-Karte, CTA.
+     Bilder: posts/m02_2026-10-29_mein_weg_haeufigster_fehler/bilder (nur Loris zu sehen, Ränder mit anderen Personen weggeschnitten). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;--gelb:#E8B04A;--rot:#E5675A;
+  --serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+.bild{position:absolute;inset:0;opacity:0;overflow:hidden}
+.bild .hg{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(40px) brightness(.45)}
+.bild img{position:absolute;left:50%;top:50%;transform-origin:center}
+#verlauf{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,12,10,.88) 0%,rgba(7,12,10,.15) 30%,rgba(7,12,10,0) 52%,rgba(7,12,10,.55) 72%,rgba(7,12,10,.95) 100%)}
+.kicker{position:absolute;left:80px;top:150px;font-family:var(--mono);font-size:30px;letter-spacing:.22em;color:var(--text2);display:flex;align-items:center;gap:16px}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+.titel{position:absolute;left:80px;right:80px;top:215px;opacity:0}
+h1{font-family:"Outfit";font-weight:700;font-size:100px;line-height:1.02;letter-spacing:-.025em;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.05;color:var(--gruen2);text-shadow:0 4px 30px rgba(0,0,0,.6)}
+#ut{position:absolute;left:80px;right:80px;top:1440px;font-family:"Outfit";font-weight:700;font-size:58px;line-height:1.2;text-shadow:0 3px 18px rgba(0,0,0,.8)}
+#ut span{color:rgba(238,244,240,.45)} #ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2)}
+/* Hook */
+#hook{position:absolute;left:80px;right:80px;top:930px;opacity:1}
+#hook .z1{font-family:"Outfit";font-weight:700;font-size:128px;line-height:1.05;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.7);white-space:nowrap}
+.dur{position:relative;display:inline-block;color:rgba(238,244,240,.7)}
+.dur i{position:absolute;left:-8px;top:54%;height:12px;border-radius:6px;background:var(--rot);box-shadow:0 0 18px rgba(229,103,90,.8);width:0}
+#hook .z2{font-family:"Outfit";font-weight:700;font-size:190px;line-height:1.0;letter-spacing:-.035em;color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.85),0 0 90px rgba(83,195,162,.5),0 4px 30px rgba(0,0,0,.6);transform-origin:left center}
+/* Excel-Mock */
+#xl{position:absolute;inset:0;opacity:0;background:radial-gradient(900px 700px at 50% 35%,rgba(83,195,162,.14),transparent 70%),var(--bg)}
+#stage{position:absolute;left:80px;right:80px;top:215px;font-family:"Outfit";font-weight:700;font-size:100px;line-height:1.02;letter-spacing:-.025em}
+.xkarte{position:absolute;left:70px;right:70px;top:480px;border:1px solid #1E3A31;border-radius:26px;background:#0D1613;overflow:hidden;box-shadow:0 0 60px rgba(83,195,162,.12)}
+.ghost{position:absolute;left:70px;right:70px;top:480px;height:760px;border:1px solid #1E3A31;border-radius:26px;background:#0B1210;opacity:0}
+.tab{display:flex;align-items:center;justify-content:space-between;padding:20px 30px;background:#101D18;font-family:var(--mono);font-size:28px;color:var(--text2);border-bottom:1px solid #1E3A31}
+.tab b{font-weight:600;color:var(--gelb);opacity:0}
+.fbar{display:flex;gap:18px;align-items:center;padding:16px 30px;font-family:var(--mono);font-size:32px;border-bottom:1px solid #1E3A31;color:var(--text2)}
+.fbar em{font-style:italic;color:var(--grau)}
+#fx{transition:none}
+.gitter{position:relative;font-family:var(--mono);font-size:34px}
+.gz{display:grid;grid-template-columns:90px 1fr 1fr;height:84px;border-bottom:1px solid #1E3A31;align-items:center}
+.gz>div{padding:0 26px;height:100%;display:flex;align-items:center;border-right:1px solid #1E3A31}
+.gz>div:last-child{justify-content:flex-end;border:0}
+.gz.kopf{height:64px;color:var(--grau);background:#0F1A16;font-size:28px}
+.gz .n{color:var(--grau);font-size:28px;padding:0 0 0 26px}
+#zelle{position:absolute;left:calc(90px + (100% - 90px)/2);right:0;height:84px;width:auto;display:flex;align-items:center;justify-content:flex-end;padding:0 26px;font-family:var(--mono);font-size:34px;color:var(--gelb);border:3px solid var(--gelb);border-radius:6px;background:#1C1A10;opacity:0}
+.sum{background:#111F1A;font-weight:600}
+#wert{color:var(--text)}
+#flagge{position:absolute;left:70px;right:70px;top:1300px;display:flex;justify-content:center;opacity:0}
+#flagge div{font-family:"Outfit";font-weight:700;font-size:48px;letter-spacing:.02em;color:#fff;background:var(--rot);padding:16px 36px;border-radius:18px;box-shadow:0 0 50px rgba(229,103,90,.6);display:flex;gap:18px;align-items:center}
+#flagge svg{width:44px;height:44px}
+/* Werkzeug-Karte */
+#tool{position:absolute;inset:0;opacity:0;background:radial-gradient(900px 700px at 40% 30%,rgba(83,195,162,.22),transparent 70%),var(--bg)}
+.karte{position:absolute;left:110px;right:110px;top:700px;border:1px solid #1E3A31;border-radius:30px;background:#0D1613;padding:44px 50px;box-shadow:0 0 60px rgba(83,195,162,.18)}
+.zeile{display:flex;justify-content:space-between;font-family:var(--mono);font-size:34px;padding:16px 0;border-bottom:1px solid #1E3A31;color:var(--text2)}
+.zeile b{color:var(--gruen2);font-weight:600}
+#fuss{position:absolute;left:80px;right:80px;bottom:90px;display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:30px;color:var(--text2)}
+#fuss i{width:22px;height:22px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+</style></head><body>
+<div class="bild" id="b1"><div class="hg"></div><img></div>
+<div class="bild" id="b3"><div class="hg"></div><img></div>
+<div class="bild" id="b4"><div class="hg"></div><img></div>
+<div class="bild" id="b7"><div class="hg"></div><img></div>
+<div class="bild" id="b5"><div class="hg"></div><img></div>
+<div class="bild" id="b8"><div class="hg"></div><img></div>
+<div id="xl">
+ <div id="stage"></div>
+ <div class="ghost" id="g2" style="transform:translate(34px,34px)"></div><div class="ghost" id="g1" style="transform:translate(17px,17px)"></div>
+ <div class="xkarte" id="xk">
+  <div class="tab"><span id="datei">Steuer_final.xlsx</span><b id="vchip">v7 · NEU (2)</b></div>
+  <div class="fbar"><em>fx</em><span id="fx">=SUMME(B2:B6)</span></div>
+  <div class="gitter" id="gitter"></div>
+ </div>
+ <div id="flagge"><div><svg viewBox="0 0 44 44"><path d="M10 6v34" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M12 8h24l-7 9 7 9H12z" fill="#fff"/></svg>ABWEICHUNG −3.000</div></div>
+</div>
+<div id="tool">
+ <div class="karte" id="karte"><div class="zeile"><span>FORMEL</span><b>✓ geprüft</b></div><div class="zeile"><span>VERSION</span><b>✓ geprüft</b></div>
+ <div class="zeile"><span>ZELLE</span><b>✓ geprüft</b></div><div class="zeile" style="border:0"><span>PRÜFPFAD</span><b>Quelle ↗</b></div></div>
+</div>
+<div id="verlauf"></div>
+<div class="kicker" id="kick"><i></i>MEIN WEG · #02</div>
+<div id="hook"><div class="z1" id="hz1">Nie <span class="dur">Betrug<i id="strich"></i></span>.</div><div class="z2" id="hz2">Excel.</div></div>
+<div class="titel" id="t2" style="top:220px"><h1>Jahrelang</h1><h2>auf der anderen Seite.</h2></div>
+<div class="titel" id="t4" style="top:220px"><h1>Niemand</h1><h2>wollte tricksen.</h2></div>
+<div class="titel" id="t5" style="top:960px"><h1>Die Datei</h1><h2 style="color:var(--gelb)">hat nicht aufgepasst.</h2></div>
+<div class="titel" id="t6" style="top:215px"><h1>Darum baue ich</h1><h2>Tools, die das abfangen.</h2></div>
+<div class="titel" id="t7" style="top:215px"><h1>Niemand mehr</h1><h2 style="font-size:68px">Ärger wegen einer Zelle.</h2></div>
+<div class="titel" id="t8" style="top:620px;text-align:center"><h2 style="font-size:70px">Wie das Finanzamt wirklich denkt:</h2><h1 style="font-size:96px;margin-top:30px">Folge @maehrsteuern</h1></div>
+<div id="ut"></div>
+<div id="fuss"><i></i>maehrsteuern</div>
+<script>
+const B="../../../posts/m02_2026-10-29_mein_weg_haeufigster_fehler/bilder/";
+// Bild: Datei, Bildgröße, Fokus (fx,fy 0..1), Zoom-Start, Zoom-Ende
+const BILD={b1:["1_urkunde.jpg",1220,2712,.57,.2,1.24,1.32],b3:["3_lehrgang.jpg",1220,2712,.5,.24,1.7,1.8],
+ b4:["4_selfie.jpg",1220,2712,.5,.45,1.25,1.35],b7:["1_urkunde.jpg",1220,2712,.57,.14,1.5,1.62],
+ b5:["5_draussen.jpg",305,842,.58,.40,1.12,1.18],b8:["4_selfie.jpg",1220,2712,.5,.45,1.3,1.4]};
+Object.entries(BILD).forEach(([id,[f]])=>{const e=document.getElementById(id);e.querySelector("img").src=B+f;e.querySelector(".hg").style.backgroundImage=`url(${B+f})`});
+const W=[["Der", 0.0], ["häufigste", 0.16], ["Fehler,", 0.64], ["den", 0.92], ["ich", 1.02], ["im", 1.2], ["Finanzamt", 1.36], ["gesehen", 1.76], ["hab,", 2.1], ["war", 2.46], ["nie", 2.52], ["Betrug.", 2.7], ["Ich", 3.54], ["war", 3.58], ["jahrelang", 3.72], ["auf", 4.14], ["der", 4.3], ["anderen", 4.42], ["Seite", 4.62], ["und", 5.0], ["es", 5.34], ["war", 5.48], ["fast", 5.64], ["immer:", 5.86], ["Excel.", 6.32], ["Falsche", 7.4], ["Formel,", 7.68], ["alte", 8.52], ["Version,", 8.68], ["eine", 9.7], ["Zelle", 9.96], ["verrutscht", 10.2], ["und", 10.68], ["am", 10.94], ["Ende", 11.06], ["stimmt", 11.28], ["die", 11.52], ["Steuer", 11.76], ["nicht.", 11.94], ["Niemand", 12.64], ["wollte", 12.88], ["tricksen.", 13.12], ["Die", 13.96], ["Datei", 14.1], ["hat", 14.42], ["einfach", 14.52], ["nicht", 14.78], ["aufgepasst.", 15.0], ["Darum", 16.06], ["bau", 16.2], ["ich", 16.44], ["heute", 16.58], ["Tools,", 16.76], ["die", 17.14], ["genau", 17.24], ["das", 17.46], ["abfangen.", 17.68], ["Damit", 18.5], ["niemand", 18.7], ["mehr", 19.0], ["wegen", 19.26], ["einer", 19.46], ["Zelle", 19.8], ["Ärger", 20.12], ["bekommt.", 20.44], ["Folg", 21.2], ["mir,", 21.44], ["wenn", 21.66], ["du", 21.78], ["wissen", 21.9], ["willst,", 22.16], ["wie", 22.46], ["das", 22.56], ["Finanzamt", 22.76], ["wirklich", 23.18], ["denkt.", 23.54]];
+const UT_END=24.18;
+const T=i=>W[i][1];
+// Szenen an Wortindizes (korrigierter Text): 12 Ich · 20 es · 25 Falsche · 27 alte · 30 Zelle · 35 stimmt · 38 nicht · 39 Niemand · 42 Die · 48 Darum · 57 Damit · 65 Folg
+const ABL=[["b1",0,T(12)],["b3",T(12),T(20)],["xl",T(20),T(39)],["b4",T(39),T(42)],["b7",T(42),T(48)],["tool",T(48),T(57)],["b5",T(57),T(65)],["b8",T(65),99]];
+const TXT=[["t2",T(12),T(20)],["t4",T(39),T(42)],["t5",T(42),T(48)],["t6",T(48),T(57)],["t7",T(57),T(65)],["t8",T(65),99]];
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,:?]$/.test(w[0])||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
+const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
+const io=x=>x<=0?0:x>=1?1:x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const over=x=>{if(x<=0)return 0;if(x>=1)return 1;const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const $=id=>document.getElementById(id);
+// Excel-Gitter
+const ZE=[["Posten 1","1.200"],["Posten 2","2.400"],["Posten 3","1.800"],["Posten 4","3.000"],["Posten 5","1.200"]];
+$("gitter").innerHTML='<div class="gz kopf"><div></div><div>A</div><div style="justify-content:flex-end">B</div></div>'+
+ ZE.map((z,i)=>`<div class="gz" id="r${i}"><div class="n">${i+2}</div><div>${z[0]}</div><div id="c${i}">${z[1]}</div></div>`).join("")+
+ '<div class="gz sum" id="rs"><div class="n">7</div><div>Summe</div><div id="wert">9.600</div></div><div id="zelle"></div>';
+const ZH=84,KH=64;
+function bildStil(id,t,von,bis){
+  const [f,bw,bh,fx,fy,z0,z1]=BILD[id];const img=$(id).querySelector("img");
+  const cov=Math.max(1080/bw,1920/bh);const p=Math.min(1,Math.max(0,(t-von)/Math.max(.1,bis-von)));
+  const punch=id==="b1"?1+.15*(1-ease(t/.5)):1;   // Hook: Punch-In 1,15 → 1,0 in 0,5 s
+  const z=cov*(z0+(z1-z0)*p)*punch;const w=bw*z,h=bh*z;
+  let dx=(0.5-fx)*w, dy=(0.5-fy)*h; dx=Math.max(Math.min(dx,(w-1080)/2),-(w-1080)/2); dy=Math.max(Math.min(dy,(h-1920)/2),-(h-1920)/2);
+  img.style.width=w+"px";img.style.height=h+"px";img.style.transform=`translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px))`;
+}
+function excel(t){
+  const t0=T(20),rel=t-t0;
+  const ein=ease(rel/.35);
+  // Zeilen nacheinander (Stagger)
+  ["r0","r1","r2","r3","r4","rs"].forEach((id,i)=>{const p=ease((rel-.05*i)/.3);$(id).style.opacity=p});
+  $("xk").style.opacity=ein;$("xk").style.transform=`translateY(${(1-ein)*40}px)`;
+  // Stufen-Text
+  const st=t<T(25)?"Excel.":t<T(27)?"Falsche Formel":t<T(29)?"Alte Version":t<T(35)?"Eine Zelle verrutscht":"Steuer stimmt nicht.";
+  const sv=t<T(25)?t0:t<T(27)?T(25):t<T(29)?T(27):t<T(35)?T(29):T(35);
+  const sp=ease((t-sv)/.3);
+  const s=$("stage");s.textContent=st;s.style.opacity=sp;s.style.transform=`translateY(${(1-sp)*30}px)`;
+  s.style.color=t>=T(35)?"var(--rot)":t>=T(29)?"var(--gelb)":"var(--text)";
+  // Falsche Formel
+  const fr=t>=T(25);const fx=$("fx");fx.textContent=fr?"=SUMME(B2:B11)":"=SUMME(B2:B6)";fx.style.color=fr?"var(--rot)":"var(--gruen2)";
+  fx.style.display="inline-block";const sh=fr&&t<T(25)+.5?Math.sin((t-T(25))*60)*8*(1-(t-T(25))/.5):0;fx.style.transform=`translateX(${sh}px)`;
+  // Alte Version: Geisterkarten + Dateiname
+  const vp=ease((t-T(27))/.3);$("g1").style.opacity=vp*.8;$("g2").style.opacity=vp*.5;
+  $("datei").textContent=t>=T(27)?"Steuer_final_v7.xlsx":"Steuer_final.xlsx";$("vchip").style.opacity=vp;
+  // Zelle verrutscht: B4 (Index 2) rutscht eine Zeile nach unten, überschreibt Posten 4
+  const zp=io((t-T(30))/.55);const zell=$("zelle");
+  const top=KH+ZH*2+ZH*zp;zell.style.top=top+"px";zell.style.opacity=zp>0?1:0;zell.textContent=ZE[2][1];
+  $("c2").style.opacity=zp>0?0:1;$("c3").style.opacity=zp>=1?0:1;
+  const wrong=t>=T(35);$("wert").textContent=wrong?"6.600":"9.600";$("wert").style.color=wrong?"var(--rot)":"var(--text)";
+  $("rs").style.background=wrong?"#2A1412":"#111F1A";
+  const fl=over((t-T(37))/.4);$("flagge").style.opacity=t>=T(37)?Math.min(1,fl):0;$("flagge").style.transform=`scale(${.6+.4*fl})`;
+  return;
+}
+function render(t){
+  ["b1","b3","b4","b5","b7","b8","xl","tool"].forEach(id=>$(id).style.opacity=0);
+  ABL.forEach(([id,von,bis])=>{
+    const bild=id!=="xl"&&id!=="tool";
+    if(t>=von-0.001&&t<bis){const ein=von===0?1:ease((t-von)/0.3);$(id).style.opacity=ein;if(bild)bildStil(id,t,von,bis)}
+    else if(t>=bis&&t<bis+0.3&&bild){$(id).style.opacity=1-ease((t-bis)/0.3);bildStil(id,t,von,bis)}
+    else if(t>=bis&&t<bis+0.3){$(id).style.opacity=1-ease((t-bis)/0.3)}});
+  excel(Math.min(Math.max(t,T(20)),T(39)+.3)); 
+  // „Niemand wollte tricksen“: Foto wird ruhig-grau; „nicht aufgepasst“: bleibt grau/dunkler
+  const gr=t>=T(39)&&t<T(42)+.4?ease((t-T(39))/.7):0;$("b4").style.filter=`grayscale(${gr}) brightness(${1-.25*gr})`;
+  $("b7").style.filter=`grayscale(1) brightness(.7)`;
+  $("b5").style.filter=`brightness(${1.05})`;
+  $("b8").style.filter=`brightness(${1-.6*Math.min(1,Math.max(0,(t-T(65))/.5))})`;
+  // Hook (Bild 0 = Endzustand): Text gleitet 0,4 s, Streichung zeichnet sich in 0,3 s
+  const hp=ease(t/.4);$("hook").style.transform=`translateX(${(1-hp)*-36}px)`;$("hook").style.opacity=t<T(12)+.3?(t<T(12)?1:1-ease((t-T(12))/.3)):0;
+  const sp=.35+.65*ease(t/.3);$("strich").style.width=(sp*100+8)+"%";
+  const ep=ease(t/.3);$("hz2").style.transform=`scale(${.9+.1*ep})`;
+  $("hz1").style.opacity=1;
+  TXT.forEach(([id,von,bis])=>{const s=t>=von-0.001&&t<bis;const e=$(id);const p=ease((t-von)/0.4);e.style.opacity=s?p:0;e.style.transform=`translateY(${(1-p)*40}px)`});
+  [...document.querySelectorAll("#karte .zeile")].forEach((z,i)=>{const p=ease((t-T(48)-.15-.15*i)/.3);z.style.opacity=p;z.style.transform=`translateX(${(1-p)*30}px)`});
+  $("karte").style.transform=`translateY(${(1-ease((t-T(48))/.4))*30}px)`;
+  $("kick").style.opacity=t<T(48)?1:0;
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
+  const ut=$("ut");if(gi<0||t>UT_END){ut.innerHTML="";return}
+  ut.innerHTML=G[gi].map(i=>`<span class="${t>=W[i][1]?(i===G[gi].filter(j=>t>=W[j][1]).pop()?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>
