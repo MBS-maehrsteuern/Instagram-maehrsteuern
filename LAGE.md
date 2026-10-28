@@ -1,18 +1,18 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 09:20 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 15:27 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `39-story-quiz` (pausiert) · 🔴 12:15 📱 Story `meme2-story` (überfällig) · 🟢 17:45 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` (läuft automatisch) · 🟡 17:50 📱 Story `40-story-teaser` (pausiert)
-- **Braucht dich:** 1 offen, davon **1 rot** 🔴
+- **Heute online:** 🟡 12:15 📱 Story `39-story-quiz` (pausiert) · ✅ 12:15 📱 Story `meme2-story` (online) · 🟢 17:45 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` (läuft automatisch) · 🟡 17:50 📱 Story `40-story-teaser` (pausiert)
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **3222** (21.10.–27.10., +154 % zur Vorwoche) · Follower **+13** (jetzt 381) · 30 Tage: +34 Follows / −13 entfolgt
 - **Testmonat** (Tag 17/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (2 online · 5 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 📱 Story `meme2-story` am **Mi 28.10. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
+**Als Nächstes online:** 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` am **Mi 28.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -73,14 +73,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `meme2-story` (Mi 28.10. 12:15): freigegeben, seit 138 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Mi 28.10. 12:15 | 📱 Story `39-story-quiz` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen): quiz_holding als Emoji-Tipp neu gerendert (👏 = rund 1,5 % · 😮 = rund 30 %, richtig: 👏), statt „Antworte in Prozent“; Auflösung im Bild: „Die Antwort steht im neuen Reel“ (Reel 39 lief um 11:45). Keine Auflösungs-Story: Do 29.10. 12:15/17:50 sind von Agent c2 belegt (story_do_tipp Mythen, story_do_teaser AfA). Optional in der App Quiz-Sticker setzen. |
-| Mi 28.10. 12:15 | 📱 Story `meme2-story` | 🟢 freigegeben (geht automatisch online) | 28.10.: eigenes Steuer-Meme (MEIN WEG – passt zu Mein Weg #02), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. |
 | Mi 28.10. 17:45 | 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` | 🟢 freigegeben (geht automatisch online) | 28.10.: Mein Weg #02 (Stimme 27.10.), Montage wie #01 + Bewegung in Sekunde 1; Welle nach #01 nutzen (Loris: „alle Punkte umsetzen“). · 28.10.: getauscht (Mi), Loris: Mein Weg #02 zuerst, solange #01 läuft. |
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
@@ -156,6 +155,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Mi 28.10. 12:15 · 📱 Story `meme2-story` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4017955438842916913) (online 2026-10-28 15:27)
 - Di 27.10. 18:00 · 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` · [ansehen](https://www.instagram.com/reel/DfAWBBflLkW/) (online 2026-10-27 18:01)
 - Mo 26.10. 17:45 · 🎬 Reel `i08-reel-insider-rente-oma` · [ansehen](https://www.instagram.com/reel/De9tD9vj4EH/) (online 2026-10-26 17:45)
 - So 25.10. 17:45 · 🎬 Reel `30-reel-gwg` · [ansehen](https://www.instagram.com/reel/De7JF3cAGrX/) (online 2026-10-25 17:45)
@@ -165,7 +165,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Mi 21.10. 18:00 · 🎬 Reel `58-reel-vorsteuer` · [ansehen](https://www.instagram.com/reel/Dewza8JCASO/) (online 2026-10-21 18:10)
 - Mi 21.10. 16:35 · 🎬 Reel `42-reel-afa` (online 2026-10-21 16:35)
 - Di 20.10. 17:50 · 📱 Story `28-story-aufloesung` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4012196501812014820) (online 2026-10-20 17:50)
-- Di 20.10. 17:45 · 🎬 Reel `19-reel-verlustvortrag` · [ansehen](https://www.instagram.com/reel/DeuJJHoDXkl/) (online 2026-10-20 17:45)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -215,6 +214,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 28.10.2026**
+- 15:27 🤖 Autopilot: meme2-story veroeffentlicht ([`9de7cf1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9de7cf10a1896806a09342ae97ea0d7df36d9274))
+  - Plan: `meme2-story` status: freigegeben → veroeffentlicht; `meme2-story` online: https://www.instagram.com/stories/maehrsteuern/4017955438842916913
+- 15:25 🤖 Autopilot: Dateien fuer meme2-story vorbereitet ([`de27104`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/de271041e776205f8a39c4394bba02190a826a5b))
+  - `posts/memes_2026-10`
 - 09:20 📈 Statistik 2026-10-28 ([`e091915`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e0919153d163f380bcbed9acd9e993b82db71101))
   - `automatik/statistik`
 - 08:36 📡 Radar 2026-10-28: 8 Beiträge, 0 DM-Entwürfe ([`0b56bc7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0b56bc7b328ddc500b55139801b9f16eb97f26c5))
