@@ -79,7 +79,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 28.10. 12:15 | 📱 Story `39-story-quiz` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen): quiz_holding als Emoji-Tipp neu gerendert (👏 = rund 1,5 % · 😮 = rund 30 %, richtig: 👏), statt „Antworte in Prozent“; Auflösung im Bild: „Die Antwort steht im neuen Reel“ (Reel 39 lief um 11:45). Keine Auflösungs-Story: Do 29.10. 12:15/17:50 sind von Agent c2 belegt (story_do_tipp Mythen, story_do_teaser AfA). Optional in der App Quiz-Sticker setzen. |
 | Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
 | Do 29.10. 12:15 | 📱 Story `meme1-story` | 🟢 freigegeben (geht automatisch online) | 28.10.: eigenes Steuer-Meme (FINANZAMT – passt zu Insider #14 Ferrari), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. |
