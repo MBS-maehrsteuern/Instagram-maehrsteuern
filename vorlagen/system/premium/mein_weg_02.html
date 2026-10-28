@@ -2,7 +2,7 @@
 <html lang="de"><head><meta charset="utf-8">
 <!-- Mein Weg #02 „Der häufigste Fehler war nie Betrug“ (Loris 29.10.): gleiche Optik wie #01 (Foto-Montage, Wort-Untertitel),
      neu: Hook mit Punch-In + Durchstreichen in den ersten 0,5 s, animierter Excel-Mock (verrutschte Zelle), Werkzeug-Karte, CTA.
-     Bild: nur 4_selfie.jpg (Loris), sonst Marken-Grafiken. -->
+     Bilder: 4_selfie, 3_lehrgang, 5_draussen (nur Loris), sonst Marken-Grafiken. -->
 <link rel="stylesheet" href="../../schriften.css">
 <style>
 @font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
@@ -61,19 +61,14 @@ h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.05;colo
 .gs svg{position:absolute;overflow:visible}
 .st{fill:none;stroke:var(--gruen2);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 12px rgba(83,195,162,.6))}
 .rt{stroke:var(--rot);filter:drop-shadow(0 0 14px rgba(229,103,90,.7))}
-#stempel{position:absolute;left:520px;top:1090px;border:7px solid var(--gruen2);color:var(--gruen2);font-family:var(--mono);font-weight:600;font-size:48px;letter-spacing:.12em;padding:14px 28px;border-radius:12px;transform:rotate(-11deg);background:rgba(7,12,10,.6);box-shadow:0 0 40px rgba(83,195,162,.4);opacity:0}
+#stempel{position:absolute;left:520px;top:1110px;border:7px solid var(--gruen2);color:var(--gruen2);font-family:var(--mono);font-weight:600;font-size:48px;letter-spacing:.12em;padding:14px 28px;border-radius:12px;transform:rotate(-11deg);background:rgba(7,12,10,.6);box-shadow:0 0 40px rgba(83,195,162,.4);opacity:0}
 .mk{position:absolute;left:110px;right:110px;border:1px solid #1E3A31;border-radius:30px;background:#0D1613;padding:34px 50px;box-shadow:0 0 60px rgba(83,195,162,.15)}
 .mk .zeile b.rot{color:var(--rot)} .mk .zeile b.gelb{color:var(--gelb)}
 </style></head><body>
 <div class="bild" id="b1"><div class="hg"></div><img></div>
+<div class="bild" id="b3"><div class="hg"></div><img></div>
+<div class="bild" id="b5"><div class="hg"></div><img></div>
 <div class="bild" id="b8"><div class="hg"></div><img></div>
-<div class="gs" id="gA"><svg viewBox="0 0 700 560" style="left:190px;top:500px;width:700px;height:560px">
-  <path class="st" id="dA0" pathLength="1" d="M40 190 L350 40 L660 190 Z"/>
-  <path class="st" id="dA1" pathLength="1" d="M70 230 H630"/>
-  <path class="st" id="dA2" pathLength="1" d="M120 250 V430 M255 250 V430 M390 250 V430 M525 250 V430 M600 250 V430"/>
-  <path class="st" id="dA3" pathLength="1" d="M70 450 H630 M40 490 H660 M10 530 H690"/>
-  <circle class="st" id="dA4" pathLength="1" cx="350" cy="130" r="32"/></svg>
- <div id="stempel">EX-FINANZAMT</div></div>
 <div class="gs" id="gB"><svg viewBox="0 0 420 240" style="left:330px;top:480px;width:420px;height:240px">
   <path class="st" d="M20 70 C60 30 150 60 210 70 C270 60 360 30 400 70 C410 150 340 190 280 150 C250 135 170 135 140 150 C80 190 10 150 20 70 Z"/>
   <ellipse class="st" cx="120" cy="105" rx="42" ry="24"/><ellipse class="st" cx="300" cy="105" rx="42" ry="24"/>
@@ -82,9 +77,6 @@ h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.05;colo
 <div class="gs" id="gC"><svg viewBox="0 0 300 270" style="left:390px;top:470px;width:300px;height:270px" id="warn">
   <path class="st rt" id="dC0" pathLength="1" d="M150 20 L285 250 H15 Z"/><path class="st rt" d="M150 100 V170"/><circle cx="150" cy="212" r="7" fill="#E5675A"/></svg>
  <div class="mk" id="mC" style="top:900px"><div class="zeile"><span>Steuer_final_v7.xlsx</span><b class="gelb">v7</b></div><div class="zeile"><span>SUMME</span><b class="rot" id="cs">9.600</b></div><div class="zeile" style="border:0"><span>SOLL</span><b class="rot" id="cn">≠ 10.800</b></div></div></div>
-<div class="gs" id="gD" style="background:radial-gradient(900px 700px at 50% 35%,rgba(83,195,162,.26),transparent 70%),var(--bg)"><svg viewBox="0 0 360 420" style="left:360px;top:480px;width:360px;height:420px">
-  <path class="st" id="dD0" pathLength="1" d="M180 15 L335 70 V200 C335 290 270 360 180 405 C90 360 25 290 25 200 V70 Z"/>
-  <path class="st" id="dD1" pathLength="1" style="stroke-width:14" d="M100 210 L160 270 L265 150"/></svg></div>
 <div id="xl">
  <div id="stage"></div>
  <div class="ghost" id="g2" style="transform:translate(34px,34px)"></div><div class="ghost" id="g1" style="transform:translate(17px,17px)"></div>
@@ -96,30 +88,37 @@ h2{font-family:var(--serif);font-weight:500;font-size:84px;line-height:1.05;colo
  <div id="flagge"><div><svg viewBox="0 0 44 44"><path d="M10 6v34" stroke="#fff" stroke-width="5" stroke-linecap="round"/><path d="M12 8h24l-7 9 7 9H12z" fill="#fff"/></svg>ABWEICHUNG −1.200</div></div>
 </div>
 <div id="tool">
- <div class="karte" id="karte"><div class="zeile"><span>FORMEL</span><b>✓ geprüft</b></div><div class="zeile"><span>VERSION</span><b>✓ geprüft</b></div>
+ <img id="logo" src="../../../posts/m02_2026-10-29_mein_weg_haeufigster_fehler/bilder/mbs_logo.jpg" style="position:absolute;left:350px;top:510px;width:380px;height:380px;border-radius:36px;border:1px solid #1E3A31;box-shadow:0 0 60px rgba(83,195,162,.3);opacity:0">
+ <div class="karte" id="karte" style="top:925px"><div class="zeile"><span>FORMEL</span><b>✓ geprüft</b></div><div class="zeile"><span>VERSION</span><b>✓ geprüft</b></div>
  <div class="zeile"><span>ZELLE</span><b>✓ geprüft</b></div><div class="zeile" style="border:0"><span>PRÜFPFAD</span><b>Quelle ↗</b></div></div>
 </div>
 <div id="verlauf"></div>
+<div id="dunkel" style="position:absolute;inset:0;opacity:0;background:linear-gradient(180deg,rgba(7,12,10,0) 56%,rgba(7,12,10,.92) 70%,rgba(7,12,10,.98) 100%)"></div>
 <div class="kicker" id="kick"><i></i>MEIN WEG · #02</div>
 <div id="hook"><div class="z1" id="hz1">Nie <span class="dur">Betrug<i id="strich"></i></span>.</div><div class="z2" id="hz2">Excel.</div></div>
 <div class="titel" id="t2" style="top:220px"><h1>Jahrelang</h1><h2>auf der anderen Seite.</h2></div>
 <div class="titel" id="t4" style="top:220px"><h1>Niemand</h1><h2>wollte tricksen.</h2></div>
 <div class="titel" id="t5" style="top:220px"><h1>Die Datei</h1><h2 style="color:var(--gelb)">hat nicht aufgepasst.</h2></div>
 <div class="titel" id="t6" style="top:215px"><h1>Darum baue ich</h1><h2>Tools, die das abfangen.</h2></div>
-<div class="titel" id="t7" style="top:215px"><h1>Niemand mehr</h1><h2 style="font-size:68px">Ärger wegen einer Zelle.</h2></div>
-<div class="titel" id="t8" style="top:620px;text-align:center"><h2 style="font-size:70px">Wie das Finanzamt wirklich denkt:</h2><h1 style="font-size:96px;margin-top:30px">Folge @maehrsteuern</h1></div>
+<div class="titel" id="t7" style="top:1040px"><h1>Niemand mehr</h1><h2 style="font-size:68px">Ärger wegen einer Zelle.</h2></div>
+<div class="titel" id="t8" style="top:1040px;text-align:center"><h2 style="font-size:70px">Wie das Finanzamt wirklich denkt:</h2><h1 style="font-size:96px;margin-top:30px">Folge @maehrsteuern</h1></div>
+<div id="stempel">EX-FINANZAMT</div>
+<svg id="schild" viewBox="0 0 360 420" style="position:absolute;left:830px;top:760px;width:150px;height:175px;opacity:0;overflow:visible">
+  <path class="st" id="dD0" pathLength="1" d="M180 15 L335 70 V200 C335 290 270 360 180 405 C90 360 25 290 25 200 V70 Z"/>
+  <path class="st" id="dD1" pathLength="1" style="stroke-width:22" d="M100 210 L160 270 L265 150"/></svg>
 <div id="ut"></div>
 <div id="fuss"><i></i>maehrsteuern</div>
 <script>
 const B="../../../posts/m02_2026-10-29_mein_weg_haeufigster_fehler/bilder/";
 // Bild: Datei, Bildgröße, Fokus (fx,fy 0..1), Zoom-Start, Zoom-Ende
-const BILD={b1:["4_selfie.jpg",1220,2712,.5,.55,1.12,1.2],b8:["4_selfie.jpg",1220,2712,.5,.45,1.3,1.4]};
+const BILD={b1:["4_selfie.jpg",1220,2712,.5,.55,1.12,1.2],b8:["loris_portrait_laecheln.jpg",2048,2048,.5,.5,1.0,1.06],
+ b3:["3_lehrgang.jpg",1220,2712,.6,.21,2.4,2.5],b5:["loris_portrait_laecheln.jpg",2048,2048,.5,.5,1.0,1.06]};
 Object.entries(BILD).forEach(([id,[f]])=>{const e=document.getElementById(id);e.querySelector("img").src=B+f;e.querySelector(".hg").style.backgroundImage=`url(${B+f})`});
 const W=[["Der", 0.0], ["häufigste", 0.16], ["Fehler,", 0.64], ["den", 0.92], ["ich", 1.02], ["im", 1.2], ["Finanzamt", 1.36], ["gesehen", 1.76], ["hab,", 2.1], ["war", 2.46], ["nie", 2.52], ["Betrug.", 2.7], ["Ich", 3.54], ["war", 3.58], ["jahrelang", 3.72], ["auf", 4.14], ["der", 4.3], ["anderen", 4.42], ["Seite", 4.62], ["und", 5.0], ["es", 5.34], ["war", 5.48], ["fast", 5.64], ["immer:", 5.86], ["Excel.", 6.32], ["Falsche", 7.4], ["Formel,", 7.68], ["alte", 8.52], ["Version,", 8.68], ["eine", 9.7], ["Zelle", 9.96], ["verrutscht", 10.2], ["und", 10.68], ["am", 10.94], ["Ende", 11.06], ["stimmt", 11.28], ["die", 11.52], ["Steuer", 11.76], ["nicht.", 11.94], ["Niemand", 12.64], ["wollte", 12.88], ["tricksen.", 13.12], ["Die", 13.96], ["Datei", 14.1], ["hat", 14.42], ["einfach", 14.52], ["nicht", 14.78], ["aufgepasst.", 15.0], ["Darum", 16.06], ["bau", 16.2], ["ich", 16.44], ["heute", 16.58], ["Tools,", 16.76], ["die", 17.14], ["genau", 17.24], ["das", 17.46], ["abfangen.", 17.68], ["Damit", 18.5], ["niemand", 18.7], ["mehr", 19.0], ["wegen", 19.26], ["einer", 19.46], ["Zelle", 19.8], ["Ärger", 20.12], ["bekommt.", 20.44], ["Folg", 21.2], ["mir,", 21.44], ["wenn", 21.66], ["du", 21.78], ["wissen", 21.9], ["willst,", 22.16], ["wie", 22.46], ["das", 22.56], ["Finanzamt", 22.76], ["wirklich", 23.18], ["denkt.", 23.54]];
 const UT_END=24.18;
 const T=i=>W[i][1];
 // Szenen an Wortindizes (korrigierter Text): 12 Ich · 20 es · 25 Falsche · 27 alte · 30 Zelle · 35 stimmt · 38 nicht · 39 Niemand · 42 Die · 48 Darum · 57 Damit · 65 Folg
-const ABL=[["b1",0,T(12)],["gA",T(12),T(20)],["xl",T(20),T(39)],["gB",T(39),T(42)],["gC",T(42),T(48)],["tool",T(48),T(57)],["gD",T(57),T(65)],["b8",T(65),99]];
+const ABL=[["b1",0,T(12)],["b3",T(12),T(20)],["xl",T(20),T(39)],["gB",T(39),T(42)],["gC",T(42),T(48)],["tool",T(48),T(57)],["b5",T(57),T(65)],["b8",T(65),99]];
 const TXT=[["t2",T(12),T(20)],["t4",T(39),T(42)],["t5",T(42),T(48)],["t6",T(48),T(57)],["t7",T(57),T(65)],["t8",T(65),99]];
 const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,:?]$/.test(w[0])||g.length>=4){G.push(g);g=[]}});if(g.length)G.push(g);
 const ease=x=>x<=0?0:x>=1?1:1-Math.pow(1-x,3);
@@ -168,22 +167,21 @@ function excel(t){
   return;
 }
 function render(t){
-  ["b1","b8","xl","tool","gA","gB","gC","gD"].forEach(id=>$(id).style.opacity=0);
+  ["b1","b3","b5","b8","xl","tool","gB","gC"].forEach(id=>$(id).style.opacity=0);
   ABL.forEach(([id,von,bis])=>{
-    const bild=id==="b1"||id==="b8";
+    const bild=["b1","b3","b5","b8"].includes(id);
     if(t>=von-0.001&&t<bis){const ein=von===0?1:ease((t-von)/0.3);$(id).style.opacity=ein;if(bild)bildStil(id,t,von,bis)}
     else if(t>=bis&&t<bis+0.3&&bild){$(id).style.opacity=1-ease((t-bis)/0.3);bildStil(id,t,von,bis)}
     else if(t>=bis&&t<bis+0.3){$(id).style.opacity=1-ease((t-bis)/0.3)}});
   excel(Math.min(Math.max(t,T(20)),T(39)+.3)); 
   $("b8").style.filter=`brightness(${1-.6*Math.min(1,Math.max(0,(t-T(65))/.5))})`;
   const dr=(id,t0,d)=>{const e=$(id);e.style.strokeDasharray=1;e.style.strokeDashoffset=1-ease((t-t0)/d)};
-  ["dA0","dA1","dA2","dA3","dA4"].forEach((id,i)=>dr(id,T(12)+.05+.12*i,.4));
-  const sp2=over((t-T(17))/.4);$("stempel").style.opacity=t>=T(17)?1:0;$("stempel").style.transform=`rotate(-11deg) scale(${2-sp2})`;
+  const sp2=over((t-T(17))/.4);$("stempel").style.opacity=t>=T(17)&&t<T(20)+.3?1:0;$("stempel").style.transform=`rotate(-11deg) scale(${2-sp2})`;
   dr("dB0",T(39)+.35,.35);{const p=ease((t-T(39)-.1)/.4);$("mB").style.opacity=p;$("mB").style.transform=`translateY(${(1-p)*30}px)`}
   {const p=over((t-T(42))/.45);$("warn").style.transform=`scale(${.5+.5*Math.min(1.1,p)})`;dr("dC0",T(42),.4);
    const q=ease((t-T(42)-.3)/.4);$("mC").style.opacity=q;$("mC").style.transform=`translateY(${(1-q)*30}px)`;
    $("cn").style.opacity=ease((t-T(46))/.3);const sk=t>=T(47)&&t<T(47)+.4?Math.sin((t-T(47))*70)*6:0;$("warn").style.marginLeft=sk+"px"}
-  dr("dD0",T(57)+.05,.5);dr("dD1",T(57)+.5,.35);
+  $("schild").style.opacity=t>=T(57)+.2&&t<T(65)+.3?1:0;dr("dD0",T(57)+.2,.5);dr("dD1",T(57)+.65,.35);
   // Hook (Bild 0 = Endzustand): Text gleitet 0,4 s, Streichung zeichnet sich in 0,3 s
   const hp=ease(t/.4);$("hook").style.transform=`translateX(${(1-hp)*-36}px)`;$("hook").style.opacity=t<T(12)+.3?(t<T(12)?1:1-ease((t-T(12))/.3)):0;
   const sp=.35+.65*ease(t/.3);$("strich").style.width=(sp*100+8)+"%";
@@ -191,7 +189,9 @@ function render(t){
   $("hz1").style.opacity=1;
   TXT.forEach(([id,von,bis])=>{const s=t>=von-0.001&&t<bis;const e=$(id);const p=ease((t-von)/0.4);e.style.opacity=s?p:0;e.style.transform=`translateY(${(1-p)*40}px)`});
   [...document.querySelectorAll("#karte .zeile")].forEach((z,i)=>{const p=ease((t-T(48)-.15-.15*i)/.3);z.style.opacity=p;z.style.transform=`translateX(${(1-p)*30}px)`});
+  {const lp=over((t-T(48)-.05)/.45);$("logo").style.opacity=Math.min(1,lp*2);$("logo").style.transform=`scale(${.8+.2*Math.min(1.05,lp)})`}
   $("karte").style.transform=`translateY(${(1-ease((t-T(48))/.4))*30}px)`;
+  $("dunkel").style.opacity=t>=T(12)-.001&&t<T(20)+.3?(t<T(20)?1:1-ease((t-T(20))/.3)):0;
   $("kick").style.opacity=t<T(48)?1:0;
   const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-0.05&&(i===G.length-1||t<W[G[i+1][0]][1]-0.05));
   const ut=$("ut");if(gi<0||t>UT_END){ut.innerHTML="";return}
