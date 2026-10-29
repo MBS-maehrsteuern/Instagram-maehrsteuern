@@ -77,3 +77,20 @@ Ein Link zu deinem Terminbuchungs-Tool (z. B. Cal.com oder Calendly, 20-Minuten-
 1. **Neuvorstellung** (ab 01.10.) – wer du bist und was hier kommt
 2. Reel „Mein eigenes Steuer-Tool“ (bleibt) – Demo
 3. Karussell „5 Excel-Fehler in deiner Steuerrückstellung“ (ab 06.10.) – Praxis
+
+### Vorschlag 29.10. (nach Mein Weg #01: 64 Profilbesuche → 6 Follows) – Loris entscheidet A oder B
+**A – Insider (Follower-Ziel):** Name `Loris | Ex-Finanzamt · Steuer-Insider`
+```
+🏛️ Ex-Finanzamt: so denkt das Amt wirklich
+📌 Steuer-Insider zum Sofort-Nutzen
+🎓 Diplom-Finanzwirt · KI-Manager (IHK)
+💬 DM „TOOL“ → gratis Demo
+```
+**B – Tools (Kunden-Ziel):** Name `Loris | Ex-Finanzamt · Steuer-Tools`
+```
+📊 Ex-Finanzamt, heute Steuer-Tools für Firmen
+⚙️ Ich baue, was Excel-Fehler abfängt
+🎓 Diplom-Finanzwirt · KI-Manager (IHK)
+💬 DM „TOOL“ → 20-Min-Demo
+```
+Empfehlung A (30-Tage-Ziel Follower). Dazu M1 anpinnen.

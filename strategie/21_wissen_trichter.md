@@ -86,3 +86,12 @@ Bio nach 4-Zeilen-Formel (§6), Story-Teilen mit Umfrage, Kommentare schnell bea
 2 Reposts. Likes ballen sich am Ende (Schluss „keinen Tag bereut“). Quellen: Reels-Tab 52 %, Feed 23 %, Explore 13 %.
 Zielgruppe: 25–34 J. 51 %, Männer 63 %, DE 76 % (TR 16 %). Wachstum flacht ab (~+700 Aufrufe in 21 h).
 Engpass = Profil (64 → 6), nicht Reichweite. Hebel: Bio entscheiden, M1 anpinnen, erste Sekunde mit Bewegung.
+
+## 9. Spickzettel-Karussell mit Kommentar-Wort (@herr_tech „Claude God Mode“, 29.10.)
+8 Folien, nach 10 h 378 Likes · 113 Kommentare · 222 Teilungen (Teilen ≈ 60 % der Likes – extrem hoch).
+Aufbau: Folie 1 = großes Versprechen + Zahl („60 Befehle, die kaum einer kennt“) auf Schock-Bild; Folien 2–7 = je
+Kategorie eine Tabelle mit 10 Einträgen (gleiches Layout, Fortschrittsbalken „02/08“); Folie 8 = „So nutzt du sie“ in
+3 Schritten + Kommentar-Wort „GOD“ → PDF per DM. Warum es wirkt: Listen-Nutzen zum Speichern/Teilen, Zahl im Hook,
+Kommentar-Wort treibt Kommentare (Algorithmus) und DMs (Lead).
+Übertrag maehrsteuern: Karussell „KI für Steuern – 30 Befehle für Steuerabteilung & Kanzlei“ bzw. „Steuer-Spickzettel“
+mit Kommentar-Wort (ManyChat). Kein Fake-/Schockbild mit Polizei (KI-Label, Seriosität), stattdessen echtes Foto von Loris.
