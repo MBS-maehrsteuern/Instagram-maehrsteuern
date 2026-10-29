@@ -95,3 +95,16 @@ Kategorie eine Tabelle mit 10 Einträgen (gleiches Layout, Fortschrittsbalken �
 Kommentar-Wort treibt Kommentare (Algorithmus) und DMs (Lead).
 Übertrag maehrsteuern: Karussell „KI für Steuern – 30 Befehle für Steuerabteilung & Kanzlei“ bzw. „Steuer-Spickzettel“
 mit Kommentar-Wort (ManyChat). Kein Fake-/Schockbild mit Polizei (KI-Label, Seriosität), stattdessen echtes Foto von Loris.
+
+## 10. Storytelling-Reels in 6 Schritten (@personalbrandlaunch, 29.10.)
+1 Story-Typ wählen · 2 Skript-Struktur · 3 Skript Zeile für Zeile · 4 Format · 5 Bilder planen · 6 filmen/schneiden.
+Strukturen: **Mein Weg** Intro → Konflikt → Erkenntnis → Wandel → Sinn · **Sieg** Problem → Durchbruch → Lehre ·
+**Niederlage** Komfortzone → Auslöser → Krise → Erholung → besserer Ort · **Lektion** Rückschlag → Schmerzpunkte → Lösung →
+Lektion · **Verwandlung** Vorher → Nachher → Brücke · **Challenge** „Geht X, obwohl Y, in Z?“ → Plan in 3 Schritten →
+Ergebnis → Erkenntnis → „Wenn ich das kann, kannst du das auch“ · **Großes Ziel** Traum → Weg → Zwischenstand → CTA.
+Formate: Voiceover über Bildern · neuer Blickwinkel alle ~2 s · Audio + B-Roll + Text (neues Bild/Satz alle 1–3 s, emotionale Musik).
+Bilder: alte Fotos/Videos vom Weg zeigen; Skript in Stichpunkten, darunter rot die Aufnahmen, grün alte Bilder/Schnitte.
+**Abgleich (29.10.):** M1 = genau „Mein Weg“-Struktur (erklärt den Erfolg). M2 = „Lektion“, Lektion am Schluss nur angedeutet.
+Schwäche beider: Bildwechsel ~5 s statt 1–3 s. Wegen 2–3-Foto-Regel: Wechsel über Ausschnitte/Punch-ins desselben Fotos,
+Text-Zwischenbilder und Jahreszahl-Einblendungen („2019:“) statt neuer Fotos. Nach M2 ist keine Story-Folge geplant –
+nächste Storys nur mit Loris' echten Erlebnissen (Sieg/Niederlage/Challenge/Großes Ziel), nichts erfinden.
