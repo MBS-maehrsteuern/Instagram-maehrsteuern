@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 13:26 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 13:27 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 13:27 ✍️ Ferrari-Reel: kopierte M1-Felder wirklich entfernt ([`ad27664`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ad276642f838607e45ce681eedfbf20a10035df5))
+  - `LAGE.html`, `automatik/plan.json`
 - 13:26 ✍️ Ferrari-Reel: versehentlich kopierte media_id/veroeffentlicht_am von M1 entfernt (Hinweis Nebensitzung) ([`bfdca97`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/bfdca97a03afd658d2e3a4f428035a9eaa514f98))
   - `LAGE.html`
 - 09:30 💼 LinkedIn-Pakete: k01-karussell-ki-befehle ([`3c996e6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3c996e68f57472327a5efe32e7c79b3b5f99aac0))
