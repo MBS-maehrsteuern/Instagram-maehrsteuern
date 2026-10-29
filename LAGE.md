@@ -1,18 +1,18 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 13:27 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 17:45 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme1-story` (gestrichen) · 🟢 17:45 🎬 Reel `i14-reel-insider-ferrari` (läuft automatisch) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme1-story` (gestrichen) · ✅ 17:45 🎬 Reel `i14-reel-insider-ferrari` (online) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **3840** (22.10.–28.10., +210 % zur Vorwoche) · Follower **+30** (jetzt 402) · 30 Tage: +41 Follows / −14 entfolgt
 - **Testmonat** (Tag 18/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (3 online · 4 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
+  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 🎬 Reel `i14-reel-insider-ferrari` am **Do 29.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `i01-reel-insider-programm` am **Fr 30.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -84,7 +84,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 |---|---|---|---|
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
 | Do 29.10. 12:15 | 📱 Story `meme1-story` | gestrichen | 28.10.: eigenes Steuer-Meme (FINANZAMT – passt zu Insider #14 Ferrari), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
-| Do 29.10. 17:45 | 🎬 Reel `i14-reel-insider-ferrari` | 🟢 freigegeben (geht automatisch online) | 27.10.: Insider #14 (Stimme 27.10.), Thema aus Vorbilder-Radar; ersetzt Karussell 41 am Mi (Loris: „alle Punkte umsetzen“). · 28.10.: getauscht (Do), Loris: Mein Weg #02 zuerst, solange #01 läuft. |
 | Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
 | Fr 30.10. 12:15 | 📱 Story `meme3-story` | gestrichen | 28.10.: eigenes Steuer-Meme (EXCEL), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
@@ -108,12 +107,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟢 freigegeben (geht automatisch online) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben. · [Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93) |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
+| Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 | Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
 | Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 17:45 | 🎬 Reel `i02-reel-insider-kontenabruf` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-03. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-06. |
@@ -156,6 +155,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Do 29.10. 17:45 · 🎬 Reel `i14-reel-insider-ferrari` · [ansehen](https://www.instagram.com/reel/DfFcLcFk7yt/) (online 2026-10-29 17:45)
 - Mi 28.10. 17:45 · 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` · [ansehen](https://www.instagram.com/reel/DfC3UzMCo4m/) (online 2026-10-28 17:45)
 - Mi 28.10. 12:15 · 📱 Story `meme2-story` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4017955438842916913) (online 2026-10-28 15:27)
 - Di 27.10. 18:00 · 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` · [ansehen](https://www.instagram.com/reel/DfAWBBflLkW/) (online 2026-10-27 18:01)
@@ -165,7 +165,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Sa 24.10. 11:14 · 🎬 Reel `36-reel-bewirtung` · [ansehen](https://www.instagram.com/reel/De3yheAFKBg/) (online 2026-10-24 11:17)
 - Do 22.10. 11:50 · 🎬 Reel `62-reel-glaesern` · [ansehen](https://www.instagram.com/reel/DezHdgPt1_0/) (online 2026-10-22)
 - Mi 21.10. 18:00 · 🎬 Reel `58-reel-vorsteuer` · [ansehen](https://www.instagram.com/reel/Dewza8JCASO/) (online 2026-10-21 18:10)
-- Mi 21.10. 16:35 · 🎬 Reel `42-reel-afa` (online 2026-10-21 16:35)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -214,6 +213,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 17:45 🤖 Autopilot: i14-reel-insider-ferrari veroeffentlicht ([`9b35784`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9b35784f38ace125a99febdc95872e67bc7ef5cc))
+  - Plan: `i14-reel-insider-ferrari` status: freigegeben → veroeffentlicht; `i14-reel-insider-ferrari` online: https://www.instagram.com/reel/DfFcLcFk7yt/
+- 17:28 🤖 Autopilot: Dateien fuer i14-reel-insider-ferrari vorbereitet ([`43f09d0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/43f09d0332a8728d97f40ff3f426cdd2b51347b9))
+  - `posts/i14_2026-10-27_insider_ferrari`
 - 13:27 ✍️ Ferrari-Reel: kopierte M1-Felder wirklich entfernt ([`ad27664`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ad276642f838607e45ce681eedfbf20a10035df5))
   - `LAGE.html`, `automatik/plan.json`
 - 13:26 ✍️ Ferrari-Reel: versehentlich kopierte media_id/veroeffentlicht_am von M1 entfernt (Hinweis Nebensitzung) ([`bfdca97`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/bfdca97a03afd658d2e3a4f428035a9eaa514f98))
