@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 05:27 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 05:32 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 05:32 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`38b836d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/38b836d7707747d070704a3c013b4f4024c00e8d))
+- 05:32 💼 LinkedIn-Bild Mein Weg: ganzes Diplomtag-Foto (Loris' Wahl) ([`2f0e1ff`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2f0e1ffaf3f21b7908f6f81e8ce9c5aaae9b3190))
+  - `vorlagen/system/linkedin_mein_weg.html`
 - 05:27 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c818835`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c818835d161dd69eee821f8ace2b2ecaf4d2584d))
 - 05:27 💼 LinkedIn-Bild-Vorlage Mein Weg #01 (Split: Hook + Eckdaten + Foto) ([`00205e9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/00205e95ada46f9e63ac4d73c6cb845d509bc4be))
   - `vorlagen/system/linkedin_mein_weg.html`
