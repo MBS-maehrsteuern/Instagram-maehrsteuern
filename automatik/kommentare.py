@@ -5,8 +5,9 @@
   python automatik/kommentare.py antwort "TEXT"      – Loris' Antwort im Issue auswerten:
                                                       „K12 ok“ → Vorschlag posten, „K12 Danke dir, …“ → eigenen Text posten
 
-Kommentare mit ManyChat-Stichwort (z. B. TOOL) bleiben außen vor – die beantwortet ManyChat samt DM.
-Hier wird nie eine DM verschickt. Kommentare, auf die Loris schon in der App geantwortet hat, werden erkannt.
+Kommentare mit Stichwort (TOOL, PROMPT – interaktion.json „stichwort_antworten“) werden automatisch beantwortet:
+eine DM per Private Reply (Instagram erlaubt genau eine, bis 7 Tage nach dem Kommentar) + kurze öffentliche Antwort.
+Sonst wird nie eine DM verschickt. Braucht die Berechtigung instagram_business_manage_messages. Kommentare, auf die Loris schon in der App geantwortet hat, werden erkannt.
 Umgebung: IG_TOKEN, IG_USER_ID, ANTHROPIC_API_KEY (optional), GH_TOKEN, GITHUB_REPOSITORY.
 """
 import json, os, re, subprocess, sys, time
@@ -58,6 +59,8 @@ def speichern(stand, nachricht):
     grenze = (JETZT - timedelta(days=30)).strftime("%Y-%m-%d")
     stand["kommentare"] = {k: v for k, v in stand["kommentare"].items() if v["datum"] >= grenze}
     stand.pop("erster_lauf", None)
+    stand.pop("_auto_neu", None)
+    stand["auto"] = {k: v for k, v in stand.get("auto", {}).items() if v["datum"] >= grenze}
     STAND.parent.mkdir(parents=True, exist_ok=True)
     STAND.write_text(json.dumps(stand, ensure_ascii=False, indent=1) + "\n")
     git("add", str(STAND))
@@ -110,16 +113,57 @@ Bei reinen Emojis oder „👍“: kurze herzliche Antwort. Bei Fachfragen, die 
 freundlich auf allgemeine Info beschränken. Spam oder Beleidigung: text = „ignorieren“."""
 
 
+def stichwort(text):
+    for wort, a in EINSTELLUNGEN.get("stichwort_antworten", {}).items():
+        if re.search(rf"\b{re.escape(wort)}\b", text or "", re.I):
+            return wort, a
+    return None, None
+
+
+def auto_antworten(stand, c, ich):
+    """Stichwort-Kommentar: DM + öffentliche Antwort, je Kommentar höchstens einmal. Gibt Meldezeile bei Fehler zurück."""
+    wort, a = stichwort(c.get("text"))
+    auto = stand.setdefault("auto", {})
+    if not a or c["id"] in auto or zeitpunkt(c["timestamp"]) < JETZT - timedelta(days=7):
+        return None
+    eintrag = {"datum": JETZT.strftime("%Y-%m-%d"), "wort": wort, "dm": False, "oeffentlich": False}
+    try:
+        r = requests.post(f"{API}/{os.environ['IG_USER_ID']}/messages", timeout=60,
+                          params={"access_token": os.environ["IG_TOKEN"]},
+                          json={"recipient": {"comment_id": c["id"]}, "message": {"text": a["dm"]}})
+        r.raise_for_status()
+        eintrag["dm"] = True
+    except requests.HTTPError as e:
+        eintrag["fehler"] = f"DM {e.response.status_code}: {e.response.text[:200]}"
+    if eintrag["dm"] and not any(r.get("username") == ich for r in c.get("replies", {}).get("data", [])):
+        try:
+            ig("POST", f"{c['id']}/replies", message=a["oeffentlich"][len(auto) % len(a["oeffentlich"])])
+            eintrag["oeffentlich"] = True
+        except requests.HTTPError as e:
+            eintrag["fehler"] = f"Antwort {e.response.status_code}"
+    auto[c["id"]] = eintrag
+    stand["_auto_neu"] = True
+    if not eintrag["dm"]:
+        return (f"🔴 **{wort}** von @{c.get('username')}: DM ging nicht raus ({eintrag.get('fehler')}) – "
+                f"bitte von Hand schicken:\n> {a['dm']}")
+    print(f"✓ {wort}-DM an @{c.get('username')}")
+    return None
+
+
 def pruefen():
     stand = laden()
     ich = ig("GET", os.environ["IG_USER_ID"], fields="username")["username"]
     medien = ig("GET", f"{os.environ['IG_USER_ID']}/media", fields="id,caption,permalink",
                 limit=EINSTELLUNGEN["beitraege_pruefen"]).get("data", [])
-    neu, erledigt = [], 0
+    neu, erledigt, fehler = [], 0, []
     grenze = JETZT - timedelta(hours=48 if stand.get("erster_lauf") else 24 * 7)
     for m in medien:
         for c in ig("GET", f"{m['id']}/comments", fields="id,text,timestamp,username,replies{username}", limit=50).get("data", []):
-            if c.get("username") == ich or ist_manychat(c.get("text")):
+            if c.get("username") == ich:
+                continue
+            if ist_manychat(c.get("text")):
+                if (z := auto_antworten(stand, c, ich)):
+                    fehler.append(z)
                 continue
             beantwortet = any(r.get("username") == ich for r in c.get("replies", {}).get("data", []))
             bekannt = stand["kommentare"].get(c["id"])
@@ -131,10 +175,13 @@ def pruefen():
             if beantwortet or zeitpunkt(c["timestamp"]) < grenze:
                 continue
             neu.append({"c": c, "m": m})
+    gesendet = sum(1 for v in stand.get("auto", {}).values() if v["datum"] == JETZT.strftime("%Y-%m-%d") and v["dm"])
+    if fehler:
+        gh("issue", "comment", sammel_issue(), "--body", f"@{MELDEN}\n\n" + "\n\n".join(fehler))
     if not neu:
         print(f"Keine neuen Kommentare ({erledigt} in der App beantwortet).")
-        if erledigt:
-            speichern(stand, f"Kommentare: {erledigt} in der App beantwortet")
+        if erledigt or stand.get("_auto_neu"):
+            speichern(stand, f"Kommentare: {erledigt} in der App beantwortet, Stichwort-DMs heute: {gesendet}")
         return
     for n in neu:
         n["nr"] = stand["naechste_nr"]

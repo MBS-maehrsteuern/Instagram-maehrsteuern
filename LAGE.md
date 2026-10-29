@@ -1,11 +1,11 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:41 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:42 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme1-story` (gestrichen) · 🟢 17:45 🎬 Reel `i14-reel-insider-ferrari` (läuft automatisch) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
-- **Braucht dich:** 1 offen
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **3222** (21.10.–27.10., +154 % zur Vorwoche) · Follower **+13** (jetzt 381) · 30 Tage: +34 Follows / −13 entfolgt
 - **Testmonat** (Tag 18/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (3 online · 4 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
@@ -72,10 +72,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   Insider #13 Betriebsprüfung gebaut, noch nicht eingeplant. Offen: Bio-Umbau (Loris), S4 neu einsprechen.
 - 28.10. abends: Memes komplett gestrichen (Loris: „blöd“) – keine Meme-Formate mehr vorschlagen. meme2 lief bereits als Story (verschwindet nach 24 h).
 - **29.10.:** Bio **Variante A** gewählt (Loris setzt in der App, `strategie/02_bio_highlights.md`), M1 anpinnen. Karussell K01 „30 KI-Befehle für Steuer-Profis“ gebaut (freigegeben Mi 04.11. 17:45, übrige Karussells je einen Platz später, Mythen → 09.12.), Kommentar-Wort PROMPT → PDF `posts/k01_2026-11-04_ki_befehle/ki_befehle_30.pdf` (ManyChat-Regel legt Loris an).
+- **29.10.: Kein ManyChat (Loris).** `kommentare.py` beantwortet Stichwort-Kommentare selbst: PROMPT → DM mit PDF-Link, TOOL → DM mit Demo-Link (Private Reply, 1× je Kommentar, ≤ 7 Tage) + kurze öffentliche Antwort. Texte in `automatik/interaktion.json` → `stichwort_antworten`. Geht die DM nicht (fehlende Berechtigung `instagram_business_manage_messages` oder „Zugriff auf Nachrichten“ aus), meldet das Issue „💬 Kommentare“ den Text zum Selbst-Senden.
 
 ## 👉 Braucht dich
 
-- ⚠️ **Stichwort passt nicht zu ManyChat** `k01-karussell-ki-befehle` (Mi 04.11. 17:45): „PROMPT“ – in ManyChat anlegen und in `automatik/interaktion.json` (`manychat_stichwoerter`) eintragen, oder Bildunterschrift auf TOOL ändern
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
@@ -213,8 +214,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:42 🔀 Merge claude/instagram ([`d739e16`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d739e1619c7e55084f6329c641102285f2a9105f))
 - 02:41 ✍️ K01 KI-Befehle für Mi 04.11. freigegeben, Karussell-Reihe um einen Platz verschoben ([`834bc02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/834bc02b4cab49e0f6572f8e34403b99fc36d726))
   - Plan: `31-karussell-zinsschranke` zeit: 2026-11-11 17:45 → 2026-11-15 17:45; `10-e-rechnung` zeit: 2026-11-04 17:45 → 2026-11-08 17:45; `37-karussell-bp-vorbereitung` zeit: 2026-11-08 17:45 → 2026-11-11 17:45; `41-karussell-mythen` zeit: 2026-12-06 17:45 → 2026-12-09 17:45; `44-karussell-glossar` zeit: 2026-11-22 17:45 → 2026-11-25 17:45; `46-karussell-dividenden-8b` zeit: 2026-11-29 17:45 → 2026-12-02 17:45; `51-karussell-kapitalertraege` zeit: 2026-11-25 17:45 → 2026-11-29 17:45; `53-karussell-iab` zeit: 2026-11-15 17:45 → 2026-11-18 17:45; `56-karussell-verjaehrung` zeit: 2026-11-18 17:45 → 2026-11-22 17:45; `59-karussell-pensionen` zeit: 2026-12-02 17:45 → 2026-12-06 17:45; `k01-karussell-ki-befehle` status: entwurf → freigegeben
+- 02:29 ✅ Freigabe angefragt (1 Beitrag/Beiträge) ([`abc2a38`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/abc2a38e10bbfcdb5dbae027b5fa568cd092c574))
+  - Plan: `k01-karussell-ki-befehle` → Freigabe-Issue #93
 - 02:27 🔀 Merge claude/instagram ([`248cdfb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/248cdfbd9f63ed27498f49f52ad7b15af3699480))
 - 02:27 ✍️ Karussell K01 „30 KI-Befehle für Steuer-Profis“ als Entwurf, Bio A notiert ([`9689932`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/96899329395943fac5fceae784d7da4961aa85ae))
   - Plan: neu `k01-karussell-ki-befehle` (2026-11-04 17:45, entwurf)

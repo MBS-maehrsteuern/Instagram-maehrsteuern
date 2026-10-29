@@ -1,7 +1,7 @@
 name: Kommentare
 # Nach jedem Posten-Takt (alle 15 Min.): neue Kommentare unter eigenen Beiträgen mit Antwortvorschlag ins Issue
 # „💬 Kommentare beantworten“. Antwort „K12 ok“ / „K12 eigener Text“ im Issue → wird als Antwort gepostet.
-# Schickt nie DMs – das macht ManyChat. Kommentare mit ManyChat-Stichwort bleiben außen vor.
+# Stichwort-Kommentare (TOOL, PROMPT) bekommen automatisch DM + kurze öffentliche Antwort (interaktion.json).
 on:
   workflow_run:
     workflows: ["Instagram posten"]
