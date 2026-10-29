@@ -1,13 +1,13 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 27.10. 09:33 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 13:18 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 11:45 🎬 Reel `39-reel-holding` (pausiert) · 🟡 12:15 📱 Story `39-story-quiz` (pausiert) · 🟡 17:45 🎬 Reel `40-reel-formeln` (pausiert) · 🟡 17:50 📱 Story `40-story-teaser` (pausiert)
+- **Heute online:** 🟡 11:45 🖼️ Karussell `41-karussell-mythen` (pausiert) · 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **3222** (21.10.–27.10., +154 % zur Vorwoche) · Follower **+7** (jetzt 368) · 30 Tage: +34 Follows / −13 entfolgt
-- **Testmonat** (Tag 17/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Letzte 7 Tage:** Reichweite **3840** (22.10.–28.10., +210 % zur Vorwoche) · Follower **+7** (jetzt 368) · 30 Tage: +41 Follows / −14 entfolgt
+- **Testmonat** (Tag 18/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🔴 **KW 44** (26.10.–01.11.) ← jetzt: Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
 - **Freie Slots nächste 7 Tage** (3):
@@ -62,10 +62,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 28.10. 11:45 | 🎬 Reel `39-reel-holding` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 13,8 s, −18,0 LUFS, Musik 07 Minimal Tech. Veräußerungsgewinn GmbH an GmbH: 1 Mio. € × 5 % nbBA (§ 8b Abs. 2, 3 KStG) × 29,825 % (Hebesatz 400 %) = 14.913 € = 1,49 % – nachgerechnet. Karten aus karussell/holding Folien 2+3 (schnitt/p36_40_karten_bauen.py); Titelbild „1 Mio. € Gewinn. 1,5 % Steuer.“, Karte „Dividenden erst ab 10 % (§ 8b Abs. 4 KStG)“ und Abspann TOOL neu (jobs/p39_reel_holding.json). Bildunterschrift: Dividenden § 8b Abs. 1/5, 10-%-Grenze Abs. 4, GewSt-Schachtel 15 % (§ 9 Nr. 2a GewStG), Verluste nicht abziehbar (Abs. 3 Satz 3), Ausnahmen Abs. 7/8. Abgrenzung zum Karussell par8b (Dividenden, 01.11.). |
-| Mi 28.10. 12:15 | 📱 Story `39-story-quiz` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen): quiz_holding als Emoji-Tipp neu gerendert (👏 = rund 1,5 % · 😮 = rund 30 %, richtig: 👏), statt „Antworte in Prozent“; Auflösung im Bild: „Die Antwort steht im neuen Reel“ (Reel 39 lief um 11:45). Keine Auflösungs-Story: Do 29.10. 12:15/17:50 sind von Agent c2 belegt (story_do_tipp Mythen, story_do_teaser AfA). Optional in der App Quiz-Sticker setzen. |
-| Mi 28.10. 17:45 | 🎬 Reel `40-reel-formeln` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). |
-| Mi 28.10. 17:50 | 📱 Story `40-story-teaser` | pausiert | 14.10. Nachtlauf: aus Bibliothek Teaser „Jetzt neu im Profil“ zum Formel-Reel (Titelbild), jobs/p40_reel_formeln.json. |
 | Do 29.10. 11:45 | 🖼️ Karussell `41-karussell-mythen` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
 | Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
 | Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
@@ -89,13 +85,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 11:45 | 🎬 Reel `52-reel-gobd` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
+| Mi 04.11. 17:45 | 🎬 Reel `53-reel-iab` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €. |
+| Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 04.11. 17:45 | 🎬 Reel `53-reel-iab` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, karussell/iab_2), Begleit-Reel zum Karussell 53 am Do 17:45, ohne Stimme 14,0 s, −18,0 LUFS (Peak −5,6 dBFS), Musik 08 Chill House. Titelbild „Heute abziehen. Später kaufen.“, Karten aus iab_2 Folien 2/3, Einblendung „Nicht investiert? Rückwirkend weg.“ (§ 7g Abs. 3 EStG, § 233a AO) und Abspann TOOL neu (jobs/p53_iab.json), Schnitt schnitt/p53_reel_iab.json. Geprüft: § 7g Abs. 1 (50 %, Gewinngrenze 200.000 €, Höchstbetrag 200.000 €), Abs. 2 (Hinzurechnung/Kürzung im Kaufjahr), Abs. 3; Demo 60.000 € → 30.000 €. |
-| Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 11:45 | 🎬 Reel `54-reel-reverse-charge` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall. |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
 | Do 05.11. 17:45 | 🖼️ Karussell `53-karussell-iab` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich). |
@@ -126,29 +122,29 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## 📈 Zahlen (täglich ca. 08:45)
 
 **368 Follower** · 25 Beiträge im Profil (Abruf 2026-10-20) · **+0** seit 2026-10-19
-Reichweite pro Tag: 25.10. **584** · 26.10. **347** · 27.10. **1161** · 28.10. **46**
+Reichweite pro Tag: 26.10. **347** · 27.10. **1161** · 28.10. **782** · 29.10. **101**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Di 27.10. 18:06 | 53 | 39 | 0 | 1 | 0 |
+| Mi 28.10. 15:27 | – | – | – | – | – |
+| Mi 28.10. 20:22 | 26 | 23 | 0 | 0 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 1512 | 1194 | 18 | 1 | 9 | 30 |
-| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 226 (+36) | 169 | 8 | 5 | 8 | 9 |
-| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 874 (+25) | 788 | 12 | 1 | 10 | 68 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 284 (+24) | 233 | 4 | 1 | 3 | 0 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 938 (+44) | 772 | 13 | 10 | 13 | 60 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 186 (+18) | 157 | 4 | 1 | 2 | 0 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 185 (+17) | 129 | 10 | 4 | 7 | 14 |
-| Di 20.10. 17:45 [Verlustvortrag 2026: 3 Mio. € Verlust – ](https://www.instagram.com/reel/DeuJJHoDXkl/) | 156 (+22) | 98 | 3 | 0 | 0 | 0 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 136 (+8) | 45 | 2 | 0 | 1 | 0 |
-| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 209 (+14) | 83 | 4 | 0 | 5 | 0 |
-| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 217 (+32) | 130 | 16 | 0 | 4 | 0 |
-| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 295 (+16) | 241 | 7 | 0 | 5 | 0 |
-| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 298 (+12) | 191 | 11 | 0 | 5 | 0 |
-| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 183 (+7) | 85 | 1 | 0 | 1 | 0 |
-| Mi 14.10. 17:45 [Gewerbesteuer-Hinzurechnung ohne Excel? ](https://www.instagram.com/reel/DeemwStk5mL/) | 267 (+9) | 211 | 7 | 0 | 3 | 0 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 278 | 220 | 3 | 1 | 2 | 0 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 1907 (+395) | 1468 | 22 | 1 | 10 | 37 |
+| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 267 (+41) | 197 | 8 | 5 | 8 | 9 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 900 (+26) | 810 | 12 | 1 | 10 | 68 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 303 (+19) | 249 | 4 | 1 | 3 | 0 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 982 (+44) | 797 | 13 | 10 | 13 | 60 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 199 (+13) | 175 | 4 | 1 | 2 | 0 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 194 (+9) | 138 | 10 | 4 | 7 | 14 |
+| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 147 (+11) | 53 | 2 | 0 | 1 | 0 |
+| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 214 (+5) | 87 | 4 | 0 | 5 | 0 |
+| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 233 (+16) | 140 | 16 | 0 | 4 | 0 |
+| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 302 (+7) | 248 | 7 | 0 | 5 | 0 |
+| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 308 (+10) | 198 | 11 | 0 | 5 | 0 |
+| Do 15.10. 11:45 [Steuerrückstellung berechnen – kommst du](https://www.instagram.com/p/DegoIVKluPa/) | 188 (+5) | 90 | 1 | 0 | 1 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -169,6 +165,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mi 28.10.2026**
+- 13:18 ✍️ Tagesbericht 28. Oktober 2026: 1.161 Reichweite, 381 Follower ([`13a7f23`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/13a7f23670dab4fde49ed34097914a0e2d465c07))
+  - `LAGE.html`, `automatik/berichte`, `automatik/statistik`
 
 **Di 27.10.2026**
 - 09:33 ✍️ Tagesbericht 27. Oktober: 377 Follower, 347 Reichweite ([`bea346d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/bea346d722724e659de30a81ad35ecb4e7617ee6))
@@ -202,20 +202,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 09:18 ✍️ LAGE aktualisiert: Zeitstempel und Protokoll auf Änderungen vom 20.10. synchronisiert ([`5566708`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/556670807f12b3283077b9cf5e1384b8093334a5))
   - `LAGE.html`
-
-**Do 22.10.2026**
-- 14:29 📈 Statistik 2026-10-22 ([`c74205e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c74205e5dde717a3640ca91decd1d3459219f140))
-  - `automatik/statistik`
-- 11:50 ✍️ Reel 62: Loris postet von Hand – aus dem Autopiloten genommen ([`7573cda`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7573cda15e15e73bcc21e3e30943869f7ba82558))
-  - Plan: `62-reel-glaesern` status: freigegeben → manuell; `62-reel-glaesern` zeit: 2026-10-22 17:45 → 2026-10-22 11:50
-- 11:45 ✍️ Reel 62 „Das Finanzamt weiß es schon“ mit Stimme, heute 17:45 ([`c28b879`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c28b87953f97d961207dbfb4cf5b9f71a00b40ab))
-  - Plan: neu `62-reel-glaesern` (2026-10-22 17:45, freigegeben)
-- 08:43 📡 Radar 2026-10-22: 8 Beiträge, 0 DM-Entwürfe ([`99f651e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/99f651e0434bc7b43c40927bc127aefb52c2c68b))
-  - `automatik/interaktion`
-- 06:08 ✍️ Sprechtext 62 „3 Dinge, die das Finanzamt längst weiß“ (Idee Loris 22.10.) ([`c420547`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c420547619d7148e7d17fa782d754b62f0aed41d))
-  - `posts/sprechtexte.md`
-- 03:59 ✍️ Wissen 22.10.: Postzeiten-Routine (Story-Umfrage statt Repost, 48-h-Pause, ≤ 3 Hashtags) ([`c865e1b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c865e1b5014a1c6079e1cd823da7a9a8b161ff88))
-  - `LAGE.html`, `automatik/lage_notizen.md`, `automatik/routinen`, `strategie/18_wissen_2026-10-21.md`
 
 <details><summary>Älter als 7 Tage</summary>
 
@@ -282,6 +268,20 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/berichte`
 - 07:15 📡 Radar 2026-10-19: 8 Beiträge, 0 DM-Entwürfe ([`f24b172`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f24b17280244cdb352b99cc0ea9ef3757ad69b91))
   - `automatik/interaktion`
+
+**Do 22.10.2026**
+- 14:29 📈 Statistik 2026-10-22 ([`c74205e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c74205e5dde717a3640ca91decd1d3459219f140))
+  - `automatik/statistik`
+- 11:50 ✍️ Reel 62: Loris postet von Hand – aus dem Autopiloten genommen ([`7573cda`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7573cda15e15e73bcc21e3e30943869f7ba82558))
+  - Plan: `62-reel-glaesern` status: freigegeben → manuell; `62-reel-glaesern` zeit: 2026-10-22 17:45 → 2026-10-22 11:50
+- 11:45 ✍️ Reel 62 „Das Finanzamt weiß es schon“ mit Stimme, heute 17:45 ([`c28b879`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c28b87953f97d961207dbfb4cf5b9f71a00b40ab))
+  - Plan: neu `62-reel-glaesern` (2026-10-22 17:45, freigegeben)
+- 08:43 📡 Radar 2026-10-22: 8 Beiträge, 0 DM-Entwürfe ([`99f651e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/99f651e0434bc7b43c40927bc127aefb52c2c68b))
+  - `automatik/interaktion`
+- 06:08 ✍️ Sprechtext 62 „3 Dinge, die das Finanzamt längst weiß“ (Idee Loris 22.10.) ([`c420547`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c420547619d7148e7d17fa782d754b62f0aed41d))
+  - `posts/sprechtexte.md`
+- 03:59 ✍️ Wissen 22.10.: Postzeiten-Routine (Story-Umfrage statt Repost, 48-h-Pause, ≤ 3 Hashtags) ([`c865e1b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c865e1b5014a1c6079e1cd823da7a9a8b161ff88))
+  - `LAGE.html`, `automatik/lage_notizen.md`, `automatik/routinen`, `strategie/18_wissen_2026-10-21.md`
 
 **Mi 21.10.2026**
 - 20:03 ✍️ Stand 21.10. abends: AfA-Reel online (manuell), Notizen und Lage aktualisiert ([`2b1f882`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2b1f8825bdf1495df1aa3e2ea1e26d9ecef90475))
