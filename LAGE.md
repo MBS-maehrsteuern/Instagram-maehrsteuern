@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 09:22 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 09:30 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -215,6 +215,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 09:30 💼 LinkedIn-Pakete: k01-karussell-ki-befehle ([`3c996e6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3c996e68f57472327a5efe32e7c79b3b5f99aac0))
+  - `posts/k01_2026-11-04_ki_befehle`
+- 09:28 📡 Radar 2026-10-29: 8 Beiträge, 0 DM-Entwürfe ([`d232b9f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d232b9fd93357448173465a87d0d654618f7a841))
+  - `automatik/interaktion`
 - 09:22 📈 Statistik 2026-10-29 ([`75377c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/75377c61651c368497a960009de6381415b1cd4e))
   - `automatik/statistik`
 - 05:32 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`38b836d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/38b836d7707747d070704a3c013b4f4024c00e8d))
