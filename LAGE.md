@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:20 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:27 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:27 ✍️ Karussell K01 „30 KI-Befehle für Steuer-Profis“ als Entwurf, Bio A notiert ([`9689932`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/96899329395943fac5fceae784d7da4961aa85ae))
+  - Plan: neu `k01-karussell-ki-befehle` (2026-11-04 17:45, entwurf)
 - 02:20 🔀 Merge claude/instagram ([`0495009`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0495009736a3f1db2fbce6d99d6d470f5cff842b))
 - 02:19 ✍️ Bio-Varianten A/B und Wissen §9 Spickzettel-Karussell (herr_tech) ergänzt ([`54e5c47`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/54e5c476ed12e512c917e366e48fc76194431270))
   - `LAGE.html`, `strategie/02_bio_highlights.md`, `strategie/21_wissen_trichter.md`
