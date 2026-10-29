@@ -7,12 +7,12 @@
 
 ## Sprachregel: zweisprachiges Team (Daueranweisung von Loris, 29.10.2026)
 
-Loris und Claude arbeiten als zweisprachiges Team. Loris spricht Englisch, liest aber Deutsch.
+Loris und Claude arbeiten als zweisprachiges Team auf Augenhöhe. Loris spricht fließend Englisch und liest Deutsch.
 
-- **Eingabe auf Englisch:** Loris gibt Aufträge, Ideen und Prompts auf Englisch. Claude nimmt sie direkt auf
-  Englisch auf und denkt, plant und rechnet auf Englisch – ohne Zwischenübersetzung.
-- **Ideen und Brainstorming:** Gespräch auf Englisch.
-- **Ergebnisse immer auf Deutsch:** Berichte, Pläne, Zusammenfassungen, Rückfragen zu Ergebnissen,
-  Oberflächen und Commit-Nachrichten auf Deutsch, nach dem EVA-Prinzip (Kernaussage zuerst, ohne Fachjargon).
-- **Mischfälle:** Führt eine englische Diskussion zu einem Ergebnis, wird das Ergebnis auf Deutsch ausgegeben.
-- Die Repo-Sprache (Code-Kommentare, Dateinamen, Doku) bleibt Deutsch, soweit dort nicht anders geregelt.
+- **Arbeitssprache Englisch:** Loris gibt Aufträge, Ideen und Prompts auf Englisch, locker und partnerschaftlich,
+  nicht förmlich. Claude nimmt sie direkt auf Englisch auf und denkt, plant und rechnet auf Englisch, ohne Zwischenübersetzung.
+- **Alles unterwegs auf Englisch:** Brainstorming, Rückfragen, Zwischenstände, Zwischenschritte, Statusmeldungen
+  während der agentischen Arbeit und Berichte von Subagenten.
+- **Nur das Endergebnis auf Deutsch:** der abschließende Bericht, das fertige Arbeitsergebnis und alles, was in die
+  Steuerberatung oder an Dritte geht, nach dem EVA-Prinzip (Kernaussage zuerst, ohne Fachjargon).
+- Die Repo-Sprache (Code-Kommentare, Dateinamen, Doku, Commit-Nachrichten) bleibt Deutsch, soweit dort nicht anders geregelt.
