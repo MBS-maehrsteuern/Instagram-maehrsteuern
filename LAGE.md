@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:44 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 03:17 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 03:17 ✍️ Wissen §10: Storytelling-Reels in 6 Schritten, Abgleich M1/M2 ([`6a44b00`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6a44b001ad19dcad1f23d3aa1d70adee69945144))
+  - `LAGE.html`, `strategie/21_wissen_trichter.md`
 - 02:44 🔀 Merge claude/instagram ([`fabfb5f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fabfb5f35205ff2b9e7851fcc0fb531976817384))
 - 02:43 ✍️ Stichwort-Antworten ohne ManyChat: PROMPT/TOOL bekommen automatisch DM + öffentliche Antwort ([`2fe7701`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2fe77013f3d9e9ee373c246d3348372cd5caff16))
   - `.github/workflows`, `LAGE.html`, `automatik/interaktion.json`, `automatik/kommentare.py`, `automatik/lage_notizen.md`
