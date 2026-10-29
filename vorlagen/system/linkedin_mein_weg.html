@@ -1,0 +1,38 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- LinkedIn-Bild 1080×1350 „Mein Weg #01“ (29.10.): Split – links Hook + Eckdaten, rechts Foto vom Diplomtag -->
+<link rel="stylesheet" href="basis.css">
+<style>
+@font-face{font-family:"Outfit";src:url("schriften/Outfit-Bold.ttf");font-weight:700}
+body{width:1080px;height:1350px;position:relative;overflow:hidden;
+  background:radial-gradient(900px 800px at 20% 30%, #1d5546 0%, var(--bg2) 40%, var(--bg) 80%)}
+.foto{position:absolute;right:0;top:0;width:560px;height:1350px;object-fit:cover;object-position:50% 0;
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 26%)}
+/* Foto vorab eng auf Loris zugeschnitten (Regel: nur Loris sichtbar) */
+.links{position:absolute;left:70px;top:80px;width:600px}
+.kicker{font-size:24px}
+h1{font-family:"Outfit",var(--sans);font-weight:700;font-size:74px;line-height:1.04;margin:30px 0 0;letter-spacing:-.01em}
+h1 .a{color:var(--gruen)}
+.daten{margin-top:46px;width:560px;border:3px solid var(--gruen);border-radius:28px;background:rgba(11,17,14,.8);padding:18px 30px}
+.z{display:flex;gap:20px;align-items:baseline;padding:14px 0;border-top:1px solid #1d3029;font-size:29px;line-height:1.25}
+.z:first-child{border-top:0}
+.z b{font-family:var(--mono);color:var(--gruen);font-size:24px;min-width:112px;letter-spacing:.06em}
+.z.rot b{color:var(--rot)}
+.schluss{margin-top:34px;font-family:"Outfit";font-size:48px;line-height:1.1}
+.schluss .a{color:var(--gruen)}
+.fuss{position:absolute;left:70px;bottom:44px;font-family:var(--mono);font-size:22px;line-height:1.5;color:var(--grau)}
+.fuss b{color:var(--text)}
+</style></head><body>
+<img class="foto" src="../../../maehrsteuern-linkedin/assets/2026-10-30-mein-weg-foto.jpg">
+<div class="links">
+  <div class="kicker">Mein Weg · Ex-Finanzamt</div>
+  <h1>Ich hab gezahlt, um aus dem <span class="a">sichersten Job</span> Deutschlands rauszukommen.</h1>
+  <div class="daten">
+    <div class="z"><b>JOB</b><span>Finanzamt, verbeamtet, unkündbar</span></div>
+    <div class="z"><b>STUDIUM</b><span>vom Staat bezahlt</span></div>
+    <div class="z rot"><b>HAKEN</b><span>Wer in den ersten 5&nbsp;Jahren geht, zahlt anteilig zurück</span></div>
+    <div class="z"><b>HEUTE</b><span>Steuer-Tools statt Akten</span></div>
+  </div>
+  <div class="schluss">Trotzdem gegangen.<br><span class="a">Keinen Tag bereut.</span></div>
+</div>
+<div class="fuss"><b>Loris Mähr</b><br>Diplom-Finanzwirt · maehrsteuern</div>
+</body></html>
