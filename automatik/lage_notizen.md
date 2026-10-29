@@ -53,4 +53,4 @@
   Plan: Mi 28.10. Insider #14 Ferrari (statt K41 → 06.12.), Do 29.10. Mein Weg #02 (statt i09 → 05.12.), i05 → 04.12.
   Insider #13 Betriebsprüfung gebaut, noch nicht eingeplant. Offen: Bio-Umbau (Loris), S4 neu einsprechen.
 - 28.10. abends: Memes komplett gestrichen (Loris: „blöd“) – keine Meme-Formate mehr vorschlagen. meme2 lief bereits als Story (verschwindet nach 24 h).
-- **29.10.:** Bio **Variante A** gewählt (Loris setzt in der App, `strategie/02_bio_highlights.md`), M1 anpinnen. Karussell K01 „30 KI-Befehle für Steuer-Profis“ gebaut (Entwurf, Termin offen), Kommentar-Wort PROMPT → PDF `posts/k01_2026-11-04_ki_befehle/ki_befehle_30.pdf` (ManyChat-Regel legt Loris an).
+- **29.10.:** Bio **Variante A** gewählt (Loris setzt in der App, `strategie/02_bio_highlights.md`), M1 anpinnen. Karussell K01 „30 KI-Befehle für Steuer-Profis“ gebaut (freigegeben Mi 04.11. 17:45, übrige Karussells je einen Platz später, Mythen → 09.12.), Kommentar-Wort PROMPT → PDF `posts/k01_2026-11-04_ki_befehle/ki_befehle_30.pdf` (ManyChat-Regel legt Loris an).

@@ -957,7 +957,7 @@
     },
     {
       "id": "31-karussell-zinsschranke",
-      "zeit": "2026-11-11 17:45",
+      "zeit": "2026-11-15 17:45",
       "typ": "karussell",
       "ordner": "posts/31_2026-10-22_zinsschranke",
       "bilder": [
@@ -972,7 +972,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-11. · 25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke",
+      "hinweis": "29.10.: verschoben 2026-11-11 → 2026-11-15 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-11. · 25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke",
       "trichter": "unten"
     },
     {
@@ -1044,7 +1044,7 @@
     },
     {
       "id": "10-e-rechnung",
-      "zeit": "2026-11-04 17:45",
+      "zeit": "2026-11-08 17:45",
       "typ": "karussell",
       "ordner": "posts/10_2026-10-22_e_rechnung",
       "bilder": [
@@ -1057,7 +1057,7 @@
       ],
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
+      "hinweis": "29.10.: verschoben 2026-11-04 → 2026-11-08 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage).",
       "issue": 31,
       "stimme": false,
       "hook": "fall",
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "37-karussell-bp-vorbereitung",
-      "zeit": "2026-11-08 17:45",
+      "zeit": "2026-11-11 17:45",
       "typ": "karussell",
       "ordner": "posts/37_2026-10-27_bp_vorbereitung",
       "bilder": [
@@ -1239,7 +1239,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend.",
+      "hinweis": "29.10.: verschoben 2026-11-08 → 2026-11-11 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend.",
       "trichter": "unten"
     },
     {
@@ -1337,7 +1337,7 @@
     },
     {
       "id": "41-karussell-mythen",
-      "zeit": "2026-12-06 17:45",
+      "zeit": "2026-12-09 17:45",
       "typ": "karussell",
       "ordner": "posts/41_2026-10-29_mythen",
       "bilder": [
@@ -1354,7 +1354,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. · 28.10.→06.12. (Platz an Insider #14 Ferrari).",
+      "hinweis": "29.10.: verschoben 2026-12-06 → 2026-12-09 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. · 28.10.→06.12. (Platz an Insider #14 Ferrari).",
       "trichter": "oben"
     },
     {
@@ -1425,7 +1425,7 @@
     },
     {
       "id": "44-karussell-glossar",
-      "zeit": "2026-11-22 17:45",
+      "zeit": "2026-11-25 17:45",
       "typ": "karussell",
       "ordner": "posts/44_2026-10-30_glossar",
       "bilder": [
@@ -1441,7 +1441,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-22. · 25.10.: Termin 2026-10-31 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json.",
+      "hinweis": "29.10.: verschoben 2026-11-22 → 2026-11-25 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-22. · 25.10.: Termin 2026-10-31 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json.",
       "trichter": "oben"
     },
     {
@@ -1485,7 +1485,7 @@
     },
     {
       "id": "46-karussell-dividenden-8b",
-      "zeit": "2026-11-29 17:45",
+      "zeit": "2026-12-02 17:45",
       "typ": "karussell",
       "ordner": "posts/46_2026-11-01_dividenden_8b",
       "bilder": [
@@ -1500,7 +1500,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-29. · 25.10.: Termin 2026-11-04 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/par8b Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p46_dividenden_8b.json). Bildunterschrift nennt laut Prüfbericht 10-%-Grenze (§ 8b Abs. 4 KStG, Beginn des Kalenderjahres) und 5 % nbBA (§ 8b Abs. 5 KStG); GewSt-Schachtel § 9 Nr. 2a GewStG ab 15 % zu Beginn des EZ, sonst § 8 Nr. 5 GewStG. Nachgerechnet: 5.000 × 15,825 % = 791 €, × 14 % = 700 €, Summe 1.491 €. Alt-Texte in alt_texte.json. Abgrenzung zum Kürzungen-Karussell (18.10.): dort nur Schachtel-Zeile.",
+      "hinweis": "29.10.: verschoben 2026-11-29 → 2026-12-02 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-29. · 25.10.: Termin 2026-11-04 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/par8b Folien 1–5 unverändert; Folie 6 neu: „Speichern für später“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p46_dividenden_8b.json). Bildunterschrift nennt laut Prüfbericht 10-%-Grenze (§ 8b Abs. 4 KStG, Beginn des Kalenderjahres) und 5 % nbBA (§ 8b Abs. 5 KStG); GewSt-Schachtel § 9 Nr. 2a GewStG ab 15 % zu Beginn des EZ, sonst § 8 Nr. 5 GewStG. Nachgerechnet: 5.000 × 15,825 % = 791 €, × 14 % = 700 €, Summe 1.491 €. Alt-Texte in alt_texte.json. Abgrenzung zum Kürzungen-Karussell (18.10.): dort nur Schachtel-Zeile.",
       "trichter": "unten"
     },
     {
@@ -1625,7 +1625,7 @@
     },
     {
       "id": "51-karussell-kapitalertraege",
-      "zeit": "2026-11-25 17:45",
+      "zeit": "2026-11-29 17:45",
       "typ": "karussell",
       "ordner": "posts/51_2026-11-03_kapitalertraege",
       "bilder": [
@@ -1641,7 +1641,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-25. · 25.10.: Termin 2026-11-03 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), karussell/kapitalertraege Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Steuererklärung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p51_kapitalertraege.json). Nachgerechnet: (3.000 − 1.000) × 26,375 % = 527,50 €. Alt-Texte in alt_texte.json. KW 45 ungerade → Karussell abends.",
+      "hinweis": "29.10.: verschoben 2026-11-25 → 2026-11-29 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-25. · 25.10.: Termin 2026-11-03 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R6 gegengelesen), karussell/kapitalertraege Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Steuererklärung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p51_kapitalertraege.json). Nachgerechnet: (3.000 − 1.000) × 26,375 % = 527,50 €. Alt-Texte in alt_texte.json. KW 45 ungerade → Karussell abends.",
       "trichter": "unten"
     },
     {
@@ -1739,7 +1739,7 @@
     },
     {
       "id": "53-karussell-iab",
-      "zeit": "2026-11-15 17:45",
+      "zeit": "2026-11-18 17:45",
       "typ": "karussell",
       "ordner": "posts/53_2026-11-04_iab",
       "bilder": [
@@ -1755,7 +1755,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-15. · 25.10.: Termin 2026-10-30 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich).",
+      "hinweis": "29.10.: verschoben 2026-11-15 → 2026-11-18 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-15. · 25.10.: Termin 2026-10-30 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich).",
       "trichter": "unten"
     },
     {
@@ -1799,7 +1799,7 @@
     },
     {
       "id": "56-karussell-verjaehrung",
-      "zeit": "2026-11-18 17:45",
+      "zeit": "2026-11-22 17:45",
       "typ": "karussell",
       "ordner": "posts/56_2026-11-06_verjaehrung",
       "bilder": [
@@ -1814,7 +1814,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "fall",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-18. · 25.10.: Termin 2026-11-02 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, keine offenen Punkte), karussell/verjaehrung Folien 1–5 unverändert; Folie 6 neu: „Speichern für die nächste Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p56_verjaehrung.json). Alt-Texte in alt_texte.json. Geprüft: § 169 Abs. 2 Satz 1 Nr. 2 und Satz 2, § 170 Abs. 2 Satz 1 Nr. 1, § 171 AO; Demo Erklärung für 2022, Abgabe 2024 → Ende 31.12.2028.",
+      "hinweis": "29.10.: verschoben 2026-11-18 → 2026-11-22 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-18. · 25.10.: Termin 2026-11-02 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, keine offenen Punkte), karussell/verjaehrung Folien 1–5 unverändert; Folie 6 neu: „Speichern für die nächste Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p56_verjaehrung.json). Alt-Texte in alt_texte.json. Geprüft: § 169 Abs. 2 Satz 1 Nr. 2 und Satz 2, § 170 Abs. 2 Satz 1 Nr. 1, § 171 AO; Demo Erklärung für 2022, Abgabe 2024 → Ende 31.12.2028.",
       "trichter": "unten"
     },
     {
@@ -1888,7 +1888,7 @@
     },
     {
       "id": "59-karussell-pensionen",
-      "zeit": "2026-12-02 17:45",
+      "zeit": "2026-12-06 17:45",
       "typ": "karussell",
       "ordner": "posts/59_2026-11-08_pensionen",
       "bilder": [
@@ -1903,7 +1903,7 @@
       "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
-      "hinweis": "26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-12-02. · 25.10.: Termin 2026-11-05 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen, keine offenen Punkte), karussell/pension Folien 1–5 unverändert; Folie 6 neu: „Speichern für die Gutachten-Saison“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p59_pensionen.json). Letzter Testmonat-Tag: Bildunterschrift mit Community-Auswahl „Welches Thema als Nächstes: A) Teilwertabschreibung oder B) Rechnungsabgrenzung?“. Fachlich: § 6a Abs. 1, Abs. 3 Satz 3 EStG (6 %), § 253 Abs. 2 und 6 HGB (10-Jahres-Durchschnitt, Ausschüttungssperre), § 274 HGB (Wahlrecht Aktivüberhang). Alt-Texte in alt_texte.json.",
+      "hinweis": "29.10.: verschoben 2026-12-02 → 2026-12-06 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-12-02. · 25.10.: Termin 2026-11-05 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d3): aus Bibliothek (R4 gegengelesen, keine offenen Punkte), karussell/pension Folien 1–5 unverändert; Folie 6 neu: „Speichern für die Gutachten-Saison“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p59_pensionen.json). Letzter Testmonat-Tag: Bildunterschrift mit Community-Auswahl „Welches Thema als Nächstes: A) Teilwertabschreibung oder B) Rechnungsabgrenzung?“. Fachlich: § 6a Abs. 1, Abs. 3 Satz 3 EStG (6 %), § 253 Abs. 2 und 6 HGB (10-Jahres-Durchschnitt, Ausschüttungssperre), § 274 HGB (Wahlrecht Aktivüberhang). Alt-Texte in alt_texte.json.",
       "trichter": "unten"
     },
     {
@@ -2297,11 +2297,11 @@
         "folie_10.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "entwurf",
+      "status": "freigegeben",
       "stimme": false,
       "hook": "zahl",
       "trichter": "oben",
-      "hinweis": "29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Termin mit Loris klären (Konflikt 10-e-rechnung Mi 04.11.)."
+      "hinweis": "29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben."
     }
   ]
 }
