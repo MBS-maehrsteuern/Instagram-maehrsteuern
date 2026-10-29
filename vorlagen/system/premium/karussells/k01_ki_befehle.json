@@ -1,0 +1,287 @@
+{
+ "titel": "Karussell K01 · 30 KI-Befehle für Steuer-Profis (Wissen 21 §9, herr_tech-Muster) – 29.10.",
+ "ausgabe": "../../../../posts/k01_2026-11-04_ki_befehle",
+ "folien": [
+  {
+   "datei": "folie_01.png",
+   "kicker": "KI × Steuern · Ex-Finanzamt",
+   "h1": "30 KI-Befehle",
+   "h2": "für Steuer-Profis.",
+   "sub": "Keine Geheimcodes – *Sätze, die wirken.*",
+   "panel": {
+    "typ": "liste",
+    "kopf": "6 Kategorien",
+    "kopf2": "je 5 Befehle",
+    "punkte": [
+     "Prüfen · Verstehen",
+     "Schreiben · Excel",
+     "Organisieren · Profi-Modus"
+    ]
+   },
+   "wisch": "Wisch und speichern"
+  },
+  {
+   "datei": "folie_02.png",
+   "kicker": "Regel 0 · vor jedem Befehl",
+   "h1": "Keine echten Daten",
+   "h2": "in öffentliche KI.",
+   "h2rot": true,
+   "sub": "Was du eintippst, verlässt dein Haus.",
+   "panel": {
+    "typ": "check",
+    "kopf": "Vorher raus",
+    "punkte": [
+     "Namen und Adressen",
+     "Steuernummer, IdNr., IBAN",
+     "Echte Beträge – *runden oder ändern*",
+     "Firmen- und Projektnamen"
+    ]
+   },
+   "norm": "DSGVO · § 203 StGB (Berufsgeheimnis)"
+  },
+  {
+   "datei": "folie_03.png",
+   "kicker": "01 / 06 · Prüfen",
+   "h1": "Prüfen",
+   "h2": "wie das Finanzamt.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Prüf das wie ein Betriebsprüfer.“",
+      "Findet *Angriffspunkte*"
+     ],
+     [
+      "„Nenn zu jeder Aussage die Norm.“",
+      "Macht es *nachprüfbar*"
+     ],
+     [
+      "„Trenn Fakten von Annahmen.“",
+      "Zeigt *Lücken*"
+     ],
+     [
+      "„Welche Gegenansicht gibt es?“",
+      "Kein *Tunnelblick*"
+     ],
+     [
+      "„Was fehlt für eine Entscheidung?“",
+      "Liste *offener Punkte*"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_04.png",
+   "kicker": "02 / 06 · Verstehen",
+   "h1": "Verstehen",
+   "h2": "in 2 Minuten.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Erklär es wie einem Mandanten.“",
+      "Ohne *Fachjargon*"
+     ],
+     [
+      "„Fass das in 5 Punkten zusammen.“",
+      "BMF-Schreiben *auf einen Blick*"
+     ],
+     [
+      "„Was ist neu gegenüber dem Vorjahr?“",
+      "Nur die *Änderungen*"
+     ],
+     [
+      "„Gib mir ein Zahlenbeispiel.“",
+      "Regel *zum Anfassen*"
+     ],
+     [
+      "„Was sind die 3 häufigsten Fehler?“",
+      "*Fallen* vorher kennen"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_05.png",
+   "kicker": "03 / 06 · Schreiben",
+   "h1": "Schreiben",
+   "h2": "ohne leeres Blatt.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Entwirf einen Einspruch mit Begründung.“",
+      "*Gerüst* in Sekunden"
+     ],
+     [
+      "„Schreib die Mail kurz und klar.“",
+      "Mandant *versteht's*"
+     ],
+     [
+      "„Mach daraus eine Aktennotiz.“",
+      "*Sauber* dokumentiert"
+     ],
+     [
+      "„Kürz das auf die Hälfte.“",
+      "*Nur* das Wichtige"
+     ],
+     [
+      "„Schreib im Ton dieses Beispiels.“",
+      "Klingt *nach dir*"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_06.png",
+   "kicker": "04 / 06 · Excel & Rechnen",
+   "h1": "Excel",
+   "h2": "ohne Formel-Frust.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Bau mir die Excel-Formel für …“",
+      "*Fertige* Formel"
+     ],
+     [
+      "„Erklär diese Formel Schritt für Schritt.“",
+      "Fremde Dateien *verstehen*"
+     ],
+     [
+      "„Finde den Fehler in dieser Formel.“",
+      "*Verrutschte* Zellen"
+     ],
+     [
+      "„Rechne nach, zeig jeden Schritt.“",
+      "*Nachvollziehbar*"
+     ],
+     [
+      "„Bau eine Plausi-Prüfung dazu.“",
+      "Fehler fallen *sofort* auf"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_07.png",
+   "kicker": "05 / 06 · Organisieren",
+   "h1": "Organisieren",
+   "h2": "vor der Frist.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Mach eine Checkliste daraus.“",
+      "Nichts *vergessen*"
+     ],
+     [
+      "„Liste alle Fristen aus dem Text.“",
+      "Fristen *auf einen Blick*"
+     ],
+     [
+      "„Plan rückwärts ab der Abgabe.“",
+      "Plan *mit Puffer*"
+     ],
+     [
+      "„Mach To-dos mit Zuständigen.“",
+      "Klare *Verantwortung*"
+     ],
+     [
+      "„Was ist heute am wichtigsten?“",
+      "*Fokus* statt Chaos"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_08.png",
+   "kicker": "06 / 06 · Profi-Modus",
+   "h1": "Profi-Modus",
+   "h2": "statt Textwüste.",
+   "panel": {
+    "typ": "tabelle",
+    "kopf": "Schreib davor",
+    "kopf2": "5 Befehle",
+    "spalten": [
+     "Befehl",
+     "Wirkung"
+    ],
+    "zeilen": [
+     [
+      "„Stell mir erst 5 Rückfragen.“",
+      "Passt *genau*"
+     ],
+     [
+      "„Antworte als Tabelle.“",
+      "*Vergleichbar*"
+     ],
+     [
+      "„Gib mir 3 Wege mit Vor- und Nachteilen.“",
+      "Echte *Auswahl*"
+     ],
+     [
+      "„Kritisier deine eigene Antwort.“",
+      "Fehler *selbst finden*"
+     ],
+     [
+      "„Sag, wenn du unsicher bist.“",
+      "Weniger *Erfundenes*"
+     ]
+    ]
+   }
+  },
+  {
+   "datei": "folie_09.png",
+   "kicker": "So nutzt du sie",
+   "h1": "Befehl davor.",
+   "h2": "Aufgabe dahinter.",
+   "panel": {
+    "typ": "box",
+    "label": "Beispiel",
+    "kopf2": "kopieren",
+    "text": "Prüf das wie ein Betriebsprüfer.\nNenn zu jeder Aussage die Norm.\n\n*Sachverhalt (anonymisiert):* …"
+   },
+   "sub": "KI ersetzt nicht die Prüfung – *jede Norm selbst nachschlagen.*"
+  },
+  {
+   "datei": "folie_10.png",
+   "typ": "cta",
+   "kicker": "Alle 30 als PDF",
+   "h1": "Kommentiere",
+   "wort": "PROMPT",
+   "sub": "Ich schick dir *alle 30 Befehle als PDF* – zum Ausdrucken neben den Bildschirm.",
+   "extra": "📌 *Speichern* für den nächsten Abschluss · 📤 *Schick's* an dein Team."
+  }
+ ]
+}

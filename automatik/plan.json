@@ -2278,6 +2278,30 @@
       "status": "gestrichen",
       "trichter": "oben",
       "hinweis": "28.10.: eigenes Steuer-Meme (BELEGE), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“)."
+    },
+    {
+      "id": "k01-karussell-ki-befehle",
+      "zeit": "2026-11-04 17:45",
+      "typ": "karussell",
+      "ordner": "posts/k01_2026-11-04_ki_befehle",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png",
+        "folie_07.png",
+        "folie_08.png",
+        "folie_09.png",
+        "folie_10.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "entwurf",
+      "stimme": false,
+      "hook": "zahl",
+      "trichter": "oben",
+      "hinweis": "29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Termin mit Loris klären (Konflikt 10-e-rechnung Mi 04.11.)."
     }
   ]
 }

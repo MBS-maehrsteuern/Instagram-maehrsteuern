@@ -1,15 +1,15 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:19 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:20 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme1-story` (gestrichen) · 🟢 17:45 🎬 Reel `i14-reel-insider-ferrari` (läuft automatisch) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
-- **Braucht dich:** nichts 🎉
+- **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **3222** (21.10.–27.10., +154 % zur Vorwoche) · Follower **+13** (jetzt 381) · 30 Tage: +34 Follows / −13 entfolgt
 - **Testmonat** (Tag 18/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (3 online · 4 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
-  - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
+  - 🟡 **KW 45** (02.11.–08.11.): Feed **8/7** (0 online · 8 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 🎬 Reel `i14-reel-insider-ferrari` am **Do 29.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -71,10 +71,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   Plan: Mi 28.10. Insider #14 Ferrari (statt K41 → 06.12.), Do 29.10. Mein Weg #02 (statt i09 → 05.12.), i05 → 04.12.
   Insider #13 Betriebsprüfung gebaut, noch nicht eingeplant. Offen: Bio-Umbau (Loris), S4 neu einsprechen.
 - 28.10. abends: Memes komplett gestrichen (Loris: „blöd“) – keine Meme-Formate mehr vorschlagen. meme2 lief bereits als Story (verschwindet nach 24 h).
+- **29.10.:** Bio **Variante A** gewählt (Loris setzt in der App, `strategie/02_bio_highlights.md`), M1 anpinnen. Karussell K01 „30 KI-Befehle für Steuer-Profis“ gebaut (Entwurf, Termin offen), Kommentar-Wort PROMPT → PDF `posts/k01_2026-11-04_ki_befehle/ki_befehle_30.pdf` (ManyChat-Regel legt Loris an).
 
 ## 👉 Braucht dich
 
-- Nichts offen. 🎉
+- 🟡 **Freigeben** `k01-karussell-ki-befehle` (Mi 04.11. 17:45) – „go“ oder „stop“ im Issue (Issue wird automatisch angelegt)
+- ⚠️ **Stichwort passt nicht zu ManyChat** `k01-karussell-ki-befehle` (Mi 04.11. 17:45): „PROMPT“ – in ManyChat anlegen und in `automatik/interaktion.json` (`manychat_stichwoerter`) eintragen, oder Bildunterschrift auf TOOL ändern
 
 ## ⏭️ Nächste 7 Tage
 
@@ -104,6 +106,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
 | Mi 04.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
+| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟡 Entwurf (wartet auf Freigabe) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Termin mit Loris klären (Konflikt 10-e-rechnung Mi 04.11.). |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 
 ## 🗓️ Danach
@@ -211,6 +214,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:20 🔀 Merge claude/instagram ([`0495009`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0495009736a3f1db2fbce6d99d6d470f5cff842b))
 - 02:19 ✍️ Bio-Varianten A/B und Wissen §9 Spickzettel-Karussell (herr_tech) ergänzt ([`54e5c47`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/54e5c476ed12e512c917e366e48fc76194431270))
   - `LAGE.html`, `strategie/02_bio_highlights.md`, `strategie/21_wissen_trichter.md`
 
