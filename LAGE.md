@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:27 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:41 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -104,7 +104,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Di 03.11. 17:45 | 🎬 Reel `45-reel-vga` | 🟢 freigegeben (geht automatisch online) | 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-05. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-29 17:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-28 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-03. |
 | Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
-| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟢 freigegeben (geht automatisch online) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben. |
+| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟢 freigegeben (geht automatisch online) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben. · [Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93) |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 
 ## 🗓️ Danach
@@ -213,6 +213,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:41 ✍️ K01 KI-Befehle für Mi 04.11. freigegeben, Karussell-Reihe um einen Platz verschoben ([`834bc02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/834bc02b4cab49e0f6572f8e34403b99fc36d726))
+  - Plan: `31-karussell-zinsschranke` zeit: 2026-11-11 17:45 → 2026-11-15 17:45; `10-e-rechnung` zeit: 2026-11-04 17:45 → 2026-11-08 17:45; `37-karussell-bp-vorbereitung` zeit: 2026-11-08 17:45 → 2026-11-11 17:45; `41-karussell-mythen` zeit: 2026-12-06 17:45 → 2026-12-09 17:45; `44-karussell-glossar` zeit: 2026-11-22 17:45 → 2026-11-25 17:45; `46-karussell-dividenden-8b` zeit: 2026-11-29 17:45 → 2026-12-02 17:45; `51-karussell-kapitalertraege` zeit: 2026-11-25 17:45 → 2026-11-29 17:45; `53-karussell-iab` zeit: 2026-11-15 17:45 → 2026-11-18 17:45; `56-karussell-verjaehrung` zeit: 2026-11-18 17:45 → 2026-11-22 17:45; `59-karussell-pensionen` zeit: 2026-12-02 17:45 → 2026-12-06 17:45; `k01-karussell-ki-befehle` status: entwurf → freigegeben
 - 02:27 🔀 Merge claude/instagram ([`248cdfb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/248cdfbd9f63ed27498f49f52ad7b15af3699480))
 - 02:27 ✍️ Karussell K01 „30 KI-Befehle für Steuer-Profis“ als Entwurf, Bio A notiert ([`9689932`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/96899329395943fac5fceae784d7da4961aa85ae))
   - Plan: neu `k01-karussell-ki-befehle` (2026-11-04 17:45, entwurf)

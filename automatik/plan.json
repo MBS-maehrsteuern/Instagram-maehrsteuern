@@ -2301,7 +2301,8 @@
       "stimme": false,
       "hook": "zahl",
       "trichter": "oben",
-      "hinweis": "29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben."
+      "hinweis": "29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben.",
+      "issue": 93
     }
   ]
 }
