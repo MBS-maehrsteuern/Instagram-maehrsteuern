@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 03:17 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 05:27 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,9 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 05:27 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`c818835`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c818835d161dd69eee821f8ace2b2ecaf4d2584d))
+- 05:27 💼 LinkedIn-Bild-Vorlage Mein Weg #01 (Split: Hook + Eckdaten + Foto) ([`00205e9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/00205e95ada46f9e63ac4d73c6cb845d509bc4be))
+  - `vorlagen/system/linkedin_mein_weg.html`
 - 03:17 🔀 Merge claude/instagram ([`4bce94c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4bce94c6b3821e99cd0d23a6303e69fb450b7a92))
 - 03:17 ✍️ Wissen §10: Storytelling-Reels in 6 Schritten, Abgleich M1/M2 ([`6a44b00`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6a44b001ad19dcad1f23d3aa1d70adee69945144))
   - `LAGE.html`, `strategie/21_wissen_trichter.md`
