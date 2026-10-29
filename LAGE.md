@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:42 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:43 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:43 ✍️ Stichwort-Antworten ohne ManyChat: PROMPT/TOOL bekommen automatisch DM + öffentliche Antwort ([`2fe7701`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2fe77013f3d9e9ee373c246d3348372cd5caff16))
+  - `.github/workflows`, `LAGE.html`, `automatik/interaktion.json`, `automatik/kommentare.py`, `automatik/lage_notizen.md`
 - 02:42 🔀 Merge claude/instagram ([`d739e16`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d739e1619c7e55084f6329c641102285f2a9105f))
 - 02:41 ✍️ K01 KI-Befehle für Mi 04.11. freigegeben, Karussell-Reihe um einen Platz verschoben ([`834bc02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/834bc02b4cab49e0f6572f8e34403b99fc36d726))
   - Plan: `31-karussell-zinsschranke` zeit: 2026-11-11 17:45 → 2026-11-15 17:45; `10-e-rechnung` zeit: 2026-11-04 17:45 → 2026-11-08 17:45; `37-karussell-bp-vorbereitung` zeit: 2026-11-08 17:45 → 2026-11-11 17:45; `41-karussell-mythen` zeit: 2026-12-06 17:45 → 2026-12-09 17:45; `44-karussell-glossar` zeit: 2026-11-22 17:45 → 2026-11-25 17:45; `46-karussell-dividenden-8b` zeit: 2026-11-29 17:45 → 2026-12-02 17:45; `51-karussell-kapitalertraege` zeit: 2026-11-25 17:45 → 2026-11-29 17:45; `53-karussell-iab` zeit: 2026-11-15 17:45 → 2026-11-18 17:45; `56-karussell-verjaehrung` zeit: 2026-11-18 17:45 → 2026-11-22 17:45; `59-karussell-pensionen` zeit: 2026-12-02 17:45 → 2026-12-06 17:45; `k01-karussell-ki-befehle` status: entwurf → freigegeben
