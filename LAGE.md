@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:27 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -75,7 +75,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🟡 **Freigeben** `k01-karussell-ki-befehle` (Mi 04.11. 17:45) – „go“ oder „stop“ im Issue (Issue wird automatisch angelegt)
+- 🟡 **Freigeben** `k01-karussell-ki-befehle` (Mi 04.11. 17:45) – „go“ oder „stop“ im Issue ([Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93))
 - ⚠️ **Stichwort passt nicht zu ManyChat** `k01-karussell-ki-befehle` (Mi 04.11. 17:45): „PROMPT“ – in ManyChat anlegen und in `automatik/interaktion.json` (`manychat_stichwoerter`) eintragen, oder Bildunterschrift auf TOOL ändern
 
 ## ⏭️ Nächste 7 Tage
@@ -106,7 +106,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
 | Mi 04.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
-| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟡 Entwurf (wartet auf Freigabe) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Termin mit Loris klären (Konflikt 10-e-rechnung Mi 04.11.). |
+| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟡 Entwurf (wartet auf Freigabe) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Termin mit Loris klären (Konflikt 10-e-rechnung Mi 04.11.). · [Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93) |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 
 ## 🗓️ Danach
@@ -214,6 +214,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 29.10.2026**
+- 02:29 ✅ Freigabe angefragt (1 Beitrag/Beiträge) ([`abc2a38`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/abc2a38e10bbfcdb5dbae027b5fa568cd092c574))
+  - Plan: `k01-karussell-ki-befehle` → Freigabe-Issue #93
 - 02:27 🔀 Merge claude/instagram ([`248cdfb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/248cdfbd9f63ed27498f49f52ad7b15af3699480))
 - 02:27 ✍️ Karussell K01 „30 KI-Befehle für Steuer-Profis“ als Entwurf, Bio A notiert ([`9689932`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/96899329395943fac5fceae784d7da4961aa85ae))
   - Plan: neu `k01-karussell-ki-befehle` (2026-11-04 17:45, entwurf)
