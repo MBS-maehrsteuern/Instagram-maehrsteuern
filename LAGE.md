@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 28.10. 22:31 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 02:19 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -209,6 +209,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Do 29.10.2026**
+- 02:19 ✍️ Bio-Varianten A/B und Wissen §9 Spickzettel-Karussell (herr_tech) ergänzt ([`54e5c47`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/54e5c476ed12e512c917e366e48fc76194431270))
+  - `LAGE.html`, `strategie/02_bio_highlights.md`, `strategie/21_wissen_trichter.md`
 
 **Mi 28.10.2026**
 - 22:31 🔀 Merge claude/instagram ([`ebce622`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ebce62239bf56ad60fe18369ed186ef23af03401))
