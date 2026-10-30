@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 08:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 09:36 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `43-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme3-story` (gestrichen) · 🟢 17:45 🎬 Reel `i01-reel-insider-programm` (läuft automatisch) · 🟡 17:50 📱 Story `44-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **3840** (22.10.–28.10., +210 % zur Vorwoche) · Follower **+30** (jetzt 402) · 30 Tage: +41 Follows / −14 entfolgt
+- **Letzte 7 Tage:** Reichweite **4935** (23.10.–29.10., +277 % zur Vorwoche) · Follower **+65** (jetzt 437) · 30 Tage: +61 Follows / −13 entfolgt
 - **Testmonat** (Tag 19/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
@@ -165,27 +165,27 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**402 Follower** · 28 Beiträge im Profil (Abruf 2026-10-29) · **+21** seit 2026-10-28
-Reichweite pro Tag: 26.10. **347** · 27.10. **1161** · 28.10. **782** · 29.10. **101**
+**437 Follower** · 29 Beiträge im Profil (Abruf 2026-10-30) · **+35** seit 2026-10-29
+Reichweite pro Tag: 27.10. **1161** · 28.10. **782** · 29.10. **1480** · 30.10. **71**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Mi 28.10. 15:27 | – | – | – | – | – |
-| Mi 28.10. 20:22 | 26 | 23 | 0 | 0 | 0 |
+| Do 29.10. 17:51 | 51 | 41 | 0 | 2 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 278 | 220 | 3 | 1 | 2 | 0 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 1907 (+395) | 1468 | 22 | 1 | 10 | 37 |
-| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 267 (+41) | 197 | 8 | 5 | 8 | 9 |
-| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 900 (+26) | 810 | 12 | 1 | 10 | 68 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 303 (+19) | 249 | 4 | 1 | 3 | 0 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 982 (+44) | 797 | 13 | 10 | 13 | 60 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 199 (+13) | 175 | 4 | 1 | 2 | 0 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 194 (+9) | 138 | 10 | 4 | 7 | 14 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 147 (+11) | 53 | 2 | 0 | 1 | 0 |
-| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 214 (+5) | 87 | 4 | 0 | 5 | 0 |
-| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 233 (+16) | 140 | 16 | 0 | 4 | 0 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 255 | 216 | 1 | 1 | 1 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 390 (+112) | 276 | 3 | 1 | 2 | 1 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2034 (+127) | 1533 | 23 | 1 | 10 | 44 |
+| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 314 (+47) | 232 | 8 | 5 | 8 | 9 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 936 (+36) | 841 | 12 | 1 | 10 | 68 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 332 (+29) | 272 | 4 | 1 | 3 | 0 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1032 (+50) | 834 | 14 | 10 | 13 | 60 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 231 (+32) | 205 | 5 | 1 | 2 | 0 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 225 (+31) | 158 | 10 | 4 | 8 | 14 |
+| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 167 (+20) | 67 | 2 | 0 | 1 | 0 |
+| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 245 (+31) | 104 | 4 | 0 | 5 | 0 |
+| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 259 (+26) | 158 | 16 | 0 | 4 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -208,6 +208,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Fr 30.10.2026**
+- 09:36 📈 Statistik 2026-10-30 ([`306d2f3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/306d2f3df37992e1b8318614542af84b120eaef6))
+  - `automatik/statistik`
 - 08:24 📡 Radar 2026-10-30: 8 Beiträge, 0 DM-Entwürfe ([`7f8a129`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8a12946273379606ee28fd117c888dd4db3dc3))
   - `automatik/interaktion`
 
