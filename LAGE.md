@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme1-story` (gestrichen) · ✅ 17:45 🎬 Reel `i14-reel-insider-ferrari` (online) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `43-story-tipp` (pausiert) · 🟡 12:15 📱 Story `meme3-story` (gestrichen) · 🟢 17:45 🎬 Reel `i01-reel-insider-programm` (läuft automatisch) · 🟡 17:50 📱 Story `44-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **3840** (22.10.–28.10., +210 % zur Vorwoche) · Follower **+30** (jetzt 402) · 30 Tage: +41 Follows / −14 entfolgt
-- **Testmonat** (Tag 18/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 19/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage:** keine
@@ -82,7 +82,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
 | Fr 30.10. 12:15 | 📱 Story `meme3-story` | gestrichen | 28.10.: eigenes Steuer-Meme (EXCEL), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
 | Fr 30.10. 17:45 | 🎬 Reel `i01-reel-insider-programm` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-30. · 26.10.: Serie Finanzamt-Insider #01 (Aufnahme 26.10., Schnitt aufnahmen/2026-10-26/geschnitten), Premium-Look premium/insider_01.html, 27,5 s, −18 LUFS, Hook „Kein Mensch. Ein Programm.“ ab Frame 1. Freigabe Loris („Freigabe für alles mit Sprachnachricht“, Reihenfolge ab heute). |
@@ -559,13 +558,13 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:14 📡 Radar 2026-10-24: 8 Beiträge, 0 DM-Entwürfe ([`b3e08cd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b3e08cdec554f5e2996078aca2d99b76bce63286))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Fr 23.10.2026**
 - 09:27 📡 Radar 2026-10-23: 8 Beiträge, 0 DM-Entwürfe ([`ef3db1a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ef3db1ad9587cd7df5b292e285d00d8888acf4d9))
   - `automatik/interaktion`
 - 09:22 📈 Statistik 2026-10-23 ([`9e117e4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9e117e4cfff38e4fb0352d6ced16d06aeba65fce))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Do 22.10.2026**
 - 14:29 📈 Statistik 2026-10-22 ([`c74205e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c74205e5dde717a3640ca91decd1d3459219f140))
