@@ -1,17 +1,16 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 29.10. 11:48 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 10:30 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 11:45 🖼️ Karussell `41-karussell-mythen` (pausiert) · 🟡 12:15 📱 Story `41-story-tipp` (pausiert) · 🟡 17:50 📱 Story `42-story-teaser` (pausiert)
+- **Heute online:** 🟡 11:45 🎬 Reel `43-reel-par35` (pausiert) · 🟡 12:15 📱 Story `43-story-tipp` (pausiert) · 🟡 17:45 🖼️ Karussell `44-karussell-glossar` (pausiert) · 🟡 17:50 📱 Story `44-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **3840** (22.10.–28.10., +210 % zur Vorwoche) · Follower **+7** (jetzt 368) · 30 Tage: +41 Follows / −14 entfolgt
-- **Testmonat** (Tag 18/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 19/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
   - 🔴 **KW 44** (26.10.–01.11.) ← jetzt: Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
   - 🔴 **KW 45** (02.11.–08.11.): Feed **0/14** (0 online · 0 geplant) · Reel-Tage (sicher) **0/7**
-- **Freie Slots nächste 7 Tage** (3):
-  - Do 29.10.: Feed 17:45
+- **Freie Slots nächste 7 Tage** (2):
   - Sa 31.10.: Feed 11:45 · Story 12:15
 
 ## 📝 Gerade in Arbeit
@@ -63,9 +62,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 29.10. 11:45 | 🖼️ Karussell `41-karussell-mythen` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. |
-| Do 29.10. 12:15 | 📱 Story `41-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „Gewerbesteuer ist keine Betriebsausgabe“ (§ 4 Abs. 5b EStG) mit Verweis auf das Karussell, 👏/😮, ohne Auflösung nötig (jobs/p41_mythen.json). storys/frage_mythen nicht genutzt (offene Frage). |
-| Do 29.10. 17:50 | 📱 Story `42-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum AfA-Reel (Titelbild), jobs/p42_reel_afa.json. Bibliotheks-Teaser teaser_afa nicht genutzt („zurück“, Dashboard-Zahlen im Bild). |
 | Fr 30.10. 11:45 | 🎬 Reel `43-reel-par35` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen, „tatsächlich zu zahlende“ GewSt korrigiert), Reel ohne Stimme 14,4 s, −18,1 LUFS (Peak −4,1 dBFS), Musik 06 Lofi ruhig. Titelbild reels/reel_35, Karten aus karussell/par35 Folien 3–5 (schnitt/p41_44_karten_bauen.py), Abspann „Kommentiere TOOL“ neu (jobs/p43_reel_par35.json), Schnitt schnitt/p43_reel_par35.json. Nachgerechnet: 100.000 − 24.500 = 75.500 × 3,5 % = 2.642,50 €; × 400 % = 10.570 € = 4,0 × 2.642,50; bei 450 % 11.891,25 € → 1.321,25 € Rest. Ermäßigungshöchstbetrag und „nur natürliche Personen/Mitunternehmer“ in der Bildunterschrift. |
 | Fr 30.10. 12:15 | 📱 Story `43-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp „4,0 × Messbetrag“ (§ 35 EStG, Einzel-/Mitunternehmer, höchstens tatsächlich zu zahlende GewSt), 👏/😮 (jobs/p43_reel_par35.json). Statt zdt_35 („angerechnet“, ohne Tipp-Format). |
 | Fr 30.10. 17:45 | 🖼️ Karussell `44-karussell-glossar` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen, Einlagekonto und Messbetrag-Box korrigiert), karussell/glossar_1 Folien 1–6, Folie 7 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p44_glossar.json). jahresabschluss_7 nicht genutzt: nur 4 Folien, nur Punkt 01 ausgeführt, Rest doppelt mit KSt-Staffel/Hebesatz/Hinzurechnung/latente Steuern/Rückstellung. Freibetrag/Abrundung und § 8c-Ausnahmen in der Bildunterschrift. alt_texte.json. |
@@ -90,13 +86,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 11:45 | 🎬 Reel `54-reel-reverse-charge` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/reverse_charge), Reel ohne Stimme 14,2 s, −18,0 LUFS (Peak −4,4 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi-Piano ab 2,4 s. Titelbild neu als Prüfer-Fall „Mit USt bezahlt. Vorsteuer: 0 €.“, Einblendung Demo-Fall Bau (100.000 € + 19.000 € USt), Karten aus reverse_charge Folien 5/4 (schnitt/p52_55_karten_bauen.py), Abspann TOOL (jobs/p54_reel_reverse_charge.json), Schnitt schnitt/p54_reel_reverse_charge.json. Geprüft: § 13b Abs. 2 Nr. 4 und Abs. 5 UStG, § 14c Abs. 1, § 15 Abs. 1 Satz 1 Nr. 1 und Nr. 4, § 14a Abs. 5 UStG; Bildunterschrift erklärt Saldo (13b-Schuld = Vorsteuer) und Rückforderung über berichtigte Rechnung. Nähe zu d3 (Vorsteuer, So 08.11.) beachtet: hier nur § 13b-Fall. |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
+| Do 05.11. 17:45 | 🖼️ Karussell `53-karussell-iab` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich). |
+| Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 05.11. 17:45 | 🖼️ Karussell `53-karussell-iab` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich). |
-| Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
 | Fr 06.11. 11:45 | 🎬 Reel `55-reel-thesaurierung` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/thesaurierung), Reel ohne Stimme 14,0 s, −18,0 LUFS (Peak −4,2 dBFS), Musik 12 Pop Electronic. Titelbild neu „28,25 % statt bis 45 %.“, Karten aus thesaurierung Folien 2/3/4 (Folie 5 Option § 1a KStG bewusst nicht genutzt, Antragsfrist nicht nachgeprüft), Abspann TOOL (jobs/p55_reel_thesaurierung.json), Schnitt schnitt/p55_reel_thesaurierung.json. Geprüft: § 34a Abs. 1 (28,25 % zzgl. SolZ, Antrag, Bilanzierer) und Abs. 4 (25 % Nachversteuerung); Bildunterschrift: Gesamtbelastung bei baldiger Entnahme oft höher. |
 | Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 17:45 | 🖼️ Karussell `56-karussell-verjaehrung` | pausiert | 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen, keine offenen Punkte), karussell/verjaehrung Folien 1–5 unverändert; Folie 6 neu: „Speichern für die nächste Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p56_verjaehrung.json). Alt-Texte in alt_texte.json. Geprüft: § 169 Abs. 2 Satz 1 Nr. 2 und Satz 2, § 170 Abs. 2 Satz 1 Nr. 1, § 171 AO; Demo Erklärung für 2022, Abgabe 2024 → Ende 31.12.2028. |
@@ -143,8 +139,6 @@ Reichweite pro Tag: 26.10. **347** · 27.10. **1161** · 28.10. **782** · 29.10
 | Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 147 (+11) | 53 | 2 | 0 | 1 | 0 |
 | So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 214 (+5) | 87 | 4 | 0 | 5 | 0 |
 | Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 233 (+16) | 140 | 16 | 0 | 4 | 0 |
-| Do 15.10. 21:15 [Zwei Listen abgleichen in Excel: SVERWEI](https://www.instagram.com/reel/DehnTbyEZ2g/) | 302 (+7) | 248 | 7 | 0 | 5 | 0 |
-| Do 15.10. 18:25 [Steuererklärung 2022 nachholen – nur noc](https://www.instagram.com/reel/DehYZkyD-sL/) | 308 (+10) | 198 | 11 | 0 | 5 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -166,7 +160,13 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
+**Fr 30.10.2026**
+- 10:30 ✍️ Tagesbericht 29. Oktober: 402 Follower (+21) · 782 Reichweite ([`5a2598d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5a2598d839c1458b40cbca8647f0c7307b7b84a7))
+  - `automatik/berichte`
+
 **Do 29.10.2026**
+- 13:25 ✍️ Tagesbericht 29. Oktober: 402 Follower (+21) · 782 Reichweite ([`ccb7ff4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ccb7ff477d86e972c243330e37320c60193d3bb6))
+  - `LAGE.html`, `automatik/berichte`
 - 11:48 ✍️ LAGE aktualisiert: 29. Oktober Post-Naming Notiz ([`064bd12`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/064bd12a0bd31ddb08d4699c31825a7fa77fc79b))
   - `LAGE.html`
 - 11:48 ✍️ Tagesbericht 29. Oktober: Post-Naming korrigiert (mein-weg statt pruefpfad) ([`90ee1f1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/90ee1f1da3362a7b44c66ab89db16a049c0eb338))
@@ -201,6 +201,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:14 📡 Radar 2026-10-24: 8 Beiträge, 0 DM-Entwürfe ([`b3e08cd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b3e08cdec554f5e2996078aca2d99b76bce63286))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Fr 23.10.2026**
 - 09:18 ✍️ LAGE aktualisiert: Zeitstempel und Protokoll auf Änderungen vom 20.10. synchronisiert ([`84eda02`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/84eda022c29de98683916b4b6cccfbb4b6b52df8))
   - `LAGE.html`
@@ -210,8 +212,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 09:18 ✍️ LAGE aktualisiert: Zeitstempel und Protokoll auf Änderungen vom 20.10. synchronisiert ([`5566708`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/556670807f12b3283077b9cf5e1384b8093334a5))
   - `LAGE.html`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 20.10.2026**
 - 14:54 ✍️ Tagesbericht 20. Oktober: −41% Reichweite, 3/9 Methoden erfolgreich ([`3dcec7d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3dcec7ddc7c3b92e32560559e7a104fa03b11602))
