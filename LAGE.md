@@ -184,7 +184,6 @@ Reichweite pro Tag: 27.10. **1161** · 28.10. **782** · 29.10. **1480** · 30.1
 | Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 225 (+31) | 158 | 10 | 4 | 8 | 14 |
 | Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 167 (+20) | 67 | 2 | 0 | 1 | 0 |
 | So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 245 (+31) | 104 | 4 | 0 | 5 | 0 |
-| Fr 16.10. 19:57 [Diplom-Finanzwirt mit KI-Avatar? Das war](https://www.instagram.com/reel/DekHzHkF7E2/) | 259 (+26) | 158 | 16 | 0 | 4 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
