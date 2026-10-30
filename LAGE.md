@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 11:34 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 17:18 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -16,6 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Feld-Reels 30.10. v3:** Gesicht nur 0–1,5 s, danach unscharf; CTA mit rundem Gesichts-Fenster (`schnitt/feld_zusammen_kreis.py`), weil die Brillen-Spiegelung störte. KI-Retusche (Runway Aleph, 3 Versuche, ~480 Credits) verworfen: Brille wurde jedes Mal entfernt oder umgefärbt. Nächster Dreh: ohne In-Ears, Handy höher, nicht gegen offenen Himmel.
 - **Feld-Reels 30.10. gebaut (Sichtung offen):** `aufnahmen/2026-10-30/reels/` Weihnachtsfeier 110 € (33 s) + Kundengeschenk 50 € (27 s). Neues Format: Gesicht nur in Hook + CTA, Mitte = Video unscharf + Pop-up-Karte (`premium/*_overlay.html`, transparent via `rendern_alpha.mjs`; Schnitt `schnitt/feld_schnitt.py` + `feld_zusammen.py`). Nur Bergab-Takes (Loris), Ton Kanal 0 + Hochpass/Entrauschen. 8 CTA-Bausteine (blaue Jacke) in `aufnahmen/2026-10-30/bausteine/`. Noch nicht im Plan.
 - **Feld-Dreh 30.10. (Walk & Talk):** 8 Skripte Jahresende in `aufnahmen/2026-10-30/drehbuch_feld.md` (Weihnachtsfeier 110 €, Kundengeschenk 50 €, Gutschein statt Bargeld, Kauf im Dezember 1/12, EÜR bis 31.12., Erklärung 2022 bis 31.12., Spende 300 €, Vorauszahlung runter). Loris filmt sich selbst; Clips in Drive „Maehrsteuern audios/Videos Feld 30.10. – Walk & Talk“. Danach schneiden, Faktencheck, 4-Sek-Test, einplanen ab Di 17.11.
 - **Motion-Wissen 26.10.:** `strategie/20_wissen_motion.md` – 14 Effekte mit Einsatzregel, Baukasten `vorlagen/system/premium/motion.js`; Karussell-Vorlage kann jetzt „Der alte Weg“, „Vorher · Nachher“, Mono-Box (Formel/Musterformulierung) und Speichern-Hinweis auf Folie 1. Idee: Serie „Steuer-Spickzettel“.
@@ -210,6 +211,12 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Fr 30.10.2026**
+- 17:18 ✍️ Feld-Reels: Schluss mit windärmstem Take und stärkerem Windfilter ([`f7a67eb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f7a67eb467a1e4a607ad52546f408215b3e4185b))
+  - `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `vorlagen/system/premium/kundengeschenk_overlay.html`, `vorlagen/system/premium/weihnachtsfeier_overlay.html`, `vorlagen/system/schnitt/feld_schnitt.py`
+- 17:07 ✍️ Feld-Reels 10 % schneller (Loris): Weihnachtsfeier 30 s, Kundengeschenk 24 s ([`8870dd1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8870dd1b3a7cb23474228371e2e0f42335daa964))
+  - `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`
+- 12:18 ✍️ Feld-Reels Weihnachtsfeier und Kundengeschenk: Hook/CTA mit Gesicht, Mitte unscharf mit Pop-up-Karte ([`e6b181a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e6b181ad25b211a340ba655630bed19dd6b676c2))
+  - `LAGE.html`, `aufnahmen/2026-10-30/bausteine/cta_finanzamts_tipps.mp4`, `aufnahmen/2026-10-30/bausteine/cta_insider_finanzamt_1.mp4`, `aufnahmen/2026-10-30/bausteine/cta_insider_finanzamt_2.mp4`, `aufnahmen/2026-10-30/bausteine/cta_jahresende_1.mp4`, `aufnahmen/2026-10-30/bausteine/cta_jahresende_2.mp4`, `…`
 - 11:34 ✍️ Drehbuch Feld-Dreh 30.10.: 8 Walk-&-Talk-Reels zum Jahresende ([`e7be68a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e7be68a754038e3b0c8b33ee86580fb797bb5e7d))
   - `LAGE.html`, `aufnahmen/2026-10-30/drehbuch_feld.md`, `automatik/lage_notizen.md`
 - 09:36 📈 Statistik 2026-10-30 ([`306d2f3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/306d2f3df37992e1b8318614542af84b120eaef6))
