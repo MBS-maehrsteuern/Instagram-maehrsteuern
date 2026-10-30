@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 00:04 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 00:43 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -16,6 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Büro-Look Standard (Loris 31.10.):** Reels durchgehend im KI-Büro-Look – Hook per Aleph (Büro, grüne Jacke, ohne Ohrstöpsel, echte Mundbewegung, ~135 Credits), Blur-Mitte = verschwommenes Büro (Hook-Clip vor/zurück geschleift), Schluss = `bausteine/cta_buero_gruen_ki.mp4`. Beide Feld-Reels so fertig (`aufnahmen/2026-10-30/reels/`), KI-Hooks in `aufnahmen/2026-10-30/ki/`. KI-Label beim Posten.
 - **Erkenntnis 30.10. abends:** Lipsync (Seedance) passt nicht – Lippen folgen eigener Fantasie-Tonspur, ~950 Credits. Besser: Loris filmt den Satz selbst (beliebiger Ort), dann Runway Aleph (`edit_video`) nur Hintergrund/Jacke/Ohrstöpsel tauschen – echte Mundbewegung bleibt, ~28 Credits/s (3 s ≈ 85), danach `upscale_video` auf 4K (~6 Credits). Schluss-Baustein so neu: `bausteine/cta_buero_gruen_4k.mp4`.
 - **KI-Büro-Look (Loris 30.10.):** 2–3 Reels pro Woche mit KI-Hook (Runway Seedance 2.5, Lipsync auf Loris' ECHTE Sprachnachricht, Büro-Hintergrund, grüne Jacke, ~950 Credits je Hook = fester Mindestpreis), Mitte Blur + Pop-up-Karten, Schluss = Baustein `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4` (wiederverwendbar, 0 Credits). Übrige Reels: echte Aufnahmen im Blur-Format. KI-Label beim Posten einschalten. Ablauf: Loris schickt Skript als Sprachnachricht → nur erste ~3 s lippensynchron → Ton-Check → einplanen.
 - **Feld-Reels 30.10. v3:** Gesicht nur 0–1,5 s, danach unscharf; CTA mit rundem Gesichts-Fenster (`schnitt/feld_zusammen_kreis.py`), weil die Brillen-Spiegelung störte. KI-Retusche (Runway Aleph, 3 Versuche, ~480 Credits) verworfen: Brille wurde jedes Mal entfernt oder umgefärbt. Nächster Dreh: ohne In-Ears, Handy höher, nicht gegen offenen Himmel.
@@ -208,6 +209,14 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 31.10.2026**
+- 00:43 ✍️ Feld-Reels: Schluss mit KI-Baustein (Büro, grüne Jacke) statt Feld-Video ([`2ed7a69`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2ed7a69e5b5e5b5c8d6fc6c603fdd7dbdd92d163))
+  - `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `vorlagen/system/schnitt/feld_zusammen_kreis.py`
+- 00:36 ✍️ Schluss-Baustein ruhiger: 10 % langsamer, Ausatmer ausgeblendet, wärmere Stimme ([`ee73259`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ee7325944027873344190c63be1b2cd7f659a745))
+  - `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_4k.mp4`, `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4`
+- 00:33 ✍️ Premium-Stimme: ElevenLabs-Stimmisolator + 30 % Original statt dumpfem Windfilter ([`f9c881c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f9c881c8f07d7e0d9198a5e8f3ec1b3d089d0630))
+  - `CLAUDE.md`, `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_4k.mp4`, `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4`, `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `vorlagen/system/schnitt/feld_schnitt_v4.py`
+- 00:11 ✍️ Schluss-Baustein Büro-Look neu: Aleph statt Lipsync, echte Mundbewegung, 4K ([`f24ef91`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f24ef917c0c789c7dde12ebcf7841cde7f57c6ed))
+  - `LAGE.html`, `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_4k.mp4`, `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4`, `aufnahmen/2026-10-30/bausteine/hook_buero_gruen_ki_test_roh.mp4`, `automatik/lage_notizen.md`
 - 00:04 ✍️ Entscheidung KI-Büro-Look: 2–3 Reels pro Woche mit KI-Hook, Rest echte Aufnahmen ([`80f877d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/80f877d8567ceea58d3e829d39c15526eb083b68))
   - `LAGE.html`, `automatik/lage_notizen.md`
 
