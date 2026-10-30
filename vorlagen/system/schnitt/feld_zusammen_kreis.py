@@ -8,7 +8,7 @@ d=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=
 K=400; X,Y=340,1090   # Kreis: 400 px, über der CTA-Karte
 fc=(f"[0:v]split=3[s][u][k];[u]gblur=sigma=38,eq=brightness=-0.10:saturation=0.75,format=yuva420p,fade=t=in:st={a}:d=0.35:alpha=1[bl];"
     f"[s][bl]overlay=shortest=1[bg];"
-    f"[k]crop=1080:1080:0:360,scale={K}:{K},format=rgba[kk];[4:v]format=gray[m];[kk][m]alphamerge,fade=t=in:st={c}:d=0.3:alpha=1[kreis];"
+    f"[k]crop=1080:1080:0:470,scale={K}:{K},format=rgba[kk];[4:v]format=gray[m];[kk][m]alphamerge,fade=t=in:st={c}:d=0.3:alpha=1[kreis];"
     f"[5:v]format=rgba,fade=t=in:st={c}:d=0.3:alpha=1[ring];"
     f"[bg][ring]overlay={X-10}:{Y-10}:shortest=1[b2];[b2][kreis]overlay={X}:{Y}[b3];[b3][1:v]overlay=format=auto[v];"
     f"[2:a]volume=0.07,afade=t=in:d=0.8,afade=t=out:st={d-1.5}:d=1.5[mu];[0:a][mu]amix=inputs=2:duration=first:normalize=0,"
