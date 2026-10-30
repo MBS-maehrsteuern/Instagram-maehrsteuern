@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 23:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 00:04 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -16,6 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Erkenntnis 30.10. abends:** Lipsync (Seedance) passt nicht – Lippen folgen eigener Fantasie-Tonspur, ~950 Credits. Besser: Loris filmt den Satz selbst (beliebiger Ort), dann Runway Aleph (`edit_video`) nur Hintergrund/Jacke/Ohrstöpsel tauschen – echte Mundbewegung bleibt, ~28 Credits/s (3 s ≈ 85), danach `upscale_video` auf 4K (~6 Credits). Schluss-Baustein so neu: `bausteine/cta_buero_gruen_4k.mp4`.
 - **KI-Büro-Look (Loris 30.10.):** 2–3 Reels pro Woche mit KI-Hook (Runway Seedance 2.5, Lipsync auf Loris' ECHTE Sprachnachricht, Büro-Hintergrund, grüne Jacke, ~950 Credits je Hook = fester Mindestpreis), Mitte Blur + Pop-up-Karten, Schluss = Baustein `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4` (wiederverwendbar, 0 Credits). Übrige Reels: echte Aufnahmen im Blur-Format. KI-Label beim Posten einschalten. Ablauf: Loris schickt Skript als Sprachnachricht → nur erste ~3 s lippensynchron → Ton-Check → einplanen.
 - **Feld-Reels 30.10. v3:** Gesicht nur 0–1,5 s, danach unscharf; CTA mit rundem Gesichts-Fenster (`schnitt/feld_zusammen_kreis.py`), weil die Brillen-Spiegelung störte. KI-Retusche (Runway Aleph, 3 Versuche, ~480 Credits) verworfen: Brille wurde jedes Mal entfernt oder umgefärbt. Nächster Dreh: ohne In-Ears, Handy höher, nicht gegen offenen Himmel.
 - **Feld-Reels 30.10. gebaut (Sichtung offen):** `aufnahmen/2026-10-30/reels/` Weihnachtsfeier 110 € (33 s) + Kundengeschenk 50 € (27 s). Neues Format: Gesicht nur in Hook + CTA, Mitte = Video unscharf + Pop-up-Karte (`premium/*_overlay.html`, transparent via `rendern_alpha.mjs`; Schnitt `schnitt/feld_schnitt.py` + `feld_zusammen.py`). Nur Bergab-Takes (Loris), Ton Kanal 0 + Hochpass/Entrauschen. 8 CTA-Bausteine (blaue Jacke) in `aufnahmen/2026-10-30/bausteine/`. Noch nicht im Plan.
@@ -205,6 +206,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Sa 31.10.2026**
+- 00:04 ✍️ Entscheidung KI-Büro-Look: 2–3 Reels pro Woche mit KI-Hook, Rest echte Aufnahmen ([`80f877d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/80f877d8567ceea58d3e829d39c15526eb083b68))
+  - `LAGE.html`, `automatik/lage_notizen.md`
 
 **Fr 30.10.2026**
 - 23:29 ✍️ KI-Bausteine Büro-Look: Lipsync-Test (Hook) und wiederverwendbarer Schluss ([`d339447`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d33944704dcc7b9593321c8aa6405f1e652f02ee))
