@@ -2002,13 +2002,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "30.10.: Musik neu (127_tech_groove, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-30. · 26.10.: Serie Finanzamt-Insider #01 (Aufnahme 26.10., Schnitt aufnahmen/2026-10-26/geschnitten), Premium-Look premium/insider_01.html, 27,5 s, −18 LUFS, Hook „Kein Mensch. Ein Programm.“ ab Frame 1. Freigabe Loris („Freigabe für alles mit Sprachnachricht“, Reihenfolge ab heute).",
       "trichter": "oben",
-      "musik": "127_tech_groove.mp3"
+      "musik": "127_tech_groove.mp3",
+      "media_id": "18119253577792640",
+      "link": "https://www.instagram.com/reel/DfILcg8DfQm/",
+      "veroeffentlicht_am": "2026-10-30 19:02",
+      "erster_kommentar_id": "18059061773797714"
     },
     {
       "id": "i02-reel-insider-kontenabruf",
