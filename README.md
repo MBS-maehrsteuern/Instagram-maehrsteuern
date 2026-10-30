@@ -44,6 +44,15 @@ Leitspruch: „Steuern × Code“ – KI ist Qualifikation und Werkzeug, Code is
 - Ergebnisse landen in `posts/` bzw. `assets/` (`highlights/`, `storys/start/`)
 - **Bibliothek auf Vorrat:** `assets/bibliothek/` – 996 fertige Bilder aus dem Claude-Design-Katalog „Brand Kit“, Runden 1–7 (inkl. MBS-Reels) (ca. 55 Karussell-Serien, Storys, Reel-Titel, Einblendungen, Ampeln, Einzelposts, Highlights, LinkedIn-Banner), Texte in `vorlagen/system/jobs/bibliothek/`, Übersicht in `assets/bibliothek/README.md`. Nicht im Plan, Demo-Zahlen, vor Verwendung fachlich prüfen.
 
+## Asset-Quellen (Stand 30.10.2026)
+Drei gleichwertige Quellen – je Beitrag die passende wählen:
+1. **Selbst produziert:** Vorlagen-System + Bibliothek (oben), Loris' Aufnahmen (`aufnahmen/`), Marken-Bilder (`assets/marke/`).
+2. **Animationen von Claude:** Premium-Baukasten `vorlagen/system/premium/` (HTML-Animation → `rendern.mjs` → `reel_bauen.py`), Effekte in `strategie/20_wissen_motion.md`.
+3. **KI-Generierung über Runway** (Claude-Connector „Runway AI“, Konto Pro, angemeldet 30.10.): Bilder mit **Nano Banana Pro** (Standardmodell, ca. 20 Credits/Bild bei 1K; auch Nano Banana 2/2.1, GPT Image, Seedream), Video-Clips, Musik und Töne. Kosten gehen vom Runway-Guthaben ab (Pro: 2.250 Credits/Monat, verfallen monatlich).
+   - Einsatz: Hintergründe, Szenenbilder (Schreibtisch, Büro, Unterlagen), Stimmungsbilder für Karussell-Titel/Storys, Startbild für KI-Clips.
+   - Regeln: kein Text im KI-Bild (Text immer über das Vorlagen-System), keine Arbeitgeber-Bezüge, realistische KI-Personen → KI-Label. Prompt, Modell und Runway-Task-ID wie bei der Musik in einer `QUELLEN_runway.md` im Zielordner festhalten.
+   - Nicht genutzt: Connector „NanoBanana“ (fal.ai) ist angelegt, aber ohne Anmeldung/Guthaben – nur bei Bedarf an günstigen Massenbildern.
+
 ## Marke
 - Botschaft: **Steuern × Code** – „Steuerwissen, das rechnet.“ Diplom-Finanzwirt und KI-Manager (IHK), baut KI- und Steuer-Tools – vom Tool bis zum ganzen Prozess.
 - Aufruf: **Schreib „TOOL“ per DM**

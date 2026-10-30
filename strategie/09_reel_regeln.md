@@ -52,6 +52,11 @@ Vorlage zum Kopieren: `vorlagen/system/schnitt/p01_reel_ampel_hook.json` (Render
 - Clip auf `"tempo": 0.8` verlangsamen, keine Glitch- oder Shake-Effekte drauf.
 - Beim Prompt ruhige Mimik verlangen („subtle, restrained expression“) statt „shock“ oder „disbelief“.
 
+## KI-Bilder (Runway · Nano Banana Pro, ab 30.10.2026)
+- Über den Claude-Connector „Runway AI“ (`generate_image`, Standardmodell `nano-banana-pro`, ca. 20 Credits/Bild). Format passend wählen: `9:16` Reel/Story, `3:4` Karussell, `1:1` Einzelpost.
+- Gut als Szenen- oder Hintergrundbild unter unseren Texten und als Startbild für einen KI-Clip. Prompt immer mit „no text“; Schrift kommt aus dem Vorlagen-System.
+- Ruhiger, hochwertiger Look passend zur Marke (dunkel, grünes Licht), keine Logos, keine Arbeitgeber-Bezüge. Quelle (Prompt, Modell, Task-ID) dokumentieren.
+
 ## Ton
 - **Die Musik muss zur Emotion passen.** Schmerz-Moment ≠ Deep House.
 - Im Hook **keine Musik, sondern Atmo**: Tippen → Fehlerton (Text poppt darauf auf) → Uhr-Ticken.
