@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Overlay „Kundengeschenk über 50 €“: transparent (rendern_alpha.mjs, omitBackground). Hook 0–4.85 Plakette, 4.85–23.45 Pop-up-Karte (Video dahinter weichgezeichnet), 23.45– CTA unten.
+     Wortzeiten = Loris' Text (kundengeschenk_woerter.json, geschnitten), ASR-Schreibweisen korrigiert. Zeitgesteuert: render(t), keine CSS-Transitions. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;color:var(--text);font-family:var(--sans)}
+.plakette{position:absolute;left:60px;right:60px;top:150px;height:400px;border-radius:40px;background:rgba(7,12,10,.74);border:2px solid rgba(83,195,162,.35);
+  box-shadow:0 20px 60px rgba(0,0,0,.35);padding:34px 20px 0;text-align:center;opacity:0}
+.kicker{font-family:var(--mono);font-size:32px;letter-spacing:.22em;color:var(--gruen2);display:flex;align-items:center;justify-content:center;gap:16px;font-weight:600}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+.gross{font-family:"Outfit";font-weight:700;letter-spacing:-.025em;line-height:1}
+.pointe{font-family:"Outfit";font-weight:700;font-size:98px;line-height:1;margin-top:26px;white-space:nowrap}
+.pointe b{color:var(--rot);text-shadow:0 0 30px rgba(224,122,107,.5);font-weight:700}
+.panel{position:absolute;left:90px;top:480px;width:900px;height:820px;border:2px solid var(--rand);border-radius:34px;opacity:0;
+  background:linear-gradient(180deg,rgba(18,40,33,.93),rgba(10,18,15,.96));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.12);overflow:hidden}
+.sz{position:absolute;inset:0;padding:54px 50px;opacity:0}
+.chip{display:inline-block;font-family:var(--mono);font-size:26px;letter-spacing:.14em;padding:9px 20px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+.chip.rot{background:rgba(224,122,107,.18);color:var(--rot)}
+.titel{font-family:"Outfit";font-weight:700;font-size:92px;line-height:1.02;letter-spacing:-.02em;margin-top:30px}
+.titel.gr{color:var(--gruen2)}
+.klein{font-family:var(--mono);font-size:28px;letter-spacing:.08em;color:var(--text2)}
+.strk{position:relative;display:inline-block}
+.strk::after{content:"";position:absolute;left:-3%;top:54%;height:10px;width:var(--sw,0%);background:var(--rot);border-radius:5px;box-shadow:0 0 18px var(--rot)}
+.stamp{position:absolute;border:8px solid var(--rot);color:var(--rot);border-radius:18px;padding:6px 30px 12px;font-family:"Outfit";font-weight:700;font-size:92px;letter-spacing:.04em;background:rgba(7,12,10,.88);opacity:0;white-space:nowrap}
+.zl{display:flex;align-items:center;justify-content:space-between;height:176px;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:0 36px;margin-top:26px;opacity:0}
+.zl .betrag{font-family:"Outfit";font-weight:700;font-size:84px;letter-spacing:-.02em}
+.zl .urteil{display:flex;align-items:center;gap:20px;font-family:"Outfit";font-weight:700;font-size:48px;opacity:0}
+.zl .mk{width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:700;color:#07100c}
+.zl.ok{border-color:var(--gruen);background:rgba(83,195,162,.12)}.zl.ok .urteil{color:var(--gruen2)}.zl.ok .mk{background:var(--gruen)}
+.zl.no{border-color:var(--rot);background:rgba(224,122,107,.12)}.zl.no .urteil{color:var(--rot)}.zl.no .mk{background:var(--rot)}
+.ck{display:flex;align-items:center;gap:26px;height:128px;border-radius:24px;border:2px solid #22352E;background:#0B1411;padding:0 30px;margin-top:20px}
+.ck .box{width:68px;height:68px;border-radius:16px;border:3px solid #3a5448;display:flex;align-items:center;justify-content:center;font-size:46px;font-weight:700;color:#07100c;flex:none}
+.ck .fr{font-family:"Outfit";font-weight:700;font-size:56px;line-height:1}
+.ck .wa{font-family:var(--mono);font-size:27px;color:var(--text2);margin-top:6px;letter-spacing:.04em}
+.ck.an{border-color:var(--gruen);background:rgba(83,195,162,.12)}.ck.an .box{background:var(--gruen);border-color:var(--gruen)}
+#cta{position:absolute;left:60px;right:60px;top:1540px;height:200px;border-radius:36px;background:rgba(7,12,10,.78);border:2px solid rgba(83,195,162,.4);
+  box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center;padding-top:26px;opacity:0}
+#cta .a{font-family:"Outfit";font-weight:700;font-size:56px;line-height:1.1;letter-spacing:-.01em}
+#cta .b{font-family:var(--mono);font-weight:600;font-size:44px;color:var(--gruen2);margin-top:16px;letter-spacing:.06em}
+#ut{position:absolute;left:50px;right:50px;top:1560px;height:170px;font-family:"Outfit";font-weight:700;font-size:58px;line-height:1.5;text-align:center}
+#ut span{padding:3px 14px;border-radius:14px;background:rgba(7,12,10,.74);color:rgba(238,244,240,.5);-webkit-box-decoration-break:clone;box-decoration-break:clone}
+#ut span.on{color:var(--text)} #ut span.jetzt{color:var(--gruen2);background:rgba(7,12,10,.88)}
+</style></head><body>
+
+<div class="plakette" id="hook">
+ <div class="kicker"><i></i>KUNDENGESCHENK</div>
+ <div class="gross" id="h2" style="font-size:150px;margin-top:20px">über 50 €</div>
+ <div class="pointe" id="h3">= <b>0 €</b> absetzbar</div>
+</div>
+
+<div class="panel" id="karte">
+ <div class="sz" id="sA">
+  <div class="chip rot">BETRIEBSPRÜFUNG</div>
+  <div class="klein" style="margin-top:56px">Posten in der Prüfung:</div>
+  <div class="titel" id="aT" style="font-size:112px;margin-top:20px;opacity:0"><span class="strk" id="aS">Geschenke<br>an Kunden</span></div>
+  <div class="klein" id="aK" style="margin-top:34px;font-size:34px;opacity:0">pro Kunde über 50 €</div>
+  <div class="stamp" id="aSt" style="left:100px;top:600px">GESTRICHEN</div>
+ </div>
+ <div class="sz" id="sB">
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="chip" id="bC">§ 4 ABS. 5 NR. 1 ESTG</span></div>
+  <div class="titel gr" id="bT" style="margin-top:22px">Freigrenze 50 €</div>
+  <div class="zl ok" id="bR1" style="margin-top:34px"><span class="betrag">50,00 €</span><span class="urteil" id="bU1"><span class="mk">✓</span>voll absetzbar</span></div>
+  <div class="zl no" id="bR2"><span class="betrag">51,00 €</span><span class="urteil" id="bU2"><span class="mk">✗</span>0 € absetzbar</span></div>
+  <div class="klein" id="bK" style="margin-top:36px;text-align:center;font-size:30px;opacity:0">netto · pro Kunde · pro Jahr</div>
+ </div>
+ <div class="sz" id="sC">
+  <div class="chip" id="cC">§ 4 ABS. 7 ESTG</div>
+  <div class="titel gr" id="cT" style="margin-top:22px">Schreib es auf</div>
+  <div class="ck" id="k1" style="margin-top:34px"><div class="box" id="x1"></div><div><div class="fr">Wer?</div><div class="wa">Geschäftspartner</div></div></div>
+  <div class="ck" id="k2"><div class="box" id="x2"></div><div><div class="fr">Anlass</div><div class="wa">z. B. Weihnachten, Jubiläum</div></div></div>
+  <div class="ck" id="k3"><div class="box" id="x3"></div><div><div class="fr">Betrag</div><div class="wa">Höhe in Euro</div></div></div>
+  <div class="klein" id="cK" style="margin-top:34px;text-align:center;font-size:32px;color:var(--text);opacity:0">eigenes Konto + Buchungstext</div>
+ </div>
+</div>
+
+<div id="cta"><div class="a">Folg mir für mehr Insider-Tipps</div><div class="b">@maehrsteuern</div></div>
+<div id="ut"></div>
+
+<script src="motion.js"></script>
+<script>
+const W=[["Ein", 0.0], ["guter", 0.47], ["Wein", 0.81], ["an", 0.97], ["einen", 1.09], ["Geschäftspartner", 1.29], ["über", 2.15], ["50", 2.49], ["Euro", 2.89], ["und", 3.21], ["du", 3.47], ["kannst", 3.57], ["nicht", 3.71], ["von", 3.95], ["der", 4.09], ["Steuer", 4.19], ["absetzen.", 4.33], ["Das", 4.93], ["ist", 5.03], ["ein", 5.17], ["Posten,", 5.39], ["der", 5.97], ["in", 6.55], ["den", 6.79], ["meisten", 6.89], ["Betriebsprüfungen", 7.13], ["komplett", 7.87], ["gestrichen", 8.13], ["wird.", 8.63], ["Die", 8.92], ["Freigrenze", 9.12], ["von", 9.84], ["50", 10.5], ["Euro", 10.82], ["ist", 11.08], ["real.", 11.3], ["Sobald", 11.54], ["du", 12.16], ["sie", 12.24], ["reißt", 12.44], ["mit", 13.04], ["einem", 13.48], ["Euro", 13.7], ["ist", 14.08], ["null", 14.6], ["abziehbar.", 14.86], ["Das", 15.57], ["bedeutet,", 15.65], ["schreib", 16.39], ["dir", 16.53], ["immer", 16.65], ["genau", 16.87], ["auf,", 17.15], ["welcher", 17.97], ["Geschäftspartner,", 18.51], ["welcher", 19.49], ["Anlass", 19.75], ["und", 20.09], ["die", 20.41], ["Höhe.", 20.61], ["Im", 21.13], ["Buchungstext", 21.25], ["deiner", 22.07], ["Buchführung", 22.23], ["reicht", 22.71], ["völlig.", 22.95]];
+const G=[];let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,?:]$/.test(w[0])||g.length>=5){G.push(g);g=[]}});if(g.length)G.push(g);
+const $=id=>document.getElementById(id);
+const cl=M.cl,P=(t,a,d=.35)=>M.ease.out(M.p(t,a,d));
+const T_MID=4.85,T_CTA=23.45;
+function show(e,x,dy=30){e.style.opacity=x;e.style.transform=`translateY(${(1-x)*dy}px)`}
+function stempel(e,t,a,rot){const p=cl((t-a)/.22,0,1);e.style.opacity=p>0?1:0;e.style.transform=`rotate(${rot}deg) scale(${p>=1?1:1.9-.9*M.ease.out(p)})`}
+function szene(id,t,von,bis){const e=$(id),a=P(t,von,.3),b=cl((t-(bis-.25))/.25,0,1);e.style.opacity=(t>=von&&t<bis)?a*(1-b):0}
+function render(t){
+  // Hook: steht ab Frame 0, Pointe mit Punch, geht bei 4.85 raus
+  const h=$("hook"),ho=1-cl((t-4.7)/.2,0,1);
+  h.style.opacity=t<4.95?ho:0;h.style.transform=`translateY(${-20*(1-ho)}px)`;
+  const pz=1+.10*Math.sin(Math.PI*cl((t-.05)/.3,0,1));$("h3").style.transform=`scale(${pz})`;
+  // Karte: Pop bei 4.85, weg bis 23.45
+  const k=$("karte"),pin=M.ease.overshoot(M.p(t,T_MID,.4)),pout=cl((t-(T_CTA-.25))/.25,0,1);
+  k.style.opacity=(t>=T_MID&&t<T_CTA)?cl(pin*1.4)*(1-pout):0;
+  k.style.transform=`scale(${(.6+.4*pin)*(1-.08*pout)})`;
+  szene("sA",t,4.85,8.95);szene("sB",t,8.95,15.55);szene("sC",t,15.55,23.45);
+  // A
+  show($("aT"),P(t,5.2,.4),40);$("aK").style.opacity=P(t,6.0,.4);
+  $("aS").style.setProperty("--sw",(106*P(t,8.1,.25))+"%");
+  stempel($("aSt"),t,8.13,-8);
+  // B
+  show($("bT"),P(t,9.12,.35),30);show($("bC"),P(t,9.5,.3),20);
+  show($("bR1"),P(t,10.3,.35),30);$("bU1").style.opacity=P(t,11.2,.3);
+  show($("bR2"),P(t,13.4,.35),30);$("bU2").style.opacity=P(t,14.55,.25);
+  $("bU2").style.transform=`scale(${1+.12*Math.sin(Math.PI*cl((t-14.55)/.3,0,1))})`;
+  $("bK").style.opacity=P(t,11.9,.4);
+  // C
+  show($("cT"),P(t,16.39,.35),30);show($("cC"),P(t,21.8,.3),20);
+  [["k1","x1",18.51],["k2","x2",19.75],["k3","x3",20.61]].forEach(([k,x,a],i)=>{
+    const e=$(k),pp=P(t,16.9+i*.15,.35);e.style.opacity=pp;e.style.transform=`translateY(${(1-pp)*30}px)`;
+    e.classList.toggle("an",t>=a);$(x).textContent=t>=a?"✓":""});
+  $("cK").style.opacity=P(t,21.25,.35);
+  // CTA
+  const c=$("cta"),cp=M.ease.overshoot(M.p(t,T_CTA+.1,.4));c.style.opacity=t>=T_CTA?cl(cp*1.4):0;c.style.transform=`scale(${.7+.3*cp})`;
+  // Untertitel
+  const ut=$("ut");
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-.05&&(i===G.length-1||t<W[G[i+1][0]][1]-.05));
+  if(gi<0||t>=T_CTA){ut.innerHTML="";return}
+  const gs=G[gi],sp=gs.filter(j=>t>=W[j][1]);
+  ut.innerHTML=gs.map(i=>`<span class="${t>=W[i][1]?(i===sp[sp.length-1]?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>

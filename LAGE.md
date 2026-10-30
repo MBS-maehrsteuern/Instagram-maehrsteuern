@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 09:36 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 30.10. 11:34 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -16,6 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Feld-Reels 30.10. gebaut (Sichtung offen):** `aufnahmen/2026-10-30/reels/` Weihnachtsfeier 110 € (33 s) + Kundengeschenk 50 € (27 s). Neues Format: Gesicht nur in Hook + CTA, Mitte = Video unscharf + Pop-up-Karte (`premium/*_overlay.html`, transparent via `rendern_alpha.mjs`; Schnitt `schnitt/feld_schnitt.py` + `feld_zusammen.py`). Nur Bergab-Takes (Loris), Ton Kanal 0 + Hochpass/Entrauschen. 8 CTA-Bausteine (blaue Jacke) in `aufnahmen/2026-10-30/bausteine/`. Noch nicht im Plan.
 - **Feld-Dreh 30.10. (Walk & Talk):** 8 Skripte Jahresende in `aufnahmen/2026-10-30/drehbuch_feld.md` (Weihnachtsfeier 110 €, Kundengeschenk 50 €, Gutschein statt Bargeld, Kauf im Dezember 1/12, EÜR bis 31.12., Erklärung 2022 bis 31.12., Spende 300 €, Vorauszahlung runter). Loris filmt sich selbst; Clips in Drive „Maehrsteuern audios/Videos Feld 30.10. – Walk & Talk“. Danach schneiden, Faktencheck, 4-Sek-Test, einplanen ab Di 17.11.
 - **Motion-Wissen 26.10.:** `strategie/20_wissen_motion.md` – 14 Effekte mit Einsatzregel, Baukasten `vorlagen/system/premium/motion.js`; Karussell-Vorlage kann jetzt „Der alte Weg“, „Vorher · Nachher“, Mono-Box (Formel/Musterformulierung) und Speichern-Hinweis auf Folie 1. Idee: Serie „Steuer-Spickzettel“.
 - **Takt ab 26.10. (Loris 25.10. nach Auswertung):** 1 Feed-Beitrag/Tag um 17:45 – Reel täglich, Karussell statt Reel Mi + So. Grund: an Tagen mit 2–3 Beiträgen Ø ~180 statt ~440 Aufrufe (`19_wissen` Abschnitt 7). Plan steht bis 16.11. (Reels) bzw. 02.12. (Karussells); ab 17.11. braucht es neue Reels (Aufnahmen!).
@@ -107,12 +108,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
 | Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 | Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
+| Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 17:45 | 🎬 Reel `i02-reel-insider-kontenabruf` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-03. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-06. |
 | Fr 06.11. 17:50 | 📱 Story `56-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum Verjährungs-Karussell (Folie 1), jobs/p56_verjaehrung.json. |
 | Sa 07.11. 17:45 | 🎬 Reel `40-reel-formeln` | 🟢 freigegeben (geht automatisch online) | 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-03. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-28 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-27 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-28 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p40_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-07. |
@@ -209,6 +210,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Fr 30.10.2026**
+- 11:34 ✍️ Drehbuch Feld-Dreh 30.10.: 8 Walk-&-Talk-Reels zum Jahresende ([`e7be68a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e7be68a754038e3b0c8b33ee86580fb797bb5e7d))
+  - `LAGE.html`, `aufnahmen/2026-10-30/drehbuch_feld.md`, `automatik/lage_notizen.md`
 - 09:36 📈 Statistik 2026-10-30 ([`306d2f3`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/306d2f3df37992e1b8318614542af84b120eaef6))
   - `automatik/statistik`
 - 08:24 📡 Radar 2026-10-30: 8 Beiträge, 0 DM-Entwürfe ([`7f8a129`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8a12946273379606ee28fd117c888dd4db3dc3))

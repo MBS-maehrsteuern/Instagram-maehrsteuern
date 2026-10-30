@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Overlay „Weihnachtsfeier: 110 € pro Kopf steuerfrei“ – TRANSPARENT (omitBackground), liegt über Loris' Video.
+     Hook 0–4,70 Hakentafel oben | 4,70–29,08 Pop-up-Karte (Video dahinter weichgezeichnet) | 29,08–33,03 Folge-Hinweis unten.
+     render(t) zeichnet Frame t (Sekunden), deterministisch. Rendern: premium/rendern_alpha.mjs -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;color:var(--text);font-family:var(--sans)}
+.out{font-family:"Outfit"}.mono{font-family:var(--mono)}
+.chip{display:inline-block;font-family:var(--mono);font-size:26px;letter-spacing:.12em;padding:9px 20px;border-radius:12px;background:rgba(83,195,162,.2);color:var(--gruen2);font-weight:600}
+/* Hook */
+#hook{position:absolute;left:70px;right:70px;top:150px;height:390px;border-radius:44px;background:rgba(7,12,10,.8);border:2px solid #1E3A31;
+  box-shadow:0 20px 60px rgba(0,0,0,.45),0 0 60px rgba(83,195,162,.18);padding:34px 40px;text-align:center;transform-origin:50% 50%}
+#hook .k{font-family:var(--mono);font-size:34px;letter-spacing:.24em;color:var(--gruen2);font-weight:600;display:flex;justify-content:center;align-items:center;gap:16px}
+#hook .k i{width:16px;height:16px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+#hook .g{font-family:"Outfit";font-weight:700;font-size:128px;line-height:1.02;letter-spacing:-.03em;margin-top:14px;white-space:nowrap}
+#hook .s{font-family:"Outfit";font-weight:700;font-size:112px;line-height:1.05;color:var(--gruen);text-shadow:0 0 40px rgba(83,195,162,.45)}
+/* Karte */
+#karte{position:absolute;left:90px;width:900px;top:390px;height:980px;border:2px solid var(--rand);border-radius:38px;opacity:0;
+  background:linear-gradient(180deg,rgba(18,40,33,.88),rgba(8,15,12,.94));
+  box-shadow:0 0 0 1px rgba(83,195,162,.06) inset,0 30px 80px rgba(0,0,0,.55),0 0 70px rgba(83,195,162,.12);overflow:hidden}
+.sz{position:absolute;inset:0;padding:46px 46px 40px;opacity:0}
+.sz h1{font-family:"Outfit";font-weight:700;font-size:92px;line-height:1.02;letter-spacing:-.025em;margin-top:26px}
+.sz h1.k2{font-size:70px;line-height:1.08}
+.sz h2{font-family:var(--serif);font-weight:500;font-size:60px;line-height:1.1;color:var(--gruen);text-shadow:0 0 36px rgba(83,195,162,.35);margin-top:14px}
+.foot{position:absolute;left:46px;right:46px;bottom:34px;font-family:var(--mono);font-size:28px;letter-spacing:.06em;color:var(--text2)}
+.it{display:flex;align-items:center;gap:26px;height:96px;margin-top:12px;padding:0 28px;border-radius:22px;border:2px solid #22352E;background:#0B1411;font-family:"Outfit";font-size:62px;letter-spacing:-.01em}
+.it i{width:34px;height:34px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen);flex:none;position:relative}
+.it i::after{content:"";position:absolute;left:10px;top:5px;width:9px;height:17px;border:solid #07100c;border-width:0 5px 5px 0;transform:rotate(40deg)}
+.extra{margin-top:22px;font-size:40px;color:var(--text2);line-height:1.25}.extra b{color:var(--gruen2);font-weight:600}
+.pr{display:flex;align-items:center;gap:22px;height:180px;margin-top:30px;padding:0 24px;border-radius:24px;border:2px solid #22352E;background:#0B1411;position:relative;overflow:hidden}
+.pr .ic{width:150px;flex:none;display:flex;gap:6px}
+.pr .ic svg{width:44px;height:60px}.pr .ic{width:160px}
+.pr .bx{flex:1;height:34px;border-radius:12px;background:#13211C;position:relative;overflow:hidden}
+.pr .bx>i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--gruen),var(--gruen2));box-shadow:0 0 20px var(--gruen)}
+.pr .w{width:270px;text-align:right;font-family:"Outfit";font-size:64px;color:var(--gruen2);flex:none;white-space:nowrap}
+.pr .n{position:absolute;left:24px;top:12px;font-family:var(--mono);font-size:22px;color:var(--grau);letter-spacing:.1em}
+.sp{height:70px;border-radius:16px;display:flex;overflow:hidden;margin-top:44px;border:2px solid #22352E}
+.sp div{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:26px;letter-spacing:.08em;white-space:nowrap;overflow:hidden}
+.opt{margin-top:34px;border-radius:26px;border:2px solid #22352E;background:#0B1411;padding:34px 34px;position:relative}
+.opt .b{font-family:var(--mono);font-size:26px;letter-spacing:.14em;font-weight:600}
+.opt .t{font-family:"Outfit";font-size:62px;line-height:1.05;margin-top:8px}
+.opt.g{border-color:var(--gruen);background:rgba(83,195,162,.13);box-shadow:0 0 40px rgba(83,195,162,.3)}.opt.g .b{color:var(--gruen)}
+.opt.r{border-color:var(--rot);background:rgba(224,122,107,.10);box-shadow:0 0 40px rgba(224,122,107,.25)}.opt.r .b{color:var(--rot)}
+/* Untertitel */
+#utw{position:absolute;left:0;right:0;top:1560px;text-align:center;height:170px}
+#ut{display:inline-block;max-width:940px;font-family:"Outfit";font-weight:700;font-size:64px;line-height:1.18;color:rgba(238,244,240,.6);
+  padding:16px 34px 20px;border-radius:30px;background:rgba(7,12,10,.74);text-shadow:0 3px 14px rgba(0,0,0,.9)}
+#ut span.on{color:var(--text)}#ut span.jetzt{color:var(--gruen2);text-shadow:0 0 22px rgba(83,195,162,.6),0 3px 14px rgba(0,0,0,.9)}
+/* CTA */
+#cta{position:absolute;left:90px;right:90px;top:1560px;height:210px;border-radius:40px;background:rgba(7,12,10,.82);border:2px solid var(--gruen);
+  box-shadow:0 0 60px rgba(83,195,162,.3),0 20px 60px rgba(0,0,0,.5);text-align:center;padding-top:26px;opacity:0}
+#cta .a{font-family:"Outfit";font-weight:700;font-size:56px;letter-spacing:-.01em}
+#cta .h{font-family:"Outfit";font-weight:700;font-size:78px;color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.6);margin-top:6px}
+</style></head><body>
+
+<div id="hook">
+ <div class="k"><i></i>WEIHNACHTSFEIER</div>
+ <div class="g">110 € pro Kopf</div>
+ <div class="s">steuerfrei</div>
+</div>
+
+<div id="karte">
+ <section class="sz" id="sA">
+  <span class="chip">§ 19 ABS. 1 NR. 1A ESTG</span>
+  <h1>Zählt alles mit:</h1>
+  <div id="itA">
+   <div class="it"><i></i>Catering</div>
+   <div class="it"><i></i>Events</div>
+   <div class="it"><i></i>Bühne</div>
+   <div class="it"><i></i>Bowling</div>
+   <div class="it"><i></i>Kartbahn</div>
+  </div>
+  <div class="extra" id="exA">auch <b>Getränke, Raum, Fahrt</b></div>
+  <div class="foot">je Feier · bis 2 Feiern pro Jahr</div>
+ </section>
+ <section class="sz" id="sB">
+  <span class="chip">110 € GESAMT · DEIN ANTEIL PRO PERSON</span>
+  <h1 class="k2" id="tB">Partner &amp; Familie zählen bei dir mit</h1>
+  <div id="rB">
+   <div class="pr"><span class="n">1 PERSON</span><div class="ic" style="margin-top:34px"></div><div class="bx" style="margin-top:34px"><i></i></div><div class="w" style="margin-top:34px"></div></div>
+   <div class="pr"><span class="n">2 PERSONEN</span><div class="ic" style="margin-top:34px"></div><div class="bx" style="margin-top:34px"><i></i></div><div class="w" style="margin-top:34px"></div></div>
+   <div class="pr"><span class="n">3 PERSONEN</span><div class="ic" style="margin-top:34px"></div><div class="bx" style="margin-top:34px"><i></i></div><div class="w" style="margin-top:34px"></div></div>
+  </div>
+  
+ </section>
+ <section class="sz" id="sC">
+  <span class="chip" style="background:rgba(224,122,107,.18);color:var(--rot)">MEHR ALS 110 €</span>
+  <h1 id="tC">Über 110 €?</h1>
+  <h2 id="uC">Nur der Teil darüber wird versteuert</h2>
+  <div class="sp" id="spC"><div id="spg" style="width:0;background:rgba(83,195,162,.25);color:var(--gruen2)">110 € FREI</div><div id="spr" style="width:0;background:rgba(224,122,107,.3);color:var(--rot)">REST</div></div>
+  <div class="opt r" id="oC1"><div class="b">OPTION 1</div><div class="t">bei dir als Lohn</div></div>
+  <div class="opt g" id="oC2"><div class="b">OPTION 2</div><div class="t">oder 25 % pauschal vom Arbeitgeber</div></div>
+ </section>
+</div>
+
+<div id="utw"><div id="ut"></div></div>
+
+<div id="cta"><div class="a">Folg mir für mehr Insider-Tipps</div><div class="h">@maehrsteuern</div></div>
+
+<script src="motion.js"></script>
+<script>
+const W=
+[["Vom", 0.08], ["Finanzamt", 0.92], ["gibt", 1.34], ["es", 1.48], ["auch", 1.58], ["Weihnachtsgeschenke", 1.68], ["und", 2.42], ["genau", 2.98], ["zu", 3.18], ["sein", 3.32], ["110", 3.48], ["Euro", 3.86], ["Catering,", 4.79], ["Events,", 6.21], ["Bühnenauftritte,", 7.35], ["Bowling,", 8.41], ["Kartbahn,", 9.27], ["alles", 10.03], ["was", 10.09], ["man", 10.25], ["sich", 10.39], ["so", 10.53], ["vorstellen", 10.65], ["kann.", 10.93], ["Wenn", 11.41], ["du", 11.69], ["Freundin", 11.81], ["und", 12.11], ["Familie", 12.21], ["mitbringst,", 12.51], ["wird", 13.53], ["das", 13.77], ["anteilig", 13.89], ["alles", 14.31], ["auf", 14.45], ["dich", 14.63], ["gerechnet.", 14.77], ["Das", 15.13], ["bedeutet,", 15.47], ["bei", 15.93], ["zwei", 16.03], ["Personen", 16.25], ["hast", 16.65], ["du", 16.87], ["nur", 16.97], ["noch,", 17.07], ["55", 17.21], ["Euro", 17.69], ["pro", 17.97], ["Person", 18.15], ["und", 18.51], ["bei", 19.07], ["drei", 19.23], ["Personen", 19.45], ["nur", 20.19], ["noch,", 20.51], ["36", 20.63], ["Euro,", 21.23], ["60,", 22.57], ["circa.", 22.89], ["Kosten", 23.84], ["über", 24.08], ["dem", 24.38], ["Freibetrag", 24.5], ["werden", 25.14], ["bei", 25.6], ["dir", 25.78], ["persönlich", 26.14], ["versteuert", 26.76], ["oder", 27.36], ["pauschal", 27.76], ["vom", 28.34], ["Arbeitgeber.", 28.48], ["Folgt", 29.16], ["mir", 29.68], ["für", 29.92], ["noch", 30.18], ["mehr", 30.3], ["Insider-Tipps", 30.46], ["zum", 31.46], ["Jahresende", 31.6], ["aus", 32.04], ["dem", 32.24], ["Finanzamt.", 32.36]];
+const $=id=>document.getElementById(id);
+const {cl,p,ease}=M;
+// Wortgruppen für Untertitel (max. 5 Wörter, Satzzeichen beenden eine Gruppe)
+const G=[];{let g=[];W.forEach((w,i)=>{g.push(i);if(/[.,]$/.test(w[0])||g.length>=5){G.push(g);g=[]}});if(g.length)G.push(g)}
+const MAXT=29.08;
+const person='<svg viewBox="0 0 44 60"><circle cx="22" cy="14" r="11" fill="#7FE0C2"/><path d="M3 58c0-17 8-26 19-26s19 9 19 26z" fill="#53C3A2"/></svg>';
+document.querySelectorAll("#rB .pr").forEach((r,i)=>r.querySelector(".ic").innerHTML=person.repeat(i+1));
+const SZ=[["sA",4.70,11.35],["sB",11.35,23.28],["sC",23.28,29.08]];
+const euro=(v,z)=>Math.abs(v-z)<.005?z.toLocaleString("de-DE",{minimumFractionDigits:z%1?2:0,maximumFractionDigits:2})+" €":Math.round(v)+" €";
+function reihe(el,i,t,t0,ziel){
+  const x=p(t,t0,.5),r=$("rB").children[i];
+  r.style.opacity=ease.out(p(t,t0,.3));r.style.transform=`translateY(${(1-ease.out(p(t,t0,.4)))*40}px)`;
+  r.querySelector(".bx>i").style.width=(ziel/110*100*ease.out(x))+"%";
+  const v=110+(ziel-110)*ease.out(x);
+  r.querySelector(".w").textContent=(i==2&&x>=1?"≈ ":"")+euro(v,ziel);
+}
+function render(t){
+  // ---- Hook (steht ab Frame 0, kleiner Einschlag) ----
+  const h=$("hook"),hi=ease.overshoot(p(t,0,.4)),ho=p(t,4.42,.28);
+  h.style.opacity=t<4.42?1:1-ease.out(ho);
+  h.style.transform=`translateY(${-40*ease.out(ho)}px) scale(${.9+.1*hi})`;
+  // ---- Karte ----
+  const k=$("karte");
+  if(t<4.70||t>=29.08){k.style.opacity=0}
+  else if(t<5.1){M.popIn(k,t,4.70,.4)}
+  else{const o=p(t,28.82,.26);k.style.opacity=1-ease.out(o);k.style.transform=`scale(${1-.08*ease.out(o)}) translateY(${-24*ease.out(o)}px)`}
+  SZ.forEach(([id,a,b])=>{
+    const e=$(id),ein=ease.out(p(t,a+(a===4.70?.15:0),.35)),aus=ease.inOut(p(t,b-.28,.28));
+    e.style.opacity=(t>=a&&t<b)?(a===4.70?1:ein)*(b>=29.08?1:1-aus):0;
+    e.style.transform=`translateX(${(1-ein)*60-(b<29.08?aus*60:0)}px)`;
+  });
+  // Szene A: Punkte passend zu den Wörtern
+  [4.79,6.21,7.35,8.41,9.27].forEach((s,i)=>{const e=$("itA").children[i],x=ease.out(p(t,s-.05,.35));
+    e.style.opacity=x;e.style.transform=`translateX(${(1-x)*-70}px)`;
+    e.style.borderColor=t>=s&&t<s+.8?"#53C3A2":"#22352E";e.style.background=t>=s&&t<s+.8?"rgba(83,195,162,.16)":"#0B1411"});
+  const ex=ease.out(p(t,10.03,.4));$("exA").style.opacity=ex;$("exA").style.transform=`translateY(${(1-ex)*30}px)`;
+  // Szene B: 110 → 55 → 36,67
+  reihe(0,0,t,13.53,110);reihe(0,1,t,16.0,55);reihe(0,2,t,19.2,36.6667);
+  $("tB").style.opacity=1;
+  // Szene C
+  const gx=ease.out(p(t,24.0,.7));$("spg").style.width=(64*gx)+"%";$("spr").style.width=(36*gx)+"%";
+  $("spg").style.opacity=$("spr").style.opacity=gx>.05?1:0;
+  const u=ease.out(p(t,24.4,.4));$("uC").style.opacity=u;$("uC").style.transform=`translateY(${(1-u)*24}px)`;
+  [["oC1",26.14],["oC2",27.76]].forEach(([id,s])=>{const e=$(id),x=ease.overshoot(p(t,s-.1,.4));e.style.opacity=cl(x*1.5);e.style.transform=`scale(${.9+.1*x})`});
+  // CTA
+  const c=$("cta"),cx=ease.overshoot(p(t,29.12,.45));
+  c.style.opacity=t<29.12?0:cl(cx*1.5);c.style.transform=`translateY(${(1-cx)*70}px)`;
+  // Untertitel
+  const ut=$("ut"),uw=$("utw");
+  const gi=G.findIndex((gr,i)=>t>=W[gr[0]][1]-.05&&(i===G.length-1||t<W[G[i+1][0]][1]-.05));
+  if(gi<0||t>=MAXT){uw.style.display="none";return}
+  const g=G[gi],ende=W[g[g.length-1]][1]+1.1;
+  if(t>ende&&gi<G.length-1&&t<W[G[gi+1][0]][1]-.05&&false){}
+  uw.style.display="block";
+  const last=g.filter(j=>t>=W[j][1]).pop();
+  ut.innerHTML=g.map(i=>`<span class="${t>=W[i][1]?(i===last?"jetzt":"on"):""}">${W[i][0]}</span>`).join(" ");
+}
+window.render=render;render(0);
+</script></body></html>
