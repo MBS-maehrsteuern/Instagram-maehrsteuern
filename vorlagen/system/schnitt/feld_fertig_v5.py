@@ -13,9 +13,9 @@ for n,ziel in [('weihnachtsfeier','weihnachtsfeier_110'),('kundengeschenk','kund
     m['zeiten']=z; m['dauer']=d; json.dump(m,open(O/f'{n}_mapping.json','w'))
     # Hintergrund für den Blur: Hook-Teile (KI) + Büro-Schleife (KI-Hook vor/zurück) + Schluss
     hook=[x for x in L if f'{n}_v3_0_' in x]; hd=sum(dur(x.split("'")[1]) for x in hook); mitte=m['cta']-hd
-    # Loris 31.10.: weder Vor-/Zurück-Schleife noch Standbild – KI-Bewegung (Runway Gen-4 Turbo aus dem letzten Hook-Bild, 10 s),
+    # Loris 31.10.: echter Gang aus dem KI-Hook, nur vorwärts; weder Vor-/Zurück-Schleife noch Standbild noch KI-Sprechclip – KI-Bewegung (Runway Gen-4 Turbo aus dem letzten Hook-Bild, 10 s),
     # nur vorwärts, bei Bedarf mehrfach mit 1 s Überblendung aneinandergehängt
-    src=O/f'{n}_bewegung.mp4'; L1=dur(src); k=max(1,int((mitte-1)//(L1-1))+1)
+    src=O/f'hook_ki_{n[0]}.mp4'; L1=dur(src); k=max(1,int((mitte-1)//(L1-1))+1)
     ins=[]; [ins.extend(['-i',str(src)]) for _ in range(k)]
     f=';'.join(f'[{i}:v]scale=1080:1920,fps=30,setpts=PTS-STARTPTS[c{i}]' for i in range(k)); last='c0'
     for i in range(1,k):
