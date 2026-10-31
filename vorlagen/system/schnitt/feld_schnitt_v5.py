@@ -34,7 +34,7 @@ for name,(clip,segs) in REELS.items():
         for j,(p,r) in enumerate(teile(q,a,b) if len(s)<=3 else [(a,b)]):
             teil=R/f'out/{name}_v3_{i}_{j}.mov'; d=r-p
             subprocess.run(['ffmpeg','-loglevel','error','-y',*( ['-ss',f'{p-a:.3f}','-t',f'{d:.3f}','-i',str(R/f'out/hook_ki_{name[0]}.mp4')] if i==0 else ['-ss',f'{p:.3f}','-t',f'{d:.3f}','-i',str(R/f'{q}.mp4')] ),'-ss',f'{p:.3f}','-t',f'{d:.3f}','-i',str(R/f'iso_{q[4:]}.wav'),'-ss',f'{p:.3f}','-t',f'{d:.3f}','-i',str(R/f'iso_in_{q[4:]}.wav'),'-map','0:v','-map','[a]','-vf','fps=30,scale=1080:1920',
-              '-filter_complex',f"[2:a]highpass=f=180,lowpass=f=9000,volume=0.3,aresample=48000[o];[1:a][o]amix=inputs=2:normalize=0,{k},afade=t=in:d=0.02,afade=t=out:st={d-0.04:.3f}:d=0.04[a]",'-c:v','libx264','-crf','17','-preset','fast','-pix_fmt','yuv420p',
+              '-filter_complex',f"[2:a]highpass=f=180,lowpass=f=9000,agate=threshold=0.03:ratio=6:attack=5:release=80,volume=0.1,aresample=48000[o];[1:a][o]amix=inputs=2:normalize=0,{k},afade=t=in:d=0.02,afade=t=out:st={d-0.04:.3f}:d=0.04[a]",'-c:v','libx264','-crf','17','-preset','fast','-pix_fmt','yuv420p',
               '-c:a','pcm_s16le','-ar','48000',str(teil)],check=True)
             liste.append(f"file '{teil}'")
             dd=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(teil)]))
