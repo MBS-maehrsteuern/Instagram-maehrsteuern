@@ -10,7 +10,8 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - **Testmonat** (Tag 20/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (5 online · 2 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
-- **Freie Slots nächste 7 Tage:** keine
+- **Freie Slots nächste 7 Tage** (1):
+  - Sa 07.11.: Story 12:15
 
 **Als Nächstes online:** 🎬 Reel `52-reel-gobd` am **Sa 31.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
