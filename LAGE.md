@@ -1,19 +1,19 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 09:27 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 17:45 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `meme4-story` (gestrichen) · 🟢 17:45 🎬 Reel `52-reel-gobd` (läuft automatisch) · 🟡 17:50 📱 Story `45-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `meme4-story` (gestrichen) · ✅ 17:45 🎬 Reel `52-reel-gobd` (online) · 🟡 17:50 📱 Story `45-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **6107** (24.10.–30.10., +296 % zur Vorwoche) · Follower **+107** (jetzt 481) · 30 Tage: +98 Follows / −14 entfolgt
 - **Testmonat** (Tag 20/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (5 online · 2 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
+  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (6 online · 1 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
   - Sa 07.11.: Story 12:15
 
-**Als Nächstes online:** 🎬 Reel `52-reel-gobd` am **Sa 31.10. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🖼️ Karussell `35-karussell-steuerkalender` am **So 01.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -86,7 +86,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Sa 31.10. 12:15 | 📱 Story `meme4-story` | gestrichen | 28.10.: eigenes Steuer-Meme (BESCHEID), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
-| Sa 31.10. 17:45 | 🎬 Reel `52-reel-gobd` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (115_marimba_corporate, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-27. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-27 17:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-26 17:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p52_reel_stimme_bauen.py, Vorschau vorschau_stimme.png), alte Fassung reel_ohne_stimme.mp4. Wartet auf go. · 14.10. Nachtlauf (d2): aus Bibliothek (R4 gegengelesen, karussell/gobd), Reel ohne Stimme 14,0 s, −17,9 LUFS (Peak −3,5 dBFS), Atmo Uhr + Fehlerton im Hook, Musik 11 Future Garage ab 2,4 s. Titelbild neu als Prüfer-Fall „Der Prüfer öffnet deine Excel.“, Karten aus gobd Folien 5/4/6 (3 Punkte: unveränderbar, zeitgerecht, dokumentiert; schnitt/p52_55_karten_bauen.py), Abspann „Kommentiere TOOL“ (jobs/p52_reel_gobd.json), Schnitt schnitt/p52_reel_gobd.json. Geprüft: § 145 Abs. 1, § 146 Abs. 1 und 4, § 147 Abs. 6 AO, 10-Tage-Richtwert GoBD für unbare Vorgänge. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-10-31. |
 | Sa 31.10. 17:50 | 📱 Story `45-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum vGA-Reel (Titelbild), jobs/p45_reel_vga.json. |
 | So 01.11. 12:15 | 📱 Story `46-story-zdt` | pausiert | 14.10. Nachtlauf: Tipp-Story Zahl des Tages storys/zdt_8b (R3 gegengelesen, „ab 10 % Beteiligung“ bereits korrigiert) zum § 8b-Karussell. |
 | So 01.11. 12:15 | 📱 Story `meme5-story` | gestrichen | 28.10.: eigenes Steuer-Meme (BELEGE), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
@@ -108,12 +107,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 17:45 | 🎬 Reel `i02-reel-insider-kontenabruf` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (129_breaks_lounge, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-03. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #02 (Aufnahme 26.10.), Premium-Look premium/insider_02.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-06. |
 | Fr 06.11. 17:50 | 📱 Story `56-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum Verjährungs-Karussell (Folie 1), jobs/p56_verjaehrung.json. |
+| Sa 07.11. 17:45 | 🎬 Reel `40-reel-formeln` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-03. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-28 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-27 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-28 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p40_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-07. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 07.11. 17:45 | 🎬 Reel `40-reel-formeln` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-03. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-28 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-27 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-28 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p40_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen, $C$12-Satz korrigiert), Reel ohne Stimme 13,7 s, −18,0 LUFS, Atmo Tippen + Fehlerton im Hook, Musik 12 Pop Electronic. Fall „=WENNFEHLER(…; 0): Fehler weg, Steuer auch“ + 2 Lösungen (XVERWEIS statt Festwert, Namen statt $C$12) = 3 Punkte; MAX/ABRUNDEN bewusst weggelassen (stehen schon im Paragraf-Formel-Reel 24.10.). Karten aus karussell/excel_formeln Folien 6, 2, 5 (schnitt/p36_40_karten_bauen.py), Titelbild + Abspann TOOL neu (jobs/p40_reel_formeln.json), Schnitt schnitt/p40_reel_formeln.json. Raster Mi A verlangt Stimme → Abweichung (ohne Aufnahme). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-07. |
 | Sa 07.11. 17:50 | 📱 Story `57-story-teaser` | pausiert | 14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum § 8c-Reel (Titelbild), jobs/p57_reel_verlust_8c.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird. |
 | So 08.11. 12:15 | 📱 Story `58-story-tipp` | pausiert | 14.10. Nachtlauf (d3): Tipp-Story mit Emoji-Reaktion „Bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)“ zum Vorsteuer-Reel, jobs/p58_reel_vorsteuer.json. |
 | So 08.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 29.10.: verschoben 2026-11-04 → 2026-11-08 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
@@ -151,6 +150,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Sa 31.10. 17:45 · 🎬 Reel `52-reel-gobd` · [ansehen](https://www.instagram.com/reel/DfKgI-ZEb9C/) (online 2026-10-31 17:45)
 - Fr 30.10. 17:45 · 🎬 Reel `i01-reel-insider-programm` · [ansehen](https://www.instagram.com/reel/DfILcg8DfQm/) (online 2026-10-30 19:02)
 - Do 29.10. 17:45 · 🎬 Reel `i14-reel-insider-ferrari` · [ansehen](https://www.instagram.com/reel/DfFcLcFk7yt/) (online 2026-10-29 17:45)
 - Mi 28.10. 17:45 · 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` · [ansehen](https://www.instagram.com/reel/DfC3UzMCo4m/) (online 2026-10-28 17:45)
@@ -160,7 +160,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - So 25.10. 17:45 · 🎬 Reel `30-reel-gwg` · [ansehen](https://www.instagram.com/reel/De7JF3cAGrX/) (online 2026-10-25 17:45)
 - Sa 24.10. 12:15 · 📱 Story `36-story-tipp` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4014930017247382776) (online 2026-10-24 12:16)
 - Sa 24.10. 11:14 · 🎬 Reel `36-reel-bewirtung` · [ansehen](https://www.instagram.com/reel/De3yheAFKBg/) (online 2026-10-24 11:17)
-- Do 22.10. 11:50 · 🎬 Reel `62-reel-glaesern` · [ansehen](https://www.instagram.com/reel/DezHdgPt1_0/) (online 2026-10-22)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -203,6 +202,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 31.10.2026**
+- 17:45 🤖 Autopilot: 52-reel-gobd veroeffentlicht ([`6b8e212`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6b8e2120700b8385b401cc6246303e7993bb814a))
+  - Plan: `52-reel-gobd` status: freigegeben → veroeffentlicht; `52-reel-gobd` online: https://www.instagram.com/reel/DfKgI-ZEb9C/
+- 16:39 🤖 Autopilot: Dateien fuer 52-reel-gobd vorbereitet ([`d6b1650`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d6b165079eeb060f6e2f291635273e423cfa05d4))
+  - `posts/52_2026-11-04_reel_gobd`
 - 09:27 📡 Radar 2026-10-31: 8 Beiträge, 0 DM-Entwürfe ([`6dc1100`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6dc1100c9fdf09ca8031fd7f9fa3de4e39f30651))
   - `automatik/interaktion`
 - 09:20 📈 Statistik 2026-10-31 ([`b8b8dba`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b8b8dba1e584e1c9a7286f8b24176b03ed9eb586))
