@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 00:43 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 31.10. 03:18 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -16,6 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Blur-Hintergrund (Loris 31.10.):** weder Vor-/Zurück-Schleife (wirkt wie Hin- und Herlaufen) noch Standbild – Runway Gen-4 Turbo macht aus dem letzten Hook-Bild 10 s natürliche Bewegung (~50 Credits), mehrfach mit 1 s Überblendung, nur vorwärts. Clips in `aufnahmen/2026-10-30/ki/*_bewegung.mp4`.
 - **Büro-Look Standard (Loris 31.10.):** Reels durchgehend im KI-Büro-Look – Hook per Aleph (Büro, grüne Jacke, ohne Ohrstöpsel, echte Mundbewegung, ~135 Credits), Blur-Mitte = verschwommenes Büro (Hook-Clip vor/zurück geschleift), Schluss = `bausteine/cta_buero_gruen_ki.mp4`. Beide Feld-Reels so fertig (`aufnahmen/2026-10-30/reels/`), KI-Hooks in `aufnahmen/2026-10-30/ki/`. KI-Label beim Posten.
 - **Erkenntnis 30.10. abends:** Lipsync (Seedance) passt nicht – Lippen folgen eigener Fantasie-Tonspur, ~950 Credits. Besser: Loris filmt den Satz selbst (beliebiger Ort), dann Runway Aleph (`edit_video`) nur Hintergrund/Jacke/Ohrstöpsel tauschen – echte Mundbewegung bleibt, ~28 Credits/s (3 s ≈ 85), danach `upscale_video` auf 4K (~6 Credits). Schluss-Baustein so neu: `bausteine/cta_buero_gruen_4k.mp4`.
 - **KI-Büro-Look (Loris 30.10.):** 2–3 Reels pro Woche mit KI-Hook (Runway Seedance 2.5, Lipsync auf Loris' ECHTE Sprachnachricht, Büro-Hintergrund, grüne Jacke, ~950 Credits je Hook = fester Mindestpreis), Mitte Blur + Pop-up-Karten, Schluss = Baustein `aufnahmen/2026-10-30/bausteine/cta_buero_gruen_ki.mp4` (wiederverwendbar, 0 Credits). Übrige Reels: echte Aufnahmen im Blur-Format. KI-Label beim Posten einschalten. Ablauf: Loris schickt Skript als Sprachnachricht → nur erste ~3 s lippensynchron → Ton-Check → einplanen.
@@ -209,6 +210,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 31.10.2026**
+- 03:18 ✍️ Feld-Reels: Blur-Hintergrund als Standbild mit langsamem Zoom statt Vor-/Zurück-Schleife ([`8f4f38d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8f4f38dc811bd38f86dd105440b307e6fd62938c))
+  - `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `vorlagen/system/schnitt/feld_fertig_v5.py`
+- 00:58 ✍️ Feld-Reels komplett im Büro-Look: KI-Hook, Büro-Blur-Hintergrund, KI-Schluss ([`fb99a71`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fb99a7113d23f49250aa913f000b6073ced0e088))
+  - `CLAUDE.md`, `LAGE.html`, `aufnahmen/2026-10-30/ki/hook_ki_k.mp4`, `aufnahmen/2026-10-30/ki/hook_ki_w.mp4`, `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `…`
 - 00:43 ✍️ Feld-Reels: Schluss mit KI-Baustein (Büro, grüne Jacke) statt Feld-Video ([`2ed7a69`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2ed7a69e5b5e5b5c8d6fc6c603fdd7dbdd92d163))
   - `aufnahmen/2026-10-30/reels/kundengeschenk_50.mp4`, `aufnahmen/2026-10-30/reels/weihnachtsfeier_110.mp4`, `vorlagen/system/schnitt/feld_zusammen_kreis.py`
 - 00:36 ✍️ Schluss-Baustein ruhiger: 10 % langsamer, Ausatmer ausgeblendet, wärmere Stimme ([`ee73259`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ee7325944027873344190c63be1b2cd7f659a745))
