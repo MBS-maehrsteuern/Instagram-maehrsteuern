@@ -178,7 +178,6 @@ Reichweite pro Tag: 29.10. **1480** · 30.10. **1552** · 31.10. **1031** · 01.
 | Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 289 (+21) | 256 | 5 | 1 | 2 | 0 |
 | Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 265 (+17) | 194 | 10 | 4 | 8 | 14 |
 | Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 201 (+13) | 92 | 2 | 0 | 1 | 0 |
-| So 18.10. 13:39 [Kürzungen Gewerbesteuer nach § 9 GewStG:](https://www.instagram.com/p/DeomJhQG4o8/) | 276 (+13) | 127 | 4 | 0 | 5 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
