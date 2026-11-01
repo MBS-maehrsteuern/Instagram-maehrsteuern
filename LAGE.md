@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `meme4-story` (gestrichen) · ✅ 17:45 🎬 Reel `52-reel-gobd` (online) · 🟡 17:50 📱 Story `45-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `46-story-zdt` (pausiert) · 🟡 12:15 📱 Story `meme5-story` (gestrichen) · 🟢 17:45 🖼️ Karussell `35-karussell-steuerkalender` (läuft automatisch) · 🟡 17:45 🎬 Reel `47-reel-betriebsaufspaltung` (pausiert) · 🟡 17:50 📱 Story `47-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **6107** (24.10.–30.10., +296 % zur Vorwoche) · Follower **+107** (jetzt 481) · 30 Tage: +98 Follows / −14 entfolgt
-- **Testmonat** (Tag 20/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 21/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **7/7** (6 online · 1 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
   - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
@@ -85,7 +85,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 31.10. 17:50 | 📱 Story `45-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum vGA-Reel (Titelbild), jobs/p45_reel_vga.json. |
 | So 01.11. 12:15 | 📱 Story `46-story-zdt` | pausiert | 14.10. Nachtlauf: Tipp-Story Zahl des Tages storys/zdt_8b (R3 gegengelesen, „ab 10 % Beteiligung“ bereits korrigiert) zum § 8b-Karussell. |
 | So 01.11. 12:15 | 📱 Story `meme5-story` | gestrichen | 28.10.: eigenes Steuer-Meme (BELEGE), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“). |
 | So 01.11. 17:45 | 🖼️ Karussell `35-karussell-steuerkalender` | 🟢 freigegeben (geht automatisch online) | 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-01. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-01. · 25.10.: Termin 2026-11-01 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 25.10.: Slot an Einspruch-Reel abgegeben, neuer Termin beim Umbau auf Premium-Look. · 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Folie 2 präzisiert (Dauerfristverlängerung nur USt, § 46 UStDV), Folie 6 Speichern + Weiterleiten neu (Job p35_steuerkalender.json), Alt-Texte in alt_texte.json. Caption: 15.11.2026 = Sonntag → 16.11. |
@@ -454,6 +453,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 03:54 ✍️ Plan: Gläsern-Reel als veröffentlicht nachgetragen (online seit 22.10., Link von Loris) ([`f4a6fa7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f4a6fa72b7bed214dee8ebac0997bf9a0bbadf4c))
   - Plan: `62-reel-glaesern` status: manuell → veroeffentlicht; `62-reel-glaesern` zeit: 2026-10-25 11:45 → 2026-10-22 11:50; `62-reel-glaesern` online: https://www.instagram.com/reel/DezHdgPt1_0/
 
+<details><summary>Älter als 7 Tage</summary>
+
 **So 25.10.2026**
 - 19:52 ✍️ Wochenbericht KW 2026-43 ([`1c85f7c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1c85f7cbe983760378f83fe49f650c88bc79905e))
   - `automatik/statistik`
@@ -534,8 +535,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:47 📡 Radar 2026-10-25: 8 Beiträge, 0 DM-Entwürfe ([`0997767`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0997767e1fd6edd8a6f028f3e893148e891e6b2d))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Sa 24.10.2026**
 - 12:16 🤖 Autopilot: 36-story-tipp veroeffentlicht ([`d016057`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d016057e025c11484907b76f7b767d8a6e3c9476))
