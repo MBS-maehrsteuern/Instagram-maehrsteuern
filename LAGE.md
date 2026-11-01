@@ -4,12 +4,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `46-story-zdt` (pausiert) · 🟡 12:15 📱 Story `meme5-story` (gestrichen) · ✅ 17:45 🖼️ Karussell `mbs-karussell-launch` (online) · ✅ 17:45 🖼️ Karussell `35-karussell-steuerkalender` (online) · 🟡 17:45 🎬 Reel `47-reel-betriebsaufspaltung` (pausiert) · 🟡 17:50 📱 Story `47-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `48-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `49-story-teaser` (pausiert)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **6937** (25.10.–31.10., +353 % zur Vorwoche) · Follower **+142** (jetzt 516) · 30 Tage: +143 Follows / −14 entfolgt
-- **Testmonat** (Tag 21/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 44** (26.10.–01.11.) ← jetzt: Feed **8/7** (8 online · 0 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: So 01.11.
-  - 🟡 **KW 45** (02.11.–08.11.): Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
+- **Testmonat** (Tag 22/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
   - Sa 07.11.: Story 12:15
 
@@ -85,8 +84,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 01.11. 17:45 | 🎬 Reel `47-reel-betriebsaufspaltung` | pausiert | 14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi Piano. Titelbild neu als Fall „Halle an die eigene GmbH. Gewerblich.“, 3 Punkte = karussell/betriebsaufspaltung Folien 2–4 (sachliche + personelle Verflechtung, Folge), Betriebsaufgabe-Risiko in der Bildunterschrift. jobs/p47_reel_betriebsaufspaltung.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p47_reel_betriebsaufspaltung.json. |
-| So 01.11. 17:50 | 📱 Story `47-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Betriebsaufspaltungs-Reel (Titelbild), jobs/p47_reel_betriebsaufspaltung.json. |
 | Mo 02.11. 12:15 | 📱 Story `48-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp-Story „Fahrtenbuch: zeitnah und geschlossen“ (nach storys/tipp_fahrtenbuch, R5) zum Firmenwagen-Reel, jobs/p48_reel_firmenwagen.json. |
 | Mo 02.11. 17:45 | 🎬 Reel `i06-reel-insider-schaetzung` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-31. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #06 (Aufnahme 26.10.), Premium-Look premium/insider_06.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-02. |
 | Mo 02.11. 17:50 | 📱 Story `49-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kleinunternehmer-CTA-Reel (Titelbild), jobs/p49_reel_kleinunternehmer.json. |
@@ -375,6 +372,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 07:15 📡 Radar 2026-10-27: 8 Beiträge, 0 DM-Entwürfe ([`489c3fd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/489c3fd7d7d6de8b0739909371b296cf67a03b2c))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 26.10.2026**
 - 20:14 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`67a5204`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/67a520452f717f93234143ad7a92907e58611439))
 - 20:13 ✍️ Sprechtext M1: 5-Jahres-Bindung von Loris bestätigt, Aufnahme 27.10. ([`0676dbc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0676dbc1fbe3ab599cac21c2c5e0dc43d24fa96b))
@@ -471,8 +470,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `posts/sprechtexte.md`
 - 03:54 ✍️ Plan: Gläsern-Reel als veröffentlicht nachgetragen (online seit 22.10., Link von Loris) ([`f4a6fa7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f4a6fa72b7bed214dee8ebac0997bf9a0bbadf4c))
   - Plan: `62-reel-glaesern` status: manuell → veroeffentlicht; `62-reel-glaesern` zeit: 2026-10-25 11:45 → 2026-10-22 11:50; `62-reel-glaesern` online: https://www.instagram.com/reel/DezHdgPt1_0/
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 25.10.2026**
 - 19:52 ✍️ Wochenbericht KW 2026-43 ([`1c85f7c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1c85f7cbe983760378f83fe49f650c88bc79905e))
