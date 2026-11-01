@@ -1,0 +1,140 @@
+{
+ "titel": "Karussell MBS-Launch · 01.11.2026 – Warum ich MBS gebaut habe und was es ist (Loris: Karussell IG + LinkedIn, Angle „Mein Weg + Produkt“, CTA TOOL)",
+ "ausgabe": "../../../../posts/mbs_2026-11-01_launch",
+ "folien": [
+  {
+   "datei": "folie_01.png",
+   "kicker": "Heute online · 1. November",
+   "h1": "Ich bin aus dem Finanzamt raus.",
+   "h2": "Heute geht mein Tool online.",
+   "sub": "Die *MAEHR Business Suite*: Buchhaltung, Lohn, Abschluss und Steuern – in *einer Datei*.",
+   "wisch": "Wisch – warum und was",
+   "speichern": "Speichern für die nächste Bilanz"
+  },
+  {
+   "datei": "folie_02.png",
+   "kicker": "Der alte Weg · so hab ich's erlebt",
+   "h1": "Fünf Tools.",
+   "h2": "Keine Prüfspur.",
+   "h2rot": true,
+   "panel": {
+    "typ": "alter_weg",
+    "kopf": "Abschluss in der Praxis",
+    "kopf2": "jedes Jahr",
+    "punkte": [
+     ["Saldenliste in Excel", "Formeln von Hand, Blatt 7 von 23"],
+     ["Rückstellung im zweiten Tool", "AfA im dritten"],
+     ["Fristen im Kalender", "oder im Kopf"],
+     ["Prüfer fragt: Woher kommt die Zahl?", "…und niemand weiß es mehr"]
+    ]
+   }
+  },
+  {
+   "datei": "folie_03.png",
+   "kicker": "Was MBS ist",
+   "h1": "Eine Datei.",
+   "h2": "Im Browser.",
+   "sub": "Keine Installation, kein Server. Die Datei läuft auf *deinem Rechner*.",
+   "panel": {
+    "typ": "check",
+    "kopf": "Das steckt drin",
+    "kopf2": "65 Module",
+    "punkte": [
+     ["Buchhaltung", "Belege, Bank, offene Posten"],
+     ["Lohn", "mit Dienstwagen und Sachbezug"],
+     ["Abschluss", "Bilanz und GuV als Baum"],
+     ["Steuern", "Rückstellung, Zinsschranke, latente Steuern, USt-Verprobung"]
+    ]
+   }
+  },
+  {
+   "datei": "folie_04.png",
+   "kicker": "Das Wichtigste",
+   "h1": "Jede Zahl",
+   "h2": "bis zum Beleg.",
+   "sub": "Bilanzposten anklicken – und du siehst, *woher die Zahl kommt*.",
+   "panel": {
+    "typ": "liste",
+    "kopf": "Ein Klick, drei Ebenen",
+    "kopf2": "Prüfpfad",
+    "punkte": [
+     ["Bilanzposition", "z. B. Steuerrückstellung"],
+     ["Rechenweg mit Paragraf", "jeder Schritt mit Fundstelle"],
+     ["Buchungszeile und Beleg", "Datei, Zeile, Konto"]
+    ]
+   },
+   "norm": "Rechtsstand 2026 – jeder Wert mit Fundstelle, Updates inklusive"
+  },
+  {
+   "datei": "folie_05.png",
+   "kicker": "So arbeitet MBS",
+   "h1": "Saldenliste rein.",
+   "h2": "Bilanz raus.",
+   "panel": {
+    "typ": "vorher_nachher",
+    "kopfVorher": "Vorher",
+    "kopfJetzt": "Mit MBS",
+    "vorher": [
+     ["Excel je Thema", "Rückstellung, AfA, Zinsen getrennt"],
+     ["Zahlen abtippen", "Fehler wandern mit"]
+    ],
+    "jetzt": [
+     ["Saldenliste laden", "DATEV, SAP oder Excel"],
+     ["Bilanz, GuV, Steuern", "aus einer Quelle, in ganzen Cent"]
+    ]
+   }
+  },
+  {
+   "datei": "folie_06.png",
+   "kicker": "Jeder Tag beginnt gleich",
+   "h1": "Was steht",
+   "h2": "heute an?",
+   "sub": "Feste *Arbeitswege* führen durch Buchhaltung, Lohn, Abschluss und Steuern.",
+   "panel": {
+    "typ": "zahl",
+    "kopf": "Arbeitswege",
+    "kopf2": "5 Bereiche",
+    "gross": "13",
+    "text": "mit *98 Stationen* – vom ersten Beleg bis zum Bescheid, Fristen inklusive."
+   }
+  },
+  {
+   "datei": "folie_07.png",
+   "kicker": "Für wen",
+   "h1": "Unternehmen.",
+   "h2": "Und Kanzlei.",
+   "panel": {
+    "typ": "vergleich",
+    "links": {"titel": "Unternehmen", "wert": "Eigene Zahlen", "text": "Buchhaltung, Bilanz und Steuern selbst – der Steuerberater arbeitet über das *Mandantenpaket* mit."},
+    "rechts": {"titel": "Kanzlei", "wert": "Eine Lizenz", "text": "Alle Mandanten, alle Arbeitswege, beliebig viele Benutzer, Mandantenliste mit *Fortschritt*.", "art": "gut"}
+   },
+   "sub": "Deine Daten bleiben bei dir – *kein Upload* an fremde Server."
+  },
+  {
+   "datei": "folie_08.png",
+   "kicker": "Ehrlich gesagt",
+   "h1": "Kein Steuerberater.",
+   "h2": "Ein Werkzeug.",
+   "sub": "MBS rechnet und zeigt den Weg. Die Verantwortung bleibt beim *Fachmenschen*.",
+   "panel": {
+    "typ": "check",
+    "kopf": "Was du wissen solltest",
+    "kopf2": "Stand heute",
+    "punkte": [
+     ["Demo mit erfundenen Daten", "Muster Logistik GmbH"],
+     ["Rechtsstand 2026", "jeder Wert mit Fundstelle"],
+     ["Ab heute im Verkauf", "wird laufend ausgebaut – dein Feedback zählt"]
+    ]
+   }
+  },
+  {
+   "datei": "folie_09.png",
+   "typ": "cta",
+   "kicker": "Demo ansehen",
+   "h1": "Kommentiere",
+   "wort": "TOOL",
+   "sub": "Ich schick dir die Demo per DM – *mit Beispieldaten*, 15 Minuten, ohne Verkaufsgespräch.",
+   "extra": "📌 *Speichern* für die nächste Bilanz · 📤 *Schick's* an deine Steuerabteilung."
+  }
+ ]
+}
