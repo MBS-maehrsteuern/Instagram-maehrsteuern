@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 01.11. 20:12 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 01.11. 20:15 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -197,6 +197,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 01.11.2026**
+- 20:15 ✍️ Wochenbericht KW 2026-44 ([`e068e28`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e068e28f47704b5fa346f681b83526565eb2d376))
+  - `automatik/statistik`
 - 20:12 🤖 Autopilot: mbs-karussell-launch veroeffentlicht ([`b8b3d63`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b8b3d638f7660a8945ea5aa44007ab30efabdc09))
   - Plan: `mbs-karussell-launch` status: freigegeben → veroeffentlicht; `mbs-karussell-launch` online: https://www.instagram.com/p/DfNdBsEmmdN/
 - 20:08 🤖 Autopilot: Dateien fuer mbs-karussell-launch vorbereitet ([`c9de85b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c9de85bcc9cfe0cb649c12977f97966e94bb582a))
