@@ -52,42 +52,151 @@ datum,id,typ,gepostet,link,anfang,views,reach,likes,comments,saved,shares,total_
 2026-10-11,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",924,678,13,10,15,16,56
 2026-10-11,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,363,135,10,2,2,17,34
 2026-10-11,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,331,190,10,2,4,7,24
-2026-10-19,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,110,102,2,1,2,0,5
-2026-10-19,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,46,31,4,0,4,0,8
-2026-10-19,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,145,66,4,0,4,0,9
-2026-10-19,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",60,49,5,0,4,0,10
-2026-10-19,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,161,132,4,0,4,0,8
-2026-10-19,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",122,78,10,0,4,0,15
-2026-10-19,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,99,81,4,0,4,0,8
-2026-10-19,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,266,219,6,0,5,0,12
-2026-10-19,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,253,163,8,0,4,0,13
-2026-10-19,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,138,69,1,0,1,0,2
+2026-10-12,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,230,175,6,0,3,1,11
+2026-10-12,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,234,184,8,8,4,9,30
+2026-10-12,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,331,275,11,0,5,5,22
+2026-10-12,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",155,58,8,1,6,84,103
+2026-10-12,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",301,227,8,0,8,25,43
+2026-10-12,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",206,78,6,0,4,0,10
+2026-10-12,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,390,292,11,2,10,8,33
+2026-10-12,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",928,686,13,10,15,16,56
+2026-10-12,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,371,140,10,2,2,17,34
+2026-10-12,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,333,192,10,2,4,7,24
+2026-10-13,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,179,135,3,0,0,0,3
+2026-10-13,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,278,216,6,0,4,1,12
+2026-10-13,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,250,197,9,8,5,9,33
+2026-10-13,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,337,279,11,0,5,5,22
+2026-10-13,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",162,60,8,1,6,84,103
+2026-10-13,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",305,229,8,0,8,25,43
+2026-10-13,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",210,80,6,0,4,0,10
+2026-10-13,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,392,296,11,2,10,8,33
+2026-10-13,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",932,690,13,10,15,16,56
+2026-10-13,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,377,143,10,2,2,17,34
+2026-10-13,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,337,195,10,2,4,7,24
+2026-10-14,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,236,187,1,2,1,0,4
+2026-10-14,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,84,41,1,0,0,0,1
+2026-10-14,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,197,151,3,0,0,0,3
+2026-10-14,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,283,220,6,0,4,1,12
+2026-10-14,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,260,206,10,8,5,9,34
+2026-10-14,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,343,283,11,0,6,5,23
+2026-10-14,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",165,62,8,1,6,84,103
+2026-10-14,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",306,231,8,0,8,25,43
+2026-10-14,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",211,81,6,0,4,0,10
+2026-10-14,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,394,299,11,2,10,8,33
+2026-10-14,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",943,696,13,10,14,16,55
+2026-10-14,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,382,147,10,2,2,17,34
+2026-10-14,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,344,197,10,2,4,7,24
+2026-10-15,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,44,19,0,0,0,0,0
+2026-10-15,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,209,169,2,0,0,0,2
+2026-10-15,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,280,221,1,2,1,0,4
+2026-10-15,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,115,54,1,0,0,0,1
+2026-10-15,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,201,155,3,0,0,0,3
+2026-10-15,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,285,222,6,0,4,1,12
+2026-10-15,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,266,210,11,8,5,9,35
+2026-10-15,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,349,291,11,0,6,5,23
+2026-10-15,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",174,65,8,1,6,84,103
+2026-10-15,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",309,235,8,0,8,25,43
+2026-10-15,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",216,85,6,0,4,0,10
+2026-10-15,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,397,301,11,2,10,8,33
+2026-10-15,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",950,706,13,10,14,16,55
+2026-10-15,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,393,154,10,2,2,17,34
+2026-10-15,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,347,199,10,2,4,7,24
+2026-10-16,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,51,41,0,0,0,0,0
+2026-10-16,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,198,170,2,0,1,0,3
+2026-10-16,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,203,135,4,0,1,0,5
+2026-10-16,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,125,64,0,0,0,0,0
+2026-10-16,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,240,191,2,0,0,0,2
+2026-10-16,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,287,226,1,2,1,0,4
+2026-10-16,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,126,57,1,0,0,0,1
+2026-10-16,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,203,157,3,0,0,0,3
+2026-10-16,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,289,224,6,0,4,1,12
+2026-10-16,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,278,218,12,8,5,9,36
+2026-10-16,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,354,294,11,0,6,5,23
+2026-10-16,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",188,69,8,1,6,84,103
+2026-10-16,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",311,237,8,0,8,25,43
+2026-10-16,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",220,87,6,0,4,0,10
+2026-10-16,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,399,302,11,2,10,8,33
+2026-10-16,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",952,707,13,10,14,16,55
+2026-10-16,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,397,155,10,2,2,17,34
+2026-10-16,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,350,201,10,2,4,7,24
+2026-10-17,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",58,30,2,0,0,0,2
+2026-10-17,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,89,74,0,0,0,0,0
+2026-10-17,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,232,197,2,0,1,0,3
+2026-10-17,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,222,148,5,0,1,0,6
+2026-10-17,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,127,65,0,0,0,0,0
+2026-10-17,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,242,192,2,0,0,0,2
+2026-10-17,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,289,226,1,2,1,0,4
+2026-10-17,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,128,57,1,0,0,0,1
+2026-10-17,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,203,157,3,0,0,0,3
+2026-10-17,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,289,224,6,0,4,1,12
+2026-10-17,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,281,220,12,8,5,9,36
+2026-10-17,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,355,295,11,0,6,5,23
+2026-10-17,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",188,69,8,1,6,84,103
+2026-10-17,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",311,237,8,0,8,25,43
+2026-10-17,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",223,89,6,0,4,0,10
+2026-10-17,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,401,305,11,2,10,8,33
+2026-10-17,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",954,709,13,10,14,16,55
+2026-10-17,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,397,155,10,2,2,17,34
+2026-10-17,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,350,201,10,2,4,7,24
+2026-10-18,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",48,41,1,0,0,0,1
+2026-10-18,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,142,117,0,0,0,0,0
+2026-10-18,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",103,66,5,0,0,0,5
+2026-10-18,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,94,78,0,0,0,0,0
+2026-10-18,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,258,214,2,0,1,0,3
+2026-10-18,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,237,156,5,0,1,0,6
+2026-10-18,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,136,67,0,0,0,0,0
+2026-10-18,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,243,193,2,0,0,0,2
+2026-10-18,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,289,226,1,2,1,0,4
+2026-10-18,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,128,57,1,0,0,0,1
+2026-10-18,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,205,159,3,0,0,0,3
+2026-10-18,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,289,224,6,0,4,1,12
+2026-10-18,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,281,220,12,8,5,9,36
+2026-10-18,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,359,296,11,0,6,5,23
+2026-10-18,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",188,69,8,1,6,84,103
+2026-10-18,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",311,237,8,0,8,25,43
+2026-10-18,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",224,90,6,0,4,0,10
+2026-10-18,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,404,306,11,2,10,8,33
+2026-10-18,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",956,711,13,10,14,16,55
+2026-10-18,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,401,159,10,2,2,17,34
+2026-10-18,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,350,201,10,2,4,7,24
+2026-10-19,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,38,26,1,0,0,0,1
+2026-10-19,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,111,103,2,1,2,0,5
+2026-10-19,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,49,34,4,0,4,0,8
+2026-10-19,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,157,71,4,0,5,0,10
+2026-10-19,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",64,50,5,0,4,0,10
+2026-10-19,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,165,135,4,0,4,0,8
+2026-10-19,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",129,83,10,0,4,0,15
+2026-10-19,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,100,82,4,0,4,0,8
+2026-10-19,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,267,219,6,0,5,0,12
+2026-10-19,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,257,164,9,0,5,0,15
+2026-10-19,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,140,70,1,0,1,0,2
 2026-10-19,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,249,197,6,0,3,0,9
 2026-10-19,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,296,230,5,2,5,1,13
-2026-10-19,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,131,58,2,0,1,0,3
+2026-10-19,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,134,58,2,0,1,0,3
 2026-10-19,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,216,165,7,0,4,0,11
 2026-10-19,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,293,225,8,0,6,1,16
 2026-10-19,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,285,221,14,8,7,18,50
-2026-10-19,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,367,298,11,0,6,5,23
+2026-10-19,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,368,299,11,0,6,5,23
 2026-10-19,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",189,69,8,1,6,84,103
 2026-10-19,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",314,238,8,0,8,25,43
-2026-10-19,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",225,90,6,0,4,0,10
-2026-10-19,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,407,306,11,2,10,8,33
-2026-10-19,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",964,711,13,10,14,16,55
+2026-10-19,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",226,91,6,0,4,0,10
+2026-10-19,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,409,307,11,2,10,8,33
+2026-10-19,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",965,713,13,10,14,16,55
 2026-10-19,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,403,159,10,2,3,17,35
-2026-10-19,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,353,201,10,2,4,7,24
-2026-10-20,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,67,48,2,0,1,0,3
-2026-10-20,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,59,44,1,0,0,0,1
-2026-10-20,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,111,103,2,1,2,0,5
+2026-10-19,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,355,202,10,2,4,7,24
+2026-10-20,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,27,6,0,0,0,0,0
+2026-10-20,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,67,49,2,0,1,0,3
+2026-10-20,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,59,45,1,0,0,0,1
+2026-10-20,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,129,110,4,1,3,0,8
 2026-10-20,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,52,36,4,0,4,0,8
-2026-10-20,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,163,73,4,0,5,0,10
-2026-10-20,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",65,51,5,0,4,0,10
+2026-10-20,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,164,73,4,0,5,0,10
+2026-10-20,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",66,52,5,0,4,0,10
 2026-10-20,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,169,138,4,0,4,0,8
-2026-10-20,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",136,86,13,0,4,0,18
+2026-10-20,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",137,86,13,0,4,0,18
 2026-10-20,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,100,83,4,0,4,0,8
 2026-10-20,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,268,221,6,0,5,0,12
 2026-10-20,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,257,165,9,0,5,0,15
-2026-10-20,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,149,72,1,0,1,0,2
+2026-10-20,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,151,72,1,0,1,0,2
 2026-10-20,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,250,198,6,0,3,0,9
 2026-10-20,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,298,231,5,2,5,1,13
 2026-10-20,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,135,59,2,0,1,0,3
@@ -102,3 +211,374 @@ datum,id,typ,gepostet,link,anfang,views,reach,likes,comments,saved,shares,total_
 2026-10-20,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",967,713,13,10,14,16,55
 2026-10-20,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,406,161,10,2,3,17,35
 2026-10-20,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,355,202,10,2,4,7,24
+2026-10-21,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,93,59,1,0,0,0,1
+2026-10-21,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,81,22,1,0,1,0,2
+2026-10-21,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,72,53,2,0,1,0,3
+2026-10-21,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,66,53,1,0,0,0,1
+2026-10-21,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,149,121,5,1,3,0,9
+2026-10-21,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,55,38,4,0,4,0,8
+2026-10-21,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,171,74,4,0,5,0,10
+2026-10-21,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",67,53,5,0,4,0,10
+2026-10-21,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,170,140,4,0,4,0,8
+2026-10-21,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",149,94,14,0,4,0,19
+2026-10-21,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,102,85,4,0,4,0,8
+2026-10-21,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,270,222,6,0,5,0,12
+2026-10-21,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,263,168,9,0,5,0,15
+2026-10-21,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,154,73,1,0,1,0,2
+2026-10-21,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,252,200,6,0,3,0,9
+2026-10-21,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,299,232,5,2,5,1,13
+2026-10-21,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,138,61,2,0,1,0,3
+2026-10-21,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,217,166,7,0,4,0,11
+2026-10-21,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,298,228,8,0,6,1,16
+2026-10-21,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,287,223,14,8,7,18,50
+2026-10-21,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,374,306,11,0,6,5,23
+2026-10-21,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",190,70,8,1,6,84,103
+2026-10-21,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",317,240,8,0,8,25,43
+2026-10-21,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",227,92,6,0,4,0,10
+2026-10-21,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,431,308,11,2,10,8,33
+2026-10-21,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",970,714,13,10,14,16,55
+2026-10-21,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,409,163,10,2,3,17,35
+2026-10-21,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,356,203,10,2,4,7,24
+2026-10-22,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",132,109,3,1,2,0,7
+2026-10-22,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,137,92,8,4,6,14,37
+2026-10-22,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,123,81,2,0,0,0,2
+2026-10-22,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,95,31,1,0,1,0,2
+2026-10-22,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,74,56,2,0,1,0,3
+2026-10-22,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,70,55,2,0,1,0,3
+2026-10-22,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,158,128,5,1,3,0,9
+2026-10-22,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,59,40,5,0,5,0,10
+2026-10-22,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,177,76,4,0,5,0,10
+2026-10-22,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",69,55,5,0,4,0,10
+2026-10-22,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,171,141,4,0,4,0,8
+2026-10-22,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",168,104,14,0,4,0,19
+2026-10-22,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,104,87,4,0,4,0,8
+2026-10-22,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,272,223,6,0,5,0,12
+2026-10-22,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,271,173,9,0,5,0,15
+2026-10-22,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,154,73,1,0,1,0,2
+2026-10-22,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,252,200,6,0,3,0,9
+2026-10-22,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,301,232,5,2,5,1,13
+2026-10-22,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,143,62,3,0,2,0,5
+2026-10-22,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,217,166,7,0,4,0,11
+2026-10-22,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,299,229,8,0,6,1,16
+2026-10-22,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,288,223,14,8,7,18,50
+2026-10-22,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,376,308,11,0,6,5,23
+2026-10-22,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",190,70,8,1,6,84,103
+2026-10-22,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",317,240,8,0,8,25,43
+2026-10-22,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",228,93,6,0,4,0,10
+2026-10-22,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,431,308,11,2,10,8,33
+2026-10-22,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",975,717,13,10,14,16,55
+2026-10-22,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,416,169,10,2,3,17,35
+2026-10-22,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,356,203,10,2,4,7,24
+2026-10-23,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",396,330,8,10,10,60,93
+2026-10-23,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",152,124,3,1,2,0,7
+2026-10-23,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,154,108,9,4,6,14,38
+2026-10-23,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,124,82,2,0,0,0,2
+2026-10-23,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,106,35,2,0,1,0,3
+2026-10-23,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,78,58,4,0,1,0,5
+2026-10-23,17905235670352134,REELS,2026-10-19,https://www.instagram.com/reel/DerFcnnnTMT/,Säumniszuschlag: Was kostet eine Woche zu spät? ⏰,71,55,2,0,1,0,3
+2026-10-23,18137276653636154,REELS,2026-10-18,https://www.instagram.com/reel/DepZflYMPE6/,Deine Steuererklärung liest im Finanzamt kein Mensch – sonde,166,131,5,1,3,0,9
+2026-10-23,18095702354660428,REELS,2026-10-18,https://www.instagram.com/reel/Deo8TzBjns_/,Organschaft Mindestlaufzeit: Der Gewinnabführungsvertrag läu,59,40,5,0,5,0,10
+2026-10-23,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,177,76,4,0,5,0,10
+2026-10-23,18633133474034755,REELS,2026-10-17,https://www.instagram.com/reel/Deml8DcD_Dx/,"Plausibilitätsprüfung Jahresabschluss: Vorjahr kopiert, Hebe",70,56,5,0,4,0,10
+2026-10-23,17969275643965634,REELS,2026-10-17,https://www.instagram.com/reel/Del54DNE7fz/,Steuerrückstellung zwei Tage vor Frist – und die Excel zeigt,173,142,4,0,4,0,8
+2026-10-23,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",169,105,14,0,4,0,19
+2026-10-23,18020387378730163,REELS,2026-10-16,https://www.instagram.com/reel/DejLN1HiY0k/,GmbH-Gewinn ausschütten: Von 1 € kommen privat nur rund 52 C,104,88,4,0,4,0,8
+2026-10-23,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,274,225,6,0,5,0,12
+2026-10-23,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,274,175,9,0,5,0,15
+2026-10-23,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,157,75,1,0,1,0,2
+2026-10-23,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,253,201,6,0,3,0,9
+2026-10-23,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,301,232,5,2,5,1,13
+2026-10-23,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,148,64,4,0,2,0,6
+2026-10-23,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,217,167,7,0,4,0,11
+2026-10-23,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,300,230,8,0,6,1,16
+2026-10-23,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,288,224,14,8,7,18,50
+2026-10-23,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,376,308,11,0,6,5,23
+2026-10-23,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",190,70,8,1,6,84,103
+2026-10-23,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",317,240,8,0,8,25,43
+2026-10-23,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",228,93,6,0,4,0,10
+2026-10-23,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,431,308,11,2,10,8,33
+2026-10-23,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",976,719,13,10,14,16,55
+2026-10-23,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,418,171,10,2,3,17,35
+2026-10-23,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,356,203,10,2,4,7,24
+2026-10-24,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",805,694,10,10,10,60,95
+2026-10-24,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",156,129,3,1,2,0,7
+2026-10-24,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,159,113,9,4,7,14,39
+2026-10-24,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,126,84,2,0,0,0,2
+2026-10-24,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,113,38,2,0,1,0,3
+2026-10-24,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,84,64,5,0,1,0,6
+2026-10-24,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,180,78,4,0,5,0,10
+2026-10-24,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",173,108,14,0,4,0,19
+2026-10-24,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,276,228,6,0,5,0,12
+2026-10-24,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,278,178,9,0,5,0,15
+2026-10-24,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,163,77,1,0,1,0,2
+2026-10-24,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,254,202,6,0,3,0,9
+2026-10-24,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,302,233,5,2,5,1,13
+2026-10-24,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,154,66,4,0,2,0,6
+2026-10-24,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,218,168,7,0,4,0,11
+2026-10-24,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,301,231,8,0,6,1,16
+2026-10-24,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,289,225,14,8,7,18,50
+2026-10-24,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,377,308,11,0,6,5,23
+2026-10-24,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",190,70,8,1,6,84,103
+2026-10-24,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",317,240,8,0,8,25,43
+2026-10-24,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",228,93,6,0,4,0,10
+2026-10-24,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,431,308,11,2,10,8,33
+2026-10-24,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",979,720,13,10,14,16,55
+2026-10-24,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,420,172,10,2,3,17,35
+2026-10-24,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,356,203,10,2,4,7,24
+2026-10-25,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,240,198,4,1,2,0,8
+2026-10-25,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",806,695,10,10,10,60,95
+2026-10-25,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",158,131,3,1,2,0,7
+2026-10-25,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,162,115,9,4,7,14,39
+2026-10-25,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,129,85,2,0,0,0,2
+2026-10-25,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,124,40,2,0,1,0,3
+2026-10-25,17993391783114087,REELS,2026-10-19,https://www.instagram.com/reel/DeryoWUE_Or/,Aufbewahrungsfristen: Buchungsbelege nur noch 8 statt 10 Jah,85,65,5,0,1,0,6
+2026-10-25,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,186,78,4,0,5,0,10
+2026-10-25,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",180,111,15,0,4,0,20
+2026-10-25,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,277,230,6,0,5,0,12
+2026-10-25,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,284,180,10,0,5,0,16
+2026-10-25,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,171,80,1,0,1,0,2
+2026-10-25,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,256,203,6,0,3,0,9
+2026-10-25,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,302,233,5,2,5,1,13
+2026-10-25,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,158,67,4,0,2,0,6
+2026-10-25,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,218,168,7,0,4,0,11
+2026-10-25,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,301,231,8,0,6,1,16
+2026-10-25,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,289,225,14,8,7,18,50
+2026-10-25,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,377,309,11,0,6,5,23
+2026-10-25,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",191,71,8,1,6,84,103
+2026-10-25,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",317,241,8,0,8,25,43
+2026-10-25,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",229,94,6,0,4,0,10
+2026-10-25,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,431,309,11,2,10,8,33
+2026-10-25,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",980,720,14,10,14,16,56
+2026-10-25,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,422,173,11,2,3,17,36
+2026-10-25,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,358,204,10,2,4,7,24
+2026-10-26,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,652,580,10,1,9,68,90
+2026-10-26,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,251,204,4,1,2,0,8
+2026-10-26,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",882,740,13,10,12,60,100
+2026-10-26,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",162,134,4,1,2,0,8
+2026-10-26,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,165,116,10,4,7,14,40
+2026-10-26,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,131,85,3,0,0,0,3
+2026-10-26,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,126,41,2,0,1,0,3
+2026-10-26,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,192,79,4,0,5,0,10
+2026-10-26,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",183,113,16,0,4,0,21
+2026-10-26,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,278,231,7,0,5,0,13
+2026-10-26,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,285,181,11,0,5,0,17
+2026-10-26,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,173,82,1,0,1,0,2
+2026-10-26,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,257,204,7,0,3,0,10
+2026-10-26,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,303,234,6,2,5,1,14
+2026-10-26,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,158,67,4,0,2,0,6
+2026-10-26,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,219,169,8,0,4,0,12
+2026-10-26,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,304,233,9,0,6,1,17
+2026-10-26,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,290,226,15,8,7,18,51
+2026-10-26,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,379,310,12,0,6,5,24
+2026-10-26,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",191,71,8,1,6,84,103
+2026-10-26,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",319,242,9,0,8,25,44
+2026-10-26,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",229,94,6,0,4,0,10
+2026-10-26,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,433,310,12,2,10,8,34
+2026-10-26,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",981,721,15,10,14,16,57
+2026-10-26,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,422,173,11,2,3,17,36
+2026-10-26,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,359,205,11,2,4,7,25
+2026-10-27,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,190,142,8,5,7,9,29
+2026-10-27,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,849,766,11,1,10,68,92
+2026-10-27,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,260,212,4,1,2,0,8
+2026-10-27,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",894,749,13,10,12,60,100
+2026-10-27,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",168,140,4,1,2,0,8
+2026-10-27,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,168,119,10,4,7,14,40
+2026-10-27,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,134,87,3,0,0,0,3
+2026-10-27,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,128,43,2,0,1,0,3
+2026-10-27,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,195,80,4,0,5,0,10
+2026-10-27,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",185,116,16,0,4,0,21
+2026-10-27,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,279,232,7,0,5,0,13
+2026-10-27,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,286,182,11,0,5,0,17
+2026-10-27,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,176,84,1,0,1,0,2
+2026-10-27,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,258,205,7,0,3,0,10
+2026-10-27,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,304,235,6,2,5,1,14
+2026-10-27,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,161,70,4,0,2,0,6
+2026-10-27,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,220,170,8,0,4,0,12
+2026-10-27,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,305,234,9,0,6,1,17
+2026-10-27,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,291,227,15,8,7,18,51
+2026-10-27,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,380,312,12,0,6,5,24
+2026-10-27,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",192,72,8,1,6,84,103
+2026-10-27,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",320,243,9,0,8,25,44
+2026-10-27,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",229,94,6,0,4,0,10
+2026-10-27,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,433,312,12,2,10,8,34
+2026-10-27,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",987,727,15,10,14,16,57
+2026-10-27,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,432,181,11,2,3,17,36
+2026-10-27,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,359,205,11,2,4,7,25
+2026-10-28,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",1511,1194,18,1,9,30,60
+2026-10-28,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,226,169,8,5,8,9,30
+2026-10-28,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,874,788,12,1,10,68,93
+2026-10-28,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,284,233,4,1,3,0,9
+2026-10-28,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",938,772,13,10,13,60,101
+2026-10-28,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",186,157,4,1,2,0,8
+2026-10-28,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,185,129,10,4,7,14,40
+2026-10-28,18087315434321744,REELS,2026-10-20,https://www.instagram.com/reel/DeuJJHoDXkl/,Verlustvortrag 2026: 3 Mio. € Verlust – und trotzdem Steuer?,156,98,3,0,0,0,3
+2026-10-28,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,136,45,2,0,1,0,3
+2026-10-28,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,209,83,4,0,5,0,10
+2026-10-28,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",217,130,16,0,4,0,21
+2026-10-28,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,295,241,7,0,5,0,13
+2026-10-28,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,298,191,11,0,5,0,17
+2026-10-28,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,183,85,1,0,1,0,2
+2026-10-28,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,267,211,7,0,3,0,10
+2026-10-28,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,311,240,6,2,5,1,14
+2026-10-28,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,161,70,4,0,2,0,6
+2026-10-28,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,226,174,8,0,4,0,12
+2026-10-28,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,309,237,9,0,6,1,17
+2026-10-28,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,296,231,15,8,7,18,51
+2026-10-28,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,386,315,12,0,6,5,24
+2026-10-28,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",193,72,8,1,6,84,103
+2026-10-28,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",322,244,9,0,8,25,44
+2026-10-28,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",233,97,6,0,4,0,10
+2026-10-28,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,438,314,12,2,10,8,34
+2026-10-28,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",995,734,15,10,14,16,57
+2026-10-28,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,433,182,11,2,3,17,36
+2026-10-28,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,364,210,11,2,4,7,25
+2026-10-29,18009976286782955,REELS,2026-10-28,https://www.instagram.com/reel/DfC3UzMCo4m/,"Der häufigste Fehler, den ich im Finanzamt gesehen hab, war ",278,220,3,1,2,0,6
+2026-10-29,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",1906,1468,22,1,10,37,73
+2026-10-29,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,267,197,8,5,8,9,30
+2026-10-29,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,900,810,12,1,10,68,93
+2026-10-29,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,303,249,4,1,3,0,9
+2026-10-29,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",982,797,13,10,13,60,101
+2026-10-29,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",199,175,4,1,2,0,8
+2026-10-29,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,194,138,10,4,7,14,40
+2026-10-29,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,147,53,2,0,1,0,3
+2026-10-29,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,214,87,4,0,5,0,10
+2026-10-29,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",233,140,16,0,4,0,21
+2026-10-29,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,302,248,7,0,5,0,13
+2026-10-29,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,308,198,11,0,5,0,17
+2026-10-29,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,188,90,1,0,1,0,2
+2026-10-29,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,274,218,7,0,3,0,10
+2026-10-29,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,318,245,6,2,5,1,14
+2026-10-29,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,165,73,4,0,2,0,6
+2026-10-29,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,233,181,8,0,4,0,12
+2026-10-29,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,313,241,9,0,6,1,17
+2026-10-29,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,301,235,16,8,7,18,52
+2026-10-29,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,391,321,12,0,6,5,24
+2026-10-29,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",195,74,8,1,6,84,103
+2026-10-29,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",325,248,9,0,8,25,44
+2026-10-29,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",241,103,6,0,4,0,10
+2026-10-29,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,443,317,12,2,10,8,34
+2026-10-29,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",1024,751,15,10,14,16,57
+2026-10-29,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,437,186,11,2,3,17,36
+2026-10-29,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,367,216,11,2,4,7,25
+2026-10-30,18147843058583710,REELS,2026-10-29,https://www.instagram.com/reel/DfFcLcFk7yt/,Ferrari über die Firma? Beim Finanzamt entscheidet eine einz,255,216,1,1,1,1,4
+2026-10-30,18009976286782955,REELS,2026-10-28,https://www.instagram.com/reel/DfC3UzMCo4m/,"Der häufigste Fehler, den ich im Finanzamt gesehen hab, war ",390,276,3,1,2,1,7
+2026-10-30,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",2034,1533,23,1,10,44,81
+2026-10-30,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,314,232,8,5,8,9,30
+2026-10-30,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,936,841,12,1,10,68,93
+2026-10-30,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,332,272,4,1,3,0,9
+2026-10-30,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",1032,834,14,10,13,60,102
+2026-10-30,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",231,205,5,1,2,0,9
+2026-10-30,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,225,158,10,4,8,14,41
+2026-10-30,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,167,67,2,0,1,0,3
+2026-10-30,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,245,104,4,0,5,0,10
+2026-10-30,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",259,158,16,0,4,0,21
+2026-10-30,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,322,262,7,0,6,0,14
+2026-10-30,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,322,211,11,0,5,0,17
+2026-10-30,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,197,97,1,0,1,0,2
+2026-10-30,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,287,228,7,0,3,0,10
+2026-10-30,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,331,255,6,2,5,1,14
+2026-10-30,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,173,79,4,0,2,0,6
+2026-10-30,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,241,190,8,0,4,0,12
+2026-10-30,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,319,248,9,0,6,1,17
+2026-10-30,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,306,240,16,8,7,18,52
+2026-10-30,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,399,329,12,0,6,5,24
+2026-10-30,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",199,78,8,1,6,84,103
+2026-10-30,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",332,254,9,0,8,25,44
+2026-10-30,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",248,107,6,0,4,0,10
+2026-10-30,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,448,322,12,2,10,8,34
+2026-10-30,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",1069,792,15,10,14,16,57
+2026-10-30,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,441,189,11,2,3,17,36
+2026-10-30,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,377,223,11,2,4,7,25
+2026-10-31,18119253577792640,REELS,2026-10-30,https://www.instagram.com/reel/DfILcg8DfQm/,Deine Steuererklärung liest zuerst kein Mensch – sondern ein,183,154,6,1,0,0,7
+2026-10-31,18147843058583710,REELS,2026-10-29,https://www.instagram.com/reel/DfFcLcFk7yt/,Ferrari über die Firma? Beim Finanzamt entscheidet eine einz,336,278,1,1,1,1,4
+2026-10-31,18009976286782955,REELS,2026-10-28,https://www.instagram.com/reel/DfC3UzMCo4m/,"Der häufigste Fehler, den ich im Finanzamt gesehen hab, war ",447,327,3,1,3,1,8
+2026-10-31,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",2118,1591,25,1,10,44,83
+2026-10-31,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,354,267,8,5,8,9,30
+2026-10-31,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,975,879,12,1,10,68,93
+2026-10-31,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,359,299,4,1,3,0,9
+2026-10-31,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",1072,860,16,10,14,60,105
+2026-10-31,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",268,237,5,1,2,0,9
+2026-10-31,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,248,180,10,4,8,14,41
+2026-10-31,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,188,82,2,0,1,0,3
+2026-10-31,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,263,117,4,0,5,0,10
+2026-10-31,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",280,172,17,0,4,0,22
+2026-10-31,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,337,280,7,0,6,0,14
+2026-10-31,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,335,222,11,0,5,0,17
+2026-10-31,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,208,106,1,0,1,0,2
+2026-10-31,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,300,238,7,0,3,0,10
+2026-10-31,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,337,264,6,2,5,1,14
+2026-10-31,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,179,84,4,0,2,0,6
+2026-10-31,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,249,198,8,0,5,0,13
+2026-10-31,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,322,255,9,0,6,1,17
+2026-10-31,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,312,246,16,8,7,18,52
+2026-10-31,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,403,336,12,0,6,5,24
+2026-10-31,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",202,81,8,1,6,84,103
+2026-10-31,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",336,258,9,0,8,25,44
+2026-10-31,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",252,111,6,0,4,0,10
+2026-10-31,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,451,328,12,2,10,8,34
+2026-10-31,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",1109,837,15,10,15,16,58
+2026-10-31,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,447,193,11,2,3,17,36
+2026-10-31,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,384,230,11,2,4,7,25
+2026-11-01,18078433880450969,REELS,2026-10-31,https://www.instagram.com/reel/DfKgI-ZEb9C/,Deine Steuer-Excel stimmt – und fällt in der Prüfung trotzde,167,127,2,1,0,0,3
+2026-11-01,18119253577792640,REELS,2026-10-30,https://www.instagram.com/reel/DfILcg8DfQm/,Deine Steuererklärung liest zuerst kein Mensch – sondern ein,246,203,8,1,1,1,11
+2026-11-01,18147843058583710,REELS,2026-10-29,https://www.instagram.com/reel/DfFcLcFk7yt/,Ferrari über die Firma? Beim Finanzamt entscheidet eine einz,370,305,1,1,1,1,4
+2026-11-01,18009976286782955,REELS,2026-10-28,https://www.instagram.com/reel/DfC3UzMCo4m/,"Der häufigste Fehler, den ich im Finanzamt gesehen hab, war ",489,362,3,1,3,1,8
+2026-11-01,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",2169,1637,25,1,10,44,83
+2026-11-01,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,382,290,8,5,8,9,30
+2026-11-01,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,1005,906,12,1,11,69,95
+2026-11-01,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,378,315,4,1,3,0,9
+2026-11-01,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",1102,878,16,10,14,60,105
+2026-11-01,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",287,256,5,1,2,0,9
+2026-11-01,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,264,194,10,4,8,14,41
+2026-11-01,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,201,92,2,0,1,0,3
+2026-11-01,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,276,127,4,0,5,0,10
+2026-11-01,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",295,186,17,0,4,0,22
+2026-11-01,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,348,292,7,0,6,0,14
+2026-11-01,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,359,244,12,0,6,0,19
+2026-11-01,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,217,113,1,0,1,0,2
+2026-11-01,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,311,247,7,0,3,0,10
+2026-11-01,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,343,270,6,2,5,1,14
+2026-11-01,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,181,86,4,0,2,0,6
+2026-11-01,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,254,203,8,0,5,0,13
+2026-11-01,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,328,260,9,0,6,1,17
+2026-11-01,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,314,251,16,8,7,18,52
+2026-11-01,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,407,338,12,0,6,5,24
+2026-11-01,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",206,83,8,1,6,84,103
+2026-11-01,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",338,260,9,0,8,25,44
+2026-11-01,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",260,115,6,0,4,0,10
+2026-11-01,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,460,331,12,2,10,8,34
+2026-11-01,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",1116,841,15,10,15,16,58
+2026-11-01,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,452,197,11,2,3,17,36
+2026-11-01,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,390,234,11,2,4,7,25
+2026-11-02,18121087715605889,FEED,2026-11-01,https://www.instagram.com/p/DfNdBsEmmdN/,Ich bin aus dem Finanzamt raus. Heute geht mein Tool online.,296,175,3,1,2,0,6
+2026-11-02,17912420343483469,FEED,2026-11-01,https://www.instagram.com/p/DfNFAr9lLsn/,GewSt-Vorauszahlung am 15.11.: Gezahlt wird erst am 16.11. –,240,150,2,1,2,0,5
+2026-11-02,18119253577792640,REELS,2026-10-30,https://www.instagram.com/reel/DfILcg8DfQm/,Deine Steuererklärung liest zuerst kein Mensch – sondern ein,426,341,11,1,3,4,19
+2026-11-02,18147843058583710,REELS,2026-10-29,https://www.instagram.com/reel/DfFcLcFk7yt/,Ferrari über die Firma? Beim Finanzamt entscheidet eine einz,520,430,2,1,2,1,6
+2026-11-02,18009976286782955,REELS,2026-10-28,https://www.instagram.com/reel/DfC3UzMCo4m/,"Der häufigste Fehler, den ich im Finanzamt gesehen hab, war ",707,552,6,1,4,2,14
+2026-11-02,18056364005588411,REELS,2026-10-27,https://www.instagram.com/reel/DfAWBBflLkW/,"Ich hab gezahlt, um aus dem sichersten Job Deutschlands raus",2349,1796,25,1,11,44,83
+2026-11-02,18053817629597117,REELS,2026-10-26,https://www.instagram.com/reel/De9tD9vj4EH/,Die Rente deiner Oma kann steuerpflichtig sein – und das Fin,510,398,9,5,10,9,33
+2026-11-02,18109242179189884,REELS,2026-10-25,https://www.instagram.com/reel/De7JF3cAGrX/,Ein einziger Euro entscheidet: 799 € netto sofort absetzen –,1128,1010,12,1,12,69,96
+2026-11-02,18026830385879457,REELS,2026-10-24,https://www.instagram.com/reel/De3yheAFKBg/,Ohne Anlass auf dem Bewirtungsbeleg: 0 % abziehbar. 🍽️,491,400,5,1,3,3,13
+2026-11-02,18197293708388022,REELS,2026-10-22,https://www.instagram.com/reel/DezHdgPt1_0/,"Finanzamt: Du denkst, es weiß nur, was in deiner Steuererklä",1255,1001,17,10,16,62,110
+2026-11-02,17896711332413842,REELS,2026-10-21,https://www.instagram.com/reel/Dewza8JCASO/,"Vorsteuerabzug: Rechnung bezahlt, Leistung erhalten – und di",391,356,6,1,3,1,12
+2026-11-02,17986965504088976,REELS,2026-10-21,https://www.instagram.com/reel/DewieoRNf5g/,Degressive AfA 2026: Du kaufst im Dezember für die 30 % – un,359,264,11,4,8,14,41
+2026-11-02,17982558018104055,FEED,2026-10-20,https://www.instagram.com/p/DetnHd6G82Y/,Verlustvortrag 2026: Gilt die Mindestbesteuerung mit 70 % od,271,146,2,0,1,0,3
+2026-11-02,17923713027429647,FEED,2026-10-18,https://www.instagram.com/p/DeomJhQG4o8/,Kürzungen Gewerbesteuer nach § 9 GewStG: Grundbesitz seit 20,332,170,4,0,5,0,10
+2026-11-02,18564693718076338,REELS,2026-10-16,https://www.instagram.com/reel/DekHzHkF7E2/,"Diplom-Finanzwirt mit KI-Avatar? Das war 2025 – mein Weg, ei",379,252,17,0,4,0,22
+2026-11-02,17913471876286439,REELS,2026-10-15,https://www.instagram.com/reel/DehnTbyEZ2g/,Zwei Listen abgleichen in Excel: SVERWEIS. Runterziehen. „NV,427,349,7,0,6,0,14
+2026-11-02,18124066181475903,REELS,2026-10-15,https://www.instagram.com/reel/DehYZkyD-sL/,Steuererklärung 2022 nachholen – nur noch bis 31.12.2026. Da,525,371,13,0,8,1,23
+2026-11-02,18089184050693705,FEED,2026-10-15,https://www.instagram.com/p/DegoIVKluPa/,Steuerrückstellung berechnen – kommst du bei 400 % Hebesatz ,252,144,1,0,1,1,3
+2026-11-02,17987011205886587,REELS,2026-10-14,https://www.instagram.com/reel/DeemwStk5mL/,Gewerbesteuer-Hinzurechnung ohne Excel? 🤔,368,299,7,0,3,0,10
+2026-11-02,17978683293122831,REELS,2026-10-13,https://www.instagram.com/reel/DecWVZwgpOC/,Eine Rechnungsnummer doppelt. Der Prüfer findet sie in 2 Min,392,308,6,2,5,1,14
+2026-11-02,18103996271188698,FEED,2026-10-13,https://www.instagram.com/p/Debkp_3m1WY/,Werden Mieten voll hinzugerechnet? 🤔,200,104,4,0,2,0,6
+2026-11-02,18192110539399398,REELS,2026-10-12,https://www.instagram.com/reel/DeZxf9AEy9p/,final.xlsx · final_final.xlsx · final_final_v3.xlsx – und ke,305,248,9,0,6,0,15
+2026-11-02,18132056470604183,REELS,2026-10-11,https://www.instagram.com/reel/DeXMtEnDn3I/,#BEZUG! – zwei Tage vor Abgabe. Kennst du? 😬,366,296,9,0,6,1,17
+2026-11-02,18111753380332641,REELS,2026-10-10,https://www.instagram.com/reel/DeUn6ezCm7O/,Latente Steuern: Ab 2028 ist ein fester Steuersatz von 30 % ,351,283,16,8,7,18,52
+2026-11-02,18479903389113257,REELS,2026-10-10,https://www.instagram.com/reel/DeTiK24NyJt/,Jutta hat schon wieder eine Zeile eingefügt – und die Summe ,441,371,12,0,6,5,24
+2026-11-02,17883309489625827,FEED,2026-10-09,https://www.instagram.com/p/DeRTLb4EYwd/,"Hör auf, 30 % fest einzutippen. 📉",229,99,8,1,6,84,102
+2026-11-02,17967294990178023,REELS,2026-10-08,https://www.instagram.com/reel/DePeYymNG2K/,"Gleiche Aufgabe, zwei Wege: Hebesatz von 400 auf 450 %. 👀",375,293,9,0,9,25,44
+2026-11-02,18106773428616015,FEED,2026-10-07,https://www.instagram.com/p/DeM5u1vGLsR/,"5 Excel-Fehler, die fast jede Steuerrückstellung hat 👀",283,135,6,0,4,0,10
+2026-11-02,18154273729518650,REELS,2026-10-06,https://www.instagram.com/reel/DeKUuvPgA1W/,Zwei Stunden. Jeden Monat. Nur Copy-Paste für einen einzigen,496,363,12,2,10,8,33
+2026-11-02,17916550404258137,REELS,2026-10-04,https://www.instagram.com/reel/DeFLK53ALSs/,"5 Dinge, die ich aus Excel rausgeschmissen hab 👇",1156,886,15,10,15,16,58
+2026-11-02,17965089348198457,FEED,2026-10-01,https://www.instagram.com/p/Dd9V5HAAhcL/,Neu hier? Dann kurz zu mir 👋,474,215,11,2,3,17,36
+2026-11-02,18432424948196865,REELS,2026-09-29,https://www.instagram.com/reel/Dd34F9RtucT/,Steuern × Code. ⚡,437,267,11,2,4,7,25
