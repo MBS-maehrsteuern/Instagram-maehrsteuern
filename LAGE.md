@@ -1,11 +1,11 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 02.11. 09:37 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 02.11. 09:46 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `48-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `49-story-teaser` (pausiert)
-- **Braucht dich:** 1 offen
+- **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **15521** (26.10.–01.11., +709 % zur Vorwoche) · Follower **+342** (jetzt 718) · 30 Tage: +178 Follows / −15 entfolgt
 - **Testmonat** (Tag 22/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
@@ -79,6 +79,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## 👉 Braucht dich
 
 - ⏰ **✍️ Claude: Sprechtexte für Aufnahme Sa 07.11. vorbereiten** (Do 05.11. 09:00) – 15–20 neue Reel-Sprechtexte nach 19_wissen (Boring Content, Hook mit Ergebnis) in posts/sprechtexte.md, Themen aus Auswertung + Kommentaren.
+- ⏰ **🎙️ Neue Reel-Aufnahmen einsprechen (Reels ab 17.11.)** (Sa 07.11. 10:00) – Ca. 1 h. Sprechtexte (je 25–30 s, Hook im ersten Satz, Schlussfrage) legt Claude bis Do 05.11. in posts/sprechtexte.md bereit. Ruhiger Raum, Handy nah, wie Aufnahme 21.10. Danach die Datei(en) an Claude geben → Premium-Reels bauen. Ohne neue Aufnahme gehen ab 17.11. keine Reels mehr raus (nur Karussells Mi + So).
 
 ## ⏭️ Nächste 7 Tage
 
@@ -199,6 +200,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 02.11.2026**
+- 09:46 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`94fe6e0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/94fe6e0eddc52fa2c055a881a8e94c035be087e7))
+  - `recherche/viral_liste.csv`, `recherche/vorbilder.json`, `recherche/vorbilder_bericht.md`
+- 09:44 📡 Radar 2026-11-02: 8 Beiträge, 0 DM-Entwürfe ([`2ae9848`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2ae9848e4c7c21a333189869ed3b83a62b36a644))
+  - `automatik/interaktion`
 - 09:37 📈 Statistik 2026-11-02 ([`5c60f4a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5c60f4a9c592c52e31af95ed472bcbee31645e01))
   - `automatik/statistik`
 
