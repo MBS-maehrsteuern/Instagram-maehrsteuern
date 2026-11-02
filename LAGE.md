@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 01.11. 20:15 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 02.11. 09:37 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `48-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `49-story-teaser` (pausiert)
-- **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **6937** (25.10.–31.10., +353 % zur Vorwoche) · Follower **+142** (jetzt 516) · 30 Tage: +143 Follows / −14 entfolgt
+- **Braucht dich:** 1 offen
+- **Letzte 7 Tage:** Reichweite **15521** (26.10.–01.11., +709 % zur Vorwoche) · Follower **+342** (jetzt 718) · 30 Tage: +178 Follows / −15 entfolgt
 - **Testmonat** (Tag 22/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (0 online · 7 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (1):
@@ -78,7 +78,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- Nichts offen. 🎉
+- ⏰ **✍️ Claude: Sprechtexte für Aufnahme Sa 07.11. vorbereiten** (Do 05.11. 09:00) – 15–20 neue Reel-Sprechtexte nach 19_wissen (Boring Content, Hook mit Ergebnis) in posts/sprechtexte.md, Themen aus Auswertung + Kommentaren.
 
 ## ⏭️ Nächste 7 Tage
 
@@ -155,23 +155,28 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**516 Follower** · 31 Beiträge im Profil (Abruf 2026-11-01) · **+35** seit 2026-10-31
-Reichweite pro Tag: 29.10. **1480** · 30.10. **1552** · 31.10. **1031** · 01.11. **47**
+**718 Follower** · 32 Beiträge im Profil (Abruf 2026-11-02) · **+202** seit 2026-11-01
+Reichweite pro Tag: 30.10. **1552** · 31.10. **1031** · 01.11. **9168** · 02.11. **17**
+
+| Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
+|---|---|---|---|---|---|
+| So 01.11. 20:39 | 90 | 69 | 0 | 13 | 1 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Sa 31.10. 17:45 [Deine Steuer-Excel stimmt – und fällt in](https://www.instagram.com/reel/DfKgI-ZEb9C/) | 167 | 127 | 2 | 1 | 0 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 246 (+63) | 203 | 8 | 1 | 1 | 1 |
-| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 370 (+34) | 305 | 1 | 1 | 1 | 1 |
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 489 (+42) | 362 | 3 | 1 | 3 | 1 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2169 (+51) | 1637 | 25 | 1 | 10 | 44 |
-| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 382 (+28) | 290 | 8 | 5 | 8 | 9 |
-| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1005 (+30) | 906 | 12 | 1 | 11 | 69 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 380 (+21) | 315 | 4 | 1 | 3 | 0 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1102 (+30) | 878 | 16 | 10 | 14 | 60 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 289 (+21) | 256 | 5 | 1 | 2 | 0 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 265 (+17) | 194 | 10 | 4 | 8 | 14 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 201 (+13) | 92 | 2 | 0 | 1 | 0 |
+| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 296 | 175 | 3 | 1 | 2 | 0 |
+| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 240 | 150 | 2 | 1 | 2 | 0 |
+| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 426 (+180) | 341 | 11 | 1 | 3 | 4 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 521 (+151) | 430 | 2 | 1 | 2 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 707 (+218) | 552 | 6 | 1 | 4 | 2 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2350 (+181) | 1796 | 25 | 1 | 11 | 44 |
+| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 510 (+128) | 398 | 9 | 5 | 10 | 9 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1128 (+123) | 1010 | 12 | 1 | 12 | 69 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 491 (+111) | 400 | 5 | 1 | 3 | 3 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1255 (+153) | 1001 | 17 | 10 | 16 | 62 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 391 (+102) | 356 | 6 | 1 | 3 | 1 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 359 (+94) | 264 | 11 | 4 | 8 | 14 |
+| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 271 (+70) | 146 | 2 | 0 | 1 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -192,6 +197,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mo 02.11.2026**
+- 09:37 📈 Statistik 2026-11-02 ([`5c60f4a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5c60f4a9c592c52e31af95ed472bcbee31645e01))
+  - `automatik/statistik`
 
 **So 01.11.2026**
 - 20:15 ✍️ Wochenbericht KW 2026-44 ([`e068e28`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e068e28f47704b5fa346f681b83526565eb2d376))
