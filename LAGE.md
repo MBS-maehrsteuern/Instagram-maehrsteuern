@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 03.11. 09:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 03.11. 12:58 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -173,7 +173,6 @@ Reichweite pro Tag: 31.10. **1031** · 01.11. **9168** · 02.11. **30025** · 03
 | Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1355 (+100) | 1088 | 19 | 10 | 17 | 62 |
 | Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 436 (+45) | 414 | 6 | 1 | 3 | 1 |
 | Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 400 (+41) | 305 | 12 | 4 | 9 | 14 |
-| Di 20.10. 12:24 [Verlustvortrag 2026: Gilt die Mindestbes](https://www.instagram.com/p/DetnHd6G82Y/) | 306 (+35) | 174 | 2 | 0 | 1 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -196,6 +195,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 03.11.2026**
+- 12:58 📈 Statistik 2026-11-03 ([`8892859`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8892859d0dbd881c87fa87e7f59fb9a226d70ce0))
+  - `automatik/statistik`
 - 09:29 📡 Radar 2026-11-03: 8 Beiträge, 0 DM-Entwürfe ([`dac1011`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dac1011f4dca82dfbda7191da3e9c745d601980f))
   - `automatik/interaktion`
 - 09:21 📈 Statistik 2026-11-03 ([`5460242`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5460242505006811a66437f8e6d05e8ab2c9bdfc))
