@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `48-story-tipp` (pausiert) · ✅ 17:45 🎬 Reel `i02-reel-insider-kontenabruf` (online) · 🟡 17:50 📱 Story `49-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `50-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `45-reel-vga` (läuft automatisch) · 🟡 17:50 📱 Story `51-story-teaser` (pausiert)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **15521** (26.10.–01.11., +709 % zur Vorwoche) · Follower **+342** (jetzt 718) · 30 Tage: +178 Follows / −15 entfolgt
-- **Testmonat** (Tag 22/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 23/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (1 online · 6 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (2):
   - Sa 07.11.: Story 12:15
@@ -86,7 +86,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mo 02.11. 17:50 | 📱 Story `49-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kleinunternehmer-CTA-Reel (Titelbild), jobs/p49_reel_kleinunternehmer.json. |
 | Di 03.11. 12:15 | 📱 Story `50-story-tipp` | pausiert | 14.10. Nachtlauf: Emoji-Tipp-Story „5 % degressiv für Wohnungsneubau“ (§ 7 Abs. 5a EStG) zum Gebäude-AfA-Reel, jobs/p50_reel_gebaeude_afa.json. |
 | Di 03.11. 17:45 | 🎬 Reel `45-reel-vga` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (112_jazzhop, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-05. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-29 17:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-28 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-27 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p45_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R2 gegengelesen), Reel ohne Stimme 13,4 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 06 Lofi ruhig. Titelbild neu als Prüfer-Fall „Darlehen, 0 % Zinsen? vGA.“, Karten aus karussell/vga Folie 2 und Folie 3 mit 3 statt 5 Punkten neu gerendert (Reel-Regel; Folie 04 mit verwaistem „nr 01“ nicht genutzt), Klassiker 4+5 und Rückwirkungsverbot in der Bildunterschrift. jobs/p45_reel_vga.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p45_reel_vga.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-03. |
 | Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
@@ -335,6 +334,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 00:58 ✍️ Welle nach Mein Weg #01 nutzen: Mi 28.10. Insider #14 Ferrari (Szene „Nicht absetzbar“), Do 29.10. Mein Weg #02; K41 → 06.12., i09 → 05.12.; Wissen 21 §8 (Zahlen #01) ([`b85cf68`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b85cf68044eb4385782de16f9944e53465577fcd))
   - Plan: neu `i14-reel-insider-ferrari` (2026-10-28 17:45, freigegeben); `41-karussell-mythen` zeit: 2026-10-28 17:45 → 2026-12-06 17:45; `i09-reel-insider-elterngeld` zeit: 2026-10-29 17:45 → 2026-12-05 17:45
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Di 27.10.2026**
 - 18:03 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`9845b76`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9845b769ca9624230876b449b9f31db18c6526e0))
 - 18:03 ✍️ Insider #13 „Brief vom Finanzamt: Betriebsprüfung“ – Zwischenstand (Stimme 27.10.), noch nicht eingeplant ([`1da0d82`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1da0d82554b0a86900a1dc350f2613152cb91229))
@@ -390,8 +391,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:15 📡 Radar 2026-10-27: 8 Beiträge, 0 DM-Entwürfe ([`489c3fd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/489c3fd7d7d6de8b0739909371b296cf67a03b2c))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mo 26.10.2026**
 - 20:14 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`67a5204`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/67a520452f717f93234143ad7a92907e58611439))
