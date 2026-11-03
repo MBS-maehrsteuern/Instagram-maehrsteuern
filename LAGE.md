@@ -9,9 +9,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - **Letzte 7 Tage:** Reichweite **45199** (27.10.–02.11., +2003 % zur Vorwoche) · Follower **+436** (jetzt 813) · 30 Tage: +380 Follows / −13 entfolgt
 - **Testmonat** (Tag 23/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (1 online · 6 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
-- **Freie Slots nächste 7 Tage** (2):
+- **Freie Slots nächste 7 Tage** (3):
   - Sa 07.11.: Story 12:15
   - Mo 09.11.: Story 12:15
+  - Di 10.11.: Story 12:15
 
 **Als Nächstes online:** 🎬 Reel `45-reel-vga` am **Di 03.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
