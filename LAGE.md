@@ -88,7 +88,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
 | Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
@@ -169,7 +168,6 @@ Reichweite pro Tag: 01.11. **9168** · 02.11. **30025** · 03.11. **165** · 04.
 | So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1219 (+6) | 1078 | 14 | 1 | 12 | 70 |
 | Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+3) | 451 | 6 | 1 | 3 | 3 |
 | Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+9) | 1091 | 19 | 10 | 17 | 62 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 437 (+1) | 414 | 6 | 1 | 3 | 1 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
