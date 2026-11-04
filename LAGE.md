@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 03.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 04.11. 09:21 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `52-story-tipp` (pausiert) · 🟢 17:45 🖼️ Karussell `k01-karussell-ki-befehle` (läuft automatisch) · 🟡 17:50 📱 Story `53-story-teaser` (pausiert)
 - **Braucht dich:** 2 offen
-- **Letzte 7 Tage:** Reichweite **45199** (27.10.–02.11., +2003 % zur Vorwoche) · Follower **+436** (jetzt 813) · 30 Tage: +380 Follows / −13 entfolgt
+- **Letzte 7 Tage:** Reichweite **44203** (28.10.–03.11., +1272 % zur Vorwoche) · Follower **+432** (jetzt 813) · 30 Tage: +475 Follows / −13 entfolgt
 - **Testmonat** (Tag 24/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (2 online · 5 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (3):
@@ -152,24 +152,25 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**813 Follower** · 33 Beiträge im Profil (Abruf 2026-11-03) · **+95** seit 2026-11-02
-Reichweite pro Tag: 31.10. **1031** · 01.11. **9168** · 02.11. **30025** · 03.11. **0**
+**813 Follower** · 34 Beiträge im Profil (Abruf 2026-11-04) · **+0** seit 2026-11-03
+Reichweite pro Tag: 01.11. **9168** · 02.11. **30025** · 03.11. **165** · 04.11. **0**
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 171 | 142 | 2 | 1 | 0 | 0 |
-| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 546 (+250) | 340 | 3 | 1 | 3 | 0 |
-| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 409 (+169) | 264 | 2 | 1 | 2 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 566 (+140) | 468 | 14 | 1 | 5 | 4 |
-| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 627 (+106) | 522 | 5 | 1 | 2 | 1 |
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 888 (+181) | 702 | 8 | 1 | 6 | 6 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2514 (+164) | 1933 | 25 | 1 | 12 | 45 |
-| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 592 (+82) | 476 | 9 | 5 | 10 | 9 |
-| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1213 (+85) | 1078 | 13 | 1 | 12 | 70 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 543 (+52) | 450 | 6 | 1 | 3 | 3 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1355 (+100) | 1088 | 19 | 10 | 17 | 62 |
-| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 436 (+45) | 414 | 6 | 1 | 3 | 1 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 400 (+41) | 305 | 12 | 4 | 9 | 14 |
+| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 148 | 127 | 1 | 1 | 0 | 0 |
+| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 194 (+23) | 159 | 2 | 1 | 0 | 0 |
+| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 555 (+9) | 343 | 4 | 1 | 4 | 0 |
+| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 422 (+13) | 262 | 2 | 1 | 2 | 0 |
+| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 573 (+7) | 470 | 14 | 1 | 5 | 4 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 635 (+8) | 525 | 5 | 1 | 2 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 898 (+10) | 707 | 8 | 1 | 6 | 6 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2545 (+31) | 1956 | 25 | 1 | 12 | 45 |
+| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 598 (+6) | 478 | 9 | 5 | 10 | 9 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1219 (+6) | 1078 | 14 | 1 | 12 | 70 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+3) | 451 | 6 | 1 | 3 | 3 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+9) | 1091 | 19 | 10 | 17 | 62 |
+| Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 437 (+1) | 414 | 6 | 1 | 3 | 1 |
+| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 402 (+2) | 307 | 12 | 4 | 9 | 14 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -190,6 +191,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mi 04.11.2026**
+- 09:21 📈 Statistik 2026-11-04 ([`e4eb3d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e4eb3d5afa4db2872fd225a01a6921e6a38dfc64))
+  - `automatik/statistik`
 
 **Di 03.11.2026**
 - 17:45 🤖 Autopilot: 45-reel-vga veroeffentlicht ([`5d7cd04`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5d7cd048dff6b0d13bdfc0b299a1add000f2ff22))
