@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `50-story-tipp` (pausiert) · ✅ 17:45 🎬 Reel `45-reel-vga` (online) · 🟡 17:50 📱 Story `51-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `52-story-tipp` (pausiert) · 🟢 17:45 🖼️ Karussell `k01-karussell-ki-befehle` (läuft automatisch) · 🟡 17:50 📱 Story `53-story-teaser` (pausiert)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **45199** (27.10.–02.11., +2003 % zur Vorwoche) · Follower **+436** (jetzt 813) · 30 Tage: +380 Follows / −13 entfolgt
-- **Testmonat** (Tag 23/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 24/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (2 online · 5 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (3):
   - Sa 07.11.: Story 12:15
@@ -87,7 +87,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 03.11. 17:50 | 📱 Story `51-story-teaser` | pausiert | 14.10. Nachtlauf: Teaser „Jetzt neu im Profil“ zum Kapitalerträge-Karussell (Ausschnitt Folie 1, bausteine/teaser_bild.png), jobs/p51_kapitalertraege.json. |
 | Mi 04.11. 12:15 | 📱 Story `52-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „Unbare Vorgänge: als Richtwert 10 Tage“ (GoBD, zeitgerechte Erfassung) mit Verweis aufs Reel, 👏/😮 (jobs/p52_reel_gobd.json). |
 | Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟢 freigegeben (geht automatisch online) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben. · [Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93) |
 | Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
@@ -303,6 +302,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 02:19 ✍️ Bio-Varianten A/B und Wissen §9 Spickzettel-Karussell (herr_tech) ergänzt ([`54e5c47`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/54e5c476ed12e512c917e366e48fc76194431270))
   - `LAGE.html`, `strategie/02_bio_highlights.md`, `strategie/21_wissen_trichter.md`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mi 28.10.2026**
 - 22:31 🔀 Merge claude/instagram ([`ebce622`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ebce62239bf56ad60fe18369ed186ef23af03401))
 - 22:31 ✍️ Auswertung Mein Weg #01 nach 28 h ergänzt (Wissen 21 §8) ([`abeef1a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/abeef1a679b58ba5b89ca95229f62cbf2bf03aca))
@@ -340,8 +341,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - Plan: neu `m02-reel-mein-weg-haeufigster-fehler` (2026-10-29 17:45, freigegeben)
 - 00:58 ✍️ Welle nach Mein Weg #01 nutzen: Mi 28.10. Insider #14 Ferrari (Szene „Nicht absetzbar“), Do 29.10. Mein Weg #02; K41 → 06.12., i09 → 05.12.; Wissen 21 §8 (Zahlen #01) ([`b85cf68`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b85cf68044eb4385782de16f9944e53465577fcd))
   - Plan: neu `i14-reel-insider-ferrari` (2026-10-28 17:45, freigegeben); `41-karussell-mythen` zeit: 2026-10-28 17:45 → 2026-12-06 17:45; `i09-reel-insider-elterngeld` zeit: 2026-10-29 17:45 → 2026-12-05 17:45
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 27.10.2026**
 - 18:03 🔀 Merge remote-tracking branch 'origin/claude/instagram' into ccr-8ce2ce66-8i2ful ([`9845b76`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9845b769ca9624230876b449b9f31db18c6526e0))
