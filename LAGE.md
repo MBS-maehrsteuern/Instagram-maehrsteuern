@@ -9,10 +9,11 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - **Letzte 7 Tage:** Reichweite **44203** (28.10.–03.11., +1272 % zur Vorwoche) · Follower **+432** (jetzt 813) · 30 Tage: +475 Follows / −13 entfolgt
 - **Testmonat** (Tag 24/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (2 online · 5 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
-- **Freie Slots nächste 7 Tage** (3):
+- **Freie Slots nächste 7 Tage** (4):
   - Sa 07.11.: Story 12:15
   - Mo 09.11.: Story 12:15
   - Di 10.11.: Story 12:15
+  - Mi 11.11.: Story 12:15
 
 **Als Nächstes online:** 🖼️ Karussell `k01-karussell-ki-befehle` am **Mi 04.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
