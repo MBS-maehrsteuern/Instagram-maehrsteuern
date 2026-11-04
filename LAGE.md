@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `52-story-tipp` (pausiert) · ✅ 17:45 🖼️ Karussell `k01-karussell-ki-befehle` (online) · 🟡 17:50 📱 Story `53-story-teaser` (pausiert)
+- **Heute online:** 🟡 12:15 📱 Story `54-story-tipp` (pausiert) · 🟢 17:45 🎬 Reel `i03-reel-insider-einspruch-0euro` (läuft automatisch) · 🟡 17:50 📱 Story `53-story-teaser-karussell` (pausiert)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **44203** (28.10.–03.11., +1272 % zur Vorwoche) · Follower **+432** (jetzt 813) · 30 Tage: +475 Follows / −13 entfolgt
-- **Testmonat** (Tag 24/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 25/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (3 online · 4 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (4):
   - Sa 07.11.: Story 12:15
@@ -88,7 +88,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
 | Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 | Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
@@ -271,6 +270,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 08:24 📡 Radar 2026-10-30: 8 Beiträge, 0 DM-Entwürfe ([`7f8a129`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8a12946273379606ee28fd117c888dd4db3dc3))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Do 29.10.2026**
 - 17:45 🤖 Autopilot: i14-reel-insider-ferrari veroeffentlicht ([`9b35784`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9b35784f38ace125a99febdc95872e67bc7ef5cc))
   - Plan: `i14-reel-insider-ferrari` status: freigegeben → veroeffentlicht; `i14-reel-insider-ferrari` online: https://www.instagram.com/reel/DfFcLcFk7yt/
@@ -309,8 +310,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 02:20 🔀 Merge claude/instagram ([`0495009`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0495009736a3f1db2fbce6d99d6d470f5cff842b))
 - 02:19 ✍️ Bio-Varianten A/B und Wissen §9 Spickzettel-Karussell (herr_tech) ergänzt ([`54e5c47`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/54e5c476ed12e512c917e366e48fc76194431270))
   - `LAGE.html`, `strategie/02_bio_highlights.md`, `strategie/21_wissen_trichter.md`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mi 28.10.2026**
 - 22:31 🔀 Merge claude/instagram ([`ebce622`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ebce62239bf56ad60fe18369ed186ef23af03401))
