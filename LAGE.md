@@ -171,7 +171,6 @@ Reichweite pro Tag: 01.11. **9168** · 02.11. **30025** · 03.11. **165** · 04.
 | Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+3) | 451 | 6 | 1 | 3 | 3 |
 | Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+9) | 1091 | 19 | 10 | 17 | 62 |
 | Mi 21.10. 18:10 [Vorsteuerabzug: Rechnung bezahlt, Leistu](https://www.instagram.com/reel/Dewza8JCASO/) | 437 (+1) | 414 | 6 | 1 | 3 | 1 |
-| Mi 21.10. 15:43 [Degressive AfA 2026: Du kaufst im Dezemb](https://www.instagram.com/reel/DewieoRNf5g/) | 402 (+2) | 307 | 12 | 4 | 9 | 14 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
