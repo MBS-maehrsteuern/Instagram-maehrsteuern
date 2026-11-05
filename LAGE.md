@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 04.11. 20:44 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 05.11. 10:13 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -22,6 +22,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **Anzeige Mein Weg (Loris, 05.11.):** m01 „Ich hab gezahlt …“ lief Anfang November **1 Tag als Anzeige, 200 €, nur dieser Beitrag**. App-Stand 05.11. 10:25: 49.745 Aufrufe, 42.118 erreicht, 183 Likes, 12 Kommentare, 89 gespeichert, 6 Reposts, 417 Profilaktivitäten, Wiedergabe gesamt 6 h 7 min (≈ 0,4 s je Aufruf). Die API liefert nur unbezahlte Werte (2.552 Aufrufe) – Reichweitensprung 01./02.11. (9.168 / 30.025) und ~300 Follower kamen sehr wahrscheinlich aus der Anzeige, der Einbruch ab 03.11. aus ihrem Ende. ≈ 0,67 € je neuem Follower (grob, ohne organischen Anteil). Künftige Anzeigen hier mit Datum und Budget eintragen, sonst deutet der Bericht sie falsch. Interaktiver Tagesbericht: https://claude.ai/artifact/9epPJLmgBTs2hydM6T6CVZ
 - **Stand 21.10. abends (Sitzung mit Loris):**
   - **Online heute:** Reel 42 AfA (manuell ~16:35, Stimme) und Reel 58 Vorsteuer (Autopilot 18:10, Stimme, Link im Plan). Nach 1 h AfA: 80 Aufrufe, Ø 16 s, 30 % geteilt, 18 % bis zum Ende → `strategie/06_auswertung.md`.
   - **Alle anderen Beiträge ab 21.10. sind `pausiert`** (Loris 21.10.; alter Status in `status_vorher`). Grund: Umbau aller Reels auf Loris' Stimme + neues Wissen. Wieder freigeben nur nach Loris' Ansage.
@@ -177,6 +178,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Do 05.11.2026**
+- 10:13 ✍️ Tagesbericht 5. November: 809 Follower (−4) · 49 Reichweite ([`127f2bc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/127f2bcb1dd32cecfef8ea7cb4ceeb229af1b8e2))
+  - Plan: `k01-karussell-ki-befehle` status: freigegeben → veroeffentlicht; `k01-karussell-ki-befehle` online: https://www.instagram.com/p/DfUzoUhoMFD/
 
 **Mi 04.11.2026**
 - 20:44 ✍️ Tagesbericht 4. November: 813 Follower (±0) · 165 Reichweite ([`f7af3f0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f7af3f0ad7fea71d1da80fccf95437618e9fee63))
