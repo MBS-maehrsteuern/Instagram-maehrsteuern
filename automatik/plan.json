@@ -2081,13 +2081,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "pausiert",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05.",
+      "hinweis": "05.11. 11:10: pausiert (Loris: Gesicht einbauen – Hook mit eigener Aufnahme im Büro-Look, Mitte Blur + Präsentation als Pop-up, Schluss Büro-CTA). Wieder freigeben, sobald die neue Fassung steht. · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05.",
       "trichter": "oben",
-      "musik": "102_deep_house_ruhig.mp3"
+      "musik": "102_deep_house_ruhig.mp3",
+      "status_vorher": "freigegeben"
     },
     {
       "id": "i04-reel-insider-saeumnis",
