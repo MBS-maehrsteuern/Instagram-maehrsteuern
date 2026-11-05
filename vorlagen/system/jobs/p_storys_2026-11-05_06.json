@@ -1,0 +1,37 @@
+{
+ "ausgabe": "../../posts",
+ "bilder": [
+  {
+   "vorlage": "story",
+   "datei": "i03_2026-10-26_insider_einspruch_0euro/story_do_frage.png",
+   "typ": "antwort",
+   "kicker": "Kurze Frage",
+   "titel": "Schon mal einen *falschen Bescheid* einfach bezahlt?",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja, schon passiert · 😮 = nein, nie"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i03_2026-10-26_insider_einspruch_0euro/story_do_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neues Reel",
+   "titel": "Ein Einspruch kostet dich *0 Euro*.",
+   "bild": "../../posts/i03_2026-10-26_insider_einspruch_0euro/bausteine_teaser_karte.png"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i06_2026-10-26_insider_schaetzung/story_fr_frage.png",
+   "typ": "antwort",
+   "kicker": "Kurze Frage",
+   "titel": "Steuererklärung schon mal *zu spät* abgegeben?",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja, kenn ich · 😮 = nein, immer pünktlich"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i06_2026-10-26_insider_schaetzung/story_fr_teaser.png",
+   "typ": "teaser",
+   "kicker": "Neues Reel",
+   "titel": "Keine Erklärung abgegeben? Dann *schätzt* das Finanzamt.",
+   "bild": "../../posts/i06_2026-10-26_insider_schaetzung/bausteine_teaser_karte.png"
+  }
+ ]
+}
