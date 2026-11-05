@@ -1,10 +1,10 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 05.11. 10:39 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 05.11. 12:39 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `54-story-tipp` (pausiert) · 🟢 12:15 📱 Story `i03-story-frage` (läuft automatisch) · 🟡 17:45 🎬 Reel `i03-reel-insider-einspruch-0euro` (pausiert) · 🟡 17:50 📱 Story `53-story-teaser-karussell` (pausiert) · 🟢 17:50 📱 Story `i03-story-teaser` (läuft automatisch)
+- **Heute online:** 🟡 12:15 📱 Story `54-story-tipp` (pausiert) · ✅ 12:15 📱 Story `i03-story-frage` (online) · 🟡 17:45 🎬 Reel `i03-reel-insider-einspruch-0euro` (pausiert) · 🟡 17:50 📱 Story `53-story-teaser-karussell` (pausiert) · 🟢 17:50 📱 Story `i03-story-teaser` (läuft automatisch)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **43470** (29.10.–04.11., +1032 % zur Vorwoche) · Follower **+407** (jetzt 809) · 30 Tage: +470 Follows / −14 entfolgt
 - **Testmonat** (Tag 25/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
@@ -16,7 +16,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Mi 11.11.: Story 12:15
   - Do 12.11.: Story 12:15
 
-**Als Nächstes online:** 📱 Story `i03-story-frage` am **Do 05.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 📱 Story `i03-story-teaser` am **Do 05.11. 17:50 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -90,7 +90,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
-| Do 05.11. 12:15 | 📱 Story `i03-story-frage` | 🟢 freigegeben (geht automatisch online) | 05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Frage-Story vor i03 (Emoji antippen, kein Sticker) |
 | Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | pausiert | 05.11. 11:10: pausiert (Loris: Gesicht einbauen – Hook mit eigener Aufnahme im Büro-Look, Mitte Blur + Präsentation als Pop-up, Schluss Büro-CTA). Wieder freigeben, sobald die neue Fassung steht. · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 | Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
 | Do 05.11. 17:50 | 📱 Story `i03-story-teaser` | 🟢 freigegeben (geht automatisch online) | 05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Teaser „Neues Reel“ zu i03, wartet bis i03 online ist |
@@ -142,6 +141,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Do 05.11. 12:15 · 📱 Story `i03-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4023669258887137430) (online 2026-11-05 12:39)
 - Mi 04.11. 17:45 · 🖼️ Karussell `k01-karussell-ki-befehle` · [ansehen](https://www.instagram.com/p/DfUzoUhoMFD/) (online 2026-11-04 17:45)
 - Di 03.11. 17:45 · 🎬 Reel `45-reel-vga` · [ansehen](https://www.instagram.com/reel/DfSO9Gagk8j/) (online 2026-11-03 17:45)
 - Mo 02.11. 17:45 · 🎬 Reel `i02-reel-insider-kontenabruf` · [ansehen](https://www.instagram.com/reel/DfPwiKDkcWo/) (online 2026-11-02 17:45)
@@ -151,7 +151,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Fr 30.10. 17:45 · 🎬 Reel `i01-reel-insider-programm` · [ansehen](https://www.instagram.com/reel/DfILcg8DfQm/) (online 2026-10-30 19:02)
 - Do 29.10. 17:45 · 🎬 Reel `i14-reel-insider-ferrari` · [ansehen](https://www.instagram.com/reel/DfFcLcFk7yt/) (online 2026-10-29 17:45)
 - Mi 28.10. 17:45 · 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` · [ansehen](https://www.instagram.com/reel/DfC3UzMCo4m/) (online 2026-10-28 17:45)
-- Mi 28.10. 12:15 · 📱 Story `meme2-story` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4017955438842916913) (online 2026-10-28 15:27)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -195,6 +194,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 05.11.2026**
+- 12:39 🤖 Autopilot: i03-story-frage veroeffentlicht ([`43a3234`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/43a3234a094727ba7b60759298211012de7b4f9a))
+  - Plan: `i03-story-frage` status: freigegeben → veroeffentlicht; `i03-story-frage` online: https://www.instagram.com/stories/maehrsteuern/4023669258887137430
+- 12:37 🤖 Autopilot: Dateien fuer i03-story-frage vorbereitet ([`25f06cc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/25f06cca09ef530f5a623bc05ed34709092bc211))
+  - `posts/i03_2026-10-26_insider_einspruch_0euro`
 - 10:39 ✍️ i03 pausiert: wird mit Gesicht im Büro-Look neu geschnitten ([`8dcb38e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8dcb38efa9351f02801d067eaffad2963bae64e2))
   - Plan: `i03-reel-insider-einspruch-0euro` status: freigegeben → pausiert
 - 10:36 ✍️ Story-Slots wieder an: Frage + Teaser zu i03 (heute) und i06 (morgen) ([`1b3a31b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1b3a31ba1ac2f5d82e4cabf56a9cc09f8d4e3598))
