@@ -1,14 +1,14 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 03.11. 09:26 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 04.11. 20:44 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `52-story-tipp` (pausiert) · 🔴 17:45 🖼️ Karussell `k01-karussell-ki-befehle` (überfällig) · 🟡 17:50 📱 Story `53-story-teaser` (pausiert)
-- **Braucht dich:** 10 offen, davon **10 rot** 🔴
-- **Letzte 7 Tage:** Reichweite **44203** (28.10.–03.11., +1272 % zur Vorwoche) · Follower **+432** (jetzt 813) · 30 Tage: +475 Follows / −13 entfolgt
-- **Testmonat** (Tag 24/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/14** (2 online · 5 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
+- **Heute online:** 🟡 12:15 📱 Story `54-story-tipp` (pausiert) · 🔴 17:45 🎬 Reel `i03-reel-insider-einspruch-0euro` (Dateien fehlen) · 🟡 17:50 📱 Story `53-story-teaser-karussell` (pausiert)
+- **Braucht dich:** 9 offen, davon **9 rot** 🔴
+- **Letzte 7 Tage:** Reichweite **43470** (29.10.–04.11., +1032 % zur Vorwoche) · Follower **+407** (jetzt 809) · 30 Tage: +470 Follows / −14 entfolgt
+- **Testmonat** (Tag 25/28, Soll 14 Feed/Woche, täglich ≥ 1 Reel):
+  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/14** (3 online · 4 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (14):
   - Do 05.11.: Feed 11:45
   - Fr 06.11.: Feed 11:45
@@ -18,7 +18,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Di 10.11.: Feed 11:45 · Story 12:15 · Story 17:50
   - Mi 11.11.: Feed 11:45 · Story 12:15 · Story 17:50
 
-**Als Nächstes online:** 🖼️ Karussell `k01-karussell-ki-befehle` am **Mi 04.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
+**Als Nächstes online:** 🎬 Reel `i03-reel-insider-einspruch-0euro` am **Do 05.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -63,7 +63,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `k01-karussell-ki-befehle` (Mi 04.11. 17:45): freigegeben, seit 179 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 - 🔴 **Dateien fehlen** `i03-reel-insider-einspruch-0euro` (Do 05.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i06-reel-insider-schaetzung` (Fr 06.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i04-reel-insider-saeumnis` (Mo 09.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
@@ -78,8 +77,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mi 04.11. 17:45 | 🖼️ Karussell `k01-karussell-ki-befehle` | 🟢 freigegeben (geht automatisch online) | 29.10.: nach herr_tech-Muster (Wissen 21 §9), ehrlich statt „God Mode“. Kommentar-Wort PROMPT → ManyChat schickt ki_befehle_30.pdf (Loris legt Regel an). Mi 04.11. 17:45 freigegeben (Loris: „Passt so und go“), Karussell-Kette um einen Platz verschoben. · [Freigabe #93](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/93) |
-| Mi 04.11. 17:50 | 📱 Story `53-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Reel (Titelbild), jobs/p53_iab.json. storys/tipp_iab nicht genutzt (keine Emoji-Reaktion). |
 | Do 05.11. 12:15 | 📱 Story `54-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp Pflichthinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG) mit Verweis aufs Reel, 👏/😮 (jobs/p54_reel_reverse_charge.json). storys/frage_rc nicht genutzt (STICKER-Platzhalter). |
 | Do 05.11. 17:45 | 🎬 Reel `i03-reel-insider-einspruch-0euro` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05. |
 | Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
@@ -129,6 +126,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Mi 04.11. 17:45 · 🖼️ Karussell `k01-karussell-ki-befehle` · [ansehen](https://www.instagram.com/p/DfUzoUhoMFD/) (online 2026-11-04 17:45)
 - Di 03.11. 17:45 · 🎬 Reel `45-reel-vga` · [ansehen](https://www.instagram.com/reel/DfSO9Gagk8j/) (online 2026-11-03 17:45)
 - Mo 02.11. 17:45 · 🎬 Reel `i02-reel-insider-kontenabruf` · [ansehen](https://www.instagram.com/reel/DfPwiKDkcWo/) (online 2026-11-02 17:45)
 - So 01.11. 17:45 · 🖼️ Karussell `mbs-karussell-launch` · [ansehen](https://www.instagram.com/p/DfNdBsEmmdN/) (online 2026-11-01 20:11)
@@ -138,27 +136,27 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Do 29.10. 17:45 · 🎬 Reel `i14-reel-insider-ferrari` · [ansehen](https://www.instagram.com/reel/DfFcLcFk7yt/) (online 2026-10-29 17:45)
 - Mi 28.10. 17:45 · 🎬 Reel `m02-reel-mein-weg-haeufigster-fehler` · [ansehen](https://www.instagram.com/reel/DfC3UzMCo4m/) (online 2026-10-28 17:45)
 - Mi 28.10. 12:15 · 📱 Story `meme2-story` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4017955438842916913) (online 2026-10-28 15:27)
-- Di 27.10. 18:00 · 🎬 Reel `m01-reel-mein-weg-scheinsicherheit` · [ansehen](https://www.instagram.com/reel/DfAWBBflLkW/) (online 2026-10-27 18:01)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**813 Follower** · 34 Beiträge im Profil (Abruf 2026-11-04) · **+0** seit 2026-11-03
-Reichweite pro Tag: 01.11. **9168** · 02.11. **30025** · 03.11. **165** · 04.11. **0**
+**809 Follower** · 35 Beiträge im Profil (Abruf 2026-11-05) · **-4** seit 2026-11-04 ⚠️
+Reichweite pro Tag: 02.11. **30025** · 03.11. **165** · 04.11. **49** · 05.11. **0**
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 148 | 127 | 1 | 1 | 0 | 0 |
-| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 194 (+23) | 159 | 2 | 1 | 0 | 0 |
-| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 555 (+9) | 343 | 4 | 1 | 4 | 0 |
-| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 422 (+13) | 262 | 2 | 1 | 2 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 573 (+7) | 470 | 14 | 1 | 5 | 4 |
-| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 635 (+8) | 525 | 5 | 1 | 2 | 1 |
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 898 (+10) | 707 | 8 | 1 | 6 | 6 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2545 (+31) | 1956 | 25 | 1 | 12 | 45 |
-| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 598 (+6) | 478 | 9 | 5 | 10 | 9 |
-| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1219 (+6) | 1078 | 14 | 1 | 12 | 70 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+3) | 451 | 6 | 1 | 3 | 3 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+9) | 1091 | 19 | 10 | 17 | 62 |
+| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 53 | 23 | 0 | 0 | 1 | 0 |
+| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 160 (+12) | 137 | 1 | 1 | 0 | 0 |
+| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 204 (+10) | 165 | 2 | 1 | 0 | 0 |
+| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 562 (+7) | 346 | 4 | 1 | 4 | 0 |
+| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 428 (+6) | 265 | 2 | 1 | 2 | 0 |
+| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 573 (+0) | 471 | 14 | 1 | 5 | 4 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 635 (+0) | 525 | 5 | 1 | 2 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 909 (+11) | 714 | 8 | 1 | 6 | 6 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2552 (+7) | 1961 | 25 | 1 | 12 | 46 |
+| Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 599 (+1) | 478 | 9 | 5 | 10 | 9 |
+| So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1221 (+2) | 1079 | 15 | 1 | 12 | 70 |
+| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+0) | 451 | 6 | 1 | 3 | 3 |
+| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+0) | 1091 | 19 | 10 | 17 | 62 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -179,6 +177,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mi 04.11.2026**
+- 20:44 ✍️ Tagesbericht 4. November: 813 Follower (±0) · 165 Reichweite ([`f7af3f0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f7af3f0ad7fea71d1da80fccf95437618e9fee63))
+  - Plan: `45-reel-vga` status: freigegeben → veroeffentlicht; `45-reel-vga` online: https://www.instagram.com/reel/DfSO9Gagk8j/
 
 **Di 03.11.2026**
 - 09:26 ✍️ Tagesbericht 3. November: 813 Follower (+95) · 30.025 Reichweite ([`e440f60`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e440f60ce0d307b97fa179042186ae2ec29d2852))
@@ -204,6 +206,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 10:30 ✍️ Tagesbericht 29. Oktober: 402 Follower (+21) · 782 Reichweite ([`5a2598d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5a2598d839c1458b40cbca8647f0c7307b7b84a7))
   - `automatik/berichte`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Do 29.10.2026**
 - 13:25 ✍️ Tagesbericht 29. Oktober: 402 Follower (+21) · 782 Reichweite ([`ccb7ff4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ccb7ff477d86e972c243330e37320c60193d3bb6))
   - `LAGE.html`, `automatik/berichte`
@@ -213,8 +217,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/berichte`, `automatik/lage_notizen.md`
 - 11:39 ✍️ Tagesbericht 29. Oktober 2026: 782 Reichweite, 402 Follower ([`d15c281`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d15c2810c842625fcd6d3684572d46c04c9d2549))
   - `LAGE.html`, `automatik/berichte`, `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mi 28.10.2026**
 - 13:18 ✍️ Tagesbericht 28. Oktober 2026: 1.161 Reichweite, 381 Follower ([`13a7f23`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/13a7f23670dab4fde49ed34097914a0e2d465c07))
