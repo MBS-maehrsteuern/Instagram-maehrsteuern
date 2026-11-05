@@ -171,7 +171,6 @@ Reichweite pro Tag: 02.11. **30025** · 03.11. **165** · 04.11. **49** · 05.11
 | Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 599 (+1) | 478 | 9 | 5 | 10 | 9 |
 | So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1221 (+2) | 1079 | 15 | 1 | 12 | 70 |
 | Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 546 (+0) | 451 | 6 | 1 | 3 | 3 |
-| Do 22.10. 15:45 [Finanzamt: Du denkst, es weiß nur, was i](https://www.instagram.com/reel/DezHdgPt1_0/) | 1364 (+0) | 1091 | 19 | 10 | 17 | 62 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
