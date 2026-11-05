@@ -2081,14 +2081,14 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "pausiert",
+      "status": "freigegeben",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "05.11. 11:10: pausiert (Loris: Gesicht einbauen – Hook mit eigener Aufnahme im Büro-Look, Mitte Blur + Präsentation als Pop-up, Schluss Büro-CTA). Wieder freigeben, sobald die neue Fassung steht. · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05.",
+      "hinweis": "05.11. 17:00: neu geschnitten mit Gesicht (Loris, volle Freigabe): Hook 2,4 s eigene Aufnahme im Büro-Look (Runway Aleph, gespiegelt, Einblendung „Einspruch = 0 €“), Mitte Büro unscharf + Präsentation als Pop-up, Schluss Lächel-Porträt im Kreis + Karte „Folg mir“. Alte Grafik-Fassung: reel_alt_grafik.mp4. KI-LABEL: nach dem Posten in der App setzen (Beitrag → ⋯ → Bearbeiten → KI-Label). · 05.11. 11:10: pausiert (Loris: Gesicht einbauen – Hook mit eigener Aufnahme im Büro-Look, Mitte Blur + Präsentation als Pop-up, Schluss Büro-CTA). Wieder freigeben, sobald die neue Fassung steht. · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-02. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #03 (Aufnahme 26.10.), Premium-Look premium/insider_03.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-05.",
       "trichter": "oben",
       "musik": "102_deep_house_ruhig.mp3",
-      "status_vorher": "freigegeben"
+      "ki_label": true
     },
     {
       "id": "i04-reel-insider-saeumnis",
