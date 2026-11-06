@@ -89,7 +89,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 17:50 | 📱 Story `56-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum Verjährungs-Karussell (Folie 1), jobs/p56_verjaehrung.json. |
 | Sa 07.11. 17:45 | 🎬 Reel `i04-reel-insider-saeumnis` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-09 → 2026-11-07 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-05. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-09. |
 | Sa 07.11. 17:50 | 📱 Story `57-story-teaser` | pausiert | 14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum § 8c-Reel (Titelbild), jobs/p57_reel_verlust_8c.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird. |
