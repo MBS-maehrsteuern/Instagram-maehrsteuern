@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `54-story-tipp` (pausiert) · ✅ 12:15 📱 Story `i03-story-frage` (online) · ✅ 17:45 🎬 Reel `i03-reel-insider-einspruch-0euro` (online) · 🟡 17:50 📱 Story `53-story-teaser-karussell` (pausiert) · ✅ 17:50 📱 Story `i03-story-teaser` (online)
+- **Heute online:** 🟡 12:15 📱 Story `55-story-tipp` (pausiert) · 🟢 12:15 📱 Story `i06-story-frage` (läuft automatisch) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `56-story-teaser` (pausiert) · 🟢 17:50 📱 Story `i06-story-teaser` (läuft automatisch)
 - **Braucht dich:** 2 offen
 - **Letzte 7 Tage:** Reichweite **43470** (29.10.–04.11., +1032 % zur Vorwoche) · Follower **+407** (jetzt 809) · 30 Tage: +470 Follows / −14 entfolgt
-- **Testmonat** (Tag 25/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 26/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (5):
   - Sa 07.11.: Story 12:15
@@ -89,7 +89,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 05.11. 17:50 | 📱 Story `53-story-teaser-karussell` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum IAB-Karussell (Folie 1), jobs/p53_iab.json. |
 | Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
 | Fr 06.11. 12:15 | 📱 Story `i06-story-frage` | 🟢 freigegeben (geht automatisch online) | 05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Frage-Story vor i06 (Emoji antippen, kein Sticker) |
 | Fr 06.11. 17:45 | 🎬 Reel `i06-reel-insider-schaetzung` | 🟢 freigegeben (geht automatisch online) | 02.11.: mit i06 getauscht (Loris: „i02 heute“) – Hook-Muster „Finanzamt sieht/weiß etwas über dich“ = bisher meistgeteilte Insider-Reels. · 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-31. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #06 (Aufnahme 26.10.), Premium-Look premium/insider_06.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-02. |
@@ -283,6 +282,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:20 📈 Statistik 2026-10-31 ([`b8b8dba`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b8b8dba1e584e1c9a7286f8b24176b03ed9eb586))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Fr 30.10.2026**
 - 19:02 🤖 Autopilot: i01-reel-insider-programm veroeffentlicht ([`b742235`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b7422353ad44ff7cf2208bc57f1d1fa7b9b905c2))
   - Plan: `i01-reel-insider-programm` status: freigegeben → veroeffentlicht; `i01-reel-insider-programm` online: https://www.instagram.com/reel/DfILcg8DfQm/
@@ -296,8 +297,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 08:24 📡 Radar 2026-10-30: 8 Beiträge, 0 DM-Entwürfe ([`7f8a129`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/7f8a12946273379606ee28fd117c888dd4db3dc3))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Do 29.10.2026**
 - 17:45 🤖 Autopilot: i14-reel-insider-ferrari veroeffentlicht ([`9b35784`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/9b35784f38ace125a99febdc95872e67bc7ef5cc))
