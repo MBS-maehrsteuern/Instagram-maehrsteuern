@@ -2442,8 +2442,11 @@
       "bilder": [
         "story_fr_teaser.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Teaser „Neues Reel“ zu i06, wartet bis i06 online ist"
+      "status": "veroeffentlicht",
+      "hinweis": "05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Teaser „Neues Reel“ zu i06, wartet bis i06 online ist",
+      "media_id": "18040373459847780",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4024547914093622737",
+      "veroeffentlicht_am": "2026-11-06 17:50"
     }
   ]
 }
