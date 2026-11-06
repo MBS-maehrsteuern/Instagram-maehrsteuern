@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 05.11. 10:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 06.11. 13:23 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -22,6 +22,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
+- **App-Stand 06.11. 13:33 (Screenshots Loris):** 30 Tage 104.272 Aufrufe (7,3 % Follower), netto +452 Follower, 1.054 Follower. Mein Weg (m01) 81.234 Aufrufe, 280 Likes, 46 Kommentare, 106× gesendet, **646 neue Follower** – fast das ganze Wachstum. Die API zeigt davon nur 2.758 (unbezahlt) → der zweite Reichweitensprung am 05.11. kam sehr wahrscheinlich wieder aus der Anzeige. i03 mit Gesicht: laut Instagram „10 % mehr Wiedergaben als jedes der letzten 5 Reels“. **Zielgruppe verschoben:** 54 % Frauen (vorher 37 %), 35–44 J. 28,9 %, 45–54 J. 26 %, 25–34 J. 21,5 %, 55–64 J. 13,7 %. Aktivste Zeit weiter 18–21 Uhr (17:45 passt).
 - **Anzeige Mein Weg (Loris, 05.11.):** m01 „Ich hab gezahlt …“ lief Anfang November **1 Tag als Anzeige, 200 €, nur dieser Beitrag**. App-Stand 05.11. 10:25: 49.745 Aufrufe, 42.118 erreicht, 183 Likes, 12 Kommentare, 89 gespeichert, 6 Reposts, 417 Profilaktivitäten, Wiedergabe gesamt 6 h 7 min (≈ 0,4 s je Aufruf). Die API liefert nur unbezahlte Werte (2.552 Aufrufe) – Reichweitensprung 01./02.11. (9.168 / 30.025) und ~300 Follower kamen sehr wahrscheinlich aus der Anzeige, der Einbruch ab 03.11. aus ihrem Ende. ≈ 0,67 € je neuem Follower (grob, ohne organischen Anteil). Künftige Anzeigen hier mit Datum und Budget eintragen, sonst deutet der Bericht sie falsch. Interaktiver Tagesbericht: https://claude.ai/artifact/9epPJLmgBTs2hydM6T6CVZ
 - **Stand 21.10. abends (Sitzung mit Loris):**
   - **Online heute:** Reel 42 AfA (manuell ~16:35, Stimme) und Reel 58 Vorsteuer (Autopilot 18:10, Stimme, Link im Plan). Nach 1 h AfA: 80 Aufrufe, Ø 16 s, 30 % geteilt, 18 % bis zum Ende → `strategie/06_auswertung.md`.
@@ -64,7 +65,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `i06-story-frage` (Fr 06.11. 12:15): freigegeben, seit 68 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- 🔴 **Überfällig** `i06-story-frage` (Fr 06.11. 12:15): freigegeben, seit 79 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 - 🔴 **Dateien fehlen** `i06-reel-insider-schaetzung` (Fr 06.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i06-story-teaser` (Fr 06.11. 17:50): story_fr_teaser.png
 - 🔴 **Dateien fehlen** `i04-reel-insider-saeumnis` (Mo 09.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
@@ -183,6 +184,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Fr 06.11.2026**
+- 13:23 ✍️ Tagesbericht 6. November: 1.055 Follower (+246) · 28.833 Reichweite ([`647ff4f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/647ff4ff0658bc84c309d8e6e38815e3cf768b03))
+  - Plan: neu `i03-story-frage` (2026-11-05 12:15, veroeffentlicht); neu `i03-story-teaser` (2026-11-05 17:50, veroeffentlicht); neu `i06-story-frage` (2026-11-06 12:15, freigegeben); neu `i06-story-teaser` (2026-11-06 17:50, freigegeben); `i03-reel-insider-einspruch-0euro` status: freigegeben → veroeffentlicht; `i03-reel-insider-einspruch-0euro` online: https://www.instagram.com/reel/DfXciSnGiwR/
 
 **Do 05.11.2026**
 - 10:29 ✍️ Lage: Anzeige Mein Weg (1 Tag, 200 €) erklärt den Reichweitensprung 01./02.11. ([`9004415`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/90044158ed2300a3e42b134c7ebd2991eb1c1531))
