@@ -1,11 +1,11 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 06.11. 14:03 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 06.11. 15:59 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `55-story-tipp` (pausiert) · 🔴 12:15 📱 Story `i06-story-frage` (überfällig) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `56-story-teaser` (pausiert) · 🟢 17:50 📱 Story `i06-story-teaser` (läuft automatisch)
-- **Braucht dich:** 2 offen, davon **1 rot** 🔴
+- **Heute online:** 🟡 12:15 📱 Story `55-story-tipp` (pausiert) · ✅ 12:15 📱 Story `i06-story-frage` (online) · 🟢 17:45 🎬 Reel `i06-reel-insider-schaetzung` (läuft automatisch) · 🟡 17:50 📱 Story `56-story-teaser` (pausiert) · 🟢 17:50 📱 Story `i06-story-teaser` (läuft automatisch)
+- **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **70823** (30.10.–05.11., +1335 % zur Vorwoche) · Follower **+618** (jetzt 1055) · 30 Tage: +467 Follows / −15 entfolgt
 - **Testmonat** (Tag 26/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
@@ -17,7 +17,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Do 12.11.: Story 12:15
   - Fr 13.11.: Story 12:15
 
-**Als Nächstes online:** 📱 Story `i06-story-frage` am **Fr 06.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
+**Als Nächstes online:** 🎬 Reel `i06-reel-insider-schaetzung` am **Fr 06.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -83,7 +83,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `i06-story-frage` (Fr 06.11. 12:15): freigegeben, seit 205 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 - ⏰ **🎙️ Neue Reel-Aufnahmen einsprechen (Reels ab 17.11.)** (Sa 07.11. 10:00) – Ca. 1 h. Sprechtexte (je 25–30 s, Hook im ersten Satz, Schlussfrage) legt Claude bis Do 05.11. in posts/sprechtexte.md bereit. Ruhiger Raum, Handy nah, wie Aufnahme 21.10. Danach die Datei(en) an Claude geben → Premium-Reels bauen. Ohne neue Aufnahme gehen ab 17.11. keine Reels mehr raus (nur Karussells Mi + So).
 
 ## ⏭️ Nächste 7 Tage
@@ -91,7 +90,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Fr 06.11. 12:15 | 📱 Story `55-story-tipp` | pausiert | 14.10. Nachtlauf (d2): Emoji-Tipp „28,25 % auf Gewinn, der im Betrieb bleibt“ (§ 34a EStG, zzgl. SolZ, 25 % Nachversteuerung), 👏/😮 (jobs/p55_reel_thesaurierung.json). |
-| Fr 06.11. 12:15 | 📱 Story `i06-story-frage` | 🟢 freigegeben (geht automatisch online) | 05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Frage-Story vor i06 (Emoji antippen, kein Sticker) |
 | Fr 06.11. 17:45 | 🎬 Reel `i06-reel-insider-schaetzung` | 🟢 freigegeben (geht automatisch online) | 02.11.: mit i06 getauscht (Loris: „i02 heute“) – Hook-Muster „Finanzamt sieht/weiß etwas über dich“ = bisher meistgeteilte Insider-Reels. · 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-31. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #06 (Aufnahme 26.10.), Premium-Look premium/insider_06.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-02. |
 | Fr 06.11. 17:50 | 📱 Story `56-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum Verjährungs-Karussell (Folie 1), jobs/p56_verjaehrung.json. |
 | Fr 06.11. 17:50 | 📱 Story `i06-story-teaser` | 🟢 freigegeben (geht automatisch online) | 05.11.: Story-Slots wieder an (Loris: „Ja Story Slots wieder einschalten“) – neue Story passend zum Reel des Tages, alte Storys der verschobenen Beiträge bleiben pausiert. Job vorlagen/system/jobs/p_storys_2026-11-05_06.json. Teaser „Neues Reel“ zu i06, wartet bis i06 online ist |
@@ -138,6 +136,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Fr 06.11. 12:15 · 📱 Story `i06-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4024494350356858118) (online 2026-11-06 15:59)
 - Do 05.11. 17:50 · 📱 Story `i03-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4023823131182066235) (online 2026-11-05 17:50)
 - Do 05.11. 17:45 · 🎬 Reel `i03-reel-insider-einspruch-0euro` · [ansehen](https://www.instagram.com/reel/DfXciSnGiwR/) (online 2026-11-05 17:45)
 - Do 05.11. 12:15 · 📱 Story `i03-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4023669258887137430) (online 2026-11-05 12:39)
@@ -147,7 +146,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - So 01.11. 17:45 · 🖼️ Karussell `mbs-karussell-launch` · [ansehen](https://www.instagram.com/p/DfNdBsEmmdN/) (online 2026-11-01 20:11)
 - So 01.11. 17:45 · 🖼️ Karussell `35-karussell-steuerkalender` · [ansehen](https://www.instagram.com/p/DfNFAr9lLsn/) (online 2026-11-01 17:45)
 - Sa 31.10. 17:45 · 🎬 Reel `52-reel-gobd` · [ansehen](https://www.instagram.com/reel/DfKgI-ZEb9C/) (online 2026-10-31 17:45)
-- Fr 30.10. 17:45 · 🎬 Reel `i01-reel-insider-programm` · [ansehen](https://www.instagram.com/reel/DfILcg8DfQm/) (online 2026-10-30 19:02)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -196,6 +194,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Fr 06.11.2026**
+- 15:59 🤖 Autopilot: i06-story-frage veroeffentlicht ([`d7687d1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d7687d11bf9ed7ba9e78608d3242033bfb603bac))
+  - Plan: `i06-story-frage` status: freigegeben → veroeffentlicht; `i06-story-frage` online: https://www.instagram.com/stories/maehrsteuern/4024494350356858118
+- 15:57 🤖 Autopilot: Dateien fuer i06-story-frage vorbereitet ([`e1fcbca`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e1fcbcaf94cc7b1c5ea95c6f0cada2723c0ac2f6))
+  - `posts/i06_2026-10-26_insider_schaetzung`
 - 14:03 ✍️ Plan: Insider-Reels zuerst (Sa 07.11. i04 statt Excel-Reel 40), GmbH/Excel nach hinten ([`565a14d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/565a14d0e2aea08db9cdc2452811ed017c510c31))
   - Plan: `32-reel-mindeststeuer` zeit: 2026-11-30 17:45 → 2026-12-04 17:45; `33-reel-paragraf-formel` zeit: 2026-12-03 17:45 → 2026-12-05 17:45; `34-reel-einspruch` zeit: 2026-12-01 17:45 → 2026-11-23 17:45; `38-reel-pruefpfad` zeit: 2026-11-10 17:45 → 2026-11-20 17:45; `39-reel-holding` zeit: 2026-11-13 17:45 → 2026-11-28 17:45; `40-reel-formeln` zeit: 2026-11-07 17:45 → 2026-12-03 17:45; `43-reel-par35` zeit: 2026-11-20 17:45 → 2026-11-26 17:45; `48-reel-firmenwagen` zeit: 2026-11-21 17:45 → 2026-11-17 17:45; `49-reel-kleinunternehmer` zeit: 2026-11-24 17:45 → 2026-11-16 17:45; `50-reel-gebaeude-afa` zeit: 2026-11-27 17:45 → 2026-11-19 17:45; `53-reel-iab` zeit: 2026-11-28 17:45 → 2026-11-21 17:45; `54-reel-reverse-charge` zeit: 2026-11-16 17:45 → 2026-11-24 17:45; `55-reel-thesaurierung` zeit: 2026-11-23 17:45 → 2026-11-27 17:45; `57-reel-verlust-8c` zeit: 2026-11-26 17:45 → 2026-11-30 17:45; `i04-reel-insider-saeumnis` zeit: 2026-11-09 17:45 → 2026-11-07 17:45; `i05-reel-insider-finanzbeamte` zeit: 2026-12-04 17:45 → 2026-11-10 17:45; `i07-reel-insider-kontrollmitteilung` zeit: 2026-11-14 17:45 → 2026-11-13 17:45; `i09-reel-insider-elterngeld` zeit: 2026-12-05 17:45 → 2026-11-09 17:45; `i11-reel-insider-anrufen` zeit: 2026-11-17 17:45 → 2026-11-14 17:45; `i12-reel-insider-mbs-excel` zeit: 2026-11-19 17:45 → 2026-12-01 17:45
 - 09:22 📈 Statistik 2026-11-06 ([`ebab99f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ebab99f45f87d364deea1a7d59e5f2c77af3a328))
