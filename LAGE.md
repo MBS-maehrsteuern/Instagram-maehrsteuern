@@ -83,7 +83,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `i06-story-frage` (Fr 06.11. 12:15): freigegeben, seit 117 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- 🔴 **Überfällig** `i06-story-frage` (Fr 06.11. 12:15): freigegeben, seit 205 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 - ⏰ **🎙️ Neue Reel-Aufnahmen einsprechen (Reels ab 17.11.)** (Sa 07.11. 10:00) – Ca. 1 h. Sprechtexte (je 25–30 s, Hook im ersten Satz, Schlussfrage) legt Claude bis Do 05.11. in posts/sprechtexte.md bereit. Ruhiger Raum, Handy nah, wie Aufnahme 21.10. Danach die Datei(en) an Claude geben → Premium-Reels bauen. Ohne neue Aufnahme gehen ab 17.11. keine Reels mehr raus (nur Karussells Mi + So).
 
 ## ⏭️ Nächste 7 Tage
