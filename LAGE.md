@@ -9,12 +9,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - **Letzte 7 Tage:** Reichweite **70823** (30.10.–05.11., +1335 % zur Vorwoche) · Follower **+618** (jetzt 1055) · 30 Tage: +467 Follows / −15 entfolgt
 - **Testmonat** (Tag 26/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (4 online · 3 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
-- **Freie Slots nächste 7 Tage** (5):
+- **Freie Slots nächste 7 Tage** (6):
   - Sa 07.11.: Story 12:15
   - Mo 09.11.: Story 12:15
   - Di 10.11.: Story 12:15
   - Mi 11.11.: Story 12:15
   - Do 12.11.: Story 12:15
+  - Fr 13.11.: Story 12:15
 
 **Als Nächstes online:** 📱 Story `i06-story-frage` am **Fr 06.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
 
