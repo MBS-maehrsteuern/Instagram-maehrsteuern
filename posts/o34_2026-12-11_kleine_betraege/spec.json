@@ -1,0 +1,60 @@
+{
+ "kicker": "STEUERERKLÄRUNG · TIPP",
+ "hook": [
+  {
+   "t": "Diese *2 Beträge*"
+  },
+  {
+   "t": "vergisst fast jeder.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "vergisst",
+ "korrektur": [
+  [
+   "leppert sich",
+   "läppert sich"
+  ],
+  [
+   "dass Finanzamt",
+   "das Finanzamt"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "1 · Handy & *Internet*",
+   "h2": "Auch für die Arbeit genutzt?"
+  },
+  {
+   "typ": "gross",
+   "at": "pauschal",
+   "ober": "PAUSCHAL 20 %",
+   "wert": "20 €",
+   "unter": "bis zu diesem Betrag *im Monat*"
+  },
+  {
+   "typ": "gross",
+   "at": "Zwei",
+   "ober": "2 · KONTOFÜHRUNG",
+   "zahl": 16,
+   "nach": " €",
+   "unter": "im Jahr, *pauschal*"
+  },
+  {
+   "typ": "titel",
+   "at": "Akzeptiert",
+   "h1": "Meist *ohne Nachweis*",
+   "h2": "Klein, aber es läppert sich."
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* für deine Erklärung",
+   "unter": "Beide Beträge nicht vergessen."
+  }
+ ],
+ "musik": "musik/runway/112_jazzhop.mp3"
+}

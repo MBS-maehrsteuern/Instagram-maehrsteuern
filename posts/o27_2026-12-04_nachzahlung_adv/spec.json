@@ -1,0 +1,90 @@
+{
+ "kicker": "NACHZAHLUNG · 2 SCHRITTE",
+ "hook": [
+  {
+   "t": "Nachzahlung?"
+  },
+  {
+   "t": "*Dagegen* kannst du angehen.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "verlangen",
+ "korrektur": [
+  [
+   "ADV -Antrag",
+   "AdV-Antrag"
+  ],
+  [
+   "ADV -Zinsen,",
+   "AdV-Zinsen,"
+  ],
+  [
+   "Zahlauf",
+   "Zahlungslauf"
+  ],
+  [
+   "Säumnisszuschläge",
+   "Säumniszuschläge"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "brief",
+   "absender": "SCHRITT 1 · EINSPRUCH",
+   "zeilen": [
+    {
+     "t": "Hiermit lege ich Einspruch",
+     "at": "hiermit"
+    },
+    {
+     "t": "gegen den Bescheid vom …",
+     "at": "Bescheid"
+    }
+   ]
+  },
+  {
+   "typ": "brief",
+   "at": "Zweiter Schritt",
+   "absender": "SCHRITT 2 · IM SELBEN BRIEF",
+   "zeilen": [
+    {
+     "t": "Im selben Brief, als zweiter Satz",
+     "at": "Brief"
+    },
+    {
+     "t": "Antrag auf Aussetzung der Vollziehung (AdV)",
+     "at": "Aussetzung"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "h1": "Die Zahlung *ruht*",
+   "h2": "wenn das Finanzamt die AdV gewährt.",
+   "at": "Das stoppt"
+  },
+  {
+   "typ": "gross",
+   "at": "Achtung",
+   "ober": "ADV-ZINSEN",
+   "wert": "0,5 %",
+   "unter": "pro Monat, *nur wenn der Einspruch scheitert*"
+  },
+  {
+   "typ": "titel",
+   "h1": "Besser als *Säumniszuschläge*",
+   "h2": "AdV-Zinsen sind meist milder.",
+   "at": "die sind"
+  },
+  {
+   "typ": "cta",
+   "at": "speicher",
+   "icon": "save",
+   "icon_at": "speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… und schick's an jemanden mit Nachzahlung."
+  }
+ ],
+ "musik": "musik/runway/115_marimba_corporate.mp3"
+}

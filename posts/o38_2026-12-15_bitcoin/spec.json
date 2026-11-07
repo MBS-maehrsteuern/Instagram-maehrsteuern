@@ -1,0 +1,51 @@
+{
+ "kicker": "KRYPTO · HALTEFRIST",
+ "hook": [
+  {
+   "t": "Bitcoin: *1 Tag*"
+  },
+  {
+   "t": "kann Hunderte kosten.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gekauft",
+ "korrektur": [
+  [
+   "Einen Tag",
+   "Ein Tag"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "datum",
+   "kopf": "HALTEFRIST",
+   "tag": "1",
+   "monat": "JAHR",
+   "unter": "Danach ist der Gewinn *steuerfrei*."
+  },
+  {
+   "typ": "titel",
+   "at": "Verkaufst",
+   "h1": "Vorher verkauft? *Steuer*",
+   "h2": "Der Gewinn wird besteuert"
+  },
+  {
+   "typ": "gross",
+   "at": "Ein Tag",
+   "ober": "EIN TAG KANN",
+   "wert": "Paar 100 €",
+   "wgr": 190,
+   "unter": "*ausmachen*"
+  },
+  {
+   "typ": "cta",
+   "at": "Schick",
+   "icon": "send",
+   "icon_at": "Schick",
+   "text": "*Schick* das dem Kryptofreund",
+   "unter": "der immer zu früh verkauft."
+  }
+ ],
+ "musik": "musik/runway/122_lofi_hiphop.mp3"
+}

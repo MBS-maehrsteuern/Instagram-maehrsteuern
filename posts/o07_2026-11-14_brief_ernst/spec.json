@@ -1,0 +1,74 @@
+{
+ "kicker": "BRIEF VOM FINANZAMT",
+ "hook": [
+  {
+   "t": "In *5 Sekunden* weißt du,"
+  },
+  {
+   "t": "ob es ernst ist.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "schlecht",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "So erkennst",
+   "h1": "Ernst oder nicht? *5 Sekunden*",
+   "h2": "So erkennst du es."
+  },
+  {
+   "typ": "brief",
+   "at": "Schau auf",
+   "absender": "FINANZAMT · BRIEF",
+   "zeilen": [
+    {
+     "t": "Bescheid",
+     "at": "Bescheid"
+    },
+    {
+     "t": "Rückfrage",
+     "at": "Rückfrage"
+    },
+    {
+     "t": "Mahnung",
+     "at": "Mahnung",
+     "farbe": "rot"
+    },
+    {
+     "t": "Vollstreckung",
+     "at": "Vollstreckung",
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Du hast",
+   "h1": "Bescheid: *prüfen*",
+   "h2": "Du hast einen Monat für den Einspruch."
+  },
+  {
+   "typ": "titel",
+   "at": "Ist es",
+   "h1": "Rückfrage: *einfach beantworten*",
+   "h2": "Meistens fehlt nur ein Beleg."
+  },
+  {
+   "typ": "titel",
+   "at": "dann sofort",
+   "h1": "Mahnung oder Vollstreckung: *anrufen*",
+   "h2": "Sofort handeln. Die Durchwahl steht oben."
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* für den Brieftag",
+   "unter": "Der Tag, an dem der Brief kommt."
+  }
+ ],
+ "musik": "musik/runway/115_marimba_corporate.mp3"
+}

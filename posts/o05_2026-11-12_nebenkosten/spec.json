@@ -1,0 +1,88 @@
+{
+ "kicker": "GELD ZURÜCK · MIETER",
+ "hook": [
+  {
+   "t": "Deine *Nebenkosten*"
+  },
+  {
+   "t": "sind bares Geld.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Nebenkostenabrechnung",
+ "korrektur": [
+  [
+   "dein Mitbewohner",
+   "deinem Mitbewohner"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Da steckt *Geld* drin",
+   "h2": "Vom Finanzamt"
+  },
+  {
+   "typ": "liste",
+   "at": "Hausmeister",
+   "kopf": "Diese Kosten *zählen*",
+   "punkte": [
+    {
+     "t": "Hausmeister",
+     "at": "Hausmeister"
+    },
+    {
+     "t": "Treppenreinigung",
+     "at": "Treppenreinigung"
+    },
+    {
+     "t": "Gartenpflege",
+     "at": "Gartenpflege"
+    },
+    {
+     "t": "Schornsteinfeger",
+     "at": "Schornsteinfeger"
+    }
+   ]
+  },
+  {
+   "typ": "gross",
+   "at": "20",
+   "ober": "DAVON ZIEHST DU AB",
+   "zahl": 20,
+   "nach": " %",
+   "unter": "direkt von deiner *Steuer*"
+  },
+  {
+   "typ": "vs",
+   "at": "Nicht",
+   "at2": "der Steuer",
+   "links": {
+    "lab": "NICHT VOM",
+    "w": "Einkommen",
+    "t": "senkt nur, was versteuert wird"
+   },
+   "rechts": {
+    "lab": "SONDERN VON DER",
+    "w": "Steuer",
+    "t": "jeder Euro zählt voll"
+   },
+   "wgr": 190
+  },
+  {
+   "typ": "titel",
+   "at": "Die meisten",
+   "h1": "Die meisten wissen's *nicht*",
+   "h2": "Auch viele Mieter nicht."
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das deinem Mitbewohner",
+   "unter": "und holt euch das Geld."
+  }
+ ],
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+}

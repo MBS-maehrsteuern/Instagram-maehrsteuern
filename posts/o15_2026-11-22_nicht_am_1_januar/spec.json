@@ -1,0 +1,73 @@
+{
+ "kicker": "GELD ZURÜCK · TIMING",
+ "hook": [
+  {
+   "t": "1. Januar abgeben"
+  },
+  {
+   "t": "bringt *nichts*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "zurück",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "Und gibst",
+   "h1": "Am *1. Januar* abgeben?",
+   "h2": "Bringt meistens nichts."
+  },
+  {
+   "typ": "liste",
+   "at": "Arbeitgeber",
+   "kopf": "Melden Daten erst bis Ende Februar",
+   "punkte": [
+    {
+     "t": "Arbeitgeber",
+     "at": "Arbeitgeber"
+    },
+    {
+     "t": "Krankenkasse",
+     "at": "Krankenkasse"
+    },
+    {
+     "t": "Rentenversicherung",
+     "at": "Rentenversicherung"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Vorher",
+   "h1": "Vorher kann das Finanzamt oft *nicht rechnen*",
+   "h2": "Die Daten fehlen noch."
+  },
+  {
+   "typ": "datum",
+   "at": "Ab März",
+   "kopf": "MEIN TIPP",
+   "tag": "Ab",
+   "monat": "MÄRZ",
+   "unter": "mit den Daten, die schon da sind"
+  },
+  {
+   "typ": "umfrage",
+   "at": "Gibst du",
+   "frage": "Gibst du *früh* oder *spät* ab?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Früh",
+     "at": "A"
+    },
+    {
+     "b": "B",
+     "t": "Spät",
+     "at": "B"
+    }
+   ]
+  }
+ ],
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+}

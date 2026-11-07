@@ -1,0 +1,85 @@
+{
+ "kicker": "MEIN WEG · TEIL 2",
+ "hook": [
+  {
+   "t": "Was mich die *Freiheit*"
+  },
+  {
+   "t": "wirklich gekostet hat.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gefragt",
+ "korrektur": [
+  [
+   "Das Satz",
+   "Der Satz"
+  ],
+  [
+   "er entscheide",
+   "ich entscheide"
+  ],
+  [
+   "wertvollste",
+   "Wertvollste"
+  ],
+  [
+   "teuerste",
+   "Teuerste"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "„Was hat dich das *gekostet*?“",
+   "h2": "46 Fragen per DM"
+  },
+  {
+   "typ": "titel",
+   "at": "Geld",
+   "h1": "Geld? *Ja.*",
+   "h2": "Aber das Teuerste war was anderes."
+  },
+  {
+   "typ": "titel",
+   "at": "Der Satz",
+   "h1": "„Bist du *verrückt*?“",
+   "h2": "Du hattest es doch sicher."
+  },
+  {
+   "typ": "gross",
+   "at": "Und das",
+   "ober": "Das Wertvollste",
+   "wert": "Freiheit",
+   "wgr": 190,
+   "unter": "Ich entscheide selbst, *woran ich arbeite*."
+  },
+  {
+   "typ": "umfrage",
+   "at": "Würdest",
+   "frage": "Würdest du für deine Freiheit *zahlen*?",
+   "optionen": [
+    {
+     "b": "JA",
+     "t": "Sofort",
+     "at": "Ja"
+    },
+    {
+     "b": "NEIN",
+     "t": "Sicherheit zuerst",
+     "at": "nein"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreib",
+   "icon": "comment",
+   "buchstabe": "?",
+   "icon_at": "Schreib",
+   "text": "Schreib *Ja* oder *Nein*",
+   "unter": "… und wir diskutieren."
+  }
+ ],
+ "musik": "musik/runway/121_minimal_house.mp3"
+}

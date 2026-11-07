@@ -1,0 +1,60 @@
+{
+ "kicker": "ABFINDUNG · GELD ZURÜCK",
+ "hook": [
+  {
+   "t": "Abfindung? Zu viel *Steuer*"
+  },
+  {
+   "t": "abgezogen.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "bekommen",
+ "korrektur": [
+  [
+   "5. Regelung",
+   "Fünftelregelung"
+  ],
+  [
+   "jemanden",
+   "jemandem"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Zu viel *Steuer* abgezogen",
+   "h2": "Vom Arbeitgeber, wahrscheinlich"
+  },
+  {
+   "typ": "gross",
+   "at": "Seit",
+   "ober": "SEIT",
+   "wert": "2025",
+   "unter": "kein *Steuervorteil* mehr vom Arbeitgeber"
+  },
+  {
+   "typ": "titel",
+   "at": "Die bekommst",
+   "h1": "Nur noch per *Steuererklärung*",
+   "h2": "Dort holst du dir den Vorteil"
+  },
+  {
+   "typ": "gross",
+   "at": "Das können",
+   "ober": "DIFFERENZ",
+   "wert": "Tausende €",
+   "wgr": 190,
+   "unter": "schnell *ein paar tausend Euro*"
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das weiter",
+   "unter": "an jemanden, der gerade gekündigt wurde."
+  }
+ ],
+ "musik": "musik/runway/130_pop_electronic_clean.mp3"
+}

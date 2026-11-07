@@ -1,0 +1,54 @@
+{
+ "kicker": "MYTHOS 1 · GEHALT",
+ "hook": [
+  {
+   "t": "Mehr Brutto ist"
+  },
+  {
+   "t": "*immer* mehr Netto.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "verdiene",
+ "korrektur": [
+  [
+   "Proto",
+   "brutto"
+  ],
+  [
+   "Geheizerhöhung",
+   "Gehaltserhöhung"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Mehr verdienen = am Ende weniger Netto",
+   "stempel_at": "Falsch",
+   "stempel": "FALSCH",
+   "wahr_at": "Der höhere",
+   "wahr": "Der höhere Satz gilt nur für den *Euro obendrauf*."
+  },
+  {
+   "typ": "titel",
+   "h1": "Nie fürs *ganze Gehalt*",
+   "h2": "Nur für den Euro, der dazu kommt.",
+   "at": "Nie fürs"
+  },
+  {
+   "typ": "titel",
+   "h1": "Mehr brutto = *mehr netto*",
+   "h2": "Immer.",
+   "at": "Mehr brutto"
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das weiter",
+   "unter": "… an den Kollegen mit der abgelehnten Gehaltserhöhung."
+  }
+ ],
+ "musik": "musik/runway/127_tech_groove.mp3"
+}

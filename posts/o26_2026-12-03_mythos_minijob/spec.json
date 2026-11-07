@@ -1,0 +1,54 @@
+{
+ "kicker": "MYTHOS 3 · MINIJOB",
+ "hook": [
+  {
+   "t": "Minijob eintragen?"
+  },
+  {
+   "t": "Meistens *nicht*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "eintragen",
+ "korrektur": [
+  [
+   "Zeig dein Chef",
+   "Zahlt dein Chef"
+  ],
+  [
+   "ist er schon",
+   "ist sie schon"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Minijob muss in die Steuererklärung",
+   "stempel_at": "falsch",
+   "stempel": "MEISTENS FALSCH",
+   "wahr_at": "Zahlt dein",
+   "wahr": "Zahlt dein Chef die *Pauschalsteuer*, ist sie erledigt."
+  },
+  {
+   "typ": "titel",
+   "h1": "*Nicht* eintragen",
+   "h2": "Der Chef hat's schon erledigt.",
+   "at": "Nicht eintragen"
+  },
+  {
+   "typ": "titel",
+   "h1": "Sonst zahlst du *doppelt*",
+   "h2": "Vielleicht – wenn du's nochmal angibst.",
+   "at": "Sonst zahlst"
+  },
+  {
+   "typ": "cta",
+   "at": "Speicher",
+   "icon": "save",
+   "icon_at": "Speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… für deine nächste Erklärung."
+  }
+ ],
+ "musik": "musik/runway/129_breaks_lounge.mp3"
+}

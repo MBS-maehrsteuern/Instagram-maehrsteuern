@@ -1,0 +1,68 @@
+{
+ "kicker": "FINANZAMT · ALLTAG",
+ "hook": [
+  {
+   "t": "Dieser *Satz* fällt"
+  },
+  {
+   "t": "jeden Monat im Amt.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Finanzbeamte",
+ "korrektur": [
+  [
+   "welchen Satz",
+   "Welchen Satz"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "„Ich zahle doch *ihr Gehalt*.“",
+   "h2": "Der Klassiker am Telefon"
+  },
+  {
+   "typ": "titel",
+   "at": "Stimmt",
+   "h1": "Stimmt *sogar*.",
+   "h2": "Aber es hilft dir nicht."
+  },
+  {
+   "typ": "liste",
+   "at": "Aber weißt",
+   "kopf": "Was wirklich hilft",
+   "punkte": [
+    {
+     "t": "Freundlicher Anruf",
+     "at": "freundlicher"
+    },
+    {
+     "t": "Steuernummer parat",
+     "at": "Steuernummer"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Glaub mir",
+   "h1": "Dann geht alles *schneller*.",
+   "h2": "Am Telefon klappt es plötzlich."
+  },
+  {
+   "typ": "titel",
+   "at": "Welchen Satz",
+   "h1": "Welchen *Satz* hast du gesagt?",
+   "h2": "Schreib ihn in die Kommentare."
+  },
+  {
+   "typ": "cta",
+   "at": "Schick",
+   "icon": "send",
+   "icon_at": "Schick",
+   "text": "*Schick* das weiter",
+   "unter": "an jemanden mit demselben Satz."
+  }
+ ],
+ "musik": "musik/runway/112_jazzhop.mp3"
+}

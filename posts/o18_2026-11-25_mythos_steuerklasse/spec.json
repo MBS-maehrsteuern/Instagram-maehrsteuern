@@ -1,0 +1,60 @@
+{
+ "kicker": "MYTHOS 2 · STEUERKLASSE",
+ "hook": [
+  {
+   "t": "Die Steuerklasse spart"
+  },
+  {
+   "t": "*keine* Steuer.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "weniger Steuer",
+ "korrektur": [
+  [
+   "zeig dir",
+   "zahlst du"
+  ],
+  [
+   "Lohnsteuer -Jahresausgleich",
+   "Lohnsteuer-Jahresausgleich"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Richtige Steuerklasse = weniger Steuer",
+   "stempel_at": "Falsch",
+   "stempel": "FALSCH",
+   "wahr_at": "Die Steuerklasse",
+   "wahr": "Sie ändert nur, *wie viel jeden Monat* abgezogen wird."
+  },
+  {
+   "typ": "titel",
+   "h1": "Das ist nur *Liquidität*",
+   "h2": "Mehr oder weniger Geld im Monat.",
+   "at": "Das ist nur"
+  },
+  {
+   "typ": "titel",
+   "h1": "Am Jahresende: *alles gleich*",
+   "h2": "Das Finanzamt rechnet neu.",
+   "at": "Am Ende"
+  },
+  {
+   "typ": "titel",
+   "h1": "Früher: *Jahresausgleich*",
+   "h2": "So hieß das mal.",
+   "at": "Früher hieß"
+  },
+  {
+   "typ": "cta",
+   "at": "Teile",
+   "icon": "send",
+   "icon_at": "Teile",
+   "text": "*Teile* das mit deinem Partner",
+   "unter": "… bevor ihr die Klassen tauscht."
+  }
+ ],
+ "musik": "musik/runway/122_lofi_hiphop.mp3"
+}

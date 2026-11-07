@@ -1,0 +1,85 @@
+{
+ "kicker": "BANK · ZINSEN",
+ "hook": [
+  {
+   "t": "Bank zog *Steuern* ab?"
+  },
+  {
+   "t": "Hol sie dir zurück.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gestellt",
+ "korrektur": [
+  [
+   "kein Freistellungsauftrag",
+   "keinen Freistellungsauftrag"
+  ],
+  [
+   "Anlage Kapp",
+   "Anlage KAP"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Bank zog *Steuern* ab",
+   "h2": "Auf deine Zinsen"
+  },
+  {
+   "typ": "titel",
+   "at": "Das Geld",
+   "h1": "Das Geld ist *nicht weg*",
+   "h2": "Du kannst es zurückholen"
+  },
+  {
+   "typ": "liste",
+   "at": "1000",
+   "kopf": "Steuerfrei im Jahr",
+   "punkte": [
+    {
+     "t": "1.000 €",
+     "u": "Zinsen und Gewinne",
+     "at": "1000",
+     "nr": "€"
+    },
+    {
+     "t": "2.000 €",
+     "u": "für Verheiratete",
+     "at": "verheiratete",
+     "nr": "€"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Hol",
+   "h1": "Hol es dir *zurück*",
+   "h2": "Über die Steuererklärung"
+  },
+  {
+   "typ": "brief",
+   "at": "Anlage",
+   "absender": "STEUERERKLÄRUNG",
+   "zeilen": [
+    {
+     "t": "Anlage KAP",
+     "at": "KAP"
+    },
+    {
+     "t": "Freistellungsauftrag stellen",
+     "at": "Auftrag"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* für deine Erklärung",
+   "unter": "Und den Auftrag gleich stellen."
+  }
+ ],
+ "musik": "musik/runway/129_breaks_lounge.mp3"
+}

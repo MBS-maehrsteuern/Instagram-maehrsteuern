@@ -1,0 +1,71 @@
+{
+ "kicker": "STEUERBESCHEID",
+ "hook": [
+  {
+   "t": "Abgeheftet = *Fehler*."
+  },
+  {
+   "t": "Prüf diese 3 Dinge.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "abgeheftet",
+ "korrektur": [
+  [
+   "über ein",
+   "überein"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "Fehler",
+   "h1": "Nur auf die *Zahl* geschaut?",
+   "h2": "Das ist der Fehler."
+  },
+  {
+   "typ": "liste",
+   "at": "Prüft",
+   "kopf": "Prüft 3 Dinge",
+   "punkte": [
+    {
+     "t": "Die Erläuterung",
+     "u": "ganz unten",
+     "at": "Erstens"
+    },
+    {
+     "t": "Stimmt es mit der Erklärung überein?",
+     "at": "Zweitens"
+    },
+    {
+     "t": "Das Datum",
+     "at": "Drittens"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Ab da",
+   "h1": "Ab *Datum* läuft ein Monat",
+   "h2": "Zeit für den Einspruch."
+  },
+  {
+   "typ": "umfrage",
+   "at": "Wie oft",
+   "frage": "Wie oft liest du die *Erläuterung*?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Nie",
+     "at": "Nie"
+    },
+    {
+     "b": "B",
+     "t": "Immer",
+     "at": "immer"
+    }
+   ]
+  }
+ ],
+ "musik": "musik/runway/118_loesung_optimistisch.mp3"
+}

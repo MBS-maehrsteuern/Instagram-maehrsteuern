@@ -1,0 +1,64 @@
+{
+ "kicker": "VERHEIRATET · STEUER",
+ "hook": [
+  {
+   "t": "Steuerklasse 3 und 5?"
+  },
+  {
+   "t": "*Pflicht* zur Erklärung.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "verheiratet",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "vs",
+   "at": "einer hat",
+   "at2": "der andere",
+   "links": {
+    "lab": "EINER",
+    "w": "Klasse 3",
+    "t": "verheiratet"
+   },
+   "rechts": {
+    "lab": "DER ANDERE",
+    "w": "Klasse 5",
+    "t": "verheiratet"
+   }
+  },
+  {
+   "typ": "titel",
+   "at": "Dann müsst",
+   "h1": "Steuererklärung ist *Pflicht*",
+   "h2": "Ihr müsst abgeben."
+  },
+  {
+   "typ": "titel",
+   "at": "Und oft",
+   "h1": "Oft kommt eine *Nachzahlung*",
+   "h2": "Im Monat wurde zu wenig abgezogen."
+  },
+  {
+   "typ": "titel",
+   "at": "Insider",
+   "h1": "Insider-Tipp: *Faktorverfahren*",
+   "h2": "Schaut es euch an."
+  },
+  {
+   "typ": "titel",
+   "at": "Dann gibt",
+   "h1": "Dann gibt es keine *böse Überraschung*",
+   "h2": "Am Ende des Jahres."
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schick* das deinem Partner",
+   "unter": "Bevor die Nachzahlung kommt."
+  }
+ ],
+ "musik": "musik/runway/118_loesung_optimistisch.mp3"
+}

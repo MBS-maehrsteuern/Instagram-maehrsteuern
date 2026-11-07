@@ -1,0 +1,62 @@
+{
+ "kicker": "FEHLER · KEINE PANIK",
+ "hook": [
+  {
+   "t": "Ein Fehler ist keine"
+  },
+  {
+   "t": "*Hinterziehung*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gemacht",
+ "korrektur": [
+  [
+   "ein Monat",
+   "einen Monat"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "Ein Fehler",
+   "h1": "Ein Fehler ist keine *Steuerhinterziehung*",
+   "h2": "Keine Panik."
+  },
+  {
+   "typ": "titel",
+   "at": "Ist der Bescheid",
+   "h1": "Bescheid noch nicht da? *Korrigieren*",
+   "h2": "Eine korrigierte Erklärung hinterherschicken."
+  },
+  {
+   "typ": "gross",
+   "at": "Ist der schon",
+   "ober": "BESCHEID DA",
+   "wert": "1 Monat",
+   "wgr": 190,
+   "unter": "Zeit für den *Einspruch*"
+  },
+  {
+   "typ": "titel",
+   "at": "Ein Satz",
+   "h1": "Ein *Satz* reicht.",
+   "h2": "Für den Einspruch."
+  },
+  {
+   "typ": "titel",
+   "at": "Die meisten",
+   "h1": "Die meisten Fehler sind *Tippfehler*",
+   "h2": "Keine Absicht."
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schick* das weiter",
+   "unter": "an jemanden, der sich Sorgen macht."
+  }
+ ],
+ "musik": "musik/runway/129_breaks_lounge.mp3"
+}

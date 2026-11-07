@@ -1,0 +1,74 @@
+{
+ "kicker": "BESCHEID · NACHRECHNEN",
+ "hook": [
+  {
+   "t": "So merkst du:"
+  },
+  {
+   "t": "*Finanzamt verrechnet.*",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "verrechnet",
+ "korrektur": [
+  [
+   "Einkommenssteuerbescheide",
+   "Einkommensteuerbescheide"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "*Verrechnet*?",
+   "h2": "So merkst du es."
+  },
+  {
+   "typ": "liste",
+   "at": "Rechne",
+   "kopf": "IM BESCHEID NACHRECHNEN",
+   "punkte": [
+    {
+     "t": "Jeden Posten nachrechnen",
+     "at": "Rechne"
+    },
+    {
+     "t": "Der Rechenweg steht drin",
+     "u": "1 zu 1 dargestellt",
+     "at": "Rechenweg"
+    }
+   ]
+  },
+  {
+   "typ": "liste",
+   "at": "Das gilt",
+   "kopf": "GILT FÜR ALLE BESCHEIDE",
+   "punkte": [
+    {
+     "t": "Einkommensteuerbescheid",
+     "at": "Einkommensteuerbescheide"
+    },
+    {
+     "t": "Grundsteuerbescheid",
+     "at": "Grundsteuerbescheide"
+    }
+   ]
+  },
+  {
+   "typ": "gross",
+   "at": "Da wird",
+   "ober": "GRUNDSTEUER",
+   "wert": "Gebäudewert",
+   "wgr": 190,
+   "unter": "und ähnliche *Messgrößen* werden vorgerechnet"
+  },
+  {
+   "typ": "cta",
+   "at": "Speicher",
+   "icon": "save",
+   "icon_at": "Speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… und schick's an Hausbesitzer."
+  }
+ ],
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+}

@@ -1,0 +1,76 @@
+{
+ "kicker": "FAMILIENFEIER",
+ "hook": [
+  {
+   "t": "Jede Feier ist"
+  },
+  {
+   "t": "eine *Sprechstunde*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "bin",
+ "korrektur": [
+  [
+   "Diplomfinanzwirt",
+   "Diplom-Finanzwirt"
+  ],
+  [
+   "Familie in Feier",
+   "Familienfeier"
+  ],
+  [
+   "Welche Frage stellt",
+   "Welche Frage stellt"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Jede Familienfeier = *Sprechstunde*",
+   "h2": "Seit ich Finanzwirt bin"
+  },
+  {
+   "typ": "titel",
+   "at": "Kannst",
+   "h1": "„Schau mal kurz auf meine *Steuererklärung*.“",
+   "h2": "Der Klassiker"
+  },
+  {
+   "typ": "titel",
+   "at": "weißt du",
+   "h1": "Die häufigste *Frage*",
+   "h2": "Muss ich überhaupt eine abgeben?"
+  },
+  {
+   "typ": "vs",
+   "at": "Die ehrliche",
+   "at2": "aber",
+   "links": {
+    "lab": "OFT",
+    "w": "NEIN",
+    "t": "Pflicht? Oft nicht."
+   },
+   "rechts": {
+    "lab": "ABER",
+    "w": "GELD",
+    "t": "Du verschenkst meistens welches."
+   }
+  },
+  {
+   "typ": "titel",
+   "at": "Welche Frage",
+   "h1": "Welche *Frage* hört deine Familie?",
+   "h2": "Schreib sie in die Kommentare."
+  },
+  {
+   "typ": "cta",
+   "at": "Und folgt",
+   "icon": "follow",
+   "icon_at": "folgt",
+   "text": "*Folg* mir",
+   "unter": "Dann musst du nicht bis Weihnachten warten."
+  }
+ ],
+ "musik": "musik/runway/129_breaks_lounge.mp3"
+}

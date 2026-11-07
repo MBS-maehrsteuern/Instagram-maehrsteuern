@@ -1,0 +1,63 @@
+{
+ "kicker": "FRIST · STEUERERKLÄRUNG 2022",
+ "hook": [
+  {
+   "t": "Dein *Geld* für 2022"
+  },
+  {
+   "t": "verfällt bald.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gemacht",
+ "korrektur": [
+  [
+   "Dezemberzeit",
+   "Dezember Zeit"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "datum",
+   "kopf": "2022 · LETZTE CHANCE",
+   "tag": "31.",
+   "monat": "DEZEMBER 2026",
+   "unter": "Steuererklärung 2022 noch abgeben"
+  },
+  {
+   "typ": "titel",
+   "h1": "Danach ist das *Geld weg*",
+   "h2": "Für immer.",
+   "at": "Danach ist"
+  },
+  {
+   "typ": "titel",
+   "h1": "Keine Pflicht? *Trotzdem!*",
+   "h2": "Du darfst freiwillig abgeben.",
+   "at": "wenn du nicht"
+  },
+  {
+   "typ": "gross",
+   "at": "freiwillig vier",
+   "ober": "FREIWILLIG ABGEBEN",
+   "zahl": 4,
+   "nach": " Jahre",
+   "unter": "*rückwirkend* möglich"
+  },
+  {
+   "typ": "titel",
+   "h1": "Die meisten: *Geld zurück*",
+   "h2": "2022 ist jetzt das letzte Jahr.",
+   "at": "2022 ist"
+  },
+  {
+   "typ": "cta",
+   "at": "Schick",
+   "icon": "send",
+   "icon_at": "Schick",
+   "text": "*Schick* das weiter",
+   "unter": "… an jemanden, der gern aufschiebt."
+  }
+ ],
+ "musik": "musik/runway/130_pop_electronic_clean.mp3"
+}

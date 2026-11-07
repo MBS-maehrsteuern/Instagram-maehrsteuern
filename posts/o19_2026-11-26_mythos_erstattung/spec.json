@@ -1,0 +1,63 @@
+{
+ "kicker": "MYTHOS 4 · ERSTATTUNG",
+ "hook": [
+  {
+   "t": "Die Erstattung ist"
+  },
+  {
+   "t": "*dein* Geld.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Geschenk",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Erstattung = Geschenk vom Finanzamt",
+   "stempel_at": "Falsch",
+   "stempel": "FALSCH",
+   "wahr_at": "Das ist",
+   "wahr": "Das ist *dein Geld*."
+  },
+  {
+   "typ": "titel",
+   "h1": "Ein Jahr *zinslos* verliehen",
+   "h2": "Du hast es dem Staat überlassen.",
+   "at": "Du hast es"
+  },
+  {
+   "typ": "titel",
+   "h1": "*Holen.* Nicht liegen lassen.",
+   "h2": "Es ist dein Geld.",
+   "at": "Holen"
+  },
+  {
+   "typ": "umfrage",
+   "at": "Wie viel",
+   "frage": "Wie viel kam letztes Jahr *zurück*?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Unter 500 €",
+     "at": "Unter"
+    },
+    {
+     "b": "B",
+     "t": "Über 500 €",
+     "at": "über"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreib",
+   "icon": "comment",
+   "icon_at": "Schreib",
+   "text": "*Schreib* es in die Kommentare",
+   "unter": "Unter oder über 500 €?",
+   "buchstabe": "€"
+  }
+ ],
+ "musik": "musik/runway/113_organic_house.mp3"
+}

@@ -1,0 +1,52 @@
+{
+ "kicker": "MYTHOS 5 · FREIWILLIG",
+ "hook": [
+  {
+   "t": "Freiwillig heißt"
+  },
+  {
+   "t": "*nicht* egal.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "lass",
+ "korrektur": [
+  [
+   "Freibillig",
+   "Freiwillig"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Freiwillig? Dann lass ich's.",
+   "stempel_at": "egal",
+   "stempel": "NICHT EGAL",
+   "wahr_at": "egal",
+   "wahr": "Freiwillig heißt *nicht egal*."
+  },
+  {
+   "typ": "titel",
+   "h1": "Wer nicht abgibt, *verschenkt*",
+   "h2": "Meistens Geld.",
+   "at": "Wer nicht"
+  },
+  {
+   "typ": "gross",
+   "at": "vier Jahre",
+   "ober": "ZEIT ZUM NACHZIEHEN",
+   "zahl": 4,
+   "nach": " Jahre",
+   "unter": "um die Erklärung *nachzuholen*"
+  },
+  {
+   "typ": "cta",
+   "at": "Speicher",
+   "icon": "save",
+   "icon_at": "Speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… für deine Erklärung."
+  }
+ ],
+ "musik": "musik/runway/118_loesung_optimistisch.mp3"
+}

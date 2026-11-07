@@ -1,0 +1,54 @@
+{
+ "kicker": "STEUERN SPAREN · LAPTOP",
+ "hook": [
+  {
+   "t": "Dein *Laptop*: sofort"
+  },
+  {
+   "t": "komplett absetzbar.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "gekauft",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "mythos",
+   "satz": "Laptop über *3 Jahre* abschreiben",
+   "stempel_at": "nicht",
+   "stempel": "VORBEI",
+   "wahr_at": "abschreiben",
+   "wahr": "Das war einmal."
+  },
+  {
+   "typ": "gross",
+   "at": "Seit",
+   "ober": "SEIT",
+   "wert": "2021",
+   "unter": "Computer und Software *sofort* absetzen"
+  },
+  {
+   "typ": "gross",
+   "at": "Auch wenn",
+   "ober": "AUCH BEI",
+   "zahl": 2000,
+   "nach": " €",
+   "unter": "Kaufpreis, *im Jahr des Kaufs*"
+  },
+  {
+   "typ": "titel",
+   "at": "nutzt",
+   "h1": "Auch *privat* genutzt?",
+   "h2": "Absetzen darfst du den beruflichen Teil"
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern*, bevor du den nächsten kaufst",
+   "unter": "Laptop, PC, Software."
+  }
+ ],
+ "musik": "musik/runway/130_pop_electronic_clean.mp3"
+}

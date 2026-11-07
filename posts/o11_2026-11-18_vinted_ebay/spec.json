@@ -1,0 +1,99 @@
+{
+ "kicker": "ONLINE VERKAUFEN · FISKUS",
+ "hook": [
+  {
+   "t": "Vinted & eBay melden"
+  },
+  {
+   "t": "dich *ans Finanzamt*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Kleinanzeigen",
+ "korrektur": [
+  [
+   "Winted Ebay",
+   "Vinted, eBay"
+  ],
+  [
+   "Schreibst mir",
+   "Schreib mir"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "liste",
+   "kopf": "Die Plattform *meldet* dich ab",
+   "punkte": [
+    {
+     "t": "30 Verkäufen",
+     "at": "30",
+     "nr": "≥"
+    },
+    {
+     "t": "2.000 € im Jahr",
+     "at": "2000",
+     "nr": "≥"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Aber",
+   "h1": "Aber *keine Panik*",
+   "h2": "Alte Sachen sind meist steuerfrei"
+  },
+  {
+   "typ": "liste",
+   "at": "Wenn du",
+   "kopf": "Alte Sachen: *steuerfrei*",
+   "punkte": [
+    {
+     "t": "Kleidung",
+     "at": "Kleidung"
+    },
+    {
+     "t": "Kinderwagen",
+     "at": "Kinderwagen"
+    },
+    {
+     "t": "Spielzeug",
+     "at": "Spielzeug"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Teuer",
+   "h1": "Teuer wird es beim *Handeln*",
+   "h2": "Sachen kaufen, um sie teurer zu verkaufen"
+  },
+  {
+   "typ": "umfrage",
+   "at": "verkaufst du privat",
+   "frage": "Verkaufst du *privat* oder als Händler?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Privat",
+     "at": "privat"
+    },
+    {
+     "b": "B",
+     "t": "Als Händler",
+     "at": "Händler"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreib",
+   "icon": "comment",
+   "buchstabe": "?",
+   "icon_at": "Schreib",
+   "text": "Schreib *privat* oder *Händler*",
+   "unter": "in die Kommentare."
+  }
+ ],
+ "musik": "musik/runway/127_tech_groove.mp3"
+}

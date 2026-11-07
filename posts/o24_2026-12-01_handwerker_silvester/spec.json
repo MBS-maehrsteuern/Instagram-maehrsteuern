@@ -1,0 +1,61 @@
+{
+ "kicker": "DEZEMBER · HANDWERKER",
+ "hook": [
+  {
+   "t": "Zahl *vor Silvester*"
+  },
+  {
+   "t": "oder verschenk Bonus.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Handwerkerrechnung",
+ "korrektur": [
+  [
+   "Überweiß",
+   "Überweis"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Offene *Rechnung*?",
+   "h2": "Dann zählt dein Zahltag."
+  },
+  {
+   "typ": "titel",
+   "h1": "Überweis sie *vor Silvester*",
+   "h2": "Nicht erst im neuen Jahr.",
+   "at": "Überweis"
+  },
+  {
+   "typ": "titel",
+   "h1": "Es zählt der *Zahltag*",
+   "h2": "Nicht das Datum auf der Rechnung.",
+   "at": "Fürs Finanzamt"
+  },
+  {
+   "typ": "gross",
+   "at": "Hast du dieses",
+   "ober": "STEUERBONUS",
+   "zahl": 1200,
+   "nach": " €",
+   "unter": "dieses Jahr schon *voll*?"
+  },
+  {
+   "typ": "titel",
+   "h1": "Dann zahl im *Januar*",
+   "h2": "So zählt die Rechnung fürs neue Jahr.",
+   "at": "Dann lieber"
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* bis Dezember",
+   "unter": "… damit du's nicht vergisst."
+  }
+ ],
+ "musik": "musik/runway/112_jazzhop.mp3"
+}

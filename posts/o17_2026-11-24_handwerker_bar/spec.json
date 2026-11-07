@@ -1,0 +1,95 @@
+{
+ "kicker": "GELD ZURÜCK · HANDWERKER",
+ "hook": [
+  {
+   "t": "Bar bezahlt? Dann"
+  },
+  {
+   "t": "gibt's *0 Euro*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "bezahlt",
+ "korrektur": [
+  [
+   "Handwerker Bar bezahlt",
+   "Handwerker bar bezahlt"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "vs",
+   "at2": "überweist",
+   "links": {
+    "lab": "BAR",
+    "w": "0 €",
+    "t": "vom Finanzamt"
+   },
+   "rechts": {
+    "lab": "ÜBERWEISUNG",
+    "w": "20 %",
+    "t": "der Arbeitskosten"
+   }
+  },
+  {
+   "typ": "gross",
+   "at": "Bis",
+   "ober": "MAXIMAL",
+   "zahl": 1200,
+   "nach": " €",
+   "unter": "Steuerersparnis *im Jahr*"
+  },
+  {
+   "typ": "liste",
+   "at": "Wichtig",
+   "kopf": "Das zählt",
+   "punkte": [
+    {
+     "t": "Arbeit",
+     "at": "Arbeit"
+    },
+    {
+     "t": "Anfahrt",
+     "at": "Anfahrt"
+    },
+    {
+     "t": "Maschinen",
+     "at": "Maschinen"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Kein",
+   "h1": "Material zählt *nicht*",
+   "h2": "Nur die Arbeitskosten"
+  },
+  {
+   "typ": "umfrage",
+   "at": "Bar oder",
+   "frage": "Wie zahlst du *deinen Handwerker*?",
+   "optionen": [
+    {
+     "b": "B",
+     "t": "Bar",
+     "at": "Bar"
+    },
+    {
+     "b": "Ü",
+     "t": "Überweisung",
+     "at": "Überweisung"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreibe",
+   "icon": "comment",
+   "buchstabe": "B",
+   "icon_at": "Schreibe",
+   "text": "Schreib *B* oder *Ü*",
+   "unter": "in die Kommentare."
+  }
+ ],
+ "musik": "musik/runway/115_marimba_corporate.mp3"
+}

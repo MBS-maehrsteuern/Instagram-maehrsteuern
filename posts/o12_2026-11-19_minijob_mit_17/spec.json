@@ -1,0 +1,61 @@
+{
+ "kicker": "MEIN WEG · MIT 17",
+ "hook": [
+  {
+   "t": "Mit 17 holte ich"
+  },
+  {
+   "t": "*Lohnsteuer* zurück.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "abzugeben",
+ "korrektur": [
+  [
+   "Abwaltnehmer",
+   "Arbeitnehmer"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Meine *erste* Erklärung",
+   "h2": "Mit 17 Jahren."
+  },
+  {
+   "typ": "titel",
+   "h1": "Minijob in der *Produktion*",
+   "h2": "Neben der Schule.",
+   "at": "Ich habe"
+  },
+  {
+   "typ": "titel",
+   "h1": "Nicht als *Minijob* abgerechnet",
+   "h2": "Sondern wie ein normaler Arbeitnehmer.",
+   "at": "weil ich nicht"
+  },
+  {
+   "typ": "titel",
+   "h1": "Ich zahlte *Lohnsteuer*",
+   "h2": "… und konnte sie zurückholen.",
+   "at": "Das bedeutet"
+  },
+  {
+   "typ": "gross",
+   "at": "komplett",
+   "ober": "LOHNSTEUER",
+   "wert": "komplett zurück",
+   "wgr": 190,
+   "unter": "weil ich *unterm Grundfreibetrag* lag"
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das weiter",
+   "unter": "… an jemanden mit Minijob."
+  }
+ ],
+ "musik": "musik/runway/130_pop_electronic_clean.mp3"
+}

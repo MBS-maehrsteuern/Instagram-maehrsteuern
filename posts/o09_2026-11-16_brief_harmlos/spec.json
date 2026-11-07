@@ -1,0 +1,63 @@
+{
+ "kicker": "FINANZAMT · BRIEF",
+ "hook": [
+  {
+   "t": "Dieser Brief ist"
+  },
+  {
+   "t": "*nicht* harmlos.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "nicht",
+ "korrektur": [
+  [
+   "Konduz gefendet",
+   "Konto gepfändet"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Schau in den *Betreff*",
+   "h2": "Da siehst du, wie ernst es ist."
+  },
+  {
+   "typ": "brief",
+   "at": "Harmlos ist",
+   "absender": "FINANZAMT · BETREFF",
+   "zeilen": [
+    {
+     "t": "Anforderung von Unterlagen",
+     "at": "Anforderung"
+    },
+    {
+     "t": "Vollstreckungsankündigung",
+     "at": "Vollstreckungsankündigung",
+     "farbe": "rot"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "h1": "Der *letzte Brief*",
+   "h2": "Danach kommt nichts mehr.",
+   "at": "Das ist"
+  },
+  {
+   "typ": "titel",
+   "h1": "Danach: *Kontopfändung*",
+   "h2": "Das Finanzamt holt sich das Geld.",
+   "at": "bevor dein"
+  },
+  {
+   "typ": "cta",
+   "at": "Speicher",
+   "icon": "save",
+   "icon_at": "Speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… und schick's weiter."
+  }
+ ],
+ "musik": "musik/runway/113_organic_house.mp3"
+}

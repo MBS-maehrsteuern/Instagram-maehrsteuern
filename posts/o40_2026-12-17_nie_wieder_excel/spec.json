@@ -1,0 +1,78 @@
+{
+ "kicker": "WARUM CODE STATT EXCEL",
+ "hook": [
+  {
+   "t": "Nie wieder *Excel*"
+  },
+  {
+   "t": "für Steuern. 3 Gründe.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "baue",
+ "korrektur": [
+  [
+   "Steuerechse",
+   "Steuer-Excel"
+  ],
+  [
+   "Copy -Paste",
+   "Copy-Paste"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Nie wieder *Steuer-Excel*",
+   "h2": "Drei Gründe."
+  },
+  {
+   "typ": "titel",
+   "h1": "1: *Menschliche* Fehler",
+   "h2": "Wir sind keine Maschinen.",
+   "at": "Erstens"
+  },
+  {
+   "typ": "titel",
+   "h1": "2: Jahrelang *Copy-Paste*",
+   "h2": "Von 2014 bis 2026.",
+   "at": "Zweiter"
+  },
+  {
+   "typ": "titel",
+   "h1": "Gilt die *Rechtslage* noch?",
+   "h2": "Das weiß am Ende keiner.",
+   "at": "weiß nicht"
+  },
+  {
+   "typ": "titel",
+   "h1": "3: Der *Arbeitsaufwand*",
+   "h2": "Jedes Jahr dieselbe Arbeit.",
+   "at": "Nummer"
+  },
+  {
+   "typ": "vs",
+   "at": "Du brauchst",
+   "at2": "bist du",
+   "links": {
+    "lab": "EXCEL-MAPPE",
+    "w": "2 Std.",
+    "t": "neues Jahr von Hand"
+   },
+   "rechts": {
+    "lab": "CODE",
+    "w": "2 Sek.",
+    "t": "rechnet im Hintergrund"
+   }
+  },
+  {
+   "typ": "cta",
+   "at": "Speicher",
+   "icon": "save",
+   "icon_at": "Speicher",
+   "text": "*Speicher* dir das",
+   "unter": "… für dein nächstes Tool."
+  }
+ ],
+ "musik": "musik/runway/118_loesung_optimistisch.mp3"
+}

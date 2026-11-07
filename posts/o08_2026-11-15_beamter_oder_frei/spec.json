@@ -1,0 +1,81 @@
+{
+ "kicker": "MEIN WEG",
+ "hook": [
+  {
+   "t": "Ich war auf dem Weg"
+  },
+  {
+   "t": "zum *Beamten*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Beamten",
+ "korrektur": [
+  [
+   "Buchstab",
+   "Buchstaben"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "Sicherer",
+   "h1": "Sicherer geht’s *nicht*.",
+   "h2": "Beamter = sicherster Job"
+  },
+  {
+   "typ": "titel",
+   "at": "Heute",
+   "h1": "Heute: *eigene* Steuertools",
+   "h2": "Ich arbeite in der Wirtschaft und baue nebenbei."
+  },
+  {
+   "typ": "vs",
+   "at": "Sicherheit",
+   "at2": "Freiheit",
+   "links": {
+    "lab": "SICHERHEIT",
+    "w": "Beamter",
+    "t": "planbar und fest"
+   },
+   "rechts": {
+    "lab": "FREIHEIT",
+    "w": "Eigener Weg",
+    "t": "Ich habe mich entschieden."
+   }
+  },
+  {
+   "typ": "titel",
+   "at": "Aber ich",
+   "h1": "Was würde ich meinem *Kind* raten?",
+   "h2": "Das frage ich mich oft."
+  },
+  {
+   "typ": "umfrage",
+   "at": "Und du",
+   "frage": "Was *rätst* du?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Beamter",
+     "at": "Beamter"
+    },
+    {
+     "b": "B",
+     "t": "Eigener Weg",
+     "at": "eigener"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreib",
+   "icon": "comment",
+   "buchstabe": "A",
+   "icon_at": "Schreib",
+   "text": "Schreib *A* oder *B*",
+   "unter": "in die Kommentare."
+  }
+ ],
+ "musik": "musik/runway/122_lofi_hiphop.mp3"
+}

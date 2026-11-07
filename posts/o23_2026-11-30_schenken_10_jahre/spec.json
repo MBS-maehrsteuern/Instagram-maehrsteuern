@@ -1,0 +1,79 @@
+{
+ "kicker": "SCHENKEN · ELTERN & KINDER",
+ "hook": [
+  {
+   "t": "*400.000 €* schenken,"
+  },
+  {
+   "t": "steuerfrei. Zweimal.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "schenken",
+ "korrektur": [
+  [
+   "400 .000",
+   "400.000"
+  ],
+  [
+   "Insider -Tipp",
+   "Insider-Tipp"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "gross",
+   "ober": "DER FREIBETRAG KOMMT",
+   "zahl": 10,
+   "nach": " Jahre",
+   "unter": "später *wieder*, pro Kind"
+  },
+  {
+   "typ": "liste",
+   "at": "Wer früh",
+   "kopf": "So nutzt du ihn *zweimal*",
+   "punkte": [
+    {
+     "t": "Früh anfangen",
+     "u": "Freibetrag zweimal nutzen",
+     "at": "früh"
+    },
+    {
+     "t": "Bis zum Erbfall warten",
+     "u": "Freibetrag nur einmal",
+     "at": "Erbfall"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Insider",
+   "h1": "Der *Insider-Tipp*",
+   "h2": "Schenkungen melden"
+  },
+  {
+   "typ": "brief",
+   "at": "Schenkungen",
+   "absender": "AN DAS FINANZAMT",
+   "zeilen": [
+    {
+     "t": "Schenkung melden",
+     "at": "melden"
+    },
+    {
+     "t": "Frist läuft sauber",
+     "at": "Frist"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schick",
+   "icon": "send",
+   "icon_at": "Schick",
+   "text": "*Schick* das deinen Eltern",
+   "unter": "oder deinen Kindern."
+  }
+ ],
+ "musik": "musik/runway/121_minimal_house.mp3"
+}

@@ -1,0 +1,63 @@
+{
+ "kicker": "FRIST · TIPP",
+ "hook": [
+  {
+   "t": "Schaffst du es nicht?"
+  },
+  {
+   "t": "*Frag* einfach nach.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "rechtzeitig",
+ "korrektur": [
+  [
+   "Mitgrund",
+   "Mit Grund"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "at": "Frag nach",
+   "h1": "Frist *verlängern* lassen",
+   "h2": "Frag nach, bevor die Frist abläuft."
+  },
+  {
+   "typ": "titel",
+   "at": "Ein kurzer",
+   "h1": "Ein kurzer *Satz* über Elster",
+   "h2": "Oder ein Anruf. Mit Grund."
+  },
+  {
+   "typ": "titel",
+   "at": "Im Finanzamt",
+   "h1": "Wird oft *genehmigt*",
+   "h2": "Wenn man sich vorher meldet."
+  },
+  {
+   "typ": "vs",
+   "at": "Teuer wird",
+   "at2": "gar nichts",
+   "links": {
+    "lab": "NICHTS SAGEN",
+    "w": "Teuer",
+    "t": "Das kostet dich Geld."
+   },
+   "rechts": {
+    "lab": "VORHER MELDEN",
+    "w": "Meist ok",
+    "t": "Das wird oft genehmigt."
+   }
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* für die Frist",
+   "unter": "und früh melden."
+  }
+ ],
+ "musik": "musik/runway/121_minimal_house.mp3"
+}

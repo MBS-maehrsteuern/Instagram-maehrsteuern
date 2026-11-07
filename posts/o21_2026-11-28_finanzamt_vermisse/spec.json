@@ -1,0 +1,61 @@
+{
+ "kicker": "ZURÜCKGEBLICKT",
+ "hook": [
+  {
+   "t": "3 Dinge, die ich"
+  },
+  {
+   "t": "*vermisse*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "raus",
+ "korrektur": [
+  [
+   "Steuerrichtort",
+   "Steuerrecht"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "liste",
+   "kopf": "Das vermisse ich",
+   "punkte": [
+    {
+     "t": "Die Kollegen",
+     "at": "Kollegen"
+    },
+    {
+     "t": "Steuerrecht von Grund auf",
+     "u": "wirklich lernen",
+     "at": "Steuerrecht"
+    },
+    {
+     "t": "Pünktlich Feierabend",
+     "at": "pünktlich"
+    }
+   ]
+  },
+  {
+   "typ": "titel",
+   "at": "Und trotzdem",
+   "h1": "Trotzdem: *wieder genauso*.",
+   "h2": "Ich würde es nochmal machen."
+  },
+  {
+   "typ": "titel",
+   "at": "Was vermisst",
+   "h1": "Was vermisst du an deinem *alten Job*?",
+   "h2": "Schreib es in die Kommentare."
+  },
+  {
+   "typ": "cta",
+   "at": "Folgt",
+   "icon": "follow",
+   "icon_at": "Folgt",
+   "text": "*Folg* mir",
+   "unter": "für mehr aus dem Finanzamt."
+  }
+ ],
+ "musik": "musik/runway/127_tech_groove.mp3"
+}

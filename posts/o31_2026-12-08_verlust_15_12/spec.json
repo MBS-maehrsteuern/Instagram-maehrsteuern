@@ -1,0 +1,50 @@
+{
+ "kicker": "AKTIEN · VERLUSTE",
+ "hook": [
+  {
+   "t": "Verlust mit *Aktien*?"
+  },
+  {
+   "t": "Frist: 15. Dezember.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Bank",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Verlust bei Bank A",
+   "h2": "Gewinn bei Bank B."
+  },
+  {
+   "typ": "datum",
+   "at": "beantrag bis",
+   "kopf": "VERLUSTBESCHEINIGUNG",
+   "tag": "15.",
+   "monat": "DEZEMBER",
+   "unter": "Bei deiner Bank *beantragen*."
+  },
+  {
+   "typ": "titel",
+   "h1": "Nur so *verrechnest* du",
+   "h2": "Verluste gegen Gewinne in der Erklärung.",
+   "at": "Nur so"
+  },
+  {
+   "typ": "titel",
+   "h1": "Verpasst? *Verlust bleibt*",
+   "h2": "Bei der Bank, fürs nächste Jahr.",
+   "at": "Verpasst"
+  },
+  {
+   "typ": "cta",
+   "at": "Speichern",
+   "icon": "save",
+   "icon_at": "Speichern",
+   "text": "*Speichern* vor dem 15.12.",
+   "unter": "… sonst ist die Frist weg."
+  }
+ ],
+ "musik": "musik/runway/127_tech_groove.mp3"
+}

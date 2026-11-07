@@ -1,0 +1,57 @@
+{
+ "kicker": "SPENDEN · DEZEMBER",
+ "hook": [
+  {
+   "t": "Spenden ohne *Quittung*"
+  },
+  {
+   "t": "geht bis 300 Euro.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "spenden",
+ "korrektur": [
+  [
+   "überweiß",
+   "überweis"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Spenden vor *Weihnachten*",
+   "h2": "Das musst du wissen."
+  },
+  {
+   "typ": "gross",
+   "at": "Bis 300",
+   "ober": "BIS ZU",
+   "zahl": 300,
+   "nach": " €",
+   "unter": "keine *Spendenquittung* nötig"
+  },
+  {
+   "typ": "titel",
+   "h1": "Der *Kontoauszug* reicht",
+   "h2": "Als Nachweis beim Finanzamt.",
+   "at": "Der Kontoauszug"
+  },
+  {
+   "typ": "datum",
+   "at": "Und überweis",
+   "kopf": "ÜBERWEISEN BIS",
+   "tag": "31.",
+   "monat": "DEZEMBER",
+   "unter": "Sonst zählt es erst *nächstes Jahr*."
+  },
+  {
+   "typ": "cta",
+   "at": "Teilen",
+   "icon": "send",
+   "icon_at": "Teilen",
+   "text": "*Teilen* mit allen Spendern",
+   "unter": "… die vor Weihnachten helfen."
+  }
+ ],
+ "musik": "musik/runway/113_organic_house.mp3"
+}

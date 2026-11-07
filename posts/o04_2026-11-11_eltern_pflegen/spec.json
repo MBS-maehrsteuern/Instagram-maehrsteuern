@@ -1,0 +1,81 @@
+{
+ "kicker": "GELD ZURÜCK · PFLEGE",
+ "hook": [
+  {
+   "t": "Eltern pflegen? Dann"
+  },
+  {
+   "t": "steht dir *Geld* zu.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Vater",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Eltern mit *Pflegegrad*?",
+   "h2": "Du kümmerst dich um sie."
+  },
+  {
+   "typ": "titel",
+   "at": "Pflegepauschbetrag",
+   "h1": "Dein *Pflegepauschbetrag*",
+   "h2": "Steuerfrei, jedes Jahr"
+  },
+  {
+   "typ": "liste",
+   "at": "Pflegegrad 2",
+   "kopf": "Pro Jahr, je nach *Pflegegrad*",
+   "punkte": [
+    {
+     "t": "600 €",
+     "u": "Pflegegrad 2",
+     "at": "600",
+     "nr": "2"
+    },
+    {
+     "t": "1.100 €",
+     "u": "Pflegegrad 3",
+     "at": "1100",
+     "nr": "3"
+    },
+    {
+     "t": "1.800 €",
+     "u": "ab Pflegegrad 4",
+     "at": "1800",
+     "nr": "4"
+    }
+   ]
+  },
+  {
+   "typ": "gross",
+   "at": "Ohne",
+   "ober": "KEIN NACHWEIS",
+   "wert": "0 Belege",
+   "unter": "Du pflegst *selbst*, ohne Geld dafür.",
+   "wgr": 190
+  },
+  {
+   "typ": "titel",
+   "at": "Viele wissen",
+   "h1": "Viele wissen das *nicht*",
+   "h2": "Und es gibt einen Haken."
+  },
+  {
+   "typ": "titel",
+   "at": "Pflegegeld",
+   "h1": "Pflegegeld *weitergeleitet*?",
+   "h2": "Das kann *schädlich* sein."
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das weiter",
+   "unter": "an alle, die gerade ihre Eltern pflegen."
+  }
+ ],
+ "musik": "musik/runway/112_jazzhop.mp3"
+}

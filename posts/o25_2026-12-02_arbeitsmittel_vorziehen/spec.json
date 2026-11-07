@@ -1,0 +1,68 @@
+{
+ "kicker": "JAHRESENDE · MYTHOS",
+ "hook": [
+  {
+   "t": "Kauf nicht *blind*"
+  },
+  {
+   "t": "vor Silvester.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "schnell",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Alle sagen: *kauf noch*",
+   "h2": "Arbeitssachen vor Silvester."
+  },
+  {
+   "typ": "mythos",
+   "at": "das spart",
+   "satz": "Vor Silvester kaufen spart Steuern",
+   "stempel_at": "halb",
+   "stempel": "NUR HALB",
+   "wahr_at": "Jeder Arbeitnehmer",
+   "wahr": "Jeder Arbeitnehmer hat schon einen *Pauschbetrag*."
+  },
+  {
+   "typ": "gross",
+   "at": "1230",
+   "ober": "PAUSCHBETRAG",
+   "zahl": 1230,
+   "nach": " €",
+   "unter": "ohne *Belege*"
+  },
+  {
+   "typ": "titel",
+   "h1": "Erst *darüber* bringt's Geld",
+   "h2": "Alles darunter ist schon abgedeckt.",
+   "at": "Erst was"
+  },
+  {
+   "typ": "liste",
+   "at": "Also pendelst",
+   "kopf": "ES LOHNT SICH, WENN DU …",
+   "punkte": [
+    {
+     "t": "weit pendelst",
+     "at": "pendelst"
+    },
+    {
+     "t": "viel im Homeoffice arbeitest",
+     "at": "Homeoffice"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Speichert",
+   "icon": "save",
+   "icon_at": "Speichert",
+   "text": "*Speichern* für Silvester",
+   "unter": "… bevor du unnötig einkaufst."
+  }
+ ],
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+}

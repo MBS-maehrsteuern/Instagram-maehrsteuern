@@ -1,0 +1,80 @@
+{
+ "kicker": "STEUER · AUTOMATISCH",
+ "hook": [
+  {
+   "t": "Das Finanzamt rechnet"
+  },
+  {
+   "t": "*automatisch* nach.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "nach",
+ "korrektur": [
+  [
+   "Copy -Paste",
+   "Copy-Paste"
+  ],
+  [
+   "Daumdrücken",
+   "Daumendrücken"
+  ],
+  [
+   "Prüffahrt",
+   "Prüfpfad"
+  ],
+  [
+   "konkreten",
+   "konkreten"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Finanzamt: *Programm* rechnet nach",
+   "h2": "Jede Steuererklärung, automatisch"
+  },
+  {
+   "typ": "vs",
+   "at": "In vielen",
+   "at2": "Mit Copy",
+   "links": {
+    "lab": "FIRMEN",
+    "w": "Excel",
+    "t": "Copy-Paste und Daumendrücken"
+   },
+   "rechts": {
+    "lab": "FINANZAMT",
+    "w": "Programm",
+    "t": "rechnet automatisch nach"
+   }
+  },
+  {
+   "typ": "titel",
+   "at": "Das hat",
+   "h1": "Ich habe *selbst* angefangen zu programmieren",
+   "h2": "Das hat mich so gestört."
+  },
+  {
+   "typ": "titel",
+   "at": "Heute baue",
+   "h1": "Tools, die rechnen wie das *Finanzamt*",
+   "h2": "Automatisch und nachvollziehbar"
+  },
+  {
+   "typ": "titel",
+   "at": "konkreten",
+   "h1": "Mit einem *Prüfpfad*",
+   "h2": "Jeder Schritt lässt sich nachprüfen."
+  },
+  {
+   "typ": "cta",
+   "at": "schreib",
+   "icon": "send",
+   "icon_at": "schreib",
+   "text": "Schreib mir *TOOL* per DM",
+   "unter": "Machst du Steuern in einer Firma? Ich zeig's dir."
+  }
+ ],
+ "musik": "musik/runway/113_organic_house.mp3"
+}

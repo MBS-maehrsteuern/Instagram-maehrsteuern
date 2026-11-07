@@ -1,0 +1,68 @@
+{
+ "kicker": "GELD ZURÜCK · ELTERN",
+ "hook": [
+  {
+   "t": "Kita-Kosten? *Absetzbar.*"
+  },
+  {
+   "t": "Aber nur so.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Hort",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Betreuung ist *absetzbar*",
+   "h2": "Für dein Kind"
+  },
+  {
+   "typ": "gross",
+   "at": "80",
+   "ober": "SO VIEL SETZT DU AB",
+   "wert": "80 %",
+   "unter": "bis *4.800 €* pro Kind und Jahr"
+  },
+  {
+   "typ": "gross",
+   "at": "14",
+   "ober": "BIS ZUM ALTER VON",
+   "zahl": 14,
+   "nach": " Jahren",
+   "unter": "gilt das für *jedes Kind*"
+  },
+  {
+   "typ": "titel",
+   "at": "Aber",
+   "h1": "Nur per *Überweisung*",
+   "h2": "Aber Achtung!"
+  },
+  {
+   "typ": "liste",
+   "at": "Barzahlung",
+   "kopf": "Das zählt *nicht*",
+   "punkte": [
+    {
+     "t": "Barzahlung",
+     "at": "Barzahlung",
+     "nr": "✗"
+    },
+    {
+     "t": "Essensgeld",
+     "at": "Essensgeld",
+     "nr": "✗"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schickt",
+   "icon": "send",
+   "icon_at": "Schickt",
+   "text": "*Schickt* das an alle Eltern",
+   "unter": "in deiner Gruppe."
+  }
+ ],
+ "musik": "musik/runway/121_minimal_house.mp3"
+}

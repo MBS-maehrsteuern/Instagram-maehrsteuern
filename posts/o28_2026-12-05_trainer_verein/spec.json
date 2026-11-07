@@ -1,0 +1,62 @@
+{
+ "kicker": "EHRENAMT · STEUERFREI",
+ "hook": [
+  {
+   "t": "Trainer? *3.300 €*"
+  },
+  {
+   "t": "im Jahr steuerfrei.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Übungsleiterin",
+ "korrektur": [],
+ "szenen": [
+  {
+   "typ": "gross",
+   "ober": "TRAINER ODER ÜBUNGSLEITER",
+   "zahl": 3300,
+   "nach": " €",
+   "unter": "im Jahr *steuerfrei*"
+  },
+  {
+   "typ": "titel",
+   "at": "Bist du sonst",
+   "h1": "Sonst *ehrenamtlich* aktiv?",
+   "h2": "Zum Beispiel im Vorstand"
+  },
+  {
+   "typ": "gross",
+   "at": "Vorstand",
+   "ober": "EHRENAMT, Z. B. VORSTAND",
+   "zahl": 960,
+   "nach": " €",
+   "unter": "im Jahr *steuerfrei*"
+  },
+  {
+   "typ": "vs",
+   "at": "Viele Vereine",
+   "at2": "Viele Ehrenamtliche",
+   "links": {
+    "lab": "VEREINE",
+    "w": "wissen es",
+    "t": "kennen die Regeln"
+   },
+   "rechts": {
+    "lab": "EHRENAMTLICHE",
+    "w": "oft nicht",
+    "t": "wissen es nicht"
+   },
+   "wgr": 190
+  },
+  {
+   "typ": "cta",
+   "at": "Schick",
+   "icon": "send",
+   "icon_at": "Schick",
+   "text": "*Schick* das an deinen Verein",
+   "unter": "und an alle Ehrenamtlichen."
+  }
+ ],
+ "musik": "musik/runway/122_lofi_hiphop.mp3"
+}

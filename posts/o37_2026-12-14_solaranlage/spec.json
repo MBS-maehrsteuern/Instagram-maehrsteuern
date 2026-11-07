@@ -1,0 +1,77 @@
+{
+ "kicker": "SOLARANLAGE · STEUERFREI",
+ "hook": [
+  {
+   "t": "Solar aufm Dach?"
+  },
+  {
+   "t": "Einnahmen *steuerfrei*.",
+   "k": "h2"
+  }
+ ],
+ "gesicht_bis": "Dach",
+ "korrektur": [
+  [
+   "auf den Dach",
+   "auf dem Dach"
+  ],
+  [
+   "beim Kaufzahl zu",
+   "beim Kauf zahlst du"
+  ],
+  [
+   "du eine Anlage",
+   "Hast du eine Anlage"
+  ]
+ ],
+ "szenen": [
+  {
+   "typ": "titel",
+   "h1": "Einnahmen meist *steuerfrei*",
+   "h2": "Seit 2022"
+  },
+  {
+   "typ": "gross",
+   "at": "Bis",
+   "ober": "BIS ZU",
+   "zahl": 30,
+   "nach": " kWp",
+   "unter": "*Kilowatt Peak*, die Größe der Anlage"
+  },
+  {
+   "typ": "gross",
+   "at": "Und beim",
+   "ober": "BEIM KAUF",
+   "zahl": 0,
+   "nach": " %",
+   "unter": "*Umsatzsteuer* auf die Anlage"
+  },
+  {
+   "typ": "umfrage",
+   "at": "Hast",
+   "frage": "Hast du schon eine *Anlage*?",
+   "optionen": [
+    {
+     "b": "A",
+     "t": "Hab ich",
+     "at": "Hab"
+    },
+    {
+     "b": "B",
+     "t": "Plan ich",
+     "at": "Plan"
+    }
+   ]
+  },
+  {
+   "typ": "cta",
+   "at": "Schreib",
+   "icon": "comment",
+   "buchstabe": "A",
+   "icon_at": "Schreib",
+   "text": "Schreib *A* oder *B*",
+   "unter": "in die Kommentare."
+  }
+ ],
+ "musik": "musik/runway/115_marimba_corporate.mp3"
+}
