@@ -2102,13 +2102,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "06.11.: umgeplant 2026-11-09 → 2026-11-07 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-05. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-09.",
       "trichter": "oben",
-      "musik": "121_minimal_house.mp3"
+      "musik": "121_minimal_house.mp3",
+      "media_id": "18100047230417341",
+      "link": "https://www.instagram.com/reel/Dfchu8kn5E_/",
+      "veroeffentlicht_am": "2026-11-07 17:45",
+      "erster_kommentar_id": "18042829829837061"
     },
     {
       "id": "i05-reel-insider-finanzbeamte",
