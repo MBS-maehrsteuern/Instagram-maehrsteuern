@@ -1497,33 +1497,6 @@
       "hinweis": "28.10.: eigenes Steuer-Meme (BELEGE), Story statt Feed (zählt nicht gegen 1 Feed-Beitrag/Tag). Loris: „memes humorvoll als fertige Beiträge“. · 28.10. abends: gestrichen (Loris: „Die memes sind blöd. Bitte streichen komplett“)."
     },
     {
-      "id": "mbs-karussell-launch",
-      "zeit": "2026-11-01 17:45",
-      "typ": "karussell",
-      "ordner": "posts/mbs_2026-11-01_launch",
-      "bilder": [
-        "folie_01.png",
-        "folie_02.png",
-        "folie_03.png",
-        "folie_04.png",
-        "folie_05.png",
-        "folie_06.png",
-        "folie_07.png",
-        "folie_08.png",
-        "folie_09.png"
-      ],
-      "text": "bildunterschrift.txt",
-      "status": "veroeffentlicht",
-      "stimme": false,
-      "hook": "fall",
-      "trichter": "unten",
-      "hinweis": "01.11. (Launch-Tag, Loris im Chat): Karussell IG + LinkedIn-PDF, Angle „Mein Weg + was MBS ist“, CTA Kommentar TOOL → Demo per DM. Loris wollte 11:45 zusätzlich zu 17:45 (Steuerkalender bleibt); 11:45 war beim Bau schon vorbei → 13:45 als Vorschlag, Freigabe (go) offen. Zahlen 13 Arbeitswege/98 Stationen/5 Bereiche/65 Module am 01.11. aus kern/strecken und module/ der Bilanzsuite gerechnet. app.maehr-bs.de nicht genannt (Stand „angekündigt“). Job vorlagen/system/premium/karussells/mbs_launch.json. · 01.11. ~11:50 (Loris im Chat): „go“, nach claude/instagram, 17:45 freigegeben zusammen mit dem Steuerkalender-Karussell.",
-      "media_id": "18121087715605889",
-      "link": "https://www.instagram.com/p/DfNdBsEmmdN/",
-      "veroeffentlicht_am": "2026-11-01 20:11",
-      "erster_kommentar_id": "18574117276075315"
-    },
-    {
       "id": "35-karussell-steuerkalender",
       "zeit": "2026-11-01 17:45",
       "typ": "karussell",
@@ -1561,6 +1534,33 @@
       "begleit": false,
       "hinweis": "14.10. Nachtlauf: aus Bibliothek (R4 gegengelesen), Reel ohne Stimme 15,0 s, −18,0 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 09 Lofi Piano. Titelbild neu als Fall „Halle an die eigene GmbH. Gewerblich.“, 3 Punkte = karussell/betriebsaufspaltung Folien 2–4 (sachliche + personelle Verflechtung, Folge), Betriebsaufgabe-Risiko in der Bildunterschrift. jobs/p47_reel_betriebsaufspaltung.json, Karten schnitt/p45_47_karten_bauen.py, Schnitt schnitt/p47_reel_betriebsaufspaltung.json.",
       "status_vorher": "freigegeben"
+    },
+    {
+      "id": "mbs-karussell-launch",
+      "zeit": "2026-11-01 17:45",
+      "typ": "karussell",
+      "ordner": "posts/mbs_2026-11-01_launch",
+      "bilder": [
+        "folie_01.png",
+        "folie_02.png",
+        "folie_03.png",
+        "folie_04.png",
+        "folie_05.png",
+        "folie_06.png",
+        "folie_07.png",
+        "folie_08.png",
+        "folie_09.png"
+      ],
+      "text": "bildunterschrift.txt",
+      "status": "veroeffentlicht",
+      "stimme": false,
+      "hook": "fall",
+      "trichter": "unten",
+      "hinweis": "01.11. (Launch-Tag, Loris im Chat): Karussell IG + LinkedIn-PDF, Angle „Mein Weg + was MBS ist“, CTA Kommentar TOOL → Demo per DM. Loris wollte 11:45 zusätzlich zu 17:45 (Steuerkalender bleibt); 11:45 war beim Bau schon vorbei → 13:45 als Vorschlag, Freigabe (go) offen. Zahlen 13 Arbeitswege/98 Stationen/5 Bereiche/65 Module am 01.11. aus kern/strecken und module/ der Bilanzsuite gerechnet. app.maehr-bs.de nicht genannt (Stand „angekündigt“). Job vorlagen/system/premium/karussells/mbs_launch.json. · 01.11. ~11:50 (Loris im Chat): „go“, nach claude/instagram, 17:45 freigegeben zusammen mit dem Steuerkalender-Karussell.",
+      "media_id": "18121087715605889",
+      "link": "https://www.instagram.com/p/DfNdBsEmmdN/",
+      "veroeffentlicht_am": "2026-11-01 20:11",
+      "erster_kommentar_id": "18574117276075315"
     },
     {
       "id": "47-story-teaser",
@@ -1904,22 +1904,22 @@
       "status_vorher": "freigegeben"
     },
     {
-      "id": "o01-reel-mythos-gehalt",
+      "id": "o01-reel-mein-weg-freiheit-gekostet",
       "zeit": "2026-11-08 17:45",
       "typ": "reel",
-      "ordner": "posts/o01_2026-11-08_mythos_gehalt",
+      "ordner": "posts/o01_2026-11-08_mein_weg_freiheit_gekostet",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "zahl",
+      "hook": "fall",
       "begleit": false,
       "trichter": "oben",
-      "musik": "127_tech_groove.mp3",
-      "match": 80,
+      "musik": "121_minimal_house.mp3",
+      "match": 77,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X01, Zielgruppen-Match 80 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M6, Zielgruppen-Match 77 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 08.11. – Match 77 % + Tages-Passung +8 = 85. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "59-story-teaser",
@@ -1934,10 +1934,28 @@
       "status_vorher": "freigegeben"
     },
     {
-      "id": "o02-reel-2022-nachholen",
+      "id": "o02-reel-mythos-gehalt",
       "zeit": "2026-11-09 17:45",
       "typ": "reel",
-      "ordner": "posts/o02_2026-11-09_2022_nachholen",
+      "ordner": "posts/o02_2026-11-09_mythos_gehalt",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "zahl",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "127_tech_groove.mp3",
+      "match": 80,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X01, Zielgruppen-Match 80 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 09.11. – Match 80 % + Tages-Passung +6 = 86. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o03-reel-2022-nachholen",
+      "zeit": "2026-11-10 17:45",
+      "typ": "reel",
+      "ordner": "posts/o03_2026-11-10_2022_nachholen",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -1949,25 +1967,7 @@
       "musik": "130_pop_electronic_clean.mp3",
       "match": 79,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J01, Zielgruppen-Match 79 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o03-reel-mein-weg-freiheit-gekostet",
-      "zeit": "2026-11-10 17:45",
-      "typ": "reel",
-      "ordner": "posts/o03_2026-11-10_mein_weg_freiheit_gekostet",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "fall",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "121_minimal_house.mp3",
-      "match": 77,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M6, Zielgruppen-Match 77 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J01, Zielgruppen-Match 79 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 10.11. – Match 79 % + Tages-Passung +0 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o04-reel-eltern-pflegen",
@@ -1985,7 +1985,7 @@
       "musik": "112_jazzhop.mp3",
       "match": 75,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G01, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G01, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 11.11. – Match 75 % + Tages-Passung +2 = 77. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o05-reel-nebenkosten",
@@ -2003,7 +2003,7 @@
       "musik": "136_modern_jazz_leicht.mp3",
       "match": 75,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G03, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G03, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 12.11. – Match 75 % + Tages-Passung +4 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o06-reel-familienfeier",
@@ -2021,25 +2021,25 @@
       "musik": "129_breaks_lounge.mp3",
       "match": 74,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M4, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M4, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 13.11. – Match 74 % + Tages-Passung +5 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o07-reel-brief-ernst",
+      "id": "o07-reel-vinted-ebay",
       "zeit": "2026-11-14 17:45",
       "typ": "reel",
-      "ordner": "posts/o07_2026-11-14_brief_ernst",
+      "ordner": "posts/o07_2026-11-14_vinted_ebay",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "fall",
+      "hook": "zahl",
       "begleit": false,
       "trichter": "oben",
-      "musik": "115_marimba_corporate.mp3",
-      "match": 74,
+      "musik": "127_tech_groove.mp3",
+      "match": 71,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I16, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G08, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 14.11. – Match 71 % + Tages-Passung +8 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o08-reel-beamter-oder-frei",
@@ -2057,31 +2057,13 @@
       "musik": "122_lofi_hiphop.mp3",
       "match": 73,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M7, Zielgruppen-Match 73 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M7, Zielgruppen-Match 73 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 15.11. – Match 73 % + Tages-Passung +8 = 81. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o09-reel-brief-harmlos",
+      "id": "o09-reel-steuerklasse-3-5",
       "zeit": "2026-11-16 17:45",
       "typ": "reel",
-      "ordner": "posts/o09_2026-11-16_brief_harmlos",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "fall",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "113_organic_house.mp3",
-      "match": 72,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H5, Zielgruppen-Match 72 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o10-reel-steuerklasse-3-5",
-      "zeit": "2026-11-17 17:45",
-      "typ": "reel",
-      "ordner": "posts/o10_2026-11-17_steuerklasse_3_5",
+      "ordner": "posts/o09_2026-11-16_steuerklasse_3_5",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2093,25 +2075,43 @@
       "musik": "118_loesung_optimistisch.mp3",
       "match": 71,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I18, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I18, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 16.11. – Match 71 % + Tages-Passung +6 = 77. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o11-reel-vinted-ebay",
-      "zeit": "2026-11-18 17:45",
+      "id": "o10-reel-brief-ernst",
+      "zeit": "2026-11-17 17:45",
       "typ": "reel",
-      "ordner": "posts/o11_2026-11-18_vinted_ebay",
+      "ordner": "posts/o10_2026-11-17_brief_ernst",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "zahl",
+      "hook": "fall",
       "begleit": false,
       "trichter": "oben",
-      "musik": "127_tech_groove.mp3",
-      "match": 71,
+      "musik": "115_marimba_corporate.mp3",
+      "match": 74,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G08, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I16, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 17.11. – Match 74 % + Tages-Passung +5 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o11-reel-brief-harmlos",
+      "zeit": "2026-11-18 17:45",
+      "typ": "reel",
+      "ordner": "posts/o11_2026-11-18_brief_harmlos",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "113_organic_house.mp3",
+      "match": 72,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H5, Zielgruppen-Match 72 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 18.11. – Match 72 % + Tages-Passung +0 = 72. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o12-reel-minijob-mit-17",
@@ -2129,31 +2129,13 @@
       "musik": "130_pop_electronic_clean.mp3",
       "match": 71,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H3, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H3, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 19.11. – Match 71 % + Tages-Passung +0 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o13-reel-kinderbetreuung",
+      "id": "o13-reel-satz-gehalt",
       "zeit": "2026-11-20 17:45",
       "typ": "reel",
-      "ordner": "posts/o13_2026-11-20_kinderbetreuung",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "zahl",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "121_minimal_house.mp3",
-      "match": 70,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G02, Zielgruppen-Match 70 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o14-reel-satz-gehalt",
-      "zeit": "2026-11-21 17:45",
-      "typ": "reel",
-      "ordner": "posts/o14_2026-11-21_satz_gehalt",
+      "ordner": "posts/o13_2026-11-20_satz_gehalt",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2165,25 +2147,43 @@
       "musik": "112_jazzhop.mp3",
       "match": 68,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M3, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M3, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 20.11. – Match 68 % + Tages-Passung +5 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o15-reel-nicht-am-1-januar",
-      "zeit": "2026-11-22 17:45",
+      "id": "o14-reel-kinderbetreuung",
+      "zeit": "2026-11-21 17:45",
       "typ": "reel",
-      "ordner": "posts/o15_2026-11-22_nicht_am_1_januar",
+      "ordner": "posts/o14_2026-11-21_kinderbetreuung",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "fall",
+      "hook": "zahl",
       "begleit": false,
       "trichter": "oben",
-      "musik": "136_modern_jazz_leicht.mp3",
-      "match": 68,
+      "musik": "121_minimal_house.mp3",
+      "match": 70,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I17, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G02, Zielgruppen-Match 70 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 21.11. – Match 70 % + Tages-Passung +3 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o15-reel-mythos-steuerklasse",
+      "zeit": "2026-11-22 17:45",
+      "typ": "reel",
+      "ordner": "posts/o15_2026-11-22_mythos_steuerklasse",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "zahl",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "122_lofi_hiphop.mp3",
+      "match": 65,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X02, Zielgruppen-Match 65 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 22.11. – Match 65 % + Tages-Passung +8 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o16-reel-fehler-keine-panik",
@@ -2201,13 +2201,31 @@
       "musik": "129_breaks_lounge.mp3",
       "match": 67,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I15, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I15, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 23.11. – Match 67 % + Tages-Passung +2 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o17-reel-handwerker-bar",
+      "id": "o17-reel-nicht-am-1-januar",
       "zeit": "2026-11-24 17:45",
       "typ": "reel",
-      "ordner": "posts/o17_2026-11-24_handwerker_bar",
+      "ordner": "posts/o17_2026-11-24_nicht_am_1_januar",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "136_modern_jazz_leicht.mp3",
+      "match": 68,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I17, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 24.11. – Match 68 % + Tages-Passung +3 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o18-reel-handwerker-bar",
+      "zeit": "2026-11-25 17:45",
+      "typ": "reel",
+      "ordner": "posts/o18_2026-11-25_handwerker_bar",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2219,25 +2237,7 @@
       "musik": "115_marimba_corporate.mp3",
       "match": 67,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G04, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o18-reel-mythos-steuerklasse",
-      "zeit": "2026-11-25 17:45",
-      "typ": "reel",
-      "ordner": "posts/o18_2026-11-25_mythos_steuerklasse",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "zahl",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "122_lofi_hiphop.mp3",
-      "match": 65,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X02, Zielgruppen-Match 65 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G04, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 25.11. – Match 67 % + Tages-Passung +0 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o19-reel-mythos-erstattung",
@@ -2255,7 +2255,7 @@
       "musik": "113_organic_house.mp3",
       "match": 64,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X04, Zielgruppen-Match 64 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X04, Zielgruppen-Match 64 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 26.11. – Match 64 % + Tages-Passung +0 = 64. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o20-reel-mythos-freiwillig",
@@ -2273,67 +2273,13 @@
       "musik": "118_loesung_optimistisch.mp3",
       "match": 64,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X05, Zielgruppen-Match 64 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X05, Zielgruppen-Match 64 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 27.11. – Match 64 % + Tages-Passung +5 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o21-reel-finanzamt-vermisse",
+      "id": "o21-reel-handwerker-silvester",
       "zeit": "2026-11-28 17:45",
       "typ": "reel",
-      "ordner": "posts/o21_2026-11-28_finanzamt_vermisse",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "fall",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "127_tech_groove.mp3",
-      "match": 63,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M8, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o22-reel-abfindung",
-      "zeit": "2026-11-29 17:45",
-      "typ": "reel",
-      "ordner": "posts/o22_2026-11-29_abfindung",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "zahl",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "130_pop_electronic_clean.mp3",
-      "match": 63,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G07, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o23-reel-schenken-10-jahre",
-      "zeit": "2026-11-30 17:45",
-      "typ": "reel",
-      "ordner": "posts/o23_2026-11-30_schenken_10_jahre",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "zahl",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "121_minimal_house.mp3",
-      "match": 63,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G12, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o24-reel-handwerker-silvester",
-      "zeit": "2026-12-01 17:45",
-      "typ": "reel",
-      "ordner": "posts/o24_2026-12-01_handwerker_silvester",
+      "ordner": "posts/o21_2026-11-28_handwerker_silvester",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2345,13 +2291,85 @@
       "musik": "112_jazzhop.mp3",
       "match": 62,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J02, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J02, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 28.11. – Match 62 % + Tages-Passung +5 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o25-reel-arbeitsmittel-vorziehen",
+      "id": "o22-reel-finanzamt-vermisse",
+      "zeit": "2026-11-29 17:45",
+      "typ": "reel",
+      "ordner": "posts/o22_2026-11-29_finanzamt_vermisse",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "127_tech_groove.mp3",
+      "match": 63,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M8, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 29.11. – Match 63 % + Tages-Passung +6 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o23-reel-abfindung",
+      "zeit": "2026-11-30 17:45",
+      "typ": "reel",
+      "ordner": "posts/o23_2026-11-30_abfindung",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "zahl",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "130_pop_electronic_clean.mp3",
+      "match": 63,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G07, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 30.11. – Match 63 % + Tages-Passung +6 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o24-reel-bescheid-pruefen",
+      "zeit": "2026-12-01 17:45",
+      "typ": "reel",
+      "ordner": "posts/o24_2026-12-01_bescheid_pruefen",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "fall",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "118_loesung_optimistisch.mp3",
+      "match": 60,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I20, Zielgruppen-Match 60 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 01.12. – Match 60 % + Tages-Passung +8 = 68. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o25-reel-schenken-10-jahre",
       "zeit": "2026-12-02 17:45",
       "typ": "reel",
-      "ordner": "posts/o25_2026-12-02_arbeitsmittel_vorziehen",
+      "ordner": "posts/o25_2026-12-02_schenken_10_jahre",
+      "video": "reel.mp4",
+      "titelbild": "titelbild.png",
+      "text": "bildunterschrift.txt",
+      "status": "freigegeben",
+      "stimme": true,
+      "hook": "zahl",
+      "begleit": false,
+      "trichter": "oben",
+      "musik": "121_minimal_house.mp3",
+      "match": 63,
+      "ki_gesicht": true,
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G12, Zielgruppen-Match 63 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 02.12. – Match 63 % + Tages-Passung +2 = 65. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+    },
+    {
+      "id": "o26-reel-arbeitsmittel-vorziehen",
+      "zeit": "2026-12-03 17:45",
+      "typ": "reel",
+      "ordner": "posts/o26_2026-12-03_arbeitsmittel_vorziehen",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2363,13 +2381,13 @@
       "musik": "136_modern_jazz_leicht.mp3",
       "match": 62,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J05, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J05, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 03.12. – Match 62 % + Tages-Passung +0 = 62. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o26-reel-mythos-minijob",
-      "zeit": "2026-12-03 17:45",
+      "id": "o27-reel-mythos-minijob",
+      "zeit": "2026-12-04 17:45",
       "typ": "reel",
-      "ordner": "posts/o26_2026-12-03_mythos_minijob",
+      "ordner": "posts/o27_2026-12-04_mythos_minijob",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
@@ -2381,25 +2399,7 @@
       "musik": "129_breaks_lounge.mp3",
       "match": 62,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X03, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
-    },
-    {
-      "id": "o27-reel-nachzahlung-adv",
-      "zeit": "2026-12-04 17:45",
-      "typ": "reel",
-      "ordner": "posts/o27_2026-12-04_nachzahlung_adv",
-      "video": "reel.mp4",
-      "titelbild": "titelbild.png",
-      "text": "bildunterschrift.txt",
-      "status": "freigegeben",
-      "stimme": true,
-      "hook": "fall",
-      "begleit": false,
-      "trichter": "oben",
-      "musik": "115_marimba_corporate.mp3",
-      "match": 62,
-      "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H7, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X03, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 04.12. – Match 62 % + Tages-Passung +5 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o28-reel-trainer-verein",
@@ -2417,7 +2417,7 @@
       "musik": "122_lofi_hiphop.mp3",
       "match": 61,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G10, Zielgruppen-Match 61 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G10, Zielgruppen-Match 61 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 05.12. – Match 61 % + Tages-Passung +4 = 65. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o29-reel-spenden-300",
@@ -2435,25 +2435,25 @@
       "musik": "113_organic_house.mp3",
       "match": 61,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J03, Zielgruppen-Match 61 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J03, Zielgruppen-Match 61 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 06.12. – Match 61 % + Tages-Passung +6 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o30-reel-bescheid-pruefen",
+      "id": "o30-reel-laptop-sofort",
       "zeit": "2026-12-07 17:45",
       "typ": "reel",
-      "ordner": "posts/o30_2026-12-07_bescheid_pruefen",
+      "ordner": "posts/o30_2026-12-07_laptop_sofort",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "fall",
+      "hook": "zahl",
       "begleit": false,
       "trichter": "oben",
-      "musik": "118_loesung_optimistisch.mp3",
+      "musik": "130_pop_electronic_clean.mp3",
       "match": 60,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I20, Zielgruppen-Match 60 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G05, Zielgruppen-Match 60 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 07.12. – Match 60 % + Tages-Passung +6 = 66. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o31-reel-verlust-15-12",
@@ -2471,25 +2471,25 @@
       "musik": "127_tech_groove.mp3",
       "match": 49,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J04, Zielgruppen-Match 49 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J04, Zielgruppen-Match 49 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 08.12. – Match 49 % + Tages-Passung +0 = 49. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
-      "id": "o32-reel-laptop-sofort",
+      "id": "o32-reel-nachzahlung-adv",
       "zeit": "2026-12-09 17:45",
       "typ": "reel",
-      "ordner": "posts/o32_2026-12-09_laptop_sofort",
+      "ordner": "posts/o32_2026-12-09_nachzahlung_adv",
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
       "status": "freigegeben",
       "stimme": true,
-      "hook": "zahl",
+      "hook": "fall",
       "begleit": false,
       "trichter": "oben",
-      "musik": "130_pop_electronic_clean.mp3",
-      "match": 60,
+      "musik": "115_marimba_corporate.mp3",
+      "match": 62,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G05, Zielgruppen-Match 60 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H7, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 09.12. – Match 62 % + Tages-Passung +0 = 62. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o33-reel-fristverlaengerung",
@@ -2507,7 +2507,7 @@
       "musik": "121_minimal_house.mp3",
       "match": 58,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I19, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I19, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 10.12. – Match 58 % + Tages-Passung +0 = 58. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o34-reel-kleine-betraege",
@@ -2525,7 +2525,7 @@
       "musik": "112_jazzhop.mp3",
       "match": 58,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G06, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G06, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 11.12. – Match 58 % + Tages-Passung +0 = 58. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o35-reel-finanzamt-verrechnet",
@@ -2543,7 +2543,7 @@
       "musik": "136_modern_jazz_leicht.mp3",
       "match": 58,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H6, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H6, Zielgruppen-Match 58 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 12.12. – Match 58 % + Tages-Passung +5 = 63. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o36-reel-freistellungsauftrag",
@@ -2561,7 +2561,7 @@
       "musik": "129_breaks_lounge.mp3",
       "match": 57,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G09, Zielgruppen-Match 57 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G09, Zielgruppen-Match 57 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 13.12. – Match 57 % + Tages-Passung +0 = 57. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o37-reel-solaranlage",
@@ -2579,7 +2579,7 @@
       "musik": "115_marimba_corporate.mp3",
       "match": 55,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G11, Zielgruppen-Match 55 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G11, Zielgruppen-Match 55 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 14.12. – Match 55 % + Tages-Passung +0 = 55. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o38-reel-bitcoin",
@@ -2597,7 +2597,7 @@
       "musik": "122_lofi_hiphop.mp3",
       "match": 51,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G13, Zielgruppen-Match 51 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G13, Zielgruppen-Match 51 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 15.12. – Match 51 % + Tages-Passung +0 = 51. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o39-reel-finanzamt-software",
@@ -2615,7 +2615,7 @@
       "musik": "113_organic_house.mp3",
       "match": 45,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M5, Zielgruppen-Match 45 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M5, Zielgruppen-Match 45 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 16.12. – Match 45 % + Tages-Passung +3 = 48. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "o40-reel-nie-wieder-excel",
@@ -2633,7 +2633,7 @@
       "musik": "118_loesung_optimistisch.mp3",
       "match": 44,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H4, Zielgruppen-Match 44 % (Schätzung). Engine premium/offensive.html, Wind-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H4, Zielgruppen-Match 44 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 17.12. – Match 44 % + Tages-Passung +0 = 44. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
     },
     {
       "id": "10-e-rechnung",
