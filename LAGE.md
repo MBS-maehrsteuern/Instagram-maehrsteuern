@@ -4,10 +4,10 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `55-story-tipp` (pausiert) · ✅ 12:15 📱 Story `i06-story-frage` (online) · ✅ 17:45 🎬 Reel `i06-reel-insider-schaetzung` (online) · 🟡 17:50 📱 Story `56-story-teaser` (pausiert) · ✅ 17:50 📱 Story `i06-story-teaser` (online)
+- **Heute online:** 🟢 17:45 🎬 Reel `i04-reel-insider-saeumnis` (läuft automatisch) · 🟡 17:50 📱 Story `57-story-teaser` (pausiert)
 - **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **70823** (30.10.–05.11., +1335 % zur Vorwoche) · Follower **+618** (jetzt 1055) · 30 Tage: +467 Follows / −15 entfolgt
-- **Testmonat** (Tag 26/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
+- **Testmonat** (Tag 27/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (5 online · 2 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (6):
   - Sa 07.11.: Story 12:15
@@ -89,7 +89,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Fr 06.11. 17:50 | 📱 Story `56-story-teaser` | pausiert | 14.10. Nachtlauf (d2): Teaser „Jetzt neu im Profil“ zum Verjährungs-Karussell (Folie 1), jobs/p56_verjaehrung.json. |
 | Sa 07.11. 17:45 | 🎬 Reel `i04-reel-insider-saeumnis` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-09 → 2026-11-07 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-05. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-09. |
 | Sa 07.11. 17:50 | 📱 Story `57-story-teaser` | pausiert | 14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum § 8c-Reel (Titelbild), jobs/p57_reel_verlust_8c.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird. |
 | So 08.11. 12:15 | 📱 Story `58-story-tipp` | pausiert | 14.10. Nachtlauf (d3): Tipp-Story mit Emoji-Reaktion „Bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)“ zum Vorsteuer-Reel, jobs/p58_reel_vorsteuer.json. |
@@ -294,6 +293,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:07 📈 Statistik 2026-11-01 ([`6516a7d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6516a7da922c15c665a7706cc67a549893e23db4))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Sa 31.10.2026**
 - 17:45 🤖 Autopilot: 52-reel-gobd veroeffentlicht ([`6b8e212`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/6b8e2120700b8385b401cc6246303e7993bb814a))
   - Plan: `52-reel-gobd` status: freigegeben → veroeffentlicht; `52-reel-gobd` online: https://www.instagram.com/reel/DfKgI-ZEb9C/
@@ -303,8 +304,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:20 📈 Statistik 2026-10-31 ([`b8b8dba`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b8b8dba1e584e1c9a7286f8b24176b03ed9eb586))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Fr 30.10.2026**
 - 19:02 🤖 Autopilot: i01-reel-insider-programm veroeffentlicht ([`b742235`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b7422353ad44ff7cf2208bc57f1d1fa7b9b905c2))
