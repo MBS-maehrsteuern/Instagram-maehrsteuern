@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "verdiene",
+ "gesicht_bis": 1.35,
  "korrektur": [
   [
    "Proto",
@@ -50,5 +50,6 @@
    "unter": "… an den Kollegen mit der abgelehnten Gehaltserhöhung."
   }
  ],
- "musik": "musik/runway/127_tech_groove.mp3"
+ "musik": "musik/runway/127_tech_groove.mp3",
+ "szene1_ab": "verdiene"
 }

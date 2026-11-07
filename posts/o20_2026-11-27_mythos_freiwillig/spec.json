@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "lass",
+ "gesicht_bis": 2.23,
  "korrektur": [
   [
    "Freibillig",
@@ -48,5 +48,6 @@
    "unter": "… für deine Erklärung."
   }
  ],
- "musik": "musik/runway/118_loesung_optimistisch.mp3"
+ "musik": "musik/runway/118_loesung_optimistisch.mp3",
+ "szene1_ab": "lass"
 }

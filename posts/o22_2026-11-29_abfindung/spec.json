@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "bekommen",
+ "gesicht_bis": 1.57,
  "korrektur": [
   [
    "5. Regelung",
@@ -56,5 +56,6 @@
    "unter": "an jemanden, der gerade gekündigt wurde."
   }
  ],
- "musik": "musik/runway/130_pop_electronic_clean.mp3"
+ "musik": "musik/runway/130_pop_electronic_clean.mp3",
+ "szene1_ab": "bekommen"
 }

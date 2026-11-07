@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "gefragt",
+ "gesicht_bis": 1.57,
  "korrektur": [
   [
    "Das Satz",
@@ -81,5 +81,6 @@
    "unter": "… und wir diskutieren."
   }
  ],
- "musik": "musik/runway/121_minimal_house.mp3"
+ "musik": "musik/runway/121_minimal_house.mp3",
+ "szene1_ab": "gefragt"
 }

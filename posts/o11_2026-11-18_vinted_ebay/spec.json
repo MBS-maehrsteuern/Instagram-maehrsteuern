@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Kleinanzeigen",
+ "gesicht_bis": 1.95,
  "korrektur": [
   [
    "Winted Ebay",
@@ -95,5 +95,6 @@
    "unter": "in die Kommentare."
   }
  ],
- "musik": "musik/runway/127_tech_groove.mp3"
+ "musik": "musik/runway/127_tech_groove.mp3",
+ "szene1_ab": "Kleinanzeigen"
 }

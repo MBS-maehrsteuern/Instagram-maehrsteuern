@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "gekauft",
+ "gesicht_bis": 2.0,
  "korrektur": [],
  "szenen": [
   {
@@ -50,5 +50,6 @@
    "unter": "Laptop, PC, Software."
   }
  ],
- "musik": "musik/runway/130_pop_electronic_clean.mp3"
+ "musik": "musik/runway/130_pop_electronic_clean.mp3",
+ "szene1_ab": "gekauft"
 }

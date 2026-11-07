@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "bin",
+ "gesicht_bis": 1.49,
  "korrektur": [
   [
    "Diplomfinanzwirt",
@@ -72,5 +72,6 @@
    "unter": "Dann musst du nicht bis Weihnachten warten."
   }
  ],
- "musik": "musik/runway/129_breaks_lounge.mp3"
+ "musik": "musik/runway/129_breaks_lounge.mp3",
+ "szene1_ab": "bin"
 }

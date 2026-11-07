@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "spenden",
+ "gesicht_bis": 2.03,
  "korrektur": [
   [
    "überweiß",
@@ -53,5 +53,6 @@
    "unter": "… die vor Weihnachten helfen."
   }
  ],
- "musik": "musik/runway/113_organic_house.mp3"
+ "musik": "musik/runway/113_organic_house.mp3",
+ "szene1_ab": "spenden"
 }

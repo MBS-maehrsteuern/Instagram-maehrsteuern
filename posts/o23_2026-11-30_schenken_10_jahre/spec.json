@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "schenken",
+ "gesicht_bis": 1.95,
  "korrektur": [
   [
    "400 .000",
@@ -75,5 +75,6 @@
    "unter": "oder deinen Kindern."
   }
  ],
- "musik": "musik/runway/121_minimal_house.mp3"
+ "musik": "musik/runway/121_minimal_house.mp3",
+ "szene1_ab": "schenken"
 }

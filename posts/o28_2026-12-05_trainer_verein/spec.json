@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Übungsleiterin",
+ "gesicht_bis": 2.33,
  "korrektur": [],
  "szenen": [
   {
@@ -58,5 +58,6 @@
    "unter": "und an alle Ehrenamtlichen."
   }
  ],
- "musik": "musik/runway/122_lofi_hiphop.mp3"
+ "musik": "musik/runway/122_lofi_hiphop.mp3",
+ "szene1_ab": "Übungsleiterin"
 }

@@ -9,11 +9,15 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "rechtzeitig",
+ "gesicht_bis": 1.82,
  "korrektur": [
   [
-   "Mitgrund",
-   "Mit Grund"
+   "Älster oder ein anderes Reich.",
+   "Elster oder ein Anruf reicht."
+  ],
+  [
+   "Mit Grund.",
+   "Mit Grund."
   ]
  ],
  "szenen": [
@@ -59,5 +63,6 @@
    "unter": "und früh melden."
   }
  ],
- "musik": "musik/runway/121_minimal_house.mp3"
+ "musik": "musik/runway/121_minimal_house.mp3",
+ "szene1_ab": "rechtzeitig"
 }

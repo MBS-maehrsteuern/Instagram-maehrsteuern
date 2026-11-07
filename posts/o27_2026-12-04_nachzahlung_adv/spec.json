@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "verlangen",
+ "gesicht_bis": 2.6,
  "korrektur": [
   [
    "ADV -Antrag",
@@ -86,5 +86,6 @@
    "unter": "… und schick's an jemanden mit Nachzahlung."
   }
  ],
- "musik": "musik/runway/115_marimba_corporate.mp3"
+ "musik": "musik/runway/115_marimba_corporate.mp3",
+ "szene1_ab": "verlangen"
 }

@@ -39,7 +39,10 @@ spec["gesicht_bis"] = ge
 cur = ge
 sz = spec["szenen"]
 for s in sz:
-    s["von"] = max(ge, zeit(s.get("at", cur), cur)) if s is not sz[0] else ge
+    if s is sz[0]:   # erste Szene: frühestens dort, wo der Hook-Satz endet (Gesicht kann kürzer sein, Hook-Text bleibt bis dahin stehen)
+        s["von"] = max(ge, zeit(spec["szene1_ab"], 0, ende=True)) if spec.get("szene1_ab") else ge
+    else:
+        s["von"] = max(ge, zeit(s.get("at", cur), cur))
     cur = s["von"]
     for p in s.get("punkte", []) + s.get("optionen", []) + s.get("zeilen", []):
         p["_t"] = zeit(p["at"], cur) if "at" in p else cur
@@ -51,7 +54,8 @@ for a, b in zip(sz, sz[1:]): a["bis"] = b["von"]
 # CTA braucht Zeit für seine Animation: Video nach dem letzten Wort mit Stille verlängern (mind. 2 s ab CTA-Start)
 if sz[-1]["typ"] == "cta": dauer = round(max(dauer, sz[-1]["_ti"] + 2.0, sz[-1]["von"] + 2.0), 2)
 sz[-1]["bis"] = dauer + 5
-spec["_boeen"] = [0.03, ge] + [s["von"] for s in sz[1:]]
+spec["_boeen"] = [0.03, ge] + [s["von"] for s in sz]
+spec["_hook_bis"] = sz[0]["von"]
 g = ordner / "gesicht"
 if g.exists() and any(g.glob("g*.jpg")):
     spec["gesicht"] = {"ordner": str(g), "n": len(list(g.glob("g*.jpg"))), "fps": 30, "versatz": spec.get("gesicht_versatz", 0)}

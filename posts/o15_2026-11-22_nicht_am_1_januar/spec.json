@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "zurück",
+ "gesicht_bis": 1.87,
  "korrektur": [],
  "szenen": [
   {
@@ -69,5 +69,6 @@
    ]
   }
  ],
- "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3",
+ "szene1_ab": "zurück"
 }

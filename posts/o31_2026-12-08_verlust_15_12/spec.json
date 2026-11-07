@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Bank",
+ "gesicht_bis": 1.89,
  "korrektur": [],
  "szenen": [
   {
@@ -46,5 +46,6 @@
    "unter": "… sonst ist die Frist weg."
   }
  ],
- "musik": "musik/runway/127_tech_groove.mp3"
+ "musik": "musik/runway/127_tech_groove.mp3",
+ "szene1_ab": "Bank"
 }

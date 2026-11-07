@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "abzugeben",
+ "gesicht_bis": 1.61,
  "korrektur": [
   [
    "Abwaltnehmer",
@@ -57,5 +57,6 @@
    "unter": "… an jemanden mit Minijob."
   }
  ],
- "musik": "musik/runway/130_pop_electronic_clean.mp3"
+ "musik": "musik/runway/130_pop_electronic_clean.mp3",
+ "szene1_ab": "abzugeben"
 }

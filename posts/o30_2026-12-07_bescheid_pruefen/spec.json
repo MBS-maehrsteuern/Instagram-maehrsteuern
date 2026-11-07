@@ -9,11 +9,23 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "abgeheftet",
+ "gesicht_bis": 2.14,
  "korrektur": [
   [
-   "über ein",
-   "überein"
+   "1.",
+   "Erstens"
+  ],
+  [
+   "2.",
+   "Zweitens"
+  ],
+  [
+   "3.",
+   "Drittens"
+  ],
+  [
+   "lest",
+   "liest"
   ]
  ],
  "szenen": [
@@ -67,5 +79,6 @@
    ]
   }
  ],
- "musik": "musik/runway/118_loesung_optimistisch.mp3"
+ "musik": "musik/runway/118_loesung_optimistisch.mp3",
+ "szene1_ab": "abgeheftet"
 }

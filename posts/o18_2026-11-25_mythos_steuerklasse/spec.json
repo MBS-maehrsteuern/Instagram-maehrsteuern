@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "weniger Steuer",
+ "gesicht_bis": 1.31,
  "korrektur": [
   [
    "zeig dir",
@@ -56,5 +56,6 @@
    "unter": "… bevor ihr die Klassen tauscht."
   }
  ],
- "musik": "musik/runway/122_lofi_hiphop.mp3"
+ "musik": "musik/runway/122_lofi_hiphop.mp3",
+ "szene1_ab": "weniger Steuer"
 }

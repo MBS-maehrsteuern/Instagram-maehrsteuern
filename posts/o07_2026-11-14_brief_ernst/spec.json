@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "schlecht",
+ "gesicht_bis": 1.45,
  "korrektur": [],
  "szenen": [
   {
@@ -70,5 +70,6 @@
    "unter": "Der Tag, an dem der Brief kommt."
   }
  ],
- "musik": "musik/runway/115_marimba_corporate.mp3"
+ "musik": "musik/runway/115_marimba_corporate.mp3",
+ "szene1_ab": "schlecht"
 }

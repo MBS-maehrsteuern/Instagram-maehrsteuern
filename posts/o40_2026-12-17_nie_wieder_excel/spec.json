@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "baue",
+ "gesicht_bis": 1.83,
  "korrektur": [
   [
    "Steuerechse",
@@ -74,5 +74,6 @@
    "unter": "… für dein nächstes Tool."
   }
  ],
- "musik": "musik/runway/118_loesung_optimistisch.mp3"
+ "musik": "musik/runway/118_loesung_optimistisch.mp3",
+ "szene1_ab": "baue"
 }

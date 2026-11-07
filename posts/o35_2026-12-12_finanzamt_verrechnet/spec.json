@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "verrechnet",
+ "gesicht_bis": 1.65,
  "korrektur": [
   [
    "Einkommenssteuerbescheide",
@@ -70,5 +70,6 @@
    "unter": "… und schick's an Hausbesitzer."
   }
  ],
- "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3",
+ "szene1_ab": "verrechnet"
 }

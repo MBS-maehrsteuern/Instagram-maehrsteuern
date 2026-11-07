@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "gemacht",
+ "gesicht_bis": 1.54,
  "korrektur": [
   [
    "Dezemberzeit",
@@ -59,5 +59,6 @@
    "unter": "… an jemanden, der gern aufschiebt."
   }
  ],
- "musik": "musik/runway/130_pop_electronic_clean.mp3"
+ "musik": "musik/runway/130_pop_electronic_clean.mp3",
+ "szene1_ab": "gemacht"
 }

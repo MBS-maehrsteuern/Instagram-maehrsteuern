@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "bezahlt",
+ "gesicht_bis": 1.89,
  "korrektur": [
   [
    "Handwerker Bar bezahlt",
@@ -91,5 +91,6 @@
    "unter": "in die Kommentare."
   }
  ],
- "musik": "musik/runway/115_marimba_corporate.mp3"
+ "musik": "musik/runway/115_marimba_corporate.mp3",
+ "szene1_ab": "bezahlt"
 }

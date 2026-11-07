@@ -86,7 +86,7 @@ em{font-style:normal;color:var(--gruen2)}
 <div id="buehne"></div>
 <div class="kicker" id="kick"><i></i><span id="kicktext"></span></div>
 <div id="hook"></div>
-<svg id="wind" viewBox="0 0 1080 1920" style="filter:drop-shadow(0 0 10px rgba(127,224,194,.55))"></svg>
+<svg id="wind" viewBox="0 0 1080 1920" style="display:none"></svg>
 <div id="ut"></div>
 <div id="fuss"><i></i>maehrsteuern</div>
 <div id="ki"></div>
@@ -99,7 +99,7 @@ const out3=x=>1-Math.pow(1-x,3), inOut=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
 const over=x=>{const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
 const hl=s=>s.replace(/\*([^*]+)\*/g,"<em>$1</em>");
 $("kicktext").textContent=SPEC.kicker||"";
-$("ki").textContent=SPEC.gesicht?"KI-GESICHT":"";if(SPEC.avatar)$("avatar").querySelector("img").src=SPEC.avatar;
+$("ki").textContent=SPEC.gesicht?"KI-BEARBEITET":"";if(SPEC.avatar)$("avatar").querySelector("img").src=SPEC.avatar;
 // ---------- Wind: weiche Luftschlieren, die mit dem Text quer durchs Bild ziehen ----------
 const WIND=[];(()=>{const svg=$("wind");const rnd=(i)=>{const x=Math.sin(i*99.13)*43758.5453;return x-Math.floor(x)};
  for(let i=0;i<11;i++){const y=260+rnd(i)*1350, a=40+rnd(i+7)*90, w=3+rnd(i+3)*9;
@@ -117,10 +117,10 @@ function wind(t){ // alle Böen gleichzeitig zeichnen
  WIND.forEach((w,i)=>{w.p.style.opacity=alle[i]});
 }
 // Text fliegt mit dem Wind ein: von rechts, schräg, unscharf → scharf
-function einfliegen(el,t,t0,d=.62,dx=300){const x=P(t,t0,d),k=out3(x);el.style.opacity=cl(x*1.8);
- el.style.transform=`translateX(${(1-k)*dx}px) skewX(${(1-k)*-14}deg)`;el.style.filter=`blur(${(1-k)*16}px)`}
-function wegwehen(el,t,t0,d=.4){const x=P(t,t0,d),k=inOut(x);if(x<=0)return false;el.style.opacity=1-k;
- el.style.transform=`translateX(${-k*260}px) skewX(${k*12}deg)`;el.style.filter=`blur(${k*14}px)`;return true}
+function einfliegen(el,t,t0,d=.5,dx=300){const x=P(t,t0,d),k=over(x);el.style.opacity=cl(x*2.2);
+ el.style.transform=`translateX(${(1-k)*dx*.55}px) translateY(${(1-out3(x))*24}px) scale(${.92+.08*k})`;el.style.filter=x<1?`blur(${(1-out3(x))*6}px)`:""}
+function wegwehen(el,t,t0,d=.2){const x=P(t,t0,d),k=inOut(x);if(x<=0)return false;el.style.opacity=1-k;
+ el.style.transform=`translateX(${-k*120}px) scale(${1-.04*k})`;el.style.filter="";return true}
 // ---------- Szenen bauen ----------
 const B=$("buehne");
 function karte(cls,html){return `<div class="karte ${cls||""}">${html}</div>`}
@@ -140,7 +140,7 @@ const ICON={
   <path class="hk" d="M -26 2 L -6 22 L 28 -18" fill="none" stroke="#070C0A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g></svg>`
 };
 SPEC.szenen.forEach((s,i)=>{const d=document.createElement("div");d.className="szene";d.id="sz"+i;let h="";
- if(s.typ==="titel")h=`<div class="s-titel">${s.h1?`<div class="zeile h1">${hl(s.h1)}</div>`:""}${s.h2?`<div class="zeile h2" style="margin-top:18px">${hl(s.h2)}</div>`:""}</div>`;
+ if(s.typ==="titel")h=`<div class="s-titel zeile">${s.h1?`<div class="h1">${hl(s.h1)}</div>`:""}${s.h2?`<div class="h2" style="margin-top:18px">${hl(s.h2)}</div>`:""}</div>`;
  if(s.typ==="gross")h=`<div class="s-gross">${s.ober?`<div class="ober zeile">${s.ober}</div>`:""}<div class="wert zeile" id="wert${i}" style="font-size:${Math.min(s.wgr||230,Math.floor(1700/String(s.wert).length))}px">${s.wert}</div>${s.unter?`<div class="unter zeile">${hl(s.unter)}</div>`:""}</div>`;
  if(s.typ==="liste")h=`<div class="s-liste">${s.kopf?`<div class="kopf zeile">${hl(s.kopf)}</div>`:""}${s.punkte.map((p,j)=>`<div class="punkt karte zeile" id="p${i}_${j}"><div class="nr">${p.nr||j+1}</div><div>${hl(p.t)}${p.u?`<small>${p.u}</small>`:""}</div></div>`).join("")}</div>`;
  if(s.typ==="vs")h=`<div class="s-vs"><div class="vs-k karte schlecht zeile" id="vl${i}"><div class="lab">${s.links.lab}</div><div class="w" style="font-size:${s.links.w.length>6?78:s.links.w.length>4?96:120}px">${s.links.w}</div><div class="t">${s.links.t||""}</div></div>
@@ -168,7 +168,7 @@ function render(t){
  const ge=$("gesicht");
  if(SPEC.gesicht&&t<GE+.55){const fi=Math.min(SPEC.gesicht.n-1,Math.floor((t+(SPEC.gesicht.versatz||0))*SPEC.gesicht.fps));$("gbild").src=GF[Math.max(0,fi)];
   const z=1.04+.03*P(t,0,GE);ge.style.opacity=1;ge.style.filter="";ge.style.transform=`scale(${z})`;
-  if(t>GE){const k=inOut(P(t,GE,.55));ge.style.opacity=1-k;ge.style.transform=`translateX(${-k*320}px) scale(${z+.06*k}) skewX(${k*8}deg)`;ge.style.filter=`blur(${k*18}px)`}}
+  if(t>GE){const k=inOut(P(t,GE,.3));ge.style.opacity=1-k;ge.style.transform=`scale(${z-.08*k})`;ge.style.filter=`brightness(${1-.5*k})`}}
  else ge.style.opacity=0;
  // Ohne Lip-Sync: echtes Porträt im Kreis, Ring pulsiert mit der Stimme, Kopf neigt sich leicht
  const av=$("avatar");
@@ -176,19 +176,20 @@ function render(t){
   av.style.opacity=e;av.querySelector(".ring").style.transform=`scale(${1+.07*amp})`;av.querySelector(".ring").style.opacity=.55+.45*amp;
   av.querySelector(".ring2").style.transform=`scale(${1+.12*amp})`;av.querySelector("img").style.transform=`rotate(${3*Math.sin(t*1.7)}deg) scale(${1.0+.02*amp})`;
   av.style.transform=`scale(${.85+.15*e})`;av.style.filter="";
-  if(t>GE){const k=inOut(P(t,GE,.55));av.style.opacity=1-k;av.style.transform=`translateX(${-k*320}px) skewX(${k*8}deg)`;av.style.filter=`blur(${k*18}px)`}}
+  if(t>GE){const k=inOut(P(t,GE,.3));av.style.opacity=1-k;av.style.transform=`scale(${1-.15*k})`;av.style.filter=""}}
  else av.style.opacity=0;
  // Hook-Zeilen fliegen mit der ersten Böe ein und wehen beim Übergang weg
- HZ.forEach((z,i)=>{if(t<GE){einfliegen(z,t,.08+i*.12)}else{z.style.opacity=1;z.style.filter="";z.style.transform="";wegwehen(z,t,GE+i*.05)}});
+ const HB=SPEC._hook_bis||GE;
+ HZ.forEach((z,i)=>{if(t<HB){einfliegen(z,t,.08+i*.12)}else{z.style.opacity=1;z.style.filter="";z.style.transform="";wegwehen(z,t,HB+i*.05)}});
  // Szenen
- SPEC.szenen.forEach((s,i)=>{const e=s._el;const an=t>=s.von-.001&&t<s.bis+.45;e.style.opacity=an?1:0;if(!an)return;
+ SPEC.szenen.forEach((s,i)=>{const e=s._el;const an=t>=s.von-.001&&t<s.bis+.25;e.style.opacity=an?1:0;if(!an)return;
   const raus=t>=s.bis;
-  s._zeilen.forEach((z,j)=>{const t0=s.von+(z._at!==undefined?0:j*.09);if(raus){wegwehen(z,t,s.bis+j*.03)}else einfliegen(z,t,t0)});
-  if(s.typ==="liste")s.punkte.forEach((p,j)=>{const el=$(`p${i}_${j}`);if(raus)return;einfliegen(el,t,p._t,.55,340);
+  s._zeilen.forEach((z,j)=>{const t0=s.von+.22+(z._at!==undefined?0:j*.09);if(raus){wegwehen(z,t,s.bis+j*.03)}else einfliegen(z,t,t0)});
+  if(s.typ==="liste")s.punkte.forEach((p,j)=>{const el=$(`p${i}_${j}`);if(raus)return;einfliegen(el,t,Math.max(p._t,s.von+.22),.5,340);
     const akt=t>=p._t&&(j===s.punkte.length-1||t<s.punkte[j+1]._t);el.style.borderColor=akt?"rgba(127,224,194,.75)":"#1E3A31";el.style.boxShadow=akt?"0 0 50px rgba(83,195,162,.3)":""});
-  if(s.typ==="umfrage")s.optionen.forEach((o,j)=>{const el=$(`o${i}_${j}`);if(!raus)einfliegen(el,t,o._t,.55,340)});
+  if(s.typ==="umfrage")s.optionen.forEach((o,j)=>{const el=$(`o${i}_${j}`);if(!raus)einfliegen(el,t,Math.max(o._t,s.von+.22),.5,340)});
   if(s.typ==="gross"&&s.zahl!==undefined&&!raus){const k=out3(P(t,s.von+.1,.9));$("wert"+i).textContent=(s.vor||"")+Math.round(s.zahl*k).toLocaleString("de-DE")+(s.nach||"")}
-  if(s.typ==="vs"&&!raus){einfliegen($("vl"+i),t,s.von,.55,-340);einfliegen($("vr"+i),t,s._t2,.55,340);
+  if(s.typ==="vs"&&!raus){einfliegen($("vl"+i),t,s.von+.22,.5,-340);einfliegen($("vr"+i),t,Math.max(s._t2,s.von+.5),.5,340);
     const x=P(t,s._t2,.4);$("vl"+i).style.opacity=1-.45*x;$("vl"+i).style.filter=`grayscale(${x})`}
   if(s.typ==="mythos"){const st=$("st"+i),x=P(t,s._ts,.32);st.style.opacity=x>0?1:0;st.style.transform=`rotate(-12deg) scale(${2.4-1.4*out3(x)})`;
     if(s.wahr&&!raus)einfliegen($("wa"+i),t,s._tw)}
@@ -197,8 +198,7 @@ function render(t){
   if(s.typ==="datum"&&!raus){const x=P(t,s.von+.2,.5);$("tag"+i).style.transform=`rotateX(${(1-out3(x))*90}deg)`}
   if(s.typ==="cta")ctaAnim(s,i,t);
  });
- wind(t);
- $("raster").style.backgroundPosition=`${-t*12}px ${-t*20}px`;$("hg").style.transform=`scale(${1.05+.03*Math.sin(t*.4)})`;
+  $("raster").style.backgroundPosition=`${-t*12}px ${-t*20}px`;$("hg").style.transform=`scale(${1.05+.03*Math.sin(t*.4)})`;
  // Untertitel (Wort für Wort, aktuelles Wort grün)
  const gi=G.findIndex((gr,i)=>t>=W[gr[0]].s-.05&&(i===G.length-1||t<W[G[i+1][0]].s-.05));
  const ut=$("ut");if(gi<0||t>W[W.length-1].e+.4){ut.innerHTML="";return}

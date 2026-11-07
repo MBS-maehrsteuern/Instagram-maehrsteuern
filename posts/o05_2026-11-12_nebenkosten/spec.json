@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Nebenkostenabrechnung",
+ "gesicht_bis": 1.65,
  "korrektur": [
   [
    "dein Mitbewohner",
@@ -84,5 +84,6 @@
    "unter": "und holt euch das Geld."
   }
  ],
- "musik": "musik/runway/136_modern_jazz_leicht.mp3"
+ "musik": "musik/runway/136_modern_jazz_leicht.mp3",
+ "szene1_ab": "Nebenkostenabrechnung"
 }

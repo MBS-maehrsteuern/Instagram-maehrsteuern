@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "gestellt",
+ "gesicht_bis": 1.73,
  "korrektur": [
   [
    "kein Freistellungsauftrag",
@@ -81,5 +81,6 @@
    "unter": "Und den Auftrag gleich stellen."
   }
  ],
- "musik": "musik/runway/129_breaks_lounge.mp3"
+ "musik": "musik/runway/129_breaks_lounge.mp3",
+ "szene1_ab": "gestellt"
 }

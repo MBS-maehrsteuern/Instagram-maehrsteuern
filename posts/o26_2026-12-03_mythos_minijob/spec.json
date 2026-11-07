@@ -9,15 +9,19 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "eintragen",
+ "gesicht_bis": 2.16,
  "korrektur": [
   [
-   "Zeig dein Chef",
+   "Mini -Job",
+   "Minijob"
+  ],
+  [
+   "Zahlt deinen Chef,",
    "Zahlt dein Chef"
   ],
   [
-   "ist er schon",
-   "ist sie schon"
+   "Pauschalsteuer, ist er",
+   "Pauschalsteuer, ist sie"
   ]
  ],
  "szenen": [
@@ -50,5 +54,6 @@
    "unter": "… für deine nächste Erklärung."
   }
  ],
- "musik": "musik/runway/129_breaks_lounge.mp3"
+ "musik": "musik/runway/129_breaks_lounge.mp3",
+ "szene1_ab": "eintragen"
 }

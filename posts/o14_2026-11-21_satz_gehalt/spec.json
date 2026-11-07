@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Finanzbeamte",
+ "gesicht_bis": 1.23,
  "korrektur": [
   [
    "welchen Satz",
@@ -64,5 +64,6 @@
    "unter": "an jemanden mit demselben Satz."
   }
  ],
- "musik": "musik/runway/112_jazzhop.mp3"
+ "musik": "musik/runway/112_jazzhop.mp3",
+ "szene1_ab": "Finanzbeamte"
 }

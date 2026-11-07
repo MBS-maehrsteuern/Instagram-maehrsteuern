@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Hort",
+ "gesicht_bis": 1.95,
  "korrektur": [],
  "szenen": [
   {
@@ -64,5 +64,6 @@
    "unter": "in deiner Gruppe."
   }
  ],
- "musik": "musik/runway/121_minimal_house.mp3"
+ "musik": "musik/runway/121_minimal_house.mp3",
+ "szene1_ab": "Hort"
 }

@@ -9,7 +9,7 @@
    "k": "h2"
   }
  ],
- "gesicht_bis": "Beamten",
+ "gesicht_bis": 1.51,
  "korrektur": [
   [
    "Buchstab",
@@ -77,5 +77,6 @@
    "unter": "in die Kommentare."
   }
  ],
- "musik": "musik/runway/122_lofi_hiphop.mp3"
+ "musik": "musik/runway/122_lofi_hiphop.mp3",
+ "szene1_ab": "Beamten"
 }
