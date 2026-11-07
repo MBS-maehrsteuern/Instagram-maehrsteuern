@@ -1,14 +1,14 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 07.11. 09:22 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 07.11. 17:45 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟢 17:45 🎬 Reel `i04-reel-insider-saeumnis` (läuft automatisch) · 🟡 17:50 📱 Story `57-story-teaser` (pausiert)
+- **Heute online:** ✅ 17:45 🎬 Reel `i04-reel-insider-saeumnis` (online) · 🟡 17:50 📱 Story `57-story-teaser` (pausiert)
 - **Braucht dich:** 1 offen
 - **Letzte 7 Tage:** Reichweite **69630** (31.10.–06.11., +1040 % zur Vorwoche) · Follower **+574** (jetzt 1055) · 30 Tage: +715 Follows / −17 entfolgt
 - **Testmonat** (Tag 27/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (5 online · 2 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
+  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (6 online · 1 geplant) · Reel-Tage (sicher) **5/7** – ohne Reel: Mi 04.11., So 08.11.
 - **Freie Slots nächste 7 Tage** (6):
   - Mo 09.11.: Story 12:15
   - Di 10.11.: Story 12:15
@@ -17,7 +17,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
   - Fr 13.11.: Story 12:15
   - Sa 14.11.: Story 12:15
 
-**Als Nächstes online:** 🎬 Reel `i04-reel-insider-saeumnis` am **Sa 07.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🖼️ Karussell `10-e-rechnung` am **So 08.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -89,7 +89,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 07.11. 17:45 | 🎬 Reel `i04-reel-insider-saeumnis` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-09 → 2026-11-07 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-05. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #04 (Aufnahme 26.10.), Premium-Look premium/insider_04.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-09. |
 | Sa 07.11. 17:50 | 📱 Story `57-story-teaser` | pausiert | 14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum § 8c-Reel (Titelbild), jobs/p57_reel_verlust_8c.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird. |
 | So 08.11. 12:15 | 📱 Story `58-story-tipp` | pausiert | 14.10. Nachtlauf (d3): Tipp-Story mit Emoji-Reaktion „Bis 250 € brutto reicht eine Kleinbetragsrechnung (§ 33 UStDV)“ zum Vorsteuer-Reel, jobs/p58_reel_vorsteuer.json. |
 | So 08.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 29.10.: verschoben 2026-11-04 → 2026-11-08 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
@@ -99,12 +98,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mi 11.11. 17:45 | 🖼️ Karussell `37-karussell-bp-vorbereitung` | 🟢 freigegeben (geht automatisch online) | 29.10.: verschoben 2026-11-08 → 2026-11-11 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend. |
 | Do 12.11. 17:45 | 🎬 Reel `i10-reel-insider-belege` | 🟢 freigegeben (geht automatisch online) | 30.10.: Musik neu (127_tech_groove, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-06. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #10 (Aufnahme 26.10.), Premium-Look premium/insider_10.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-12. |
 | Fr 13.11. 17:45 | 🎬 Reel `i07-reel-insider-kontrollmitteilung` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-14 → 2026-11-13 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-07. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #07 (Aufnahme 26.10.), Premium-Look premium/insider_07.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-14. |
+| Sa 14.11. 17:45 | 🎬 Reel `i11-reel-insider-anrufen` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-17 → 2026-11-14 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-09. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #11 (Aufnahme 26.10.), Premium-Look premium/insider_11.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-17. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 14.11. 17:45 | 🎬 Reel `i11-reel-insider-anrufen` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-17 → 2026-11-14 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (102_deep_house_ruhig, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-09. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #11 (Aufnahme 26.10.), Premium-Look premium/insider_11.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-17. |
 | So 15.11. 17:45 | 🖼️ Karussell `31-karussell-zinsschranke` | 🟢 freigegeben (geht automatisch online) | 29.10.: verschoben 2026-11-11 → 2026-11-15 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-11. · 25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke |
 | Mo 16.11. 17:45 | 🎬 Reel `49-reel-kleinunternehmer` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-24 → 2026-11-16 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (130_pop_electronic_clean, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Platz für Insider #01 gemacht, Termin vorläufig. · 26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-10-26 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-31. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-31 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-31 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-24. |
 | Di 17.11. 17:45 | 🎬 Reel `48-reel-firmenwagen` | 🟢 freigegeben (geht automatisch online) | 06.11.: umgeplant 2026-11-21 → 2026-11-17 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-30. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-30 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-30 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-21. |
@@ -132,6 +131,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Sa 07.11. 17:45 · 🎬 Reel `i04-reel-insider-saeumnis` · [ansehen](https://www.instagram.com/reel/Dfchu8kn5E_/) (online 2026-11-07 17:45)
 - Fr 06.11. 17:50 · 📱 Story `i06-story-teaser` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4024547914093622737) (online 2026-11-06 17:50)
 - Fr 06.11. 17:45 · 🎬 Reel `i06-reel-insider-schaetzung` · [ansehen](https://www.instagram.com/reel/DfZ9DhrjbqF/) (online 2026-11-06 17:45)
 - Fr 06.11. 12:15 · 📱 Story `i06-story-frage` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4024494350356858118) (online 2026-11-06 15:59)
@@ -141,7 +141,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Mi 04.11. 17:45 · 🖼️ Karussell `k01-karussell-ki-befehle` · [ansehen](https://www.instagram.com/p/DfUzoUhoMFD/) (online 2026-11-04 17:45)
 - Di 03.11. 17:45 · 🎬 Reel `45-reel-vga` · [ansehen](https://www.instagram.com/reel/DfSO9Gagk8j/) (online 2026-11-03 17:45)
 - Mo 02.11. 17:45 · 🎬 Reel `i02-reel-insider-kontenabruf` · [ansehen](https://www.instagram.com/reel/DfPwiKDkcWo/) (online 2026-11-02 17:45)
-- So 01.11. 17:45 · 🖼️ Karussell `mbs-karussell-launch` · [ansehen](https://www.instagram.com/p/DfNdBsEmmdN/) (online 2026-11-01 20:11)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -190,6 +189,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 07.11.2026**
+- 17:45 🤖 Autopilot: i04-reel-insider-saeumnis veroeffentlicht ([`208f51b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/208f51b34e6802437481c97d27b05ceb8107bc50))
+  - Plan: `i04-reel-insider-saeumnis` status: freigegeben → veroeffentlicht; `i04-reel-insider-saeumnis` online: https://www.instagram.com/reel/Dfchu8kn5E_/
+- 16:40 🤖 Autopilot: Dateien fuer i04-reel-insider-saeumnis vorbereitet ([`e125b8a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e125b8a1cc77fad7e794807bd923409142e2a9b6))
+  - `posts/i04_2026-10-26_insider_saeumnis`
 - 09:22 📈 Statistik 2026-11-07 ([`8c6ff7a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8c6ff7a8dfd778e1d1c4acc807dc583c308cc702))
   - `automatik/statistik`
 - 07:36 📡 Radar 2026-11-07: 8 Beiträge, 0 DM-Entwürfe ([`06c0273`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/06c02735edd9be90f034de91901530bc07619f00))
