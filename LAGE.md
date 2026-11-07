@@ -168,7 +168,6 @@ Reichweite pro Tag: 04.11. **49** · 05.11. **28833** · 06.11. **359** · 07.11
 | Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2770 (+12) | 2152 | 25 | 5 | 12 | 46 |
 | Mo 26.10. 17:45 [Die Rente deiner Oma kann steuerpflichti](https://www.instagram.com/reel/De9tD9vj4EH/) | 694 (+1) | 573 | 9 | 5 | 10 | 9 |
 | So 25.10. 17:45 [Ein einziger Euro entscheidet: 799 € net](https://www.instagram.com/reel/De7JF3cAGrX/) | 1314 (+2) | 1157 | 17 | 1 | 13 | 70 |
-| Sa 24.10. 11:17 [Ohne Anlass auf dem Bewirtungsbeleg: 0 %](https://www.instagram.com/reel/De3yheAFKBg/) | 625 (+1) | 522 | 7 | 1 | 4 | 3 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
