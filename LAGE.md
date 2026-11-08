@@ -5,7 +5,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `58-story-tipp` (pausiert) · 🟢 12:15 📱 Story `o01-story-mein-weg-freiheit-gekostet` (läuft automatisch) · 🟢 17:45 🎬 Reel `o01-reel-mein-weg-freiheit-gekostet` (läuft automatisch) · 🟡 17:50 📱 Story `59-story-teaser` (pausiert)
-- **Braucht dich:** 1 offen
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **76840** (01.11.–07.11., +1008 % zur Vorwoche) · Follower **+629** (jetzt 1145) · 30 Tage: +715 Follows / −18 entfolgt
 - **Testmonat** (Tag 28/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
   - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (6 online · 1 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: Mi 04.11.
@@ -84,7 +84,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- ⏰ **🎙️ Neue Reel-Aufnahmen einsprechen (Reels ab 17.11.)** (Sa 07.11. 10:00) – Ca. 1 h. Sprechtexte (je 25–30 s, Hook im ersten Satz, Schlussfrage) legt Claude bis Do 05.11. in posts/sprechtexte.md bereit. Ruhiger Raum, Handy nah, wie Aufnahme 21.10. Danach die Datei(en) an Claude geben → Premium-Reels bauen. Ohne neue Aufnahme gehen ab 17.11. keine Reels mehr raus (nur Karussells Mi + So).
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
