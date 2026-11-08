@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 08.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 08.11. 20:05 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -250,7 +250,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42392971906) Sa 07.11. 17:48 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42513029431) So 08.11. 20:04 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -261,6 +261,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 08.11.2026**
+- 20:05 ✍️ Wochenbericht KW 2026-45 ([`f26135e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f26135e7233bec09dd8fdb51113a3b31de6af8ab))
+  - `automatik/statistik`
 - 17:45 🤖 Autopilot: o01-reel-mein-weg-freiheit-gekostet veroeffentlicht ([`0411d9e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0411d9e97911b1e8db7e3120db4f899a0100605f))
   - Plan: `o01-reel-mein-weg-freiheit-gekostet` status: freigegeben → veroeffentlicht; `o01-reel-mein-weg-freiheit-gekostet` online: https://www.instagram.com/reel/DffGh9vEe5N/
 - 16:40 🤖 Autopilot: Dateien fuer o01-reel-mein-weg-freiheit-gekostet vorbereitet ([`5c45791`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5c45791bead5a4ad9e2a453cea4332908b996d44))
