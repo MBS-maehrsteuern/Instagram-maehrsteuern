@@ -1,6 +1,6 @@
 // Bilder aus Vorlagen erzeugen:  node render.mjs jobs/w02_karussell.json
 // Eine Job-Datei: { "ausgabe": "../../assets/<ordner>", "bilder": [ { "vorlage": "karussell", "datei": "01.png", ...Daten } ] }
-import { readFileSync, mkdirSync } from 'fs';
+import { readFileSync, mkdirSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';  // datei darf Unterordner enthalten (z. B. storys/quiz.png)
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
@@ -17,7 +17,8 @@ const GROESSE = { karussell:[1080,1440], story:[1080,1920], reel_titel:[1080,192
 const jobs = process.argv.slice(2);
 if (!jobs.length) { console.log('Aufruf: node render.mjs jobs/<datei>.json [...]'); process.exit(1); }
 
-const browser = await chromium.launch({ executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const ALT = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';  // alter fester Pfad, nur falls vorhanden
+const browser = await chromium.launch(existsSync(ALT) ? { executablePath:ALT } : {});
 for (const job of jobs) {
   const cfg = JSON.parse(readFileSync(resolve(job),'utf8'));
   const ziel = resolve(hier, cfg.ausgabe); mkdirSync(ziel, { recursive:true });
