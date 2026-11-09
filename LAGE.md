@@ -4,12 +4,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟢 12:15 📱 Story `o02-story-mythos-gehalt` (läuft automatisch) · 🟢 17:45 🎬 Reel `o02-reel-mythos-gehalt` (läuft automatisch)
-- **Braucht dich:** nichts 🎉
+- **Heute online:** 🔴 12:15 📱 Story `o02-story-mythos-gehalt` (überfällig) · 🟢 17:45 🎬 Reel `o02-reel-mythos-gehalt` (läuft automatisch)
+- **Braucht dich:** 1 offen, davon **1 rot** 🔴
 - **Letzte 7 Tage:** Reichweite **76929** (02.11.–08.11., +396 % zur Vorwoche) · Follower **+537** (jetzt 1255) · 30 Tage: +803 Follows / −17 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 📱 Story `o02-story-mythos-gehalt` am **Mo 09.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 📱 Story `o02-story-mythos-gehalt` am **Mo 09.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
 
 ## 📝 Gerade in Arbeit
 
@@ -82,7 +82,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- Nichts offen. 🎉
+- 🔴 **Überfällig** `o02-story-mythos-gehalt` (Mo 09.11. 12:15): freigegeben, seit 53 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 
 ## ⏭️ Nächste 7 Tage
 
@@ -102,12 +102,12 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Sa 14.11. 17:45 | 🎬 Reel `o07-reel-vinted-ebay` | 🟢 freigegeben (geht automatisch online) | 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G08, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 14.11. – Match 71 % + Tages-Passung +8 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | So 15.11. 12:15 | 📱 Story `o08-story-beamter-oder-frei` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o08-reel-beamter-oder-frei (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | So 15.11. 17:45 | 🎬 Reel `o08-reel-beamter-oder-frei` | 🟢 freigegeben (geht automatisch online) | 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M7, Zielgruppen-Match 73 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 15.11. – Match 73 % + Tages-Passung +8 = 81. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
+| Mo 16.11. 12:15 | 📱 Story `o09-story-steuerklasse-3-5` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o09-reel-steuerklasse-3-5 (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Mo 16.11. 12:15 | 📱 Story `o09-story-steuerklasse-3-5` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o09-reel-steuerklasse-3-5 (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mo 16.11. 17:45 | 🎬 Reel `o09-reel-steuerklasse-3-5` | 🟢 freigegeben (geht automatisch online) | 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I18, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 16.11. – Match 71 % + Tages-Passung +6 = 77. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Di 17.11. 12:15 | 📱 Story `o10-story-brief-ernst` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o10-reel-brief-ernst (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Di 17.11. 17:45 | 🎬 Reel `o10-reel-brief-ernst` | 🟢 freigegeben (geht automatisch online) | 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I16, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 17.11. – Match 74 % + Tages-Passung +5 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
