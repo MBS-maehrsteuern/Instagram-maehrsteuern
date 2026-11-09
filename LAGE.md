@@ -4,11 +4,9 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `58-story-tipp` (pausiert) · ✅ 12:15 📱 Story `o01-story-mein-weg-freiheit-gekostet` (online) · ✅ 17:45 🎬 Reel `o01-reel-mein-weg-freiheit-gekostet` (online) · 🟡 17:50 📱 Story `59-story-teaser` (pausiert)
+- **Heute online:** 🟢 12:15 📱 Story `o02-story-mythos-gehalt` (läuft automatisch) · 🟢 17:45 🎬 Reel `o02-reel-mythos-gehalt` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **76840** (01.11.–07.11., +1008 % zur Vorwoche) · Follower **+629** (jetzt 1145) · 30 Tage: +715 Follows / −18 entfolgt
-- **Testmonat** (Tag 28/28, Soll 7 Feed/Woche, täglich ≥ 1 Reel):
-  - 🟡 **KW 45** (02.11.–08.11.) ← jetzt: Feed **7/7** (7 online · 0 geplant) · Reel-Tage (sicher) **6/7** – ohne Reel: Mi 04.11.
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 📱 Story `o02-story-mythos-gehalt` am **Mo 09.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -90,7 +88,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 08.11. 17:50 | 📱 Story `59-story-teaser` | pausiert | 14.10. Nachtlauf (d3): Teaser „Jetzt neu im Profil“ zum Pensions-Karussell (Folie 1), jobs/p59_pensionen.json; Karte verkleinert (bausteine/teaser_karte.png, schnitt/p57_58_karten_bauen.py), damit nichts angeschnitten wird. |
 | Mo 09.11. 12:15 | 📱 Story `o02-story-mythos-gehalt` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o02-reel-mythos-gehalt (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mo 09.11. 17:45 | 🎬 Reel `o02-reel-mythos-gehalt` | 🟢 freigegeben (geht automatisch online) | 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X01, Zielgruppen-Match 80 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 09.11. – Match 80 % + Tages-Passung +6 = 86. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Di 10.11. 12:15 | 📱 Story `o03-story-2022-nachholen` | 🟢 freigegeben (geht automatisch online) | 08.11.: Teaser-Story zum Reel o03-reel-2022-nachholen (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
@@ -362,6 +359,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:21 📈 Statistik 2026-11-03 ([`5460242`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5460242505006811a66437f8e6d05e8ab2c9bdfc))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 02.11.2026**
 - 17:45 🤖 Autopilot: i02-reel-insider-kontenabruf veroeffentlicht ([`8639359`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/86393595b8afbaef110909459fbc001dda2f121a))
   - Plan: `i02-reel-insider-kontenabruf` status: freigegeben → veroeffentlicht; `i02-reel-insider-kontenabruf` online: https://www.instagram.com/reel/DfPwiKDkcWo/
@@ -375,8 +374,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:37 📈 Statistik 2026-11-02 ([`5c60f4a`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5c60f4a9c592c52e31af95ed472bcbee31645e01))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 01.11.2026**
 - 20:15 ✍️ Wochenbericht KW 2026-44 ([`e068e28`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e068e28f47704b5fa346f681b83526565eb2d376))
