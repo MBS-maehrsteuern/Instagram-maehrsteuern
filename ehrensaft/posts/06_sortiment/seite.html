@@ -1,0 +1,133 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<body>
+<div style="position:absolute;top:-500px;font-family:Anton">Aä<span style="font-family:'Bowlby One'">Aä</span><span style="font-family:'Permanent Marker'">Aä</span></div>
+<svg id="s" style="position:absolute;left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<div class="ki-hinweis" id="hw">Design-Entwurf · Computergrafik</div>
+<script>
+const {C,prog,ease,lerp,rnd,clamp,flasche,splash,frucht,siegel}=EK;
+const W=1080,H=1920;
+const _cx=document.createElement('canvas').getContext('2d');
+const FONT={a:'Anton',b:'Bowlby One',m:'Permanent Marker',i:'Inter'};
+function mess(s,f,sz,w=400){_cx.font=`${w} ${sz}px "${FONT[f]}"`;return _cx.measureText(s).width;}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// Text: o.f Schrift (a/b/m/i), o.sz Größe, o.fill, o.st Kontur (null=keine), o.sw Konturfaktor, o.sh Schatten, o.anchor, o.max Maximalbreite, o.mid vertikal mittig
+function T(s,x,y,o={}){
+  const f=o.f||'a'; let sz=o.sz||120; const max=o.max||940, wt=o.w||400;
+  const bw=mess(s,f,sz,wt); if(bw>max) sz*=max/bw;
+  if(o.mid!==false) y+=sz*(f==='a'?.36:f==='b'?.33:.3);
+  const st=o.st===undefined?C.tinte:o.st, sw=(o.sw===undefined?.08:o.sw)*sz;
+  const base=`font-family="${FONT[f]}" font-size="${sz.toFixed(1)}" text-anchor="${o.anchor||'middle'}" font-weight="${wt}"${o.ls?` letter-spacing="${o.ls}"`:''}`;
+  let r='';
+  if(o.sh!==false&&st) r+=`<text x="${(x+sz*.06).toFixed(1)}" y="${(y+sz*.06).toFixed(1)}" ${base} fill="${st}" stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round">${esc(s)}</text>`;
+  r+=`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" ${base} fill="${o.fill||C.tinte}"${st?` stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round" paint-order="stroke fill"`:''}>${esc(s)}</text>`;
+  return `<g opacity="${o.op??1}">${r}</g>`;
+}
+const G=(tf,inner,op=1)=>`<g transform="${tf}" opacity="${(+op).toFixed(3)}">${inner}</g>`;
+const R=(x,y,w,h,fill,o={})=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx||0}" fill="${fill}"${o.st!==undefined?` stroke="${o.st}" stroke-width="${o.sw||8}"`:''} opacity="${o.op??1}"/>`;
+// Flasche: Mitte x, Unterkante by, Höhe h
+function FL(x,by,h,opts={}){const w=h*480/1040;return flasche(opts).replace('width="100%" height="100%"',`x="${(x-w/2).toFixed(1)}" y="${(by-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}"`);}
+function strahlen(x,y,n,r,rot,farbe,op=1){let d='';for(let i=0;i<n;i++){const a0=(i/n)*Math.PI*2+rot,a1=a0+Math.PI/n;d+=`M${x},${y}L${(x+Math.cos(a0)*r).toFixed(0)},${(y+Math.sin(a0)*r).toFixed(0)}L${(x+Math.cos(a1)*r).toFixed(0)},${(y+Math.sin(a1)*r).toFixed(0)}Z`;}return `<path d="${d}" fill="${farbe}" opacity="${op}"/>`;}
+// Aufplopp-Skala (0 -> Überschwinger -> 1)
+const pop=(t,s,d=.35)=>ease.back(prog(t,s,d));
+// Sticker-Chip mit Text
+function CHIP(s,x,y,o={}){const sz=o.sz||44,f=o.f||'a',w=mess(s,f,sz)+sz*1.1,h=sz*1.45;return `<g transform="translate(${x},${y}) rotate(${o.rot||0})"><rect x="${-w/2+6}" y="${-h/2+6}" width="${w}" height="${h}" rx="${h/2}" fill="${C.tinte}"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="${o.bg||C.creme}" stroke="${C.tinte}" stroke-width="6"/>${T(s,0,0,{f,sz,fill:o.fill||C.tinte,st:null,sh:false})}</g>`;}
+// Wackeln nach Aufprall
+const shake=(t,s,amp=18)=>{const q=t-s;if(q<0||q>.45)return[0,0];const k=amp*(1-q/.45);return[Math.sin(q*90)*k,Math.cos(q*71)*k];};
+
+// 06 – Sortiment (geplant). 11 s.
+let _id=0;
+function dose(h){const w=h*.56,rx=w/2,e=w*.15;
+  return `<path d="M${-rx},${-h+e} L${-rx},${-e} A${rx},${e} 0 0 0 ${rx},${-e} L${rx},${-h+e} Z" fill="${C.pink}" stroke="${C.tinte}" stroke-width="7"/>
+  <rect x="${-rx+3}" y="${-h*.66}" width="${w-6}" height="${h*.34}" fill="${C.gelb}"/>
+  <line x1="${-rx}" y1="${-h*.66}" x2="${rx}" y2="${-h*.66}" stroke="${C.tinte}" stroke-width="5"/><line x1="${-rx}" y1="${-h*.32}" x2="${rx}" y2="${-h*.32}" stroke="${C.tinte}" stroke-width="5"/>
+  ${T('EHREN',0,-h*.56,{f:'b',sz:w*.26,fill:C.pink,sw:.1,sh:false})}${T('SAFT',0,-h*.42,{f:'b',sz:w*.3,fill:C.pink,sw:.1,sh:false})}
+  <g transform="translate(${rx*.45},${-h*.18})">${frucht('zitrone',w*.17)}</g><g transform="translate(${-rx*.45},${-h*.8})">${frucht('himbeere',w*.14)}</g>
+  <rect x="${-rx*.75}" y="${-h*.9}" width="${w*.1}" height="${h*.78}" rx="${w*.05}" fill="#fff" opacity=".45"/>
+  <ellipse cx="0" cy="${-h+e}" rx="${rx}" ry="${e}" fill="#D9D4E0" stroke="${C.tinte}" stroke-width="7"/><ellipse cx="0" cy="${-h+e}" rx="${rx*.78}" ry="${e*.7}" fill="#BDB6C8"/>
+  <rect x="${-w*.12}" y="${-h+e-e*.45}" width="${w*.24}" height="${e*.6}" rx="${e*.3}" fill="#9E96AA" stroke="${C.tinte}" stroke-width="3"/>`;}
+function bowle(h,t){const w=h*.9,id='bw'+(++_id),g=rnd(11);
+  const k=`M${-w/2},${-h*.82} Q${-w/2},${-h*.88} ${-w*.42},${-h*.88} L${w*.42},${-h*.88} Q${w/2},${-h*.88} ${w/2},${-h*.82} L${w/2},${-h*.06} Q${w/2},0 ${w*.42},0 L${-w*.42},0 Q${-w/2},0 ${-w/2},${-h*.06}Z`;
+  let fr='';for(let i=0;i<9;i++){fr+=`<g transform="translate(${(-w*.38+g()*w*.76).toFixed(0)},${(-h*.08-g()*h*.55).toFixed(0)}) rotate(${(g()*360+t*30*(i%2?1:-1)).toFixed(0)})">${frucht(['zitrone','himbeere','orange'][i%3],h*(.07+g()*.04))}</g>`;}
+  const ob=-h*.7+Math.sin(t*5)*4;
+  return `<defs><clipPath id="${id}"><path d="${k}"/></clipPath><linearGradient id="${id}l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF06A"/><stop offset=".6" stop-color="#FFC93C"/><stop offset="1" stop-color="#FF5E8F"/></linearGradient></defs>
+  <path d="${k}" fill="#fff" opacity=".35"/><g clip-path="url(#${id})"><rect x="${-w}" y="${ob}" width="${2*w}" height="${h}" fill="url(#${id}l)"/>${fr}<path d="M${-w},${ob} q${w*.25},-10 ${w*.5},0 t${w*.5},0 t${w*.5},0 t${w*.5},0" stroke="#fff" stroke-width="5" fill="none" opacity=".7"/></g>
+  <path d="${k}" fill="none" stroke="${C.tinte}" stroke-width="8"/>
+  <rect x="${-w*.5}" y="${-h}" width="${w}" height="${h*.13}" rx="12" fill="${C.pink}" stroke="${C.tinte}" stroke-width="7"/><rect x="${-w*.12}" y="${-h*1.05}" width="${w*.24}" height="${h*.06}" rx="8" fill="${C.pink}" stroke="${C.tinte}" stroke-width="6"/>
+  <g transform="translate(${w*.5},${-h*.16})"><rect x="-4" y="-14" width="${w*.13}" height="28" rx="6" fill="${C.creme}" stroke="${C.tinte}" stroke-width="6"/><rect x="${w*.08}" y="-36" width="16" height="30" rx="5" fill="${C.pink}" stroke="${C.tinte}" stroke-width="5"/></g>
+  <rect x="${-w*.36}" y="${-h*.76}" width="${w*.07}" height="${h*.6}" rx="${w*.035}" fill="#fff" opacity=".6"/>
+  <g transform="translate(${w*.14},${-h*.36}) rotate(-6)"><rect x="${-w*.2}" y="${-h*.09}" width="${w*.4}" height="${h*.18}" rx="8" fill="${C.creme}" stroke="${C.tinte}" stroke-width="5"/>${T('5 L',0,0,{sz:h*.12,fill:C.pink,st:null,sh:false})}</g>`;}
+function pulver(h){const w=h*1.1;
+  return `<path d="M${-w/2},${-h*.78} L${w/2},${-h*.78} L${w*.46},${-h*.04} Q${w*.45},0 ${w*.4},0 L${-w*.4},0 Q${-w*.45},0 ${-w*.46},${-h*.04}Z" fill="${C.gelb}" stroke="${C.tinte}" stroke-width="7"/>
+  <rect x="${-w*.54}" y="${-h}" width="${w*1.08}" height="${h*.24}" rx="12" fill="${C.pink}" stroke="${C.tinte}" stroke-width="7"/>
+  <path d="M${-w*.44},${-h*.9} h${w*.88}" stroke="${C.tinte}" stroke-width="4" opacity=".35" stroke-dasharray="10 12"/>
+  <rect x="${-w*.38}" y="${-h*.66}" width="${w*.76}" height="${h*.52}" rx="10" fill="${C.creme}" stroke="${C.tinte}" stroke-width="5"/>
+  ${T('EHRENSAFT',0,-h*.53,{f:'b',sz:h*.12,fill:C.pink,st:C.tinte,sw:.08,sh:false,max:w*.68})}${T('Mix yourself',0,-h*.3,{f:'m',sz:h*.13,fill:C.tinte,st:null,sh:false,max:w*.68})}
+  <rect x="${-w*.43}" y="${-h*.7}" width="${w*.05}" height="${h*.6}" rx="5" fill="#fff" opacity=".5"/>`;}
+function shaker(h,t,glow=1){const w=h*.42;
+  const k=`M${-w/2},${-h*.72} L${w/2},${-h*.72} L${w*.46},${-h*.05} Q${w*.45},0 ${w*.38},0 L${-w*.38},0 Q${-w*.45},0 ${-w*.46},${-h*.05}Z`;
+  const p=.75+.25*Math.sin(t*9);
+  return `${glow>0?`<path d="${k}" fill="${C.neon}" filter="url(#glow)" opacity="${(glow*p).toFixed(2)}"/><circle cx="0" cy="${-h*.4}" r="${h*.55}" fill="${C.neon}" filter="url(#glow2)" opacity="${(glow*.35*p).toFixed(2)}"/>`:''}
+  <path d="${k}" fill="#2A2233"/><path d="M${-w*.45},${-h*.5} L${w*.45},${-h*.5} L${w*.46},${-h*.05} Q${w*.45},0 ${w*.38},0 L${-w*.38},0 Q${-w*.45},0 ${-w*.46},${-h*.05}Z" fill="${C.gelb}" opacity=".85"/>
+  <path d="${k}" fill="none" stroke="${glow>0?C.neon:C.tinte}" stroke-width="8"/>
+  <rect x="${-w*.52}" y="${-h*.86}" width="${w*1.04}" height="${h*.15}" rx="10" fill="${C.pink}" stroke="${glow>0?C.neon:C.tinte}" stroke-width="7"/>
+  <rect x="${-w*.22}" y="${-h*.97}" width="${w*.44}" height="${h*.12}" rx="8" fill="${C.pink}" stroke="${glow>0?C.neon:C.tinte}" stroke-width="6"/>
+  <path d="M${w*.5},${-h*.82} q${w*.35},0 ${w*.35},${h*.12} t${-w*.35},${h*.1}" fill="none" stroke="${glow>0?C.neon:C.tinte}" stroke-width="7"/>
+  <g transform="translate(0,${-h*.36}) rotate(-90)">${T('EHRENSAFT',0,0,{f:'b',sz:w*.2,fill:glow>0?C.neon:C.pink,st:C.tinte,sw:.08,sh:false,max:h*.6})}</g>`;}
+
+// Raster: [x, Grundlinie, Höhe, Start, Name, Zusatz]
+const ITEMS=[
+ [220,880,250,1.4,'FLASCHE','0,5 l','f'],[540,880,300,1.7,'FLASCHE','1,0 l','f'],[860,880,360,2.0,'FLASCHE','1,5 l','f'],
+ [165,1260,250,2.4,'DOSE','geplant','d'],[405,1260,270,2.75,'EHRENBOWLE','5 l','b'],[660,1260,190,3.1,'PULVER','Mix yourself','p'],[905,1260,270,99,'GLOW-SHAKER','leuchtet','s']];
+function item(it,t,glow){const [x,by,h,s0,,,art]=it;
+  if(art==='f')return FL(0,0,h,{welle:t*6+x,fruechte:h>300?9:6});
+  if(art==='d')return dose(h);if(art==='b')return bowle(h,t);if(art==='p')return pulver(h);return shaker(h,t,glow);}
+function label(it,t,s0){const [x,by,,,name,zus]=it;const q=pop(t,s0,.35);if(q<=0)return'';
+  return G(`translate(${x},${by+52}) scale(${q})`,CHIP(name,0,0,{sz:36,bg:C.creme})+T(zus,0,58,{f:'m',sz:36,fill:C.tinte,st:null,sh:false,max:230,op:by>1000?1-prog(t,7.45,.2):1}));}
+function band(t,dunkel){let s=G(`rotate(-2 540 285)`,R(-40,248,1160,66,dunkel?'#222':C.tinte));let txt='';for(let i=0;i<8;i++)txt+='GEPLANT  ✦  IN ENTWICKLUNG  ✦  ';
+  const off=-(t*140)%560;return s+G(`rotate(-2 540 285)`,`<text x="${off}" y="298" font-family="Anton" font-size="40" fill="${C.gelb}" letter-spacing="3">${txt}</text>`);}
+
+window.zeichne=t=>{
+  const dunkel=clamp(prog(t,3.9,.25)-prog(t,6.2,.3));
+  const flick=t>3.9&&t<4.2?(Math.floor(t*30)%2?.6:1):1;
+  let s=`<defs><filter id="glow" x="-80%" y="-50%" width="260%" height="200%"><feGaussianBlur stdDeviation="22"/></filter><filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter></defs>`;
+  s+=R(0,0,W,H,C.gelb)+strahlen(540,900,22,1500,t*.15,C.pink,.13);
+  // Regal-Linien
+  s+=R(70,890,940,16,C.tinte,{rx:8,op:clamp(prog(t,1.3,.3))})+R(70,1270,940,16,C.tinte,{rx:8,op:clamp(prog(t,2.8,.3))});
+  // Kopfzeile
+  const m=ease.inOut(prog(t,1.05,.4));const [dx,dy]=shake(t,.25,24);
+  const ende=t>=6.8;
+  if(!ende){const k=ease.out(prog(t,0,.25));
+    s+=G(`translate(${lerp(540+dx,540,m)},${lerp(800+dy,390,m)}) scale(${lerp(lerp(3.5,1,k),.48,m)})`,T('DAS',0,-150,{sz:300,fill:'#fff'})+T('KOMMT.',0,150,{sz:300,fill:C.pink}),clamp(k*3)*(1-m));if(m>0)s+=G(`translate(540,390) scale(${lerp(.6,1,m)})`,T('DAS KOMMT.',0,0,{sz:144,fill:'#fff'}),m);
+    const st=ease.out(prog(t,.55,.2));if(st>0){const [ex,ey]=shake(t,.75,14);s+=G(`translate(${lerp(540+ex,880,m)},${lerp(1150+ey,470,m)}) rotate(-12) scale(${lerp(lerp(2.5,1,st),.5,m)})`,R(-230,-80,460,160,'none',{st:C.pinkTief,sw:14,rx:18})+T('GEPLANT',0,0,{sz:120,fill:C.pinkTief,st:null,sh:false}),clamp(st*3)*(1-m));}}
+  else{const f=prog(t,6.8,.35);const sy=Math.abs(Math.cos(f*Math.PI));
+    s+=G(`translate(540,390) scale(1,${f<.5?sy:sy})`,f<.5?T('DAS KOMMT.',0,0,{sz:144,fill:'#fff'}):T('WELCHES ZUERST?',0,0,{sz:140,fill:C.pink}));}
+  // Artikel
+  ITEMS.forEach((it,i)=>{const [x,by,h,s0]=it;if(i===6)return;const q=ease.back(prog(t,s0,.4));if(q<=0)return;
+    const bob=ende?Math.sin(t*6+i)*8:0;const z=ende?pop(t,7.0+i*.12,.3):0;
+    s+=G(`translate(${x},${by+lerp(300,0,clamp(q))+bob}) scale(${q}) rotate(${Math.sin(t*3+i)*2})`,item(it,t,1));
+    s+=label(it,t,s0+.25);
+    if(z>0)s+=G(`translate(${x+(i<3?h*.27:95)},${by-h+(i<3?40:30)}) scale(${z})`,`<circle r="34" fill="${C.pink}" stroke="${C.tinte}" stroke-width="6"/>`+T(String(i+1),0,0,{sz:44,fill:'#fff',st:null,sh:false}));
+    // Funken beim Aufploppen
+    const fq=prog(t,s0+.1,.4);if(fq>0&&fq<1){for(let j=0;j<8;j++){const a=j/8*Math.PI*2;s+=`<line x1="${x+Math.cos(a)*(h*.4+fq*90)}" y1="${by-h/2+Math.sin(a)*(h*.4+fq*90)}" x2="${x+Math.cos(a)*(h*.4+fq*90+40*(1-fq))}" y2="${by-h/2+Math.sin(a)*(h*.4+fq*90+40*(1-fq))}" stroke="${C.tinte}" stroke-width="9" stroke-linecap="round"/>`;}}
+  });
+  // Dunkel-Szene
+  if(dunkel>0)s+=R(0,0,W,H,C.nacht||'#0D0A14',{op:(.9*dunkel*flick).toFixed(2)});
+  // Glow-Shaker: groß in der Mitte, dann ins Regal
+  const it=ITEMS[6];const a=ease.back(prog(t,4.2,.45)),b=ease.inOut(prog(t,6.1,.55));
+  if(prog(t,4.2,.45)>0){const x=lerp(540,it[0],b),by=lerp(1300,it[1],b),h=lerp(640,it[2],b);const bob=t>6.8?Math.sin(t*6+6)*8:0;
+    s+=G(`translate(${x},${by+lerp(500,0,clamp(a))+bob}) rotate(${Math.sin(t*4)*4*(1-b)}) scale(${a})`,shaker(h,t,lerp(1,.6,b)));
+    if(b>=1)s+=label(it,t,6.6);
+    const z=pop(t,7.0+.72,.3);if(z>0)s+=G(`translate(${it[0]+95},${it[1]-it[2]+30}) scale(${z})`,`<circle r="34" fill="${C.pink}" stroke="${C.tinte}" stroke-width="6"/>`+T('7',0,0,{sz:44,fill:'#fff',st:null,sh:false}));}
+  if(dunkel>0){const q=pop(t,4.55,.35),q2=pop(t,4.95,.35);const op=dunkel*dunkel;
+    s+=G(`translate(540,470) scale(${q}) rotate(-3)`,T('LEUCHTET,',0,0,{sz:150,fill:C.neon,st:C.tinte}),op);
+    s+=G(`translate(540,640) scale(${q2}) rotate(-3)`,T("WENN'S DUNKEL WIRD.",0,0,{sz:118,fill:C.neon,st:C.tinte,max:900}),op);
+    s+=G(`translate(540,1430) scale(${pop(t,5.2,.35)})`,CHIP('GLOW-SHAKER · GEPLANT',0,0,{sz:44,bg:C.neon}),op);}
+  // Abschluss
+  if(ende){const q=pop(t,7.6,.4);
+    s+=G(`translate(540,1440) scale(${q}) rotate(-2)`,R(-450,-55,900,110,C.tinte,{rx:30,op:1})+R(-458,-63,900,110,C.pink,{rx:30,st:C.tinte,sw:7})+T("Schreib's in die Kommentare.",-8,-8,{f:'m',sz:58,fill:'#fff',st:null,sh:false,max:840}));}
+  s+=band(t,dunkel>.5);
+  document.getElementById('s').innerHTML=s;
+  document.getElementById('hw').style.color=dunkel>.5?'#fff':C.tinte;
+};
+
+</script>

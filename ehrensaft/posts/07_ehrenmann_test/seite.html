@@ -1,0 +1,99 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<body>
+<div style="position:absolute;top:-500px;font-family:Anton">Aä<span style="font-family:'Bowlby One'">Aä</span><span style="font-family:'Permanent Marker'">Aä</span></div>
+<svg id="s" style="position:absolute;left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<div class="ki-hinweis" id="hw">Design-Entwurf · Computergrafik</div>
+<script>
+const {C,prog,ease,lerp,rnd,clamp,flasche,splash,frucht,siegel}=EK;
+const W=1080,H=1920;
+const _cx=document.createElement('canvas').getContext('2d');
+const FONT={a:'Anton',b:'Bowlby One',m:'Permanent Marker',i:'Inter'};
+function mess(s,f,sz,w=400){_cx.font=`${w} ${sz}px "${FONT[f]}"`;return _cx.measureText(s).width;}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// Text: o.f Schrift (a/b/m/i), o.sz Größe, o.fill, o.st Kontur (null=keine), o.sw Konturfaktor, o.sh Schatten, o.anchor, o.max Maximalbreite, o.mid vertikal mittig
+function T(s,x,y,o={}){
+  const f=o.f||'a'; let sz=o.sz||120; const max=o.max||940, wt=o.w||400;
+  const bw=mess(s,f,sz,wt); if(bw>max) sz*=max/bw;
+  if(o.mid!==false) y+=sz*(f==='a'?.36:f==='b'?.33:.3);
+  const st=o.st===undefined?C.tinte:o.st, sw=(o.sw===undefined?.08:o.sw)*sz;
+  const base=`font-family="${FONT[f]}" font-size="${sz.toFixed(1)}" text-anchor="${o.anchor||'middle'}" font-weight="${wt}"${o.ls?` letter-spacing="${o.ls}"`:''}`;
+  let r='';
+  if(o.sh!==false&&st) r+=`<text x="${(x+sz*.06).toFixed(1)}" y="${(y+sz*.06).toFixed(1)}" ${base} fill="${st}" stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round">${esc(s)}</text>`;
+  r+=`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" ${base} fill="${o.fill||C.tinte}"${st?` stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round" paint-order="stroke fill"`:''}>${esc(s)}</text>`;
+  return `<g opacity="${o.op??1}">${r}</g>`;
+}
+const G=(tf,inner,op=1)=>`<g transform="${tf}" opacity="${(+op).toFixed(3)}">${inner}</g>`;
+const R=(x,y,w,h,fill,o={})=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx||0}" fill="${fill}"${o.st!==undefined?` stroke="${o.st}" stroke-width="${o.sw||8}"`:''} opacity="${o.op??1}"/>`;
+// Flasche: Mitte x, Unterkante by, Höhe h
+function FL(x,by,h,opts={}){const w=h*480/1040;return flasche(opts).replace('width="100%" height="100%"',`x="${(x-w/2).toFixed(1)}" y="${(by-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}"`);}
+function strahlen(x,y,n,r,rot,farbe,op=1){let d='';for(let i=0;i<n;i++){const a0=(i/n)*Math.PI*2+rot,a1=a0+Math.PI/n;d+=`M${x},${y}L${(x+Math.cos(a0)*r).toFixed(0)},${(y+Math.sin(a0)*r).toFixed(0)}L${(x+Math.cos(a1)*r).toFixed(0)},${(y+Math.sin(a1)*r).toFixed(0)}Z`;}return `<path d="${d}" fill="${farbe}" opacity="${op}"/>`;}
+// Aufplopp-Skala (0 -> Überschwinger -> 1)
+const pop=(t,s,d=.35)=>ease.back(prog(t,s,d));
+// Sticker-Chip mit Text
+function CHIP(s,x,y,o={}){const sz=o.sz||44,f=o.f||'a',w=mess(s,f,sz)+sz*1.1,h=sz*1.45;return `<g transform="translate(${x},${y}) rotate(${o.rot||0})"><rect x="${-w/2+6}" y="${-h/2+6}" width="${w}" height="${h}" rx="${h/2}" fill="${C.tinte}"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="${o.bg||C.creme}" stroke="${C.tinte}" stroke-width="6"/>${T(s,0,0,{f,sz,fill:o.fill||C.tinte,st:null,sh:false})}</g>`;}
+// Wackeln nach Aufprall
+const shake=(t,s,amp=18)=>{const q=t-s;if(q<0||q>.45)return[0,0];const k=amp*(1-q/.45);return[Math.sin(q*90)*k,Math.cos(q*71)*k];};
+
+// 07 – Der Ehrenmann-Test. 11 s.
+const PUNKTE=['Hält die Tür auf','Bringt das Pfand zurück','Teilt den letzten Schluck','Schreibt „bin gut heimgekommen“'];
+const ST=[1.25,2.3,3.35,4.4], YK=[640,840,1040,1240];
+const CERT=6.0;
+function haken(p,sz){const d=`M${-sz*.35},0 L${-sz*.08},${sz*.3} L${sz*.45},${-sz*.42}`;return `<path d="${d}" fill="none" stroke="${C.tinte}" stroke-width="${sz*.26}" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="${sz*2}" stroke-dashoffset="${sz*2*(1-p)}" transform="translate(5,5)"/><path d="${d}" fill="none" stroke="${C.pink}" stroke-width="${sz*.2}" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="${sz*2}" stroke-dashoffset="${sz*2*(1-p)}"/>`;}
+function urkunde(t0){const w=880,h=1020;let s='';
+  s+=R(-w/2+14,-h/2+14,w,h,C.tinte,{rx:16})+R(-w/2,-h/2,w,h,C.creme,{rx:16,st:C.tinte,sw:8});
+  s+=R(-w/2+26,-h/2+26,w-52,h-52,'none',{st:C.gold,sw:14,rx:8})+R(-w/2+50,-h/2+50,w-100,h-100,'none',{st:C.gold,sw:4,rx:4});
+  for(const [x,y] of [[-1,-1],[1,-1],[-1,1],[1,1]])s+=G(`translate(${x*(w/2-50)},${y*(h/2-50)}) rotate(45)`,R(-16,-16,32,32,C.gold,{st:C.tinte,sw:4}));
+  s+=T('EHRENURKUNDE',0,-h/2+130,{f:'i',w:800,sz:44,fill:C.tinte,st:null,sh:false,ls:10});
+  s+=`<line x1="-220" y1="${-h/2+180}" x2="220" y2="${-h/2+180}" stroke="${C.gold}" stroke-width="5"/>`;
+  const b=ease.out(prog(t0,.55,.22)),[dx,dy]=shake(t0,.77,12);
+  if(b>0)s+=G(`translate(${dx},${-120+dy}) scale(${lerp(2.6,1,b)}) rotate(-4)`,T('BESTANDEN.',0,0,{sz:190,fill:C.pink,max:720}),clamp(b*3));
+  s+=G(`translate(0,90) scale(${pop(t0,.95,.35)})`,T('Du bist',0,0,{f:'m',sz:70,fill:C.tinte,st:null,sh:false}));
+  s+=G(`translate(0,215) scale(${pop(t0,1.15,.35)})`,T('EHRENMANN / EHRENFRAU.',0,0,{sz:96,fill:C.gelb,max:740}));
+  s+=G(`translate(-150,380)`,`<line x1="-150" y1="0" x2="150" y2="0" stroke="${C.tinte}" stroke-width="3"/>`+T('Das Ehrensaft-Komitee',0,36,{f:'m',sz:30,fill:C.tinte,st:null,sh:false}));
+  const sp=ease.out(prog(t0,1.45,.2)),[ex,ey]=shake(t0,1.65,10);
+  if(sp>0)s+=G(`translate(${260+ex},${360+ey}) rotate(${-15+t0*15}) scale(${lerp(3,1,sp)})`,siegel(105,'EHRE'),clamp(sp*3));
+  // Unterschrift wird geschrieben
+  const u=prog(t0,1.2,.6);s+=`<path d="M-280,370 q30,-50 55,-10 t50,0 q20,-40 40,-5 t45,-15 q15,25 40,-20" fill="none" stroke="${C.tinte}" stroke-width="5" stroke-linecap="round" stroke-dasharray="420" stroke-dashoffset="${420*(1-u)}"/>`;
+  return s;}
+window.zeichne=t=>{
+  let s=R(0,0,W,H,C.gelb)+strahlen(540,960,20,1500,t*.12,'#fff',.22);
+  // Kopf
+  const k=ease.out(prog(t,0,.28)),[dx,dy]=shake(t,.28,22),m=ease.inOut(prog(t,1.0,.2));
+  const kopfOp=1-prog(t,CERT,.25);
+  if(m<1)s+=G(`translate(${540+dx*(1-m)},${lerp(860+dy,380,m)}) scale(${lerp(lerp(3.2,1,k),.45,m)})`,T('DER',0,-230,{sz:150,fill:'#fff'})+T('EHRENMANN-',0,-30,{sz:210,fill:'#fff'})+T('TEST',0,210,{sz:300,fill:C.pink}),clamp(k*3)*Math.pow(1-m,3));
+  if(m<1)s+=G(`translate(540,${lerp(1250,460,m)}) rotate(-4) scale(${pop(t,.45,.3)})`,T('(gilt auch für Ehrenfrauen)',0,0,{f:'m',sz:64,fill:C.tinte,st:null,sh:false}),Math.pow(1-m,3));
+  if(m>0){s+=G(`translate(540,370) scale(${lerp(.7,1,m)})`,T('DER EHRENMANN-TEST',0,0,{sz:118,fill:C.pink}),m*m*kopfOp);
+    s+=G(`translate(540,475) rotate(-2)`,T('gilt auch für Ehrenfrauen',0,0,{f:'m',sz:48,fill:C.tinte,st:null,sh:false}),m*m*kopfOp);}
+  // Checkliste
+  let punkte=0;
+  PUNKTE.forEach((txt,i)=>{const s0=ST[i],y=YK[i];const a=ease.out(prog(t,s0,.3));if(a<=0)return;
+    const weg=ease.inOut(prog(t,CERT-.15+i*.05,.35));const c=prog(t,s0+.5,.22);if(c>=1)punkte++;
+    const flash=c>0?clamp(1-prog(t,s0+.72,.4)):0;const wob=c>0&&c<1?0:Math.sin((t-s0-.72)*30)*3*clamp(1-prog(t,s0+.72,.3))*(t>s0+.72?1:0);
+    let k='';k+=R(-470+10,-80+10,940,160,C.tinte,{rx:26})+R(-470,-80,940,160,flash>0?(flash>.5?'#fff':C.creme):C.creme,{rx:26,st:C.tinte,sw:7});
+    k+=R(-430,-48,96,96,'#fff',{rx:16,st:C.tinte,sw:7});
+    if(c>0)k+=G(`translate(-382,0) scale(${1+.5*Math.sin(c*Math.PI)})`,haken(ease.out(c),90));
+    k+=T(txt,-305,0,{sz:62,fill:C.tinte,st:null,sh:false,anchor:'start',max:740});
+    s+=G(`translate(${540+lerp(1100,0,a)+lerp(0,-1300,weg)},${y}) rotate(${lerp(8,0,a)+wob})`,k,1);
+    // EHRE +1 fliegt hoch
+    const e=prog(t,s0+.62,.7);if(e>0&&e<1)s+=G(`translate(${860},${y-30-e*120}) scale(${ease.back(clamp(e*3))}) rotate(8)`,CHIP('EHRE +1',0,0,{sz:40,bg:C.pink,fill:'#fff'}),clamp(2-e*2));
+    // Funken
+    if(c>0&&c<1){for(let j=0;j<10;j++){const a2=j/10*Math.PI*2,r0=70+c*80;s+=`<line x1="${158+Math.cos(a2)*r0}" y1="${y+Math.sin(a2)*r0}" x2="${158+Math.cos(a2)*(r0+30*(1-c))}" y2="${y+Math.sin(a2)*(r0+30*(1-c))}" stroke="${C.pink}" stroke-width="8" stroke-linecap="round"/>`;}}
+  });
+  // Ehre-o-Meter
+  const mo=clamp(prog(t,1.1,.3))*(1-prog(t,CERT-.1,.25));
+  if(mo>0){let ziel=0;ST.forEach(s0=>{ziel+=ease.out(prog(t,s0+.72,.35));});const f=ziel/4;
+    s+=G(`translate(0,0)`,R(140+8,1390+8,800,60,C.tinte,{rx:30})+R(140,1390,800,60,'#fff',{rx:30,st:C.tinte,sw:6})+R(146,1396,Math.max(0,788*f),48,C.pink,{rx:24})+T('EHRE-O-METER',540,1420,{sz:38,fill:C.tinte,st:'#fff',sw:.15,sh:false})+T(`${Math.round(f*100)} %`,960,1360,{sz:44,fill:C.tinte,st:null,sh:false,anchor:'end'}),mo);}
+  // Urkunde
+  const u=ease.out(prog(t,CERT,.55));
+  if(u>0){const t0=t-CERT;const hoch=ease.inOut(prog(t,CERT+2.3,.4));
+    // Konfetti-Früchte
+    const kq=prog(t,CERT+.75,1.6);if(kq>0&&kq<1)s+=`<g transform="translate(540,1450)">${splash(kq,{n:30,kraft:900,seed:21,fruechte:9})}</g>`;
+    s+=G(`translate(540,${lerp(2500,lerp(930,850,hoch),u)}) rotate(${lerp(-25,-2,u)+Math.sin(t*2)*1}) scale(${lerp(.6,1,u)*lerp(1,.9,hoch)})`,urkunde(t0));
+    if(kq>0&&kq<1)s+=`<g transform="translate(110,1380)">${splash(kq,{n:14,kraft:700,seed:4,fruechte:4})}</g><g transform="translate(970,1380)">${splash(kq,{n:14,kraft:700,seed:8,fruechte:4})}</g>`;
+    // CTA
+    const q=pop(t,CERT+2.6,.4);if(q>0){const pl=Math.sin(t*5)*8;
+      s+=G(`translate(540,${1440}) scale(${q}) rotate(-2) scale(${1+.03*Math.sin(t*6)})`,R(-440+8,-62+8,880,124,C.tinte,{rx:62})+R(-440,-62,880,124,C.pink,{rx:62,st:C.tinte,sw:7})+T("Schick's einem Ehrenmann.",-30,0,{sz:70,fill:'#fff',max:700,sw:.06})+G(`translate(${380+pl},${-pl*.5}) rotate(-20)`,`<path d="M-40,-25 L45,0 L-40,25 L-22,0Z" fill="#fff" stroke="${C.tinte}" stroke-width="5" stroke-linejoin="round"/>`));}}
+  document.getElementById('s').innerHTML=s;
+};
+
+</script>

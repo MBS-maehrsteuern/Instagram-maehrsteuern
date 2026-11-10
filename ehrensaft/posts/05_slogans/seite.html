@@ -1,0 +1,131 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<body>
+<div style="position:absolute;top:-500px;font-family:Anton">Aä<span style="font-family:'Bowlby One'">Aä</span><span style="font-family:'Permanent Marker'">Aä</span></div>
+<svg id="s" style="position:absolute;left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<div class="ki-hinweis" id="hw">Design-Entwurf · Computergrafik</div>
+<script>
+const {C,prog,ease,lerp,rnd,clamp,flasche,splash,frucht,siegel}=EK;
+const W=1080,H=1920;
+const _cx=document.createElement('canvas').getContext('2d');
+const FONT={a:'Anton',b:'Bowlby One',m:'Permanent Marker',i:'Inter'};
+function mess(s,f,sz,w=400){_cx.font=`${w} ${sz}px "${FONT[f]}"`;return _cx.measureText(s).width;}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// Text: o.f Schrift (a/b/m/i), o.sz Größe, o.fill, o.st Kontur (null=keine), o.sw Konturfaktor, o.sh Schatten, o.anchor, o.max Maximalbreite, o.mid vertikal mittig
+function T(s,x,y,o={}){
+  const f=o.f||'a'; let sz=o.sz||120; const max=o.max||940, wt=o.w||400;
+  const bw=mess(s,f,sz,wt); if(bw>max) sz*=max/bw;
+  if(o.mid!==false) y+=sz*(f==='a'?.36:f==='b'?.33:.3);
+  const st=o.st===undefined?C.tinte:o.st, sw=(o.sw===undefined?.08:o.sw)*sz;
+  const base=`font-family="${FONT[f]}" font-size="${sz.toFixed(1)}" text-anchor="${o.anchor||'middle'}" font-weight="${wt}"${o.ls?` letter-spacing="${o.ls}"`:''}`;
+  let r='';
+  if(o.sh!==false&&st) r+=`<text x="${(x+sz*.06).toFixed(1)}" y="${(y+sz*.06).toFixed(1)}" ${base} fill="${st}" stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round">${esc(s)}</text>`;
+  r+=`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" ${base} fill="${o.fill||C.tinte}"${st?` stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round" paint-order="stroke fill"`:''}>${esc(s)}</text>`;
+  return `<g opacity="${o.op??1}">${r}</g>`;
+}
+const G=(tf,inner,op=1)=>`<g transform="${tf}" opacity="${(+op).toFixed(3)}">${inner}</g>`;
+const R=(x,y,w,h,fill,o={})=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx||0}" fill="${fill}"${o.st!==undefined?` stroke="${o.st}" stroke-width="${o.sw||8}"`:''} opacity="${o.op??1}"/>`;
+// Flasche: Mitte x, Unterkante by, Höhe h
+function FL(x,by,h,opts={}){const w=h*480/1040;return flasche(opts).replace('width="100%" height="100%"',`x="${(x-w/2).toFixed(1)}" y="${(by-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}"`);}
+function strahlen(x,y,n,r,rot,farbe,op=1){let d='';for(let i=0;i<n;i++){const a0=(i/n)*Math.PI*2+rot,a1=a0+Math.PI/n;d+=`M${x},${y}L${(x+Math.cos(a0)*r).toFixed(0)},${(y+Math.sin(a0)*r).toFixed(0)}L${(x+Math.cos(a1)*r).toFixed(0)},${(y+Math.sin(a1)*r).toFixed(0)}Z`;}return `<path d="${d}" fill="${farbe}" opacity="${op}"/>`;}
+// Aufplopp-Skala (0 -> Überschwinger -> 1)
+const pop=(t,s,d=.35)=>ease.back(prog(t,s,d));
+// Sticker-Chip mit Text
+function CHIP(s,x,y,o={}){const sz=o.sz||44,f=o.f||'a',w=mess(s,f,sz)+sz*1.1,h=sz*1.45;return `<g transform="translate(${x},${y}) rotate(${o.rot||0})"><rect x="${-w/2+6}" y="${-h/2+6}" width="${w}" height="${h}" rx="${h/2}" fill="${C.tinte}"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="${o.bg||C.creme}" stroke="${C.tinte}" stroke-width="6"/>${T(s,0,0,{f,sz,fill:o.fill||C.tinte,st:null,sh:false})}</g>`;}
+// Wackeln nach Aufprall
+const shake=(t,s,amp=18)=>{const q=t-s;if(q<0||q>.45)return[0,0];const k=amp*(1-q/.45);return[Math.sin(q*90)*k,Math.cos(q*71)*k];};
+
+// 05 – Slogans, kinetische Typo. 10 s.
+const S=[0,1.9,3.8,5.7,7.6,10.5]; // Szenenstarts
+const BG=[C.gelb,C.pink,C.creme,C.gelb,C.pink];
+const hg=(f)=>R(0,0,W,H,f);
+// Deko: Fruchtsticker, die an den Rändern schweben
+function sticker(t,seed,liste){let s='';liste.forEach(([art,x,y,r,s0],i)=>{const k=pop(t,s0,.4);if(k<=0)return;s+=G(`translate(${x+Math.sin(t*2+i)*14},${y+Math.cos(t*1.7+i)*14}) rotate(${t*40*(i%2?1:-1)+i*30}) scale(${k})`,frucht(art,r));});return s;}
+
+function szene0(t){ // Slam-Zoom: Ehrensaft. Du weißt Bescheid.
+  let s=hg(C.gelb)+strahlen(540,820,18,1500,t*.25,C.pink,.18);
+  const k=ease.out(prog(t,0,.28)), sc=lerp(4,1,k), [dx,dy]=shake(t,.28,26);
+  s+=G(`translate(${540+dx},${600+dy}) scale(${sc}) rotate(${lerp(-12,-4,k)})`,T('EHRENSAFT.',0,0,{f:'b',sz:150,fill:C.pink,max:960}),clamp(k*3));
+  // Aufprall-Linien
+  const q=prog(t,.28,.35); if(q>0&&q<1){let l='';for(let i=0;i<14;i++){const a=i/14*Math.PI*2,r0=420+q*260,r1=r0+90*(1-q);l+=`<line x1="${540+Math.cos(a)*r0}" y1="${600+Math.sin(a)*r0*.5}" x2="${540+Math.cos(a)*r1}" y2="${600+Math.sin(a)*r1*.5}" stroke="${C.tinte}" stroke-width="12" stroke-linecap="round"/>`;}s+=l;}
+  const k2=ease.out(prog(t,.55,.22)),[ex,ey]=shake(t,.77,18);
+  s+=G(`translate(${540+ex},${900+ey}) scale(${lerp(3.5,1,k2)})`,T('DU WEISST',0,0,{sz:200,fill:'#fff'}),clamp(k2*3));
+  const k3=ease.out(prog(t,.85,.22)),[fx,fy]=shake(t,1.07,18);
+  s+=G(`translate(${540+fx},${1140+fy}) scale(${lerp(3.5,1,k3)}) rotate(-2)`,T('BESCHEID.',0,0,{sz:250,fill:C.pink}),clamp(k3*3));
+  s+=sticker(t,1,[['zitrone',150,380,70,.2],['himbeere',930,420,58,.35],['zitrone',880,1380,62,1.1],['himbeere',200,1400,50,1.2]]);
+  s+=G(`translate(540,1400) rotate(${t*60}) scale(${pop(t,1.25,.4)})`,siegel(105,'EHRE'));
+  return s;
+}
+function szene1(t){ // Slide: Frisch abgefüllt. Ehrenwort.
+  const t0=t-S[1];
+  let s=hg(C.pink)+strahlen(540,900,16,1500,-t*.3,C.gelb,.2);
+  const a=ease.out(prog(t0,.05,.3)), b=ease.out(prog(t0,.25,.3));
+  // Speed-Linien
+  if(a<1){for(let i=0;i<5;i++)s+=R(lerp(-900,-200,a)+i*40,580+i*30,500,10,C.tinte,{rx:5,op:.5*(1-a)});}
+  if(b<1){for(let i=0;i<5;i++)s+=R(lerp(1500,800,b)-i*40,820+i*30,500,10,C.tinte,{rx:5,op:.5*(1-b)});}
+  s+=G(`translate(${lerp(-1100,0,a)},0) skewX(${lerp(-25,0,a)})`,T('FRISCH',540,620,{sz:250,fill:C.gelb}));
+  s+=G(`translate(${lerp(1300,0,b)},0) skewX(${lerp(25,0,b)})`,T('ABGEFÜLLT.',540,880,{sz:220,fill:'#fff'}));
+  // Ehrenwort-Stempel
+  const c=prog(t0,.75,.25),sc=lerp(3,1,ease.out(c)),[dx,dy]=shake(t0,1,22);
+  if(c>0){s+=G(`translate(${540+dx},${1220+dy}) rotate(-6) scale(${sc})`,R(-390,-120,780,240,C.gelb,{rx:30,st:C.tinte,sw:12})+T('EHRENWORT.',0,0,{sz:170,fill:C.pink,max:700}),clamp(c*4));
+    s+=G(`translate(${860+dx},${1420+dy}) rotate(${20+t*30}) scale(${pop(t0,1.05,.35)})`,siegel(85,'EHRE'));}
+  // Zitronenscheiben fliegen durch
+  for(let i=0;i<3;i++){const q=prog(t0,.1+i*.35,1.4);if(q>0&&q<1)s+=G(`translate(${lerp(-150,1250,q)},${[360,1450,360][i]+Math.sin(q*6)*40}) rotate(${q*500})`,frucht(i==1?'himbeere':'zitrone',55));}
+  return s;
+}
+function szene2(t){ // Rotate-in: Ehrensache.
+  const t0=t-S[2];
+  let s=hg(C.creme);
+  // Urkundenrahmen
+  s+=R(70,270,940,1230,'none',{st:C.gold,sw:10,rx:20})+R(92,292,896,1186,'none',{st:C.tinte,sw:4,rx:12});
+  for(let i=0;i<4;i++){const [x,y]=[[110,310],[970,310],[110,1460],[970,1460]][i];s+=G(`translate(${x},${y}) rotate(${t*90})`,`<path d="M0,-24 L7,-7 24,0 7,7 0,24 -7,7 -24,0 -7,-7Z" fill="${C.gold}" stroke="${C.tinte}" stroke-width="3"/>`);}
+  // Himbeerregen
+  const g=rnd(5);for(let i=0;i<7;i++){const x=150+g()*780,v=.6+g()*.5,q=(t0*v+g())%1.4;s+=G(`translate(${x},${lerp(200,1600,q/1.4)}) rotate(${q*300})`,frucht(i%2?'himbeere':'zitrone',30+g()*16),.85);}
+  const zeile=(txt,y,sz,start,farbe)=>{const ges=mess(txt,'a',sz);let x=540-ges/2,r='';[...txt].forEach((ch,i)=>{const w=mess(ch,'a',sz),q=ease.back(prog(t0,start+i*.055,.32));if(q<=0){x+=w;return;}const cxl=x+w/2;r+=G(`translate(${cxl},${y}) rotate(${lerp(-200,0,clamp(q))}) scale(${q})`,T(ch,0,0,{sz,fill:farbe,max:2000}));x+=w;});return r;};
+  const wob=Math.sin(t0*5)*1.5*prog(t0,.9,.3);
+  s+=G(`rotate(${wob} 540 800)`,zeile('EHREN',650,290,.05,C.pink)+zeile('SACHE.',960,290,.3,C.gelb));
+  s+=G(`translate(540,1210) rotate(-3) scale(${pop(t0,1.0,.35)})`,T('Klar doch.',0,0,{f:'m',sz:110,fill:C.tinte,st:null}));
+  s+=G(`translate(870,1330) rotate(${-t*50}) scale(${pop(t0,.7,.35)})`,siegel(90,'EHRE'));
+  return s;
+}
+function szene3(t){ // Typewriter: Nachschub für Ehrenmänner.
+  const t0=t-S[3];
+  let s=hg(C.gelb);
+  // Karo-Muster läuft
+  const off=(t0*120)%160;for(let y=-160;y<H;y+=160)for(let x=-160;x<W+160;x+=160)if(((x+y)/160)%2===0)s+=R(x+off,y+off,80,80,C.gelbTief,{op:.45});
+  const l1='NACHSCHUB',l2='FÜR',l3='EHRENMÄNNER.';const all=l1+l2+l3;const n=Math.floor(prog(t0,.05,1.15)*all.length+.0001);
+  const zeig=(txt,von,y,sz,farbe)=>{const k=clamp(n-von,0,txt.length);const ges=mess(txt,'a',sz);const sichtbar=txt.slice(0,k);let r='';
+    // jeder Buchstabe ploppt beim Tippen
+    let x=540-ges/2;[...sichtbar].forEach((ch,i)=>{const w=mess(ch,'a',sz);const tc=.05+(von+i)/all.length*1.15;const q=ease.back(prog(t0,tc,.12));r+=G(`translate(${x+w/2},${y}) scale(${q})`,T(ch,0,0,{sz,fill:farbe,max:2000}));x+=w;});
+    if(k>0&&k<txt.length||(von+k===all.length&&Math.floor(t0*4)%2===0&&k>0))r+=R(x+8,y-sz*.42,14,sz*.84,C.tinte);
+    return r;};
+  s+=zeig(l1,0,520,210,'#fff')+zeig(l2,l1.length,740,200,C.pink)+zeig(l3,l1.length+l2.length,960,175,'#fff');
+  s+=G(`translate(540,1170) rotate(-4) scale(${pop(t0,1.3,.35)})`,T('und Ehrenfrauen',0,0,{f:'m',sz:96,fill:C.pink,st:C.tinte,sw:.06}));
+  // Förderband mit Flaschen
+  s+=R(-20,1440,1120,26,C.tinte,{rx:13});
+  for(let i=0;i<7;i++){const x=((i*190+t0*260)%1330)-120;s+=G(`translate(0,${Math.sin(t0*14+i)*3})`,FL(x,1440,230,{welle:t*6+i,fruechte:5}));}
+  return s;
+}
+function szene4(t){ // Endkarte
+  const t0=t-S[4];
+  let s=hg(C.pink)+`<path d="M0,1100 L1080,760 L1080,1920 L0,1920Z" fill="${C.gelb}"/>`+strahlen(540,950,20,1500,t*.2,'#fff',.12);
+  s+=G(`translate(540,360) scale(${pop(t0,.0,.35)}) rotate(-3)`,T('EHRENSAFT',0,0,{f:'b',sz:150,fill:C.gelb,max:940}));
+  s+=G(`translate(540,520) scale(${pop(t0,.25,.35)})`,T('Du weißt Bescheid.',0,0,{f:'m',sz:84,fill:'#fff',st:C.tinte,sw:.08}));
+  const d=ease.bounce(prog(t0,.15,.8)), [dx,dy]=shake(t0,.55,10);
+  s+=`<g transform="translate(540,1400)">${splash(prog(t0,.5,1.4),{kraft:620,seed:9})}</g>`;
+  s+=G(`translate(${dx},${lerp(-1500,0,d)+dy}) rotate(${Math.sin(t*3)*2} 540 1100)`,FL(540,1440,800,{welle:t*6}));
+  s+=G(`translate(205,1180) rotate(${-10+Math.sin(t*4)*4}) scale(${pop(t0,1.0,.35)})`,CHIP('BALD.',0,0,{sz:70,bg:C.creme}));
+  s+=G(`translate(870,880) rotate(${t*40}) scale(${pop(t0,.9,.35)})`,siegel(95,'EHRE'));
+  s+=sticker(t0,2,[['zitrone',160,820,60,.6],['himbeere',900,1300,52,.8],['zitrone',890,650,40,1.2]]);
+  return s;
+}
+const SZ=[szene0,szene1,szene2,szene3,szene4];
+window.zeichne=t=>{
+  let k=0;for(let i=0;i<5;i++)if(t>=S[i])k=i;
+  let s='';const p=ease.inOut(prog(t,S[k],.28));
+  if(k>0&&p<1){s+=SZ[k-1](t);s+=`<defs><clipPath id="w"><rect x="${lerp(1500,-600,p)}" y="-200" width="2400" height="2400" transform="skewX(-15)"/></clipPath></defs><g clip-path="url(#w)">${SZ[k](t)}</g>`;}
+  else s+=SZ[k](t);
+  document.getElementById('s').innerHTML=s;
+  document.getElementById('hw').style.color=k===1||k===4?'#fff':C.tinte;
+};
+
+</script>

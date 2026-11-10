@@ -1,0 +1,103 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<body>
+<div style="position:absolute;top:-500px;font-family:Anton">Aä<span style="font-family:'Bowlby One'">Aä</span><span style="font-family:'Permanent Marker'">Aä</span></div>
+<svg id="s" style="position:absolute;left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<div class="ki-hinweis" id="hw">Design-Entwurf · Computergrafik</div>
+<script>
+const {C,prog,ease,lerp,rnd,clamp,flasche,splash,frucht,siegel}=EK;
+const W=1080,H=1920;
+const _cx=document.createElement('canvas').getContext('2d');
+const FONT={a:'Anton',b:'Bowlby One',m:'Permanent Marker',i:'Inter'};
+function mess(s,f,sz,w=400){_cx.font=`${w} ${sz}px "${FONT[f]}"`;return _cx.measureText(s).width;}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// Text: o.f Schrift (a/b/m/i), o.sz Größe, o.fill, o.st Kontur (null=keine), o.sw Konturfaktor, o.sh Schatten, o.anchor, o.max Maximalbreite, o.mid vertikal mittig
+function T(s,x,y,o={}){
+  const f=o.f||'a'; let sz=o.sz||120; const max=o.max||940, wt=o.w||400;
+  const bw=mess(s,f,sz,wt); if(bw>max) sz*=max/bw;
+  if(o.mid!==false) y+=sz*(f==='a'?.36:f==='b'?.33:.3);
+  const st=o.st===undefined?C.tinte:o.st, sw=(o.sw===undefined?.08:o.sw)*sz;
+  const base=`font-family="${FONT[f]}" font-size="${sz.toFixed(1)}" text-anchor="${o.anchor||'middle'}" font-weight="${wt}"${o.ls?` letter-spacing="${o.ls}"`:''}`;
+  let r='';
+  if(o.sh!==false&&st) r+=`<text x="${(x+sz*.06).toFixed(1)}" y="${(y+sz*.06).toFixed(1)}" ${base} fill="${st}" stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round">${esc(s)}</text>`;
+  r+=`<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" ${base} fill="${o.fill||C.tinte}"${st?` stroke="${st}" stroke-width="${sw.toFixed(1)}" stroke-linejoin="round" paint-order="stroke fill"`:''}>${esc(s)}</text>`;
+  return `<g opacity="${o.op??1}">${r}</g>`;
+}
+const G=(tf,inner,op=1)=>`<g transform="${tf}" opacity="${(+op).toFixed(3)}">${inner}</g>`;
+const R=(x,y,w,h,fill,o={})=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx||0}" fill="${fill}"${o.st!==undefined?` stroke="${o.st}" stroke-width="${o.sw||8}"`:''} opacity="${o.op??1}"/>`;
+// Flasche: Mitte x, Unterkante by, Höhe h
+function FL(x,by,h,opts={}){const w=h*480/1040;return flasche(opts).replace('width="100%" height="100%"',`x="${(x-w/2).toFixed(1)}" y="${(by-h).toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}"`);}
+function strahlen(x,y,n,r,rot,farbe,op=1){let d='';for(let i=0;i<n;i++){const a0=(i/n)*Math.PI*2+rot,a1=a0+Math.PI/n;d+=`M${x},${y}L${(x+Math.cos(a0)*r).toFixed(0)},${(y+Math.sin(a0)*r).toFixed(0)}L${(x+Math.cos(a1)*r).toFixed(0)},${(y+Math.sin(a1)*r).toFixed(0)}Z`;}return `<path d="${d}" fill="${farbe}" opacity="${op}"/>`;}
+// Aufplopp-Skala (0 -> Überschwinger -> 1)
+const pop=(t,s,d=.35)=>ease.back(prog(t,s,d));
+// Sticker-Chip mit Text
+function CHIP(s,x,y,o={}){const sz=o.sz||44,f=o.f||'a',w=mess(s,f,sz)+sz*1.1,h=sz*1.45;return `<g transform="translate(${x},${y}) rotate(${o.rot||0})"><rect x="${-w/2+6}" y="${-h/2+6}" width="${w}" height="${h}" rx="${h/2}" fill="${C.tinte}"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="${o.bg||C.creme}" stroke="${C.tinte}" stroke-width="6"/>${T(s,0,0,{f,sz,fill:o.fill||C.tinte,st:null,sh:false})}</g>`;}
+// Wackeln nach Aufprall
+const shake=(t,s,amp=18)=>{const q=t-s;if(q<0||q>.45)return[0,0];const k=amp*(1-q/.45);return[Math.sin(q*90)*k,Math.cos(q*71)*k];};
+
+// 08 – Bald. Späti-Kühlschrank. 10 s.
+const FARBEN=['#5B8CFF','#FF8A00','#9B5BFF','#3BC9DB','#FF6B6B','#FFB000','#7A6BFF'];
+function fremd(x,by,h,farbe,typ){const w=h*.42;
+  if(typ===1){const cw=h*.5,ch=h*.62;return `<rect x="${x-cw/2}" y="${by-ch}" width="${cw}" height="${ch}" rx="10" fill="${farbe}" stroke="${C.tinte}" stroke-width="5"/><rect x="${x-cw/2+6}" y="${by-ch*.62}" width="${cw-12}" height="${ch*.3}" fill="#fff" opacity=".85"/><ellipse cx="${x}" cy="${by-ch}" rx="${cw/2}" ry="7" fill="#D9D4E0" stroke="${C.tinte}" stroke-width="4"/>`;}
+  return `<path d="M${x-w*.18},${by-h} L${x+w*.18},${by-h} L${x+w*.18},${by-h*.75} Q${x+w/2},${by-h*.62} ${x+w/2},${by-h*.48} L${x+w/2},${by-8} Q${x+w/2},${by} ${x+w/2-8},${by} L${x-w/2+8},${by} Q${x-w/2},${by} ${x-w/2},${by-8} L${x-w/2},${by-h*.48} Q${x-w/2},${by-h*.62} ${x-w*.18},${by-h*.75}Z" fill="${farbe}" stroke="${C.tinte}" stroke-width="5"/><rect x="${x-w/2+4}" y="${by-h*.4}" width="${w-8}" height="${h*.2}" fill="#fff" opacity=".85"/><rect x="${x-w*.2}" y="${by-h-8}" width="${w*.4}" height="14" rx="4" fill="${C.tinte}"/>`;}
+const BODEN=[640,900,1160,1410];
+function kuehl(t,L,eingesetzt){ // Kühlschrank in Weltkoordinaten (x 140–940, y 360–1460)
+  let s='';
+  s+=R(150,370,800,1110,C.tinte,{rx:34})+R(140,360,800,1100,C.creme,{rx:34,st:C.tinte,sw:10});
+  s+=R(170,380,740,90,C.pink,{rx:18,st:C.tinte,sw:6})+T('KALTE GETRÄNKE',540,425,{sz:58,fill:C.gelb,max:640,sw:.08});
+  const innen=`rgb(${Math.round(lerp(28,92,L))},${Math.round(lerp(20,76,L))},${Math.round(lerp(40,120,L))})`;
+  s+=R(180,490,720,940,innen,{rx:14,st:C.tinte,sw:8});
+  s+=`<rect x="186" y="496" width="708" height="40" fill="#fff" opacity="${(.85*L).toFixed(2)}"/><rect x="186" y="496" width="708" height="400" fill="url(#licht)" opacity="${(.5*L).toFixed(2)}"/>`;
+  BODEN.forEach((b,r)=>{for(let i=0;i<5;i++){const x=258+i*141;if(r===2&&i===2)continue;s+=fremd(x,b,r%2?190:200,FARBEN[(i*3+r*2)%7],(i+r)%3===1?1:0);}
+    s+=R(186,b,708,14,'#E8E2F0',{st:C.tinte,sw:4});});
+  return s;}
+function glas(L){return `<path d="M240,520 L330,520 L200,1000 L190,1000Z M380,520 L420,520 L250,1300 L220,1300Z" fill="#fff" opacity="${(.1+.08*L).toFixed(2)}"/>`+R(180,490,720,940,'none',{st:C.tinte,sw:8,rx:14})+R(908,800,20,300,C.tinte,{rx:10});}
+function schild(t,fall){ // hängt am Brett darüber (Boden 900), Mitte x 540
+  const sw=Math.sin(t*2.4)*5;const fy=fall>0?fall*fall*900:0,fr=fall*200;
+  return G(`translate(540,${914+fy}) rotate(${sw+fr})`,(fall>0?'':`<line x1="-70" y1="0" x2="-80" y2="52" stroke="${C.tinte}" stroke-width="3"/><line x1="70" y1="0" x2="80" y2="52" stroke="${C.tinte}" stroke-width="3"/>`)+
+   R(-112,52,224,128,C.tinte,{rx:8})+R(-116,48,224,128,C.creme,{rx:8,st:C.tinte,sw:5})+T('RESERVIERT',-4,88,{f:'m',sz:31,fill:C.pinkTief,st:null,sh:false,max:200})+T('für Ehrensaft',-4,135,{f:'m',sz:27,fill:C.tinte,st:null,sh:false,max:200})+R(-30,40,60,18,C.gelb,{op:.8}));}
+const cam=(sc,cx,cy,tx,ty)=>`translate(${tx},${ty}) scale(${sc}) translate(${-cx},${-cy})`;
+window.zeichne=t=>{
+  // Kamera
+  const z1=ease.inOut(prog(t,1.25,1.0)),z2=ease.inOut(prog(t,4.3,.7));
+  let sc=lerp(lerp(.82,2.3,z1),.78,z2),cx=lerp(lerp(540,540,z1),540,z2),cy=lerp(lerp(908,1040,z1),910,z2),ty=lerp(lerp(1006,1000,z1),1055,z2);
+  // Kamera-Ruck beim Aufprall
+  const [dx,dy]=shake(t,3.25,20);
+  // Licht
+  let L=t<.55?(Math.floor(t*22)%3===0?0:1)*prog(t,.05,.5):1;
+  if(t>3.3&&t<4.2)L=[1,.2,1,.1,.9,1,.3,1,1][Math.floor((t-3.3)*10)%9];
+  const drin=t>=3.25;
+  let w=`<defs><linearGradient id="licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="gl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="22"/></filter></defs>`;
+  // Raum
+  w+=R(-1500,-1500,4100,3070,C.pink);for(let y=-1500;y<1570;y+=70)w+=R(-1500,y,4100,4,C.pinkTief,{op:.35});
+  for(let y=-1500,r=0;y<1570;y+=70,r++)for(let x=-1500+(r%2)*90;x<2600;x+=180)w+=R(x,y,4,70,C.pinkTief,{op:.35});
+  w+=R(-1500,1470,4100,2000,C.gelb)+R(-1500,1462,4100,14,C.tinte);
+  w+=kuehl(t,L,drin);
+  // Ehrensaft-Flasche fällt in die Lücke
+  const d=ease.bounce(prog(t,2.75,.6));
+  if(t>2.75){const glow=drin?(.55+.3*Math.sin(t*7))*L:0;
+    if(glow>0)w+=`<ellipse cx="540" cy="1060" rx="95" ry="140" fill="${C.gelb}" filter="url(#gl)" opacity="${glow.toFixed(2)}"/>`;
+    w+=G(`translate(0,${lerp(-900,0,d)}) rotate(${(1-d)*8} 540 1160)`,FL(540,1160,240,{welle:t*7,fruechte:6}));}
+  // Schild
+  const fall=prog(t,3.2,.9);if(fall<1)w+=schild(t,ease.out(fall)*(fall>0?1:0)*1.2);
+  w+=glas(L);
+  // Funken beim Einrasten
+  const fq=prog(t,3.3,.5);if(fq>0&&fq<1)for(let j=0;j<10;j++){const a=j/10*Math.PI*2,r0=130+fq*90;w+=`<line x1="${540+Math.cos(a)*r0*.8}" y1="${1060+Math.sin(a)*r0}" x2="${540+Math.cos(a)*(r0+30*(1-fq))*.8}" y2="${1060+Math.sin(a)*(r0+30*(1-fq))}" stroke="${C.gelb}" stroke-width="7" stroke-linecap="round"/>`;}
+  let s=G(cam(sc,cx,cy,540+dx,ty+dy),w);
+  // Dunkel-Overlay beim Einschalten
+  if(t<.6)s+=R(0,0,W,H,'#0D0A14',{op:(.6*(1-L)).toFixed(2)});
+  // Texte
+  const k=ease.out(prog(t,.2,.25)),[ax,ay]=shake(t,.45,16),aus=prog(t,1.2,.3);
+  if(aus<1)s+=G(`translate(${540+ax},${370+ay-aus*300}) scale(${lerp(3,1,k)}) rotate(-3)`,T('DA FEHLT WAS.',0,0,{sz:150,fill:C.gelb}),clamp(k*3)*(1-aus));
+  const q1=prog(t,1.9,.3);if(q1>0&&t<3.3)s+=G(`translate(540,${330}) scale(${ease.back(q1)}) rotate(-4)`,T('Psst …',0,0,{f:'m',sz:120,fill:'#fff',st:C.tinte,sw:.06}),1-prog(t,3.1,.2));
+  const b1=ease.out(prog(t,4.85,.25)),[bx,by]=shake(t,5.1,18);
+  if(b1>0)s+=G(`translate(${540+bx},${360+by}) scale(${lerp(3,1,b1)}) rotate(-3)`,T('BALD AM SPÄTI.',0,0,{sz:150,fill:C.gelb}),clamp(b1*3));
+  const b2=ease.out(prog(t,5.45,.3));
+  if(b2>0)s+=G(`translate(${lerp(1300,540,b2)},535) rotate(-3) skewX(${lerp(-20,0,b2)})`,T('BALD ONLINE.',0,0,{sz:130,fill:'#fff'}));
+  const f=pop(t,6.3,.4);
+  if(f>0){const pu=1+.04*Math.sin(t*7);s+=G(`translate(540,1395) rotate(-4) scale(${f*pu})`,R(-430+8,-70+8,860,140,C.tinte,{rx:70})+R(-430,-70,860,140,C.gelb,{rx:70,st:C.tinte,sw:8})+T('Folgen = nichts verpassen.',0,0,{sz:72,fill:C.tinte,st:null,sh:false,max:780}));}
+  [['zitrone',120,820,62,5.6],['himbeere',965,900,50,5.75],['himbeere',115,1180,46,5.9],['zitrone',960,1250,56,6.05]].forEach(([a,x,y,r,s0],i)=>{const q=pop(t,s0,.4);if(q>0)s+=G(`translate(${x},${y+Math.sin(t*3+i)*12}) rotate(${t*50*(i%2?1:-1)}) scale(${q})`,frucht(a,r));});
+  document.getElementById('s').innerHTML=s;
+  document.getElementById('hw').style.color=(z1>.4&&z2<.6)?'#fff':C.tinte;
+};
+
+</script>

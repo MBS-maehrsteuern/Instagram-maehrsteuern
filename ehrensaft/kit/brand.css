@@ -1,0 +1,29 @@
+/* Ehrensaft – Markenbasis (aus dem Businessplan: Zitronengelb, Himbeerpink, Neongrün für alles, was leuchtet) */
+@font-face { font-family: "Anton"; src: url("fonts/anton-latin-400-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+20AC, U+2122; }
+@font-face { font-family: "Anton"; src: url("fonts/anton-latin-ext-400-normal.woff2") format("woff2"); unicode-range: U+0100-02AF, U+1E00-1EFF; }
+@font-face { font-family: "Bowlby One"; src: url("fonts/bowlby-one-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Permanent Marker"; src: url("fonts/permanent-marker-latin-400-normal.woff2") format("woff2"); }
+
+:root {
+  --gelb: #FFE433;        /* Zitronengelb */
+  --gelb-tief: #F7C600;
+  --pink: #FF2E7E;        /* Himbeerpink */
+  --pink-tief: #C8104F;
+  --neon: #7CFF3A;        /* Neongrün – nur für „leuchtet“ */
+  --nacht: #0D0A14;       /* dunkler Grund für Glow-Szenen */
+  --tinte: #1B1220;       /* Textfarbe auf hell */
+  --creme: #FFF8E1;       /* Urkunden-Papier */
+  --gold: #C9A227;        /* Siegel */
+  --display: "Anton", "Inter Display", sans-serif;      /* Schlagzeilen, VERSAL */
+  --fett: "Bowlby One", "Anton", sans-serif;            /* Wortmarke EHRENSAFT, Sticker */
+  --hand: "Permanent Marker", cursive;                  /* Randnotizen, Pfeile */
+  --text: "Inter", sans-serif;                          /* Fließtext */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: var(--gelb); font-family: var(--text); color: var(--tinte); }
+.wortmarke { font-family: var(--fett); letter-spacing: .01em; text-transform: uppercase; }
+.schlagzeile { font-family: var(--display); text-transform: uppercase; line-height: .95; letter-spacing: .005em; }
+.hand { font-family: var(--hand); }
+/* Sticker-Kontur wie auf Getränkedosen */
+.kontur { -webkit-text-stroke: .09em var(--tinte); paint-order: stroke fill; text-shadow: .07em .07em 0 var(--tinte); }
+.ki-hinweis { position: absolute; left: 0; right: 0; bottom: 28px; text-align: center; font: 500 24px var(--text); opacity: .55; }

@@ -1,0 +1,17 @@
+/* Ehrensaft-Karussell-Layout (Posts 09–12) – ergänzt kit/brand.css */
+html, body { height: auto; overflow: visible; background: #444; }
+.folie { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--gelb); }
+.folie > * { position: absolute; }
+.strahlen { inset: 0; background: repeating-conic-gradient(from 0deg at var(--sx, 50%) var(--sy, 60%), rgba(255,255,255,.28) 0 7deg, transparent 7deg 18deg); }
+.punkte { inset: 0; background-image: radial-gradient(rgba(27,18,32,.13) 3px, transparent 3.5px); background-size: 36px 36px; }
+.kopf { top: 70px; left: 80px; right: 80px; display: flex; justify-content: space-between; align-items: center; z-index: 5; }
+.marke { font-family: var(--fett); font-size: 40px; color: var(--pink); -webkit-text-stroke: 7px var(--tinte); paint-order: stroke fill; text-shadow: 5px 5px 0 var(--tinte); letter-spacing: .01em; }
+.zaehler { font: 800 28px var(--text); border: 5px solid var(--tinte); border-radius: 40px; padding: 6px 22px; background: #fff; box-shadow: 5px 5px 0 var(--tinte); color: var(--tinte); }
+.sticker { border: 6px solid var(--tinte); border-radius: 20px; box-shadow: 9px 9px 0 var(--tinte); padding: 8px 28px 10px; font-family: var(--display); text-transform: uppercase; line-height: 1; color: var(--tinte); background: #fff; white-space: nowrap; }
+.sz { font-family: var(--display); text-transform: uppercase; line-height: .92; letter-spacing: .005em; }
+.k { -webkit-text-stroke: .09em var(--tinte); paint-order: stroke fill; text-shadow: .06em .06em 0 var(--tinte); }
+.fl { font: 600 38px/1.3 var(--text); color: var(--tinte); }
+.fl b { font-weight: 800; }
+.ki-hinweis { z-index: 6; }
+.dunkel .ki-hinweis { color: #fff; opacity: .6; }
+.voll { inset: 0; width: 1080px; height: 1350px; }

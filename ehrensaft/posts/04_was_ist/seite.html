@@ -1,0 +1,137 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<style>
+  #welt { position:absolute; inset:0; overflow:hidden; }
+  .ab { position:absolute; }
+  .z { position:absolute; left:0; width:100%; text-align:center; white-space:nowrap; line-height:1; opacity:0; }
+  .d { font-family:var(--display); text-transform:uppercase; }
+  .w { font-family:var(--fett); }
+  .h { font-family:var(--hand); }
+  #flasche { position:absolute; left:0; top:0; width:440px; height:900px; }
+</style>
+<body>
+<div id="welt">
+  <svg id="hg" class="ab" style="inset:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <svg id="hinten" class="ab" style="inset:0;overflow:visible" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="flasche"></div>
+  <svg id="fx" class="ab" style="inset:0;overflow:visible" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="q1" class="z d kontur" style="top:560px;color:#fff;font-size:190px">Was ist</div>
+  <div id="q2" class="z w kontur" style="top:770px;color:var(--pink);font-size:150px">EHRENSAFT?</div>
+  <div id="l1" class="z h kontur" style="top:1080px;color:#fff;font-size:78px;width:540px;left:0">Zitrone</div>
+  <div id="l2" class="z h kontur" style="top:1080px;color:#fff;font-size:78px;width:540px;left:540px">Himbeere</div>
+  <div id="plus" class="z w kontur" style="top:770px;color:#fff;font-size:150px">+</div>
+  <div id="s1" class="z d kontur" style="top:1120px;color:var(--pink);font-size:200px">= süß-sauer</div>
+  <div id="f1" class="z d kontur" style="top:270px;color:#fff;font-size:130px">Echte Früchte</div>
+  <div id="f2" class="z d kontur" style="top:410px;color:var(--pink);font-size:130px">in der Flasche</div>
+  <div id="e1" class="z w kontur" style="top:280px;color:var(--pink);font-size:150px">EHRENSAFT.</div>
+  <div id="e2" class="z h kontur" style="top:460px;color:#fff;font-size:120px">Ehrensache.</div>
+</div>
+<div class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+<script>
+const {C, prog, ease, lerp, rnd, clamp, flasche, frucht, siegel, splash} = EK;
+const $ = id => document.getElementById(id);
+const P2 = 1.5, KNALL = 2.55, P3 = 4.0, P4 = 7.7, ENDE = 10.5;
+let gepasst = false;
+function passen() { // nichts breiter als 940 px
+  document.querySelectorAll(".z").forEach(el => { const max = el.id[0] === "l" ? 480 : 940, b = el.style.width, l = el.style.left;
+    el.style.width = "auto"; el.style.display = "inline-block"; const w = el.getBoundingClientRect().width;
+    if (w > max) el.style.fontSize = (parseFloat(el.style.fontSize) * max / w).toFixed(1) + "px";
+    el.style.width = b || "100%"; el.style.display = "block"; });
+  gepasst = true;
+}
+function pop(id, t, t0, {aus = 99, dreh = 0, ex = ""} = {}) {
+  const el = $(id), q = prog(t, t0, .35), qa = prog(t, aus, .22);
+  el.style.opacity = q > 0 && qa < 1 ? 1 : 0;
+  el.style.transform = `scale(${ease.back(q) * (1 - ease.inOut(qa))}) rotate(${dreh * (1 - q) + Math.sin(t * 3 + t0) * 1.5}deg) ${ex}`;
+}
+function sonne(t, farbe) { let s = ""; const n = 16;
+  for (let i = 0; i < n; i++) { const a0 = (i / n) * Math.PI * 2 + t * .2, a1 = a0 + Math.PI / n;
+    s += `<polygon points="540,960 ${540 + Math.cos(a0) * 1900},${960 + Math.sin(a0) * 1900} ${540 + Math.cos(a1) * 1900},${960 + Math.sin(a1) * 1900}" fill="${farbe}" opacity=".35"/>`; } return s; }
+const g = rnd(4), konfetti = [];
+for (let i = 0; i < 14; i++) konfetti.push({ x: g() * 1080, y: g() * 2000, v: 80 + g() * 140, r: 22 + g() * 26, art: i % 2 ? "himbeere" : "zitrone", ph: g() * 6 });
+
+window.zeichne = t => {
+  if (!gepasst) passen();
+  // Kamera
+  let sh = 0; [[KNALL, 26], [P3, 8], [P4, 10]].forEach(([a, k]) => { const d = t - a; if (d >= 0 && d < .5) sh += k * Math.exp(-d * 8); });
+  $("welt").style.transform = `translate(${Math.sin(t * 91) * sh}px,${Math.cos(t * 77) * sh}px) scale(${1 + .012 * Math.sin(t * 4)})`;
+  // Hintergrund: gelb, ab Knall kurz pink, dann gelb
+  const pinkPhase = t >= KNALL && t < P3;
+  let hg = `<rect width="1080" height="1920" fill="${pinkPhase ? C.pink : C.gelb}"/>` + sonne(t, pinkPhase ? C.pinkTief : C.gelbTief);
+  konfetti.forEach(k => { const y = ((k.y - t * k.v) % 2100 + 2100) % 2100 - 100;
+    hg += `<g transform="translate(${(k.x + Math.sin(t + k.ph) * 30).toFixed(0)},${y.toFixed(0)}) rotate(${(t * 80 + k.ph * 60).toFixed(0)})" opacity=".8">${frucht(k.art, k.r)}</g>`; });
+  $("hg").innerHTML = hg;
+  // --- Phase 1: Frage
+  pop("q1", t, 0, { aus: P2 - .1, dreh: -8 });
+  pop("q2", t, .3, { aus: P2 - .1, dreh: 8 });
+  // --- Phase 2: Zitrone + Himbeere kollidieren
+  let hinten = "", fx = "";
+  if (t < KNALL) {   // Phase 1: fliegen unten rein, Phase 2: hoch, dann Zusammenstoß
+    const qe = ease.back(prog(t, .15, .55));
+    const qh = ease.inOut(prog(t, P2 - .1, .45));
+    const qz = ease.in2 ? 0 : Math.pow(prog(t, KNALL - .4, .4), 2.2);
+    const xl = lerp(-300, 280, qe) + (540 - 280) * qz, xr = lerp(1380, 800, qe) - (800 - 540) * qz;
+    const y = lerp(1260, 860, qh) + Math.sin(t * 5) * 14 * (1 - qh);
+    const sk = lerp(.85, 1, qh);
+    fx += `<g transform="translate(${xl},${y}) rotate(${t * 140}) scale(${sk})">${frucht("zitrone", 175)}</g>`;
+    fx += `<g transform="translate(${xr},${y}) rotate(${-t * 110}) scale(${sk})">${frucht("himbeere", 150)}</g>`;
+    if (qz > 0 && qz < 1) for (let i = 0; i < 4; i++) fx += `<line x1="${xl - 200 - i * 10}" y1="${800 + i * 40}" x2="${xl - 330}" y2="${800 + i * 40}" stroke="${C.tinte}" stroke-width="9" stroke-linecap="round" opacity="${qz}"/><line x1="${xr + 200 + i * 10}" y1="${800 + i * 40}" x2="${xr + 330}" y2="${800 + i * 40}" stroke="${C.tinte}" stroke-width="9" stroke-linecap="round" opacity="${qz}"/>`;
+  }
+  if (t >= P2 && t < P3) {
+    // Knall: Splash + Ringe + Stern
+    const kq = prog(t, KNALL, 1.2);
+    if (kq > 0) {
+      fx += `<g transform="translate(540,860) scale(1.3,1.5)">${splash(kq, { kraft: 1200, n: 30, fruechte: 6, seed: 9 })}</g>`;
+      fx += `<g transform="translate(540,860) scale(-1.2,-1)">${splash(kq, { kraft: 900, n: 18, fruechte: 0, seed: 21, farbe: C.gelb })}</g>`;
+      for (let k = 0; k < 3; k++) { const q = prog(t, KNALL + k * .1, .6); if (q > 0 && q < 1) fx += `<circle cx="540" cy="860" r="${lerp(60, 620, ease.out(q))}" fill="none" stroke="${k % 2 ? C.gelb : "#fff"}" stroke-width="${lerp(26, 2, q)}" opacity="${1 - q}"/>`; }
+      // Ergebnis: Doppelfrucht dreht sich
+      const rq = ease.back(prog(t, KNALL + .1, .4));
+      fx += `<g transform="translate(540,860) scale(${rq}) rotate(${t * 60})"><g transform="translate(-85,0)">${frucht("zitrone", 165)}</g><g transform="translate(95,10) rotate(20)">${frucht("himbeere", 130)}</g></g>`;
+    }
+  }
+  pop("l1", t, P2 + .1, { aus: KNALL - .08, dreh: -10 });
+  pop("l2", t, P2 + .3, { aus: KNALL - .08, dreh: 10 });
+  pop("plus", t, P2 + .5, { aus: KNALL - .08 });
+  pop("s1", t, KNALL + .15, { aus: P3 - .15, dreh: -12 });
+  // --- Phase 3: Früchte fallen in die Flasche, Flasche füllt sich
+  const fl = $("flasche"), H = 900, boden = H * (995 / 1040), sk = 1;
+  if (t >= P3 - .1) {
+    const ein = ease.back(prog(t, P3 - .1, .45));
+    const fuell = ease.inOut(prog(t, P3 + .4, 3.0));
+    const imEnde = t >= P4;
+    const n = Math.floor(lerp(0, 9, prog(t, P3 + .6, 2.8)));
+    fl.style.opacity = 1;
+    fl.innerHTML = flasche({ fuell, fruechte: imEnde ? 9 : n, welle: t * 8 });
+    fl.style.transformOrigin = `50% ${boden}px`;
+    const end = ease.inOut(prog(t, P4, .5));
+    const off = lerp(900, 0, ein) + lerp(110, 0, end), skal = lerp(.86, 1, end);
+    fl.style.transform = `translate(320px,${1470 - boden + off}px) rotate(${Math.sin(t * 3) * (imEnde ? 4 : 1.5)}deg) scale(${skal})`;
+    // Strahl + fallende Früchte (bis Füllung fertig)
+    const strahl = t > P3 + .4 && t < P3 + 3.4;
+    const halsY = 1470 + off - (boden - 29) * skal;  // Kronkorken-Oberkante
+    if (strahl) {
+      const w = 70 + Math.sin(t * 20) * 6;
+      fx += `<path d="M${540 - w / 2},-20 Q${540 - w / 2 + Math.sin(t * 9) * 8},${halsY / 2} ${540 - w / 3},${halsY} L${540 + w / 3},${halsY} Q${540 + w / 2 + Math.sin(t * 9) * 8},${halsY / 2} ${540 + w / 2},-20Z" fill="#FFD23C" stroke="${C.tinte}" stroke-width="6"/><path d="M${540 - w / 4},-20 L${540 - w / 6},${halsY - 10}" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".7"/>`;
+      const g2 = rnd(77);
+      for (let i = 0; i < 12; i++) { const t0 = P3 + .5 + i * .24, q = prog(t, t0, .55); if (q <= 0 || q >= 1) continue;
+        const y = lerp(-120, halsY, q * q), x = 540 + (g2() - .5) * 60 * (1 - q), r = (i % 2 ? 58 : 66) * lerp(1, .5, q);
+        fx += `<g transform="translate(${x.toFixed(0)},${y.toFixed(0)}) rotate(${(q * 400 * (i % 2 ? 1 : -1)).toFixed(0)})">${frucht(i % 2 ? "himbeere" : "zitrone", r)}</g>`; }
+    }
+    // Plopp-Ringe an der Öffnung
+    for (let i = 0; i < 12; i++) { const q = prog(t, P3 + .5 + i * .24 + .55, .3); if (q > 0 && q < 1) fx += `<circle cx="540" cy="${halsY}" r="${lerp(20, 110, q)}" fill="none" stroke="#fff" stroke-width="6" opacity="${1 - q}"/>`; }
+    // Endkarte: Früchte kreisen um die Flasche + Siegel
+    if (imEnde) {
+      for (let i = 0; i < 6; i++) { const a = t * 1.3 + i / 6 * Math.PI * 2, x = 540 + Math.cos(a) * 400, y = 1060 + Math.sin(a) * 160, vorne = Math.sin(a) > 0;
+        const s = `<g transform="translate(${x.toFixed(0)},${y.toFixed(0)}) rotate(${(t * 120 + i * 50).toFixed(0)}) scale(${(vorne ? 1 : .75)})">${frucht(i % 2 ? "himbeere" : "zitrone", 50)}</g>`;
+        if (vorne) fx += s; else hinten += s; }
+      const sq = prog(t, P4 + .9, .3);
+      if (sq > 0) fx += `<g transform="translate(870,780) rotate(${lerp(-50, 14, ease.out(sq)) + Math.sin(t * 2.5) * 5}) scale(${lerp(2.2, 1, ease.out(sq))})">${siegel(105, "EHRENWORT")}</g>`;
+    }
+  } else fl.style.opacity = 0;
+  pop("f1", t, P3, { aus: P4 - .15, dreh: -8 });
+  pop("f2", t, P3 + .3, { aus: P4 - .15, dreh: 8 });
+  pop("e1", t, P4, { dreh: -10 });
+  pop("e2", t, P4 + .45, { dreh: 10, ex: "rotate(-4deg)" });
+  $("hinten").innerHTML = hinten;
+  $("fx").innerHTML = fx;
+};
+</script>

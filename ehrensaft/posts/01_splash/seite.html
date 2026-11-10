@@ -1,0 +1,134 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<style>
+  #welt { position:absolute; inset:0; overflow:hidden; }
+  .ab { position:absolute; }
+  #flasche { position:absolute; left:0; top:0; width:440px; height:950px; transform-origin:50% 100%; }
+  .txt { position:absolute; left:0; width:100%; text-align:center; white-space:nowrap; }
+  #platsch { top:290px; font-family:var(--fett); font-size:170px; color:var(--pink); }
+  #achtung { top:270px; font-family:var(--display); font-size:150px; color:#fff; text-transform:uppercase; line-height:1; }
+  #wort { top:250px; font-family:var(--fett); font-size:150px; color:var(--pink); line-height:1; }
+  #zeile1, #zeile2 { font-family:var(--display); font-size:150px; color:#fff; text-transform:uppercase; line-height:1; }
+  #zeile1 { top:440px; } #zeile2 { top:595px; color:var(--gelb); }
+</style>
+<body>
+<div id="welt">
+  <svg id="hg" class="ab" style="inset:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <svg id="pfuetze" class="ab" style="inset:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="flasche"></div>
+  <svg id="fx" class="ab" style="inset:0;overflow:visible" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="achtung" class="txt kontur">Achtung,<br>spritzt!</div>
+  <div id="platsch" class="txt kontur">PLATSCH!</div>
+  <div id="wort" class="txt kontur">EHRENSAFT</div>
+  <div id="zeile1" class="txt kontur">Du weißt</div>
+  <div id="zeile2" class="txt kontur">Bescheid.</div>
+  <svg id="stempel" class="ab" style="left:0;top:0;overflow:visible" width="1" height="1"></svg>
+</div>
+<div class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+<script>
+const {C, prog, ease, lerp, rnd, clamp, flasche, splash, frucht, siegel} = EK;
+const $ = id => document.getElementById(id);
+const BODEN = 1470;                 // Boden der Pfütze (Flaschenboden)
+const AUF = 0.6;                    // Aufprall
+const HOPS = 7.0;                   // zweiter kleiner Hüpfer
+// Hintergrund-Früchte (fest verteilt)
+const g = rnd(91), deko = [];
+for (let i = 0; i < 16; i++) deko.push({ x: g() * 1080, y: g() * 2200, r: 28 + g() * 46, v: 60 + g() * 120, rot: (g() - .5) * 220, ph: g() * 6, art: i % 3 === 1 ? "himbeere" : "zitrone", tiefe: .55 + g() * .45 });
+
+function sonne(t) { // drehende Strahlen
+  let s = ""; const n = 18, rot = t * 9;
+  for (let i = 0; i < n; i++) { const a0 = (i / n) * 360 + rot, a1 = a0 + 360 / n / 2;
+    const p = a => `${(540 + Math.cos(a * Math.PI / 180) * 1800).toFixed(0)},${(1050 + Math.sin(a * Math.PI / 180) * 1800).toFixed(0)}`;
+    s += `<polygon points="540,1050 ${p(a0)} ${p(a1)}" fill="${C.gelbTief}" opacity=".35"/>`; }
+  return s;
+}
+function hintergrund(t) {
+  let s = `<rect width="1080" height="1920" fill="${C.gelb}"/>` + sonne(t);
+  deko.forEach(d => {
+    const y = ((d.y - t * d.v * d.tiefe) % 2200 + 2200) % 2200 - 140, x = d.x + Math.sin(t * 1.3 + d.ph) * 30;
+    s += `<g transform="translate(${x.toFixed(0)},${y.toFixed(0)}) rotate(${(d.rot * t + d.ph * 50).toFixed(0)}) scale(${d.tiefe.toFixed(2)})" opacity="${(.7 + d.tiefe * .3).toFixed(2)}">${frucht(d.art, d.r)}</g>`;
+  });
+  return s;
+}
+function pfuetze(t) {
+  const q = prog(t, AUF, .5);
+  const rx = t < AUF ? lerp(250, 300, prog(t, 0, AUF)) : lerp(300, 420, ease.back(q)), ry = rx * .16, wob = Math.sin(t * 9) * 6 * Math.exp(-(t - AUF) * .8) * (t > AUF);
+  let s = `<ellipse cx="540" cy="${BODEN + 10}" rx="${rx + wob}" ry="${ry - wob * .3}" fill="${C.gelbTief}" stroke="${C.tinte}" stroke-width="8"/>
+    <ellipse cx="540" cy="${BODEN + 4}" rx="${rx * .82}" ry="${ry * .6}" fill="#FFC93C"/>
+    <ellipse cx="${540 - rx * .45}" cy="${BODEN}" rx="${rx * .18}" ry="${ry * .18}" fill="#fff" opacity=".7"/>`;
+  // Wellenringe nach Aufprall (und beim Hüpfer)
+  [[AUF, 4], [HOPS + .45, 2]].forEach(([t0, n]) => {
+    for (let k = 0; k < n; k++) { const q = prog(t, t0 + k * .22, 1.1); if (q <= 0 || q >= 1) continue;
+      const r = lerp(120, 560, ease.out(q));
+      s += `<ellipse cx="540" cy="${BODEN + 10}" rx="${r}" ry="${r * .17}" fill="none" stroke="${k % 2 ? C.pink : C.tinte}" stroke-width="${lerp(10, 2, q)}" opacity="${1 - q}"/>`; }
+  });
+  return s;
+}
+function flaschenPos(t) {
+  // Fall von oben (beschleunigt), Aufprall, Stauchung, Federn, später Zoom zurück, Hüpfer
+  let y, sx = 1, sy = 1, rot = 0;
+  if (t < AUF) { const q = prog(t, 0, AUF); y = lerp(-1150, 0, q * q); rot = lerp(-18, 0, q); sy = 1.06; sx = .96; }
+  else {
+    const d = t - AUF, f = Math.exp(-d * 5) * Math.cos(d * 22);
+    y = 0; sy = 1 - .16 * f; sx = 1 + .12 * f; rot = Math.sin(d * 7) * 4 * Math.exp(-d * 1.5) + Math.sin(t * 2.2) * 1.2;
+  }
+  const hq = prog(t, HOPS, .45); if (hq > 0 && hq < 1) y -= Math.sin(hq * Math.PI) * 90;
+  const hd = t - HOPS - .45; if (hd > 0) { const f = Math.exp(-hd * 6) * Math.cos(hd * 24); sy *= 1 - .1 * f; sx *= 1 + .08 * f; }
+  const zoom = lerp(1, .7, ease.inOut(prog(t, 3.9, .7)));
+  return { y, sx: sx * zoom, sy: sy * zoom, rot };
+}
+function wackeln(t) {
+  let a = 0; [[AUF, 34], [HOPS + .45, 14], [6.3, 10]].forEach(([t0, k]) => { const d = t - t0; if (d >= 0 && d < .6) a += k * Math.exp(-d * 7); });
+  return [Math.sin(t * 91) * a, Math.cos(t * 73) * a];
+}
+function tropfenRegen(t) { // kleine Tropfen fallen zurück in die Pfütze, dazu Speedlines beim Fall
+  let s = "";
+  if (t < AUF) { const q = prog(t, .1, AUF - .1);
+    for (let i = 0; i < 7; i++) { const x = 330 + i * 70, y = lerp(-200, 900, q) - (i % 3) * 140;
+      s += `<line x1="${x}" y1="${y - 260}" x2="${x}" y2="${y}" stroke="${C.tinte}" stroke-width="7" stroke-linecap="round" opacity="${.5 * (1 - q * .3)}"/>`; } }
+  const g2 = rnd(5);
+  for (let i = 0; i < 12; i++) { const t0 = AUF + 1.4 + g2() * 7, x = 220 + g2() * 640, q = prog(t, t0, .55); if (q <= 0 || q >= 1) continue;
+    const y = lerp(BODEN - 900 - g2() * 300, BODEN, q * q);
+    s += `<ellipse cx="${x}" cy="${y}" rx="11" ry="16" fill="${i % 3 ? C.gelbTief : C.pink}" stroke="${C.tinte}" stroke-width="3"/>`; }
+  return s;
+}
+function blitz(t) { const q = prog(t, AUF, .25); if (q <= 0 || q >= 1) return "";
+  return `<circle cx="540" cy="${BODEN - 40}" r="${lerp(80, 900, ease.out(q))}" fill="#fff" opacity="${(1 - q) * .8}"/>`; }
+function pop(el, t, t0, {aus = 99, grund = 1, dreh = 0} = {}) {
+  const q = prog(t, t0, .38), qa = prog(t, aus, .25);
+  const s = ease.back(q) * (1 - ease.inOut(qa)) * grund;
+  el.style.opacity = q > 0 && qa < 1 ? 1 : 0;
+  el.style.transform = `scale(${s}) rotate(${dreh * (1 - q) + Math.sin(t * 3 + t0) * 1.5}deg)`;
+}
+
+window.zeichne = t => {
+  const [wx, wy] = wackeln(t);
+  $("welt").style.transform = `translate(${wx}px,${wy}px)`;
+  $("hg").innerHTML = hintergrund(t);
+  $("pfuetze").innerHTML = pfuetze(t);
+  const f = flaschenPos(t);
+  $("flasche").innerHTML = flasche({ welle: t * 7 + (t > AUF ? Math.exp(-(t - AUF)) * 8 : 0), fruechte: 9 });
+  // Flaschenkasten: Boden (viewBox 995/1040 der Höhe) sitzt auf BODEN
+  const H = 950, boden = H * (995 / 1040);
+  $("flasche").style.transform = `translate(${540 - 220}px,${BODEN - boden + f.y}px) rotate(${f.rot}deg) scale(${f.sx},${f.sy})`;
+  $("flasche").style.transformOrigin = `50% ${boden}px`;
+  // Splash-Ebene
+  let fx = blitz(t) + tropfenRegen(t);
+  fx += `<g transform="translate(540,${BODEN}) scale(1.35,1.9)">${splash(prog(t, AUF, 1.5), { kraft: 1150, n: 34, fruechte: 8, seed: 3 })}</g>`;
+  fx += `<g transform="translate(540,${BODEN}) scale(-1.3,1.6)">${splash(prog(t, AUF + .05, 1.3), { kraft: 950, n: 22, fruechte: 4, seed: 17, farbe: C.pink })}</g>`;
+  fx += `<g transform="translate(540,${BODEN})">${splash(prog(t, HOPS + .45, 1.1), { kraft: 700, n: 16, fruechte: 3, seed: 29 })}</g>`;
+  $("fx").innerHTML = fx;
+  // Texte
+  pop($("achtung"), t, -.2, { aus: AUF - .12, grund: 1, dreh: 0 });
+  $("achtung").style.transform += ` rotate(-4deg)`;
+  pop($("platsch"), t, AUF + .02, { aus: 2.05, grund: 1.05, dreh: -14 });
+  $("platsch").style.transform += ` rotate(-6deg)`;
+  pop($("wort"), t, 2.3, { dreh: 10 });
+  const wq = ease.inOut(prog(t, 3.9, .7));                     // Wortmarke rutscht beim Zoom nach oben, bleibt groß
+  $("wort").style.top = lerp(420, 260, wq) + "px";
+  pop($("zeile1"), t, 4.75, { dreh: -8 });
+  pop($("zeile2"), t, 5.3, { dreh: 8 });
+  // Stempel „EHRENWORT“
+  const sq = prog(t, 6.3, .3), sg = sq > 0 ? lerp(2.6, 1, ease.out(sq)) : 0;
+  $("stempel").innerHTML = sq > 0 ? `<g transform="translate(880,1040) rotate(${lerp(-40, 14, ease.out(sq)) + Math.sin(t * 2) * 3}) scale(${sg})">${siegel(120, "EHRENWORT")}</g>` : "";
+};
+</script>

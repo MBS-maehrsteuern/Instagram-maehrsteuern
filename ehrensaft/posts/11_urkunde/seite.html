@@ -1,0 +1,58 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../kit/brand.css"><link rel="stylesheet" href="teile.css">
+<script src="../../kit/kit.js"></script><script src="teile.js"></script>
+<style>
+  .mitte { left: 120px; right: 120px; text-align: center; }
+</style>
+<body>
+<div class="folie" id="f1" style="background:var(--pink);--sx:50%;--sy:50%">
+  <div class="strahlen" style="opacity:.5"></div>
+  <svg class="voll" id="papier" viewBox="0 0 1080 1350"></svg>
+  <div class="mitte" style="top:122px;font:800 22px var(--text);letter-spacing:.32em;color:var(--pink-tief)">EHRENSAFT · ABTEILUNG EHRENSACHE</div>
+  <div class="mitte sz k" style="top:170px;font-size:134px;color:var(--pink)">Ehrenurkunde</div>
+  <div class="mitte" style="top:405px;font:600 italic 40px var(--text);color:var(--tinte)">Hiermit wird feierlich bestätigt:</div>
+  <div class="mitte hand" style="top:465px;font-size:58px;color:var(--tinte)">Du bist</div>
+  <div class="mitte sz" style="top:545px;font-size:124px;color:var(--tinte)">ein Ehrenmann</div>
+  <div class="mitte hand" style="top:672px;font-size:44px;color:var(--pink-tief)">– oder –</div>
+  <div class="mitte sz k" style="top:735px;font-size:124px;color:var(--gelb)">eine Ehrenfrau.</div>
+  <div style="top:905px;left:170px;right:170px;display:flex;align-items:flex-end;gap:18px">
+    <div style="font:800 40px var(--text);color:var(--tinte)">Name:</div>
+    <div style="flex:1;border-bottom:4px solid var(--tinte);height:44px"></div>
+  </div>
+  <div class="hand" style="top:1010px;left:175px;font-size:62px;color:#2B3A8C;transform:rotate(-7deg)">Ehrensaft</div>
+  <div style="top:1100px;left:175px;width:320px;border-top:3px solid var(--tinte);padding-top:8px;font:700 21px var(--text);letter-spacing:.12em;color:var(--tinte)">DIE EHRENKOMMISSION</div>
+  <div class="hand" style="top:1152px;left:175px;font-size:27px;color:var(--pink-tief)">Gültig für immer. Ehrenwort.</div>
+  <div class="ki-hinweis" style="color:#fff;opacity:.8;bottom:22px">Design-Entwurf · Computergrafik</div>
+</div>
+
+<script>
+const { T, G, P, PT, N, CR, GO, flascheIn, funkel } = ET;
+const ecke = (x, y, rot) => `<g transform="translate(${x},${y}) rotate(${rot})">
+  <path d="M0,0 h90 M0,0 v90" stroke="${GO}" stroke-width="8" stroke-linecap="round"/>
+  <path d="M18,18 h50 M18,18 v50" stroke="${T}" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(34,34)">${EK.frucht("zitrone", 26)}</g></g>`;
+let guilloche = "";
+for (let i = 0; i < 24; i++) guilloche += `<ellipse cx="540" cy="640" rx="330" ry="120" fill="none" stroke="${GO}" stroke-width="1.6" transform="rotate(${i * 7.5} 540 640)"/>`;
+document.getElementById("papier").innerHTML = `
+  <defs><radialGradient id="pg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#FFFCEB"/><stop offset=".8" stop-color="${CR}"/><stop offset="1" stop-color="#F3E3B5"/></radialGradient></defs>
+  <rect x="62" y="62" width="968" height="1218" rx="18" fill="${T}"/>
+  <rect x="50" y="50" width="968" height="1218" rx="18" fill="url(#pg)" stroke="${T}" stroke-width="8"/>
+  <rect x="74" y="74" width="920" height="1170" rx="8" fill="none" stroke="${GO}" stroke-width="12"/>
+  <rect x="94" y="94" width="880" height="1130" rx="4" fill="none" stroke="${T}" stroke-width="2.5"/>
+  <rect x="102" y="102" width="864" height="1114" rx="2" fill="none" stroke="${GO}" stroke-width="1.5" stroke-dasharray="2 7"/>
+  <g opacity=".18">${guilloche}</g>
+  ${ecke(110, 110, 0)}${ecke(958, 110, 90)}${ecke(958, 1208, 180)}${ecke(110, 1208, 270)}
+  <g transform="translate(540,370)"><path d="M-300,0 H-60 M60,0 H300" stroke="${GO}" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-60,0 l14,-10 l14,10 l-14,10Z M60,0 l-14,-10 l-14,10 l14,10Z" fill="${GO}"/>
+    <g transform="translate(0,0)">${EK.frucht("himbeere", 24)}</g></g>
+  <g transform="translate(540,880)"><path d="M-170,0 H170" stroke="${GO}" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" opacity="0"/></g>
+  <g transform="translate(670,1098)">
+    <path d="M-50,40 L-85,175 L-55,160 L-40,195 L-12,60Z" fill="${P}" stroke="${T}" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M50,40 L85,175 L55,160 L40,195 L12,60Z" fill="${PT}" stroke="${T}" stroke-width="6" stroke-linejoin="round"/>
+    <g transform="rotate(-8)">${EK.siegel(98, "EHRE")}</g>
+    <circle r="48" fill="none" stroke="${T}" stroke-width="3" opacity=".5"/>
+  </g>
+  <g transform="translate(845,1062) rotate(10)">${flascheIn(-55, -120, 110, 238, { fruechte: 7 })}</g>
+  ${funkel(790, 990, 18, G)}${funkel(950, 960, 14, G)}`;
+</script>
+</body>

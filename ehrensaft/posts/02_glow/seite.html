@@ -1,0 +1,136 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<style>
+  #welt { position:absolute; inset:0; overflow:hidden; }
+  .ab { position:absolute; }
+  .txt { position:absolute; left:0; width:100%; text-align:center; white-space:nowrap; }
+  #flasche { position:absolute; left:90px; top:0; width:380px; height:720px; }
+  #shaker { position:absolute; left:560px; top:0; width:380px; height:652px; overflow:visible; }
+  #licht { top:290px; font-family:var(--display); font-size:150px; color:#fff; text-transform:uppercase; line-height:1; }
+  #zahl { top:450px; font-family:var(--fett); font-size:250px; color:var(--pink); line-height:1; }
+  .neontxt { font-family:var(--display); text-transform:uppercase; font-size:120px; line-height:1; color:#EFFFE6;
+             text-shadow:0 0 8px #7CFF3A, 0 0 22px #7CFF3A, 0 0 46px #7CFF3A, 0 0 80px #3FD11A; }
+  #n1 { top:258px; } #n2 { top:386px; } #n3 { top:514px; }
+  #tag { left:0; width:100%; top:668px; text-align:center; }
+  #tag span { display:inline-block; font-family:var(--hand); font-size:56px; color:var(--tinte); background:var(--creme);
+              border:6px solid var(--tinte); border-radius:18px; padding:4px 30px 0; box-shadow:7px 7px 0 var(--pink); }
+  #wm { top:1490px; font-family:var(--fett); font-size:92px; color:var(--pink); }
+  .ki-hinweis { z-index:5; }
+</style>
+<body>
+<div id="welt">
+  <svg id="hg" class="ab" style="inset:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="flasche"></div>
+  <svg id="shaker" viewBox="-210 -40 420 720" style="transform-origin:50% 95%"></svg>
+  <svg id="fx" class="ab" style="inset:0" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  <div id="licht" class="txt kontur">Licht aus in</div>
+  <div id="zahl" class="txt kontur">3</div>
+  <div id="n1" class="txt neontxt">Leuchtet,</div>
+  <div id="n2" class="txt neontxt">wenn's dunkel</div>
+  <div id="n3" class="txt neontxt">wird.</div>
+  <div id="tag" class="ab"><span>Glow-Shaker · geplant</span></div>
+</div>
+<div id="hinweis" class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+<script>
+const {C, prog, ease, lerp, rnd, clamp, flasche, siegel} = EK;
+const $ = id => document.getElementById(id);
+const AUS = 1.0, BODEN = 1480;
+// Neonröhre: Flackern beim Einschalten (fest vorgegeben)
+const FLACKER = [[1.18, 1.24], [1.30, 1.33], [1.40, 1.52], [1.58, 99]];
+const an = t => FLACKER.some(([a, b]) => t >= a && t < b) ? 1 : 0;
+const g = rnd(12), funken = [];
+for (let i = 0; i < 46; i++) funken.push({ x: 80 + g() * 920, y0: g(), v: 70 + g() * 150, r: 2 + g() * 6, ph: g() * 7, dx: (g() - .5) * 60 });
+
+function shaker(t, glow, puls) {
+  // Becher (oben breiter), Deckel mit Kuppel + Verschluss, leuchtendes Ehrenabzeichen
+  const bech = "M-150,140 L150,140 L118,600 Q115,630 85,630 L-85,630 Q-115,630 -118,600 Z";
+  const deckel = "M-162,70 L162,70 L162,140 L-162,140 Z", kuppel = "M-140,70 Q-140,-10 0,-10 Q140,-10 140,70 Z", kappe = "M-48,-10 L-40,-40 L40,-40 L48,-10 Z";
+  const st = glow ? C.neon : C.tinte, sw = 9;
+  let s = `<defs><filter id="gl" x="-60%" y="-40%" width="220%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+    <linearGradient id="bf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${glow ? "#1d3d12" : "#fff"}" stop-opacity="${glow ? .9 : .55}"/><stop offset="1" stop-color="${glow ? "#0f2a08" : "#ffe9f1"}" stop-opacity="${glow ? .95 : .8}"/></linearGradient></defs>`;
+  if (glow) s += `<g filter="url(#gl)" opacity="${.55 + .45 * puls}"><path d="${bech}" fill="${C.neon}"/><path d="${deckel}" fill="${C.neon}"/><path d="${kuppel}" fill="${C.neon}"/></g>`;
+  s += `<path d="${bech}" fill="url(#bf)" stroke="${st}" stroke-width="${sw}" stroke-linejoin="round"/>`;
+  // Skalenstriche
+  for (let i = 0; i < 5; i++) s += `<line x1="${-128 + i * 2}" y1="${230 + i * 80}" x2="${-92 + i * 2}" y2="${230 + i * 80}" stroke="${st}" stroke-width="6" opacity=".8"/>`;
+  s += `<path d="M-104,190 L-80,560" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity="${glow ? .35 : .7}"/>`;
+  s += `<path d="${kuppel}" fill="${glow ? "#173810" : C.pink}" stroke="${st}" stroke-width="${sw}"/><path d="${deckel}" fill="${glow ? "#173810" : C.pink}" stroke="${st}" stroke-width="${sw}" stroke-linejoin="round"/><path d="${kappe}" fill="${glow ? "#173810" : C.pinkTief}" stroke="${st}" stroke-width="${sw}" stroke-linejoin="round"/>`;
+  s += `<path d="M-120,40 Q-100,10 -60,4" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".55"/>`;
+  // Abzeichen
+  const r = 92;
+  if (glow) s += `<circle cy="380" r="${r * 1.25}" fill="${C.neon}" filter="url(#gl)" opacity="${.5 + .5 * puls}"/>`;
+  s += `<g transform="translate(0,380) rotate(${glow ? Math.sin(t * 2) * 8 : -6}) scale(${1 + (glow ? .05 * puls : 0)})">${siegel(r, "EHRE", glow ? C.neon : C.gold)}</g>`;
+  return s;
+}
+function hintergrund(t, dunkel, glowAn, puls) {
+  if (!dunkel) { // hell: gelb mit Streifen
+    let s = `<rect width="1080" height="1920" fill="${C.gelb}"/>`;
+    for (let i = -4; i < 14; i++) s += `<rect x="${i * 160 + (t * 260) % 160}" y="-200" width="70" height="2400" fill="${C.gelbTief}" opacity=".4" transform="rotate(18 540 960)"/>`;
+    return s;
+  }
+  let s = `<rect width="1080" height="1920" fill="#0D0A14"/>`;
+  if (glowAn) {
+    s += `<defs><radialGradient id="rg"><stop offset="0" stop-color="#7CFF3A" stop-opacity="${.28 + .14 * puls}"/><stop offset="1" stop-color="#7CFF3A" stop-opacity="0"/></radialGradient></defs>
+      <ellipse cx="540" cy="1150" rx="760" ry="700" fill="url(#rg)"/>`;
+    // Lichtstrahlen
+    for (let i = 0; i < 12; i++) { const a = (i / 12) * Math.PI * 2 + t * .25, b = a + .09;
+      s += `<polygon points="540,1100 ${540 + Math.cos(a) * 1500},${1100 + Math.sin(a) * 1500} ${540 + Math.cos(b) * 1500},${1100 + Math.sin(b) * 1500}" fill="#7CFF3A" opacity="${.05 + .03 * puls}"/>`; }
+    // Boden-Spiegelung
+    s += `<ellipse cx="540" cy="${BODEN + 30}" rx="${470 + 30 * puls}" ry="60" fill="#7CFF3A" opacity="${.18 + .12 * puls}"/>`;
+  }
+  return s;
+}
+function teilchen(t, glowAn) {
+  if (!glowAn) return "";
+  let s = "";
+  funken.forEach((f, i) => {
+    const y = 1500 - ((f.y0 * 1500 + (t - 1.5) * f.v) % 1500), x = f.x + Math.sin(t * 1.7 + f.ph) * f.dx;
+    const tw = .45 + .55 * Math.abs(Math.sin(t * 3 + f.ph));
+    s += `<circle cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="${(f.r * 2.4).toFixed(1)}" fill="#7CFF3A" opacity="${(tw * .25).toFixed(2)}"/><circle cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="${f.r.toFixed(1)}" fill="#E8FFD9" opacity="${tw.toFixed(2)}"/>`;
+  });
+  return s;
+}
+function pop(el, t, t0, {aus = 99, dreh = 0, dauer = .38} = {}) {
+  const q = prog(t, t0, dauer), qa = prog(t, aus, .2), s = ease.back(q) * (1 - ease.inOut(qa));
+  el.style.opacity = q > 0 && qa < 1 ? 1 : 0;
+  el.style.transform = `scale(${s}) rotate(${dreh * (1 - q)}deg)`;
+}
+
+window.zeichne = t => {
+  const dunkel = t >= AUS, glowAn = an(t), puls = glowAn ? .5 + .5 * Math.sin((t - 1.6) * Math.PI * 2 * 1.0) : 0;  // 1 Puls pro Sekunde (2 Beats)
+  // Kamera: langsamer Zoom + Wackler beim Licht-aus
+  const zoom = dunkel ? lerp(1.12, 1.0, ease.out(prog(t, AUS, 1.2))) + .015 * puls : 1 + .04 * Math.sin(t * 8);
+  let wx = 0; if (t >= AUS && t < AUS + .3) wx = Math.sin(t * 120) * 18 * (1 - prog(t, AUS, .3));
+  $("welt").style.transform = `translate(${wx}px,0) scale(${zoom})`;
+  $("hg").innerHTML = hintergrund(t, dunkel, glowAn, puls);
+  $("hinweis").style.color = dunkel ? "#fff" : "var(--tinte)";
+  // Objekte
+  const glow = dunkel && glowAn;
+  const sichtbar = !dunkel || glowAn;             // im Dunkeln ohne Glow: nichts zu sehen
+  const H = 720, boden = H * (995 / 1040);
+  const ein = ease.back(prog(t, 0, .45));
+  const schuettel = t > 5.4 && t < 6.9 ? Math.sin((t - 5.4) * 34) * 16 * Math.sin(prog(t, 5.4, 1.5) * Math.PI) : 0;
+  $("flasche").innerHTML = flasche({ glow, welle: t * 5, fruechte: 8 });
+  $("flasche").style.transform = `translate(${lerp(-600, 0, ein)}px,${BODEN - boden + Math.sin(t * 2.4) * 10}px) rotate(${-4 + Math.sin(t * 2.1) * 2}deg)`;
+  $("flasche").style.opacity = sichtbar ? 1 : 0;
+  $("flasche").style.filter = glow ? `brightness(${.75 + .2 * puls}) drop-shadow(0 0 ${20 + 25 * puls}px #7CFF3A)` : "none";
+  $("shaker").innerHTML = shaker(t, glow, puls);
+  $("shaker").style.transform = `translate(${lerp(600, 0, ein)}px,${BODEN - 625 + Math.sin(t * 2.4 + 1) * 10 + (schuettel ? -Math.abs(schuettel) * 2 : 0)}px) rotate(${4 + schuettel + Math.sin(t * 1.9) * 2}deg)`;
+  $("shaker").style.opacity = sichtbar ? 1 : 0;
+  // Effekte: Teilchen + Schüttel-Bögen
+  let fx = teilchen(t, glow);
+  if (schuettel) for (let k = 0; k < 3; k++) fx += `<path d="M${960 + k * 22},${1030 + k * 30} q40,90 0,180" fill="none" stroke="#7CFF3A" stroke-width="8" stroke-linecap="round" opacity="${.8 - k * .2}"/><path d="M${560 - k * 22},${1030 + k * 30} q-40,90 0,180" fill="none" stroke="#7CFF3A" stroke-width="8" stroke-linecap="round" opacity="${.8 - k * .2}"/>`;
+  $("fx").innerHTML = fx;
+  // Texte hell: „Licht aus in 3 2 1“
+  pop($("licht"), t, 0, { aus: AUS - .05, dauer: .25 });
+  const z = t < .36 ? "3" : t < .68 ? "2" : "1";
+  $("zahl").textContent = z;
+  const zq = prog(t, [0, .36, .68][3 - +z], .2);
+  $("zahl").style.opacity = t < AUS ? 1 : 0;
+  if (t >= AUS) $("licht").style.opacity = 0;
+  $("zahl").style.transform = `scale(${lerp(1.8, 1, ease.out(zq))}) rotate(${(+z - 2) * 8}deg)`;
+  // Texte dunkel
+  ["n1", "n2", "n3"].forEach((id, i) => { pop($(id), t, 2.0 + i * .5, { dreh: i % 2 ? 6 : -6 });
+    if (t > 2.0 + i * .5 + .4) $(id).style.opacity = .82 + .18 * puls; });
+  pop($("tag"), t, 4.3, { dreh: -10 });
+  $("tag").style.transform += ` rotate(-3deg)`;
+};
+</script>

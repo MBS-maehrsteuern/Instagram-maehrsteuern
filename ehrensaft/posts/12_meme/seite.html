@@ -1,0 +1,81 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../kit/brand.css"><link rel="stylesheet" href="teile.css">
+<script src="../../kit/kit.js"></script><script src="teile.js"></script>
+<style>.meme { font: 800 56px/1.15 var(--text); color: #fff; }</style>
+<body>
+
+<!-- 1: Niemand: -->
+<div class="folie dunkel" id="f1" style="background:var(--nacht)">
+  <svg class="voll" id="s1" viewBox="0 0 1080 1350"></svg>
+  <div class="kopf"><div class="marke">Ehrensaft</div><div class="zaehler">1 / 3</div></div>
+  <div class="meme" style="top:180px;left:80px">Niemand:</div>
+  <div class="meme" style="top:255px;left:80px">Wirklich niemand:</div>
+  <div class="sz k" style="top:345px;left:80px;font-size:122px;color:var(--gelb);text-shadow:.06em .06em 0 var(--pink)">Ich um 3 Uhr<br>am Späti:</div>
+  <div class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+</div>
+
+<!-- 2: Ist das ...? -->
+<div class="folie" id="f2" style="--sx:50%;--sy:52%">
+  <div class="strahlen"></div>
+  <svg class="voll" id="s2" viewBox="0 0 1080 1350"></svg>
+  <div class="kopf"><div class="marke">Ehrensaft</div><div class="zaehler">2 / 3</div></div>
+  <div class="sz k" style="top:170px;left:80px;font-size:200px;color:#fff">Ist das</div>
+  <div class="sz k" style="top:150px;left:700px;font-size:230px;color:var(--pink);transform:rotate(8deg)">…?</div>
+  <div class="hand" style="top:390px;left:90px;font-size:40px;color:var(--tinte);transform:rotate(-3deg)">*Augenbraue hoch*</div>
+  <div class="sz k" style="top:1045px;left:80px;font-size:150px;color:var(--pink)">Ja. Ehrensaft.</div>
+  <div class="fl" style="top:1218px;left:84px;font-size:30px;font-weight:700">Zitrone · Himbeere · echte Fruchtstücke. Was denn sonst?</div>
+  <div class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+</div>
+
+<!-- 3: Du weißt Bescheid -->
+<div class="folie" id="f3" style="background:var(--pink);--sx:75%;--sy:70%">
+  <div class="strahlen" style="opacity:.55"></div>
+  <svg class="voll" id="s3" viewBox="0 0 1080 1350"></svg>
+  <div class="kopf"><div class="marke" style="color:var(--gelb)">Ehrensaft</div><div class="zaehler">3 / 3</div></div>
+  <div class="sz k" style="top:175px;left:80px;font-size:190px;color:var(--gelb)">Du weisst<br>Bescheid.</div>
+  <div class="sticker" style="top:600px;left:80px;font-size:64px;background:#fff;transform:rotate(-3deg)">+ Folgen.<br><span style="font-family:var(--text);font-weight:800;font-size:34px;text-transform:none">@ehrensaft_official</span></div>
+  <div class="fl" style="top:830px;left:80px;width:640px;font-size:38px;color:#fff;font-weight:700">Schick das deinem Späti-Buddy.<br><span style="color:var(--gelb)">Wer’s checkt, checkt’s.</span></div>
+  <div class="ki-hinweis" style="color:#fff;opacity:.75">Design-Entwurf · Computergrafik</div>
+</div>
+
+<script>
+const { T, G, P, PT, N, CR, GO, flascheIn, ganz, funkel, deko } = ET;
+const $ = id => document.getElementById(id);
+
+// 1: Spotlight + Siegerpodest
+let konfetti = ""; const r = EK.rnd(9);
+for (let i = 0; i < 46; i++) {
+  const x = 80 + r() * 920, y = 560 + r() * 520, w = 10 + r() * 14, rot = r() * 180;
+  if (Math.abs(x - 540) < 130 && y > 560) continue;
+  konfetti += `<rect x="${x.toFixed(0)}" y="${y.toFixed(0)}" width="${w.toFixed(0)}" height="${(w * .45).toFixed(0)}" rx="2" fill="${[G, P, "#fff"][i % 3]}" transform="rotate(${rot.toFixed(0)} ${x.toFixed(0)} ${y.toFixed(0)})" opacity=".9"/>`;
+}
+const stufe = (x, w, h, nr, f) => `<g><rect x="${x + 10}" y="${1230 - h + 10}" width="${w}" height="${h}" fill="${T}"/><rect x="${x}" y="${1230 - h}" width="${w}" height="${h}" fill="${f}" stroke="${T}" stroke-width="8"/>
+  <text x="${x + w / 2}" y="${1230 - h + (h > 150 ? 150 : h * .78)}" text-anchor="middle" font-family="Anton" font-size="${h > 150 ? 130 : 76}" fill="#fff" stroke="${T}" stroke-width="6" paint-order="stroke fill">${nr}</text></g>`;
+$("s1").innerHTML = `
+  <defs><linearGradient id="spot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6B0" stop-opacity=".05"/><stop offset="1" stop-color="#FFF6B0" stop-opacity=".42"/></linearGradient>
+    <radialGradient id="kegel"><stop offset="0" stop-color="#FFF6B0" stop-opacity=".5"/><stop offset="1" stop-color="#FFF6B0" stop-opacity="0"/></radialGradient>
+    <filter id="sb"><feGaussianBlur stdDeviation="10"/></filter></defs>
+  <path d="M470,0 L610,0 L860,1230 L220,1230Z" fill="url(#spot)" filter="url(#sb)"/>
+  <ellipse cx="540" cy="1010" rx="300" ry="60" fill="url(#kegel)"/>
+  ${konfetti}
+  ${stufe(150, 230, 150, "2", "#B9B9C8")}${stufe(700, 230, 105, "3", "#C98A4A")}${stufe(380, 320, 220, "1", GO)}
+  <g transform="translate(265,1035) rotate(-15)">${EK.frucht("zitrone", 52)}</g>
+  <g transform="translate(815,1085)">${ganz("himbeere", 44)}</g>
+  ${flascheIn(440, 570, 200, 433, { fruechte: 8 })}
+  ${funkel(370, 640, 30, G)}${funkel(720, 700, 24, "#fff")}${funkel(760, 600, 16, G)}${funkel(320, 800, 16, "#fff")}
+  `;
+
+// 2: Flasche im Rampenlicht
+$("s2").innerHTML = `<g transform="translate(540,1000)">
+    <ellipse cx="0" cy="10" rx="230" ry="40" fill="${T}" opacity=".18"/>
+    <g transform="rotate(-4)">${flascheIn(-130, -560, 260, 563, { fruechte: 9 })}</g></g>
+  ${deko([[180, 760, "zitrone", 60, 20], [900, 820, "himbeere", 46], [880, 520, "zitrone", 44, -20], [190, 980, "himbeere", 36]])}
+  ${funkel(300, 640, 24, "#fff")}${funkel(800, 960, 20, "#fff")}`;
+
+// 3: Flasche + Siegel
+$("s3").innerHTML = `<g transform="translate(830,960) rotate(10)">${flascheIn(-150, -400, 300, 650, { fruechte: 9 })}</g>
+  <g transform="translate(260,1105) rotate(-10)">${EK.siegel(115, "EHRE")}</g>
+  ${deko([[1000, 560, "zitrone", 50, 30], [500, 1230, "himbeere", 40], [600, 1080, "zitrone", 40, -20]])}
+  ${funkel(560, 640, 26, G)}${funkel(420, 1000, 18, "#fff")}`;
+</script>
+</body>
