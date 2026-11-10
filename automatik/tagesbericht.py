@@ -502,7 +502,7 @@ html_f.write_text(seite)
 
 js = f"""const {{createRequire}}=require('module');const {{execSync}}=require('child_process');
 const {{chromium}}=createRequire(execSync('npm root -g').toString().trim()+'/')('playwright');
-(async()=>{{const b=await chromium.launch({{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}});
+(async()=>{{const fs=require('fs');const alt='/opt/pw-browsers/chromium-1194/chrome-linux/chrome';const b=await chromium.launch(fs.existsSync(alt)?{{executablePath:alt}}:{{}});
 const p=await b.newPage({{viewport:{{width:1080,height:800}},deviceScaleFactor:1.5}});
 await p.goto('file://{html_f}');await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(300);
 await p.screenshot({{path:'{png_f}',fullPage:true}});await b.close();}})();"""
