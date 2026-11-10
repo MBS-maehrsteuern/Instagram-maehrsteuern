@@ -26,7 +26,7 @@
    "kicker": "Frist · heute 17:45",
    "titel": "Hast du deine Steuer­erklärung *2022* gemacht?",
    "text": "Wenn nicht: Für 2022 läuft bald eine Frist ab. Mehr heute im Reel.",
-   "antwort": "Antworte: 👍 = ja, erledigt · 😬 = ähm, nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -35,16 +35,16 @@
    "kicker": "Familie · heute 17:45",
    "titel": "Kümmerst du dich um *Mama oder Papa*?",
    "text": "Dann kann dir Geld vom Finanzamt zustehen. Wie, zeige ich heute im Reel.",
-   "antwort": "Antworte: 🙋 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o05_2026-11-12_nebenkosten/story_teaser.png",
    "typ": "antwort",
    "kicker": "Mieter · heute 17:45",
-   "titel": "Liest du deine *Neben­kosten­abrechnung*?",
+   "titel": "Liest du deine *Neben­kosten­abrechnung* Zeile für Zeile?",
    "text": "Da steckt oft Geld drin, das du zurückholen kannst. Heute im Reel.",
-   "antwort": "Antworte: 📄 = jede Zeile · 🗑️ = ab in den Ordner"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -53,7 +53,7 @@
    "kicker": "Familienfeier · heute 17:45",
    "titel": "Wirst du auf Feiern auch *ausgefragt*?",
    "text": "Seit ich im Finanzamt war, ist jede Feier eine Sprechstunde. Heute im Reel.",
-   "antwort": "Antworte: 😂 = kenne ich · 😇 = zum Glück nicht"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -62,7 +62,7 @@
    "kicker": "Online verkaufen · heute 17:45",
    "titel": "Verkaufst du bei *Vinted oder eBay*?",
    "text": "Die Plattformen melden Daten ans Finanzamt. Was das für dich heißt: heute im Reel.",
-   "antwort": "Antworte: 🛍️ = ja, oft · 🙅 = nie"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -71,7 +71,7 @@
    "kicker": "Mein Weg · heute 17:45",
    "titel": "Wolltest du mal etwas *ganz anderes* werden?",
    "text": "Ich war auf dem Weg zum Beamten. Heute erzähle ich, warum es anders kam.",
-   "antwort": "Antworte: 🙋 = ja · 🎯 = bin, was ich wollte"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -80,7 +80,7 @@
    "kicker": "Verheiratet · heute 17:45",
    "titel": "Seid ihr in *Steuer­klasse 3 und 5*?",
    "text": "Dann gilt für euch eine Pflicht, die viele nicht kennen. Heute im Reel.",
-   "antwort": "Antworte: 💍 = ja, 3/5 · 4️⃣ = 4/4 · 🙅 = nicht verheiratet"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -89,7 +89,7 @@
    "kicker": "Brief vom Finanzamt · heute 17:45",
    "titel": "Bekommst du *Herzklopfen* bei Post vom Finanzamt?",
    "text": "In 5 Sekunden weißt du, ob es ernst ist. Wie, zeige ich heute im Reel.",
-   "antwort": "Antworte: 😰 = jedes Mal · 😎 = gar nicht"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -98,7 +98,7 @@
    "kicker": "Finanzamt · heute 17:45",
    "titel": "Heftest du Briefe vom Finanzamt *ungelesen* ab?",
    "text": "Einer davon ist nicht harmlos. Welcher, siehst du heute im Reel.",
-   "antwort": "Antworte: 🙈 = ertappt · 📖 = ich lese alles"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -107,16 +107,16 @@
    "kicker": "Mein Weg · heute 17:45",
    "titel": "Hast du schon als *Azubi oder Schüler* Steuern gezahlt?",
    "text": "Mit 17 habe ich mir meine Lohnsteuer zurückgeholt. Heute im Reel.",
-   "antwort": "Antworte: 🙋 = ja · 🤔 = weiß ich nicht"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o13_2026-11-20_satz_gehalt/story_teaser.png",
    "typ": "antwort",
    "kicker": "Finanzamt · heute 17:45",
-   "titel": "Welchen Satz hört man im *Finanzamt* am häufigsten?",
-   "text": "Ich verrate ihn heute im Reel. Tipp vorher!",
-   "antwort": "↩ Schreib deinen Tipp als Antwort"
+   "titel": "Schon mal am Amt gesagt: *„Ich zahl doch Ihr Gehalt!“*?",
+   "text": "Welchen Satz jeder Finanzbeamte kennt, verrate ich heute im Reel.",
+   "antwort": "Tipp unten auf ein Emoji:\n😂 = ja, ertappt · 😮 = nie"
   },
   {
    "vorlage": "story",
@@ -125,7 +125,7 @@
    "kicker": "Eltern · heute 17:45",
    "titel": "Zahlt ihr *Kita oder Tagesmutter*?",
    "text": "Das könnt ihr absetzen. Aber nur, wenn ihr es richtig zahlt. Heute im Reel.",
-   "antwort": "Antworte: 👶 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -134,16 +134,16 @@
    "kicker": "Mythos · heute 17:45",
    "titel": "Spart die richtige *Steuer­klasse* Steuern?",
    "text": "Viele glauben es. Die Auflösung kommt heute im Reel.",
-   "antwort": "Tipp ein Emoji: ✅ = ja · ❌ = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o16_2026-11-23_fehler_keine_panik/story_teaser.png",
    "typ": "antwort",
    "kicker": "Keine Panik · heute 17:45",
-   "titel": "Fehler in der Steuer­erklärung gemacht. *Was jetzt?*",
+   "titel": "Schon mal einen *Fehler* in der Steuer­erklärung gemacht?",
    "text": "Ein Fehler ist nicht automatisch Hinterziehung. Was du jetzt tun kannst: heute im Reel.",
-   "antwort": "Antworte: 😅 = ist mir passiert · 🙅 = noch nie"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -152,7 +152,7 @@
    "kicker": "Timing · heute 17:45",
    "titel": "Gibst du die Erklärung *gleich im Januar* ab?",
    "text": "Bringt das wirklich schneller Geld? Heute im Reel.",
-   "antwort": "Antworte: 🏃 = sofort · 🐢 = auf den letzten Drücker"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -161,7 +161,7 @@
    "kicker": "Handwerker · heute 17:45",
    "titel": "Zahlst du Handwerker manchmal *bar*?",
    "text": "Dann verschenkst du vielleicht Geld. Warum, heute im Reel.",
-   "antwort": "Antworte: 💶 = bar · 🏦 = Überweisung"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -170,16 +170,16 @@
    "kicker": "Mythos · heute 17:45",
    "titel": "Ist die Steuer­erstattung ein *Geschenk*?",
    "text": "Viele freuen sich darüber wie über Weihnachts­geld. Die Wahrheit heute im Reel.",
-   "antwort": "Tipp ein Emoji: 🎁 = Geschenk · 💰 = mein Geld"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o20_2026-11-27_mythos_freiwillig/story_teaser.png",
    "typ": "antwort",
    "kicker": "Mythos · heute 17:45",
-   "titel": "Steuer­erklärung *freiwillig* = egal?",
+   "titel": "Steuer­erklärung freiwillig – machst du sie *trotzdem*?",
    "text": "Freiwillig klingt nach „muss ich nicht“. Warum das teuer werden kann: heute im Reel.",
-   "antwort": "Antworte: 📝 = mache ich trotzdem · 🙅 = lasse ich"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -188,7 +188,7 @@
    "kicker": "Dezember · heute 17:45",
    "titel": "Steht bei dir noch eine *Handwerker­rechnung* an?",
    "text": "Ob du vor oder nach Silvester zahlst, kann Geld kosten. Heute im Reel.",
-   "antwort": "Antworte: 🔨 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -197,7 +197,7 @@
    "kicker": "Zurückgeblickt · heute 17:45",
    "titel": "Vermisst du etwas an deinem *alten Job*?",
    "text": "Ich vermisse 3 Dinge am Finanzamt. Welche, heute im Reel.",
-   "antwort": "Antworte: 💙 = ja · 🚀 = nichts"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -206,25 +206,25 @@
    "kicker": "Abfindung · heute 17:45",
    "titel": "Hast du schon mal eine *Abfindung* bekommen?",
    "text": "Dabei wird oft zu viel Steuer abgezogen. Heute im Reel.",
-   "antwort": "Antworte: 🙋 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o24_2026-12-01_bescheid_pruefen/story_teaser.png",
    "typ": "antwort",
    "kicker": "Steuerbescheid · heute 17:45",
-   "titel": "Prüfst du deinen *Steuer­bescheid*?",
+   "titel": "Prüfst du deinen *Steuer­bescheid* genau?",
    "text": "Oder direkt abheften? 3 Dinge solltest du vorher anschauen. Heute im Reel.",
-   "antwort": "Antworte: 🔍 = ich prüfe · 🗂️ = abgeheftet"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o25_2026-12-02_schenken_10_jahre/story_teaser.png",
    "typ": "antwort",
    "kicker": "Schenken · heute 17:45",
-   "titel": "Wie viel dürfen Eltern ihrem Kind *steuerfrei* schenken?",
-   "text": "Tipp eine Zahl. Die Auflösung heute im Reel.",
-   "antwort": "↩ Schreib deinen Tipp als Antwort"
+   "titel": "Dürfen Eltern ihrem Kind *400.000 €* steuerfrei schenken?",
+   "text": "Die Auflösung kommt heute im Reel.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = niemals"
   },
   {
    "vorlage": "story",
@@ -233,7 +233,7 @@
    "kicker": "Jahresende · heute 17:45",
    "titel": "Kaufst du *vor Silvester* noch schnell für die Steuer?",
    "text": "Lohnt sich das wirklich? Heute im Reel.",
-   "antwort": "Antworte: 🛒 = ja · 🧮 = erst rechnen"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -242,7 +242,7 @@
    "kicker": "Mythos · heute 17:45",
    "titel": "Gehört der *Minijob* in die Steuer­erklärung?",
    "text": "Viele tragen ihn ein. Die Auflösung heute im Reel.",
-   "antwort": "Tipp ein Emoji: ✅ = ja · ❌ = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -251,7 +251,7 @@
    "kicker": "Ehrenamt · heute 17:45",
    "titel": "Bist du *Trainer oder Übungs­leiterin* im Verein?",
    "text": "Dann gibt es dafür einen Freibetrag. Wie hoch, heute im Reel.",
-   "antwort": "Antworte: 🏅 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -260,7 +260,7 @@
    "kicker": "Spenden · heute 17:45",
    "titel": "Spendest du *vor Weihnachten*?",
    "text": "Ob du eine Quittung brauchst, erfährst du heute im Reel.",
-   "antwort": "Antworte: 🎄 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -269,7 +269,7 @@
    "kicker": "Steuern sparen · heute 17:45",
    "titel": "Hast du einen *Laptop* für die Arbeit gekauft?",
    "text": "Den kannst du schneller absetzen, als viele denken. Heute im Reel.",
-   "antwort": "Antworte: 💻 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -278,7 +278,7 @@
    "kicker": "Aktien · heute 17:45",
    "titel": "Hast du dieses Jahr *Aktien mit Verlust* verkauft?",
    "text": "Dann gibt es eine Frist bei deiner Bank. Heute im Reel.",
-   "antwort": "Antworte: 📉 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -287,34 +287,34 @@
    "kicker": "Nachzahlung · heute 17:45",
    "titel": "Schon mal eine *Nachzahlung* vom Finanzamt bekommen?",
    "text": "Du musst sie nicht einfach hinnehmen. 2 Schritte heute im Reel.",
-   "antwort": "Antworte: 😩 = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o33_2026-12-10_fristverlaengerung/story_teaser.png",
    "typ": "antwort",
    "kicker": "Frist · heute 17:45",
-   "titel": "Schaffst du die *Abgabefrist* nicht?",
+   "titel": "Wird die *Abgabefrist* bei dir knapp?",
    "text": "Dann gibt es einen einfachen Weg. Heute im Reel.",
-   "antwort": "Antworte: 😬 = wird knapp · ✅ = alles fertig"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o34_2026-12-11_kleine_betraege/story_teaser.png",
    "typ": "antwort",
    "kicker": "Steuererklärung · heute 17:45",
-   "titel": "Was *vergisst* du in der Steuer­erklärung am ehesten?",
+   "titel": "Vergisst du *kleine Beträge* in der Steuer­erklärung?",
    "text": "2 Beträge vergisst fast jeder. Welche, heute im Reel.",
-   "antwort": "↩ Schreib deinen Tipp als Antwort"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
    "datei": "o35_2026-12-12_finanzamt_verrechnet/story_teaser.png",
    "typ": "antwort",
    "kicker": "Bescheid · heute 17:45",
-   "titel": "Kann sich das *Finanzamt verrechnen*?",
-   "text": "Ja. Wie du es merkst, zeige ich heute im Reel.",
-   "antwort": "Antworte: 😮 = wusste ich nicht · 👍 = klar"
+   "titel": "Wusstest du: Das *Finanzamt* kann sich verrechnen?",
+   "text": "Wie du es merkst, zeige ich heute im Reel.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = wusste ich · 😮 = echt jetzt?"
   },
   {
    "vorlage": "story",
@@ -323,7 +323,7 @@
    "kicker": "Bank · heute 17:45",
    "titel": "Hast du einen *Freistellungs­auftrag* bei deiner Bank?",
    "text": "Ohne ihn zieht die Bank oft Steuern ab. Was du tun kannst: heute im Reel.",
-   "antwort": "Antworte: ✅ = ja · ❓ = was ist das?"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -332,7 +332,7 @@
    "kicker": "Solaranlage · heute 17:45",
    "titel": "Hast du eine *Solaranlage* auf dem Dach?",
    "text": "Was das für deine Steuer heißt, zeige ich heute im Reel.",
-   "antwort": "Antworte: ☀️ = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -341,7 +341,7 @@
    "kicker": "Krypto · heute 17:45",
    "titel": "Hast du *Bitcoin oder Krypto*?",
    "text": "Ein Tag kann bei der Steuer Hunderte Euro ausmachen. Heute im Reel.",
-   "antwort": "Antworte: ₿ = ja · 🙅 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -350,7 +350,7 @@
    "kicker": "Automatisch · heute 17:45",
    "titel": "Macht ihr Steuer-Zahlen noch *von Hand*?",
    "text": "Das Finanzamt rechnet automatisch nach. Ihr auch? Heute im Reel.",
-   "antwort": "Antworte: ✍️ = von Hand · 🤖 = automatisch"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   },
   {
    "vorlage": "story",
@@ -359,7 +359,7 @@
    "kicker": "Excel · heute 17:45",
    "titel": "Rechnest du deine Steuern noch in *Excel*?",
    "text": "Ich nicht mehr. 3 Gründe heute im Reel.",
-   "antwort": "Antworte: 📊 = ja · 💻 = nein"
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
   }
  ]
 }
