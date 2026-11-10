@@ -253,7 +253,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Lage + Google-Kalender | alle 15 Min. (LAGE.md, Kalender-Sync, Wächter) | ✅ ok |
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
-| Statistik | täglich ca. 08:45 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42782095026) Di 10.11. 09:29 |
+| Statistik | täglich ca. 08:45 | ✅ ok |
 | Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42690948690) Mo 09.11. 21:15 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
