@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 10.11. 09:20 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 10.11. 09:28 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -253,7 +253,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Lage + Google-Kalender | alle 15 Min. (LAGE.md, Kalender-Sync, Wächter) | ✅ ok |
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
-| Statistik | täglich ca. 08:45 | ✅ ok |
+| Statistik | täglich ca. 08:45 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42782095026) Di 10.11. 09:29 |
 | Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42690948690) Mo 09.11. 21:15 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
@@ -265,6 +265,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 10.11.2026**
+- 09:28 📡 Radar 2026-11-10: 8 Beiträge, 0 DM-Entwürfe ([`e3fa2a6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e3fa2a6d129c88e3163a55262d8733891ea0b7dd))
+  - `automatik/interaktion`
+- 09:28 ✍️ Ehrensaft: Marken-Kit und 12 Start-Posts (8 Reels, 4 Karussells/Bilder) für @ehrensaft_official ([`089f0f0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/089f0f0f9fa9109daaf417ce13ba843e314395b3))
+  - `ehrensaft/BRIEF.md`, `ehrensaft/_test/demo.html`, `ehrensaft/kit/brand.css`, `ehrensaft/kit/fonts/anton-latin-400-normal.woff2`, `ehrensaft/kit/fonts/anton-latin-ext-400-normal.woff2`, `ehrensaft/kit/fonts/bowlby-one-latin-400-normal.woff2`, `…`
 - 09:20 ✍️ Storys o03–o40: Ja/Nein-Fragen mit Ein-Tipp-Reaktion (👏/😮) ([`62090fb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/62090fb4d4390148b1bb6c81e85ac4e4fcec0c24))
   - `LAGE.html`, `automatik/lage_notizen.md`, `posts/o03_2026-11-10_2022_nachholen`, `posts/o04_2026-11-11_eltern_pflegen`, `posts/o05_2026-11-12_nebenkosten`, `posts/o06_2026-11-13_familienfeier`, `…`
 
