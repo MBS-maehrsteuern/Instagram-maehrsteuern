@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 10.11. 09:28 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 10.11. 09:40 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟢 12:15 📱 Story `o03-story-2022-nachholen` (läuft automatisch) · 🟢 17:45 🎬 Reel `o03-reel-2022-nachholen` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **76929** (02.11.–08.11., +396 % zur Vorwoche) · Follower **+537** (jetzt 1255) · 30 Tage: +803 Follows / −17 entfolgt
+- **Letzte 7 Tage:** Reichweite **47167** (03.11.–09.11., +4 % zur Vorwoche) · Follower **+445** (jetzt 1258) · 30 Tage: +912 Follows / −18 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 📱 Story `o03-story-2022-nachholen` am **Di 10.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -219,30 +219,31 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1255 Follower** · 39 Beiträge im Profil (Abruf 2026-11-09) · **+110** seit 2026-11-08
-Reichweite pro Tag: 06.11. **359** · 07.11. **8241** · 08.11. **9257** · 09.11. **0**
+**1258 Follower** · 40 Beiträge im Profil (Abruf 2026-11-10) · **+3** seit 2026-11-09
+Reichweite pro Tag: 07.11. **8241** · 08.11. **9257** · 09.11. **263** · 10.11. **5**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| So 08.11. 15:31 | 112 | 88 | 0 | 0 | 0 |
-| So 08.11. 17:48 | 75 | 61 | 0 | 1 | 0 |
-| So 08.11. 23:42 | 38 | 30 | 0 | 0 | 0 |
+| Mo 09.11. 16:41 | 74 | 62 | 0 | 0 | 0 |
+| Mo 09.11. 22:54 | 44 | 34 | 0 | 0 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 284 | 214 | 3 | 1 | 1 | 0 |
-| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 368 (+148) | 349 | 2 | 1 | 2 | 4 |
-| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 348 (+92) | 302 | 4 | 1 | 3 | 0 |
-| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1432 (+145) | 1263 | 16 | 4 | 8 | 1 |
-| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 477 (+109) | 306 | 2 | 1 | 9 | 0 |
-| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 491 (+68) | 452 | 2 | 1 | 1 | 2 |
-| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 560 (+78) | 441 | 7 | 8 | 3 | 8 |
-| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 822 (+61) | 540 | 4 | 1 | 4 | 0 |
-| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 678 (+67) | 451 | 3 | 1 | 3 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 800 (+47) | 672 | 18 | 1 | 8 | 4 |
-| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 819 (+40) | 710 | 8 | 1 | 2 | 1 |
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 1226 (+53) | 993 | 11 | 7 | 7 | 8 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2877 (+61) | 2282 | 26 | 5 | 14 | 47 |
+| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 73 | 39 | 7 | 4 | 5 | 20 |
+| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 181 | 150 | 0 | 1 | 0 | 0 |
+| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 364 (+80) | 272 | 4 | 1 | 1 | 0 |
+| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 372 (+4) | 350 | 2 | 1 | 2 | 4 |
+| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 357 (+9) | 308 | 4 | 1 | 3 | 0 |
+| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1516 (+84) | 1318 | 18 | 4 | 9 | 2 |
+| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 479 (+2) | 306 | 2 | 1 | 9 | 0 |
+| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 496 (+5) | 454 | 2 | 1 | 1 | 2 |
+| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 561 (+1) | 443 | 7 | 8 | 3 | 8 |
+| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 824 (+2) | 540 | 4 | 1 | 4 | 0 |
+| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 685 (+7) | 453 | 3 | 1 | 3 | 0 |
+| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 802 (+2) | 674 | 18 | 1 | 8 | 4 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 824 (+5) | 714 | 8 | 1 | 2 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 1230 (+4) | 996 | 11 | 7 | 7 | 8 |
+| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2885 (+8) | 2288 | 26 | 5 | 14 | 47 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -265,6 +266,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 10.11.2026**
+- 09:40 📈 Statistik 2026-11-10 ([`2ed757d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/2ed757d369314db187f126fb0380ce9e1d504310))
+  - `automatik/statistik`
 - 09:28 📡 Radar 2026-11-10: 8 Beiträge, 0 DM-Entwürfe ([`e3fa2a6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e3fa2a6d129c88e3163a55262d8733891ea0b7dd))
   - `automatik/interaktion`
 - 09:28 ✍️ Ehrensaft: Marken-Kit und 12 Start-Posts (8 Reels, 4 Karussells/Bilder) für @ehrensaft_official ([`089f0f0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/089f0f0f9fa9109daaf417ce13ba843e314395b3))
