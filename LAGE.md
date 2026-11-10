@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 📱 Story `o02-story-mythos-gehalt` (online) · ✅ 17:45 🎬 Reel `o02-reel-mythos-gehalt` (online)
+- **Heute online:** 🟢 12:15 📱 Story `o03-story-2022-nachholen` (läuft automatisch) · 🟢 17:45 🎬 Reel `o03-reel-2022-nachholen` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **76929** (02.11.–08.11., +396 % zur Vorwoche) · Follower **+537** (jetzt 1255) · 30 Tage: +803 Follows / −17 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -251,7 +251,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42513029431) So 08.11. 20:04 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/42690948690) Mo 09.11. 21:15 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -369,6 +369,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:21 📈 Statistik 2026-11-04 ([`e4eb3d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e4eb3d5afa4db2872fd225a01a6921e6a38dfc64))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Di 03.11.2026**
 - 17:45 🤖 Autopilot: 45-reel-vga veroeffentlicht ([`5d7cd04`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5d7cd048dff6b0d13bdfc0b299a1add000f2ff22))
   - Plan: `45-reel-vga` status: freigegeben → veroeffentlicht; `45-reel-vga` online: https://www.instagram.com/reel/DfSO9Gagk8j/
@@ -380,8 +382,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:21 📈 Statistik 2026-11-03 ([`5460242`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5460242505006811a66437f8e6d05e8ab2c9bdfc))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mo 02.11.2026**
 - 17:45 🤖 Autopilot: i02-reel-insider-kontenabruf veroeffentlicht ([`8639359`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/86393595b8afbaef110909459fbc001dda2f121a))
