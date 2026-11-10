@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 📱 Story `o03-story-2022-nachholen` (online) · ✅ 17:45 🎬 Reel `o03-reel-2022-nachholen` (online)
+- **Heute online:** 🟢 12:15 📱 Story `o04-story-eltern-pflegen` (läuft automatisch) · 🟢 17:45 🎬 Reel `o04-reel-eltern-pflegen` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **47167** (03.11.–09.11., +4 % zur Vorwoche) · Follower **+445** (jetzt 1258) · 30 Tage: +912 Follows / −18 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -378,6 +378,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:24 📈 Statistik 2026-11-05 ([`8b5d1c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8b5d1c6b0323df8d17cf115292bae7c74ffb6b7d))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mi 04.11.2026**
 - 17:45 🤖 Autopilot: k01-karussell-ki-befehle veroeffentlicht ([`cb07761`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cb07761beda1dc02b1b48215da88e61db98685ba))
   - Plan: `k01-karussell-ki-befehle` status: freigegeben → veroeffentlicht; `k01-karussell-ki-befehle` online: https://www.instagram.com/p/DfUzoUhoMFD/
@@ -387,8 +389,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:21 📈 Statistik 2026-11-04 ([`e4eb3d5`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e4eb3d5afa4db2872fd225a01a6921e6a38dfc64))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 03.11.2026**
 - 17:45 🤖 Autopilot: 45-reel-vga veroeffentlicht ([`5d7cd04`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5d7cd048dff6b0d13bdfc0b299a1add000f2ff22))
