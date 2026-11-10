@@ -241,7 +241,6 @@ Reichweite pro Tag: 07.11. **8241** · 08.11. **9257** · 09.11. **263** · 10.1
 | Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 802 (+2) | 674 | 18 | 1 | 8 | 4 |
 | Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 824 (+5) | 714 | 8 | 1 | 2 | 1 |
 | Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 1230 (+4) | 996 | 11 | 7 | 7 | 8 |
-| Di 27.10. 18:01 [Ich hab gezahlt, um aus dem sichersten J](https://www.instagram.com/reel/DfAWBBflLkW/) | 2885 (+8) | 2288 | 26 | 5 | 14 | 47 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
