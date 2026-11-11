@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 10.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 11.11. 09:22 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟢 12:15 📱 Story `o04-story-eltern-pflegen` (läuft automatisch) · 🟢 17:45 🎬 Reel `o04-reel-eltern-pflegen` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **47167** (03.11.–09.11., +4 % zur Vorwoche) · Follower **+445** (jetzt 1258) · 30 Tage: +912 Follows / −18 entfolgt
+- **Letzte 7 Tage:** Reichweite **47409** (04.11.–10.11., +7 % zur Vorwoche) · Follower **+445** (jetzt 1258) · 30 Tage: +914 Follows / −17 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 📱 Story `o04-story-eltern-pflegen` am **Mi 11.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -217,30 +217,30 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1258 Follower** · 40 Beiträge im Profil (Abruf 2026-11-10) · **+3** seit 2026-11-09
-Reichweite pro Tag: 07.11. **8241** · 08.11. **9257** · 09.11. **263** · 10.11. **5**
+**1258 Follower** · 41 Beiträge im Profil (Abruf 2026-11-11) · **+0** seit 2026-11-10
+Reichweite pro Tag: 08.11. **9257** · 09.11. **263** · 10.11. **407** · 11.11. **0**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Mo 09.11. 16:41 | 74 | 62 | 0 | 0 | 0 |
-| Mo 09.11. 22:54 | 44 | 34 | 0 | 0 | 0 |
+| Di 10.11. 12:15 | 79 | 66 | 0 | 1 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 73 | 39 | 7 | 4 | 5 | 20 |
-| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 181 | 150 | 0 | 1 | 0 | 0 |
-| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 364 (+80) | 272 | 4 | 1 | 1 | 0 |
-| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 372 (+4) | 350 | 2 | 1 | 2 | 4 |
-| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 357 (+9) | 308 | 4 | 1 | 3 | 0 |
-| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1516 (+84) | 1318 | 18 | 4 | 9 | 2 |
-| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 479 (+2) | 306 | 2 | 1 | 9 | 0 |
-| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 496 (+5) | 454 | 2 | 1 | 1 | 2 |
-| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 561 (+1) | 443 | 7 | 8 | 3 | 8 |
-| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 824 (+2) | 540 | 4 | 1 | 4 | 0 |
-| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 685 (+7) | 453 | 3 | 1 | 3 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 802 (+2) | 674 | 18 | 1 | 8 | 4 |
-| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 824 (+5) | 714 | 8 | 1 | 2 | 1 |
-| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 1230 (+4) | 996 | 11 | 7 | 7 | 8 |
+| Di 10.11. 17:45 [Steuererklärung 2022: nur noch bis 31.12](https://www.instagram.com/reel/DfkQS4wE4gA/) | 100 | 83 | 1 | 1 | 0 | 0 |
+| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 445 (+372) | 323 | 10 | 6 | 5 | 21 |
+| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 202 (+21) | 170 | 0 | 1 | 0 | 0 |
+| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 386 (+22) | 292 | 4 | 1 | 1 | 0 |
+| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 375 (+3) | 354 | 2 | 1 | 2 | 4 |
+| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 358 (+1) | 310 | 4 | 1 | 3 | 0 |
+| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1522 (+6) | 1324 | 18 | 4 | 9 | 2 |
+| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 485 (+6) | 307 | 2 | 1 | 9 | 0 |
+| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 499 (+3) | 457 | 2 | 1 | 1 | 2 |
+| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 564 (+3) | 446 | 7 | 8 | 3 | 8 |
+| So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 825 (+1) | 542 | 4 | 1 | 4 | 0 |
+| So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 686 (+1) | 453 | 3 | 1 | 3 | 0 |
+| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 802 (+0) | 675 | 18 | 1 | 8 | 4 |
+| Do 29.10. 17:45 [Ferrari über die Firma? Beim Finanzamt e](https://www.instagram.com/reel/DfFcLcFk7yt/) | 827 (+3) | 716 | 8 | 1 | 2 | 1 |
+| Mi 28.10. 17:45 [Der häufigste Fehler, den ich im Finanza](https://www.instagram.com/reel/DfC3UzMCo4m/) | 1235 (+5) | 1003 | 11 | 7 | 7 | 8 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -261,6 +261,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mi 11.11.2026**
+- 09:22 📈 Statistik 2026-11-11 ([`cbb0b58`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cbb0b58c26c6b03d993680ed4e717664802317ce))
+  - `automatik/statistik`
 
 **Di 10.11.2026**
 - 17:45 🤖 Autopilot: o03-reel-2022-nachholen veroeffentlicht ([`b474be8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b474be81dbe51e1f0d0355a58e0d1af1dcd43dfb))
