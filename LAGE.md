@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 📱 Story `o04-story-eltern-pflegen` (online) · ✅ 17:45 🎬 Reel `o04-reel-eltern-pflegen` (online)
+- **Heute online:** 🟢 12:15 📱 Story `o05-story-nebenkosten` (läuft automatisch) · 🟢 17:45 🎬 Reel `o05-reel-nebenkosten` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **47409** (04.11.–10.11., +7 % zur Vorwoche) · Follower **+445** (jetzt 1258) · 30 Tage: +914 Follows / −17 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -363,6 +363,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 08:02 📡 Radar 2026-11-06: 8 Beiträge, 0 DM-Entwürfe ([`d08ad0b`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d08ad0b1e0648590144164b38178e12658cd64a3))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Do 05.11.2026**
 - 17:50 🤖 Autopilot: i03-story-teaser veroeffentlicht ([`fbb5000`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fbb500033f1a563ba092286f0a3d178fde28f0c5))
   - Plan: `i03-story-teaser` status: freigegeben → veroeffentlicht; `i03-story-teaser` online: https://www.instagram.com/stories/maehrsteuern/4023823131182066235
@@ -388,8 +390,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:24 📈 Statistik 2026-11-05 ([`8b5d1c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8b5d1c6b0323df8d17cf115292bae7c74ffb6b7d))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Mi 04.11.2026**
 - 17:45 🤖 Autopilot: k01-karussell-ki-befehle veroeffentlicht ([`cb07761`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cb07761beda1dc02b1b48215da88e61db98685ba))
