@@ -85,7 +85,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `o05-story-nebenkosten` (Do 12.11. 12:15): freigegeben, seit 36 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- 🔴 **Überfällig** `o05-story-nebenkosten` (Do 12.11. 12:15): freigegeben, seit 264 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
 
 ## ⏭️ Nächste 7 Tage
 
