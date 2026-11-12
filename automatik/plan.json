@@ -2081,7 +2081,7 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
@@ -2089,7 +2089,11 @@
       "musik": "136_modern_jazz_leicht.mp3",
       "match": 75,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G03, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 12.11. – Match 75 % + Tages-Passung +4 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G03, Zielgruppen-Match 75 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 12.11. – Match 75 % + Tages-Passung +4 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten.",
+      "media_id": "18287657557292905",
+      "link": "https://www.instagram.com/reel/DfpaDK_Es0F/",
+      "veroeffentlicht_am": "2026-11-12 17:45",
+      "erster_kommentar_id": "18097937228681509"
     },
     {
       "id": "o06-story-familienfeier",
