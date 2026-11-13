@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 13.11. 09:21 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 13.11. 10:30 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -260,6 +260,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Fr 13.11.2026**
+- 10:30 ✍️ Ehrensaft Glow-Reel: Sticker und Text „Ehrensaft im Glow-Shaker“ statt „geplant“ ([`d1514aa`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d1514aa1973854f7ff121248862cb5f621f7bf2e))
+  - `ehrensaft/posts/02_glow/bildunterschrift.txt`, `ehrensaft/posts/02_glow/reel.mp4`, `ehrensaft/posts/02_glow/reel_titel.jpg`, `ehrensaft/posts/02_glow/seite.html`
+- 09:28 📡 Radar 2026-11-13: 8 Beiträge, 0 DM-Entwürfe ([`74a2d88`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/74a2d887a1e2db3964c25772a0b7644d1bd8d190))
+  - `automatik/interaktion`
 - 09:21 📈 Statistik 2026-11-13 ([`e0b4123`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e0b4123de0a96224d94ebb822d18ceb84ad1a719))
   - `automatik/statistik`
 
