@@ -235,7 +235,6 @@ Reichweite pro Tag: 10.11. **407** · 11.11. **136** · 12.11. **143** · 13.11.
 | Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 572 (+6) | 451 | 7 | 8 | 3 | 8 |
 | So 01.11. 20:11 [Ich bin aus dem Finanzamt raus. Heute ge](https://www.instagram.com/p/DfNdBsEmmdN/) | 828 (+3) | 544 | 4 | 1 | 4 | 0 |
 | So 01.11. 17:45 [GewSt-Vorauszahlung am 15.11.: Gezahlt w](https://www.instagram.com/p/DfNFAr9lLsn/) | 691 (+2) | 456 | 3 | 1 | 3 | 0 |
-| Fr 30.10. 19:02 [Deine Steuererklärung liest zuerst kein ](https://www.instagram.com/reel/DfILcg8DfQm/) | 806 (+2) | 678 | 18 | 1 | 8 | 4 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
