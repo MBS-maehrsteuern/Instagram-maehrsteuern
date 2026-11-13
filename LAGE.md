@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** ✅ 12:15 📱 Story `o06-story-familienfeier` (online) · ✅ 17:45 🎬 Reel `o06-reel-familienfeier` (online)
+- **Heute online:** 🟢 12:15 📱 Story `o07-story-vinted-ebay` (läuft automatisch) · 🟢 17:45 🎬 Reel `o07-reel-vinted-ebay` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **18806** (06.11.–12.11., -73 % zur Vorwoche) · Follower **+201** (jetzt 1256) · 30 Tage: +912 Follows / −20 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -356,6 +356,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 00:38 ✍️ Content-Offensive v3: lippensynchrone Hooks und Wochentags-Plan ([`a6dcd91`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a6dcd9151ac2ab63a33ab1f1d6eb2446326aa642))
   - Plan: neu `o01-reel-mein-weg-freiheit-gekostet` (2026-11-08 17:45, freigegeben); neu `o02-reel-mythos-gehalt` (2026-11-09 17:45, freigegeben); neu `o03-reel-2022-nachholen` (2026-11-10 17:45, freigegeben); neu `o07-reel-vinted-ebay` (2026-11-14 17:45, freigegeben); neu `o09-reel-steuerklasse-3-5` (2026-11-16 17:45, freigegeben); neu `o10-reel-brief-ernst` (2026-11-17 17:45, freigegeben); neu `o11-reel-brief-harmlos` (2026-11-18 17:45, freigegeben); neu `o13-reel-satz-gehalt` (2026-11-20 17:45, freigegeben); neu `o14-reel-kinderbetreuung` (2026-11-21 17:45, freigegeben); neu `o15-reel-mythos-steuerklasse` (2026-11-22 17:45, freigegeben); neu `o17-reel-nicht-am-1-januar` (2026-11-24 17:45, freigegeben); neu `o18-reel-handwerker-bar` (2026-11-25 17:45, freigegeben); neu `o21-reel-handwerker-silvester` (2026-11-28 17:45, freigegeben); neu `o22-reel-finanzamt-vermisse` (2026-11-29 17:45, freigegeben); neu `o23-reel-abfindung` (2026-11-30 17:45, freigegeben); neu `o24-reel-bescheid-pruefen` (2026-12-01 17:45, freigegeben); neu `o25-reel-schenken-10-jahre` (2026-12-02 17:45, freigegeben); neu `o26-reel-arbeitsmittel-vorziehen` (2026-12-03 17:45, freigegeben); neu `o27-reel-mythos-minijob` (2026-12-04 17:45, freigegeben); neu `o30-reel-laptop-sofort` (2026-12-07 17:45, freigegeben); neu `o32-reel-nachzahlung-adv` (2026-12-09 17:45, freigegeben); entfernt `o01-reel-mythos-gehalt`; entfernt `o02-reel-2022-nachholen`; entfernt `o03-reel-mein-weg-freiheit-gekostet`; entfernt `o07-reel-brief-ernst`; entfernt `o09-reel-brief-harmlos`; entfernt `o10-reel-steuerklasse-3-5`; entfernt `o11-reel-vinted-ebay`; entfernt `o13-reel-kinderbetreuung`; entfernt `o14-reel-satz-gehalt`; entfernt `o15-reel-nicht-am-1-januar`; entfernt `o17-reel-handwerker-bar`; entfernt `o18-reel-mythos-steuerklasse`; entfernt `o21-reel-finanzamt-vermisse`; entfernt `o22-reel-abfindung`; entfernt `o23-reel-schenken-10-jahre`; entfernt `o24-reel-handwerker-silvester`; entfernt `o25-reel-arbeitsmittel-vorziehen`; entfernt `o26-reel-mythos-minijob`; entfernt `o27-reel-nachzahlung-adv`; entfernt `o30-reel-bescheid-pruefen`; entfernt `o32-reel-laptop-sofort`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Sa 07.11.2026**
 - 23:14 ✍️ Content-Offensive v2: nur letzter Take, echtes Video im Hook, keine Wind-Grafik ([`520ded7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/520ded7e6c4d5c24d1455c4e556d37c96ef11b56))
   - `LAGE.html`, `automatik/lage_notizen.md`, `automatik/plan.json`, `posts/o01_2026-11-08_mythos_gehalt`, `posts/o02_2026-11-09_2022_nachholen`, `posts/o03_2026-11-10_mein_weg_freiheit_gekostet`, `…`
@@ -369,8 +371,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 07:36 📡 Radar 2026-11-07: 8 Beiträge, 0 DM-Entwürfe ([`06c0273`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/06c02735edd9be90f034de91901530bc07619f00))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Fr 06.11.2026**
 - 17:50 🤖 Autopilot: i06-story-teaser veroeffentlicht ([`f9d87a8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f9d87a888c3226cb7c6daff709477013fbd70d6b))
