@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 14.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 14.11. 19:01 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -256,6 +256,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 14.11.2026**
+- 19:01 ✍️ Ehrensaft: Reel 15 für TikTok – Getränke-Ranking, Ehrensaft sprengt die Liste ([`e990f7e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e990f7ea3b1efdcfeae9336451c604da11bd3b66))
+  - `ehrensaft/posts/15_tiktok_ranking/bildunterschrift.txt`, `ehrensaft/posts/15_tiktok_ranking/reel.mp4`, `ehrensaft/posts/15_tiktok_ranking/reel_titel.jpg`, `ehrensaft/posts/15_tiktok_ranking/seite.html`
 - 17:45 🤖 Autopilot: o07-reel-vinted-ebay veroeffentlicht ([`d705d6d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d705d6df98f006328a4b9985d8a228f44449b13d))
   - Plan: `o07-reel-vinted-ebay` status: freigegeben → veroeffentlicht; `o07-reel-vinted-ebay` online: https://www.instagram.com/reel/DfujSe_Fa0y/
 - 16:39 🤖 Autopilot: Dateien fuer o07-reel-vinted-ebay vorbereitet ([`a4cb310`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a4cb310143e9bcedb4665551a0daf151ac1a9ad9))
