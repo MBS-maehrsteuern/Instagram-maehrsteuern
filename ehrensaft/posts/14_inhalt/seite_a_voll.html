@@ -1,0 +1,67 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../kit/brand.css">
+<script src="../../kit/kit.js"></script>
+<style>
+  .ab{position:absolute}
+  #strahlen{inset:-40%;background:repeating-conic-gradient(from 0deg,#FFDA1A 0 9deg,#FFE433 9deg 18deg)}
+  #kopf{top:262px;left:0;right:0;text-align:center;font-size:150px;color:var(--pink)}
+  .karte{position:absolute;left:60px;width:590px;height:132px;background:var(--creme);border:7px solid var(--tinte);border-radius:26px;box-shadow:9px 9px 0 var(--tinte);display:flex;align-items:center;gap:20px;padding:0 22px 0 16px;transform-origin:0 50%}
+  .karte svg{flex:0 0 100px;width:100px;height:100px;overflow:visible}
+  .karte .t{font-family:var(--display);text-transform:uppercase;font-size:50px;line-height:1.02;color:var(--tinte)}
+  .karte .t small{display:block;font-family:var(--hand);text-transform:none;font-size:30px;color:var(--pink-tief);margin-bottom:2px}
+  #flasche{left:668px;top:470px;width:372px;height:806px;transform-origin:50% 100%}
+  #plus{left:668px;top:470px;width:372px;height:806px}
+  #fazit{left:0;right:0;top:1345px;text-align:center;font-size:104px;color:#fff}
+  #fazit span{display:block;font-family:var(--hand);text-transform:none;font-size:58px;color:var(--tinte);-webkit-text-stroke:0;text-shadow:none;margin-top:6px}
+  #blitz{inset:0;background:#fff;opacity:0}
+</style>
+<body>
+<div id="strahlen" class="ab"></div>
+<div id="kopf" class="ab schlagzeile kontur">Was ist drin?</div>
+<div id="karten"></div>
+<div id="flasche" class="ab"></div>
+<svg id="plus" class="ab" viewBox="0 0 372 806" style="overflow:visible"></svg>
+<div id="fazit" class="ab schlagzeile kontur">Alles drin.<span>Ehrensaft. Ehrensache.</span></div>
+<div id="blitz" class="ab"></div>
+<div class="ki-hinweis">Design-Entwurf · Computergrafik · Rezeptur in Entwicklung</div>
+<script>
+const { prog, ease, flasche, frucht, splash, C } = EK;
+const mitte = s => `<svg viewBox="-50 -50 100 100">${s}</svg>`;
+const alge = `<g stroke="${C.tinte}" stroke-width="4" stroke-linejoin="round"><path d="M-6,44 C-34,10 -30,-20 -14,-44 C-2,-18 -4,12 -6,44Z" fill="#2FB36B"/><path d="M4,44 C-2,6 12,-22 30,-40 C34,-10 24,20 4,44Z" fill="#49D08A"/><path d="M-2,44 C-10,24 -40,22 -44,2 C-22,4 -6,20 -2,44Z" fill="#1E9457"/></g>`;
+const pille = txt => `<g><rect x="-44" y="-30" width="88" height="60" rx="30" fill="${C.pink}" stroke="${C.tinte}" stroke-width="5"/><path d="M0,-30 v60" stroke="${C.tinte}" stroke-width="4"/><rect x="-41" y="-27" width="41" height="54" rx="27" fill="#fff"/><text text-anchor="middle" y="13" font-family="Anton" font-size="${txt.length > 1 ? 30 : 38}" fill="${C.tinte}">${txt}</text></g>`;
+const ZUTATEN = [
+  { klein: 'der beste', gross: 'O-Saft', bild: frucht('orange', 44) },
+  { klein: 'echte', gross: 'Himbeeren', bild: frucht('himbeere', 40) },
+  { klein: 'echte', gross: 'Orangen &amp; Mandarinen', bild: `<g transform="translate(-12,-8)">${frucht('orange', 34)}</g><g transform="translate(20,18)">${frucht('orange', 24)}</g>` },
+  { klein: 'frisch &amp; sauer', gross: 'Bio-Zitronensaft', bild: frucht('zitrone', 44) },
+  { klein: 'aus Algen', gross: 'Omega-3', bild: alge },
+  { klein: 'und obendrauf', gross: 'Vitamin C &amp; D', bild: pille('C+D') },
+];
+const START = [1.0, 2.05, 3.1, 4.15, 5.2, 6.25], FAZIT = 7.7;
+document.getElementById('karten').innerHTML = ZUTATEN.map((z, i) =>
+  `<div class="karte" id="k${i}" style="top:${452 + i * 148}px">${mitte(z.bild)}<div class="t" style="${z.gross.length > 16 ? 'font-size:41px' : ''}"><small>${z.klein}</small>${z.gross}</div></div>`).join('');
+const $ = id => document.getElementById(id);
+window.zeichne = t => {
+  $('strahlen').style.transform = `rotate(${t * 10}deg)`;
+  const k = ease.back(prog(t, 0, .35)), wack = Math.sin(t * 5) * 1.5;
+  $('kopf').style.transform = `scale(${k}) rotate(${wack - 2}deg)`; $('kopf').style.opacity = k > 0 ? 1 : 0;
+  let stufe = 0, puls = 0, funken = '';
+  ZUTATEN.forEach((z, i) => {
+    const p = prog(t, START[i], .34), e = ease.back(p);
+    $('k' + i).style.transform = `translateX(${(1 - e) * -760}px) rotate(${(1 - ease.out(p)) * -8 + (i % 2 ? .8 : -.8)}deg)`;
+    $('k' + i).style.opacity = p > 0 ? 1 : 0;
+    stufe += ease.out(prog(t, START[i] + .15, .5));
+    const q = prog(t, START[i] + .2, .5); if (q > 0 && q < 1) puls = Math.sin(q * Math.PI);
+    const f = prog(t, START[i] + .22, .9);
+    if (f > 0 && f < 1) funken += `<g transform="translate(186,150) scale(.45)">${splash(f, { n: 12, fruechte: 3, kraft: 420, seed: 11 + i })}</g>`;
+  });
+  const ein = ease.bounce(prog(t, .25, .7));
+  $('flasche').style.transform = `translateY(${(1 - ein) * -1700}px) scale(${1 + puls * .06},${1 - puls * .04}) rotate(${Math.sin(t * 2.6) * 1.6}deg)`;
+  $('flasche').innerHTML = flasche({ fuell: .12 + .88 * stufe / ZUTATEN.length, fruechte: Math.round(2 + 8 * stufe / ZUTATEN.length), welle: t * 7 });
+  $('plus').innerHTML = funken;
+  const z = ease.back(prog(t, FAZIT, .35));
+  $('fazit').style.transform = `scale(${z}) rotate(-2deg)`; $('fazit').style.opacity = z > 0 ? 1 : 0;
+  const b = prog(t, FAZIT, .25); $('blitz').style.opacity = b > 0 && b < 1 ? (1 - b) * .7 : 0;
+};
+</script>
+</body>
