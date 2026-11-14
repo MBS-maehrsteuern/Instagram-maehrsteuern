@@ -1,0 +1,99 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../kit/brand.css">
+<script src="../../kit/kit.js"></script>
+<style>
+  body{background:#14101c}
+  .ab{position:absolute}
+  #bg{inset:0;background:radial-gradient(circle at 50% 42%,#2a2038 0,#14101c 70%)}
+  #kopf{top:255px;left:0;right:0;text-align:center;font-size:92px;color:#fff}
+  #kopf b{color:var(--gelb);font-weight:400}
+  #raster{left:60px;top:400px;width:960px;height:960px;transform-origin:50% 50%}
+  .feld{position:absolute;width:472px;height:472px;border:8px solid var(--tinte);border-radius:26px;overflow:hidden;transform-origin:50% 50%;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  #f1{left:0;top:0;background:#f4f1ea}
+  #f2{left:488px;top:0;background:#bdb6a8}
+  #f3{left:0;top:488px;background:var(--pink)}
+  #f4{left:488px;top:488px;background:var(--gelb)}
+  .spiel{font-family:var(--display);font-size:150px;line-height:1;color:var(--tinte)}
+  .zeit{font-family:var(--hand);font-size:50px;margin-top:14px;color:var(--tinte)}
+  #f3 .spiel{color:#fff;-webkit-text-stroke:5px var(--tinte);paint-order:stroke fill;text-shadow:7px 7px 0 var(--tinte)}
+  #f3 .zeit{color:#fff}
+  .schild{position:absolute;left:0;right:0;bottom:22px;text-align:center;font-family:var(--display);font-size:54px;text-transform:uppercase}
+  #f2 .schild{color:#4a443a}
+  #f4 .schild{font-family:var(--fett);font-size:58px;color:var(--pink);-webkit-text-stroke:4px var(--tinte);paint-order:stroke fill}
+  #strahlen{position:absolute;inset:-60%;background:repeating-conic-gradient(from 0deg,#FFD400 0 10deg,#FFE433 10deg 20deg)}
+  #flasche{position:absolute;left:156px;top:22px;width:160px;height:346px}
+  #spl{position:absolute;inset:0}
+  #fazit{left:0;right:0;top:1385px;text-align:center;font-size:74px;color:#fff;line-height:1.08}
+  #fazit b{color:var(--gelb);font-weight:400}
+  #blitz{inset:0;background:#fff;opacity:0;pointer-events:none}
+  .ki-hinweis{color:#fff}
+</style>
+<body>
+<div id="bg" class="ab"></div>
+<div id="kopf" class="ab schlagzeile">Damals <b>vs.</b> jetzt</div>
+<div id="raster" class="ab">
+  <div id="f1" class="feld"><div class="spiel">GTA 5</div><div class="zeit">damals</div></div>
+  <div id="f2" class="feld">
+    <svg id="becher" viewBox="0 0 300 300" width="330" height="330" style="margin-top:-60px">
+      <ellipse cx="150" cy="268" rx="92" ry="14" fill="#000" opacity=".18"/>
+      <path d="M176,18 L196,10 L204,26 L186,34 L168,150" fill="none" stroke="#8a8377" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M78,70 L222,70 L204,262 L96,262 Z" fill="#e9e4d9" stroke="#1B1220" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M84,118 L216,118 L204,258 L96,258 Z" fill="#d9a55e"/>
+      <path d="M84,118 Q117,108 150,118 T216,118" fill="none" stroke="#f0cf9a" stroke-width="5"/>
+      <circle cx="124" cy="172" r="9" fill="#1B1220"/><circle cx="176" cy="172" r="9" fill="#1B1220"/>
+      <path d="M118,222 Q150,198 182,222" fill="none" stroke="#1B1220" stroke-width="8" stroke-linecap="round"/>
+      <path d="M108,150 l22,8 M192,150 l-22,8" stroke="#1B1220" stroke-width="7" stroke-linecap="round"/>
+      <path id="traene" d="M196,190 q10,18 0,26 q-10,-8 0,-26Z" fill="#9fd3ff" stroke="#1B1220" stroke-width="4"/>
+    </svg>
+    <div class="schild">Orangenbrühe</div>
+  </div>
+  <div id="f3" class="feld"><div class="spiel">GTA 6</div><div class="zeit">jetzt</div></div>
+  <div id="f4" class="feld"><div id="strahlen"></div><div id="flasche"></div><svg id="spl" viewBox="0 0 472 472"></svg><div class="schild">Ehrensaft</div></div>
+</div>
+<div id="fazit" class="ab schlagzeile"></div>
+<div id="blitz" class="ab"></div>
+<div class="ki-hinweis">Design-Entwurf · Computergrafik</div>
+<script>
+const $ = id => document.getElementById(id);
+const START = [0.35, 1.25, 3.0, 4.1];   // Einsatz der vier Felder
+window.zeichne = t => {
+  const { prog, ease, flasche, splash, clamp } = EK;
+  // Kopfzeile
+  const k = ease.back(prog(t, 0, .35));
+  $('kopf').style.transform = `scale(${k})`; $('kopf').style.opacity = k > 0 ? 1 : 0;
+  // Felder ploppen auf
+  ['f1','f2','f3','f4'].forEach((id, i) => {
+    const p = prog(t, START[i], .32), s = ease.back(p);
+    let rot = (1 - ease.out(p)) * (i % 2 ? 9 : -9), y = 0, sat = 1;
+    if (i === 1 && t > START[1] + .4) { rot = Math.sin((t - START[1]) * 2.2) * 2.2; y = Math.min(10, (t - START[1] - .4) * 5); }   // trauriges Absacken
+    if (i === 3 && t > START[3] + .32) { const b = Math.abs(Math.sin((t - START[3]) * 5.2)) * Math.exp(-(t - START[3]) * 1.1); y = -b * 26; }
+    if (i < 2 && t > START[3]) sat = 1 - .55 * ease.out(prog(t, START[3], .5));     // „damals“ verblasst
+    $(id).style.transform = `translateY(${y}px) scale(${s}) rotate(${rot}deg)`;
+    $(id).style.opacity = p > 0 ? 1 : 0;
+    $(id).style.filter = i < 2 ? `saturate(${sat}) brightness(${.6 + .4 * sat})` : '';
+  });
+  // Träne im Becher
+  const tr = ((t - START[1]) % 1.4) / 1.4;
+  $('traene').setAttribute('transform', `translate(0,${t > START[1] ? tr * 46 : 0})`);
+  $('traene').setAttribute('opacity', t > START[1] ? 1 - tr : 0);
+  // Ehrensaft-Feld: Strahlen drehen, Flasche, Splash
+  $('strahlen').style.transform = `rotate(${t * 14}deg)`;
+  const fp = ease.bounce(prog(t, START[3] + .05, .6));
+  $('flasche').style.transform = `translateY(${(1 - fp) * -520}px) rotate(${Math.sin(t * 3.2) * 3}deg)`;
+  $('flasche').innerHTML = flasche({ welle: t * 6, fruechte: 7 });
+  $('spl').innerHTML = `<g transform="translate(236,372) scale(.5)">${splash(prog(t, START[3] + .28, 1.15), { kraft: 620, seed: 5 })}</g>` +
+                       `<g transform="translate(236,372) scale(.42)">${splash(prog(t, START[3] + 2.0, 1.1), { kraft: 520, seed: 9, fruechte: 4 })}</g>`;
+  // Blitz und Ruck beim Ehrensaft-Einsatz
+  const bz = prog(t, START[3], .28);
+  $('blitz').style.opacity = bz > 0 && bz < 1 ? (1 - bz) * .8 : 0;
+  const ruck = t > START[3] && t < START[3] + .45 ? Math.sin(t * 90) * 12 * (1 - prog(t, START[3], .45)) : 0;
+  const zoom = 1 + .035 * ease.inOut(prog(t, 5.2, 3.3));
+  $('raster').style.transform = `translate(${ruck}px,${-ruck * .6}px) scale(${zoom})`;
+  // Fazit
+  const z1 = ease.back(prog(t, 5.3, .35)), z2 = prog(t, 7.0, .01);
+  $('fazit').innerHTML = z2 >= 1 ? 'Ehrensaft.<br><b>Du weisst Bescheid.</b>' : 'Das Upgrade,<br><b>auf das alle warten.</b>';
+  const z = z2 >= 1 ? ease.back(prog(t, 7.0, .3)) : z1;
+  $('fazit').style.transform = `scale(${z})`; $('fazit').style.opacity = z > 0 ? 1 : 0;
+};
+</script>
+</body>
