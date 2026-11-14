@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Fr 13.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 14.11. 09:02 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -246,7 +246,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/43355310569) Fr 13.11. 03:56 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/43552845105) Sa 14.11. 04:42 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -255,6 +255,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Sa 14.11.2026**
+- 09:02 ✍️ Ehrensaft: Reel 13 „Damals vs. jetzt“ (Orangenbrühe → Ehrensaft) ([`24e30d0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/24e30d024f1611b81e77927ac211812286d2b925))
+  - `ehrensaft/posts/13_damals_jetzt/bildunterschrift.txt`, `ehrensaft/posts/13_damals_jetzt/reel.mp4`, `ehrensaft/posts/13_damals_jetzt/reel_titel.jpg`, `ehrensaft/posts/13_damals_jetzt/seite.html`
 
 **Fr 13.11.2026**
 - 17:45 🤖 Autopilot: o06-reel-familienfeier veroeffentlicht ([`3d43aa8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3d43aa8e38ef94ceaf9dcd53bfe439ea91121cb8))
