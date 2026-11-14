@@ -1,0 +1,112 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../kit/brand.css">
+<script src="../../kit/kit.js"></script>
+<style>
+  body{background:#14101c}
+  .ab{position:absolute}
+  #dunkel{inset:0;background:radial-gradient(circle at 50% 45%,#2b2140 0,#14101c 72%)}
+  #hell{inset:-90%;background:repeating-conic-gradient(from 0deg,#FFDA1A 0 9deg,#FFE433 9deg 18deg);opacity:0}
+  #kopf{top:215px;left:0;right:0;text-align:center;font-size:118px;color:var(--gelb)}
+  #unter{top:352px;left:0;right:0;text-align:center;font-size:46px;color:#fff}
+  #liste{left:50px;top:590px;width:900px;transform-origin:50% 40%}
+  .reihe{position:absolute;left:0;width:900px;height:118px;background:#2a2236;border:6px solid var(--tinte);border-radius:18px;overflow:hidden}
+  .reihe b{position:absolute;left:0;top:0;bottom:0;width:128px;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:400;font-size:78px;color:var(--tinte);border-right:6px solid var(--tinte)}
+  #ehre{left:50px;top:440px;width:900px;height:132px;background:linear-gradient(90deg,#FFF3A6,#FFD23C);border:7px solid var(--tinte);border-radius:20px;box-shadow:0 0 60px 14px rgba(255,228,51,.95);transform-origin:50% 50%}
+  #ehre b{position:absolute;left:0;top:0;bottom:0;width:200px;display:flex;align-items:center;justify-content:center;font-family:var(--fett);font-weight:400;font-size:56px;color:var(--pink);-webkit-text-stroke:3px var(--tinte);paint-order:stroke fill;border-right:7px solid var(--tinte);background:#fff}
+  #ehre span{position:absolute;left:226px;top:0;bottom:0;display:flex;align-items:center;font-family:var(--fett);font-size:60px;color:var(--tinte)}
+  .chip{position:absolute;left:0;top:0;display:flex;align-items:center;gap:14px;white-space:nowrap;background:#fff;border:5px solid var(--tinte);border-radius:16px;padding:8px 18px 8px 10px;font:800 33px var(--text);color:var(--tinte);transform-origin:50% 50%;box-shadow:5px 5px 0 var(--tinte)}
+  .chip svg{width:58px;height:66px;flex:0 0 58px}
+  #flasche{width:230px;height:498px;left:0;top:0;transform-origin:50% 50%}
+  #frage{left:0;right:0;top:1040px;text-align:center;font-size:84px;color:#fff}
+  #spl{inset:0}
+  #fazit{left:0;right:0;top:1408px;text-align:center;font-size:96px;color:#fff;line-height:1}
+  #fazit span{display:block;color:var(--pink)}
+  #cta{left:120px;right:120px;top:1412px;text-align:center;font-size:54px;color:var(--tinte);background:#fff;border:6px solid var(--tinte);border-radius:22px;padding:18px 10px;box-shadow:8px 8px 0 var(--tinte)}
+  #blitz{inset:0;background:#fff;opacity:0}
+</style>
+<body>
+<div id="dunkel" class="ab"></div><div id="hell" class="ab"></div>
+<div id="kopf" class="ab schlagzeile kontur">Ich ranke Getränke</div>
+<div id="unter" class="ab hand">(das letzte sprengt die Liste)</div>
+<div id="ehre" class="ab"><b>EHRE</b><span></span></div>
+<div id="liste" class="ab"></div>
+<div id="chips"></div>
+<div id="frage" class="ab schlagzeile kontur">Und das hier?</div>
+<svg id="spl" class="ab" viewBox="0 0 1080 1920"></svg>
+<div id="flasche" class="ab"></div>
+<div id="fazit" class="ab schlagzeile kontur">Ehrensaft.<span>Du weisst Bescheid.</span></div>
+<div id="cta" class="ab hand">Was fehlt in der Liste? Kommentier.</div>
+<div id="blitz" class="ab"></div>
+<div class="ki-hinweis" id="hinweis" style="color:#fff;bottom:20px">Design-Entwurf · Computergrafik</div>
+<script>
+const { prog, ease, lerp, flasche, splash, C } = EK;
+const $ = id => document.getElementById(id);
+const STUFEN = [['S', '#FF5C5C'], ['A', '#FF9F45'], ['B', '#FFD84D'], ['C', '#B6E35A'], ['D', '#6FD3E8'], ['F', '#B9A8E0']];
+const RH = 128;                                         // Reihenabstand
+$('liste').innerHTML = STUFEN.map(([b, f], i) => `<div class="reihe" id="r${i}" style="top:${i * RH}px"><b style="background:${f}">${b}</b></div>`).join('');
+const glas = (farbe, extra = '') => `<svg viewBox="0 0 58 66"><path d="M8,6 L50,6 L44,60 L14,60 Z" fill="#eef4f7" stroke="${C.tinte}" stroke-width="4" stroke-linejoin="round"/><path d="M11,24 L47,24 L43,57 L15,57 Z" fill="${farbe}"/>${extra}</svg>`;
+// [Text, Stufe, Bild]
+const DINGE = [
+  ['Leitungswasser nachts um 4', 0, glas('#9fd8ff')],
+  ['Eistee aus dem Tetrapak', 1, glas('#c98a4b')],
+  ['Kaffee, der kalt geworden ist', 3, glas('#5a3a22')],
+  ['Lauwarme Cola vom Vortag', 4, glas('#3a2418', '<circle cx="24" cy="38" r="3" fill="#fff" opacity=".5"/>')],
+  ['Orangenbrühe', 5, glas('#d9a55e', '<path d="M22,46 q7,-7 14,0" fill="none" stroke="#1B1220" stroke-width="3" stroke-linecap="round"/><circle cx="23" cy="36" r="2.5" fill="#1B1220"/><circle cx="35" cy="36" r="2.5" fill="#1B1220"/>')],
+];
+const START = [0.95, 2.0, 3.05, 4.1, 5.15], FINALE = 6.3, KNALL = 7.35, FAZIT = 8.15, CTA = 9.4;
+$('chips').innerHTML = DINGE.map((d, i) => `<div class="chip" id="c${i}">${d[2]}<span>${d[0]}</span></div>`).join('');
+const breite = DINGE.map((d, i) => $('c' + i).offsetWidth);
+window.zeichne = t => {
+  const ende = prog(t, KNALL, .3);
+  // Hintergrund kippt beim Knall von dunkel auf gelb
+  $('hinweis').style.color = ende > .5 ? '#1B1220' : '#fff';
+  $('hell').style.opacity = ende; $('hell').style.transform = `rotate(${t * 12}deg)`;
+  // Kopfzeile: knallt rein, wackelt
+  const k = ease.back(prog(t, 0, .3));
+  $('kopf').style.transform = `scale(${k * (1 + Math.max(0, .25 - t) * 2)}) rotate(${Math.sin(t * 6) * 1.2 - 1.5}deg)`;
+  $('kopf').style.opacity = k > 0 ? 1 : 0; $('kopf').style.color = ende > .5 ? C.pink : C.gelb;
+  const u = ease.out(prog(t, .3, .3));
+  $('unter').style.opacity = u * (1 - prog(t, KNALL, .2)); $('unter').style.transform = `translateY(${(1 - u) * 30}px)`;
+  // Liste fährt ein, zittert vor dem Knall, sackt danach ab
+  const le = ease.out(prog(t, .35, .45));
+  const zitt = t > FINALE + .35 && t < KNALL ? Math.sin(t * 95) * 9 * prog(t, FINALE + .35, KNALL - FINALE - .35) : 0;
+  const sack = ease.out(prog(t, KNALL, .35));
+  $('liste').style.transform = `translate(${zitt}px,${(1 - le) * 1500 + sack * 26}px) rotate(${sack * 1.2}deg)`;
+  $('liste').style.filter = `saturate(${1 - sack * .75}) brightness(${1 - sack * .28})`;
+  // Getränke: erst groß in der Mitte, dann ab in die Stufe
+  DINGE.forEach((d, i) => {
+    const el = $('c' + i), a = prog(t, START[i], .22), f = ease.inOut(prog(t, START[i] + .52, .3));
+    const zielX = 50 + 128 + 26 + breite[i] / 2 * .9, zielY = 590 + d[1] * RH + 59;
+    const x = lerp(540, zielX, f) + zitt, y = lerp(1470, zielY, f) + sack * 26, s = lerp(1.38 * ease.back(a), .9, f);
+    el.style.transform = `translate(${x - breite[i] / 2}px,${y - 43}px) scale(${s}) rotate(${(1 - f) * Math.sin(t * 9 + i) * 2.5 + sack * 1.2}deg)`;
+    el.style.opacity = a > 0 ? 1 : 0;
+    el.style.filter = `saturate(${1 - sack * .75}) brightness(${1 - sack * .28})`;
+    // Stufe blitzt kurz auf, wenn das Getränk landet
+    const l = prog(t, START[i] + .8, .3);
+    $('r' + d[1]).style.filter = l > 0 && l < 1 ? `brightness(${1 + (1 - l) * .9})` : '';
+  });
+  // Finale: Ehrensaft passt in keine Stufe
+  const fr = ease.back(prog(t, FINALE, .28));
+  $('frage').style.transform = `translateY(380px) scale(${fr})`; $('frage').style.opacity = fr > 0 && t < KNALL ? 1 : 0;
+  const fa = ease.back(prog(t, FINALE + .1, .35)), flug = ease.inOut(prog(t, KNALL - .12, .32));
+  const fx = lerp(540, 838, flug), fy = lerp(1105, 500, flug), fs = lerp(1.0 * fa, .62, flug);
+  const hupf = t > KNALL + .2 ? Math.abs(Math.sin((t - KNALL) * 4.6)) * Math.exp(-(t - KNALL) * .9) * 26 : 0;
+  $('flasche').style.transform = `translate(${fx - 115 + zitt * 1.6}px,${fy - 249 - hupf}px) scale(${fs}) rotate(${lerp(Math.sin(t * 22) * 4 * (t > FINALE + .35 ? 1 : .3), 8, flug)}deg)`;
+  $('flasche').style.opacity = fa > 0 ? 1 : 0;
+  $('flasche').innerHTML = flasche({ welle: t * 7, fruechte: 8 });
+  // Neue Stufe EHRE knallt von oben rein
+  const eh = ease.bounce(prog(t, KNALL, .5));
+  $('ehre').style.transform = `translateY(${(1 - eh) * -700}px) scale(${1 + Math.sin(t * 5) * .012})`;
+  $('ehre').style.opacity = prog(t, KNALL, .01) >= 1 ? 1 : 0;
+  $('ehre').querySelector('span').textContent = prog(t, KNALL + .35, .01) >= 1 ? 'Ehrensaft' : '';
+  $('spl').innerHTML = `<g transform="translate(540,560)">${splash(prog(t, KNALL + .05, 1.4), { n: 34, fruechte: 10, kraft: 900, seed: 4 })}</g>` +
+                       `<g transform="translate(540,1640) scale(.7)">${splash(prog(t, FAZIT, 1.3), { n: 18, fruechte: 6, kraft: 700, seed: 8 })}</g>`;
+  const b = prog(t, KNALL, .3); $('blitz').style.opacity = b > 0 && b < 1 ? (1 - b) * .9 : 0;
+  // Fazit, dann Kommentar-Aufruf
+  const z = ease.back(prog(t, FAZIT, .3)), weg = prog(t, CTA - .15, .15);
+  $('fazit').style.transform = `scale(${z}) rotate(-2deg)`; $('fazit').style.opacity = z > 0 ? 1 - weg : 0;
+  const c = ease.back(prog(t, CTA, .3));
+  $('cta').style.transform = `scale(${c * (1 + Math.sin(t * 6) * .02)}) rotate(1.5deg)`; $('cta').style.opacity = c > 0 ? 1 : 0;
+};
+</script>
+</body>
