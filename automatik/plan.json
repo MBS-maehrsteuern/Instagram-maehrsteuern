@@ -2153,7 +2153,7 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "zahl",
       "begleit": false,
@@ -2161,7 +2161,11 @@
       "musik": "127_tech_groove.mp3",
       "match": 71,
       "ki_gesicht": true,
-      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G08, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 14.11. – Match 71 % + Tages-Passung +8 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten."
+      "hinweis": "07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G08, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 14.11. – Match 71 % + Tages-Passung +8 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten.",
+      "media_id": "17939536323402166",
+      "link": "https://www.instagram.com/reel/DfujSe_Fa0y/",
+      "veroeffentlicht_am": "2026-11-14 17:45",
+      "erster_kommentar_id": "18350699152269737"
     },
     {
       "id": "o08-story-beamter-oder-frei",
