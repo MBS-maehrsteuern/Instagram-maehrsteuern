@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Finanzamt-Insider #05 im neuen Schnitt-Stil (Loris 16.11., Vorbild-Video „Editor-Timeline“):
+     Wort-Untertitel oben (aktuelles Wort fett, Schlüsselwort mit Markier-Rahmen), echtes Gesicht in Sekunde 0–2,
+     danach Editor-Timeline (Belege / Stimme / Wörter) mit Abspielkopf, Kamera immer in Bewegung, Zähler-Karten, CTA „Kommentiere ABZUG“. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--panel:#0D1613;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;
+  --rot:#E07A6B;--gelb:#E8B04A;--serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 800px at var(--bx,50%) 45%,rgba(83,195,162,.13),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 50%,#000 30%,transparent 80%)}
+/* Untertitel oben */
+#ut{position:absolute;left:60px;right:60px;top:250px;height:230px;display:flex;flex-wrap:wrap;justify-content:center;align-content:center;gap:0 24px;font-family:"Outfit";font-size:92px;line-height:1.18;letter-spacing:-.015em;text-align:center}
+#ut span{position:relative;color:rgba(185,201,192,.45);font-weight:700}
+#ut span.on{color:rgba(185,201,192,.6)}
+#ut span.jetzt{color:var(--text)}
+#ut span.box{color:var(--text)}
+#ut span.box::before{content:"";position:absolute;inset:-4px -14px;border:3px solid var(--gruen);background:rgba(83,195,162,.16);border-radius:6px;box-shadow:0 0 30px rgba(83,195,162,.35)}
+#ut span.box i{position:absolute;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--gruen)}
+/* Bühne */
+#buehne{position:absolute;left:0;right:0;top:560px;height:1000px;perspective:1900px}
+#kamera{position:absolute;inset:0;transform-style:preserve-3d}
+#foto{position:absolute;left:110px;top:-20px;width:860px;height:1040px;border-radius:44px;overflow:hidden;border:3px solid var(--gruen);box-shadow:0 0 90px rgba(83,195,162,.35),0 40px 100px rgba(0,0,0,.6)}
+#foto img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+#foto .verlauf{position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(7,12,10,.92) 88%)}
+#foto .badge{position:absolute;left:50px;top:46px;font-family:var(--mono);font-size:30px;letter-spacing:.14em;padding:14px 26px;border-radius:999px;background:rgba(7,12,10,.75);border:2px solid var(--gruen);color:var(--gruen2)}
+#foto .titel{position:absolute;left:50px;right:40px;bottom:60px}
+#foto h1{font-family:"Outfit";font-size:100px;line-height:1;letter-spacing:-.03em}
+#foto h2{font-family:var(--serif);font-weight:500;font-size:70px;line-height:1.05;color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.5)}
+#editor{position:absolute;left:40px;right:40px;top:40px;height:900px;border-radius:36px;border:2px solid var(--rand);background:linear-gradient(180deg,rgba(14,28,23,.92),rgba(8,14,12,.95));box-shadow:0 40px 120px rgba(0,0,0,.6),0 0 80px rgba(83,195,162,.08);overflow:hidden}
+.kopf{position:absolute;left:36px;right:36px;top:26px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:24px;letter-spacing:.12em;color:var(--grau)}
+.kopf b{color:var(--gruen2);font-weight:600}
+.spur{position:absolute;left:0;right:0}
+.spur .lab{position:absolute;left:36px;font-family:var(--mono);font-size:24px;letter-spacing:.18em;color:var(--text2);font-weight:600}
+#karten{top:90px;height:300px}
+.karte{position:absolute;top:44px;width:190px;height:240px;border-radius:20px;border:2px solid #2b443a;background:#0B1411;padding:18px 16px;overflow:hidden}
+.karte .k{font-family:var(--mono);font-size:18px;color:var(--grau);letter-spacing:.08em}
+.karte .w{font-family:"Outfit";font-size:34px;line-height:1.05;margin-top:10px}
+.karte .z{font-family:"Outfit";font-size:54px;color:var(--gruen2);margin-top:14px}
+.karte img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.karte.an{border-color:var(--gruen);box-shadow:0 0 40px rgba(83,195,162,.45);background:rgba(83,195,162,.1)}
+#stimme{top:420px;height:230px}
+#wellen{position:absolute;left:0;top:40px}
+#woerter{top:660px;height:150px}
+.wort{position:absolute;top:44px;transform:translateX(-50%);text-align:center;font-family:var(--sans);font-size:30px;color:var(--grau);white-space:nowrap}
+.wort small{display:block;font-family:var(--mono);font-size:18px;color:#4b5d55;margin-top:4px}
+.wort.jetzt{color:var(--text);font-weight:700;font-size:36px}.wort.jetzt small{color:var(--gruen2)}
+.fussz{position:absolute;left:36px;right:36px;bottom:26px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:22px;letter-spacing:.16em;color:var(--grau)}
+#kopfstrich{position:absolute;top:70px;bottom:60px;left:50%;width:3px;margin-left:-1.5px;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+#kopfstrich::before{content:"✳";position:absolute;top:-38px;left:50%;transform:translateX(-50%);font-size:48px;color:var(--gruen2);text-shadow:0 0 20px var(--gruen)}
+/* Zähler-Karten über dem Editor */
+.ueber{position:absolute;left:50%;top:340px;transform:translate(-50%,-50%);opacity:0;border-radius:36px;border:3px solid var(--gruen);background:rgba(7,14,11,.94);box-shadow:0 0 100px rgba(83,195,162,.45),0 40px 100px rgba(0,0,0,.7);padding:40px 60px;white-space:nowrap;text-align:center}
+.ueber .gross{font-family:"Outfit";font-size:190px;line-height:1;letter-spacing:-.03em;color:var(--text)}
+.ueber .gross .e{color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)}
+.ueber .mini{font-family:var(--mono);font-size:30px;letter-spacing:.14em;color:var(--text2);margin-top:14px}
+.ueber .mini b{color:var(--gruen2)}
+.chip{display:inline-block;font-family:var(--mono);font-size:28px;letter-spacing:.12em;padding:10px 20px;border-radius:12px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600}
+.reihe{display:flex;align-items:center;gap:24px;border:2px solid var(--gruen);border-radius:22px;background:rgba(83,195,162,.12);padding:22px 30px;font-family:"Outfit";font-size:54px;margin-top:18px;text-align:left}
+.reihe .n{width:62px;height:62px;border-radius:50%;background:var(--gruen);color:#07100c;display:flex;align-items:center;justify-content:center;font-size:38px}
+.zone{flex:1;height:150px;display:flex;align-items:center;justify-content:center;font-family:"Outfit";font-size:44px;color:var(--grau);border:2px solid #2b443a}
+/* Schluss: Kommentar + DM */
+#schluss{position:absolute;left:70px;right:70px;top:60px;opacity:0}
+.feld{display:flex;align-items:center;gap:22px;border-radius:999px;border:2px solid #2b443a;background:#0B1411;padding:26px 36px;font-family:var(--sans);font-size:44px;color:var(--grau)}
+.feld .ava{width:70px;height:70px;border-radius:50%;background:var(--gruen);flex:none}
+.feld b{color:var(--text);font-family:"Outfit";letter-spacing:.04em}
+.dm{margin-top:40px;border-radius:34px;border:2px solid var(--rand);background:rgba(13,22,19,.95);padding:30px 34px;display:flex;gap:24px;align-items:flex-start;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.dm img{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:50% 20%;border:2px solid var(--gruen)}
+.dm .n{font-family:var(--sans);font-weight:700;font-size:34px}.dm .n span{color:var(--grau);font-weight:400;font-size:28px}
+.dm .t{font-size:38px;line-height:1.3;margin-top:8px;color:var(--text2)}.dm .t b{color:var(--gruen2)}
+#bm{display:flex;justify-content:center;margin-top:50px}
+#fuss{position:absolute;left:90px;bottom:330px;display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:28px;color:var(--text2);font-weight:600}
+#fuss i{width:26px;height:26px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+</style><title>Finanzamt-Insider 05 – neuer Schnitt</title></head><body>
+<div id="bg"></div><div id="raster"></div>
+<div id="ut"></div>
+<div id="buehne"><div id="kamera">
+ <div id="editor">
+  <div class="kopf"><span>STEUERERKLÄRUNG <b>2026</b> · INSIDER #05</span><span id="tc">00:00</span></div>
+  <div class="spur" id="karten"><span class="lab">ABZÜGE</span><div id="kartenband"></div></div>
+  <div class="spur" id="stimme"><span class="lab">STIMME · LORIS</span><canvas id="wellen" width="1000" height="180"></canvas></div>
+  <div class="spur" id="woerter"><span class="lab">WÖRTER</span><div id="wortband"></div></div>
+  <div class="fussz"><span>§ 9 ESTG · STAND 2026</span><span>30 BILDER PRO SEKUNDE</span></div>
+  <div id="kopfstrich"></div>
+ </div>
+ <div class="ueber" id="u_drei" style="padding:40px 50px">
+  <div class="mini" style="margin:0 0 10px">FINANZBEAMTE SETZEN AB</div>
+  <div class="reihe"><span class="n">1</span>Homeoffice</div><div class="reihe"><span class="n">2</span>Fahrten zur Arbeit</div><div class="reihe"><span class="n">3</span>Arbeitsmittel</div></div>
+ <div class="ueber" id="u_ich" style="display:flex;align-items:center;gap:36px;padding:34px 50px">
+  <img src="../../../assets/marke/loris_portrait.jpg" style="width:190px;height:190px;border-radius:50%;object-fit:cover;object-position:50% 25%;border:3px solid var(--gruen)">
+  <div style="text-align:left"><div class="chip">EX-FINANZAMT</div><div style="font-family:Outfit;font-size:64px;margin-top:16px">Diplom-Finanzwirt</div><div class="mini" style="margin-top:6px">JAHRELANG IM FINANZAMT</div></div></div>
+ <div class="ueber" id="u_ho"><div class="mini" style="margin:0 0 10px">01 · HOMEOFFICE</div><div class="gross"><span id="hoz">6</span> <span class="e">€</span></div><div class="mini" id="holab">PRO TAG</div></div>
+ <div class="ueber" id="u_km"><div class="mini" style="margin:0 0 10px">02 · FAHRTEN ZUR ARBEIT</div><div class="gross">38 <span class="e">Cent</span></div>
+  <div style="margin-top:20px;display:flex;gap:16px;justify-content:center"><span class="chip" id="seit">SEIT 2026</span><span class="chip" id="km1">AB KM 1</span></div></div>
+ <div class="ueber" id="u_am" style="padding:40px 70px"><div class="mini" style="margin:0 0 20px">03 · ARBEITSMITTEL</div>
+  <div style="display:flex;gap:80px;justify-content:center">
+   <svg id="ic1" viewBox="0 0 24 24" width="220" height="220" fill="none" stroke="#7FE0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></svg>
+   <svg id="ic2" viewBox="0 0 24 24" width="220" height="220" fill="none" stroke="#7FE0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="8" width="19" height="2.5" rx=".6"/><path d="M5 10.5V19M19 10.5V19M14 10.5v5h5"/></svg></div>
+  <div class="mini" style="margin-top:14px">LAPTOP · SCHREIBTISCH</div></div>
+ <div class="ueber" id="u_gr" style="width:900px;padding:40px 46px"><div class="mini" style="margin:0 0 10px">LOHNT SICH ERST AB</div><div class="gross" style="font-size:150px"><span id="grz">1.230</span> <span class="e">€</span></div>
+  <div style="position:relative;display:flex;margin-top:30px">
+   <div class="zone" id="z1" style="border-radius:20px 0 0 20px">Pauschbetrag</div><div class="zone" id="z2" style="border-left:none;border-radius:0 20px 20px 0">lohnt sich</div>
+   <div id="mark" style="position:absolute;left:50%;top:-16px;bottom:-16px;width:6px;margin-left:-3px;background:var(--gelb);box-shadow:0 0 24px var(--gelb)"></div></div></div>
+ <div id="schluss">
+  <div id="bm"><svg viewBox="0 0 24 24" width="230" height="230" fill="rgba(83,195,162,.18)" stroke="#7FE0C2" stroke-width="1.1" stroke-linejoin="round"><path d="M6 3.5h12v17l-6-4.2-6 4.2z"/></svg></div>
+  <div style="text-align:center;font-family:Outfit;font-size:64px;margin:20px 0 40px">Kommentiere <span style="color:var(--gruen2)">ABZUG</span></div>
+  <div class="feld" id="feld"><span class="ava"></span><span id="tipp">Kommentar hinzufügen …</span></div>
+  <div class="dm" id="dm"><img src="../../../assets/marke/loris_portrait.jpg"><div><div class="n">maehrsteuern <span>· jetzt</span></div><div class="t">Hier ist deine <b>Abzugs-Liste</b> für die Steuererklärung 👉</div></div></div>
+ </div>
+ <div id="foto"><img src="../../../assets/marke/loris_portrait.jpg"><div class="verlauf"></div><div class="badge">EX-FINANZAMT · DIPLOM-FINANZWIRT</div>
+  <div class="titel"><h1>Finanzbeamte</h1><h2>setzen das selbst ab.</h2></div></div>
+</div></div>
+<div id="fuss"><i></i>maehrsteuern</div>
+<script src="insider_05_v2_daten.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
+const over=x=>{x=cl(x);const c=1.70158,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const PX=190, MITTE=500;  // Pixel pro Sekunde in der Timeline, Abspielkopf in der Mitte des Editors (Editorbreite 1000)
+// Schlüsselwörter mit Markier-Rahmen
+const KEY=new Set(["Finanzbeamte","Steuererklärung","Finanzamt.","Homeoffice,","1.260","2026","Kilometer.","Arbeitsmittel","1.230","Pauschbetrag.","Speichern"]);
+// Untertitel-Gruppen: max. 3 Wörter, Umbruch nach Satzzeichen
+const G=[];let g=[];WF.forEach((w,i)=>{g.push(i);if(/[.,:?]$/.test(w[0])&&!/^\d+\.$/.test(w[0])||g.length>=3){G.push(g);g=[]}});if(g.length)G.push(g);
+// Szenen (Zeiten = Wortzeiten in der fertigen Tonspur)
+const SZ={foto:[0,2.25],drei:[2.25,4.05],ich:[4.05,6.66],ho:[6.66,11.82],km:[11.82,17.92],am:[17.92,21.6],gr:[21.6,26.38],ende:[26.38,99]};
+const UEB={drei:"u_drei",ich:"u_ich",ho:"u_ho",km:"u_km",am:"u_am",gr:"u_gr"};
+// Karten-Spur
+const KART=[[0,'<img src="../../../assets/marke/loris_portrait.jpg">'],[4.05,'<div class="k">#00</div><div class="w">Ex-<br>Finanzamt</div>'],
+ [6.66,'<div class="k">#01</div><div class="w">Home-<br>office</div><div class="z">6 €</div>'],[11.82,'<div class="k">#02</div><div class="w">Fahrten</div><div class="z">38 ct</div>'],
+ [17.92,'<div class="k">#03</div><div class="w">Arbeits-<br>mittel</div>'],[21.6,'<div class="k">GRENZE</div><div class="w">Pausch-<br>betrag</div><div class="z">1.230</div>'],[26.38,'<div class="k">SPEICHERN</div><div class="w">Abzugs-<br>Liste</div>']];
+const kb=$("kartenband");KART.forEach(([t,h])=>{const d=document.createElement("div");d.className="karte";d.innerHTML=h;d.dataset.t=t;kb.appendChild(d)});
+const wb=$("wortband");WF.forEach(([w,t])=>{const d=document.createElement("div");d.className="wort";d.innerHTML=`${w.replace(/[.,:]$/,"")}<small>${t.toFixed(2)} s</small>`;d.dataset.t=t;wb.appendChild(d)});
+const ctx=$("wellen").getContext("2d");
+function wellen(t){
+  ctx.clearRect(0,0,1000,180);
+  for(let x=0;x<1000;x+=6){const s=t+(x-MITTE)/PX;const i=Math.floor(s*40);const v=i>=0&&i<PEAKS.length?PEAKS[i]:0;
+    const h=8+v*150;ctx.fillStyle=s<=t?"rgba(127,224,194,.95)":"rgba(83,195,162,.35)";ctx.fillRect(x,90-h/2,4,h)}
+}
+function untertitel(t){
+  const ut=$("ut");
+  const gi=G.findIndex((gr,i)=>t>=WF[gr[0]][1]-0.04&&(i===G.length-1||t<WF[G[i+1][0]][1]-0.04));
+  if(gi<0||t>WF[WF.length-1][1]+1.2){ut.innerHTML="";return}
+  const da=G[gi].filter(j=>t>=WF[j][1]-0.04);const letzt=da[da.length-1];
+  ut.innerHTML=G[gi].filter(j=>t>=WF[j][1]-0.04).map(i=>{
+    let c=i===letzt?"jetzt":"on";if(KEY.has(WF[i][0])&&t>=WF[i][1])c="box";
+    const h=c==="box"?'<i style="left:-22px;top:-12px"></i><i style="right:-22px;bottom:-12px"></i>':"";
+    return `<span class="${c}">${h}${WF[i][0]}</span>`}).join("");
+  const sp=ut.lastElementChild;if(sp){const p=ease((t-WF[letzt][1]+0.04)/0.18);sp.style.transform=`translateY(${(1-p)*24}px) scale(${.92+.08*p})`;sp.style.opacity=p}
+}
+function szene(t){for(const k in SZ){const [a,b]=SZ[k];if(t>=a&&t<b)return k}return "ende"}
+function render(t){
+  const sz=szene(t),[s0]=SZ[sz];
+  $("bg").style.setProperty("--bx",(50+12*Math.sin(t/3))+"%");
+  // Kamera: immer in Bewegung, Stoß bei jedem Szenenwechsel
+  const stoss=1-ease((t-s0)/0.45);
+  const rx=9+5*Math.sin(t*.55), ry=7*Math.sin(t*.37+1), rz=1.2*Math.sin(t*.29);
+  const sc=1+0.10*stoss+0.02*Math.sin(t*.8);
+  $("kamera").style.transform=`translateZ(${-60+40*Math.sin(t*.4)}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${sc})`;
+  $("kamera").style.filter=stoss>0.05&&t>0.5?`blur(${6*stoss}px)`:"none";
+  // Foto (echtes Gesicht 0–2,25 s), dann fliegt es in die Karten-Spur
+  const f=ease((t-1.95)/0.45);
+  $("foto").style.opacity=1-f;
+  $("foto").style.transform=`translate(${-300*f}px,${-60*f}px) scale(${(1+0.05*cl(t/2))*(1-0.75*f)}) rotateY(${-25*f}deg)`;
+  $("foto").style.display=f>=1?"none":"block";
+  $("foto").style.filter="none";
+  const ed=ease((t-2.0)/0.5);$("editor").style.opacity=t<2?0:ed;
+  // Timeline
+  $("tc").textContent="00:"+String(Math.floor(t)).padStart(2,"0")+"."+String(Math.floor((t%1)*30)).padStart(2,"0");
+  [...kb.children].forEach(d=>{const x=MITTE+(+d.dataset.t-t)*PX*1.25;d.style.left=(x-20)+"px";
+    const an=t>=+d.dataset.t&&szene(t)===szene(+d.dataset.t+.01);d.classList.toggle("an",an)});
+  [...wb.children].forEach(d=>{const dt=+d.dataset.t-t,x=MITTE+dt*560;d.style.left=x+"px";d.style.display=x<-200||x>1200?"none":"block";d.style.opacity=cl(1-Math.abs(dt)/1.1);
+    const i=[...wb.children].indexOf(d);const nx=WF[i+1]?WF[i+1][1]:99;d.classList.toggle("jetzt",t>=+d.dataset.t&&t<nx)});
+  wellen(t);
+  // Zähler-Karten
+  for(const k in UEB){const [a,b]=SZ[k];const e=$(UEB[k]);const start=k==="drei"?2.35:a+0.25;
+    const p=over((t-start)/0.4), aus=ease((t-(b-0.2))/0.2);
+    e.style.opacity=t<start?0:cl(p*1.4)*(1-aus);
+    e.style.transform=`translate(-50%,-50%) translateZ(160px) scale(${(.7+.3*p)*(1-.15*aus)})`}
+  // Details je Szene
+  [...$("u_drei").querySelectorAll(".reihe")].forEach((r,i)=>{const p=ease((t-2.5-i*.28)/.3);r.style.opacity=p;r.style.transform=`translateX(${(1-p)*-80}px)`});
+  const hz=ease((t-9.62)/1.0);$("hoz").textContent=t<9.62?"6":Math.round(6+(1260-6)*hz).toLocaleString("de-DE");
+  $("holab").innerHTML=t<9.46?"PRO TAG":"IM JAHR · <b>MAXIMAL</b>";
+  $("seit").style.opacity=t>=13.9?1:.15;$("km1").style.opacity=t>=16.18?1:.15;$("km1").style.transform=`scale(${t>=16.18&&t<16.6?1.15:1})`;
+  [["ic1",19.66],["ic2",20.44]].forEach(([id,a])=>{const p=over((t-a)/.35);$(id).style.opacity=cl(p*1.4);$(id).style.transform=`scale(${.6+.4*p})`});
+  const gz=ease((t-22.6)/.8);$("grz").textContent=Math.round(1230*gz).toLocaleString("de-DE");
+  $("mark").style.opacity=ease((t-22.66)/.3);
+  const z1=t>=24.86,z2=t>=24.12;
+  $("z1").style.color=z1?"var(--text)":"var(--grau)";$("z1").style.background=z1?"rgba(139,150,145,.15)":"transparent";
+  $("z2").style.color=z2?"var(--gruen2)":"var(--grau)";$("z2").style.background=z2?"rgba(83,195,162,.14)":"transparent";$("z2").style.borderColor=z2?"var(--gruen)":"#2b443a";
+  // Schluss: Speichern + Kommentiere ABZUG + DM
+  const s=ease((t-26.5)/.45);$("schluss").style.opacity=s;$("schluss").style.transform=`translateZ(200px) translateY(${(1-s)*60}px)`;
+  $("editor").style.opacity=t<2?0:ed*(1-0.85*s);
+  $("bm").style.transform=`scale(${.6+.4*over((t-26.5)/.4)})`;
+  const wort="ABZUG",n=Math.floor(cl((t-27.6)*8,0,5));
+  $("tipp").innerHTML=n?`<b>${wort.slice(0,n)}</b>${n<5?"▍":""}`:"Kommentar hinzufügen …";
+  $("feld").style.borderColor=n?"var(--gruen)":"#2b443a";
+  const d=over((t-28.6)/.45);$("dm").style.opacity=cl(d*1.4);$("dm").style.transform=`translateY(${(1-d)*80}px) scale(${.9+.1*d})`;
+  untertitel(t);
+}
+window.render=render;render(0);
+</script>
+</body></html>

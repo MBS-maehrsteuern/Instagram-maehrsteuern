@@ -269,7 +269,8 @@
     "manychat_stichwoerter": [
       "TOOL",
       "tol",
-      "PROMPT"
+      "PROMPT",
+      "ABZUG"
     ],
     "beitraege_pruefen": 12,
     "stichwort_antworten": {
@@ -294,6 +295,14 @@
         "oeffentlich": [
           "Ist raus – schau in deine Nachrichten 📩",
           "Hab dir den Link geschickt 📩",
+          "Check deine DMs 📩"
+        ]
+      },
+      "ABZUG": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier ist deine Abzugs-Liste 🧾\n\n1) Homeoffice: 6 € pro Tag, bis 1.260 € im Jahr.\n2) Fahrten zur Arbeit: 38 Cent ab dem ersten Kilometer (seit 2026).\n3) Arbeitsmittel wie Laptop oder Schreibtisch – lohnt sich erst, wenn deine Werbungskosten über 1.230 € liegen, darunter zählt eh der Pauschbetrag.\n\nAllgemeine Info, keine Steuerberatung. Was davon hast du bisher nicht eingetragen? – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab dir die Liste geschickt 📩",
           "Check deine DMs 📩"
         ]
       }
