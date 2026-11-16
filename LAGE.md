@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 16:11 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 16:17 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -13,7 +13,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📝 Gerade in Arbeit
 
-- **Neuer Schnitt-Stil (16.11., Loris):** Regeln in `strategie/22_wissen_schnitt_stil.md` (echtes Gesicht 0–2 s, Wort-Untertitel oben mit Markier-Rahmen, Editor-Timeline, Kamera immer in Bewegung, CTA „Kommentiere …“). **i05 neu gebaut** (`premium/insider_05_v2.html`, altes Video = `reel_alt.mp4`), CTA „Kommentiere ABZUG“ – Auto-DM mit der Abzugs-Liste über `kommentare.py` (`interaktion.json`).
+- **Neuer Schnitt-Stil (16.11., Loris):** Regeln in `strategie/22_wissen_schnitt_stil.md` (echtes Gesicht 0–2 s, Wort-Untertitel oben mit Markier-Rahmen, Anlage N wird im Hintergrund befüllt, Kamera immer in Bewegung, CTA „Kommentiere …“). **i05 neu gebaut** (`premium/insider_05_anlage_n.html`, altes Video = `reel_alt.mp4`), CTA „Kommentiere ABZUG“ – Auto-DM mit der Abzugs-Liste über `kommentare.py` (`interaktion.json`).
 - **Umplanung 14.11. (Loris: „Go … alles umsetzen“):** Content-Offensive **o08–o40 pausiert** (Reels + Storys), weil o02–o07 mit KI-Gesicht im Hook 61–78 % übersprungen wurden (Insider-Reels mit echtem Gesicht: 54–57 %). Wieder aktivieren, sobald Loris die echten Hooks eingesprochen hat (`posts/hooks_aufnahme_2026-11-08.md`, Zweig claude/fervent-newton-ijmv6t). **Ab So 15.11. täglich 17:45 die fertige Warteschlange:** i09 (15.11.), i05 (16.11.), i07 (17.11.), danach in bisheriger Reihenfolge 10-e-rechnung … 41-karussell-mythen bis 14.12. (i10 20.11., i11 21.11., i12 08.12.). Mittags-Storys entfallen damit vorerst. Anzeige auf i03 macht Loris selbst in der App (Datum/Budget hier eintragen).
 - **Storys auf Ein-Tipp-Antwort (Loris 09.11., volle Freigabe):** Teaser-Storys o03–o40 neu gerendert (Job `vorlagen/system/jobs/storys_ja_nein_2026-11-10.json`): jede Frage ist jetzt Ja/Nein und wird mit den Schnell-Reaktionen 👏 / 😮 (o13: 😂) beantwortet – ein Tipp statt Tippen. Grund: 0 Antworten auf die bisherigen Emoji-Codes (💸, 🙋 …), die man erst eintippen musste. Umfrage-Sticker gehen per API nicht.
 - **Reichweite 08.11. (9.257, +110 Follower) war organisch** (Loris 10.11.) – keine Anzeige an dem Tag. Die 100-€-Anzeige lief nur am 07.11. (8.241 Reichweite, +90 Follower). Bei den Beitrags-Aufrufen der Schnittstelle ist das kaum zu sehen (+1.483), die Konto-Reichweite zählt auch Profil, Storys und Explore.
@@ -254,6 +254,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 16.11.2026**
+- 16:17 ✍️ i05: Einschub-Satz entfernt, Schallwelle durch Anlage-N-Formular ersetzt ([`ed538f7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ed538f730e5a9d2c2e85dfc1bc5a41a877f4a386))
+  - `LAGE.html`, `posts/i05_2026-10-26_insider_finanzbeamte`, `strategie/22_wissen_schnitt_stil.md`, `vorlagen/system/premium/insider_05_v2.html`, `vorlagen/system/premium/insider_05_v2_daten.js`
 - 16:11 ✍️ i05 im neuen Schnitt-Stil neu gebaut (echtes Gesicht, Wort-Untertitel, Editor-Timeline) ([`256d4c7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/256d4c7df9a207b8e7a758067a4b425a76304c7f))
   - `LAGE.html`, `automatik/interaktion.json`, `automatik/lage_notizen.md`, `posts/i05_2026-10-26_insider_finanzbeamte`, `strategie/22_wissen_schnitt_stil.md`, `vorlagen/system/premium/insider_05_v2.html`, `…`
 - 15:58 ✍️ Lage-Übersicht neu erzeugt (Sitzungsstart 16.11.) ([`dfd2043`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dfd20438a7308698de494a6e9ab8dc1a6e8d6629))
