@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 15.11. 21:58 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 09:21 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `o09-story-steuerklasse-3-5` (pausiert) · 🟡 17:45 🎬 Reel `o09-reel-steuerklasse-3-5` (pausiert) · 🟢 17:45 🎬 Reel `i05-reel-insider-finanzbeamte` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **10635** (08.11.–14.11., -86 % zur Vorwoche) · Follower **+128** (jetzt 1273) · 30 Tage: +927 Follows / −22 entfolgt
+- **Letzte 7 Tage:** Reichweite **1612** (09.11.–15.11., -98 % zur Vorwoche) · Follower **+22** (jetzt 1277) · 30 Tage: +928 Follows / −22 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 🎬 Reel `i05-reel-insider-finanzbeamte` am **Mo 16.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -207,30 +207,30 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1273 Follower** · 46 Beiträge im Profil (Abruf 2026-11-15) · **+0** seit 2026-11-14
-Reichweite pro Tag: 12.11. **143** · 13.11. **190** · 14.11. **239** · 15.11. **0**
+**1277 Follower** · 47 Beiträge im Profil (Abruf 2026-11-16) · **+4** seit 2026-11-15
+Reichweite pro Tag: 13.11. **190** · 14.11. **240** · 15.11. **233** · 16.11. **0**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Sa 14.11. 12:15 | 60 | 50 | 0 | 0 | 0 |
-| Sa 14.11. 17:47 | 55 | 41 | 1 | 0 | 0 |
+| So 15.11. 19:16 | 51 | 43 | 0 | 0 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 279 | 192 | 9 | 12 | 6 | 57 |
-| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 152 (+43) | 130 | 4 | 1 | 3 | 0 |
-| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 203 (+10) | 149 | 4 | 1 | 3 | 2 |
-| Mi 11.11. 17:45 [Eltern pflegen? Bis 1.800 € Pauschbetrag](https://www.instagram.com/reel/Dfm09rbGoLE/) | 155 (+11) | 117 | 5 | 1 | 2 | 0 |
-| Di 10.11. 17:45 [Steuererklärung 2022: nur noch bis 31.12](https://www.instagram.com/reel/DfkQS4wE4gA/) | 151 (+10) | 117 | 5 | 1 | 1 | 0 |
-| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 498 (+10) | 338 | 10 | 6 | 5 | 21 |
-| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 245 (+8) | 199 | 5 | 1 | 1 | 0 |
-| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 449 (+11) | 329 | 6 | 1 | 2 | 0 |
-| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 394 (+2) | 368 | 4 | 1 | 3 | 4 |
-| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 372 (+3) | 323 | 5 | 1 | 4 | 0 |
-| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1563 (+9) | 1357 | 21 | 4 | 11 | 4 |
-| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 504 (+6) | 316 | 3 | 1 | 10 | 0 |
-| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 512 (+3) | 470 | 3 | 1 | 1 | 2 |
-| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 580 (+2) | 456 | 7 | 8 | 3 | 8 |
+| So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 217 | 178 | 3 | 1 | 2 | 0 |
+| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 357 (+78) | 249 | 10 | 12 | 6 | 57 |
+| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 162 (+10) | 136 | 4 | 1 | 3 | 0 |
+| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 208 (+5) | 150 | 4 | 1 | 3 | 2 |
+| Mi 11.11. 17:45 [Eltern pflegen? Bis 1.800 € Pauschbetrag](https://www.instagram.com/reel/Dfm09rbGoLE/) | 162 (+7) | 123 | 5 | 1 | 2 | 0 |
+| Di 10.11. 17:45 [Steuererklärung 2022: nur noch bis 31.12](https://www.instagram.com/reel/DfkQS4wE4gA/) | 157 (+6) | 122 | 5 | 1 | 1 | 0 |
+| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 507 (+9) | 340 | 10 | 6 | 5 | 21 |
+| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 245 (+0) | 200 | 5 | 1 | 1 | 0 |
+| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 454 (+5) | 333 | 6 | 1 | 2 | 0 |
+| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 395 (+1) | 369 | 4 | 1 | 3 | 4 |
+| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 372 (+0) | 323 | 5 | 1 | 4 | 0 |
+| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1564 (+1) | 1358 | 21 | 4 | 11 | 4 |
+| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 507 (+3) | 319 | 3 | 1 | 10 | 0 |
+| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 512 (+0) | 470 | 3 | 1 | 1 | 2 |
+| Mo 02.11. 17:45 [Das Finanzamt sieht deine Bankkonten – a](https://www.instagram.com/reel/DfPwiKDkcWo/) | 580 (+0) | 456 | 7 | 8 | 3 | 8 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -251,6 +251,14 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 ## 📜 Protokoll – jede Änderung
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
+
+**Mo 16.11.2026**
+- 09:21 📈 Statistik 2026-11-16 ([`ea9d1ef`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ea9d1ef6aab5ac9c2ced604139ce898d0400c021))
+  - `automatik/statistik`
+- 08:22 ✍️ Vorbilder-Radar: Ausreißer der Woche ([`a631833`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a631833821a8f714ae34b921551719911f91f9cf))
+  - `recherche/viral_liste.csv`, `recherche/vorbilder.json`, `recherche/vorbilder_bericht.md`
+- 08:20 📡 Radar 2026-11-16: 8 Beiträge, 0 DM-Entwürfe ([`4c19355`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4c193554d56eb24b4ca35997566e874c2d6347df))
+  - `automatik/interaktion`
 
 **So 15.11.2026**
 - 21:58 ✍️ Wochenbericht KW 2026-46 ([`b175063`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b175063e5402df328deb69be6a3addfd8f98137b))
