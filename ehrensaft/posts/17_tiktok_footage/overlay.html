@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Ehrensaft TikTok 16 – auf Beat geschnitten (Song wird erst in der TikTok-App ergänzt, ab 0:44,04).
+     B = 0,47603 s, Drop 3,74 s, Gesangseinsatz (CTA) bei BEAT(29) = 17,545 s. Alles rein zeitgesteuert: window.zeichne(t). -->
+<link rel="stylesheet" href="../../kit/brand.css"><script src="../../kit/kit.js"></script>
+<style>
+html,body{width:1080px;height:1920px;overflow:hidden;background:#0D0A14}
+#bg,#punkte,#blitz,#bokeh{position:absolute;inset:0}
+#punkte{background-image:radial-gradient(rgba(27,18,32,.17) 3px,transparent 3.6px);background-size:38px 38px;mix-blend-mode:multiply}
+#bokeh{overflow:hidden}
+#buehne{position:absolute;inset:0;perspective:1800px;perspective-origin:500px 880px}
+#kamera{position:absolute;left:0;top:0;width:0;height:0;transform-style:preserve-3d}
+.w3{position:absolute;left:0;top:0;transform-style:preserve-3d}
+#flasche{position:absolute;left:286px;top:410px;width:508px;height:1100px;transform-origin:50% 100%}
+#schatten{position:absolute;left:190px;top:1432px;width:700px;height:70px;border-radius:50%;background:rgba(27,18,32,.38);filter:blur(6px)}
+.fr{position:absolute;left:0;top:0}
+#fx,#rahmen{position:absolute;left:0;top:0;overflow:visible}
+#blitz{background:#fff;opacity:0;pointer-events:none}
+/* Text-Schläge */
+#txt{position:absolute;inset:0;pointer-events:none}
+.zl{position:absolute;left:0;width:1000px;text-align:center;white-space:nowrap;line-height:1;text-transform:uppercase;transform-origin:50% 60%;
+  -webkit-text-stroke:.075em var(--tinte);paint-order:stroke fill;text-shadow:.055em .055em 0 var(--tinte)}
+.zl span{display:inline-block;margin:0 .12em}
+.zl span:first-child{margin-left:0}.zl span:last-child{margin-right:0}
+#mess{position:absolute;left:-5000px;top:0;white-space:nowrap;font-size:100px;text-transform:uppercase}
+/* Rand-Zähler */
+#zaehler{position:absolute;left:46px;top:1085px;transform-origin:0 100%}
+#zti{display:inline-block;background:var(--pink);border:6px solid var(--tinte);border-radius:14px;padding:4px 22px 2px;font:64px/1.1 var(--display);color:#fff;text-transform:uppercase;
+  transform:rotate(-3deg) skewX(-9deg);box-shadow:6px 6px 0 var(--tinte);letter-spacing:.02em}
+#znum{position:relative;font:300px/.95 var(--display);margin-top:8px;transform:skewX(-9deg);transform-origin:0 80%;white-space:nowrap}
+#znum span{-webkit-text-stroke:.07em var(--tinte);paint-order:stroke fill;text-shadow:.045em .045em 0 var(--tinte)}
+#znum .voll{position:relative;color:#fff}
+#znum .echo{position:absolute;left:.06em;top:.05em;color:transparent;-webkit-text-stroke:5px var(--pink);text-shadow:none;paint-order:normal}
+/* CTA */
+#banner{position:absolute;left:80px;top:1075px;width:780px;background:var(--pink);border:10px solid var(--tinte);border-radius:26px;box-shadow:14px 14px 0 var(--tinte);padding:20px 10px 26px;
+  text-align:center;font:124px/1 var(--display);color:#fff;text-transform:uppercase;opacity:0;transform-origin:50% 50%;
+  -webkit-text-stroke:.03em var(--tinte);paint-order:stroke fill}
+#banner small{display:block;font:600 34px/1 var(--text);letter-spacing:.14em;-webkit-text-stroke:0;color:var(--gelb);margin-top:14px}
+.ki-hinweis{bottom:340px;z-index:9;opacity:.92;color:#fff;font-size:27px;text-shadow:0 2px 0 var(--tinte),0 0 8px var(--tinte),0 0 14px var(--tinte)}
+
+/* Overlay-Fassung für echtes Flaschen-Video (17_tiktok_footage): nur Texte, Zähler, Früchte, Splash, Blitz – transparent */
+html,body{background:transparent!important}
+#bg,#punkte,#bokeh,#flasche,#schatten,#rahmen{display:none!important}
+</style><title>Ehrensaft TikTok 16 – Beat</title></head><body>
+<div id="bg"></div><div id="punkte"></div><svg id="bokeh" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<div id="buehne"><div id="kamera">
+  <div id="schatten" class="w3"></div>
+  <div id="fruchte"></div>
+  <div id="flasche"></div>
+  <svg id="rahmen" class="w3" width="1080" height="1920" viewBox="0 0 1080 1920" style="transform:translateZ(3px)"></svg>
+  <svg id="fx" class="w3" width="1080" height="1920" viewBox="0 0 1080 1920" style="transform:translateZ(240px)"></svg>
+</div></div>
+<div id="blitz"></div>
+<div id="zaehler"><div id="zti"></div><div id="znum"><span class="echo"></span><span class="voll"></span></div></div>
+<div id="txt"></div>
+<div id="banner">Folgen für<br>den Drop<small>PRODUKT BALD · GEPLANT</small></div>
+<span id="mess"></span>
+<div class="ki-hinweis">Design-Entwurf · Symbolbild</div>
+<script>
+const {C, prog, ease, lerp, rnd, clamp, flasche, splash, frucht, siegel} = EK;
+const $ = id => document.getElementById(id);
+const cl = clamp;
+const expo = x => { x = cl(x); return x >= 1 ? 1 : 1 - Math.pow(2, -10 * x); };
+const over = x => { x = cl(x); const c = 2.2, c3 = c + 1; return 1 + c3 * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+const B = 0.47603, DROP = 3.74, BEAT = k => DROP + k * B, ENDE = BEAT(39);
+const B4 = BEAT(4), B12 = BEAT(12), B20 = BEAT(20), B28 = BEAT(28), B29 = BEAT(29);
+const MID = [500, 880];                       // Bildmitte der Kamera (innerhalb der Safe-Zone)
+
+// ---------- Welt-Ziele ----------
+const T = { fla: [540, 960], hook: [790, 940], label: [540, 1108], seal: [640, 1215], cap: [540, 560], hals: [540, 700], mitte: [540, 1000], fuss: [540, 1360], zit: [250, 640], him: [850, 700] };
+// ---------- Kamera [zeit, ziel, zoom, rotX, rotY, rotZ, dauer] ----------
+const K = [[0, "hook", 1.5, 7, -12, -9, .1], [DROP, "fla", .86, 0, 0, -4, .35],
+  [B4, "mitte", .95, 30, -32, -8, .55], [BEAT(6), "hals", 1.12, 22, 26, 9, .5], [BEAT(8), "fuss", 1.15, 14, -30, -10, .5], [BEAT(10), "fla", .92, 46, 8, 7, .5],
+  [B12, "label", 2.0, 6, -18, -7, .35], [BEAT(14), "seal", 2.3, 2, 22, 8, .3], [BEAT(16), "label", 1.75, -10, 26, -10, .3], [BEAT(18), "fla", 1.0, 30, -26, 10, .4],
+  [BEAT(20), "cap", 1.25, 52, 6, 12, .02],      // 20: Vogelperspektive
+  [BEAT(21), "fuss", 1.5, -44, -8, -8, .02],    // 21: Froschperspektive
+  [BEAT(22), "fla", .95, 8, 26, 11, .02],       // 22: schiefer Winkel
+  [BEAT(23), "zit", 3.0, 4, 10, -9, .02],       // 23: Makro Zitrone
+  [BEAT(24), "fuss", 1.15, 22, -6, 8, .02],     // 24: Splash
+  [BEAT(25), "him", 3.0, 4, -12, 10, .02],      // 25: Makro Himbeere
+  [BEAT(26), "label", 2.1, 0, -32, -7, .02],    // 26: Etikett schräg
+  [BEAT(27), "fla", .8, 30, 20, 12, .02],       // 27: Drohne weit
+  [B28, "fla", .9, 4, 0, -5, .03],              // 28: DU WEISST BESCHEID.
+  [B29, "mitte", .85, 8, -10, 7, .35]];         // 29: CTA
+const PUNCH = [[1.6, .6], [2.4, .6], [3.0, .6]];
+for (let k = -7; k < 0; k++) PUNCH.push([BEAT(k), .22 + .03 * (k + 7)]);
+for (let k = 0; BEAT(k) < ENDE; k++) PUNCH.push([BEAT(k), k === 0 ? 1.8 : k < 12 ? .55 : k < 20 ? .6 : k < 28 ? 1.0 : k === 28 ? 1.0 : .8]);
+function punchAt(t, dauer = .3) { let m = 0, sx = 0, sy = 0; PUNCH.forEach(([q, st]) => { const d = t - q; if (d >= 0 && d < dauer) { const k = 1 - d / dauer; m = Math.max(m, k * st); sx += 15 * k * st * Math.sin(d * 90); sy += 11 * k * st * Math.cos(d * 77); } }); return { m, sx, sy }; }
+function kamera(t) {
+  let i = 0; K.forEach((k, j) => { if (t >= k[0]) i = j });
+  const a = K[Math.max(0, i - 1)], b = K[i], p = i === 0 ? 1 : expo((t - b[0]) / b[6]);
+  const L = (x, y) => x + (y - x) * p, lauf = t - b[0];
+  const ta = T[a[1]], tb = T[b[1]];
+  const fx = L(ta[0], tb[0]), fy = L(ta[1], tb[1]);
+  let zoom = L(a[2], b[2]) * (1 + .05 * cl(lauf / 4)), rx = L(a[3], b[3]), ry = L(a[4], b[4]) + 3 * Math.sin(t * .6), rz = L(a[5], b[5]) + 1.2 * Math.sin(t * .45);
+  if (i === 0) { zoom *= 1 + .38 * cl(t / DROP) * cl(t / DROP); rz += 5 * cl(t / DROP); }   // Hook: langsam heranschleichen
+  if (t >= B4 && t < B20) ry += 14 * Math.sin((t - B4) * .75);                                // Drohnen-Orbit
+  const pu = punchAt(t); zoom *= 1 + .085 * pu.m;
+  $("kamera").style.transform = `translate(${MID[0] + pu.sx}px,${MID[1] + pu.sy}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${zoom}) translate(${-fx}px,${-fy}px)`;
+  return { rz, pu: pu.m };
+}
+// ---------- Hintergrund ----------
+const PAL = { gelb: ["#FFE433", "#F7C600"], pink: ["#FF2E7E", "#E01B63"], nacht: ["#14101c", "#2a1236"] };
+const CUT = ["pink", "gelb", "nacht", "gelb", "pink", "gelb", "nacht", "pink"];
+function palette(t) {
+  if (t < B12) return "gelb"; if (t < B20) return "pink";
+  if (t < B28) return CUT[Math.min(7, Math.floor((t - B20) / B + 1e-6))];
+  if (t < B29) return "nacht"; return "gelb";
+}
+const bk = (() => { const g = rnd(5), a = []; for (let i = 0; i < 16; i++) a.push({ x: g() * 1080, y: g() * 1920, r: 40 + g() * 120, v: 10 + g() * 25, ph: g() * 6 }); return a; })();
+function hintergrund(t) {
+  const el = $("bg"); let pu = 0; PUNCH.forEach(([q]) => { const d = t - q; if (d >= 0 && d < .25) pu = Math.max(pu, 1 - d / .25); });
+  if (t < DROP) {
+    el.style.background = `radial-gradient(1200px 1100px at ${28 + 8 * Math.sin(t * .7)}% 52%, rgba(255,46,126,${(.22 + .5 * (t / DROP) + .12 * pu).toFixed(3)}), transparent 72%), radial-gradient(500px 500px at 85% 20%, rgba(255,228,51,${(.08 + .08 * pu).toFixed(3)}), transparent 70%), #0D0A14`;
+    $("punkte").style.opacity = .5;
+    let s = ""; bk.forEach((b, i) => { const y = ((b.y - t * b.v) % 2000 + 2000) % 2000 - 40; s += `<circle cx="${(b.x + Math.sin(t + b.ph) * 25).toFixed(0)}" cy="${y.toFixed(0)}" r="${b.r}" fill="${i % 3 ? "#FF2E7E" : "#FFE433"}" opacity=".09"/>`; });
+    $("bokeh").innerHTML = s; return;
+  }
+  $("bokeh").innerHTML = ""; $("punkte").style.opacity = 1;
+  const pal = PAL[palette(t)], ang = t * 16 + (t >= B20 && t < B28 ? Math.floor((t - B20) / B) * 11 : 0);
+  el.style.background = `repeating-conic-gradient(from ${ang}deg at 50% 54%, ${pal[0]} 0deg 11.25deg, ${pal[1]} 11.25deg 22.5deg)`;
+}
+// ---------- Flasche ----------
+function flaschenzeichnen(t, pu) {
+  const el = $("flasche"); el.innerHTML = flasche({ welle: t * 6 });
+  let filt = "none", tr;
+  if (t < DROP) {
+    let bp = 0; PUNCH.forEach(([q]) => { const d = t - q; if (d >= 0 && d < .3) bp = Math.max(bp, 1 - d / .3); });
+    filt = `brightness(0) drop-shadow(0 0 ${5 + 10 * bp}px #FF2E7E) drop-shadow(0 0 ${30 + 25 * bp}px rgba(255,46,126,.7))`;
+    tr = `rotate(${Math.sin(t * 1.3) * 1.5}deg)`;
+  } else {
+    const p = prog(t, DROP, .22); if (p < 1) filt = `brightness(${.1 + .9 * p}) drop-shadow(0 0 ${40 * (1 - p)}px #FF2E7E)`;
+    const s = .72 + .28 * ease.back(prog(t, DROP, .4));
+    tr = `rotate(${Math.sin(t * 2.2) * 1.2}deg) scale(${s * (1 + .03 * pu)})`;
+  }
+  el.style.filter = filt; el.style.transform = tr;
+}
+// ---------- Früchte ----------
+const FR = [[4, "zitrone", 250, 640, 120, 85], [5, "himbeere", 850, 700, 160, 78], [6, "zitrone", 170, 1120, -80, 72], [7, "himbeere", 890, 1170, 60, 88],
+  [8, "zitrone", 820, 500, -150, 62], [9, "himbeere", 215, 890, 230, 60], [10, "zitrone", 870, 1420, 100, 92], [11, "himbeere", 300, 1400, 190, 72]];
+const frEl = FR.map((f, i) => { const r = f[5], d = document.createElement("div"); d.className = "fr w3";
+  d.innerHTML = `<svg width="${2 * r + 40}" height="${2 * r + 40}" viewBox="${-r - 20} ${-r - 20} ${2 * r + 40} ${2 * r + 40}" style="overflow:visible">${frucht(f[1], r)}</svg>`; $("fruchte").appendChild(d); return d; });
+function fruechte(t) {
+  FR.forEach(([k, art, x, y, z, r], i) => {
+    const ts = BEAT(k), d = frEl[i];
+    if (t < ts) { d.style.display = "none"; return; } d.style.display = "block";
+    const p = ease.back(prog(t, ts, .5)), sx = x < 540 ? -1300 : 1300, sy = -800;
+    let pu = 0; PUNCH.forEach(([q]) => { const dd = t - q; if (q >= B4 && dd >= 0 && dd < .25) pu = Math.max(pu, 1 - dd / .25); });
+    const px = lerp(x + sx, x, p), py = lerp(y + sy, y, p) + Math.sin(t * 1.6 + i) * 14;
+    const rot = (i * 57) % 360 + 360 * (1 - p) * (i % 2 ? 1 : -1) + t * (i % 2 ? 22 : -18);
+    d.style.transform = `translate3d(${px - r - 20}px,${py - r - 20}px,${z}px) rotate(${rot}deg) scale(${Math.max(.01, p) * (1 + .1 * pu)})`;
+    d.style.transformOrigin = `${r + 20}px ${r + 20}px`;
+  });
+}
+// ---------- Splash ----------
+const SPL = [[DROP, 540, 1440, 820, 3], [BEAT(24), 540, 1330, 700, 8], [B29, 540, 1420, 760, 11], [BEAT(16) + .05, 660, 1250, 330, 5]];
+function fx(t) {
+  let s = ""; SPL.forEach(([ts, x, y, kr, seed]) => { const p = (t - ts) / 1.3; if (p > 0 && p < 1) s += `<g transform="translate(${x},${y})">${splash(p, { kraft: kr, seed, n: 34, fruechte: 7 })}</g>`; });
+  $("fx").innerHTML = s;
+}
+// ---------- Etikett-Rahmen + Siegel (Lineouts) ----------
+function sternPfad(r, n = 24) { let z = ""; for (let i = 0; i < n * 2; i++) { const a = (i / (n * 2)) * Math.PI * 2, rr = i % 2 ? r : r * .88; z += `${i ? "L" : "M"}${(Math.cos(a) * rr).toFixed(1)},${(Math.sin(a) * rr).toFixed(1)}`; } return z + "Z"; }
+const SR = 105;
+function rahmen(t) {
+  let s = "";
+  const a = prog(t, B12 + .05, .45);
+  if (t >= B12 && t < BEAT(18)) {
+    const op = 1 - prog(t, BEAT(17), B);
+    s += `<rect x="372" y="935" width="336" height="348" rx="22" fill="none" stroke="${C.tinte}" stroke-width="22" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - ease.out(a)}" opacity="${op}"/>
+          <rect x="372" y="935" width="336" height="348" rx="22" fill="none" stroke="#fff" stroke-width="9" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - ease.out(a)}" opacity="${op}"/>`;
+  }
+  const t0 = BEAT(14);
+  if (t >= t0 && t < BEAT(20)) {
+    const dr = ease.out(prog(t, t0, .55)), st = prog(t, t0 + .55, .3), fadeAus = 1 - prog(t, BEAT(19), B);
+    s += `<g transform="translate(670,1240) rotate(-10)" opacity="${fadeAus}">`;
+    if (st < 1) s += `<path d="${sternPfad(SR)}" fill="none" stroke="${C.tinte}" stroke-width="12" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - dr}"/><path d="${sternPfad(SR)}" fill="none" stroke="${C.gelb}" stroke-width="5" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - dr}"/>
+        <circle r="${SR * .7}" fill="none" stroke="${C.tinte}" stroke-width="5" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - ease.out(prog(t, t0 + .2, .5))}"/>`;
+    if (st > 0) { const sc = 1.5 - .5 * ease.back(st); s += `<g opacity="${cl(st * 3)}" transform="scale(${sc})">${siegel(SR, "EHRE")}</g>`; }
+    s += `</g>`;
+  }
+  $("rahmen").innerHTML = s;
+}
+// ---------- Text-Schläge ----------
+const TX = [
+  { s: -.1, e: 2.4, y: 330, col: C.gelb, lines: [{ t: "Was ist", cap: 250 }, { t: "gelb", acc: "gelb", cap: 400, s0: 1.6 }] },
+  { s: 2.4, e: 3.0, y: 330, col: C.pink, lines: [{ t: "Und", cap: 250 }, { t: "frisch?", acc: "frisch?", cap: 330 }] },
+  { s: 3.0, e: DROP, y: 440, col: C.gelb, lines: [{ t: "Du weißt", cap: 230 }, { t: "…", acc: "…", cap: 300 }] },
+  { s: DROP, e: B4, y: 255, col: C.pink, lines: [{ t: "Ehren", fam: "f", cap: 300 }, { t: "saft.", acc: "saft.", fam: "f", cap: 300 }] },
+  { s: B12, e: BEAT(16), y: 255, col: C.gelb, lines: [{ t: "Frisch", cap: 270 }, { t: "abgefüllt.", acc: "abgefüllt.", cap: 270, s0: BEAT(13) }] },
+  { s: BEAT(16), e: B20, y: 300, col: C.gelb, lines: [{ t: "Ehrenwort.", acc: "Ehrenwort.", cap: 300, ul: true }] },
+  { s: B28, e: B29, y: 330, col: C.pink, lines: [{ t: "Du weißt", cap: 280 }, { t: "Bescheid.", acc: "Bescheid.", cap: 300 }] },
+  { s: B29, e: 99, y: 270, col: C.pink, pulse: true, lines: [{ t: "Bald.", acc: "Bald.", cap: 440, ul: true }] }];
+const wcache = {};
+function breite(L) {
+  const key = L.t + (L.fam || ""); if (wcache[key]) return wcache[key];
+  const m = $("mess"); m.style.fontFamily = L.fam === "f" ? "var(--fett)" : "var(--display)"; m.textContent = L.t;
+  const w = m.getBoundingClientRect().width;
+  if (document.fonts.check("100px Anton") && document.fonts.check('100px "Bowlby One"')) wcache[key] = w; return w;
+}
+function texte(t) {
+  let h = "";
+  TX.forEach(it => {
+    if (t < it.s || t >= it.e) return;
+    let y = it.y;
+    it.lines.forEach(L => {
+      const s0 = L.s0 !== undefined ? L.s0 : it.s; if (t < s0) return;
+      const w100 = breite(L) || 400, maxW = L.maxW || 840, sz = Math.min(L.cap || 260, 100 * maxW / w100);
+      const q = cl((t - s0) / .16), sc = 1 + .7 * Math.pow(1 - q, 2), rot = (1 - q) * -4, op = cl(q * 3);
+      let pu = 0; if (it.pulse) PUNCH.forEach(([qq]) => { const d = t - qq; if (qq >= B29 && d >= 0 && d < .25) pu = Math.max(pu, 1 - d / .25); });
+      const acc = (L.acc || "").split(" ");
+      const spans = L.t.split(" ").map(w => `<span style="color:${acc.includes(w) ? it.col : "#fff"}">${w}</span>`).join("");
+      h += `<div class="zl" style="top:${y}px;font-size:${sz}px;font-family:${L.fam === "f" ? "var(--fett)" : "var(--display)"};opacity:${op};transform:skewX(-9deg) rotate(${rot}deg) scale(${sc * (1 + .07 * pu)})">${spans}</div>`;
+      if (L.ul) {
+        const w = sz * w100 / 100, u = ease.out(prog(t, s0 + .22, .3)), d = `M0,16 Q${w * .125},0 ${w * .25},16 T${w * .5},16 T${w * .75},16 T${w},16`;
+        h += `<svg style="position:absolute;left:${500 - w / 2}px;top:${y + sz * .93}px;overflow:visible" width="${w}" height="34"><path d="${d}" fill="none" stroke="${C.tinte}" stroke-width="30" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - u}"/><path d="${d}" fill="none" stroke="${it.col === C.pink ? C.gelb : C.pink}" stroke-width="16" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - u}"/></svg>`;
+      }
+      y += sz * .97;
+    });
+  });
+  $("txt").innerHTML = h;
+}
+// ---------- Rand-Zähler ----------
+const CNT = [[BEAT(4), "Zitrone", 1], [BEAT(6), "Himbeere", 2], [BEAT(8), "Echte Früchte", 3], [BEAT(10), "Süß-sauer", 4], [BEAT(12), "Urkunde", 5], [BEAT(14), "Siegel", 6], [BEAT(16), "Ehrenwort", 7], [BEAT(18), "Frisch", 8]];
+for (let k = 20; k < 28; k++) CNT.push([BEAT(k), "Ehrensaft", k - 11]);
+function zaehler(t) {
+  const el = $("zaehler"); let k = -1; CNT.forEach((c, j) => { if (t >= c[0]) k = j });
+  if (k < 0 || t >= B28) { el.style.display = "none"; return; }
+  el.style.display = "block";
+  const [t0, ti, n] = CNT[k], pn = k ? CNT[k - 1][2] : 0;
+  const e = over((t - t0) / .28), roll = Math.round(lerp(pn, n, ease.out(prog(t, t0, .22))));
+  const out = k === CNT.length - 1 ? prog(t, B28 - .2, .2) : 0;
+  el.style.opacity = cl(e * 2) * (1 - out); el.style.transform = `translateX(${(1 - e) * -520 - out * 300}px)`;
+  const pal = palette(t), fg = pal === "pink" || pal === "nacht" ? C.gelb : C.pink;
+  $("zti").textContent = ti; $("zti").style.background = pal === "pink" ? C.tinte : C.pink;
+  const num = String(roll).padStart(2, "0"); el.querySelector(".voll").textContent = num; el.querySelector(".echo").textContent = num; el.querySelector(".echo").style.webkitTextStrokeColor = fg;
+  let pu = 0; PUNCH.forEach(([q]) => { const d = t - q; if (d >= 0 && d < .25) pu = Math.max(pu, 1 - d / .25); });
+  $("znum").style.transform = `skewX(-9deg) scale(${1 + .12 * pu})`; el.querySelector(".echo").style.transform = `translate(${10 * pu}px,${8 * pu}px)`;
+}
+// ---------- CTA-Banner ----------
+function cta(t) {
+  const b = $("banner"); if (t < B29 + .12) { b.style.opacity = 0; return; }
+  const e = over((t - B29 - .12) / .3); let pu = 0; PUNCH.forEach(([q]) => { const d = t - q; if (q >= B29 && d >= 0 && d < .25) pu = Math.max(pu, 1 - d / .25); });
+  b.style.opacity = cl(e * 2); b.style.transform = `translateY(${(1 - e) * 500}px) rotate(${-3 + (1 - e) * 8}deg) scale(${1 + .05 * pu})`;
+}
+function blitz(t) {
+  const f = Math.max(.9 * (1 - prog(t, DROP, .22)) * (t >= DROP), .45 * (1 - prog(t, B29, .2)) * (t >= B29), .3 * (1 - prog(t, B28, .15)) * (t >= B28));
+  $("blitz").style.opacity = f;
+}
+window.zeichne = t => {
+  hintergrund(t); const c = kamera(t);
+  flaschenzeichnen(t, c.pu); fruechte(t); fx(t); rahmen(t);
+  zaehler(t); texte(t); cta(t); blitz(t);
+};
+window.zeichne(0);
+</script>
+</body></html>
