@@ -21,3 +21,9 @@ Gemeinsamer Stil (steht schon in jedem Prompt): saubere, helle zitronengelbe Stu
 | 8 | CTA-Ende (Gesang) | Clean hero shot: a clear glass bottle of bright lemon-yellow juice with raspberry pieces stands centered on a seamless pale lemon-yellow studio floor, very slow push-in, a soft light glint travels across the glass, lemon slices and raspberries resting at the base, empty space above the bottle for text, premium commercial, no people, no hands, no text, no logos |
 
 **Optional:** Dein echtes Flaschen-Video in der App mit **Video Background Remover** freistellen – dann baue ich zusätzlich echte Shots auf Gelb ein.
+
+## Umgesetzt (16.11., 19:10 UTC)
+Higgsfield-Probe-Abo: 10 Credits, unbegrenzt nicht aktiv → 2 Shots mit Seedance 2.0 Mini (720p, 4 s, je 4 Credits):
+Shot 2 (Crash-Zoom + Splash, Job 24e04745…) und Shot 8 (Held mit Orbit, Job 1a4149b0…). `schnitt.py` macht daraus 17 Einstellungen
+(Ausschnitte, schräg, gespiegelt, Zeitlupe), gradet den Hintergrund auf Hellgelb, Crash-Zoom-Einschlag genau auf dem Drop (3,74 s).
+Fertig: `tiktok.mp4` (ohne Song – in TikTok „Flower In A Hurricane“ ab 0:44 setzen), Text in `text.txt`.

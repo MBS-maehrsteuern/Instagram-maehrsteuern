@@ -51,3 +51,8 @@ Regeln im Detail: `strategie/22_wissen_schnitt_stil.md`. Diese Datei ist die Bau
 ## Lernpunkte aus den Zahlen
 - i05 erreichte viele Nicht-Follower, aber Ø 6 s von 22 s → **die ersten 3 s müssen noch härter ziehen** (Hook-Satz knapper, Drop früher testen, z. B. Hook 2 s).
 - Likes kamen am Anfang und am Ende (CTA) → CTA-Moment funktioniert.
+
+## KI-Shots mit Higgsfield (Ehrensaft-TikTok, 16.11.)
+- Connector „Higgsfield“ (voller MCP) kann erzeugen: `generate_video_batch` → `jobs_wait` → Ergebnis-URLs herunterladen. Vorher `get_cost:true` prüfen und bei Kosten Loris fragen.
+- Preise (9:16, ohne Ton): Seedance 2.5 1080p 5 s = 80 Credits, Seedance 2.0 Mini 720p 4 s = 4, Grok Lite 720p 3 s = 3.
+- Aus wenigen Shots viele Einstellungen machen: `ehrensaft/posts/18_tiktok_higgsfield/schnitt.py` (Ausschnitt, Drehung, Spiegeln, Zeitlupe, Farb-Grade), Grafik-Ebene `overlay.html` + `render_overlay.mjs` + `zusammen.py`, Effekte mit `effekte.py`.
