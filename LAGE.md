@@ -1,10 +1,10 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 15.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung So 15.11. 21:58 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o08-story-beamter-oder-frei` (pausiert) · 🟡 17:45 🎬 Reel `o08-reel-beamter-oder-frei` (pausiert) · ✅ 17:45 🎬 Reel `i09-reel-insider-elterngeld` (online)
+- **Heute online:** 🟡 12:15 📱 Story `o09-story-steuerklasse-3-5` (pausiert) · 🟡 17:45 🎬 Reel `o09-reel-steuerklasse-3-5` (pausiert) · 🟢 17:45 🎬 Reel `i05-reel-insider-finanzbeamte` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **10635** (08.11.–14.11., -86 % zur Vorwoche) · Follower **+128** (jetzt 1273) · 30 Tage: +927 Follows / −22 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -92,7 +92,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| So 15.11. 17:45 | 🎬 Reel `o08-reel-beamter-oder-frei` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M7, Zielgruppen-Match 73 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 15.11. – Match 73 % + Tages-Passung +8 = 81. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mo 16.11. 12:15 | 📱 Story `o09-story-steuerklasse-3-5` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o09-reel-steuerklasse-3-5 (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mo 16.11. 17:45 | 🎬 Reel `o09-reel-steuerklasse-3-5` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I18, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 16.11. – Match 71 % + Tages-Passung +6 = 77. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mo 16.11. 17:45 | 🎬 Reel `i05-reel-insider-finanzbeamte` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-20 → 2026-11-16 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-10 → 2026-12-20 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-12-04 → 2026-11-10 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 27.10. 17:35: Platz an Mein Weg #01 abgegeben (Loris), neu 04.12. |
@@ -254,6 +253,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **So 15.11.2026**
+- 21:58 ✍️ Wochenbericht KW 2026-46 ([`b175063`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b175063e5402df328deb69be6a3addfd8f98137b))
+  - `automatik/statistik`
 - 17:45 🤖 Autopilot: i09-reel-insider-elterngeld veroeffentlicht ([`073d9a8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/073d9a8d4adfed5ae849d268b098c0797dfecfdd))
   - Plan: `i09-reel-insider-elterngeld` status: freigegeben → veroeffentlicht; `i09-reel-insider-elterngeld` online: https://www.instagram.com/reel/DfxHtyTD07E/
 - 16:36 🤖 Autopilot: Dateien fuer i09-reel-insider-elterngeld vorbereitet ([`4d9121d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4d9121da82ae5f0fd697fb09d31e5b804f127f31))
@@ -347,6 +348,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:20 ✍️ Storys o03–o40: Ja/Nein-Fragen mit Ein-Tipp-Reaktion (👏/😮) ([`62090fb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/62090fb4d4390148b1bb6c81e85ac4e4fcec0c24))
   - `LAGE.html`, `automatik/lage_notizen.md`, `posts/o03_2026-11-10_2022_nachholen`, `posts/o04_2026-11-11_eltern_pflegen`, `posts/o05_2026-11-12_nebenkosten`, `posts/o06_2026-11-13_familienfeier`, `…`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 09.11.2026**
 - 17:45 🤖 Autopilot: o02-reel-mythos-gehalt veroeffentlicht ([`fd19e85`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/fd19e851b730b2ecf89917315a528cd507776b63))
   - Plan: `o02-reel-mythos-gehalt` status: freigegeben → veroeffentlicht; `o02-reel-mythos-gehalt` online: https://www.instagram.com/reel/DfhrYclDiz6/
@@ -364,8 +367,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:25 📈 Statistik 2026-11-09 ([`233cc37`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/233cc37ed1757a0efae43f7c5a5ad35ee8200a3a))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 08.11.2026**
 - 20:05 ✍️ Wochenbericht KW 2026-45 ([`f26135e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f26135e7233bec09dd8fdb51113a3b31de6af8ab))
