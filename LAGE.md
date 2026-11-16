@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 15:58 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 16:11 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -254,6 +254,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 16.11.2026**
+- 16:11 ✍️ i05 im neuen Schnitt-Stil neu gebaut (echtes Gesicht, Wort-Untertitel, Editor-Timeline) ([`256d4c7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/256d4c7df9a207b8e7a758067a4b425a76304c7f))
+  - `LAGE.html`, `automatik/interaktion.json`, `automatik/lage_notizen.md`, `posts/i05_2026-10-26_insider_finanzbeamte`, `strategie/22_wissen_schnitt_stil.md`, `vorlagen/system/premium/insider_05_v2.html`, `…`
 - 15:58 ✍️ Lage-Übersicht neu erzeugt (Sitzungsstart 16.11.) ([`dfd2043`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/dfd20438a7308698de494a6e9ab8dc1a6e8d6629))
   - `LAGE.html`
 - 09:21 📈 Statistik 2026-11-16 ([`ea9d1ef`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ea9d1ef6aab5ac9c2ced604139ce898d0400c021))
