@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Finanzamt-Insider #05 im Gerba-Stil (Loris 16.11.): Kamera fliegt wie eine Drohne über die Anlage N,
+     Crash-Zooms / Reißschwenks (Unschärfe danach per effekte.py, siehe insider_05_gerba_effekte.json), schiefe Winkel,
+     Speed-Ramps. Formular fast ohne Wörter – Titel + Zahl zählen groß am Rand hoch, Linien zeichnen sich (Lineouts). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--rand:#1E3A31;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;--gelb:#E8B04A;
+  --serif:"IBM Plex Serif",serif;--sans:"IBM Plex Sans",sans-serif;--mono:"IBM Plex Mono",monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(1000px 900px at var(--bx,50%) 55%,rgba(83,195,162,.14),transparent 70%),var(--bg)}
+#raster{position:absolute;inset:-200px;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:54px 54px}
+/* Untertitel im Gerba-Look: groß, kursiv, Großbuchstaben, ein Akzentwort */
+#ut{position:absolute;left:40px;right:40px;top:250px;height:260px;z-index:6;display:flex;flex-wrap:wrap;justify-content:center;align-content:center;gap:0 30px;
+  font-family:"Outfit";font-size:118px;line-height:1.02;letter-spacing:-.01em;text-transform:uppercase;transform:skewX(-9deg)}
+#ut span{display:inline-block;color:#fff;text-shadow:0 8px 0 rgba(0,0,0,.55),0 0 40px rgba(0,0,0,.6)}
+#ut span.akz{color:var(--gruen2);text-shadow:0 8px 0 rgba(0,0,0,.55),0 0 50px rgba(83,195,162,.6)}
+/* Bühne */
+#buehne{position:absolute;left:0;right:0;top:470px;height:1150px;perspective:1300px}
+#kamera{position:absolute;inset:0;transform-style:preserve-3d;transform-origin:540px 575px}
+#blatt{position:absolute;left:90px;width:900px;border-radius:30px;border:2px solid var(--rand);
+  background:linear-gradient(180deg,rgba(15,30,25,.97),rgba(8,14,12,.98));box-shadow:0 60px 160px rgba(0,0,0,.75),0 0 100px rgba(83,195,162,.12);padding:46px}
+.fkopf{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--rand);padding-bottom:28px}
+.fkopf .an{font-family:"Outfit";font-size:120px;line-height:.9;letter-spacing:-.03em}
+.fkopf .an span{color:var(--gruen2);text-shadow:0 0 40px rgba(83,195,162,.5)}
+.fkopf b{font-family:"Outfit";font-size:62px;border:3px solid var(--rand);border-radius:14px;padding:4px 20px}
+.zeile{position:relative;display:flex;align-items:center;gap:26px;padding:26px 24px;margin-top:16px;border-radius:20px}
+.zeile .kb{width:52px;height:52px;border-radius:12px;border:3px solid #2b443a;flex:none;position:relative}
+.zeile .kb svg{position:absolute;inset:-3px}
+.zeile .ti{flex:1;font-family:"Outfit";font-size:50px;color:var(--text2)}
+.zeile .strich{flex:1;height:16px;border-radius:8px;background:#1a2a24}
+.zeile .wert{width:360px;height:110px;border-radius:16px;border:2px solid #22352E;background:#07100c;display:flex;align-items:center;justify-content:flex-end;gap:18px;padding:0 24px;
+  font-family:"Outfit";font-size:62px;color:var(--gruen2);white-space:nowrap;overflow:hidden}
+.zeile.dim{opacity:.35}
+.zeile.an{background:rgba(83,195,162,.10)}.zeile.an .ti{color:#fff}
+.lineout{position:absolute;inset:-6px;pointer-events:none;overflow:visible}
+.lineout rect{fill:none;stroke:var(--gruen2);stroke-width:5;filter:drop-shadow(0 0 12px rgba(83,195,162,.9))}
+.summe{margin-top:40px;border-top:2px solid var(--rand);padding-top:110px}
+.balken{position:relative;display:flex}
+.zone{flex:1;height:150px;display:flex;align-items:center;justify-content:center;font-family:"Outfit";font-size:50px;color:var(--grau);border:3px solid #2b443a}
+#mark{position:absolute;left:50%;top:-30px;bottom:-30px;width:8px;margin-left:-4px;background:var(--gelb);box-shadow:0 0 30px var(--gelb);transform-origin:50% 100%}
+#marklab{position:absolute;left:50%;top:-95px;transform:translateX(-50%);font-family:"Outfit";font-size:56px;color:var(--gelb);white-space:nowrap}
+/* Foto-Hook */
+#foto{position:absolute;left:60px;top:0;transform-origin:50% 50%;width:960px;height:1150px;border-radius:44px;overflow:hidden;border:4px solid var(--gruen);box-shadow:0 0 100px rgba(83,195,162,.4);z-index:3}
+#foto img{width:100%;height:100%;object-fit:cover;object-position:50% 28%}
+#foto .verlauf{position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(7,12,10,.93) 90%)}
+#foto .badge{position:absolute;left:50px;top:50px;font-family:var(--mono);font-size:32px;letter-spacing:.14em;padding:14px 26px;border-radius:999px;background:rgba(7,12,10,.78);border:2px solid var(--gruen);color:var(--gruen2)}
+#foto .titel{position:absolute;left:50px;right:40px;bottom:70px;transform:skewX(-8deg)}
+#foto h1{font-family:"Outfit";font-size:112px;line-height:1;letter-spacing:-.02em;text-transform:uppercase}
+#foto h2{font-family:"Outfit";font-size:76px;line-height:1.05;color:var(--gruen2);text-transform:uppercase;text-shadow:0 0 40px rgba(83,195,162,.5)}
+/* Rand-Anzeige: Titel + Zahl zählen hoch, mit Lineout-Echo */
+#hud{position:absolute;left:60px;top:1290px;z-index:5;transform-origin:0 50%}
+#hudbg{position:absolute;left:0;right:0;top:1180px;height:520px;z-index:4;background:linear-gradient(180deg,transparent,rgba(7,12,10,.88) 30%,rgba(7,12,10,.92) 80%,transparent)}
+#hudti{font-family:"Outfit";font-size:58px;letter-spacing:.04em;color:var(--gruen2);text-transform:uppercase;transform:skewX(-9deg);text-shadow:0 6px 0 rgba(0,0,0,.6)}
+#hudzahl{position:relative;font-family:"Outfit";font-size:230px;line-height:.95;letter-spacing:-.04em;transform:skewX(-9deg);white-space:nowrap}
+#hudzahl .voll{position:relative;color:#fff;text-shadow:0 10px 0 rgba(0,0,0,.55)}
+#hudzahl .echo{position:absolute;left:18px;top:14px;color:transparent;-webkit-text-stroke:3px var(--gruen2);opacity:.75}
+#hudsub{font-family:var(--mono);font-size:30px;letter-spacing:.16em;color:var(--text2);margin-top:6px}
+#lineal{position:absolute;right:34px;top:560px;width:70px;height:1000px;z-index:5;overflow:hidden;
+  background-image:repeating-linear-gradient(180deg,rgba(127,224,194,.55) 0 3px,transparent 3px 40px),repeating-linear-gradient(180deg,rgba(127,224,194,.25) 0 2px,transparent 2px 10px);
+  background-size:40px 100%,22px 100%;background-repeat:repeat-y;background-position:right var(--ly,0px),right var(--ly,0px);mask-image:linear-gradient(180deg,transparent,#000 15%,#000 85%,transparent)}
+#linealtext{position:absolute;right:120px;top:1060px;z-index:5;font-family:var(--mono);font-size:24px;letter-spacing:.3em;color:var(--grau);transform:rotate(-90deg);transform-origin:100% 50%;white-space:nowrap}
+/* Schluss */
+#schluss{position:absolute;left:70px;right:70px;top:640px;opacity:0;z-index:4}
+.cta{text-align:center;font-family:"Outfit";font-size:110px;line-height:1;text-transform:uppercase;transform:skewX(-9deg);margin:30px 0 50px}
+.cta span{color:var(--gruen2);text-shadow:0 0 50px rgba(83,195,162,.6)}
+.feld{display:flex;align-items:center;gap:22px;border-radius:999px;border:3px solid #2b443a;background:#0B1411;padding:28px 38px;font-size:46px;color:var(--grau)}
+.feld .ava{width:72px;height:72px;border-radius:50%;background:var(--gruen);flex:none}
+.feld b{color:#fff;font-family:"Outfit";letter-spacing:.04em}
+.dm{margin-top:40px;border-radius:34px;border:2px solid var(--rand);background:rgba(13,22,19,.97);padding:30px 34px;display:flex;gap:24px;align-items:flex-start;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.dm img{width:88px;height:88px;border-radius:50%;object-fit:cover;object-position:50% 20%;border:2px solid var(--gruen)}
+.dm .n{font-weight:700;font-size:34px}.dm .n span{color:var(--grau);font-weight:400;font-size:28px}
+.dm .t{font-size:40px;line-height:1.3;margin-top:8px;color:var(--text2)}.dm .t b{color:var(--gruen2)}
+#fuss{position:absolute;left:60px;bottom:250px;display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:28px;color:var(--text2);font-weight:600;z-index:5}
+#fuss i{width:26px;height:26px;border-radius:50%;background:var(--gruen);box-shadow:0 0 16px var(--gruen)}
+</style><title>Finanzamt-Insider 05 – Gerba-Stil</title></head><body>
+<div id="bg"></div><div id="raster"></div>
+<div id="ut"></div>
+<div id="buehne"><div id="kamera">
+ <div id="blatt">
+  <div class="fkopf"><div class="an">Anlage <span>N</span></div><b>2026</b></div>
+  <div class="zeile" id="z_home"><span class="kb" id="kb_home"></span><span class="ti">Homeoffice</span><div class="wert" id="w_home"></div></div>
+  <div class="zeile dim"><span class="kb"></span><span class="strich"></span><div class="wert"></div></div>
+  <div class="zeile" id="z_fahrt"><span class="kb" id="kb_fahrt"></span><span class="ti">Fahrten</span><div class="wert" id="w_fahrt"></div></div>
+  <div class="zeile dim"><span class="kb"></span><span class="strich"></span><div class="wert"></div></div>
+  <div class="zeile" id="z_arbeit"><span class="kb" id="kb_arbeit"></span><span class="ti">Arbeitsmittel</span><div class="wert" id="w_arbeit">
+   <svg viewBox="0 0 24 24" width="84" height="84" fill="none" stroke="#7FE0C2" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path id="p_lap" pathLength="1" d="M4 15V6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5V15M2 19h20"/></svg>
+   <svg viewBox="0 0 24 24" width="84" height="84" fill="none" stroke="#7FE0C2" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path id="p_tisch" pathLength="1" d="M2.5 8h19v2.5h-19zM5 10.5V19M19 10.5V19M14 10.5v5h5"/></svg></div></div>
+  <div class="zeile dim"><span class="kb"></span><span class="strich"></span><div class="wert"></div></div>
+  <div class="summe" id="summe"><div class="balken"><div class="zone" id="zo1" style="border-radius:20px 0 0 20px">Pauschbetrag</div><div class="zone" id="zo2" style="border-left:none;border-radius:0 20px 20px 0">lohnt sich</div>
+   <div id="mark"><div id="marklab">1.230 €</div></div></div></div>
+ </div>
+</div>
+ <div id="foto"><img src="../../../assets/marke/loris_portrait.jpg"><div class="verlauf"></div><div class="badge">EX-FINANZAMT · DIPLOM-FINANZWIRT</div>
+  <div class="titel"><h1>Finanzbeamte</h1><h2>setzen das selbst ab.</h2></div></div>
+</div>
+<div id="lineal"></div><div id="linealtext">ANLAGE N · 2026 · WERBUNGSKOSTEN</div>
+<div id="hudbg"></div><div id="hud"><div id="hudti"></div><div id="hudzahl"><span class="echo"></span><span class="voll"></span></div><div id="hudsub"></div></div>
+<div id="schluss">
+ <div class="cta">Kommentiere<br><span>ABZUG</span></div>
+ <div class="feld" id="feld"><span class="ava"></span><span id="tipp">Kommentar hinzufügen …</span></div>
+ <div class="dm" id="dm"><img src="../../../assets/marke/loris_portrait.jpg"><div><div class="n">maehrsteuern <span>· jetzt</span></div><div class="t">Hier ist deine <b>Abzugs-Liste</b> für die Steuererklärung 👉</div></div></div>
+</div>
+<div id="fuss"><i></i>maehrsteuern</div>
+<script src="insider_05_daten.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
+const expo=x=>{x=cl(x);return x>=1?1:1-Math.pow(2,-10*x)};          // Speed-Ramp: schnell rein, langsam aus
+const over=x=>{x=cl(x);const c=2.2,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+// Untertitel: max. 2 Wörter, Akzentwörter grün, jedes neue Wort knallt rein
+const AKZ=new Set(["Finanzbeamte","Steuererklärung","Homeoffice,","1.260","2026","38","Kilometer.","Arbeitsmittel","1.230","Pauschbetrag.","Speichern"]);
+const G=[];let g=[];WF.forEach((w,i)=>{g.push(i);if(/[.,:?]$/.test(w[0])&&!/^\d+\.$/.test(w[0])||g.length>=2){G.push(g);g=[]}});if(g.length)G.push(g);
+function untertitel(t){
+  const ut=$("ut");
+  const gi=G.findIndex((gr,i)=>t>=WF[gr[0]][1]-0.04&&(i===G.length-1||t<WF[G[i+1][0]][1]-0.04));
+  if(gi<0||t>=24.0){ut.innerHTML="";return}
+  const da=G[gi].filter(j=>t>=WF[j][1]-0.04);
+  ut.innerHTML=da.map(i=>{const p=ease((t-WF[i][1]+0.04)/0.12);
+    const L=WF[i][0].length;return `<span class="${AKZ.has(WF[i][0])?"akz":""}" style="font-size:${L>13?84:L>10?100:118}px;transform:scale(${1.55-.55*p});opacity:${cl(p*2)}">${WF[i][0].replace(/[,:]$/,"")}</span>`}).join("");
+}
+// Kamera-Keyframes: [Zeit, Ziel, Zoom, rotX, rotY, rotZ, Dauer]  (Ziel = Element, dessen Mitte ins Bild fährt)
+const K=[[0,"blatt",.5,0,0,-25,.1],[2.25,"blatt",.56,0,0,-14,.5],[4.3,"z_home",1.45,38,0,9,.35],[9.46,"z_fahrt",1.45,30,-18,-10,.3],
+  [15.56,"z_arbeit",1.38,24,28,6,.4],[19.24,"summe",1.15,48,0,-6,.45],[24.02,"blatt",.5,0,0,14,.4]];
+const mitte=id=>{const e=$(id);return id==="blatt"?e.offsetHeight/2:e.offsetTop+e.offsetHeight/2};
+const PUNCH=[1.44,2.9,5.54,7.26,11.62,12.8,13.82,17.3,18.08,20.3,23.06];   // Stöße auf betonte Wörter
+function kamera(t){
+  let i=0;K.forEach((k,j)=>{if(t>=k[0])i=j});
+  const a=K[Math.max(0,i-1)],b=K[i],p=i===0?1:expo((t-b[0])/b[6]);
+  const L=(x,y)=>x+(y-x)*p;
+  const lauf=t-b[0];                                                     // langsames Weiterdriften nach der Rampe
+  let zoom=L(a[2],b[2])*(1+0.05*cl(lauf/5)), rx=L(a[3],b[3]), ry=L(a[4],b[4])+3*Math.sin(t*.6), rz=L(a[5],b[5])+(i===1?14*ease(lauf/1.8):0)+1.2*Math.sin(t*.45);
+  let pu=0,sx=0,sy=0;PUNCH.forEach(q=>{const d=t-q;if(d>=0&&d<.35){const k=1-d/.35;pu=Math.max(pu,k);sx+=14*k*Math.sin(d*90);sy+=10*k*Math.cos(d*77)}});
+  zoom*=1+0.07*pu;
+  const fy=L(mitte(a[1]),mitte(b[1]));
+  $("blatt").style.top=(575-fy)+"px";
+  $("kamera").style.transform=`translate(${sx}px,${sy}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${zoom})`;
+  $("raster").style.transform=`rotate(${rz*.6}deg) scale(${1+.2*zoom})`;
+  $("lineal").style.setProperty("--ly",(t*260+fy*.6)+"px");
+}
+// Lineouts: Rahmen um die aktive Zeile zeichnet sich, Haken zeichnet sich
+function lineout(id,t,t0){
+  const z=$(id);let s=z.querySelector(".lineout");
+  if(!s){z.insertAdjacentHTML("beforeend",`<svg class="lineout" width="${z.offsetWidth+12}" height="${z.offsetHeight+12}"><rect x="3" y="3" rx="22" width="${z.offsetWidth+6}" height="${z.offsetHeight+6}" pathLength="1" stroke-dasharray="1" /></svg>`);s=z.querySelector(".lineout")}
+  s.querySelector("rect").style.strokeDashoffset=1-ease((t-t0)/.45);s.style.opacity=t<t0?0:1;
+}
+function haken(id,t,t0){const k=$(id);if(!k.firstChild)k.innerHTML=`<svg width="58" height="58" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" pathLength="1" stroke-dasharray="1" fill="none" stroke="#7FE0C2" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  k.querySelector("path").style.strokeDashoffset=1-ease((t-t0)/.3);k.style.borderColor=t>=t0?"var(--gruen)":"#2b443a"}
+// Rand-Anzeige
+function hud(t){
+  let ti="",z="",sub="",t0=0;
+  const zahl=(von,bis,a,d,fmt)=>fmt(von+(bis-von)*ease((t-a)/d));
+  const eur=v=>Math.round(v).toLocaleString("de-DE")+" €";
+  if(t>=4.4&&t<9.46){t0=4.4;ti="Homeoffice";
+    if(t<7.26){z=t<5.54?"0 €":zahl(0,6,5.54,.35,eur);sub=t>=6.32?"PRO TAG":""}else{z=zahl(6,1260,7.26,.9,eur);sub="IM JAHR · MAXIMAL"}}
+  else if(t>=9.56&&t<15.56){t0=9.56;ti="Fahrten";z=t<12.8?"0,00 €":zahl(0,38,12.8,.45,v=>"0,"+String(Math.round(v)).padStart(2,"0")+" €");
+    sub=(t>=11.62?"SEIT 2026":"")+(t>=13.82?" · PRO KM AB KM 1":"")}
+  else if(t>=15.7&&t<19.24){t0=15.7;ti="Arbeitsmittel";z=t<17.3?"":t<18.08?"Laptop":"+ Tisch";sub=t>=17.3?"LAPTOP · SCHREIBTISCH":""}
+  else if(t>=19.34&&t<24.02){t0=19.34;ti="Lohnt sich ab";z=t<20.3?"0 €":zahl(0,1230,20.3,.8,eur);sub=t>=22.94?"DARUNTER: PAUSCHBETRAG":""}
+  const h=$("hud");$("hudbg").style.opacity=ti?1:0;
+  if(!ti){h.style.opacity=0;return}
+  const e=over((t-t0)/.35);h.style.opacity=cl(e*2);h.style.transform=`translateX(${(1-e)*-500}px)`;
+  $("hudti").textContent=ti;$("hudzahl").querySelector(".voll").textContent=z;$("hudzahl").querySelector(".echo").textContent=z;$("hudsub").textContent=sub;
+  let pu=0;PUNCH.forEach(q=>{const d=t-q;if(d>=0&&d<.3)pu=Math.max(pu,1-d/.3)});
+  $("hudzahl").style.transform=`skewX(-9deg) scale(${1+.12*pu})`;$("hudzahl").style.transformOrigin="0 80%";
+  $("hudzahl").querySelector(".echo").style.transform=`translate(${10*pu}px,${8*pu}px)`;
+}
+function render(t){
+  $("bg").style.setProperty("--bx",(50+14*Math.sin(t/2.5))+"%");
+  kamera(t);
+  // Foto-Hook 0–2,25 s: Crash-Zoom rein, schief, dann Reißschwenk raus
+  const fin=expo(t/.3),fout=ease((t-2.1)/.3);
+  $("foto").style.display=fout>=1?"none":"block";
+  $("foto").style.transform=`translateX(${-1400*fout}px) rotateZ(${-5+4*cl(t/2)}deg) scale(${(1.3-.3*fin)*(1+.04*cl(t/2))})`;
+  $("blatt").style.opacity=t<2.1?0:1;
+  // Überblick 2,25–4,3: Zeilen blitzen auf
+  [["z_home",2.6],["z_fahrt",2.85],["z_arbeit",3.1]].forEach(([id,a])=>{const an=(t>=a&&t<4.3)||(id==="z_home"&&t>=4.3&&t<9.46)||(id==="z_fahrt"&&t>=9.46&&t<15.56)||(id==="z_arbeit"&&t>=15.56&&t<19.24);$(id).classList.toggle("an",an)});
+  lineout("z_home",t,4.45);lineout("z_fahrt",t,9.6);lineout("z_arbeit",t,15.75);
+  $("z_home").querySelector(".lineout").style.display=t<9.46?"block":"none";
+  $("z_fahrt").querySelector(".lineout").style.display=t>=9.46&&t<15.56?"block":"none";
+  $("z_arbeit").querySelector(".lineout").style.display=t>=15.56&&t<19.24?"block":"none";
+  // Feldwerte
+  $("w_home").textContent=t<5.54?"":t<7.26?"6 €":Math.round(6+(1260-6)*ease((t-7.26)/.9)).toLocaleString("de-DE")+" €";
+  $("w_fahrt").textContent=t<12.8?"":"0,38 €";
+  $("p_lap").style.strokeDasharray=1;$("p_lap").style.strokeDashoffset=1-ease((t-17.3)/.5);
+  $("p_tisch").style.strokeDasharray=1;$("p_tisch").style.strokeDashoffset=1-ease((t-18.08)/.5);
+  haken("kb_home",t,8.3);haken("kb_fahrt",t,13.82);haken("kb_arbeit",t,18.3);
+  // Grenze
+  const m=over((t-20.3)/.4);$("mark").style.opacity=cl(m*2);$("mark").style.transform=`scaleY(${m})`;
+  const z1=t>=22.94,z2=t>=21.32;
+  $("zo1").style.color=z1?"#fff":"var(--grau)";$("zo1").style.background=z1?"rgba(139,150,145,.18)":"transparent";
+  $("zo2").style.color=z2?"var(--gruen2)":"var(--grau)";$("zo2").style.background=z2?"rgba(83,195,162,.16)":"transparent";$("zo2").style.borderColor=z2?"var(--gruen)":"#2b443a";
+  hud(t);
+  // Schluss
+  const s=over((t-24.15)/.4);$("schluss").style.opacity=cl(s*2);$("schluss").style.transform=`skewX(${-8*(1-s)}deg) translateX(${(1-s)*600}px)`;
+  $("buehne").style.opacity=1-0.8*ease((t-24.1)/.3);
+  const n=Math.floor(cl((t-25.2)*8,0,5));
+  $("tipp").innerHTML=n?`<b>${"ABZUG".slice(0,n)}</b>${n<5?"▍":""}`:"Kommentar hinzufügen …";
+  $("feld").style.borderColor=n?"var(--gruen)":"#2b443a";
+  const d=over((t-26.2)/.45);$("dm").style.opacity=cl(d*1.4);$("dm").style.transform=`translateY(${(1-d)*80}px) scale(${.9+.1*d})`;
+  untertitel(t);
+}
+window.render=render;render(0);
+</script>
+</body></html>

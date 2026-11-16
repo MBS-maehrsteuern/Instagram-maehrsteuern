@@ -22,6 +22,8 @@ with tempfile.TemporaryDirectory() as tmp:
         bild, vcodec = ["-i", str(alt)], ["-c:v", "copy"]
     else:
         subprocess.run(["node", "rendern.mjs", f"{name}.html", str(dauer), tmp], check=True, cwd=hier)
+        if (hier / f"{name}_effekte.json").exists():  # Kamera-Effekte (Crash-Zoom, Reißschwenk) – effekte.py
+            subprocess.run([sys.executable, "effekte.py", tmp, f"{name}_effekte.json"], check=True, cwd=hier)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", f"{tmp}/f00000.jpg", str(post / "titelbild.png")], check=True)
         bild, vcodec = ["-framerate", "30", "-i", f"{tmp}/f%05d.jpg"], ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18"]
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *bild, "-i", str(post / "ton/stimme.wav"),
