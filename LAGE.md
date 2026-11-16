@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 16:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 16:38 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -254,6 +254,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 16.11.2026**
+- 16:38 ✍️ i05 im Gerba-Stil: Drohnen-Kamera über die Anlage N, Zahlen zählen am Rand ([`ad1a702`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ad1a702b0be4e45d677260dcf19942d6e0b26503))
+  - `LAGE.html`, `automatik/lage_notizen.md`, `posts/i05_2026-10-26_insider_finanzbeamte`, `strategie/22_wissen_schnitt_stil.md`, `vorlagen/system/premium/effekte.py`, `vorlagen/system/premium/insider_05_anlage_n.html`, `…`
 - 16:24 ✍️ i05: Anlage N statt Editor-Spuren – Kamera fährt über das Formular ([`84cd14e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/84cd14e3780d52a51747572557f35dbda5ef91e5))
   - `LAGE.html`, `automatik/lage_notizen.md`, `posts/i05_2026-10-26_insider_finanzbeamte`, `strategie/22_wissen_schnitt_stil.md`, `vorlagen/system/premium/insider_05_anlage_n.html`, `vorlagen/system/premium/insider_05_daten.js`, `…`
 - 16:17 ✍️ i05: Einschub-Satz entfernt, Schallwelle durch Anlage-N-Formular ersetzt ([`ed538f7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ed538f730e5a9d2c2e85dfc1bc5a41a877f4a386))
