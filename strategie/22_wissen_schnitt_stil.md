@@ -19,8 +19,8 @@ Stichwort ABZUG (i05) ist in `automatik/interaktion.json` angelegt.
 ## Auf Musik geschnitten (Loris 16.11.)
 - Stimme nur im Hook (erste ~4 s), danach erzählen Zahlen + Schnitte + Musik. Texte als kurze Einblendungen statt Untertitel.
 - Schnitte auf Akzente/Schläge des Songs (Beat-Analyse: Tempo, Drop). Vor dem Drop Spannung (Anlage N wird befüllt), beim Drop größter Crash-Zoom, danach ein Schnitt pro Schlag, CTA auf einem Taktanfang.
-- Vorlage: `premium/insider_05_beat.html` + `_effekte.json` (Song „Flower In A Hurricane“ ab 0:35: 126 BPM, Drop 12,78 s). Das Video wird **ohne Song** gespeichert (`reel_beat_ohne_song.mp4`), Song kommt nicht ins Repo.
-- **Rechte:** Kommerzielle Songs nur über die Instagram-Musikauswahl in der App (Start 0:35), nicht ins Video einbetten. Sonst lizenzfreie Musik.
+- Vorlage: `premium/insider_05_beat.html` + `_effekte.json` (Song „Flower In A Hurricane“ ab **0:44,04**: Hook über dem leisen Aufbau, Drop bei 3,74 s, 126 BPM, CTA genau auf dem Gesangseinsatz bei 17,54 s = Song 1:01,6 – Loris: Sängerin soll beim CTA gerade anfangen). Das Video wird **ohne Song** gespeichert (`reel_beat_ohne_song.mp4`), Song kommt nicht ins Repo.
+- **Rechte:** Kommerzielle Songs nur über die Instagram-Musikauswahl in der App (Start 0:44), nicht ins Video einbetten. Sonst lizenzfreie Musik.
 
 ## Offen: neuer Hook (Loris spricht ein)
 „Was ist genauso geil wie die Videos von Gerba? Steuern sparen wie ein Diplom-Finanzwirt.“ – kommt als Hook vor das Reel, sobald die Aufnahme in `aufnahmen/` liegt.

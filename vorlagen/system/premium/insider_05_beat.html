@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8">
 <!-- Finanzamt-Insider #05 – auf Musik geschnitten (Loris 16.11.): Stimme nur im Hook, danach Schnitte auf Beat/Akzente
-     (Song ab 0:35, 126 BPM, Drop bei 12,78 s). Basis: Gerba-Stil (Loris 16.11.): Kamera fliegt wie eine Drohne über die Anlage N,
+     (Song ab 0:44,04: Drop bei 3,74 s, 126 BPM, Gesang setzt bei 17,54 s ein = CTA). Basis: Gerba-Stil (Loris 16.11.): Kamera fliegt wie eine Drohne über die Anlage N,
      Crash-Zooms / Reißschwenks (Unschärfe danach per effekte.py, siehe insider_05_gerba_effekte.json), schiefe Winkel,
      Speed-Ramps. Formular fast ohne Wörter – Titel + Zahl zählen groß am Rand hoch, Linien zeichnen sich (Lineouts). -->
 <link rel="stylesheet" href="../../schriften.css">
@@ -112,22 +112,18 @@ const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
 const ease=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
 const expo=x=>{x=cl(x);return x>=1?1:1-Math.pow(2,-10*x)};
 const over=x=>{x=cl(x);const c=2.2,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
-const B=0.47603, DROP=12.78, KICK=13.73;
-const BEAT=k=>KICK+k*B;
-// Montage nach dem Drop: ein Schnitt pro Schlag
-const MONT=[];for(let k=4;k<12;k++)MONT.push(BEAT(k));            // 15.63 … 18.97
-const CTA=BEAT(12);                                                 // ≈ 19.44
-const ENDE=BEAT(21);                                                // ≈ 23.73
+const B=0.47603, DROP=3.74;
+const BEAT=k=>DROP+k*B;
+const HO=BEAT(4),FA=BEAT(12),AM=BEAT(20),GR=BEAT(24),SP=BEAT(28),CTA=BEAT(29),ENDE=BEAT(39);   // CTA = Gesangseinsatz
 // Text-Einblendungen (ohne Stimme): [Zeit, Text, Akzentwort]
-const TX=[[3.74,"DAS SETZEN SIE AB:",""],[5.41,"EINS: HOMEOFFICE","HOMEOFFICE"],[6.84,"BIS 1.260 € IM JAHR","1.260 €"],
- [7.53,"ZWEI: FAHRTEN","FAHRTEN"],[9.22,"AB DEM 1. KILOMETER","1. KILOMETER"],[10.65,"DREI: ARBEITSMITTEL","ARBEITSMITTEL"],[11.37,"LAPTOP + TISCH","LAPTOP"],
- [DROP,"LOHNT SICH ERST","LOHNT"],[BEAT(1),"AB 1.230 €","1.230 €"],[BEAT(2),"DARUNTER:","DARUNTER:"],[BEAT(3),"PAUSCHBETRAG","PAUSCHBETRAG"],
- [MONT[0],"",""],[MONT[6],"SPEICHERN!","SPEICHERN!"],[CTA,"",""]];
+const TX=[[DROP,"DAS SETZEN SIE AB:",""],[HO,"EINS: HOMEOFFICE","HOMEOFFICE"],[BEAT(8),"BIS 1.260 € IM JAHR","1.260 €"],
+ [FA,"ZWEI: FAHRTEN","FAHRTEN"],[BEAT(16),"AB DEM 1. KILOMETER","1. KILOMETER"],[AM,"DREI: ARBEITSMITTEL","ARBEITSMITTEL"],[BEAT(21),"LAPTOP + TISCH","LAPTOP"],
+ [GR,"LOHNT SICH ERST AB","LOHNT"],[BEAT(26),"DARUNTER: PAUSCHBETRAG","PAUSCHBETRAG"],[SP,"SPEICHERN!","SPEICHERN!"],[CTA,"",""]];
 const AKZ=new Set(["Finanzbeamte","Steuererklärung"]);
 const HOOKW=WF.filter(w=>w[1]<3.7);
 function untertitel(t){
   const ut=$("ut");
-  if(t<3.74){                                                       // Hook: gesprochene Wörter, max. 2
+  if(t<DROP){                                                       // Hook: gesprochene Wörter, max. 2
     const G=[];let g=[];HOOKW.forEach((w,i)=>{g.push(i);if(/[.,]$/.test(w[0])||g.length>=2){G.push(g);g=[]}});if(g.length)G.push(g);
     const gi=G.findIndex((gr,i)=>t>=HOOKW[gr[0]][1]-0.04&&(i===G.length-1||t<HOOKW[G[i+1][0]][1]-0.04));
     if(gi<0){ut.innerHTML="";return}
@@ -140,13 +136,10 @@ function untertitel(t){
   ut.innerHTML=txt.split(" ").map(w=>`<span class="${akz&&akz.split(" ").includes(w)?"akz":""}" style="font-size:${txt.length>16?96:112}px;transform:scale(${1.6-.6*p});opacity:${cl(p*2)}">${w}</span>`).join("");
 }
 // Kamera-Keyframes: [Zeit, Ziel, Zoom, rotX, rotY, rotZ, Dauer]
-const K=[[0,"blatt",.5,0,0,-25,.1],[3.74,"blatt",.56,0,0,-14,.35],[5.41,"z_home",1.45,38,0,9,.3],[7.53,"z_fahrt",1.45,30,-18,-10,.25],
-  [10.65,"z_arbeit",1.38,24,28,6,.3],[DROP,"summe",1.2,52,0,-8,.35]];
-const ZI=["z_home","z_fahrt","z_arbeit","summe"];
-MONT.forEach((m,i)=>K.push([m,ZI[i%4],1.55+.15*(i%2),26+10*(i%3),(i%2?18:-18),(i%2?11:-11),.07]));
-K.push([CTA,"blatt",.5,0,0,14,.3]);
+const K=[[0,"blatt",.5,0,0,-25,.1],[DROP,"blatt",.56,0,0,-14,.3],[HO,"z_home",1.45,38,0,9,.3],[FA,"z_fahrt",1.45,30,-18,-10,.25],
+  [AM,"z_arbeit",1.38,24,28,6,.25],[GR,"summe",1.2,52,0,-8,.3],[SP,"blatt",.8,20,0,12,.2],[CTA,"blatt",.5,0,0,14,.3]];
 const mitte=id=>{const e=$(id);return id==="blatt"?e.offsetHeight/2:e.offsetTop+e.offsetHeight/2};
-const PUNCH=[1.44,2.9,3.98,5.41,6.84,7.07,7.79,9.22,11.37,11.61,DROP];for(let k=0;BEAT(k)<ENDE;k++)PUNCH.push(BEAT(k));
+const PUNCH=[1.44,2.9];for(let k=0;BEAT(k)<ENDE;k++)PUNCH.push(BEAT(k));
 function kamera(t){
   let i=0;K.forEach((k,j)=>{if(t>=k[0])i=j});
   const a=K[Math.max(0,i-1)],b=K[i],p=i===0?1:expo((t-b[0])/b[6]);
@@ -171,12 +164,10 @@ const eur=v=>Math.round(v).toLocaleString("de-DE")+" €";
 function hud(t){
   let ti="",z="",sub="",t0=0;
   const zahl=(von,bis,a,d,fmt)=>fmt(von+(bis-von)*ease((t-a)/d));
-  if(t>=5.41&&t<7.53){t0=5.41;ti="Homeoffice";if(t<6.84){z=zahl(0,6,5.5,.3,eur);sub="PRO TAG"}else{z=zahl(6,1260,6.84,.6,eur);sub="IM JAHR · MAXIMAL"}}
-  else if(t>=7.53&&t<10.65){t0=7.53;ti="Fahrten";z=zahl(0,38,7.79,.5,v=>"0,"+String(Math.round(v)).padStart(2,"0")+" €");sub="PRO KM"+(t>=9.22?" · AB KM 1 · SEIT 2026":"")}
-  else if(t>=10.65&&t<DROP){t0=10.65;ti="Arbeitsmittel";z=t<11.37?"":t<11.61?"Laptop":"+ Tisch";sub=t>=11.37?"LAPTOP · SCHREIBTISCH":""}
-  else if(t>=DROP&&t<MONT[0]){t0=DROP;ti="Lohnt sich ab";z=zahl(0,1230,DROP,.6,eur);sub=t>=BEAT(2)?"DARUNTER: PAUSCHBETRAG":""}
-  else if(t>=MONT[0]&&t<CTA){let i=0;MONT.forEach((m,j)=>{if(t>=m)i=j});t0=MONT[i]-.36;
-    ti=["Homeoffice","Fahrten","Arbeitsmittel","Grenze"][i%4];z=["1.260 €","0,38 €","Laptop","1.230 €"][i%4];sub=""}
+  if(t>=HO&&t<FA){t0=HO;ti="Homeoffice";if(t<BEAT(8)){z=zahl(0,6,BEAT(5),.3,eur);sub="PRO TAG"}else{z=zahl(6,1260,BEAT(8),.6,eur);sub="IM JAHR · MAXIMAL"}}
+  else if(t>=FA&&t<AM){t0=FA;ti="Fahrten";z=zahl(0,38,BEAT(13),.5,v=>"0,"+String(Math.round(v)).padStart(2,"0")+" €");sub="PRO KM"+(t>=BEAT(16)?" · AB KM 1 · SEIT 2026":"")}
+  else if(t>=AM&&t<GR){t0=AM;ti="Arbeitsmittel";z=t<BEAT(21)?"":t<BEAT(22)?"Laptop":"+ Tisch";sub=t>=BEAT(21)?"LAPTOP · SCHREIBTISCH":""}
+  else if(t>=GR&&t<SP){t0=GR;ti="Lohnt sich ab";z=zahl(0,1230,GR,.6,eur);sub=t>=BEAT(26)?"DARUNTER: PAUSCHBETRAG":""}
   const h=$("hud");$("hudbg").style.opacity=ti?1:0;
   if(!ti){h.style.opacity=0;return}
   const e=over((t-t0)/.3);h.style.opacity=cl(e*2);h.style.transform=`translateX(${(1-e)*-500}px)`;
@@ -188,32 +179,32 @@ function hud(t){
 function render(t){
   $("bg").style.setProperty("--bx",(50+14*Math.sin(t/2.5))+"%");
   kamera(t);
-  const fin=expo(t/.3),fout=ease((t-3.6)/.2);
+  const fin=expo(t/.3),fout=ease((t-(DROP-.14))/.14);
   $("foto").style.display=fout>=1?"none":"block";
-  $("foto").style.transform=`translateX(${-1400*fout}px) rotateZ(${-5+4*cl(t/3.5)}deg) scale(${(1.3-.3*fin)*(1+.05*cl(t/3.5))})`;
-  $("blatt").style.opacity=t<3.6?0:1;
-  const ov=t>=3.74&&t<5.41;
-  [["z_home",3.98],["z_fahrt",4.45],["z_arbeit",4.93]].forEach(([id,a])=>{const an=(ov&&t>=a)||(id==="z_home"&&t>=5.41&&t<7.53)||(id==="z_fahrt"&&t>=7.53&&t<10.65)||(id==="z_arbeit"&&t>=10.65&&t<DROP);$(id).classList.toggle("an",an)});
-  lineout("z_home",t,5.45);lineout("z_fahrt",t,7.6);lineout("z_arbeit",t,10.7);
-  $("z_home").querySelector(".lineout").style.display=t<7.53?"block":"none";
-  $("z_fahrt").querySelector(".lineout").style.display=t>=7.53&&t<10.65?"block":"none";
-  $("z_arbeit").querySelector(".lineout").style.display=t>=10.65&&t<DROP?"block":"none";
-  $("w_home").textContent=t<5.5?"":t<6.84?"6 €":Math.round(6+(1260-6)*ease((t-6.84)/.6)).toLocaleString("de-DE")+" €";
-  $("w_fahrt").textContent=t<7.79?"":"0,38 €";
-  $("p_lap").style.strokeDasharray=1;$("p_lap").style.strokeDashoffset=1-ease((t-11.37)/.3);
-  $("p_tisch").style.strokeDasharray=1;$("p_tisch").style.strokeDashoffset=1-ease((t-11.61)/.3);
-  haken("kb_home",t,7.07);haken("kb_fahrt",t,9.22);haken("kb_arbeit",t,11.85);
-  const m=over((t-DROP)/.35);$("mark").style.opacity=cl(m*2);$("mark").style.transform=`scaleY(${m})`;
-  const z1=t>=BEAT(3),z2=t>=BEAT(1);
+  $("foto").style.transform=`translateX(${-1400*fout}px) rotateZ(${-5+4*cl(t/DROP)}deg) scale(${(1.3-.3*fin)*(1+.05*cl(t/DROP))})`;
+  $("blatt").style.opacity=t<DROP-.14?0:1;
+  const ov=t>=DROP&&t<HO;
+  [["z_home",BEAT(1)],["z_fahrt",BEAT(2)],["z_arbeit",BEAT(3)]].forEach(([id,a])=>{const an=(ov&&t>=a)||(id==="z_home"&&t>=HO&&t<FA)||(id==="z_fahrt"&&t>=FA&&t<AM)||(id==="z_arbeit"&&t>=AM&&t<GR);$(id).classList.toggle("an",an)});
+  lineout("z_home",t,HO+.05);lineout("z_fahrt",t,FA+.05);lineout("z_arbeit",t,AM+.05);
+  $("z_home").querySelector(".lineout").style.display=t<FA?"block":"none";
+  $("z_fahrt").querySelector(".lineout").style.display=t>=FA&&t<AM?"block":"none";
+  $("z_arbeit").querySelector(".lineout").style.display=t>=AM&&t<GR?"block":"none";
+  $("w_home").textContent=t<BEAT(5)?"":t<BEAT(8)?"6 €":Math.round(6+(1260-6)*ease((t-BEAT(8))/.6)).toLocaleString("de-DE")+" €";
+  $("w_fahrt").textContent=t<BEAT(13)?"":"0,38 €";
+  $("p_lap").style.strokeDasharray=1;$("p_lap").style.strokeDashoffset=1-ease((t-BEAT(21))/.3);
+  $("p_tisch").style.strokeDasharray=1;$("p_tisch").style.strokeDashoffset=1-ease((t-BEAT(22))/.3);
+  haken("kb_home",t,BEAT(10));haken("kb_fahrt",t,BEAT(17));haken("kb_arbeit",t,BEAT(23));
+  const m=over((t-GR)/.35);$("mark").style.opacity=cl(m*2);$("mark").style.transform=`scaleY(${m})`;
+  const z1=t>=BEAT(26),z2=t>=BEAT(25);
   $("zo1").style.color=z1?"#fff":"var(--grau)";$("zo1").style.background=z1?"rgba(139,150,145,.18)":"transparent";
   $("zo2").style.color=z2?"var(--gruen2)":"var(--grau)";$("zo2").style.background=z2?"rgba(83,195,162,.16)":"transparent";$("zo2").style.borderColor=z2?"var(--gruen)":"#2b443a";
   hud(t);
   const s=over((t-CTA)/.3);$("schluss").style.opacity=cl(s*2);$("schluss").style.transform=`skewX(${-8*(1-s)}deg) translateX(${(1-s)*600}px) scale(${1+.04*Math.max(0,...PUNCH.map(q=>t>=q&&t-q<.2?1-(t-q)/.2:0))})`;
   $("buehne").style.opacity=1-0.85*ease((t-CTA)/.25);
-  const n=Math.floor(cl((t-BEAT(14))/B*2,0,5));
+  const n=Math.floor(cl((t-BEAT(32))/B*2,0,5));
   $("tipp").innerHTML=n?`<b>${"ABZUG".slice(0,n)}</b>${n<5?"▍":""}`:"Kommentar hinzufügen …";
   $("feld").style.borderColor=n?"var(--gruen)":"#2b443a";
-  const d=over((t-BEAT(17))/.35);$("dm").style.opacity=cl(d*1.4);$("dm").style.transform=`translateY(${(1-d)*80}px) scale(${.9+.1*d})`;
+  const d=over((t-BEAT(35))/.35);$("dm").style.opacity=cl(d*1.4);$("dm").style.transform=`translateY(${(1-d)*80}px) scale(${.9+.1*d})`;
   untertitel(t);
 }
 window.render=render;render(0);
