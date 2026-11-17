@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 17.11. 09:22 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 17.11. 09:30 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -239,7 +239,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/43830841049) Mo 16.11. 09:25 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/44046554360) Di 17.11. 09:27 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -250,6 +250,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 17.11.2026**
+- 09:30 📡 Radar 2026-11-17: 8 Beiträge, 0 DM-Entwürfe ([`27cb51c`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/27cb51c5646a91505b9acf80e83c839f664602af))
+  - `automatik/interaktion`
 - 09:22 📈 Statistik 2026-11-17 ([`ae03d33`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ae03d33ee1f3d5c6e24837974bc2f86e6c6ecc31))
   - `automatik/statistik`
 
