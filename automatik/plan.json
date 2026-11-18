@@ -3173,13 +3173,16 @@
       "video": "reel_beat_ohne_song.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "manuell",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
-      "hinweis": "16.11.: Loris postet von Hand (Option 1): Video reel_beat_ohne_song.mp4 in der App hochladen, Musik „Flower In A Hurricane“ (Justice) über die Instagram-Musikauswahl ab 0:44 – Schnitt ist auf den Takt gelegt, CTA auf dem Gesangseinsatz. Neuer Schnitt-Stil, siehe strategie/22_wissen_schnitt_stil.md (Zweig ccr-537b72f3-t4u1su). · 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-20 → 2026-11-16 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-10 → 2026-12-20 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-12-04 → 2026-11-10 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 27.10. 17:35: Platz an Mein Weg #01 abgegeben (Loris), neu 04.12.",
+      "hinweis": "18.11.: von Loris am 16.11. 17:13 von Hand gepostet (Beat-Fassung, Stichwort ABZUG) – Status nachgetragen. · 16.11.: Loris postet von Hand (Option 1): Video reel_beat_ohne_song.mp4 in der App hochladen, Musik „Flower In A Hurricane“ (Justice) über die Instagram-Musikauswahl ab 0:44 – Schnitt ist auf den Takt gelegt, CTA auf dem Gesangseinsatz. Neuer Schnitt-Stil, siehe strategie/22_wissen_schnitt_stil.md (Zweig ccr-537b72f3-t4u1su). · 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-20 → 2026-11-16 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-10 → 2026-12-20 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-12-04 → 2026-11-10 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 27.10. 17:35: Platz an Mein Weg #01 abgegeben (Loris), neu 04.12.",
       "trichter": "oben",
-      "musik": "121_minimal_house.mp3"
+      "musik": "121_minimal_house.mp3",
+      "link": "https://www.instagram.com/reel/DfzwSelNDhh/",
+      "veroeffentlicht_am": "2026-11-16 17:13",
+      "media_id": "17875228632643162"
     },
     {
       "id": "37-karussell-bp-vorbereitung",
