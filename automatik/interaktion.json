@@ -270,7 +270,29 @@
       "TOOL",
       "tol",
       "PROMPT",
-      "ABZUG"
+      "ABZUG",
+      "ERECHNUNG",
+      "PRUEFLISTE",
+      "BELEGE",
+      "ANRUF",
+      "ZINSSCHRANKE",
+      "KLEIN",
+      "FAHRTENBUCH",
+      "IAB",
+      "AFA",
+      "VERJAEHRUNG",
+      "EINSPRUCH",
+      "VORSTEUER",
+      "GLOSSAR",
+      "GEWERBE",
+      "THESAURIERUNG",
+      "HOLDING",
+      "KAPITAL",
+      "VERLUST",
+      "DIVIDENDE",
+      "MINDESTSTEUER",
+      "PENSION",
+      "MYTHEN"
     ],
     "beitraege_pruefen": 12,
     "stichwort_antworten": {
@@ -304,6 +326,182 @@
           "Ist raus – schau in deine Nachrichten 📩",
           "Hab dir die Liste geschickt 📩",
           "Check deine DMs 📩"
+        ]
+      },
+      "ERECHNUNG": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nEin PDF per Mail ist keine E-Rechnung. 📄❌\n\nGefragt ist ein strukturiertes Format: XRechnung oder ZUGFeRD. Ausstellen wird 2027 Pflicht, wenn euer Umsatz 2026 über 800.000 € liegt, ab 2028 für alle.\n\n§ 14 UStG, § 27 Abs. 38 UStG · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "PRUEFLISTE": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nBetriebsprüfung: Vier Dinge sollten stehen, bevor der Prüfer kommt. 📂\n\nPrüfungsanordnung lesen, Datenzugriff vorbereiten, Verfahrensdokumentation und eine Ansprechperson. Dann ist „Woher kommt diese Zahl?“ schnell beantwortet.\n\n§§ 196, 197, 147 Abs. 6, 200 AO · Gesetzesstand 2026\nHeute Abend dazu im Reel: „Woher kommt diese Zahl?“\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "BELEGE": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nHör auf, Belege ans Finanzamt zu schicken 🗂️\n\nSeit 2017 musst du sie nur aufheben. Eingereicht wird nur, wenn das Finanzamt danach fragt. Insider-Tipp: Schick genau das Angeforderte – nicht mehr und nicht weniger.\n\nBelegvorhaltepflicht, z. B. § 50 Abs. 8 EStDV · Stand 2026 · allgemeine Info, keine Steuerberatung\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "ANRUF": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nRuf beim Finanzamt an. Ernsthaft. 📞\n\nDie Durchwahl deines Sachbearbeiters steht oben auf dem Briefkopf. Viele Fragen sind am Telefon in 5 Minuten geklärt – statt in 5 Wochen Briefwechsel. Insider-Tipp: Halte die Steuernummer bereit und notier dir Datum und Namen.\n\nStand 2026 · allgemeine Info, keine Steuerberatung\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "ZINSSCHRANKE": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nZinsschranke: Unter 3 Mio. € Nettozinsaufwand greift sie gar nicht. 🏦\n\nDas ist eine Freigrenze, kein Freibetrag: Ab 3 Mio. € zählt der ganze Betrag, abziehbar sind dann nur 30 % des steuerlichen EBITDA. Der Rest geht in den Zinsvortrag.\n\n§ 4h EStG, § 8a KStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "KLEIN": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nEin einziger Auftrag kann dich sofort umsatzsteuerpflichtig machen – nicht erst ab Januar. 📈\n\nSeit 2025 gibt es kein Abwarten bis Januar mehr: Wer die 100.000 € überschreitet, ist sofort raus. Zusätzlich darf der Vorjahresumsatz höchstens 25.000 € betragen. Demo: Vorjahr 24.000 €, bis Oktober 96.000 € – die nächste Rechnung über 8.000 € netto (→ 104.000 €) braucht schon Umsatzsteuer. Dafür gibt es ohne Regelung keinen Vorsteuerabzug.\n\n§ 19 Abs. 1, 3 UStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "FAHRTENBUCH": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nDu trägst jede Fahrt sauber ein – und der Prüfer verwirft dein Fahrtenbuch trotzdem. 🚗\n\nEin Fahrtenbuch zählt nur, wenn es zeitnah und in geschlossener Form geführt wird; nachträgliche Änderungen müssen ausgeschlossen oder erkennbar sein. Demo: Listenpreis 50.000 €, 20 km Arbeitsweg → 500 € + 300 € = 800 € geldwerter Vorteil im Monat, 9.600 € im Jahr.\n\n§ 8 Abs. 2 EStG, § 6 Abs. 1 Nr. 4 S. 2 EStG, R 8.1 Abs. 9 Nr. 2 LStR (0,03 % je Entfernungskilometer; Alternative 0,002 % bei höchstens 180 Fahrten, BMF 03.03.2022; E-Autos 0,25 % bis 100.000 € Listenpreis bei Anschaffung ab 1.7.2025, darüber 0,5 %) · typischer Fall, kein echter Mandant · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "IAB": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nInvestitionsabzugsbetrag: Du kannst 50 % einer Maschine absetzen, bevor du sie kaufst. Der Haken: die Frist. 📌\n\nInvestierst du nicht bis Ende des dritten Folgejahres, wird der Abzug rückwirkend gestrichen – mit Zinsen. Demo: Maschine 2027, 60.000 € → 30.000 € Abzug in 2026.\n\n§ 7g EStG, § 233a AO · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "AFA": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nZwei Häuser, gleicher Preis – und eins darf mehr als doppelt so schnell abschreiben. 🏢\n\nGrund und Boden schreibst du nie ab. Beim Wohnungsneubau darf das Gebäude mit 5 % vom Restwert schneller abgeschrieben werden als mit den üblichen 3 %. Demo: 400.000 € Gebäudeanteil → 12.000 € linear, 20.000 € degressiv.\n\n§ 7 Abs. 4, Abs. 5a EStG, § 7b EStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "VERJAEHRUNG": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nFestsetzungsverjährung: Nach vier Jahren ist nicht immer Schluss – das Finanzamt darf deinen Bescheid teils noch ändern. ⏳\n\nDie Frist beträgt meist vier Jahre, bei leichtfertiger Verkürzung fünf, bei Hinterziehung zehn. Eine Prüfung oder ein Einspruch verlängert sie. Demo: Erklärung 2022, abgegeben 2024 → Frist endet am 31.12.2028.\n\n§§ 169, 170, 171 AO · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "EINSPRUCH": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nBescheid am 05.10. zur Post: Die Einspruchsfrist endet nicht am 05.11., sondern am Mo 09.11. ⏳\n\nSeit 2025 gilt der Bescheid am vierten Tag nach Versand als bekannt gegeben. Ab dann läuft ein Monat. Zahlen musst du trotzdem – außer mit Aussetzung der Vollziehung.\n\n§ 122 Abs. 2 Nr. 1, § 355 Abs. 1, § 361 AO · Alle Daten sind Beispiel-Daten · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "VORSTEUER": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nDu hast die Umsatzsteuer bezahlt – und bekommst sie trotzdem nicht als Vorsteuer zurück: 0 €. 🧾\n\nWer selbst Bauleistungen erbringt, schuldet die Steuer. Der Subunternehmer hätte netto abrechnen müssen, mit dem Hinweis „Steuerschuldnerschaft des Leistungsempfängers“. Die zu viel gezahlten 19.000 € holt ihr über eine berichtigte Rechnung zurück.\n\n§ 13b, § 14a Abs. 5, § 14c, § 15 UStG · Alle Zahlen sind Demo-Zahlen · typischer Fall, kein echter Mandant · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "GLOSSAR": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nJahresabschluss-Glossar: 5 Begriffe, die du jedes Jahr nutzt – kannst du alle erklären? 📖\n\nMessbetrag, Zerlegung, Einlagekonto, schädlicher Beteiligungserwerb und Teilwert – kurz erklärt, zum Nachschlagen.\n\n§§ 11, 14, 16, 29 GewStG, § 27 KStG, § 8c KStG, § 6 Abs. 1 Nr. 1 EStG · Gesetzeswerte, Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "GEWERBE": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nDu zahlst über 10.000 € Gewerbesteuer – und am Ende kostet sie dich oft fast nichts. 🔁\n\nDie Einkommensteuer sinkt um das 4,0-Fache des Gewerbesteuer-Messbetrags – höchstens um die gezahlte Gewerbesteuer. Demo: Gewerbeertrag 100.000 € → bei 400 % neutral, bei 450 % bleiben 1.321,25 € als Belastung. Gilt nur für natürliche Personen und Mitunternehmer, nicht für die GmbH.\n\n§ 35 EStG, § 11 GewStG · Alle Zahlen sind Demo-Zahlen, ohne SolZ und Kirchensteuer · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "THESAURIERUNG": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nDu zahlst bis zu 45 % Steuer auf Gewinn, den du gar nicht entnimmst. Muss nicht sein. 📊\n\nWird er später entnommen, kommen 25 % Nachversteuerung dazu. Es lohnt sich meist nur nahe am Spitzensteuersatz und wenn das Geld lange im Betrieb bleibt. Für Einzelunternehmer und Mitunternehmer mit Bilanz.\n\n§ 34a EStG · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "HOLDING": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\n1 Mio. € Gewinn – und die GmbH zahlt darauf keine 15.000 € Steuer. Völlig legal. 🏛️\n\nVerkauft eine GmbH Anteile an einer anderen Kapitalgesellschaft, bleibt der Gewinn außer Ansatz. Nur 5 % gelten als nicht abziehbare Betriebsausgaben: 1 Mio. € × 5 % = 50.000 € × 29,825 % = 14.913 € (Demo, GewSt bei 400 % Hebesatz). Verluste aus dem Verkauf sind dafür nicht abziehbar.\n\n§ 8b Abs. 2, 3 KStG (Ausnahmen u. a. Banken und Versicherer, § 8b Abs. 7, 8 KStG) · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "KAPITAL": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nKapitalerträge: Die Bank behält 25 % ein – und trotzdem zahlst du oft weniger. 💶\n\nEin Freibetrag von 1.000 € (zusammen 2.000 €) bleibt steuerfrei, bei Aktienfonds sind zusätzlich 30 % der Erträge frei. Demo: 3.000 € Dividenden, ledig → 527,50 € Steuer (ohne Kirchensteuer).\n\n§ 20 Abs. 9, § 32d EStG, § 20 InvStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "VERLUST": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nEin Anteilsverkauf – und Jahre an Verlusten sind über Nacht weg (§ 8c KStG). 📉\n\nDas gilt auch für den gewerbesteuerlichen Fehlbetrag und den Zinsvortrag. Rettung geben Konzernklausel, Stille-Reserven-Klausel, Sanierungsklausel – oder auf Antrag der fortführungsgebundene Verlustvortrag (§ 8d KStG).\n\n§ 8c, § 8d KStG · Keine Beratung im Einzelfall · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "DIVIDENDE": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nDividenden unter GmbHs: 95 % steuerfrei – aber nur, wenn die Beteiligung stimmt. 💶\n\nUnter 10 % Beteiligung zu Beginn des Kalenderjahres ist die Dividende voll steuerpflichtig. Für die Gewerbesteuer-Kürzung braucht es mindestens 15 %. Beispiel mit 20 %: 100.000 € Dividende → 1.491 € Steuer (791 € KSt + SolZ, 700 € GewSt bei 400 % Hebesatz).\n\n§ 8b Abs. 1, 4, 5 KStG, § 9 Nr. 2a, § 8 Nr. 5 GewStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "MINDESTSTEUER": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\n29,83 % Steuern in Deutschland – und trotzdem kann Mindeststeuer anfallen. 🌍\n\nDann zählt der Steuersatz je Land: Liegt er unter 15 %, wird die Differenz als Ergänzungssteuer erhoben.\n\n§ 1 MinStG · Alle Zahlen sind Demo-Zahlen · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "PENSION": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\nPensionsrückstellung: Steuerbilanz 6 %, HGB deutlich weniger – dieselbe Zusage, zwei Zahlen. 📊\n\nSteuerlich gilt fest 6 %, handelsrechtlich ein Durchschnittszins der letzten 10 Jahre. Darum ist die HGB-Rückstellung fast immer höher – das ergibt aktive latente Steuern.\n\n§ 6a Abs. 3 EStG, § 253, § 274 HGB · Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
+        ]
+      },
+      "MYTHEN": {
+        "dm": "Hey 👋 danke für deinen Kommentar! Hier die Kurzfassung zum Speichern:\n\n6 Steuer-Irrtümer im Jahresabschluss, die nicht (mehr) stimmen. 🧐\n\nZum Beispiel: Gewerbesteuer ist seit 2008 keine Betriebsausgabe, Geschenke dürfen bis 50 € je Empfänger und Jahr sein, und Belege müssen seit 2025 nur noch 8 Jahre aufgehoben werden. Die anderen drei stehen im Karussell.\n\n§ 4 Abs. 5b, § 4 Abs. 5 S. 1 Nr. 1 EStG, § 147 Abs. 3 AO (länger nur, solange die Festsetzungsfrist läuft), § 274a HGB, § 5 Abs. 4a EStG · Gesetzeswerte, Stand 2026\n\nAllgemeine Info, keine Steuerberatung. Frag mich gern hier, wenn etwas unklar ist. – Loris",
+        "oeffentlich": [
+          "Ist raus – schau in deine Nachrichten 📩",
+          "Hab's dir geschickt, schau in deine DMs 📩",
+          "Ist unterwegs – check deine Nachrichten 📩"
         ]
       }
     }

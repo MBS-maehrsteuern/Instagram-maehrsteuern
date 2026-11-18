@@ -1,0 +1,248 @@
+{
+ "ausgabe": "../../posts",
+ "bilder": [
+  {
+   "vorlage": "story",
+   "datei": "10_2026-10-22_e_rechnung/story_janein.png",
+   "typ": "antwort",
+   "kicker": "E-Rechnung · heute 17:45",
+   "titel": "Bekommst du Rechnungen noch als *PDF per Mail*?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "37_2026-10-27_bp_vorbereitung/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Betriebsprüfung · heute 17:45",
+   "titel": "Steht bei dir bald eine *Betriebsprüfung* an?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i10_2026-10-26_insider_belege/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Finanzamt-Insider · heute 17:45",
+   "titel": "Schickst du *Belege* ans Finanzamt mit?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i11_2026-10-26_insider_anrufen/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Finanzamt-Insider · heute 17:45",
+   "titel": "Schon mal beim *Finanzamt angerufen*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "31_2026-10-22_zinsschranke/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Zinsschranke · heute 17:45",
+   "titel": "Weißt du, ab wann die *Zinsschranke* greift?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "49_2026-11-02_reel_kleinunternehmer/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Kleinunternehmer · heute 17:45",
+   "titel": "Bist du *Kleinunternehmer*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "48_2026-11-02_reel_firmenwagen/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Firmenwagen · heute 17:45",
+   "titel": "Führst du ein *Fahrtenbuch*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "53_2026-11-04_iab/story_janein_karussell.png",
+   "typ": "antwort",
+   "kicker": "Investition · heute 17:45",
+   "titel": "Planst du nächstes Jahr eine größere *Investition*?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "50_2026-11-03_reel_gebaeude_afa/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Immobilie · heute 17:45",
+   "titel": "Gehört dir eine *vermietete Immobilie*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "38_2026-10-27_reel_pruefpfad/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Betriebsprüfung · heute 17:45",
+   "titel": "Kannst du jede Zahl in deiner Steuer-Excel *zurückverfolgen*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "53_2026-11-04_iab/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Investition · heute 17:45",
+   "titel": "Schon mal den *Investitionsabzugsbetrag* genutzt?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "56_2026-11-06_verjaehrung/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Verjährung · heute 17:45",
+   "titel": "Ist dein Bescheid nach *4 Jahren* sicher?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "34_2026-10-25_reel_einspruch/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Einspruch · heute 17:45",
+   "titel": "Schon mal eine *Einspruchsfrist* verpasst?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "54_2026-11-05_reel_reverse_charge/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Umsatzsteuer · heute 17:45",
+   "titel": "Bekommst du Rechnungen von *Firmen aus dem Ausland*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "44_2026-10-30_glossar/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Jahresabschluss · heute 17:45",
+   "titel": "Kannst du *Rückstellung* und *Rücklage* sicher unterscheiden?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "43_2026-10-30_reel_par35/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Gewerbesteuer · heute 17:45",
+   "titel": "Zahlst du *Gewerbesteuer*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "55_2026-11-06_reel_thesaurierung/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Gewinn · heute 17:45",
+   "titel": "Lässt du *Gewinn in der Firma* stehen?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "39_2026-10-28_reel_holding/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Holding · heute 17:45",
+   "titel": "Schon mal über eine *Holding* nachgedacht?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "51_2026-11-03_kapitalertraege/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Kapitalerträge · heute 17:45",
+   "titel": "Hast du einen *Freistellungsauftrag* bei deiner Bank?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "57_2026-11-07_reel_verlust_8c/story_janein.png",
+   "typ": "antwort",
+   "kicker": "GmbH · heute 17:45",
+   "titel": "Hat deine GmbH *Verlustvorträge*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "i12_2026-10-26_insider_mbs_excel/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Steuerabteilung · heute 17:45",
+   "titel": "Rechnet deine Steuerabteilung noch mit *Excel*?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "46_2026-11-01_dividenden_8b/story_janein.png",
+   "typ": "antwort",
+   "kicker": "GmbH · heute 17:45",
+   "titel": "Hält deine GmbH *Anteile an anderen GmbHs*?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "40_2026-10-28_reel_formeln/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Excel · heute 17:45",
+   "titel": "Rechnest du *Steuerrückstellungen* in Excel?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "32_2026-10-23_reel_mindeststeuer/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Konzern · heute 17:45",
+   "titel": "Schon mal von der *Mindeststeuer* gehört?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "33_2026-10-24_reel_paragraf_formel/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Excel · heute 17:45",
+   "titel": "Rechnest du Steuern noch *Zeile für Zeile* von Hand?",
+   "text": "Mehr dazu im Reel heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "59_2026-11-08_pensionen/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Pensionen · heute 17:45",
+   "titel": "Hat deine Firma *Pensionszusagen*?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  },
+  {
+   "vorlage": "story",
+   "datei": "41_2026-10-29_mythen/story_janein.png",
+   "typ": "antwort",
+   "kicker": "Jahresabschluss · heute 17:45",
+   "titel": "Kennst du die *6 Steuer-Irrtümer* im Jahresabschluss?",
+   "text": "Mehr dazu im Karussell heute um 17:45.",
+   "antwort": "Tipp unten auf ein Emoji:\n👏 = ja · 😮 = nein"
+  }
+ ]
+}

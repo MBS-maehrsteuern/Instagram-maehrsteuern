@@ -3671,6 +3671,303 @@
       "hook": "fall",
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2027-01-16 → 2026-12-14 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-12-09 → 2027-01-16 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-12-06 → 2026-12-09 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-28. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-08. · 25.10.: Termin 2026-10-29 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/mythen Folien 1–7 (nicht mythen_3), Folie 8 neu: Speichern + Weiterleiten + TOOL statt offener Kommentarfrage (jobs/p41_mythen.json). Ablaufhemmung § 147 Abs. 3 Satz 5 AO in der Bildunterschrift. alt_texte.json. · 28.10.→06.12. (Platz an Insider #14 Ferrari).",
       "trichter": "oben"
+    },
+    {
+      "id": "10-story-janein",
+      "zeit": "2026-11-18 12:15",
+      "typ": "story",
+      "ordner": "posts/10_2026-10-22_e_rechnung",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "37-story-janein",
+      "zeit": "2026-11-19 12:15",
+      "typ": "story",
+      "ordner": "posts/37_2026-10-27_bp_vorbereitung",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "i10-story-janein",
+      "zeit": "2026-11-20 12:15",
+      "typ": "story",
+      "ordner": "posts/i10_2026-10-26_insider_belege",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "i11-story-janein",
+      "zeit": "2026-11-21 12:15",
+      "typ": "story",
+      "ordner": "posts/i11_2026-10-26_insider_anrufen",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "31-story-janein",
+      "zeit": "2026-11-22 12:15",
+      "typ": "story",
+      "ordner": "posts/31_2026-10-22_zinsschranke",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "49-story-janein",
+      "zeit": "2026-11-23 12:15",
+      "typ": "story",
+      "ordner": "posts/49_2026-11-02_reel_kleinunternehmer",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "48-story-janein",
+      "zeit": "2026-11-24 12:15",
+      "typ": "story",
+      "ordner": "posts/48_2026-11-02_reel_firmenwagen",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "53-story-janein-karussell",
+      "zeit": "2026-11-25 12:15",
+      "typ": "story",
+      "ordner": "posts/53_2026-11-04_iab",
+      "bilder": [
+        "story_janein_karussell.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "50-story-janein",
+      "zeit": "2026-11-26 12:15",
+      "typ": "story",
+      "ordner": "posts/50_2026-11-03_reel_gebaeude_afa",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "38-story-janein",
+      "zeit": "2026-11-27 12:15",
+      "typ": "story",
+      "ordner": "posts/38_2026-10-27_reel_pruefpfad",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "53-story-janein-reel",
+      "zeit": "2026-11-28 12:15",
+      "typ": "story",
+      "ordner": "posts/53_2026-11-04_iab",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "56-story-janein",
+      "zeit": "2026-11-29 12:15",
+      "typ": "story",
+      "ordner": "posts/56_2026-11-06_verjaehrung",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "34-story-janein",
+      "zeit": "2026-11-30 12:15",
+      "typ": "story",
+      "ordner": "posts/34_2026-10-25_reel_einspruch",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "54-story-janein",
+      "zeit": "2026-12-01 12:15",
+      "typ": "story",
+      "ordner": "posts/54_2026-11-05_reel_reverse_charge",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "44-story-janein",
+      "zeit": "2026-12-02 12:15",
+      "typ": "story",
+      "ordner": "posts/44_2026-10-30_glossar",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "43-story-janein",
+      "zeit": "2026-12-03 12:15",
+      "typ": "story",
+      "ordner": "posts/43_2026-10-30_reel_par35",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "55-story-janein",
+      "zeit": "2026-12-04 12:15",
+      "typ": "story",
+      "ordner": "posts/55_2026-11-06_reel_thesaurierung",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "39-story-janein",
+      "zeit": "2026-12-05 12:15",
+      "typ": "story",
+      "ordner": "posts/39_2026-10-28_reel_holding",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "51-story-janein",
+      "zeit": "2026-12-06 12:15",
+      "typ": "story",
+      "ordner": "posts/51_2026-11-03_kapitalertraege",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "57-story-janein",
+      "zeit": "2026-12-07 12:15",
+      "typ": "story",
+      "ordner": "posts/57_2026-11-07_reel_verlust_8c",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "i12-story-janein",
+      "zeit": "2026-12-08 12:15",
+      "typ": "story",
+      "ordner": "posts/i12_2026-10-26_insider_mbs_excel",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "46-story-janein",
+      "zeit": "2026-12-09 12:15",
+      "typ": "story",
+      "ordner": "posts/46_2026-11-01_dividenden_8b",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "40-story-janein",
+      "zeit": "2026-12-10 12:15",
+      "typ": "story",
+      "ordner": "posts/40_2026-10-28_reel_formeln",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "32-story-janein",
+      "zeit": "2026-12-11 12:15",
+      "typ": "story",
+      "ordner": "posts/32_2026-10-23_reel_mindeststeuer",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "33-story-janein",
+      "zeit": "2026-12-12 12:15",
+      "typ": "story",
+      "ordner": "posts/33_2026-10-24_reel_paragraf_formel",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "59-story-janein",
+      "zeit": "2026-12-13 12:15",
+      "typ": "story",
+      "ordner": "posts/59_2026-11-08_pensionen",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+    },
+    {
+      "id": "41-story-janein",
+      "zeit": "2026-12-14 12:15",
+      "typ": "story",
+      "ordner": "posts/41_2026-10-29_mythen",
+      "bilder": [
+        "story_janein.png"
+      ],
+      "status": "freigegeben",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
     }
   ]
 }

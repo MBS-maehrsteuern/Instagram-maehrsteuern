@@ -114,6 +114,10 @@ freundlich auf allgemeine Info beschränken. Spam oder Beleidigung: text = „ig
 
 
 def stichwort(text):
+    """Nur kurze Kommentare (≤ 4 Wörter, z. B. „IAB“ oder „Frist bitte“) lösen die Auto-DM aus – seit es
+    Stichwörter wie BELEGE oder VERLUST gibt, sollen normale Sätze, die das Wort zufällig enthalten, nicht triggern."""
+    if len(re.findall(r"\w+", text or "")) > 4:
+        return None, None
     for wort, a in EINSTELLUNGEN.get("stichwort_antworten", {}).items():
         if re.search(rf"\b{re.escape(wort)}\b", text or "", re.I):
             return wort, a
