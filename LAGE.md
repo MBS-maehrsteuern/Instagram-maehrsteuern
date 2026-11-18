@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 18.11. 09:28 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 18.11. 09:29 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -232,7 +232,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/44046554360) Di 17.11. 09:27 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/44267409655) Mi 18.11. 09:31 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -243,6 +243,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 18.11.2026**
+- 09:29 📡 Radar 2026-11-18: 8 Beiträge, 0 DM-Entwürfe ([`d2025a4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d2025a4c7d196e1b31780b08681d42980b6c41ed))
+  - `automatik/interaktion`
 - 09:28 ✍️ Plan: i05 als veröffentlicht nachgetragen (16.11. 17:13 von Hand gepostet) ([`8227d87`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8227d87fa25eba51b005a71fdaaed58fb8165b05))
   - Plan: `i05-reel-insider-finanzbeamte` status: manuell → veroeffentlicht; `i05-reel-insider-finanzbeamte` online: https://www.instagram.com/reel/DfzwSelNDhh/
 - 09:21 📈 Statistik 2026-11-18 ([`4f0b602`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4f0b602399a36a21c88247d9880a86b8b2088599))
