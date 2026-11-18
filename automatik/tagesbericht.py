@@ -98,10 +98,15 @@ def plan_eintrag(b):
     typ = "reel" if b.get("media_product_type") == "REELS" else FEED.get(b.get("media_type"))
     kand = [x for x in plan if x.get("typ") == typ and not x.get("link") and x.get("zeit")]
     t = _utc(b["timestamp"])
-    nah = [x for x in kand if abs((_plan_zeit(x) - t).total_seconds()) <= 5400]
-    if nah: return min(nah, key=lambda x: abs((_plan_zeit(x) - t).total_seconds()))
+    # zuerst gleiche erste Zeile der Bildunterschrift (eindeutig), dann Zeitnähe – pausierte Einträge
+    # nur über die Bildunterschrift (16.11.: i05 von Hand gepostet, Zeitnähe traf fälschlich das pausierte o09)
     z1 = (b.get("caption") or "").strip().split("\n")[0][:40]
-    return next((x for x in kand if z1 and _erste_zeile(x) == z1), None)
+    e = next((x for x in kand if z1 and _erste_zeile(x) == z1), None)
+    if e: return e
+    nah = [x for x in kand if x.get("status") not in ("pausiert", "entwurf")
+           and abs((_plan_zeit(x) - t).total_seconds()) <= 5400]
+    if nah: return min(nah, key=lambda x: abs((_plan_zeit(x) - t).total_seconds()))
+    return None
 
 def name(b):
     e = plan_eintrag(b)
