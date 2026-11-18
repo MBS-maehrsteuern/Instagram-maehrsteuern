@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 18.11. 09:21 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mi 18.11. 09:28 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -189,6 +189,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
 - Di 17.11. 17:45 · 🎬 Reel `i07-reel-insider-kontrollmitteilung` · [ansehen](https://www.instagram.com/reel/Df2R1z_Eb22/) (online 2026-11-17 17:45)
+- Mo 16.11. 17:45 · 🎬 Reel `i05-reel-insider-finanzbeamte` · [ansehen](https://www.instagram.com/reel/DfzwSelNDhh/) (online 2026-11-16 17:13)
 - So 15.11. 17:45 · 🎬 Reel `i09-reel-insider-elterngeld` · [ansehen](https://www.instagram.com/reel/DfxHtyTD07E/) (online 2026-11-15 17:45)
 - Sa 14.11. 17:45 · 🎬 Reel `o07-reel-vinted-ebay` · [ansehen](https://www.instagram.com/reel/DfujSe_Fa0y/) (online 2026-11-14 17:45)
 - Sa 14.11. 12:15 · 📱 Story `o07-story-vinted-ebay` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4030173219575474693) (online 2026-11-14 12:15)
@@ -197,7 +198,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Do 12.11. 17:45 · 🎬 Reel `o05-reel-nebenkosten` · [ansehen](https://www.instagram.com/reel/DfpaDK_Es0F/) (online 2026-11-12 17:45)
 - Do 12.11. 12:15 · 📱 Story `o05-story-nebenkosten` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4028865258194251258) (online 2026-11-12 16:43)
 - Mi 11.11. 17:45 · 🎬 Reel `o04-reel-eltern-pflegen` · [ansehen](https://www.instagram.com/reel/Dfm09rbGoLE/) (online 2026-11-11 17:45)
-- Mi 11.11. 12:15 · 📱 Story `o04-story-eltern-pflegen` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4027989757565558993) (online 2026-11-11 12:15)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -243,6 +243,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mi 18.11.2026**
+- 09:28 ✍️ Plan: i05 als veröffentlicht nachgetragen (16.11. 17:13 von Hand gepostet) ([`8227d87`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/8227d87fa25eba51b005a71fdaaed58fb8165b05))
+  - Plan: `i05-reel-insider-finanzbeamte` status: manuell → veroeffentlicht; `i05-reel-insider-finanzbeamte` online: https://www.instagram.com/reel/DfzwSelNDhh/
 - 09:21 📈 Statistik 2026-11-18 ([`4f0b602`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4f0b602399a36a21c88247d9880a86b8b2088599))
   - `automatik/statistik`
 
