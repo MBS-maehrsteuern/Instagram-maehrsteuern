@@ -3225,13 +3225,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-23 → 2026-11-17 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-13 → 2026-12-23 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-14 → 2026-11-13 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-07. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #07 (Aufnahme 26.10.), Premium-Look premium/insider_07.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-14.",
       "trichter": "oben",
-      "musik": "113_organic_house.mp3"
+      "musik": "113_organic_house.mp3",
+      "media_id": "17950730091357710",
+      "link": "https://www.instagram.com/reel/Df2R1z_Eb22/",
+      "veroeffentlicht_am": "2026-11-17 17:45",
+      "erster_kommentar_id": "18344785051261354"
     },
     {
       "id": "i11-reel-insider-anrufen",

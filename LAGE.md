@@ -1,22 +1,22 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 16.11. 09:24 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 17.11. 09:25 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o10-story-brief-ernst` (pausiert) · 🟡 17:45 🎬 Reel `o10-reel-brief-ernst` (pausiert) · 🔴 17:45 🎬 Reel `i07-reel-insider-kontrollmitteilung` (Dateien fehlen)
-- **Braucht dich:** 5 offen, davon **4 rot** 🔴
-- **Letzte 7 Tage:** Reichweite **1764** (10.11.–16.11., -96 % zur Vorwoche) · Follower **+17** (jetzt 1275) · 30 Tage: +931 Follows / −24 entfolgt
+- **Heute online:** 🟡 12:15 📱 Story `o11-story-brief-harmlos` (pausiert) · 🟡 17:45 🎬 Reel `o11-reel-brief-harmlos` (pausiert) · 🟢 17:45 🖼️ Karussell `10-e-rechnung` (läuft automatisch)
+- **Braucht dich:** 3 offen, davon **3 rot** 🔴
+- **Letzte 7 Tage:** Reichweite **1574** (11.11.–17.11., -97 % zur Vorwoche) · Follower **+18** (jetzt 1276) · 30 Tage: +934 Follows / −27 entfolgt
 - **Freie Slots nächste 7 Tage** (14):
-  - Di 17.11.: Feed 11:45 · Story 17:50
   - Mi 18.11.: Feed 11:45 · Story 17:50
   - Do 19.11.: Feed 11:45 · Story 17:50
   - Fr 20.11.: Feed 11:45 · Story 17:50
   - Sa 21.11.: Feed 11:45 · Story 17:50
   - So 22.11.: Feed 11:45 · Story 17:50
   - Mo 23.11.: Feed 11:45 · Story 17:50
+  - Di 24.11.: Feed 11:45 · Story 17:50
 
-**Als Nächstes online:** 🎬 Reel `i07-reel-insider-kontrollmitteilung` am **Di 17.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🖼️ Karussell `10-e-rechnung` am **Mi 18.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -64,8 +64,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- ✋ **Von Hand posten** `i05-reel-insider-finanzbeamte` (Mo 16.11. 17:45) – 16.11.: Loris postet von Hand (Option 1): Video reel_beat_ohne_song.mp4 in der App hochladen, Musik „Flower In A Hurricane“ (Justice) über die Instagram-Musikauswahl ab 0:44 – Schnitt ist auf den Takt gelegt, CTA auf dem Gesangseinsatz. Neuer Schnitt-Stil, siehe strategie/22_wissen_schnitt_stil.md (Zweig ccr-537b72f3-t4u1su). · 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-20 → 2026-11-16 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-10 → 2026-12-20 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-12-04 → 2026-11-10 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (121_minimal_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-10-27. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #05 (Aufnahme 26.10.), Premium-Look premium/insider_05.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 27.10. 17:35: Platz an Mein Weg #01 abgegeben (Loris), neu 04.12.
-- 🔴 **Dateien fehlen** `i07-reel-insider-kontrollmitteilung` (Di 17.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i10-reel-insider-belege` (Fr 20.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i11-reel-insider-anrufen` (Sa 21.11. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
 - 🔴 **Dateien fehlen** `i12-reel-insider-mbs-excel` (Di 08.12. 17:45): reel.mp4, titelbild.png, bildunterschrift.txt
@@ -74,9 +72,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 17.11. 12:15 | 📱 Story `o10-story-brief-ernst` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o10-reel-brief-ernst (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
-| Di 17.11. 17:45 | 🎬 Reel `o10-reel-brief-ernst` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I16, Zielgruppen-Match 74 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 17.11. – Match 74 % + Tages-Passung +5 = 79. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
-| Di 17.11. 17:45 | 🎬 Reel `i07-reel-insider-kontrollmitteilung` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-23 → 2026-11-17 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-13 → 2026-12-23 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-14 → 2026-11-13 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (113_organic_house, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-07. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #07 (Aufnahme 26.10.), Premium-Look premium/insider_07.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-14. |
 | Mi 18.11. 12:15 | 📱 Story `o11-story-brief-harmlos` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o11-reel-brief-harmlos (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mi 18.11. 17:45 | 🎬 Reel `o11-reel-brief-harmlos` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H5, Zielgruppen-Match 72 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 18.11. – Match 72 % + Tages-Passung +0 = 72. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mi 18.11. 17:45 | 🖼️ Karussell `10-e-rechnung` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-18 → 2026-11-18 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-08 → 2026-12-18 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-04 → 2026-11-08 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-04. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-04. · 25.10.: Termin 2026-10-27 11:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. (Nachtlauf, Loris' Auftrag „optimieren + freigeben“): Bildunterschrift fachlich korrigiert (Papier in der Übergangszeit ohne Zustimmung, § 27 Abs. 38 UStG; Ausnahmen), Folie 6 Speichern + Weiterleiten, Alt-Texte · 13.10.: Zeiten auf die Follower-Welle gelegt (Loris, Insights: aktivste Zeit 18–21 Uhr) – Feed 17:45/11:45, Storys 17:50/12:15. · Aus der Bibliothek (gegengelesen 05.10., Rechtsstand Okt. 2026: § 27 Abs. 38 UStG) · 06.10.: auf Fr 23.10. geschoben (Reel-Takt alle 2 Tage). · [Freigabe #31](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/issues/31) |
@@ -95,14 +90,14 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 | Mo 23.11. 12:15 | 📱 Story `o16-story-fehler-keine-panik` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o16-reel-fehler-keine-panik (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mo 23.11. 17:45 | 🎬 Reel `o16-reel-fehler-keine-panik` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I15, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 23.11. – Match 67 % + Tages-Passung +2 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mo 23.11. 17:45 | 🎬 Reel `49-reel-kleinunternehmer` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-26 → 2026-11-23 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-16 → 2026-12-26 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-24 → 2026-11-16 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (130_pop_electronic_clean, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Platz für Insider #01 gemacht, Termin vorläufig. · 26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-10-26 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-31. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-31 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-31 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-24. |
+| Di 24.11. 12:15 | 📱 Story `o17-story-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o17-reel-nicht-am-1-januar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
+| Di 24.11. 17:45 | 🎬 Reel `o17-reel-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I17, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 24.11. – Match 68 % + Tages-Passung +3 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
+| Di 24.11. 17:45 | 🎬 Reel `48-reel-firmenwagen` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-27 → 2026-11-24 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-17 → 2026-12-27 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-21 → 2026-11-17 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-30. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-30 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-30 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-21. |
 
 ## 🗓️ Danach
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 24.11. 12:15 | 📱 Story `o17-story-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o17-reel-nicht-am-1-januar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
-| Di 24.11. 17:45 | 🎬 Reel `o17-reel-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I17, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 24.11. – Match 68 % + Tages-Passung +3 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
-| Di 24.11. 17:45 | 🎬 Reel `48-reel-firmenwagen` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-27 → 2026-11-24 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-17 → 2026-12-27 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-21 → 2026-11-17 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-30. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-30 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-30 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-21. |
 | Mi 25.11. 12:15 | 📱 Story `o18-story-handwerker-bar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o18-reel-handwerker-bar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mi 25.11. 17:45 | 🎬 Reel `o18-reel-handwerker-bar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G04, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mi 25.11. – Match 67 % + Tages-Passung +0 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mi 25.11. 17:45 | 🖼️ Karussell `53-karussell-iab` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-28 → 2026-11-25 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-18 → 2026-12-28 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-15 → 2026-11-18 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-15. · 25.10.: Termin 2026-10-30 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf (d2): aus Bibliothek (R6 gegengelesen), karussell/iab_2 Folien 1–6 unverändert; Folie 7 neu: „Speichern für die Investitionsplanung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p53_iab.json). Begleit-Reel 53 am Vorabend. Alt-Texte in alt_texte.json. Geprüft: § 7g Abs. 1–6 EStG (50 %, 200.000 €/200.000 €, 3 Jahre, 40 % Sonder-AfA, 90 % betrieblich). |
@@ -173,6 +168,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Di 17.11. 17:45 · 🎬 Reel `i07-reel-insider-kontrollmitteilung` · [ansehen](https://www.instagram.com/reel/Df2R1z_Eb22/) (online 2026-11-17 17:45)
 - So 15.11. 17:45 · 🎬 Reel `i09-reel-insider-elterngeld` · [ansehen](https://www.instagram.com/reel/DfxHtyTD07E/) (online 2026-11-15 17:45)
 - Sa 14.11. 17:45 · 🎬 Reel `o07-reel-vinted-ebay` · [ansehen](https://www.instagram.com/reel/DfujSe_Fa0y/) (online 2026-11-14 17:45)
 - Sa 14.11. 12:15 · 📱 Story `o07-story-vinted-ebay` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4030173219575474693) (online 2026-11-14 12:15)
@@ -182,34 +178,29 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Do 12.11. 12:15 · 📱 Story `o05-story-nebenkosten` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4028865258194251258) (online 2026-11-12 16:43)
 - Mi 11.11. 17:45 · 🎬 Reel `o04-reel-eltern-pflegen` · [ansehen](https://www.instagram.com/reel/Dfm09rbGoLE/) (online 2026-11-11 17:45)
 - Mi 11.11. 12:15 · 📱 Story `o04-story-eltern-pflegen` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4027989757565558993) (online 2026-11-11 12:15)
-- Di 10.11. 17:45 · 🎬 Reel `o03-reel-2022-nachholen` · [ansehen](https://www.instagram.com/reel/DfkQS4wE4gA/) (online 2026-11-10 17:45)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1275 Follower** · 48 Beiträge im Profil (Abruf 2026-11-17) · **-2** seit 2026-11-16 ⚠️
-Reichweite pro Tag: 14.11. **240** · 15.11. **233** · 16.11. **415** · 17.11. **0**
-
-| Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
-|---|---|---|---|---|---|
-| Mo 16.11. 17:16 | 56 | 47 | 0 | 2 | 0 |
+**1276 Follower** · 49 Beiträge im Profil (Abruf 2026-11-18) · **+1** seit 2026-11-17
+Reichweite pro Tag: 15.11. **233** · 16.11. **415** · 17.11. **217** · 18.11. **0**
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 535 | 385 | 12 | 11 | 7 | 2 |
-| So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 256 (+39) | 209 | 3 | 1 | 2 | 0 |
-| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 380 (+23) | 263 | 10 | 12 | 6 | 57 |
-| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 172 (+10) | 148 | 4 | 1 | 3 | 0 |
-| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 216 (+8) | 159 | 4 | 1 | 3 | 2 |
-| Mi 11.11. 17:45 [Eltern pflegen? Bis 1.800 € Pauschbetrag](https://www.instagram.com/reel/Dfm09rbGoLE/) | 170 (+8) | 130 | 5 | 1 | 2 | 0 |
-| Di 10.11. 17:45 [Steuererklärung 2022: nur noch bis 31.12](https://www.instagram.com/reel/DfkQS4wE4gA/) | 162 (+5) | 128 | 5 | 1 | 1 | 0 |
-| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 518 (+11) | 346 | 10 | 6 | 5 | 21 |
-| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 250 (+5) | 204 | 5 | 1 | 1 | 0 |
-| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 469 (+15) | 346 | 6 | 1 | 2 | 0 |
-| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 397 (+2) | 371 | 4 | 1 | 3 | 4 |
-| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 374 (+2) | 324 | 5 | 1 | 4 | 0 |
-| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1572 (+8) | 1364 | 21 | 4 | 11 | 4 |
-| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 508 (+1) | 320 | 3 | 1 | 10 | 0 |
-| Di 03.11. 17:45 [Ein Darlehen an dich selbst – und für de](https://www.instagram.com/reel/DfSO9Gagk8j/) | 515 (+3) | 473 | 3 | 1 | 1 | 2 |
+| Di 17.11. 17:45 [Dein Geschäftspartner wird geprüft – und](https://www.instagram.com/reel/Df2R1z_Eb22/) | 184 | 156 | 2 | 1 | 1 | 0 |
+| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 614 (+79) | 436 | 13 | 22 | 7 | 2 |
+| So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 262 (+6) | 211 | 3 | 1 | 2 | 0 |
+| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 394 (+14) | 269 | 10 | 12 | 6 | 57 |
+| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 181 (+9) | 154 | 4 | 1 | 3 | 0 |
+| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 222 (+6) | 162 | 4 | 1 | 3 | 2 |
+| Mi 11.11. 17:45 [Eltern pflegen? Bis 1.800 € Pauschbetrag](https://www.instagram.com/reel/Dfm09rbGoLE/) | 173 (+3) | 132 | 5 | 1 | 2 | 0 |
+| Di 10.11. 17:45 [Steuererklärung 2022: nur noch bis 31.12](https://www.instagram.com/reel/DfkQS4wE4gA/) | 166 (+4) | 131 | 5 | 1 | 1 | 0 |
+| Mo 09.11. 22:54 [#fussball #fussballliebe #fußball #comin](https://www.instagram.com/reel/DfiVnTItS07/) | 524 (+6) | 347 | 10 | 6 | 5 | 21 |
+| Mo 09.11. 17:45 [Mehr Brutto ist immer mehr Netto 💶](https://www.instagram.com/reel/DfhrYclDiz6/) | 255 (+5) | 208 | 5 | 1 | 1 | 0 |
+| So 08.11. 17:45 [Was mich die Freiheit wirklich gekostet ](https://www.instagram.com/reel/DffGh9vEe5N/) | 472 (+3) | 347 | 6 | 1 | 2 | 0 |
+| Sa 07.11. 17:45 [Zu spät gezahlt? Das Finanzamt nimmt daf](https://www.instagram.com/reel/Dfchu8kn5E_/) | 400 (+3) | 373 | 4 | 1 | 3 | 4 |
+| Fr 06.11. 17:45 [Keine Steuererklärung abgegeben? Dann sc](https://www.instagram.com/reel/DfZ9DhrjbqF/) | 379 (+5) | 327 | 5 | 1 | 4 | 0 |
+| Do 05.11. 17:45 [Ein Einspruch kostet dich 0 Euro. ✉️](https://www.instagram.com/reel/DfXciSnGiwR/) | 1576 (+4) | 1370 | 21 | 4 | 11 | 4 |
+| Mi 04.11. 17:45 [30 KI-Befehle für Steuer-Profis – ohne G](https://www.instagram.com/p/DfUzoUhoMFD/) | 509 (+1) | 321 | 3 | 1 | 10 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -231,6 +222,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
+**Di 17.11.2026**
+- 09:25 ✍️ Tagesbericht 17. November: 1.275 Follower (−2) · o09 535 Aufrufe ([`5c50abd`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/5c50abdead363e48595ee18d37b6e07b14991096))
+  - Plan: `i05-reel-insider-finanzbeamte` status: freigegeben → manuell
+
 **Mo 16.11.2026**
 - 09:24 ✍️ Tagesbericht 16. November: 1.277 Follower (+4) · i09 78 % übersprungen ([`786edd4`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/786edd407db184af4b9fa7ad8d2915d6ba512c3f))
   - Plan: `i09-reel-insider-elterngeld` status: freigegeben → veroeffentlicht; `i09-reel-insider-elterngeld` online: https://www.instagram.com/reel/DfxHtyTD07E/
@@ -251,11 +246,11 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:28 ✍️ Tagesbericht 12. November: 1.257 Follower (−1) · o04 74 % übersprungen ([`82e976d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/82e976def614e6794643283a7133da74964b44a2))
   - Plan: `o04-story-eltern-pflegen` status: freigegeben → veroeffentlicht; `o04-story-eltern-pflegen` online: https://www.instagram.com/stories/maehrsteuern/4027989757565558993; `o04-reel-eltern-pflegen` status: freigegeben → veroeffentlicht; `o04-reel-eltern-pflegen` online: https://www.instagram.com/reel/Dfm09rbGoLE/
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mi 11.11.2026**
 - 09:25 ✍️ Tagesbericht 11. November: 1.258 Follower (±0) · o03 69 % übersprungen ([`96ff1c6`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/96ff1c659ee3cf7a8b285696605ff0402305e774))
   - Plan: `o03-story-2022-nachholen` status: freigegeben → veroeffentlicht; `o03-story-2022-nachholen` online: https://www.instagram.com/stories/maehrsteuern/4027259388486374936; `o03-reel-2022-nachholen` status: freigegeben → veroeffentlicht; `o03-reel-2022-nachholen` online: https://www.instagram.com/reel/DfkQS4wE4gA/
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Di 10.11.2026**
 - 09:43 ✍️ Tagesbericht 10. November: 1.258 Follower (+3) · 263 Reichweite ([`10fc986`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/10fc986cc0e103ed07bd37f852a7c58de13e8819))
