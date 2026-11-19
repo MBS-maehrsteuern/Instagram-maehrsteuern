@@ -1,15 +1,15 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 19.11. 09:33 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 19.11. 14:54 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o12-story-minijob-mit-17` (pausiert) · 🔴 12:15 📱 Story `37-story-janein` (überfällig) · 🟡 17:45 🎬 Reel `o12-reel-minijob-mit-17` (pausiert) · 🟢 17:45 🖼️ Karussell `37-karussell-bp-vorbereitung` (läuft automatisch)
-- **Braucht dich:** 1 offen, davon **1 rot** 🔴
+- **Heute online:** 🟡 12:15 📱 Story `o12-story-minijob-mit-17` (pausiert) · ✅ 12:15 📱 Story `37-story-janein` (online) · 🟡 17:45 🎬 Reel `o12-reel-minijob-mit-17` (pausiert) · 🟢 17:45 🖼️ Karussell `37-karussell-bp-vorbereitung` (läuft automatisch)
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1533** (12.11.–18.11., -97 % zur Vorwoche) · Follower **+19** (jetzt 1276) · 30 Tage: +935 Follows / −27 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 📱 Story `37-story-janein` am **Do 19.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
+**Als Nächstes online:** 🖼️ Karussell `37-karussell-bp-vorbereitung` am **Do 19.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -87,14 +87,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `37-story-janein` (Do 19.11. 12:15): freigegeben, seit 54 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Do 19.11. 12:15 | 📱 Story `o12-story-minijob-mit-17` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o12-reel-minijob-mit-17 (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
-| Do 19.11. 12:15 | 📱 Story `37-story-janein` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
 | Do 19.11. 17:45 | 🎬 Reel `o12-reel-minijob-mit-17` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H3, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 19.11. – Match 71 % + Tages-Passung +0 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Do 19.11. 17:45 | 🖼️ Karussell `37-karussell-bp-vorbereitung` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-21 → 2026-11-19 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-11 → 2026-12-21 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-08 → 2026-11-11 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend. |
 | Fr 20.11. 12:15 | 📱 Story `o13-story-satz-gehalt` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o13-reel-satz-gehalt (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
@@ -212,6 +211,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Do 19.11. 12:15 · 📱 Story `37-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4033884062099774198) (online 2026-11-19 14:54)
 - Mi 18.11. 17:45 · 🖼️ Karussell `10-e-rechnung` · [ansehen](https://www.instagram.com/p/Df42zs4ERj5/) (online 2026-11-18 17:45)
 - Mi 18.11. 12:15 · 📱 Story `10-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4033213711296578666) (online 2026-11-18 16:42)
 - Di 17.11. 17:45 · 🎬 Reel `i07-reel-insider-kontrollmitteilung` · [ansehen](https://www.instagram.com/reel/Df2R1z_Eb22/) (online 2026-11-17 17:45)
@@ -221,7 +221,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Sa 14.11. 12:15 · 📱 Story `o07-story-vinted-ebay` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4030173219575474693) (online 2026-11-14 12:15)
 - Fr 13.11. 17:45 · 🎬 Reel `o06-reel-familienfeier` · [ansehen](https://www.instagram.com/reel/Dfr-r6XDwIF/) (online 2026-11-13 17:45)
 - Fr 13.11. 12:15 · 📱 Story `o06-story-familienfeier` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4029443604414711571) (online 2026-11-13 12:15)
-- Do 12.11. 17:45 · 🎬 Reel `o05-reel-nebenkosten` · [ansehen](https://www.instagram.com/reel/DfpaDK_Es0F/) (online 2026-11-12 17:45)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -260,7 +259,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
-| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/44267409655) Mi 18.11. 09:31 |
+| Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/44521267176) Do 19.11. 13:12 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
@@ -271,6 +270,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 19.11.2026**
+- 14:54 🤖 Autopilot: 37-story-janein veroeffentlicht ([`a249fd0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a249fd0934addba1ebf2975b4e4f55ffb527a87a))
+  - Plan: `37-story-janein` status: freigegeben → veroeffentlicht; `37-story-janein` online: https://www.instagram.com/stories/maehrsteuern/4033884062099774198
+- 14:52 🤖 Autopilot: Dateien fuer 37-story-janein vorbereitet ([`0be22db`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0be22db1ef5b704e768e3016a512a1642ad9b00b))
+  - `posts/37_2026-10-27_bp_vorbereitung`
 - 09:33 📡 Radar 2026-11-19: 8 Beiträge, 0 DM-Entwürfe ([`ca3c0fc`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ca3c0fc22c009e71e78669ef035bf8f9ac5abf86))
   - `automatik/interaktion`
 - 09:25 📈 Statistik 2026-11-19 ([`ccae1c7`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ccae1c75205feaec5085bc7a73843ac17423c716))
