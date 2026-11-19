@@ -3202,11 +3202,15 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-21 → 2026-11-19 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-11 → 2026-12-21 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-08 → 2026-11-11 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend.",
-      "trichter": "unten"
+      "trichter": "unten",
+      "media_id": "18120019064081657",
+      "link": "https://www.instagram.com/p/Df7bc_QlKPB/",
+      "veroeffentlicht_am": "2026-11-19 17:45",
+      "erster_kommentar_id": "18109923128193270"
     },
     {
       "id": "i10-reel-insider-belege",
