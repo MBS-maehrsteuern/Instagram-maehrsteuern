@@ -3698,8 +3698,11 @@
       "bilder": [
         "story_janein.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+      "status": "veroeffentlicht",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json).",
+      "media_id": "18198494485394605",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4033884062099774198",
+      "veroeffentlicht_am": "2026-11-19 14:54"
     },
     {
       "id": "i10-story-janein",
