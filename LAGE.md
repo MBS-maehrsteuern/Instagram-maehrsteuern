@@ -1,6 +1,6 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 19.11. 14:54 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Do 19.11. 16:39 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
@@ -270,6 +270,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Do 19.11.2026**
+- 16:39 🤖 Autopilot: Dateien fuer 37-karussell-bp-vorbereitung vorbereitet ([`38dcf31`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/38dcf3136f3510acd0181b2ef8f2edceb2ec092a))
+  - `posts/37_2026-10-27_bp_vorbereitung`
 - 14:54 🤖 Autopilot: 37-story-janein veroeffentlicht ([`a249fd0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a249fd0934addba1ebf2975b4e4f55ffb527a87a))
   - Plan: `37-story-janein` status: freigegeben → veroeffentlicht; `37-story-janein` online: https://www.instagram.com/stories/maehrsteuern/4033884062099774198
 - 14:52 🤖 Autopilot: Dateien fuer 37-story-janein vorbereitet ([`0be22db`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0be22db1ef5b704e768e3016a512a1642ad9b00b))
