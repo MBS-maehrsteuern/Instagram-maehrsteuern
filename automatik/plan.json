@@ -3220,13 +3220,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-22 → 2026-11-20 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-12 → 2026-12-22 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 30.10.: Musik neu (127_tech_groove, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-06. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #10 (Aufnahme 26.10.), Premium-Look premium/insider_10.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-12.",
       "trichter": "oben",
-      "musik": "127_tech_groove.mp3"
+      "musik": "127_tech_groove.mp3",
+      "media_id": "17877042951639756",
+      "link": "https://www.instagram.com/reel/Df-AKGminwC/",
+      "veroeffentlicht_am": "2026-11-20 17:45",
+      "erster_kommentar_id": "17947395102379319"
     },
     {
       "id": "i07-reel-insider-kontrollmitteilung",
