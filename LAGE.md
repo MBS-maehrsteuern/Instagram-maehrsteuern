@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o12-story-minijob-mit-17` (pausiert) · ✅ 12:15 📱 Story `37-story-janein` (online) · 🟡 17:45 🎬 Reel `o12-reel-minijob-mit-17` (pausiert) · ✅ 17:45 🖼️ Karussell `37-karussell-bp-vorbereitung` (online)
+- **Heute online:** 🟡 12:15 📱 Story `o13-story-satz-gehalt` (pausiert) · 🟢 12:15 📱 Story `i10-story-janein` (läuft automatisch) · 🟡 17:45 🎬 Reel `o13-reel-satz-gehalt` (pausiert) · 🟢 17:45 🎬 Reel `i10-reel-insider-belege` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1533** (12.11.–18.11., -97 % zur Vorwoche) · Follower **+19** (jetzt 1276) · 30 Tage: +935 Follows / −27 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -93,7 +93,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Do 19.11. 17:45 | 🎬 Reel `o12-reel-minijob-mit-17` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID H3, Zielgruppen-Match 71 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Do 19.11. – Match 71 % + Tages-Passung +0 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Fr 20.11. 12:15 | 📱 Story `o13-story-satz-gehalt` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o13-reel-satz-gehalt (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Fr 20.11. 12:15 | 📱 Story `i10-story-janein` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
 | Fr 20.11. 17:45 | 🎬 Reel `o13-reel-satz-gehalt` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID M3, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Fr 20.11. – Match 68 % + Tages-Passung +5 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
@@ -354,6 +353,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:02 ✍️ Ehrensaft: Reel 13 „Damals vs. jetzt“ (Orangenbrühe → Ehrensaft) ([`24e30d0`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/24e30d024f1611b81e77927ac211812286d2b925))
   - `ehrensaft/posts/13_damals_jetzt/bildunterschrift.txt`, `ehrensaft/posts/13_damals_jetzt/reel.mp4`, `ehrensaft/posts/13_damals_jetzt/reel_titel.jpg`, `ehrensaft/posts/13_damals_jetzt/seite.html`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Fr 13.11.2026**
 - 17:45 🤖 Autopilot: o06-reel-familienfeier veroeffentlicht ([`3d43aa8`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3d43aa8e38ef94ceaf9dcd53bfe439ea91121cb8))
   - Plan: `o06-reel-familienfeier` status: freigegeben → veroeffentlicht; `o06-reel-familienfeier` online: https://www.instagram.com/reel/Dfr-r6XDwIF/
@@ -369,8 +370,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/interaktion`
 - 09:21 📈 Statistik 2026-11-13 ([`e0b4123`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e0b4123de0a96224d94ebb822d18ceb84ad1a719))
   - `automatik/statistik`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Do 12.11.2026**
 - 17:45 🤖 Autopilot: o05-reel-nebenkosten veroeffentlicht ([`f2da225`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/f2da225d3e92953c30efc90c28f387a818a6e031))
