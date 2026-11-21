@@ -3202,11 +3202,15 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "fall",
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-21 → 2026-11-19 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-11 → 2026-12-21 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-08 → 2026-11-11 (K01 KI-Befehle am 04.11., Loris go). · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-08. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-28. · 25.10.: Premium-Look (premium/karussells/p37_bp_vorbereitung.json), go Loris, 2026-10-26 17:45. · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), karussell/bp_vorbereitung Folien 1–5 unverändert; Folie 6 neu: „Speichern bis zur nächsten Prüfungsanordnung“ + „Wer in deinem Team braucht das?“ + TOOL (jobs/p37_bp_vorbereitung.json). Geprüft: §§ 196, 197 AO, § 147 Abs. 6 AO, GoBD, § 200 AO; Bildunterschrift ergänzt um 4/2 Wochen Vorlauf (§ 5 Abs. 4 BpO). Alt-Texte in alt_texte.json. Begleit-Reel 38 am Abend.",
-      "trichter": "unten"
+      "trichter": "unten",
+      "media_id": "18120019064081657",
+      "link": "https://www.instagram.com/p/Df7bc_QlKPB/",
+      "veroeffentlicht_am": "2026-11-19 17:45",
+      "erster_kommentar_id": "18109923128193270"
     },
     {
       "id": "i10-reel-insider-belege",
@@ -3216,13 +3220,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-22 → 2026-11-20 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-12 → 2026-12-22 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 30.10.: Musik neu (127_tech_groove, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. 15:30: Reihenfolge nach Viral-Potenzial (Loris: „das virale als erstes“) → 2026-11-06. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Serie Finanzamt-Insider #10 (Aufnahme 26.10.), Premium-Look premium/insider_10.html. Freigabe Loris („Freigabe für alles mit Sprachnachricht“). · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-12.",
       "trichter": "oben",
-      "musik": "127_tech_groove.mp3"
+      "musik": "127_tech_groove.mp3",
+      "media_id": "17877042951639756",
+      "link": "https://www.instagram.com/reel/Df-AKGminwC/",
+      "veroeffentlicht_am": "2026-11-20 17:45",
+      "erster_kommentar_id": "17947395102379319"
     },
     {
       "id": "i07-reel-insider-kontrollmitteilung",
@@ -3698,8 +3706,11 @@
       "bilder": [
         "story_janein.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+      "status": "veroeffentlicht",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json).",
+      "media_id": "18198494485394605",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4033884062099774198",
+      "veroeffentlicht_am": "2026-11-19 14:54"
     },
     {
       "id": "i10-story-janein",
@@ -3709,8 +3720,11 @@
       "bilder": [
         "story_janein.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+      "status": "veroeffentlicht",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json).",
+      "media_id": "18122991253761525",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4034555886815308543",
+      "veroeffentlicht_am": "2026-11-20 13:09"
     },
     {
       "id": "i11-story-janein",
