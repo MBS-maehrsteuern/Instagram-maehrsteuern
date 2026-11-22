@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o14-story-kinderbetreuung` (pausiert) · ✅ 12:15 📱 Story `i11-story-janein` (online) · 🟡 17:45 🎬 Reel `o14-reel-kinderbetreuung` (pausiert) · ✅ 17:45 🎬 Reel `i11-reel-insider-anrufen` (online)
+- **Heute online:** 🟡 12:15 📱 Story `o15-story-mythos-steuerklasse` (pausiert) · 🟢 12:15 📱 Story `31-story-janein` (läuft automatisch) · 🟡 17:45 🎬 Reel `o15-reel-mythos-steuerklasse` (pausiert) · 🟢 17:45 🖼️ Karussell `31-karussell-zinsschranke` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1536** (14.11.–20.11., -92 % zur Vorwoche) · Follower **+0** (jetzt 1273) · 30 Tage: +933 Follows / −29 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -93,7 +93,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 21.11. 17:45 | 🎬 Reel `o14-reel-kinderbetreuung` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID G02, Zielgruppen-Match 70 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 21.11. – Match 70 % + Tages-Passung +3 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | So 22.11. 12:15 | 📱 Story `o15-story-mythos-steuerklasse` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o15-reel-mythos-steuerklasse (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | So 22.11. 12:15 | 📱 Story `31-story-janein` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
 | So 22.11. 17:45 | 🎬 Reel `o15-reel-mythos-steuerklasse` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID X02, Zielgruppen-Match 65 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: So 22.11. – Match 65 % + Tages-Passung +8 = 73. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
@@ -340,6 +339,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 08:20 📡 Radar 2026-11-16: 8 Beiträge, 0 DM-Entwürfe ([`4c19355`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4c193554d56eb24b4ca35997566e874c2d6347df))
   - `automatik/interaktion`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **So 15.11.2026**
 - 21:58 ✍️ Wochenbericht KW 2026-46 ([`b175063`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b175063e5402df328deb69be6a3addfd8f98137b))
   - `automatik/statistik`
@@ -351,8 +352,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `automatik/statistik`
 - 09:01 📡 Radar 2026-11-15: 8 Beiträge, 0 DM-Entwürfe ([`21ebb69`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/21ebb69a1e8d8cdc874520234a36e1d286583301))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **Sa 14.11.2026**
 - 19:01 ✍️ Ehrensaft: Reel 15 für TikTok – Getränke-Ranking, Ehrensaft sprengt die Liste ([`e990f7e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/e990f7ea3b1efdcfeae9336451c604da11bd3b66))
