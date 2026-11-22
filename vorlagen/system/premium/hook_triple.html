@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Dreifach-Hook („Triple Hook“): Kinetic-Typografie-Opener für Reels. Zeitgesteuert: render(t) zeichnet Frame t (Sekunden).
+     Liest window.HOOK = {lines:[{words:[{w,s,e,akzent?,gross?}],icon?}], dauer, ausblenden_ab}.
+     Die Zeiten s/e kommen aus faster-whisper (schnitt/hook_triple_bauen.py, das die Konfiguration unter <!--HOOK--> einsetzt).
+     Gerendert mit premium/rendern_alpha.mjs (Hintergrund wird zum Ende hin transparent → weicher Übergang ins Reel). -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--rot:#E07A6B;
+  --serif:"Liberation Serif","FreeSerif","IBM Plex Serif",Georgia,serif;--sans:"IBM Plex Sans","Outfit",sans-serif}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 800px at 30% 30%,rgba(83,195,162,.13),transparent 70%),
+  radial-gradient(1400px 1400px at 50% 50%,transparent 45%,rgba(0,0,0,.55) 100%),var(--bg)}
+#block{position:absolute;left:90px;width:900px;top:320px}
+.zeile{margin-bottom:96px;transition:none}
+.reihe{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.32em;row-gap:6px;font-size:68px;line-height:1.12}
+.w{display:inline-block;opacity:0;white-space:nowrap;font-weight:400;color:var(--text);letter-spacing:-.005em}
+.w.gross{font-family:"Outfit";font-weight:700;font-size:132px;line-height:1.02;letter-spacing:-.025em}
+.w.gruen{font-family:"Outfit";font-weight:700;color:var(--gruen);text-shadow:0 0 38px rgba(83,195,162,.45)}
+.w.rot{font-family:"Outfit";font-weight:700;color:var(--rot);text-shadow:0 0 34px rgba(224,122,107,.4)}
+.w.serif{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--gruen2);text-shadow:0 0 38px rgba(83,195,162,.35);letter-spacing:-.01em}
+.ico{width:96px;height:96px;margin-left:.2em;align-self:center;overflow:visible;opacity:0}
+.ico *{fill:none;stroke:var(--gruen);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;
+  filter:drop-shadow(0 0 6px rgba(83,195,162,.55))}
+</style></head><body>
+<div id="bg"></div><div id="block"></div>
+<!--HOOK-->
+<script>
+// Vorgabe, falls nichts eingesetzt wurde (nur zum Ansehen der Vorlage)
+window.HOOK = window.HOOK || {dauer:4.2, ausblenden_ab:3.9, lines:[
+  {words:[{w:"Ein",s:.2,e:.4},{w:"einziger",s:.4,e:.8},{w:"Auftrag",s:.8,e:1.2,gross:true}],icon:"dokument"},
+  {words:[{w:"kann",s:1.3,e:1.5},{w:"dich",s:1.5,e:1.7},{w:"sofort",s:1.7,e:2.1,akzent:"gruen",gross:true},{w:"umsatzsteuerpflichtig",s:2.1,e:2.9,gross:true},{w:"machen.",s:2.9,e:3.3}]},
+  {words:[{w:"Nicht",s:3.3,e:3.5,akzent:"rot",gross:true},{w:"erst",s:3.5,e:3.7},{w:"ab",s:3.7,e:3.8},{w:"Januar.",s:3.8,e:4.2,akzent:"serif",gross:true}],icon:"kalender"}]};
+const H = window.HOOK, MAXB = 900;
+// Strichsymbole, Zeichenfläche 64x64, jeder Pfad wird per stroke-dashoffset „gezeichnet“
+const IC = {
+ haken:'<path d="M10 34 L26 50 L54 14"/>',
+ auge:'<path d="M4 32 Q32 6 60 32 Q32 58 4 32 Z"/><circle cx="32" cy="32" r="9"/>',
+ fragezeichen:'<path d="M20 22 Q20 8 32 8 Q46 8 46 21 Q46 30 32 35 L32 43"/><path d="M32 53 L32 55"/>',
+ blitz:'<path d="M38 4 L14 36 L30 36 L24 60 L50 26 L34 26 Z"/>',
+ euro:'<path d="M48 14 Q40 6 30 6 Q12 8 12 32 Q12 56 30 58 Q40 58 48 50"/><path d="M6 26 L38 26"/><path d="M6 38 L38 38"/>',
+ warnung:'<path d="M32 6 L60 54 L4 54 Z"/><path d="M32 24 L32 38"/><path d="M32 46 L32 47"/>',
+ kalender:'<rect x="6" y="12" width="52" height="46" rx="6"/><path d="M6 26 L58 26"/><path d="M20 5 L20 17"/><path d="M44 5 L44 17"/><path d="M18 38 L24 38"/><path d="M30 38 L36 38"/><path d="M42 38 L48 38"/><path d="M18 48 L24 48"/><path d="M30 48 L36 48"/>',
+ haus:'<path d="M6 32 L32 8 L58 32"/><path d="M14 28 L14 56 L50 56 L50 28"/><path d="M27 56 L27 40 L37 40 L37 56"/>',
+ auto:'<path d="M6 42 L6 32 L14 22 Q16 18 22 18 L42 18 Q48 18 50 22 L58 32 L58 42 Z"/><circle cx="18" cy="44" r="6"/><circle cx="46" cy="44" r="6"/><path d="M12 32 L52 32"/>',
+ dokument:'<path d="M14 6 L40 6 L52 18 L52 58 L14 58 Z"/><path d="M40 6 L40 18 L52 18"/><path d="M22 30 L44 30"/><path d="M22 40 L44 40"/><path d="M22 50 L36 50"/>'
+};
+const blk = document.getElementById("block"), bg = document.getElementById("bg");
+const el = [];  // je Zeile: {z, ws:[{el,s}], ico, t0, t1}
+H.lines.forEach(L => {
+  const z = document.createElement("div"); z.className = "zeile";
+  const r = document.createElement("div"); r.className = "reihe"; z.appendChild(r);
+  const ws = L.words.map(o => {
+    const sp = document.createElement("span");
+    sp.className = "w" + (o.gross || o.akzent ? " gross" : "") + (o.akzent ? " " + o.akzent : "");
+    sp.textContent = o.w; r.appendChild(sp); return {el: sp, s: o.s, e: o.e};
+  });
+  let ico = null;
+  if (L.icon && IC[L.icon]) {
+    ico = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    ico.setAttribute("viewBox", "-4 -4 72 72"); ico.setAttribute("class", "ico");
+    ico.innerHTML = IC[L.icon]; ico.querySelectorAll("*").forEach(p => p.setAttribute("pathLength", "1"));
+    r.appendChild(ico);
+  }
+  blk.appendChild(z);
+  el.push({z, ws, ico, t0: ws[0].s, t1: ws[ws.length - 1].s});
+});
+// Zu breite Wörter (z. B. „umsatzsteuerpflichtig“) so weit verkleinern, dass sie in die Textspalte passen
+document.fonts.ready.then(() => {
+  el.forEach(L => L.ws.forEach(w => {
+    const b = w.el.getBoundingClientRect().width;
+    if (b > MAXB) w.el.style.fontSize = Math.floor(parseFloat(getComputedStyle(w.el).fontSize) * MAXB / b - 1) + "px";
+  }));
+});
+const klemm = x => Math.max(0, Math.min(1, x)), aus = x => 1 - Math.pow(1 - x, 3);
+const POP = 0.12, DIM = 0.3, AUS = 0.25;
+window.render = t => {
+  el.forEach((L, i) => {
+    L.ws.forEach(w => { const p = aus(klemm((t - w.s) / POP)); w.el.style.opacity = p; w.el.style.transform = `translateY(${(1 - p) * 30}px)`; });
+    if (L.ico) { // Symbol zeichnet sich ab dem ersten Wort der Zeile, Dauer 0,55 s
+      const p = klemm((t - L.t0 - 0.1) / 0.55);
+      L.ico.style.opacity = p > 0 ? 1 : 0;
+      L.ico.querySelectorAll("*").forEach(q => { q.style.strokeDasharray = 1; q.style.strokeDashoffset = 1 - aus(p); });
+    }
+    // ältere Zeilen werden etwas leiser, sobald die nächste beginnt
+    const nxt = el[i + 1]; L.z.style.opacity = nxt ? 1 - 0.45 * aus(klemm((t - nxt.t0) / DIM)) : 1;
+  });
+  const q = aus(klemm((t - H.ausblenden_ab) / AUS));   // Ausblenden: Block hebt leicht ab und verschwindet, Hintergrund gibt das Reel frei
+  blk.style.opacity = 1 - q; blk.style.transform = `translateY(${-40 * q}px)`; bg.style.opacity = 1 - q;
+};
+render(0);
+</script></body></html>
