@@ -3286,11 +3286,15 @@
         "folie_06.png"
       ],
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": false,
       "hook": "zahl",
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-25 → 2026-11-22 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-15 → 2026-12-25 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 29.10.: verschoben 2026-11-11 → 2026-11-15 (K01 KI-Befehle am 04.11., Loris go). · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-11-11. · 25.10.: Termin 2026-10-28 17:45 reserviert, Premium-Look fertig, freigegeben (go Loris). · 14.10. Nachtlauf: aus Bibliothek (R3 gegengelesen), Folien 1–5 aus karussell/zinsschranke, Folie 6 neu (Speichern + Weiterleiten, Job jobs/p31_zinsschranke.json). Offener Prüfbericht-Punkt erledigt: Bildunterschrift nennt Untergang des Zinsvortrags bei schädlichem Anteilseignerwechsel (§ 4h Abs. 5 EStG i. V. m. § 8c KStG). Freigrenze < 3 Mio. €, 30 % verrechenbares EBITDA, Stand-alone „keine nahestehende Person“, Escape 2 Prozentpunkte. Begleit-Karussell zum Abend-Reel 21 Zinsschranke",
-      "trichter": "unten"
+      "trichter": "unten",
+      "media_id": "18102416900450125",
+      "link": "https://www.instagram.com/p/DgDJ6RvFChs/",
+      "veroeffentlicht_am": "2026-11-22 17:45",
+      "erster_kommentar_id": "18118833920519810"
     },
     {
       "id": "49-reel-kleinunternehmer",
@@ -3752,8 +3756,11 @@
       "bilder": [
         "story_janein.png"
       ],
-      "status": "freigegeben",
-      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json)."
+      "status": "veroeffentlicht",
+      "hinweis": "18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json).",
+      "media_id": "18134755909761016",
+      "link": "https://www.instagram.com/stories/maehrsteuern/4036112594725279117",
+      "veroeffentlicht_am": "2026-11-22 16:42"
     },
     {
       "id": "49-story-janein",
