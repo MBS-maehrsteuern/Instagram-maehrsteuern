@@ -4,7 +4,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o15-story-mythos-steuerklasse` (pausiert) · ✅ 12:15 📱 Story `31-story-janein` (online) · 🟡 17:45 🎬 Reel `o15-reel-mythos-steuerklasse` (pausiert) · ✅ 17:45 🖼️ Karussell `31-karussell-zinsschranke` (online)
+- **Heute online:** 🟡 12:15 📱 Story `o16-story-fehler-keine-panik` (pausiert) · 🟢 12:15 📱 Story `49-story-janein` (läuft automatisch) · 🟡 17:45 🎬 Reel `o16-reel-fehler-keine-panik` (pausiert) · 🟢 17:45 🎬 Reel `49-reel-kleinunternehmer` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1509** (15.11.–21.11., -86 % zur Vorwoche) · Follower **-1** (jetzt 1272) ⚠️ · 30 Tage: +932 Follows / −31 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
@@ -341,6 +341,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 - 09:22 📈 Statistik 2026-11-17 ([`ae03d33`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/ae03d33ee1f3d5c6e24837974bc2f86e6c6ecc31))
   - `automatik/statistik`
 
+<details><summary>Älter als 7 Tage</summary>
+
 **Mo 16.11.2026**
 - 16:58 ✍️ i05 von Hand posten (Loris): neue Beat-Fassung, Musik über die App, Stichwort ABZUG ([`c2dfc48`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/c2dfc488e11dc4cf3f0ba94a8583fbc430816874))
   - Plan: `i05-reel-insider-finanzbeamte` status: freigegeben → manuell
@@ -350,8 +352,6 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
   - `recherche/viral_liste.csv`, `recherche/vorbilder.json`, `recherche/vorbilder_bericht.md`
 - 08:20 📡 Radar 2026-11-16: 8 Beiträge, 0 DM-Entwürfe ([`4c19355`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/4c193554d56eb24b4ca35997566e874c2d6347df))
   - `automatik/interaktion`
-
-<details><summary>Älter als 7 Tage</summary>
 
 **So 15.11.2026**
 - 21:58 ✍️ Wochenbericht KW 2026-46 ([`b175063`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/b175063e5402df328deb69be6a3addfd8f98137b))
