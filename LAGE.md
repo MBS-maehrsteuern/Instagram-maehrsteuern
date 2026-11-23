@@ -1,15 +1,15 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 23.11. 12:42 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Mo 23.11. 14:02 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟡 12:15 📱 Story `o16-story-fehler-keine-panik` (pausiert) · 🔴 12:15 📱 Story `49-story-janein` (überfällig) · 🟡 17:45 🎬 Reel `o16-reel-fehler-keine-panik` (pausiert) · 🟢 17:45 🎬 Reel `49-reel-kleinunternehmer` (läuft automatisch)
-- **Braucht dich:** 1 offen, davon **1 rot** 🔴
+- **Heute online:** 🟡 12:15 📱 Story `o16-story-fehler-keine-panik` (pausiert) · ✅ 12:15 📱 Story `49-story-janein` (online) · 🟡 17:45 🎬 Reel `o16-reel-fehler-keine-panik` (pausiert) · 🟢 17:45 🎬 Reel `49-reel-kleinunternehmer` (läuft automatisch)
+- **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **1509** (15.11.–21.11., -86 % zur Vorwoche) · Follower **-1** (jetzt 1272) ⚠️ · 30 Tage: +932 Follows / −31 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 📱 Story `49-story-janein` am **Mo 23.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online) – 🔴 **überfällig**
+**Als Nächstes online:** 🎬 Reel `49-reel-kleinunternehmer` am **Mo 23.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -87,14 +87,13 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 👉 Braucht dich
 
-- 🔴 **Überfällig** `49-story-janein` (Mo 23.11. 12:15): freigegeben, seit 30 Min. über der Zeit und nicht online – Posten-Lauf/Wächter in Actions prüfen
+- Nichts offen. 🎉
 
 ## ⏭️ Nächste 7 Tage
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
 | Mo 23.11. 12:15 | 📱 Story `o16-story-fehler-keine-panik` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o16-reel-fehler-keine-panik (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
-| Mo 23.11. 12:15 | 📱 Story `49-story-janein` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
 | Mo 23.11. 17:45 | 🎬 Reel `o16-reel-fehler-keine-panik` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I15, Zielgruppen-Match 67 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Mo 23.11. – Match 67 % + Tages-Passung +2 = 69. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mo 23.11. 17:45 | 🎬 Reel `49-reel-kleinunternehmer` | 🟢 freigegeben (geht automatisch online) | 14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-26 → 2026-11-23 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-16 → 2026-12-26 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-24 → 2026-11-16 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (130_pop_electronic_clean, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 26.10.: Platz für Insider #01 gemacht, Termin vorläufig. · 26.10.: Loris – Einspruch heute zu speziell, breiteres Thema zuerst → 2026-10-26 17:45. · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-31. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-31 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-31 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-26 17:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p49_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), CTA-Reel KW 45 (TOOL-Aufruf im Abspann, eigener TOOL-Absatz in der Bildunterschrift: Grenz-Monitor 100.000 €). Reel ohne Stimme 15,4 s, −18,2 LUFS, Musik 12 Pop Electronic, Abspann zusätzlich groß „Kommentiere „TOOL““. Titelbild neu „100.000 € und raus.“, Karten: Grenz-Folien neu gerendert mit Normbox „§ 19 Abs. 1 UStG“ (ohne Satzangabe – Satzzählung der Neufassung 2025 nicht sicher belegt) + karussell/kleinunternehmer Folie 4. Neugründer-Regel und Verzicht 5 Jahre (§ 19 Abs. 3 UStG) in der Bildunterschrift. jobs/p49_reel_kleinunternehmer.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p49_reel_kleinunternehmer.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-24. |
 | Di 24.11. 12:15 | 📱 Story `o17-story-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o17-reel-nicht-am-1-januar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
@@ -196,6 +195,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Mo 23.11. 12:15 · 📱 Story `49-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4036756907843025746) (online 2026-11-23 14:02)
 - So 22.11. 17:45 · 🖼️ Karussell `31-karussell-zinsschranke` · [ansehen](https://www.instagram.com/p/DgDJ6RvFChs/) (online 2026-11-22 17:45)
 - So 22.11. 12:15 · 📱 Story `31-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4036112594725279117) (online 2026-11-22 16:42)
 - Sa 21.11. 17:45 · 🎬 Reel `i11-reel-insider-anrufen` · [ansehen](https://www.instagram.com/reel/DgAk6a6iA7M/) (online 2026-11-21 17:45)
@@ -205,7 +205,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Do 19.11. 17:45 · 🖼️ Karussell `37-karussell-bp-vorbereitung` · [ansehen](https://www.instagram.com/p/Df7bc_QlKPB/) (online 2026-11-19 17:45)
 - Do 19.11. 12:15 · 📱 Story `37-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4033884062099774198) (online 2026-11-19 14:54)
 - Mi 18.11. 17:45 · 🖼️ Karussell `10-e-rechnung` · [ansehen](https://www.instagram.com/p/Df42zs4ERj5/) (online 2026-11-18 17:45)
-- Mi 18.11. 12:15 · 📱 Story `10-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4033213711296578666) (online 2026-11-18 16:42)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -254,6 +253,10 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Mo 23.11.2026**
+- 14:02 🤖 Autopilot: 49-story-janein veroeffentlicht ([`528982d`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/528982d840bac22b763db4b205ea1ea86f12b485))
+  - Plan: `49-story-janein` status: freigegeben → veroeffentlicht; `49-story-janein` online: https://www.instagram.com/stories/maehrsteuern/4036756907843025746
+- 14:00 🤖 Autopilot: Dateien fuer 49-story-janein vorbereitet ([`cc83cbb`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/cc83cbbbce874856ec75e4018648cbb034a8df57))
+  - `posts/49_2026-11-02_reel_kleinunternehmer`
 - 12:42 ✍️ Reel 49 Kleinunternehmer: animierter Triple Hook am Anfang (Ton unverändert) ([`a016018`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/a0160184883a4488978a88b8dee82f791416cf31))
   - `posts/49_2026-11-02_reel_kleinunternehmer`
 
