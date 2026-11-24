@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 24.11. 17:45 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Di 24.11. 19:24 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟡 12:15 📱 Story `o17-story-nicht-am-1-januar` (pausiert) · ✅ 12:15 📱 Story `48-story-janein` (online) · 🟡 17:45 🎬 Reel `o17-reel-nicht-am-1-januar` (pausiert) · ✅ 17:45 🎬 Reel `48-reel-firmenwagen` (online)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **1364** (16.11.–22.11., -15 % zur Vorwoche) · Follower **-4** (jetzt 1273) ⚠️ · 30 Tage: +931 Follows / −32 entfolgt
+- **Letzte 7 Tage:** Reichweite **1088** (17.11.–23.11., -38 % zur Vorwoche) · Follower **-2** (jetzt 1273) ⚠️ · 30 Tage: +931 Follows / −32 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 📱 Story `53-story-janein-karussell` am **Mi 25.11. 12:15 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -93,7 +93,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Di 24.11. 12:15 | 📱 Story `o17-story-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o17-reel-nicht-am-1-januar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Di 24.11. 17:45 | 🎬 Reel `o17-reel-nicht-am-1-januar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID I17, Zielgruppen-Match 68 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Di 24.11. – Match 68 % + Tages-Passung +3 = 71. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | Mi 25.11. 12:15 | 📱 Story `o18-story-handwerker-bar` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o18-reel-handwerker-bar (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Mi 25.11. 12:15 | 📱 Story `53-story-janein-karussell` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
@@ -203,27 +202,29 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1273 Follower** · 55 Beiträge im Profil (Abruf 2026-11-23) · **+1** seit 2026-11-22
-Reichweite pro Tag: 20.11. **249** · 21.11. **213** · 22.11. **88** · 23.11. **75**
+**1273 Follower** · 56 Beiträge im Profil (Abruf 2026-11-24) · **+0** seit 2026-11-23
+Reichweite pro Tag: 21.11. **213** · 22.11. **88** · 23.11. **139** · 24.11. **43**
 
 | Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
 |---|---|---|---|---|---|
-| Mo 23.11. 14:02 | 37 | 32 | 0 | 0 | 0 |
+| Di 24.11. 11:46 | 26 | 22 | 0 | 0 | 0 |
+| Di 24.11. 12:15 | 18 | 17 | 0 | 0 | 0 |
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Mo 23.11. 17:45 [Ein einziger Auftrag kann dich sofort um](https://www.instagram.com/reel/DgFuzCXgFmz/) | 46 | 33 | 1 | 1 | 1 | 0 |
-| So 22.11. 17:45 [Zinsschranke: Unter 3 Mio. € Nettozinsau](https://www.instagram.com/p/DgDJ6RvFChs/) | 66 | 24 | 1 | 1 | 0 | 0 |
-| Sa 21.11. 17:45 [Ruf beim Finanzamt an. Ernsthaft. 📞](https://www.instagram.com/reel/DgAk6a6iA7M/) | 158 (+11) | 138 | 1 | 1 | 0 | 0 |
-| Fr 20.11. 17:45 [Hör auf, Belege ans Finanzamt zu schicke](https://www.instagram.com/reel/Df-AKGminwC/) | 286 (+4) | 238 | 2 | 1 | 1 | 0 |
-| Do 19.11. 17:45 [Betriebsprüfung: Vier Dinge sollten steh](https://www.instagram.com/p/Df7bc_QlKPB/) | 65 (+5) | 30 | 1 | 1 | 0 | 0 |
-| Mi 18.11. 17:45 [Ein PDF per Mail ist keine E-Rechnung. 📄](https://www.instagram.com/p/Df42zs4ERj5/) | 71 (+3) | 29 | 2 | 1 | 0 | 0 |
-| Di 17.11. 17:45 [Dein Geschäftspartner wird geprüft – und](https://www.instagram.com/reel/Df2R1z_Eb22/) | 226 (+0) | 193 | 3 | 1 | 1 | 0 |
-| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 645 (+4) | 456 | 14 | 23 | 7 | 2 |
+| Di 24.11. 17:45 [Du trägst jede Fahrt sauber ein – und de](https://www.instagram.com/reel/DgITR74gV45/) | 13 | 11 | 0 | 1 | 0 | 0 |
+| Mo 23.11. 17:45 [Ein einziger Auftrag kann dich sofort um](https://www.instagram.com/reel/DgFuzCXgFmz/) | 130 (+84) | 100 | 4 | 1 | 1 | 0 |
+| So 22.11. 17:45 [Zinsschranke: Unter 3 Mio. € Nettozinsau](https://www.instagram.com/p/DgDJ6RvFChs/) | 71 (+5) | 25 | 1 | 1 | 0 | 0 |
+| Sa 21.11. 17:45 [Ruf beim Finanzamt an. Ernsthaft. 📞](https://www.instagram.com/reel/DgAk6a6iA7M/) | 160 (+2) | 139 | 1 | 1 | 0 | 0 |
+| Fr 20.11. 17:45 [Hör auf, Belege ans Finanzamt zu schicke](https://www.instagram.com/reel/Df-AKGminwC/) | 288 (+2) | 240 | 2 | 1 | 1 | 0 |
+| Do 19.11. 17:45 [Betriebsprüfung: Vier Dinge sollten steh](https://www.instagram.com/p/Df7bc_QlKPB/) | 69 (+4) | 32 | 1 | 1 | 0 | 0 |
+| Mi 18.11. 17:45 [Ein PDF per Mail ist keine E-Rechnung. 📄](https://www.instagram.com/p/Df42zs4ERj5/) | 73 (+2) | 30 | 2 | 1 | 0 | 0 |
+| Di 17.11. 17:45 [Dein Geschäftspartner wird geprüft – und](https://www.instagram.com/reel/Df2R1z_Eb22/) | 230 (+4) | 194 | 3 | 1 | 1 | 0 |
+| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 646 (+1) | 459 | 14 | 23 | 7 | 2 |
 | So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 270 (+0) | 216 | 3 | 1 | 2 | 0 |
-| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 409 (+1) | 279 | 10 | 12 | 6 | 57 |
-| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 191 (+4) | 161 | 4 | 1 | 3 | 0 |
-| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 230 (+2) | 167 | 4 | 1 | 3 | 2 |
+| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 414 (+5) | 283 | 10 | 12 | 6 | 57 |
+| Fr 13.11. 17:45 [Seit ich Finanzwirt bin, ist jede Feier ](https://www.instagram.com/reel/Dfr-r6XDwIF/) | 191 (+0) | 162 | 4 | 1 | 3 | 0 |
+| Do 12.11. 17:45 [Deine Nebenkostenabrechnung ist bares Ge](https://www.instagram.com/reel/DfpaDK_Es0F/) | 235 (+5) | 168 | 4 | 1 | 3 | 2 |
 | Mi 11.11. 17:45 [Eltern pflegen? Bis 1.800 € Pauschbetrag](https://www.instagram.com/reel/Dfm09rbGoLE/) | 176 (+0) | 134 | 5 | 1 | 2 | 0 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
@@ -247,6 +248,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Di 24.11.2026**
+- 19:24 📈 Statistik 2026-11-24 ([`1879de9`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/1879de93cbad2382b199b42075b72af1c0651d0b))
+  - `automatik/statistik`
 - 17:45 🤖 Autopilot: 48-reel-firmenwagen veroeffentlicht ([`0ae0f58`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/0ae0f582ec16c0b70b898065589a8ae1c9f5b47c))
   - Plan: `48-reel-firmenwagen` status: freigegeben → veroeffentlicht; `48-reel-firmenwagen` online: https://www.instagram.com/reel/DgITR74gV45/
 - 16:56 📡 Radar 2026-11-24: 8 Beiträge, 0 DM-Entwürfe ([`48b0222`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/48b0222a36e67d31659aba81534e3e3b769d12e0))
