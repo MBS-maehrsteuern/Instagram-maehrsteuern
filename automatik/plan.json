@@ -3324,13 +3324,17 @@
       "video": "reel.mp4",
       "titelbild": "titelbild.png",
       "text": "bildunterschrift.txt",
-      "status": "freigegeben",
+      "status": "veroeffentlicht",
       "stimme": true,
       "hook": "fall",
       "begleit": false,
       "hinweis": "14.11.: Loris „Go … alles umsetzen“ – vorgezogen 2026-12-27 → 2026-11-24 (Insider/Fertiges statt Offensive). · 07.11.: umgeplant 2026-11-17 → 2026-12-27 (Content-Offensive zuerst, Loris: höchster Zielgruppen-Match zuerst). · 06.11.: umgeplant 2026-11-21 → 2026-11-17 (Loris „Go“: Insider-Themen zuerst, Zielgruppe jetzt 54 % Frauen, 35–54 J.; GmbH/Excel nach hinten). · 30.10.: Musik neu (136_modern_jazz_leicht, hell/rhythmisch – Loris: keine düstere Musik), einmalig neu abgemischt. · 26.10. abends: Reihenfolge Insider-Serie zuerst (Loris). · 25.10. nachm.: Takt 1 Beitrag/Tag 17:45, Reels täglich, Karussell Mi+So (Loris nach Auswertung), jetzt 2026-10-30. · 25.10. nachm.: 1 Reel + 1 Karussell pro Tag bis 08.11. (Loris), jetzt 2026-10-30 11:45. · 25.10. ~12:30: Reihenfolge nach Wochentag/Stimmung neu (Loris), jetzt 2026-10-30 11:45. · 25.10.: volle Freigabe Loris (Premium-Look mit Stimme), Raster 2026-10-30 11:45. · 24.10.: mit Loris' Stimme (Aufnahme 21.10.) neu gebaut nach Wissen 24.10. (Hook ab Frame 1, Bau schnitt/p48_reel_stimme_bauen.py, Vorschau vorschau_stimme.png). Wartet auf go. · 14.10. Nachtlauf: aus Bibliothek (R5 gegengelesen), Reel ohne Stimme 15,0 s, −17,9 LUFS, Atmo Uhr + Fehlerton im Hook, Musik 10 Spannung. Titelbild neu als Prüfer-Fall „Fahrtenbuch in Excel. Verworfen.“, 3 Punkte = karussell/firmenwagen Folien 5, 2, 3 (Fahrtenbuch zeitnah/geschlossen, 1 %, 0,03 %). Demo 50.000 € BLP, 20 km → 800 €/Monat nachgerechnet; E-Auto 0,25 % bis 100.000 € (Anschaffung ab 1.7.2025) in der Bildunterschrift. jobs/p48_reel_firmenwagen.json, Karten schnitt/p48_50_karten_bauen.py, Schnitt schnitt/p48_reel_firmenwagen.json. · 26.10. abends: Trichter-Mix (Wissen 21, Ziel Follower) → 2026-11-21.",
       "trichter": "oben",
-      "musik": "136_modern_jazz_leicht.mp3"
+      "musik": "136_modern_jazz_leicht.mp3",
+      "media_id": "18101530691437244",
+      "link": "https://www.instagram.com/reel/DgITR74gV45/",
+      "veroeffentlicht_am": "2026-11-24 17:45",
+      "erster_kommentar_id": "17968359957217464"
     },
     {
       "id": "53-karussell-iab",
