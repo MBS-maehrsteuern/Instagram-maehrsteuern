@@ -1,12 +1,12 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 28.11. 14:18 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 28.11. 14:24 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
 - **Heute online:** 🟢 16:40 📱 Story `o21-story-handwerker-silvester` (läuft automatisch) · 🟢 17:45 🎬 Reel `o21-reel-handwerker-silvester` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
-- **Letzte 7 Tage:** Reichweite **1088** (17.11.–23.11., -38 % zur Vorwoche) · Follower **-2** (jetzt 1273) ⚠️ · 30 Tage: +931 Follows / −32 entfolgt
+- **Letzte 7 Tage:** Reichweite **587** (21.11.–27.11., -62 % zur Vorwoche) · Follower **+148** (jetzt 1421) · 30 Tage: +903 Follows / −29 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
 **Als Nächstes online:** 📱 Story `o21-story-handwerker-silvester` am **Sa 28.11. 16:40 Uhr** – 🟢 freigegeben (geht automatisch online)
@@ -196,27 +196,22 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
-**1273 Follower** · 56 Beiträge im Profil (Abruf 2026-11-24) · **+0** seit 2026-11-23
-Reichweite pro Tag: 21.11. **213** · 22.11. **88** · 23.11. **139** · 24.11. **43**
-
-| Story (letzte 24 h) | Aufrufe | Erreicht | Antworten | Profilbesuche | Follows |
-|---|---|---|---|---|---|
-| Di 24.11. 11:46 | 26 | 22 | 0 | 0 | 0 |
-| Di 24.11. 12:15 | 18 | 17 | 0 | 0 | 0 |
+**1421 Follower** · 56 Beiträge im Profil (Abruf 2026-11-28) · **+148** seit 2026-11-24
+Reichweite pro Tag: 25.11. **31** · 26.11. **14** · 27.11. **11** · 28.11. **10791**
 
 | Beitrag (letzte 14 Tage) | Aufrufe | Erreicht | Likes | Komm. | Gespeichert | Geteilt |
 |---|---|---|---|---|---|---|
-| Di 24.11. 17:45 [Du trägst jede Fahrt sauber ein – und de](https://www.instagram.com/reel/DgITR74gV45/) | 13 | 11 | 0 | 1 | 0 | 0 |
-| Mo 23.11. 17:45 [Ein einziger Auftrag kann dich sofort um](https://www.instagram.com/reel/DgFuzCXgFmz/) | 130 (+84) | 100 | 4 | 1 | 1 | 0 |
-| So 22.11. 17:45 [Zinsschranke: Unter 3 Mio. € Nettozinsau](https://www.instagram.com/p/DgDJ6RvFChs/) | 71 (+5) | 25 | 1 | 1 | 0 | 0 |
-| Sa 21.11. 17:45 [Ruf beim Finanzamt an. Ernsthaft. 📞](https://www.instagram.com/reel/DgAk6a6iA7M/) | 160 (+2) | 139 | 1 | 1 | 0 | 0 |
-| Fr 20.11. 17:45 [Hör auf, Belege ans Finanzamt zu schicke](https://www.instagram.com/reel/Df-AKGminwC/) | 288 (+2) | 240 | 2 | 1 | 1 | 0 |
-| Do 19.11. 17:45 [Betriebsprüfung: Vier Dinge sollten steh](https://www.instagram.com/p/Df7bc_QlKPB/) | 69 (+4) | 32 | 1 | 1 | 0 | 0 |
-| Mi 18.11. 17:45 [Ein PDF per Mail ist keine E-Rechnung. 📄](https://www.instagram.com/p/Df42zs4ERj5/) | 73 (+2) | 30 | 2 | 1 | 0 | 0 |
-| Di 17.11. 17:45 [Dein Geschäftspartner wird geprüft – und](https://www.instagram.com/reel/Df2R1z_Eb22/) | 230 (+4) | 194 | 3 | 1 | 1 | 0 |
-| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 646 (+1) | 459 | 14 | 23 | 7 | 2 |
-| So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 270 (+0) | 216 | 3 | 1 | 2 | 0 |
-| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 414 (+5) | 283 | 10 | 12 | 6 | 57 |
+| Di 24.11. 17:45 [Du trägst jede Fahrt sauber ein – und de](https://www.instagram.com/reel/DgITR74gV45/) | 138 (+125) | 131 | 3 | 1 | 1 | 0 |
+| Mo 23.11. 17:45 [Ein einziger Auftrag kann dich sofort um](https://www.instagram.com/reel/DgFuzCXgFmz/) | 271 (+141) | 208 | 5 | 1 | 1 | 0 |
+| So 22.11. 17:45 [Zinsschranke: Unter 3 Mio. € Nettozinsau](https://www.instagram.com/p/DgDJ6RvFChs/) | 169 (+98) | 88 | 2 | 1 | 0 | 0 |
+| Sa 21.11. 17:45 [Ruf beim Finanzamt an. Ernsthaft. 📞](https://www.instagram.com/reel/DgAk6a6iA7M/) | 230 (+70) | 201 | 4 | 3 | 0 | 0 |
+| Fr 20.11. 17:45 [Hör auf, Belege ans Finanzamt zu schicke](https://www.instagram.com/reel/Df-AKGminwC/) | 345 (+57) | 285 | 5 | 5 | 1 | 0 |
+| Do 19.11. 17:45 [Betriebsprüfung: Vier Dinge sollten steh](https://www.instagram.com/p/Df7bc_QlKPB/) | 125 (+56) | 74 | 2 | 1 | 1 | 0 |
+| Mi 18.11. 17:45 [Ein PDF per Mail ist keine E-Rechnung. 📄](https://www.instagram.com/p/Df42zs4ERj5/) | 127 (+54) | 69 | 3 | 1 | 0 | 0 |
+| Di 17.11. 17:45 [Dein Geschäftspartner wird geprüft – und](https://www.instagram.com/reel/Df2R1z_Eb22/) | 280 (+50) | 237 | 4 | 1 | 1 | 0 |
+| Mo 16.11. 17:13 [Das trägt fast jeder Finanzbeamte selbst](https://www.instagram.com/reel/DfzwSelNDhh/) | 766 (+120) | 548 | 14 | 25 | 9 | 2 |
+| So 15.11. 17:45 [Elterngeld ist steuerfrei – und kann dic](https://www.instagram.com/reel/DfxHtyTD07E/) | 315 (+45) | 253 | 4 | 1 | 2 | 0 |
+| Sa 14.11. 17:45 [Vinted & eBay melden dich ans Finanzamt,](https://www.instagram.com/reel/DfujSe_Fa0y/) | 522 (+108) | 367 | 13 | 12 | 6 | 57 |
 
 Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 
@@ -227,7 +222,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Lage + Google-Kalender | alle 15 Min. (LAGE.md, Kalender-Sync, Wächter) | ✅ ok |
 | Posten | alle 15 Min. (postet freigegebene Einträge) | ✅ ok |
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
-| Statistik | täglich ca. 08:45 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/46038051114) Fr 27.11. 17:58 |
+| Statistik | täglich ca. 08:45 | ✅ ok |
 | Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/46139185296) Sa 28.11. 12:26 |
 | Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/46021078866) Fr 27.11. 16:01 |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
@@ -239,6 +234,8 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 28.11.2026**
+- 14:24 📈 Statistik 2026-11-28 ([`737243f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/737243f5243e5b19fe1f9eda4017c8598cc8d1e1))
+  - `automatik/statistik`
 - 14:18 ✍️ Samstag 28.11.: Handwerker-vor-Silvester-Reel 17:45 + Teaser 16:40 freigegeben (Loris) ([`39f974e`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/39f974ebdb617b1978e37f3f137f12696599c313))
   - Plan: `o21-story-handwerker-silvester` status: pausiert → freigegeben; `o21-story-handwerker-silvester` zeit: 2026-11-28 12:15 → 2026-11-28 16:40; `o21-reel-handwerker-silvester` status: pausiert → freigegeben
 - 12:16 ✍️ Zeitplan um 4 Tage verschoben: Autopilot stand wegen GitHub-Abrechnungssperre seit 25.11. still ([`d4ddbe1`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/d4ddbe171beeea274efb2f633b5d7c5ab7053ab7))
