@@ -1,0 +1,294 @@
+{
+ "_info": "Szenenskript Schritt-Reel A „Einspruch in 4 Schritten“. OHNE Zeiten: Anker = gesprochene Wörter; schritt_reel_bauen.py setzt die Zeiten aus der Stimme. „sprechtext“ wird nur für den stummen Test (--stumm) gebraucht.",
+ "sprechtext": "Dein Steuerbescheid ist falsch? Du hast einen Monat für den Einspruch. Und fast alle rechnen die Frist falsch. Ich war jahrelang im Finanzamt. So geht's in vier Schritten. Schritt eins: Leg den Bescheid neben deine Erklärung. Jede Abweichung steht in den Erläuterungen. Schritt zwei: Frist rechnen. Seit 2025 gilt der Bescheid erst am vierten Tag nach dem Absenden als bekannt gegeben. Abgeschickt Montag, 5. Oktober. Bekannt gegeben Freitag, 9. Oktober. Frist endet Montag, 9. November. [2.2] Schritt drei: Einspruch trotzdem einlegen. Schriftlich oder über ELSTER. Die Begründung kannst du nachreichen. Und es kostet nichts. Schritt vier: Musst du nachzahlen? Dann beantrag gleich die Aussetzung der Vollziehung. Kommentier FRIST, und ich schick dir die Checkliste.",
+ "ende_nach": 1.2,
+ "schritte": [
+  {
+   "anker": "Schritt eins",
+   "titel": "Bescheid prüfen"
+  },
+  {
+   "anker": "Schritt zwei",
+   "titel": "Frist rechnen"
+  },
+  {
+   "anker": "Schritt drei",
+   "titel": "Einspruch einlegen"
+  },
+  {
+   "anker": "Schritt vier",
+   "titel": "Zahlung aussetzen"
+  }
+ ],
+ "szenen": [
+  {
+   "typ": "hook",
+   "ab_s": 0.0,
+   "bis_anker": "Ich war jahrelang",
+   "bis_versatz": -0.15,
+   "zeilen": [
+    {
+     "woerter": [
+      "Dein",
+      "Steuerbescheid",
+      {
+       "w": "ist",
+       "akzent": "rot"
+      },
+      {
+       "w": "falsch?",
+       "akzent": "rot",
+       "gross": true
+      }
+     ],
+     "icon": "warnung"
+    },
+    {
+     "woerter": [
+      "Du",
+      "hast",
+      {
+       "w": "einen",
+       "gross": true
+      },
+      {
+       "w": "Monat",
+       "akzent": "gruen"
+      },
+      "für",
+      "den",
+      "Einspruch."
+     ],
+     "icon": "kalender"
+    },
+    {
+     "woerter": [
+      "Und",
+      "fast",
+      "alle",
+      "rechnen",
+      "die",
+      {
+       "w": "Frist",
+       "akzent": "serif",
+       "gross": true
+      },
+      {
+       "w": "falsch.",
+       "akzent": "rot",
+       "gross": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "untertitel",
+   "text": "Ich war jahrelang im Finanzamt.",
+   "bis_versatz": 0.3,
+   "y": 560
+  },
+  {
+   "typ": "untertitel",
+   "text": "So geht's in *vier Schritten.*",
+   "bis_anker": "Schritt eins",
+   "bis_versatz": -0.1,
+   "y": 760
+  },
+  {
+   "typ": "schrittleiste",
+   "ab_anker": "Schritt eins",
+   "bis": "ende"
+  },
+  {
+   "typ": "untertitel",
+   "text": "Leg den *Bescheid* neben deine Erklärung.",
+   "y": 1180,
+   "bis_anker": "Jede Abweichung",
+   "bis_versatz": -0.05
+  },
+  {
+   "typ": "liste",
+   "ab_anker": "Schritt eins",
+   "ab_versatz": 0.4,
+   "bis_anker": "Schritt zwei",
+   "bis_versatz": -0.1,
+   "y": 420,
+   "zeilen": [
+    {
+     "text": "Steuerbescheid",
+     "icon": "dokument",
+     "anker": "Bescheid"
+    },
+    {
+     "text": "Deine Erklärung",
+     "icon": "dokument",
+     "anker": "Erklärung"
+    },
+    {
+     "text": "Abweichungen markieren",
+     "icon": "haken",
+     "anker": "Abweichung",
+     "akzent": true
+    }
+   ]
+  },
+  {
+   "typ": "untertitel",
+   "text": "Jede Abweichung steht in den *Erläuterungen.*",
+   "y": 1180,
+   "bis_anker": "Schritt zwei",
+   "bis_versatz": -0.1
+  },
+  {
+   "typ": "untertitel",
+   "text": "Seit 2025 gilt der Bescheid erst am *vierten Tag* nach dem Absenden als bekannt gegeben.",
+   "gr": 68,
+   "y": 1130,
+   "bis_anker": "Abgeschickt Montag",
+   "bis_versatz": 0.5
+  },
+  {
+   "typ": "tippen",
+   "ab_anker": "Frist rechnen",
+   "ab_versatz": 0.3,
+   "bis_anker": "Schritt drei",
+   "bis_versatz": 0.2,
+   "y": 400,
+   "titel": "Frist-Rechner",
+   "zeilen": [
+    {
+     "text": "Abgeschickt|Mo 05.10.",
+     "anker": "Abgeschickt Montag"
+    },
+    {
+     "text": "Bekannt gegeben|Fr 09.10.",
+     "anker": "Bekannt gegeben Freitag"
+    },
+    {
+     "text": "Frist endet|Mo 09.11.",
+     "anker": "Frist endet Montag",
+     "markiert": true
+    }
+   ]
+  },
+  {
+   "typ": "quelle",
+   "text": "§ 122 Abs. 2 AO",
+   "ab_anker": "Bekannt gegeben Freitag",
+   "bis_anker": "Frist endet Montag",
+   "bis_versatz": 0.2,
+   "y": 870
+  },
+  {
+   "typ": "quelle",
+   "text": "§ 355 AO",
+   "ab_anker": "Frist endet Montag",
+   "ab_versatz": 0.7,
+   "bis_anker": "Schritt drei",
+   "bis_versatz": 0.2,
+   "y": 870
+  },
+  {
+   "typ": "sprechblase",
+   "text": "Und wenn ich noch keine Begründung habe?",
+   "ab_anker": "Schritt drei",
+   "ab_versatz": -2.0,
+   "bis_anker": "Schritt drei",
+   "bis_versatz": 0.2,
+   "y": 990
+  },
+  {
+   "typ": "untertitel",
+   "text": "Einspruch trotzdem *einlegen.*",
+   "y": 1180,
+   "bis_anker": "Schriftlich oder",
+   "bis_versatz": 0.3
+  },
+  {
+   "typ": "liste",
+   "ab_anker": "Schritt drei",
+   "ab_versatz": 0.5,
+   "bis_anker": "Und es kostet nichts",
+   "bis_versatz": -0.1,
+   "y": 420,
+   "zeilen": [
+    {
+     "text": "Schriftlich oder per ELSTER",
+     "icon": "dokument",
+     "anker": "Schriftlich oder"
+    },
+    {
+     "text": "Begründung später nachreichen",
+     "icon": "kalender",
+     "anker": "Begründung kannst"
+    },
+    {
+     "text": "Frist trotzdem gewahrt",
+     "icon": "haken",
+     "anker": "nachreichen",
+     "akzent": true
+    }
+   ]
+  },
+  {
+   "typ": "untertitel",
+   "text": "Die Begründung kannst du *nachreichen.*",
+   "y": 1180,
+   "ab_anker": "Die Begründung kannst",
+   "bis_anker": "Und es kostet nichts",
+   "bis_versatz": -0.1
+  },
+  {
+   "typ": "zaehler",
+   "ab_anker": "Und es kostet nichts",
+   "bis_anker": "Schritt vier",
+   "bis_versatz": -0.1,
+   "y": 560,
+   "von": 0,
+   "nach": 0,
+   "dauer": 0.6,
+   "label": "Kosten des Einspruchs",
+   "suffix": " €",
+   "quelle": "§ 355 AO"
+  },
+  {
+   "typ": "untertitel",
+   "text": "Und es *kostet nichts.*",
+   "y": 1180,
+   "bis_anker": "Schritt vier",
+   "bis_versatz": -0.1
+  },
+  {
+   "typ": "untertitel",
+   "text": "Musst du *nachzahlen?*",
+   "y": 520,
+   "bis_anker": "Dann beantrag",
+   "bis_versatz": 0.3
+  },
+  {
+   "typ": "untertitel",
+   "text": "Dann beantrag gleich die *Aussetzung der Vollziehung.*",
+   "y": 760,
+   "bis_anker": "Kommentier FRIST",
+   "bis_versatz": -0.15
+  },
+  {
+   "typ": "quelle",
+   "text": "§ 361 AO",
+   "ab_anker": "Aussetzung der Vollziehung",
+   "bis_anker": "Kommentier FRIST",
+   "bis_versatz": -0.15,
+   "y": 1160
+  },
+  {
+   "typ": "cta",
+   "ab_anker": "Kommentier FRIST",
+   "bis": "ende",
+   "stichwort": "FRIST",
+   "text": "Kommentier",
+   "zusatz": "und ich schick dir die Checkliste.",
+   "y": 600
+  }
+ ]
+}

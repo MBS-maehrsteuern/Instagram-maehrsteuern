@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<!-- Schritt-Reel („In X Schritten“, Methode strategie/23_methode_schritt_reels.md). Zeitgesteuert: render(t) zeichnet Frame t (Sekunden), 1080x1920, 30 fps.
+     Liest window.REEL = {dauer, szenen:[{ab, bis, typ, …}]}. ALLE Zeiten sind absolut in Sekunden (die Zeiten kommen aus schnitt/schritt_reel_bauen.py, das <!--REEL--> ersetzt).
+     Jedes Element blendet in ~0,2 s ein und aus; überlappende Elemente überblenden sich.
+     Typen (Felder in Klammern: optional):
+       hook         {zeilen:[{words:[{w,s,e,akzent?,gross?}], icon?}]}                       Dreifach-Hook-Look (wie hook_triple.html)
+       schrittleiste{schritte:[{ab,titel}], (n)}                                              obere Leiste „SCHRITT 2 · FRIST PRÜFEN“ + Balken, y=240
+       untertitel   {woerter:[{w,s,e,akzent?}], (y, gr)}                                     große Bildunterschrift, Wort für Wort
+       zaehler      {von, nach, dauer, (label, suffix, nk, quelle, farbe, y)}                 Zahl zählt hoch/runter, 1.234,56, Quellmarke darunter
+       tippen       {zeilen:[{text:"Schlüssel|Wert", s, (markiert, tempo)}], (titel, y)}      dunkles Feld, Zeilen tippen sich, Cursor blinkt
+       sprechblase  {text, (y)}                                                               Gegenfrage von links, Avatar „?“
+       quelle       {text, (x, y)}                                                            Marke „§ 122 Abs. 2 AO“ (x = Mitte, y = oben)
+       liste        {zeilen:[{text, icon, s, (akzent)}], (y)}                                 2–4 Zeilen, Symbole zeichnen sich
+       cta          {text, stichwort, (zusatz, y)}                                            „Kommentier FRIST“
+     Textsicherer Bereich: x 80–1000, y 220–1500. -->
+<link rel="stylesheet" href="../../schriften.css">
+<style>
+@font-face{font-family:"Outfit";src:url(../schriften/Outfit-Bold.ttf);font-weight:700}
+:root{--bg:#070C0A;--gruen:#53C3A2;--gruen2:#7FE0C2;--text:#EEF4F0;--text2:#B9C9C0;--grau:#6F8279;--rot:#E07A6B;--rand:#1E3A31;
+  --sans:"IBM Plex Sans","Outfit",sans-serif;--mono:"IBM Plex Mono","DejaVu Sans Mono",monospace;--serif:"Liberation Serif","FreeSerif",Georgia,serif}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans)}
+#bg{position:absolute;inset:0;background:radial-gradient(900px 800px at var(--bx,30%) 28%,rgba(83,195,162,.13),transparent 70%),
+  radial-gradient(1400px 1400px at 50% 50%,transparent 45%,rgba(0,0,0,.55) 100%),var(--bg)}
+#raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:54px 54px;mask-image:radial-gradient(circle at 50% 40%,#000 25%,transparent 75%)}
+#stage{position:absolute;inset:0}
+.el{position:absolute;left:80px;width:920px;display:none;opacity:0}
+.gruen{color:var(--gruen);text-shadow:0 0 38px rgba(83,195,162,.45)}
+.rot{color:var(--rot);text-shadow:0 0 34px rgba(224,122,107,.4)}
+.chip{display:inline-block;font-family:var(--mono);font-size:30px;letter-spacing:.1em;padding:10px 24px;border-radius:14px;background:rgba(83,195,162,.18);color:var(--gruen2);font-weight:600;border:1.5px solid rgba(83,195,162,.35);white-space:nowrap}
+/* Schrittleiste */
+.schrittleiste .lab{font-family:"Outfit";font-weight:700;font-size:40px;letter-spacing:.14em;text-transform:uppercase;color:var(--text);display:flex;align-items:center;gap:20px;height:56px;white-space:nowrap}
+.schrittleiste .lab i{flex:none;width:18px;height:18px;border-radius:50%;background:var(--gruen);box-shadow:0 0 18px var(--gruen)}
+.schrittleiste .lab b{color:var(--gruen);font-weight:700}
+.schrittleiste .segs{display:flex;gap:12px;margin-top:22px}
+.schrittleiste .seg{flex:1;height:12px;border-radius:6px;background:rgba(255,255,255,.1);overflow:hidden}
+.schrittleiste .seg u{display:block;height:100%;width:0;background:var(--gruen);border-radius:6px;box-shadow:0 0 16px rgba(83,195,162,.7)}
+/* Untertitel */
+.untertitel{display:flex;flex-wrap:wrap;justify-content:center;column-gap:.3em;row-gap:4px;font-family:"Outfit";font-weight:700;font-size:80px;line-height:1.12;letter-spacing:-.01em;text-align:center}
+.untertitel .w{display:inline-block;opacity:0;white-space:nowrap}
+/* Zähler */
+.zaehler{text-align:center}
+.zaehler .zl{font-family:var(--mono);font-size:34px;letter-spacing:.18em;text-transform:uppercase;color:var(--text2)}
+.zaehler .zn{font-family:"Outfit";font-weight:700;font-size:230px;line-height:1.05;letter-spacing:-.03em;color:var(--gruen);text-shadow:0 0 60px rgba(83,195,162,.5);margin:6px 0 14px;white-space:nowrap}
+.zaehler .zn.rot{color:var(--rot)}
+.zaehler .zq{opacity:0}
+/* Tippen */
+.tippen .panel{border:2px solid var(--rand);border-radius:34px;background:linear-gradient(180deg,rgba(18,40,33,.7),rgba(8,15,12,.92));box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 60px rgba(83,195,162,.08);overflow:hidden}
+.tippen .kopf{display:flex;align-items:center;gap:12px;padding:20px 28px;border-bottom:2px solid var(--rand);background:rgba(255,255,255,.03)}
+.tippen .kopf s{width:16px;height:16px;border-radius:50%;background:#2A4A3F;text-decoration:none}
+.tippen .kopf span{margin-left:14px;font-family:var(--mono);font-size:26px;letter-spacing:.12em;color:var(--grau);text-transform:uppercase}
+.tippen .koerper{padding:30px 26px 34px}
+.tippen .z{display:grid;grid-template-columns:44px 380px 1fr;align-items:center;height:92px;padding:0 18px;border-radius:18px;font-family:var(--mono);font-size:38px;opacity:0;white-space:nowrap;margin-bottom:8px}
+.tippen .z .pr{color:var(--grau)} .tippen .z .k{color:var(--text2)} .tippen .z .v{color:var(--text);font-weight:600}
+.tippen .cur{display:inline-block;width:5px;height:1.05em;background:var(--gruen);vertical-align:-.15em;margin-left:3px;box-shadow:0 0 10px var(--gruen)}
+/* Sprechblase */
+.sprechblase{display:flex;align-items:flex-end;gap:22px}
+.sprechblase .av{flex:none;width:96px;height:96px;border-radius:50%;border:3px solid var(--grau);background:#101A16;display:flex;align-items:center;justify-content:center;font-family:"Outfit";font-weight:700;font-size:58px;color:var(--text2)}
+.sprechblase .bl{max-width:740px;padding:30px 38px;border-radius:40px 40px 40px 10px;background:#16241F;border:2px solid #2A4A3F;font-size:50px;line-height:1.22;color:var(--text);box-shadow:0 20px 60px rgba(0,0,0,.45)}
+/* Quelle */
+.quelle{width:auto;left:0;text-align:center}
+.quelle .chip{font-size:34px;padding:12px 28px}
+/* Liste */
+.liste .r{display:flex;align-items:center;gap:30px;height:116px;opacity:0}
+.liste .ic{flex:none;width:88px;height:88px;border-radius:26px;border:2px solid rgba(83,195,162,.4);background:rgba(83,195,162,.1);display:flex;align-items:center;justify-content:center}
+.liste svg{width:52px;height:52px;overflow:visible}
+.liste svg *{fill:none;stroke:var(--gruen);stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 6px rgba(83,195,162,.55))}
+.liste .t{font-size:52px;font-weight:500;line-height:1.1;letter-spacing:-.005em}
+.liste .t.ak{color:var(--gruen2)}
+/* CTA */
+.cta{text-align:center}
+.cta .a{font-size:62px;color:var(--text2)}
+.cta .kw{display:inline-block;margin:26px 0 20px;padding:14px 56px;border-radius:30px;border:3px solid var(--gruen);background:rgba(83,195,162,.14);font-family:"Outfit";font-weight:700;font-size:150px;letter-spacing:.04em;color:var(--gruen);line-height:1.1}
+.cta .zu{font-size:50px;color:var(--text);line-height:1.25}
+/* Hook (Look wie hook_triple.html) */
+.hook{left:90px;width:900px;top:320px}
+.hook .zeile{margin-bottom:84px}
+.hook .reihe{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.32em;row-gap:6px;font-size:68px;line-height:1.12}
+.hook .w{display:inline-block;opacity:0;white-space:nowrap;font-weight:400;letter-spacing:-.005em}
+.hook .w.gross{font-family:"Outfit";font-weight:700;font-size:124px;line-height:1.02;letter-spacing:-.025em}
+.hook .w.gruen,.hook .w.rot{font-family:"Outfit";font-weight:700}
+.hook .w.serif{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--gruen2);text-shadow:0 0 38px rgba(83,195,162,.35)}
+.hook .ico{width:96px;height:96px;margin-left:.2em;align-self:center;overflow:visible;opacity:0}
+.hook .ico *{fill:none;stroke:var(--gruen);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 6px rgba(83,195,162,.55))}
+</style></head><body>
+<div id="bg"></div><div id="raster"></div><div id="stage"></div>
+<!--REEL-->
+<script>
+// Vorgabe zum Ansehen der Vorlage (ohne Einsetzen durch den Bauer)
+window.REEL = window.REEL || {dauer:9, szenen:[
+ {ab:0.2,bis:9,typ:"schrittleiste",schritte:[{ab:0.2,titel:"Bescheid prüfen"},{ab:4,titel:"Frist rechnen"}]},
+ {ab:0.6,bis:3.8,typ:"untertitel",woerter:[{w:"Leg",s:.7,e:.9},{w:"den",s:.9,e:1.1},{w:"Bescheid",s:1.1,e:1.6,akzent:"gruen"},{w:"daneben.",s:1.6,e:2.2}]},
+ {ab:4.2,bis:9,typ:"zaehler",von:0,nach:1234.56,dauer:2,suffix:" €",label:"Beispiel",quelle:"§ 355 AO",y:600}]};
+const R = window.REEL, stage = document.getElementById("stage"), bg = document.getElementById("bg");
+const F = 0.2;   // Ein-/Ausblenden
+const klemm = x => Math.max(0, Math.min(1, x)), aus = x => 1 - Math.pow(1 - x, 3), eio = x => x < .5 ? 4*x*x*x : 1 - Math.pow(-2*x + 2, 3)/2;
+const mk = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const NS = "http://www.w3.org/2000/svg";
+// Strichsymbole, Zeichenfläche 64x64
+const IC = {
+ haken:'<path d="M10 34 L26 50 L54 14"/>', kreuz:'<path d="M14 14 L50 50"/><path d="M50 14 L14 50"/>', pfeil:'<path d="M8 32 L54 32"/><path d="M36 14 L54 32 L36 50"/>',
+ euro:'<path d="M48 14 Q40 6 30 6 Q12 8 12 32 Q12 56 30 58 Q40 58 48 50"/><path d="M6 26 L38 26"/><path d="M6 38 L38 38"/>',
+ warnung:'<path d="M32 6 L60 54 L4 54 Z"/><path d="M32 24 L32 38"/><path d="M32 46 L32 47"/>',
+ kalender:'<rect x="6" y="12" width="52" height="46" rx="6"/><path d="M6 26 L58 26"/><path d="M20 5 L20 17"/><path d="M44 5 L44 17"/><path d="M18 38 L24 38"/><path d="M30 38 L36 38"/><path d="M42 38 L48 38"/>',
+ dokument:'<path d="M14 6 L40 6 L52 18 L52 58 L14 58 Z"/><path d="M40 6 L40 18 L52 18"/><path d="M22 30 L44 30"/><path d="M22 40 L44 40"/><path d="M22 50 L36 50"/>',
+ blitz:'<path d="M38 4 L14 36 L30 36 L24 60 L50 26 L34 26 Z"/>', auge:'<path d="M4 32 Q32 6 60 32 Q32 58 4 32 Z"/><circle cx="32" cy="32" r="9"/>',
+ haus:'<path d="M6 32 L32 8 L58 32"/><path d="M14 28 L14 56 L50 56 L50 28"/><path d="M27 56 L27 40 L37 40 L37 56"/>', auto:'<path d="M6 42 L6 32 L14 22 Q16 18 22 18 L42 18 Q48 18 50 22 L58 32 L58 42 Z"/><circle cx="18" cy="44" r="6"/><circle cx="46" cy="44" r="6"/>'
+};
+const svgIcon = (name, cls) => { const s = document.createElementNS(NS, "svg"); s.setAttribute("viewBox", "-4 -4 72 72"); if (cls) s.setAttribute("class", cls);
+  s.innerHTML = IC[name] || IC.haken; s.querySelectorAll("*").forEach(p => p.setAttribute("pathLength", "1")); return s; };
+const zeichne = (svg, p) => svg.querySelectorAll("*").forEach(q => { q.style.strokeDasharray = 1; q.style.strokeDashoffset = 1 - aus(klemm(p)); });
+// Deutsche Zahl 1.234,56
+const zahlDE = (v, nk) => { const f = Math.pow(10, nk), r = Math.round(v * f) / f, neg = r < 0, [i, d] = Math.abs(r).toFixed(nk).split(".");
+  return (neg ? "−" : "") + i.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (nk ? "," + d : ""); };
+
+const B = {};   // Baumeister je Typ: (szene, wurzel) → {upd(t)}
+const STANDARD_Y = {schrittleiste:240, untertitel:1180, zaehler:700, tippen:400, sprechblase:900, liste:400, cta:1180};
+const OHNE_VERSATZ = {schrittleiste:1, sprechblase:1, quelle:1, hook:1};
+
+B.schrittleiste = (s, r) => {
+  const n = s.n || s.schritte.length;
+  const lab = mk("div", "lab"), segs = mk("div", "segs"), seg = [];
+  r.append(lab, segs);
+  for (let i = 0; i < n; i++) { const g = mk("div", "seg", "<u></u>"); segs.appendChild(g); seg.push(g.firstChild); }
+  let alt = -2;
+  return { upd(t) {
+    let idx = -1; s.schritte.forEach((x, i) => { if (t >= x.ab) idx = i; });
+    if (idx !== alt) { lab.innerHTML = idx < 0 ? "" : `<i></i><span>SCHRITT <b>${idx + 1}</b> · ${esc(s.schritte[idx].titel)}</span>`; alt = idx; }
+    const t0 = idx < 0 ? 0 : s.schritte[idx].ab, k = aus(klemm((t - t0) / 0.3));
+    if (idx >= 0) { lab.style.opacity = k; lab.style.transform = `translateY(${(1 - k) * 18}px)`; }
+    seg.forEach((u, i) => { const p = i < idx ? 1 : i === idx ? aus(klemm((t - t0) / 0.45)) : 0;
+      u.style.width = (p * 100) + "%"; u.style.opacity = i < idx ? .55 : 1; });
+  }};
+};
+
+B.untertitel = (s, r) => {
+  r.className += " untertitel"; if (s.gr) r.style.fontSize = s.gr + "px";
+  const ws = s.woerter.map(o => { const sp = mk("span", "w" + (o.akzent ? " " + (o.akzent === "rot" ? "rot" : "gruen") : ""), esc(o.w)); r.appendChild(sp); return {sp, s: o.s}; });
+  return { upd(t) { ws.forEach(w => { const p = aus(klemm((t - w.s) / 0.14)); w.sp.style.opacity = p;
+    w.sp.style.transform = `translateY(${(1 - p) * 28}px) scale(${0.9 + 0.1 * p})`; }); } };
+};
+
+B.zaehler = (s, r) => {
+  r.className += " zaehler"; const nk = s.nk || 0, suf = s.suffix || "";
+  r.innerHTML = (s.label ? `<div class="zl">${esc(s.label)}</div>` : "") + `<div class="zn${s.farbe === "rot" ? " rot" : ""}"></div>` + (s.quelle ? `<div class="zq"><span class="chip">${esc(s.quelle)}</span></div>` : "");
+  const zn = r.querySelector(".zn"), zq = r.querySelector(".zq"), t0 = s.ab + 0.15;
+  return { upd(t) {
+    const k = eio(klemm((t - t0) / s.dauer)), v = s.von + (s.nach - s.von) * k;
+    zn.textContent = zahlDE(v, nk) + suf.replace(/ /g, " ");
+    const pop = aus(klemm((t - s.ab) / 0.3)); zn.style.transform = `scale(${1.12 - 0.12 * pop})`;
+    if (zq) { const q = aus(klemm((t - s.ab - 0.5) / 0.25)); zq.style.opacity = q; zq.style.transform = `translateY(${(1 - q) * 14}px)`; }
+  }};
+};
+
+B.tippen = (s, r) => {
+  r.className += " tippen";
+  const panel = mk("div", "panel"), kopf = mk("div", "kopf", `<s></s><s></s><s></s>${s.titel ? `<span>${esc(s.titel)}</span>` : ""}`), kor = mk("div", "koerper");
+  panel.append(kopf, kor); r.appendChild(panel);
+  const cur = mk("i", "cur");
+  const zl = s.zeilen.map(z => { const [k, v = ""] = z.text.split("|"), tempo = z.tempo || 20;
+    const div = mk("div", "z", `<span class="pr">›</span><span class="k"></span><span class="v"></span>`); kor.appendChild(div);
+    return {div, k, v, s: z.s, tempo, mark: !!z.markiert, kEl: div.querySelector(".k"), vEl: div.querySelector(".v"), fertig: z.s + (k.length + v.length) / tempo}; });
+  return { upd(t) {
+    let aktiv = -1;
+    zl.forEach((z, i) => {
+      const n = Math.max(0, Math.floor((t - z.s) * z.tempo)); if (t >= z.s) aktiv = i;
+      z.kEl.textContent = z.k.slice(0, n); z.vEl.textContent = z.v.slice(0, Math.max(0, n - z.k.length));
+      const p = aus(klemm((t - z.s) / 0.12)); z.div.style.opacity = p;
+      const m = z.mark ? aus(klemm((t - z.fertig) / 0.3)) : 0;
+      z.div.style.background = `rgba(83,195,162,${0.17 * m})`; z.div.style.boxShadow = m ? `0 0 0 2px rgba(83,195,162,${0.5 * m}) inset` : "none";
+      z.vEl.style.color = m > 0 ? `rgb(${Math.round(238 - 155 * m)},${Math.round(244 - 49 * m)},${Math.round(240 - 78 * m)})` : "";
+    });
+    if (aktiv < 0) { cur.style.display = "none"; return; }
+    const z = zl[aktiv], tippt = t < z.fertig, blink = Math.floor(t * 2.2) % 2 === 0;
+    cur.style.display = (tippt || blink) ? "inline-block" : "none";
+    const ziel = (z.vEl.textContent.length || z.v.length === 0 && false) ? z.vEl : (z.kEl.textContent.length >= z.k.length && z.v.length ? z.vEl : z.kEl);
+    if (cur.parentNode !== ziel) ziel.appendChild(cur);
+  }};
+};
+
+B.sprechblase = (s, r) => {
+  r.className += " sprechblase"; r.innerHTML = `<div class="av">?</div><div class="bl">${esc(s.text)}</div>`;
+  return { upd(t) { const p = aus(klemm((t - s.ab) / 0.35)); r.style.transform = `translateX(${-(1 - p) * 220}px) scale(${0.85 + 0.15 * p})`; r.style.transformOrigin = "left bottom"; } };
+};
+
+B.quelle = (s, r) => {
+  r.innerHTML = `<span class="chip">${esc(s.text)}</span>`; r.style.left = (s.x != null ? s.x : 540) + "px"; r.style.transform = "translateX(-50%)";
+  return { upd(t) { const p = aus(klemm((t - s.ab) / 0.3)), o = 1 + 0.12 * Math.sin(Math.PI * klemm((t - s.ab) / 0.3)) * (1 - p);
+    r.style.transform = `translateX(-50%) translateY(${(1 - p) * 16}px) scale(${(0.85 + 0.15 * p) * o})`; } };
+};
+
+B.liste = (s, r) => {
+  r.className += " liste";
+  const rows = s.zeilen.map(z => { const d = mk("div", "r"), ic = mk("div", "ic"), svg = svgIcon(z.icon || "haken"), t = mk("div", "t" + (z.akzent ? " ak" : ""), esc(z.text));
+    ic.appendChild(svg); d.append(ic, t); r.appendChild(d); return {d, svg, s: z.s}; });
+  return { upd(t) { rows.forEach(w => { const p = aus(klemm((t - w.s) / 0.25)); w.d.style.opacity = p; w.d.style.transform = `translateX(${(1 - p) * -40}px)`; zeichne(w.svg, (t - w.s - 0.1) / 0.5); }); } };
+};
+
+B.cta = (s, r) => {
+  r.className += " cta"; r.innerHTML = `<div class="a">${esc(s.text || "Kommentier")}</div><div class="kw">${esc(s.stichwort)}</div>${s.zusatz ? `<div class="zu">${esc(s.zusatz)}</div>` : ""}`;
+  const kw = r.querySelector(".kw");
+  return { upd(t) { const p = aus(klemm((t - s.ab) / 0.4)), g = 0.5 + 0.5 * Math.sin(t * 4);
+    kw.style.transform = `scale(${0.8 + 0.2 * p})`; kw.style.boxShadow = `0 0 ${30 + 30 * g}px rgba(83,195,162,${0.25 + 0.25 * g})`; } };
+};
+
+B.hook = (s, r) => {
+  r.className += " hook"; const MAXB = 900, zs = [];
+  s.zeilen.forEach(L => {
+    const z = mk("div", "zeile"), re = mk("div", "reihe"); z.appendChild(re);
+    const ws = L.words.map(o => { const sp = mk("span", "w" + (o.gross || o.akzent ? " gross" : "") + (o.akzent ? " " + o.akzent : ""), esc(o.w)); re.appendChild(sp); return {sp, s: o.s}; });
+    let ico = null; if (L.icon && IC[L.icon]) { ico = svgIcon(L.icon, "ico"); re.appendChild(ico); }
+    r.appendChild(z); zs.push({z, ws, ico, t0: ws[0].s});
+  });
+  document.fonts.ready.then(() => zs.forEach(L => L.ws.forEach(w => { const b = w.sp.getBoundingClientRect().width;
+    if (b > MAXB) w.sp.style.fontSize = Math.floor(parseFloat(getComputedStyle(w.sp).fontSize) * MAXB / b - 1) + "px"; })));
+  return { upd(t) { zs.forEach((L, i) => {
+    L.ws.forEach(w => { const p = aus(klemm((t - w.s) / 0.12)); w.sp.style.opacity = p; w.sp.style.transform = `translateY(${(1 - p) * 30}px)`; });
+    if (L.ico) { const p = klemm((t - L.t0 - 0.1) / 0.55); L.ico.style.opacity = p > 0 ? 1 : 0; zeichne(L.ico, p); }
+    const nx = zs[i + 1]; L.z.style.opacity = nx ? 1 - 0.45 * aus(klemm((t - nx.t0) / 0.3)) : 1; }); } };
+};
+
+const els = [];
+R.szenen.forEach(s => {
+  const f = B[s.typ]; if (!f) { console.warn("unbekannter Typ", s.typ); return; }
+  const r = mk("div", "el " + s.typ); if (STANDARD_Y[s.typ] != null || s.y != null) r.style.top = (s.y != null ? s.y : STANDARD_Y[s.typ]) + "px";
+  if (s.typ === "quelle") r.style.top = (s.y != null ? s.y : 1000) + "px";
+  stage.appendChild(r); const o = f(s, r); els.push({s, r, upd: o.upd});
+});
+
+window.render = t => {
+  bg.style.setProperty("--bx", (30 + 12 * Math.sin(t * 0.35)) + "%");
+  els.forEach(e => {
+    const {ab, bis, typ} = e.s;
+    if (t < ab - 0.001 || t > bis + 0.001) { e.r.style.display = "none"; return; }
+    e.r.style.display = typ === "sprechblase" || typ === "liste" || typ === "zaehler" || typ === "tippen" || typ === "cta" || typ === "untertitel" ? "block" : "block";
+    if (typ === "untertitel") e.r.style.display = "flex";
+    const pin = aus(klemm((t - ab) / F)), pout = aus(klemm((bis - t) / F));
+    e.r.style.opacity = pin * pout;
+    e.upd(t);
+    if (!OHNE_VERSATZ[typ]) e.r.style.transform = `translateY(${(1 - pin) * 22 + (1 - pout) * -14}px)`;
+  });
+};
+render(0);
+</script></body></html>
