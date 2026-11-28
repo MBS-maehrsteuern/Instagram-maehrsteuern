@@ -1,15 +1,15 @@
 # 🧭 Lage – maehrsteuern auf Instagram
 
-_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 28.11. 14:29 Uhr._
+_Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Notizen: `automatik/lage_notizen.md`). Stand: letzte Änderung Sa 28.11. 16:41 Uhr._
 
 ## ⏱️ 30-Sekunden-Briefing
 
-- **Heute online:** 🟢 16:40 📱 Story `o21-story-handwerker-silvester` (läuft automatisch) · 🟢 17:45 🎬 Reel `o21-reel-handwerker-silvester` (läuft automatisch)
+- **Heute online:** ✅ 16:40 📱 Story `o21-story-handwerker-silvester` (online) · 🟢 17:45 🎬 Reel `o21-reel-handwerker-silvester` (läuft automatisch)
 - **Braucht dich:** nichts 🎉
 - **Letzte 7 Tage:** Reichweite **587** (21.11.–27.11., -62 % zur Vorwoche) · Follower **+148** (jetzt 1421) · 30 Tage: +903 Follows / −29 entfolgt
 - **Freie Slots nächste 7 Tage:** keine
 
-**Als Nächstes online:** 📱 Story `o21-story-handwerker-silvester` am **Sa 28.11. 16:40 Uhr** – 🟢 freigegeben (geht automatisch online)
+**Als Nächstes online:** 🎬 Reel `o21-reel-handwerker-silvester` am **Sa 28.11. 17:45 Uhr** – 🟢 freigegeben (geht automatisch online)
 
 ## 📝 Gerade in Arbeit
 
@@ -95,7 +95,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 | Wann | Was | Status | Hinweis |
 |---|---|---|---|
-| Sa 28.11. 16:40 | 📱 Story `o21-story-handwerker-silvester` | 🟢 freigegeben (geht automatisch online) | 28.11.: Loris wählt Samstags-Beitrag → Teaser 16:40. 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o21-reel-handwerker-silvester (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | Sa 28.11. 17:45 | 🎬 Reel `o21-reel-handwerker-silvester` | 🟢 freigegeben (geht automatisch online) | 28.11.: Loris „Beitrag wählen, der perfekt zu Samstag passt“ → Zuhause-Thema, Frist Silvester. KI-Label nach dem Posten setzen (KI-Gesicht). 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 07.11.: Content-Offensive (Aufnahme 07.11., letzter Take), Reel-ID J02, Zielgruppen-Match 62 % (Schätzung). Engine premium/offensive.html, Einflug-/Pop-up-Übergänge, Pop-ups wortgenau, animierter CTA. Freigabe Loris 07.11. („volle Freigabe für den Bau“, Reihenfolge nach Match ab morgen). · 07.11. 23:15: v2 – nur letzter Take (Neuansätze per Whisper-Prüfung entfernt), keine Wind-Grafik, Hook = echtes Video (grüne Jacke, Büro), Pop-ups. KI-LABEL: Hintergrund KI-bearbeitet → nach dem Posten in der App KI-Info einschalten. · 08.11. Wochentag: Sa 28.11. – Match 62 % + Tages-Passung +5 = 67. Hook-Gesicht: KI-Lippensynchron (Runway, aus Standbild des Büro-Videos, Stimme = Loris' Originalton). KI-LABEL Pflicht: in der App „KI-Info“ einschalten. |
 | So 29.11. 12:15 | 📱 Story `o22-story-finanzamt-vermisse` | pausiert | 14.11.: Loris „Go … alles umsetzen“ – Offensive pausiert (o02–o07: 61–78 % übersprungen mit KI-Gesicht), bis echte Gesichts-Hooks da sind. · 08.11.: Teaser-Story zum Reel o22-reel-finanzamt-vermisse (17:45 gleicher Tag), Frage + Emoji-Antwort statt Repost (Wissen 22.10.). Freigabe Loris 08.11. („Bau sie. Volle Freigabe.“). |
 | So 29.11. 12:15 | 📱 Story `53-story-janein-karussell` | 🟢 freigegeben (geht automatisch online) | 18.11.: Loris „Storys … wieder auf Autopilot“ – Ja/Nein-Teaser mit Ein-Tipp-Reaktion (👏/😮) zum Feed-Beitrag des Tages (Job vorlagen/system/jobs/storys_janein_2026-11-18.json). |
@@ -184,6 +183,7 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 
 ## ✅ Zuletzt veröffentlicht (Autopilot)
 
+- Sa 28.11. 16:40 · 📱 Story `o21-story-handwerker-silvester` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4040460785012739140) (online 2026-11-28 16:41)
 - Di 24.11. 17:45 · 🎬 Reel `48-reel-firmenwagen` · [ansehen](https://www.instagram.com/reel/DgITR74gV45/) (online 2026-11-24 17:45)
 - Di 24.11. 12:15 · 📱 Story `48-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4037407093590526479) (online 2026-11-24 12:15)
 - Mo 23.11. 17:45 · 🎬 Reel `49-reel-kleinunternehmer` · [ansehen](https://www.instagram.com/reel/DgFuzCXgFmz/) (online 2026-11-23 17:45)
@@ -193,7 +193,6 @@ _Automatisch erzeugt von `automatik/lage.py` – nicht von Hand bearbeiten (Noti
 - Sa 21.11. 17:45 · 🎬 Reel `i11-reel-insider-anrufen` · [ansehen](https://www.instagram.com/reel/DgAk6a6iA7M/) (online 2026-11-21 17:45)
 - Sa 21.11. 12:15 · 📱 Story `i11-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4035387393909837167) (online 2026-11-21 16:41)
 - Fr 20.11. 17:45 · 🎬 Reel `i10-reel-insider-belege` · [ansehen](https://www.instagram.com/reel/Df-AKGminwC/) (online 2026-11-20 17:45)
-- Fr 20.11. 12:15 · 📱 Story `i10-story-janein` · [ansehen](https://www.instagram.com/stories/maehrsteuern/4034555886815308543) (online 2026-11-20 13:09)
 
 ## 📈 Zahlen (täglich ca. 08:45)
 
@@ -225,7 +224,7 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 | Freigabe | bei neuen Entwürfen / Antwort im Issue | ✅ ok |
 | Statistik | täglich ca. 08:45 | ✅ ok |
 | Schlüssel verlängern | am 1. des Monats ca. 06:27 | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/46139185296) Sa 28.11. 12:26 |
-| Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | 🔴 [fehlgeschlagen](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/actions/runs/46021078866) Fr 27.11. 16:01 |
+| Radar + LinkedIn | täglich ca. 07:00 (Issue mit Arbeitsliste) | ✅ ok |
 | Kommentare | nach jedem Posten-Takt (Vorschläge ins Issue) | ✅ ok |
 | Wochenbericht | sonntags ca. 18:00 (ein Issue) | ✅ ok |
 | Musik holen | nur von Hand | ✅ ok |
@@ -235,6 +234,14 @@ Rohdaten: `automatik/statistik/`, Auswertung: `strategie/06_auswertung.md`
 🤖 Autopilot · ✅ Freigabe · 📈 Statistik · 🎵 Musik · 🔀 Merge · ✍️ von Hand / Claude
 
 **Sa 28.11.2026**
+- 16:41 🤖 Autopilot: Dateien fuer o21-reel-handwerker-silvester vorbereitet ([`57db088`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/57db088be7808229a9bf2f73156375c9c9b97f56))
+  - `posts/o21_2026-11-28_handwerker_silvester`
+- 16:41 🤖 Autopilot: o21-story-handwerker-silvester veroeffentlicht ([`75f9b60`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/75f9b60859a6479e18bef19c18bd454fd1e3a747))
+  - Plan: `o21-story-handwerker-silvester` status: freigegeben → veroeffentlicht; `o21-story-handwerker-silvester` online: https://www.instagram.com/stories/maehrsteuern/4040460785012739140
+- 16:39 🤖 Autopilot: Dateien fuer o21-story-handwerker-silvester vorbereitet ([`162f525`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/162f525b70ce71469b4973acbb61fed29fc42d10))
+  - `posts/o21_2026-11-28_handwerker_silvester`
+- 15:13 📡 Radar 2026-11-28: 8 Beiträge, 0 DM-Entwürfe ([`43a9866`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/43a98667aa580a718c95602805553bc838431dbf))
+  - `automatik/interaktion`
 - 14:29 ✍️ Lage: Anzeige Mein Weg #01 (27./28.11.) eingetragen, 1,16 € je Follower ([`3b77137`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/3b77137128627b37d92bd64f5c391388069ce1da))
   - `LAGE.html`, `automatik/lage_notizen.md`
 - 14:24 📈 Statistik 2026-11-28 ([`737243f`](https://github.com/MBS-maehrsteuern/Instagram-maehrsteuern/commit/737243f5243e5b19fe1f9eda4017c8598cc8d1e1))
