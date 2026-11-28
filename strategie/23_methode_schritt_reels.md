@@ -1,4 +1,4 @@
-# Plan: „Schritt-Reels“ nach dem Vorbild von Loris' Bildschirmaufnahme (28.11.2026) – ENTWURF, wartet auf Freigabe
+# Plan: „Schritt-Reels“ nach dem Vorbild von Loris' Bildschirmaufnahme (28.11.2026) – FREIGEGEBEN (Loris 28.11., beide Piloten)
 
 **Kurz:** Das Vorbild-Reel (fremder Kanal, 36 s) erklärt einen Ablauf als kurzes Gespräch zwischen einer Person und einer Figur. Es zeigt große Zahlen, die hochzählen, nummerierte Schritte mit Überschrift und am Ende ein Kommentar-Stichwort. Wir übernehmen den Aufbau, nicht den Look und keine Texte. Erste Probe: zwei Reels.
 
